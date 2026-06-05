@@ -51,6 +51,33 @@ def cmd_notify(args: argparse.Namespace) -> int:
     return 0 if ok else 1
 
 
+def cmd_dump_agendas(args: argparse.Namespace) -> int:
+    """Save raw agenda text from the Granicus councils (kauai, hawaii) as test
+    fixtures, so title-parsing rules can be checked against real documents."""
+    import re
+
+    from tracker.legislative.adapters.granicus import GranicusAdapter
+
+    out = Path(args.out)
+    out.mkdir(parents=True, exist_ok=True)
+    adapter = GranicusAdapter.for_council(args.council)
+    adapter.max_meetings = args.limit
+    n = 0
+    for mdate, url, text in adapter.iter_raw_agendas():
+        if not text.strip():
+            continue
+        m = re.search(r"(?:clip_id|event_id)=(\d+)", url)
+        clip = m.group(1) if m else str(n)
+        name = f"{args.council}_{mdate or 'nodate'}_{clip}.txt"
+        (out / name).write_text(text)
+        print(f"wrote {name} ({len(text)} chars)")
+        n += 1
+        if n >= args.limit:
+            break
+    print(f"dumped {n} agendas to {out}")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     p = argparse.ArgumentParser(prog="tracker.legislative")
@@ -75,6 +102,14 @@ def main(argv: list[str] | None = None) -> int:
     np.add_argument("--webhook", help="Slack webhook URL (or SLACK_WEBHOOK_URL env)")
     np.add_argument("--dry-run", action="store_true")
     np.set_defaults(fn=cmd_notify)
+
+    da = sub.add_parser(
+        "dump-agendas", help="save raw Granicus agenda text as test fixtures"
+    )
+    da.add_argument("--council", choices=["kauai", "hawaii"], required=True)
+    da.add_argument("--out", default="tests/fixtures/agendas")
+    da.add_argument("--limit", type=int, default=6)
+    da.set_defaults(fn=cmd_dump_agendas)
 
     args = p.parse_args(argv)
     return args.fn(args)

@@ -227,10 +227,7 @@ class HawaiiCountyAdapter(CouncilAdapter):
     def _active_from_granicus(self, since: date | None) -> dict[str, BillRecord]:
         active: dict[str, BillRecord] = {}
         try:
-            gran = GranicusAdapter(
-                council_id="hawaii", host="hawaiicounty.granicus.com",
-                view_ids=[1, 2], mode="pdf", max_meetings=30,
-            )
+            gran = GranicusAdapter.for_council("hawaii")
             for b in gran.fetch_bills(since=since):
                 active[b.bill_number] = b
         except Exception as e:

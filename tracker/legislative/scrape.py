@@ -43,10 +43,7 @@ def _build_adapter(council: str) -> CouncilAdapter:
     if council == "kauai":
         # No bill API; bills live in Granicus meeting agendas (HTML).
         from tracker.legislative.adapters.granicus import GranicusAdapter
-        return GranicusAdapter(
-            council_id="kauai", host="kauai.granicus.com",
-            view_ids=[2], mode="html", max_meetings=30,
-        )
+        return GranicusAdapter.for_council("kauai")
     raise ValueError(f"unknown council: {council}")
 
 

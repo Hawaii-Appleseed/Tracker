@@ -23,6 +23,7 @@ from __future__ import annotations
 import io
 import logging
 import re
+import unicodedata
 from datetime import date, datetime
 from typing import Iterator
 
@@ -93,7 +94,22 @@ def _parse_date(s: str) -> str | None:
     return None
 
 
+# PDF text extraction (both pypdf and the Granicus HTML viewer) drops "ff"/"fi"
+# ligatures, leaving a gap mid-word: "Affordable" -> "Af ordable", "Office" ->
+# "Of ice". NFKC expands any surviving ligature glyphs (ﬀﬁﬂ…); the explicit map
+# repairs the gap cases we've actually seen (kept conservative — a broad
+# space-removal rule would merge legitimately separate words).
+_LIG_REPAIRS = {
+    "Af ordable": "Affordable", "af ordable": "affordable",
+    "Of ice": "Office", "of ice": "office",
+}
+
+
 def _clean(text: str) -> str:
+    text = unicodedata.normalize("NFKC", text)
+    for bad, good in _LIG_REPAIRS.items():
+        if bad in text:
+            text = text.replace(bad, good)
     return re.sub(r"\s+", " ", text).strip()
 
 
@@ -121,10 +137,115 @@ def _clean_agenda_title(t: str) -> str:
 
 
 _TITLE_KEYWORDS = re.compile(
-    r"\b(ORDINANCE|RESOLUTION|BILL|AMEND|RELATING|ESTABLISH|APPROV|AUTHORIZ"
-    r"|PROVID|REPEAL|CHARTER|BUDGET|APPROPRIAT|ADOPT|DESIGNAT|GRANT|CREAT)\w*",
+    r"\b(ORDINANCE|RESOLUTION|BILL|AMEND|RELAT|ESTABLISH|APPROV|AUTHORIZ"
+    r"|PROVID|REPEAL|CHARTER|BUDGET|APPROPRIAT|ADOPT|DESIGNAT|GRANT|CREAT"
+    r"|URG|CONFIRM|ACQUIR|INITIAT)\w*",
     re.I,
 )
+
+
+# --- Kauai agenda titles -----------------------------------------------------
+# Kauai agendas (rendered PDFs read as text) place a bill/resolution two ways:
+#   * Direct action item:  "5. Bill No. 2988 A BILL FOR AN ORDINANCE ...
+#     (Public Hearing held on ...)"  — title FOLLOWS the number and opens with a
+#     legislative lead-in.
+#   * Communication referral: "C 2026-105 Communication ... transmitting for
+#     Council consideration, a Resolution Authorizing ... (See Resolution No.
+#     2026-16)" — title PRECEDES the number, inside the transmittal phrase.
+# Bare cross-references ("Public Hearing re: Bill No. 2989", "(See Resolution
+# No. 2026-17)", "... relating to Bill No. 2988, the Mayor's ...") put unrelated
+# text after the number; those must yield no title (the real title is captured
+# from the agenda where the item appears directly).
+_KAUAI_LEADIN_RE = re.compile(
+    r'["“]?\s*'
+    r"(?:A\s+BILL\s+(?:FOR|TO)\b|AN?\s+ORDINANCE\b|A\s+RESOLUTION\b|RESOLUTION\b)",
+    re.I,
+)
+_KAUAI_RECOVER_RE = re.compile(
+    r"transmitting for Council consideration,?\s+(?:a|an|the)\s+"
+    r"(?:Resolution|Bill)\s+(.+?)\.?\s*\(See\b[^()]*$",
+    re.I | re.S,
+)
+# Where a Kauai title ends: procedural note, status bracket, see-reference,
+# boilerplate header, page footer, or the next lettered agenda section.
+_KAUAI_END_RE = re.compile(
+    r"\(Public Hearing\b"
+    r"|\[[^\]]*\]"
+    r"|\(See\b"
+    r"|MEETING INFORMATION"
+    r"|COUNTY COUNCIL\b"
+    r"|\bPage\s+\d+\s+of\s+\d+"
+    r"|(?<=\s)[A-Z]\.\s+(?:BILL|RESOLUTION|COMMITTEE|EXECUTIVE|PUBLIC"
+    r"|COMMUNICATIONS?|CONSENT|CLAIMS?|MINUTES|MEETING|APPROVAL|ROLL"
+    r"|ADJOURN|NEW|OLD|UNFINISHED|REPORTS?)",
+    re.S,
+)
+
+
+def _kauai_trim(t: str) -> str:
+    t = _BILL_RE.split(t)[0]                 # stop at the next bill/resolution
+    end = _KAUAI_END_RE.search(t)
+    if end:
+        t = t[: end.start()]
+    return t.strip(' "“”')
+
+
+def _clean_kauai_title(flat: str, m: re.Match) -> str | None:
+    """Title for a Kauai bill/resolution number matched at `m` in `flat`, or
+    None if the match is a bare cross-reference (no real title to extract)."""
+    pre = flat[: m.start()]
+    # Communication referral: the number sits in a "(See ... No. NNNN)" pointer;
+    # recover the transmittal title that precedes it. Referrals are listed
+    # back-to-back, each ending in its own pointer, so isolate THIS one (the text
+    # since the previous "(See …)") — otherwise a neighbor's title is grabbed.
+    if re.search(r"\(See\b[^()]*$", pre[-60:]):
+        seg = re.split(r"\(See\b[^)]*\)", pre)[-1]
+        rec = _KAUAI_RECOVER_RE.search(seg)
+        return _kauai_trim(rec.group(1)) if rec else None
+    cand = _clean(flat[m.end(): m.end() + 600]).lstrip("-–—:.,) ")
+    # Quoted title: take the quoted span (cuts trailing boilerplate cleanly).
+    q = re.match(r'["“](.+?)["”]', cand)
+    if q:
+        return _kauai_trim(q.group(1))
+    # Otherwise the text after the number must read like a real title.
+    if not _KAUAI_LEADIN_RE.match(cand):
+        return None
+    return _kauai_trim(cand)
+
+
+# --- Hawaii County agenda titles ---------------------------------------------
+# Hawaii County agenda PDFs read as: "Bill 156: <ALL-CAPS LEGAL TITLE>
+# <Title-case staff summary.> Reference: Comm. NNN  Intr. by: ...  <footer>".
+# The clean title is the leading ALL-CAPS run; case is the discriminator — the
+# summary and metadata start in Title/sentence case while the title stays caps
+# (including mixed-case-looking spans like "(2016 EDITION, AS AMENDED)").
+_HI_LEAD_RE = re.compile(r"^\s*(?:ORDER OF RESOLUTIONS|ORDER OF THE DAY)\s+", re.I)
+_HI_XREF_RE = re.compile(r"^\s*(?:Bill|Resolution|Reso|Res)\.?\s+(?:No\.?\s*)?\d", re.I)
+_HI_TRAILER_RE = re.compile(
+    r"\s+(?:Reference:|Intr\.\s*by:|Approve:|Negative:|Positive:|Postpone"
+    r"|2/3\s*Vote:|Draft\s+\d|Hawai.i\s+County\s+Council|Page\s+\d+).*$",
+    re.I | re.S,
+)
+# Hawaii titles are uniformly ALL CAPS; the first Title-case word (a capital
+# followed by a lowercase letter) marks where the title ends and prose begins —
+# the staff summary ("Requires a …", "Adds the …"), a communication attribution
+# ("From Mayor …, dated …, transmitting …"), or a stray "Draft 2)".
+_HI_DESC_RE = re.compile(r"\s+[A-Z][a-z].*$", re.S)
+
+
+def _clean_hawaii_title(raw: str) -> str | None:
+    t = _HI_LEAD_RE.sub("", raw)
+    if _HI_XREF_RE.match(t):       # title belongs to a different (referenced) item
+        return None
+    # A real title opens with an ALL-CAPS legislative verb ("AMENDS",
+    # "ESTABLISHES", "RELATES", …). Other agendas dump budget detail after the
+    # number ("(Draft 2) for fiscal year … SUMMARY OF REVENUES …" / "Draft 2. ;
+    # and Comm. …") — reject anything not starting in ALL CAPS.
+    if not re.match(r'^["“\'(]*[A-Z]{2,}\b', t):
+        return None
+    t = _HI_DESC_RE.sub("", t)     # drop the Title-case staff summary
+    t = _HI_TRAILER_RE.sub("", t)  # drop Reference:/Intr. by:/footer metadata
+    return t.strip()
 
 
 def _looks_like_title(t: str) -> bool:
@@ -150,6 +271,19 @@ class GranicusAdapter(CouncilAdapter):
         self.view_ids = view_ids
         self.mode = mode
         self.max_meetings = max_meetings
+
+    @classmethod
+    def for_council(cls, council_id: str) -> "GranicusAdapter":
+        """Granicus agenda config per council, kept in one place so the scraper,
+        the Hawaii County Laserfiche adapter, and the dump-agendas CLI agree."""
+        if council_id == "kauai":
+            return cls("kauai", "kauai.granicus.com", [2], mode="html", max_meetings=30)
+        if council_id == "hawaii":
+            return cls(
+                "hawaii", "hawaiicounty.granicus.com", [1, 2],
+                mode="pdf", max_meetings=30,
+            )
+        raise ValueError(f"no Granicus config for council: {council_id}")
 
     # ---- meeting discovery -------------------------------------------------
 
@@ -225,12 +359,20 @@ class GranicusAdapter(CouncilAdapter):
             bill_type = "Resolution" if kind.startswith("res") else "Bill"
             bill_number = f"{bill_type} {num}"
 
-            # Title window: text up to the next bill reference, capped. Do NOT
-            # split on periods — legal titles are full of "NO.", "SEC.", etc.
-            tail = _BILL_RE.split(flat[m.end(): m.end() + 320])[0]
-            title = _clean(tail).lstrip("-–—:.,) ")
-            title = re.sub(r"^\(Draft\s+\d+\)\s*", "", title, flags=re.I).strip()
-            title = _clean_agenda_title(title)[:240].rstrip()
+            # Title extraction is source-shaped: Hawaii County (pdf) trims a
+            # Title-case staff summary and metadata trailing an ALL-CAPS title;
+            # Kauai (html) must tell a real agenda item from a cross-reference
+            # and may recover a title that precedes the number.
+            if self.mode == "pdf":
+                window = _BILL_RE.split(flat[m.end(): m.end() + 400])[0]
+                raw = _clean(window).lstrip("-–—:.,) ")
+                raw = re.sub(r"^\(Draft\s+\d+\)\s*", "", raw, flags=re.I).strip()
+                title = _clean_hawaii_title(raw)
+            else:
+                title = _clean_kauai_title(flat, m)
+            if not title:
+                continue
+            title = _clean_agenda_title(title)[:400].rstrip()
             if not _looks_like_title(title):
                 continue
 
@@ -254,12 +396,14 @@ class GranicusAdapter(CouncilAdapter):
 
     # ---- public API --------------------------------------------------------
 
-    def fetch_bills(self, since: date | None = None) -> Iterator[BillRecord]:
+    def iter_raw_agendas(
+        self, since: date | None = None
+    ) -> Iterator[tuple[str, str, str]]:
+        """Drive a headless browser and yield (meeting_date, agenda_url, raw_text)
+        for each recent agenda. The single place that fetches agenda text — both
+        fetch_bills() and the `dump-agendas` CLI consume it."""
         from playwright.sync_api import sync_playwright
 
-        # Per bill: keep the longest (best) title ever seen, plus the latest
-        # meeting date and the stage from that latest meeting.
-        merged: dict[str, dict] = {}
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
             ctx = browser.new_context(user_agent=_UA, ignore_https_errors=True)
@@ -283,22 +427,29 @@ class GranicusAdapter(CouncilAdapter):
                     except Exception as e:
                         log.warning("%s agenda fetch failed (%s): %s", self.council_id, agenda_url, e)
                         continue
-                    for men in self._parse_agenda(text, mdate, agenda_url):
-                        key = men["bill_number"]
-                        cur = merged.get(key)
-                        if cur is None:
-                            merged[key] = men
-                            continue
-                        # Best (longest) title wins.
-                        if len(men["title"] or "") > len(cur["title"] or ""):
-                            cur["title"] = men["title"]
-                        # Latest meeting drives date / stage / link.
-                        if (men["date"] or "") >= (cur["date"] or ""):
-                            cur["date"] = men["date"]
-                            cur["stage"] = men["stage"] or cur["stage"]
-                            cur["url"] = men["url"]
+                    yield mdate, agenda_url, text
             finally:
                 browser.close()
+
+    def fetch_bills(self, since: date | None = None) -> Iterator[BillRecord]:
+        # Per bill: keep the longest (best) title ever seen, plus the latest
+        # meeting date and the stage from that latest meeting.
+        merged: dict[str, dict] = {}
+        for mdate, agenda_url, text in self.iter_raw_agendas(since=since):
+            for men in self._parse_agenda(text, mdate, agenda_url):
+                key = men["bill_number"]
+                cur = merged.get(key)
+                if cur is None:
+                    merged[key] = men
+                    continue
+                # Best (longest) title wins.
+                if len(men["title"] or "") > len(cur["title"] or ""):
+                    cur["title"] = men["title"]
+                # Latest meeting drives date / stage / link.
+                if (men["date"] or "") >= (cur["date"] or ""):
+                    cur["date"] = men["date"]
+                    cur["stage"] = men["stage"] or cur["stage"]
+                    cur["url"] = men["url"]
 
         for men in merged.values():
             yield BillRecord(

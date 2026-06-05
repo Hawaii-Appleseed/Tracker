@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-01T20:51:04+00:00",
+  "generated_at": "2026-06-05T05:14:24+00:00",
   "last_scrape": {
-    "id": 55,
-    "started_at": "2026-06-01T20:50:12+00:00",
-    "completed_at": "2026-06-01T20:51:03+00:00",
-    "council": "kauai",
-    "bills_seen": 23,
+    "id": 57,
+    "started_at": "2026-06-05T05:12:41+00:00",
+    "completed_at": "2026-06-05T05:13:56+00:00",
+    "council": "hawaii",
+    "bills_seen": 26,
     "bills_new": 0,
-    "bills_updated": 3,
+    "bills_updated": 26,
     "errors": null
   },
   "subjects": [
@@ -24,10 +24,10 @@
   ],
   "bills": [
     {
-      "id": 285,
+      "id": 2100,
       "council": "kauai",
-      "bill_number": "Resolution 2026-15",
-      "title": "2. C 2026-104 Communication (04/14/2026) from the Director of Finance, transmitting for Council information, the Third Quarter Statement of Equipment Purchases for Fiscal Year 2025-2026, pursuant to Section 22 of Ordinance No. B-2025-905, a",
+      "bill_number": "Resolution 2026-16",
+      "title": "Authorizing The Acquisition Of A Public Pedestrian Beach Access Easement In Land Required For Public Use To Wit: A Public Pedestrian Beach Access To ‘Aliomanu Bay, Anahola, County Of Kaua‘i, Hawai‘i, And Determining And Declaring The Necessity Of The Acquisition Thereof By Eminent Domain (For Condemnation)",
       "bill_type": "Resolution",
       "introducer": null,
       "introduced_date": null,
@@ -35,91 +35,55 @@
       "last_action": "On agenda 2026-05-13",
       "last_action_date": "2026-05-13",
       "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&clip_id=3079",
-      "raw_subject": "2. C 2026-104 Communication (04/14/2026) from the Director of Finance, transmitting for Council information, the Third Quarter Statement of Equipment Purchases for Fiscal Year 2025-2026, pursuant to Section 22 of Ordinance No. B-2025-905, a",
+      "raw_subject": "Authorizing The Acquisition Of A Public Pedestrian Beach Access Easement In Land Required For Public Use To Wit: A Public Pedestrian Beach Access To ‘Aliomanu Bay, Anahola, County Of Kaua‘i, Hawai‘i, And Determining And Declaring The Necessity Of The Acquisition Thereof By Eminent Domain (For Condemnation)",
+      "subjects": [
+        "transportation"
+      ],
+      "classification_confidence": 0.011,
+      "first_seen": "2026-06-05T05:12:35+00:00",
+      "last_updated": "2026-06-05T05:12:35+00:00"
+    },
+    {
+      "id": 2101,
+      "council": "kauai",
+      "bill_number": "Resolution 2026-14",
+      "title": "Authorizing The Mayor Or The Director Of Finance Of The County Of Kaua‘i To Enter Into An Intergovernmental Agreement With The State Of Hawai‘i, Department Of Health For A Loan From The State Water Pollution Control Revolving Fund For The Lihu‘e WWTP Rehabilitation, Project No. C150059-29",
+      "bill_type": "Resolution",
+      "introducer": null,
+      "introduced_date": null,
+      "status": null,
+      "last_action": "On agenda 2026-04-22",
+      "last_action_date": "2026-04-22",
+      "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&clip_id=3068",
+      "raw_subject": "Authorizing The Mayor Or The Director Of Finance Of The County Of Kaua‘i To Enter Into An Intergovernmental Agreement With The State Of Hawai‘i, Department Of Health For A Loan From The State Water Pollution Control Revolving Fund For The Lihu‘e WWTP Rehabilitation, Project No. C150059-29",
       "subjects": [],
       "classification_confidence": 0.0,
-      "first_seen": "2026-05-31T20:36:25+00:00",
-      "last_updated": "2026-05-31T20:36:25+00:00"
+      "first_seen": "2026-06-05T05:12:35+00:00",
+      "last_updated": "2026-06-05T05:12:35+00:00"
+    },
+    {
+      "id": 2102,
+      "council": "kauai",
+      "bill_number": "Resolution 2026-06",
+      "title": "Urging The Hawai‘i State Legislature To Ensure The Long-Term Sustainability And Funding Of Public, Educational, And Governmental (PEG) Access Media In Hawai‘i",
+      "bill_type": "Resolution",
+      "introducer": null,
+      "introduced_date": null,
+      "status": null,
+      "last_action": "On agenda 2026-02-18",
+      "last_action_date": "2026-02-18",
+      "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&clip_id=3014",
+      "raw_subject": "Urging The Hawai‘i State Legislature To Ensure The Long-Term Sustainability And Funding Of Public, Educational, And Governmental (PEG) Access Media In Hawai‘i",
+      "subjects": [],
+      "classification_confidence": 0.0,
+      "first_seen": "2026-06-05T05:12:35+00:00",
+      "last_updated": "2026-06-05T05:12:35+00:00"
     },
     {
       "id": 257,
       "council": "kauai",
       "bill_number": "Bill 2989",
-      "title": "C 2026-128 Communication (05/20/2026) from the Hawai‘i State Association of Counties (HSAC) President, transmitting for Council consideration, HSAC’s Fiscal Year 2027 Proposed Operating Budget, pursuant to Section 18 of the Bylaws of the Ha",
-      "bill_type": "Bill",
-      "introducer": null,
-      "introduced_date": null,
-      "status": null,
-      "last_action": "On agenda 2026-06-03",
-      "last_action_date": "2026-06-03",
-      "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&event_id=1587",
-      "raw_subject": "C 2026-128 Communication (05/20/2026) from the Hawai‘i State Association of Counties (HSAC) President, transmitting for Council consideration, HSAC’s Fiscal Year 2027 Proposed Operating Budget, pursuant to Section 18 of the Bylaws of the Ha",
-      "subjects": [],
-      "classification_confidence": 0.0,
-      "first_seen": "2026-05-30T20:42:51+00:00",
-      "last_updated": "2026-06-01T20:51:03+00:00"
-    },
-    {
-      "id": 258,
-      "council": "kauai",
-      "bill_number": "Resolution 2026-17",
-      "title": "C 2026-129 Communication (05/22/2026) from Council Vice Chair Kuali‘i, providing written disclosure of a possible conflict of interest and recusal relating to",
-      "bill_type": "Resolution",
-      "introducer": null,
-      "introduced_date": null,
-      "status": null,
-      "last_action": "On agenda 2026-06-03",
-      "last_action_date": "2026-06-03",
-      "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&event_id=1587",
-      "raw_subject": "C 2026-129 Communication (05/22/2026) from Council Vice Chair Kuali‘i, providing written disclosure of a possible conflict of interest and recusal relating to",
-      "subjects": [],
-      "classification_confidence": 0.0,
-      "first_seen": "2026-05-30T20:42:51+00:00",
-      "last_updated": "2026-05-30T20:42:51+00:00"
-    },
-    {
-      "id": 259,
-      "council": "kauai",
-      "bill_number": "Bill 2988",
-      "title": "the Mayor’s Proposed Operating Budget for Fiscal Year 2026-2027 regarding the appropriation to the YWCA in the Office of the Prosecuting Attorney, Grant-In-Aid, as he holds a part-time accounting position at the YWCA. C 2026-118 Communicati",
-      "bill_type": "Bill",
-      "introducer": null,
-      "introduced_date": null,
-      "status": null,
-      "last_action": "On agenda 2026-06-03",
-      "last_action_date": "2026-06-03",
-      "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&event_id=1587",
-      "raw_subject": "the Mayor’s Proposed Operating Budget for Fiscal Year 2026-2027 regarding the appropriation to the YWCA in the Office of the Prosecuting Attorney, Grant-In-Aid, as he holds a part-time accounting position at the YWCA. C 2026-118 Communicati",
-      "subjects": [],
-      "classification_confidence": 0.0,
-      "first_seen": "2026-05-30T20:42:51+00:00",
-      "last_updated": "2026-06-01T20:51:03+00:00"
-    },
-    {
-      "id": 260,
-      "council": "kauai",
-      "bill_number": "Resolution 2026-11",
-      "title": "\"Resolution Establishing The Real Property Tax Rates For The Fiscal Year July 1, 2026 to June 30, 2027 For The County of Kaua'i.\" MEETING INFORMATION: • This is an in-person meeting at multiple meeting sites connected by interactive confere",
-      "bill_type": "Resolution",
-      "introducer": null,
-      "introduced_date": null,
-      "status": "In Committee",
-      "last_action": "On agenda 2026-06-03",
-      "last_action_date": "2026-06-03",
-      "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&event_id=1587",
-      "raw_subject": "\"Resolution Establishing The Real Property Tax Rates For The Fiscal Year July 1, 2026 to June 30, 2027 For The County of Kaua'i.\" MEETING INFORMATION: • This is an in-person meeting at multiple meeting sites connected by interactive confere",
-      "subjects": [
-        "tax"
-      ],
-      "classification_confidence": 0.038,
-      "first_seen": "2026-05-30T20:42:51+00:00",
-      "last_updated": "2026-06-01T20:51:03+00:00"
-    },
-    {
-      "id": 261,
-      "council": "kauai",
-      "bill_number": "Bill 2993",
-      "title": "A BILL FOR AN ORDINANCE TO AMEND ORDINANCE NO. B-2025-905, AS AMENDED, RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2025 THROUGH JUNE 30, 2026, BY REVISING THE AMOUNTS ESTIMATED IN",
+      "title": "A BILL FOR AN ORDINANCE RELATING TO CAPITAL IMPROVEMENTS AND FINANCING THEREOF FOR THE FISCAL YEAR JULY 1, 2026 TO JUNE 30, 2027 (Fiscal Year 2026-2027 CIP Budget)",
       "bill_type": "Bill",
       "introducer": null,
       "introduced_date": null,
@@ -127,11 +91,67 @@
       "last_action": "On agenda 2026-05-27",
       "last_action_date": "2026-05-27",
       "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&clip_id=3089",
-      "raw_subject": "A BILL FOR AN ORDINANCE TO AMEND ORDINANCE NO. B-2025-905, AS AMENDED, RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2025 THROUGH JUNE 30, 2026, BY REVISING THE AMOUNTS ESTIMATED IN",
+      "raw_subject": "A BILL FOR AN ORDINANCE RELATING TO CAPITAL IMPROVEMENTS AND FINANCING THEREOF FOR THE FISCAL YEAR JULY 1, 2026 TO JUNE 30, 2027 (Fiscal Year 2026-2027 CIP Budget)",
       "subjects": [],
       "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:42:51+00:00",
-      "last_updated": "2026-05-31T20:36:25+00:00"
+      "last_updated": "2026-06-05T05:12:35+00:00"
+    },
+    {
+      "id": 259,
+      "council": "kauai",
+      "bill_number": "Bill 2988",
+      "title": "A BILL FOR AN ORDINANCE RELATING TO THE OPERATING BUDGET AND FINANCING THEREOF FOR THE FISCAL YEAR JULY 1, 2026 TO JUNE 30, 2027 (Fiscal Year 2026-2027 Operating Budget)",
+      "bill_type": "Bill",
+      "introducer": null,
+      "introduced_date": null,
+      "status": null,
+      "last_action": "On agenda 2026-05-27",
+      "last_action_date": "2026-05-27",
+      "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&clip_id=3089",
+      "raw_subject": "A BILL FOR AN ORDINANCE RELATING TO THE OPERATING BUDGET AND FINANCING THEREOF FOR THE FISCAL YEAR JULY 1, 2026 TO JUNE 30, 2027 (Fiscal Year 2026-2027 Operating Budget)",
+      "subjects": [],
+      "classification_confidence": 0.0,
+      "first_seen": "2026-05-30T20:42:51+00:00",
+      "last_updated": "2026-06-05T05:12:35+00:00"
+    },
+    {
+      "id": 260,
+      "council": "kauai",
+      "bill_number": "Resolution 2026-11",
+      "title": "RESOLUTION ESTABLISHING THE REAL PROPERTY TAX RATES FOR THE FISCAL YEAR JULY 1, 2026 TO JUNE 30, 2027 FOR THE COUNTY OF KAUA‘I",
+      "bill_type": "Resolution",
+      "introducer": null,
+      "introduced_date": null,
+      "status": "In Committee",
+      "last_action": "On agenda 2026-06-03",
+      "last_action_date": "2026-06-03",
+      "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&clip_id=3091",
+      "raw_subject": "RESOLUTION ESTABLISHING THE REAL PROPERTY TAX RATES FOR THE FISCAL YEAR JULY 1, 2026 TO JUNE 30, 2027 FOR THE COUNTY OF KAUA‘I",
+      "subjects": [
+        "tax"
+      ],
+      "classification_confidence": 0.065,
+      "first_seen": "2026-05-30T20:42:51+00:00",
+      "last_updated": "2026-06-05T05:12:35+00:00"
+    },
+    {
+      "id": 261,
+      "council": "kauai",
+      "bill_number": "Bill 2993",
+      "title": "A BILL FOR AN ORDINANCE TO AMEND ORDINANCE NO. B-2025-905, AS AMENDED, RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2025 THROUGH JUNE 30, 2026, BY REVISING THE AMOUNTS ESTIMATED IN THE GENERAL FUND (General Liability and Auto Claims, and Health Fund Contribution – $1,445,000.00)",
+      "bill_type": "Bill",
+      "introducer": null,
+      "introduced_date": null,
+      "status": null,
+      "last_action": "On agenda 2026-05-27",
+      "last_action_date": "2026-05-27",
+      "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&clip_id=3089",
+      "raw_subject": "A BILL FOR AN ORDINANCE TO AMEND ORDINANCE NO. B-2025-905, AS AMENDED, RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2025 THROUGH JUNE 30, 2026, BY REVISING THE AMOUNTS ESTIMATED IN THE GENERAL FUND (General Liability and Auto Claims, and Health Fund Contribution – $1,445,000.00)",
+      "subjects": [],
+      "classification_confidence": 0.0,
+      "first_seen": "2026-05-30T20:42:51+00:00",
+      "last_updated": "2026-06-05T05:12:35+00:00"
     },
     {
       "id": 262,
@@ -155,7 +175,7 @@
       "id": 263,
       "council": "kauai",
       "bill_number": "Bill 2995",
-      "title": "A BILL FOR AN ORDINANCE AMENDING CHAPTER 5A, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO REAL PROPERTY TAX (Long-Term Af ordable Rental Requirements)",
+      "title": "A BILL FOR AN ORDINANCE AMENDING CHAPTER 5A, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO REAL PROPERTY TAX (Long-Term Affordable Rental Requirements)",
       "bill_type": "Bill",
       "introducer": null,
       "introduced_date": null,
@@ -163,14 +183,14 @@
       "last_action": "On agenda 2026-05-27",
       "last_action_date": "2026-05-27",
       "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&clip_id=3089",
-      "raw_subject": "A BILL FOR AN ORDINANCE AMENDING CHAPTER 5A, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO REAL PROPERTY TAX (Long-Term Af ordable Rental Requirements)",
+      "raw_subject": "A BILL FOR AN ORDINANCE AMENDING CHAPTER 5A, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO REAL PROPERTY TAX (Long-Term Affordable Rental Requirements)",
       "subjects": [
         "tax",
         "affordable_housing"
       ],
-      "classification_confidence": 0.083,
+      "classification_confidence": 0.087,
       "first_seen": "2026-05-30T20:42:51+00:00",
-      "last_updated": "2026-05-31T20:36:25+00:00"
+      "last_updated": "2026-06-05T05:12:35+00:00"
     },
     {
       "id": 264,
@@ -196,7 +216,7 @@
       "id": 265,
       "council": "kauai",
       "bill_number": "Bill 2990",
-      "title": "A BILL FOR AN ORDINANCE TO AMEND ORDINANCE NO. B-2025-905, AS AMENDED, RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2025 THROUGH JUNE 30, 2026, BY REVISING THE AMOUNTS ESTIMATED IN",
+      "title": "A BILL FOR AN ORDINANCE TO AMEND ORDINANCE NO. B-2025-905, AS AMENDED, RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2025 THROUGH JUNE 30, 2026, BY REVISING THE AMOUNTS ESTIMATED IN THE GENERAL FUND (Hawai‘i Fire Fighters’ Association, IAFF Local 1463 (HFFA), Bargaining Unit (BU) 11 Temporary Hazard Pay)",
       "bill_type": "Bill",
       "introducer": null,
       "introduced_date": null,
@@ -204,11 +224,11 @@
       "last_action": "On agenda 2026-05-06",
       "last_action_date": "2026-05-06",
       "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&clip_id=3071",
-      "raw_subject": "A BILL FOR AN ORDINANCE TO AMEND ORDINANCE NO. B-2025-905, AS AMENDED, RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2025 THROUGH JUNE 30, 2026, BY REVISING THE AMOUNTS ESTIMATED IN",
+      "raw_subject": "A BILL FOR AN ORDINANCE TO AMEND ORDINANCE NO. B-2025-905, AS AMENDED, RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2025 THROUGH JUNE 30, 2026, BY REVISING THE AMOUNTS ESTIMATED IN THE GENERAL FUND (Hawai‘i Fire Fighters’ Association, IAFF Local 1463 (HFFA), Bargaining Unit (BU) 11 Temporary Hazard Pay)",
       "subjects": [],
       "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:42:51+00:00",
-      "last_updated": "2026-05-31T20:36:25+00:00"
+      "last_updated": "2026-06-05T05:12:35+00:00"
     },
     {
       "id": 266,
@@ -255,7 +275,7 @@
       "id": 268,
       "council": "kauai",
       "bill_number": "Bill 2985",
-      "title": "A BILL FOR AN ORDINANCE AMENDING CHAPTER 6, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO THE COUNTY HOUSING DEVELOPMENT FUND [Approved.]",
+      "title": "A BILL FOR AN ORDINANCE AMENDING CHAPTER 6, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO THE COUNTY HOUSING DEVELOPMENT FUND",
       "bill_type": "Bill",
       "introducer": null,
       "introduced_date": null,
@@ -263,19 +283,19 @@
       "last_action": "On agenda 2026-04-08",
       "last_action_date": "2026-04-08",
       "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&clip_id=3058",
-      "raw_subject": "A BILL FOR AN ORDINANCE AMENDING CHAPTER 6, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO THE COUNTY HOUSING DEVELOPMENT FUND [Approved.]",
+      "raw_subject": "A BILL FOR AN ORDINANCE AMENDING CHAPTER 6, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO THE COUNTY HOUSING DEVELOPMENT FUND",
       "subjects": [
         "affordable_housing"
       ],
-      "classification_confidence": 0.045,
+      "classification_confidence": 0.048,
       "first_seen": "2026-05-30T20:42:51+00:00",
-      "last_updated": "2026-05-31T20:36:25+00:00"
+      "last_updated": "2026-06-05T05:12:35+00:00"
     },
     {
       "id": 269,
       "council": "kauai",
       "bill_number": "Resolution 2026-12",
-      "title": "RESOLUTION CONFIRMING MAYORAL APPOINTMENT TO THE PLANNING COMMISSION (Kuuleialoha Santos – Environmental) J. BILL FOR FIRST READING: 1. Proposed Draft Bill (No. 2992) – A BILL FOR AN ORDINANCE AMENDING CHAPTER COUNTY COUNCIL MEETING AGENDA",
+      "title": "RESOLUTION CONFIRMING MAYORAL APPOINTMENT TO THE PLANNING COMMISSION (Kuuleialoha Santos – Environmental)",
       "bill_type": "Resolution",
       "introducer": null,
       "introduced_date": null,
@@ -283,11 +303,11 @@
       "last_action": "On agenda 2026-04-08",
       "last_action_date": "2026-04-08",
       "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&clip_id=3058",
-      "raw_subject": "RESOLUTION CONFIRMING MAYORAL APPOINTMENT TO THE PLANNING COMMISSION (Kuuleialoha Santos – Environmental) J. BILL FOR FIRST READING: 1. Proposed Draft Bill (No. 2992) – A BILL FOR AN ORDINANCE AMENDING CHAPTER COUNTY COUNCIL MEETING AGENDA",
+      "raw_subject": "RESOLUTION CONFIRMING MAYORAL APPOINTMENT TO THE PLANNING COMMISSION (Kuuleialoha Santos – Environmental)",
       "subjects": [],
       "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:42:51+00:00",
-      "last_updated": "2026-05-31T20:36:25+00:00"
+      "last_updated": "2026-06-05T05:12:35+00:00"
     },
     {
       "id": 270,
@@ -328,30 +348,10 @@
       "last_updated": "2026-05-31T20:36:25+00:00"
     },
     {
-      "id": 272,
-      "council": "kauai",
-      "bill_number": "Resolution 2026-07",
-      "title": "2. C 2026-51 Communication (02/18/2026) from the Housing Director, transmitting for Council consideration, a Resolution Authorizing The Filing Of The Kaua‘i County 2026 Action Plan (Community Development Block Grant) With The Department Of",
-      "bill_type": "Resolution",
-      "introducer": null,
-      "introduced_date": null,
-      "status": null,
-      "last_action": "On agenda 2026-03-11",
-      "last_action_date": "2026-03-11",
-      "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&clip_id=3037",
-      "raw_subject": "2. C 2026-51 Communication (02/18/2026) from the Housing Director, transmitting for Council consideration, a Resolution Authorizing The Filing Of The Kaua‘i County 2026 Action Plan (Community Development Block Grant) With The Department Of",
-      "subjects": [
-        "affordable_housing"
-      ],
-      "classification_confidence": 0.03,
-      "first_seen": "2026-05-30T20:42:51+00:00",
-      "last_updated": "2026-05-31T20:36:25+00:00"
-    },
-    {
       "id": 273,
       "council": "kauai",
       "bill_number": "Resolution 2026-08",
-      "title": "3. C 2026-52 Communication (02/18/2026) from the Assistant Housing Director, transmitting for Council consideration, a Resolution Authorizing The Mayor And The Director Of Finance Of The County Of Kaua‘i To Enter Into An Intergovernmental A",
+      "title": "Authorizing The Filing Of The Kaua‘i County 2026 Action Plan (Community Development Block Grant) With The Department Of Housing And Urban Development, United States Of America, For A Grant Under Title I Of The Housing And Community Development Act Of 1974 And 1987 (Public Laws 93-383 And 100-242), As Amended",
       "bill_type": "Resolution",
       "introducer": null,
       "introduced_date": null,
@@ -359,19 +359,19 @@
       "last_action": "On agenda 2026-03-11",
       "last_action_date": "2026-03-11",
       "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&clip_id=3037",
-      "raw_subject": "3. C 2026-52 Communication (02/18/2026) from the Assistant Housing Director, transmitting for Council consideration, a Resolution Authorizing The Mayor And The Director Of Finance Of The County Of Kaua‘i To Enter Into An Intergovernmental A",
+      "raw_subject": "Authorizing The Filing Of The Kaua‘i County 2026 Action Plan (Community Development Block Grant) With The Department Of Housing And Urban Development, United States Of America, For A Grant Under Title I Of The Housing And Community Development Act Of 1974 And 1987 (Public Laws 93-383 And 100-242), As Amended",
       "subjects": [
         "affordable_housing"
       ],
-      "classification_confidence": 0.014,
+      "classification_confidence": 0.02,
       "first_seen": "2026-05-30T20:42:51+00:00",
-      "last_updated": "2026-05-31T20:36:25+00:00"
+      "last_updated": "2026-06-05T05:12:35+00:00"
     },
     {
       "id": 274,
       "council": "kauai",
       "bill_number": "Resolution 2026-09",
-      "title": "4. C 2026-53 Communication (02/26/2026) from the County Engineer, transmitting for Council consideration, a Resolution Amending",
+      "title": "Authorizing The Mayor And The Director Of Finance Of The County Of Kaua‘i To Enter Into An Intergovernmental Agreement With The State Of Hawai‘i And Department Of Health For A Loan From The State Water Pollution Control Revolving Fund For The Residential Cesspool Conversion Program (County Of Kaua‘i Residential Cesspool Conversion Program 2), Project No. RCC00KA-02",
       "bill_type": "Resolution",
       "introducer": null,
       "introduced_date": null,
@@ -379,11 +379,11 @@
       "last_action": "On agenda 2026-03-11",
       "last_action_date": "2026-03-11",
       "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&clip_id=3037",
-      "raw_subject": "4. C 2026-53 Communication (02/26/2026) from the County Engineer, transmitting for Council consideration, a Resolution Amending",
+      "raw_subject": "Authorizing The Mayor And The Director Of Finance Of The County Of Kaua‘i To Enter Into An Intergovernmental Agreement With The State Of Hawai‘i And Department Of Health For A Loan From The State Water Pollution Control Revolving Fund For The Residential Cesspool Conversion Program (County Of Kaua‘i Residential Cesspool Conversion Program 2), Project No. RCC00KA-02",
       "subjects": [],
       "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:42:51+00:00",
-      "last_updated": "2026-05-30T20:42:51+00:00"
+      "last_updated": "2026-06-05T05:12:35+00:00"
     },
     {
       "id": 275,
@@ -404,28 +404,10 @@
       "last_updated": "2026-05-31T20:36:25+00:00"
     },
     {
-      "id": 276,
-      "council": "kauai",
-      "bill_number": "Resolution 2026-10",
-      "title": "F. COMMUNICATIONS: 1. C 2026-54 Communication (02/10/2026) from the Fire Chief, requesting Council approval to accept a donation of one (1) new 2026 Kawasaki Mule, at an estimated value of $16,527.74, from the Kaua‘i Lifeguard Association,",
-      "bill_type": "Resolution",
-      "introducer": null,
-      "introduced_date": null,
-      "status": null,
-      "last_action": "On agenda 2026-03-11",
-      "last_action_date": "2026-03-11",
-      "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&clip_id=3037",
-      "raw_subject": "F. COMMUNICATIONS: 1. C 2026-54 Communication (02/10/2026) from the Fire Chief, requesting Council approval to accept a donation of one (1) new 2026 Kawasaki Mule, at an estimated value of $16,527.74, from the Kaua‘i Lifeguard Association,",
-      "subjects": [],
-      "classification_confidence": 0.0,
-      "first_seen": "2026-05-30T20:42:51+00:00",
-      "last_updated": "2026-05-31T20:36:25+00:00"
-    },
-    {
       "id": 277,
       "council": "kauai",
       "bill_number": "Bill 2982",
-      "title": "A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. B-2025-905, AS AMENDED, RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2025 THROUGH JUNE 30, 2026, BY REVISING THE AMOUNTS ESTIMATED IN",
+      "title": "A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. B-2025-905, AS AMENDED, RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2025 THROUGH JUNE 30, 2026, BY REVISING THE AMOUNTS ESTIMATED IN THE GENERAL FUND (Kawaihau Road Parks Parcel – $800,000.00)",
       "bill_type": "Bill",
       "introducer": null,
       "introduced_date": null,
@@ -433,17 +415,19 @@
       "last_action": "On agenda 2026-03-04",
       "last_action_date": "2026-03-04",
       "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&clip_id=3023",
-      "raw_subject": "A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. B-2025-905, AS AMENDED, RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2025 THROUGH JUNE 30, 2026, BY REVISING THE AMOUNTS ESTIMATED IN",
-      "subjects": [],
-      "classification_confidence": 0.0,
+      "raw_subject": "A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. B-2025-905, AS AMENDED, RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2025 THROUGH JUNE 30, 2026, BY REVISING THE AMOUNTS ESTIMATED IN THE GENERAL FUND (Kawaihau Road Parks Parcel – $800,000.00)",
+      "subjects": [
+        "transportation"
+      ],
+      "classification_confidence": 0.01,
       "first_seen": "2026-05-30T20:42:51+00:00",
-      "last_updated": "2026-05-31T20:36:25+00:00"
+      "last_updated": "2026-06-05T05:12:35+00:00"
     },
     {
       "id": 278,
       "council": "kauai",
       "bill_number": "Bill 2983",
-      "title": "A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. B-2025-906, AS AMENDED, RELATING TO THE CAPITAL BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2025 THROUGH JUNE 30, 2026, BY REVISING THE AMOUNTS ESTIMATED IN TH",
+      "title": "A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. B-2025-906, AS AMENDED, RELATING TO THE CAPITAL BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2025 THROUGH JUNE 30, 2026, BY REVISING THE AMOUNTS ESTIMATED IN THE GENERAL FUND - CIP (Kawaihau Road Parks Parcel – $1,300,000.00)",
       "bill_type": "Bill",
       "introducer": null,
       "introduced_date": null,
@@ -451,17 +435,19 @@
       "last_action": "On agenda 2026-03-04",
       "last_action_date": "2026-03-04",
       "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&clip_id=3023",
-      "raw_subject": "A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. B-2025-906, AS AMENDED, RELATING TO THE CAPITAL BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2025 THROUGH JUNE 30, 2026, BY REVISING THE AMOUNTS ESTIMATED IN TH",
-      "subjects": [],
-      "classification_confidence": 0.0,
+      "raw_subject": "A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. B-2025-906, AS AMENDED, RELATING TO THE CAPITAL BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2025 THROUGH JUNE 30, 2026, BY REVISING THE AMOUNTS ESTIMATED IN THE GENERAL FUND - CIP (Kawaihau Road Parks Parcel – $1,300,000.00)",
+      "subjects": [
+        "transportation"
+      ],
+      "classification_confidence": 0.01,
       "first_seen": "2026-05-30T20:42:51+00:00",
-      "last_updated": "2026-05-31T20:36:25+00:00"
+      "last_updated": "2026-06-05T05:12:35+00:00"
     },
     {
       "id": 279,
       "council": "kauai",
       "bill_number": "Bill 2980",
-      "title": "A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. B-2025-905, AS AMENDED, RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2025 THROUGH JUNE 30, 2026, BY REVISING THE AMOUNTS ESTIMATED IN",
+      "title": "A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. B-2025-905, AS AMENDED, RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2025 THROUGH JUNE 30, 2026, BY REVISING THE AMOUNTS ESTIMATED IN THE GENERAL FUND (ACFR Year 1 Fiscal Year 2024 Change Order – $130,000.00)",
       "bill_type": "Bill",
       "introducer": null,
       "introduced_date": null,
@@ -469,31 +455,11 @@
       "last_action": "On agenda 2026-03-04",
       "last_action_date": "2026-03-04",
       "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&clip_id=3023",
-      "raw_subject": "A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. B-2025-905, AS AMENDED, RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2025 THROUGH JUNE 30, 2026, BY REVISING THE AMOUNTS ESTIMATED IN",
+      "raw_subject": "A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. B-2025-905, AS AMENDED, RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2025 THROUGH JUNE 30, 2026, BY REVISING THE AMOUNTS ESTIMATED IN THE GENERAL FUND (ACFR Year 1 Fiscal Year 2024 Change Order – $130,000.00)",
       "subjects": [],
       "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:42:51+00:00",
-      "last_updated": "2026-05-31T20:36:25+00:00"
-    },
-    {
-      "id": 280,
-      "council": "kauai",
-      "bill_number": "Resolution 2026-03",
-      "title": "2. C 2026-33 Communication (01/26/2026) from the Housing Director, transmitting for Council consideration, a Resolution Approving Modifications To The Preliminary Subdivision Map For The Lima Ola Workforce Housing Project As Provided For In",
-      "bill_type": "Resolution",
-      "introducer": null,
-      "introduced_date": null,
-      "status": null,
-      "last_action": "On agenda 2026-02-18",
-      "last_action_date": "2026-02-18",
-      "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&clip_id=3014",
-      "raw_subject": "2. C 2026-33 Communication (01/26/2026) from the Housing Director, transmitting for Council consideration, a Resolution Approving Modifications To The Preliminary Subdivision Map For The Lima Ola Workforce Housing Project As Provided For In",
-      "subjects": [
-        "affordable_housing"
-      ],
-      "classification_confidence": 0.03,
-      "first_seen": "2026-05-30T20:42:51+00:00",
-      "last_updated": "2026-05-31T20:36:25+00:00"
+      "last_updated": "2026-06-05T05:12:35+00:00"
     },
     {
       "id": 281,
@@ -519,7 +485,7 @@
       "id": 282,
       "council": "kauai",
       "bill_number": "Resolution 2026-04",
-      "title": "3. C 2026-34 Communication (01/27/2026) from the County Engineer, transmitting for Council consideration, a Resolution Authorizing Installation Of Speed Tables On Hauiki Road, Kawaihau District, County Of Kaua‘i. (See",
+      "title": "Approving Modifications To The Preliminary Subdivision Map For The Lima Ola Workforce Housing Project As Provided For In",
       "bill_type": "Resolution",
       "introducer": null,
       "introduced_date": null,
@@ -527,19 +493,19 @@
       "last_action": "On agenda 2026-02-18",
       "last_action_date": "2026-02-18",
       "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&clip_id=3014",
-      "raw_subject": "3. C 2026-34 Communication (01/27/2026) from the County Engineer, transmitting for Council consideration, a Resolution Authorizing Installation Of Speed Tables On Hauiki Road, Kawaihau District, County Of Kaua‘i. (See",
+      "raw_subject": "Approving Modifications To The Preliminary Subdivision Map For The Lima Ola Workforce Housing Project As Provided For In",
       "subjects": [
-        "transportation"
+        "affordable_housing"
       ],
-      "classification_confidence": 0.017,
+      "classification_confidence": 0.056,
       "first_seen": "2026-05-30T20:42:51+00:00",
-      "last_updated": "2026-05-30T20:42:51+00:00"
+      "last_updated": "2026-06-05T05:12:35+00:00"
     },
     {
       "id": 283,
       "council": "kauai",
       "bill_number": "Resolution 2026-05",
-      "title": "4. C 2026-35 Communication (02/04/2026) from Councilmember Bulosan and Councilmember Carvalho, transmitting for Council consideration, a Resolution Urging The Hawai‘i State Legislature To Ensure The Long-Term Sustainability And Funding Of P",
+      "title": "Authorizing Installation Of Speed Tables On Hauiki Road, Kawaihau District, County Of Kaua‘i",
       "bill_type": "Resolution",
       "introducer": null,
       "introduced_date": null,
@@ -547,35 +513,19 @@
       "last_action": "On agenda 2026-02-18",
       "last_action_date": "2026-02-18",
       "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&clip_id=3014",
-      "raw_subject": "4. C 2026-35 Communication (02/04/2026) from Councilmember Bulosan and Councilmember Carvalho, transmitting for Council consideration, a Resolution Urging The Hawai‘i State Legislature To Ensure The Long-Term Sustainability And Funding Of P",
-      "subjects": [],
-      "classification_confidence": 0.0,
+      "raw_subject": "Authorizing Installation Of Speed Tables On Hauiki Road, Kawaihau District, County Of Kaua‘i",
+      "subjects": [
+        "transportation"
+      ],
+      "classification_confidence": 0.038,
       "first_seen": "2026-05-30T20:42:51+00:00",
-      "last_updated": "2026-05-31T20:36:25+00:00"
-    },
-    {
-      "id": 284,
-      "council": "kauai",
-      "bill_number": "Resolution 2026-02",
-      "title": "C 2026-26 Communication (01/13/2026) from the Fire Chief, requesting Council approval to accept unspecified future obligation terms and the indemnification provisions contained in the Cradlepoint End User Agreement, which will provide secur",
-      "bill_type": "Resolution",
-      "introducer": null,
-      "introduced_date": null,
-      "status": null,
-      "last_action": "On agenda 2026-02-04",
-      "last_action_date": "2026-02-04",
-      "url": "https://kauai.granicus.com/AgendaViewer.php?view_id=2&clip_id=3007",
-      "raw_subject": "C 2026-26 Communication (01/13/2026) from the Fire Chief, requesting Council approval to accept unspecified future obligation terms and the indemnification provisions contained in the Cradlepoint End User Agreement, which will provide secur",
-      "subjects": [],
-      "classification_confidence": 0.0,
-      "first_seen": "2026-05-30T20:42:51+00:00",
-      "last_updated": "2026-05-31T20:36:25+00:00"
+      "last_updated": "2026-06-05T05:12:35+00:00"
     },
     {
       "id": 229,
       "council": "hawaii",
       "bill_number": "Bill 135",
-      "title": "ESTABLISHES AN OPERATING BUDGET FOR THE COUNTY OF HAWAI‘I FOR THE FISCAL YEAR JULY 1, 2026, TO JUNE 30, 2027 Draft 3 includes estimated revenues of $976,408,620 and appropriations of $975,980,388. Reference: Comm. 754.10 Intr. by: Council M",
+      "title": "ESTABLISHES AN OPERATING BUDGET FOR THE COUNTY OF HAWAI‘I FOR THE FISCAL YEAR JULY 1, 2026, TO JUNE 30, 2027",
       "bill_type": "Bill",
       "introducer": "Matt Kaneali'i-Kleinfelder, Council Member",
       "introduced_date": null,
@@ -583,17 +533,17 @@
       "last_action": "Council:  Bill 135, Draft 3 passes first reading; adopts FC-143 - 05/21/26",
       "last_action_date": "2026-05-21",
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130657&dbid=0",
-      "raw_subject": "ESTABLISHES AN OPERATING BUDGET FOR THE COUNTY OF HAWAI‘I FOR THE FISCAL YEAR JULY 1, 2026, TO JUNE 30, 2027 Draft 3 includes estimated revenues of $976,408,620 and appropriations of $975,980,388. Reference: Comm. 754.10 Intr. by: Council M",
+      "raw_subject": "ESTABLISHES AN OPERATING BUDGET FOR THE COUNTY OF HAWAI‘I FOR THE FISCAL YEAR JULY 1, 2026, TO JUNE 30, 2027",
       "subjects": [],
       "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:45+00:00"
+      "last_updated": "2026-06-05T05:13:48+00:00"
     },
     {
       "id": 230,
       "council": "hawaii",
       "bill_number": "Bill 136",
-      "title": "RELATES TO PUBLIC IMPROVEMENTS AND FINANCING THEREOF FOR THE FISCAL YEAR JULY 1, 2026, TO JUNE 30, 2027 Draft 3 requires a total appropriation of $380,200,000, of which $55,700,000 are intended to be funded by Federal Grants, $23,000,000 to",
+      "title": "RELATES TO PUBLIC IMPROVEMENTS AND FINANCING THEREOF FOR THE FISCAL YEAR JULY 1, 2026, TO JUNE 30, 2027",
       "bill_type": "Bill",
       "introducer": "Matt Kaneali'i-Kleinfelder, Council Member",
       "introduced_date": null,
@@ -601,17 +551,17 @@
       "last_action": "Council:  Bill 136, Draft 3 passes first reading; adopts  FC-144 - 05/21/26",
       "last_action_date": "2026-05-21",
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130656&dbid=0",
-      "raw_subject": "RELATES TO PUBLIC IMPROVEMENTS AND FINANCING THEREOF FOR THE FISCAL YEAR JULY 1, 2026, TO JUNE 30, 2027 Draft 3 requires a total appropriation of $380,200,000, of which $55,700,000 are intended to be funded by Federal Grants, $23,000,000 to",
+      "raw_subject": "RELATES TO PUBLIC IMPROVEMENTS AND FINANCING THEREOF FOR THE FISCAL YEAR JULY 1, 2026, TO JUNE 30, 2027",
       "subjects": [],
       "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:46+00:00"
+      "last_updated": "2026-06-05T05:13:49+00:00"
     },
     {
       "id": 231,
       "council": "hawaii",
       "bill_number": "Bill 156",
-      "title": "AMENDS CHAPTER 2, ARTICLE 25, SECTION 2-137, OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO APPROPRIATION OF FUNDS TO NONPROFIT ORGANIZATIONS Requires a nonprofit organization applying for County grant funds to cert",
+      "title": "AMENDS CHAPTER 2, ARTICLE 25, SECTION 2-137, OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO APPROPRIATION OF FUNDS TO NONPROFIT ORGANIZATIONS",
       "bill_type": "Bill",
       "introducer": "Holeka Goro Inaba, Council Member",
       "introduced_date": null,
@@ -619,17 +569,17 @@
       "last_action": "GOEAC-133:  Recommended passage on first reading  - 05/19/26",
       "last_action_date": "2026-05-19",
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1129293&dbid=0",
-      "raw_subject": "AMENDS CHAPTER 2, ARTICLE 25, SECTION 2-137, OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO APPROPRIATION OF FUNDS TO NONPROFIT ORGANIZATIONS Requires a nonprofit organization applying for County grant funds to cert",
+      "raw_subject": "AMENDS CHAPTER 2, ARTICLE 25, SECTION 2-137, OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO APPROPRIATION OF FUNDS TO NONPROFIT ORGANIZATIONS",
       "subjects": [],
       "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:46+00:00"
+      "last_updated": "2026-06-05T05:13:49+00:00"
     },
     {
       "id": 232,
       "council": "hawaii",
       "bill_number": "Bill 158",
-      "title": "INITIATES AN AMENDMENT TO ARTICLES III, IV, V, VI, VII, VIII, X, XIII, AND XVI, OF THE CHARTER OF THE COUNTY OF HAWAI‘I (2024 EDITION), RELATING TO THE STRUCTURE AND ORGANIZATION OF THE COUNTY Converts the County’s government to a hybrid co",
+      "title": "INITIATES AN AMENDMENT TO ARTICLES III, IV, V, VI, VII, VIII, X, XIII, AND XVI, OF THE CHARTER OF THE COUNTY OF HAWAI‘I (2024 EDITION), RELATING TO THE STRUCTURE AND ORGANIZATION OF THE COUNTY",
       "bill_type": "Bill",
       "introducer": "Heather Kimball, Council Member, D1",
       "introduced_date": null,
@@ -637,17 +587,17 @@
       "last_action": "GOEAC-134:  Recommended passage on first reading  - 05/19/26",
       "last_action_date": "2026-05-19",
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1129673&dbid=0",
-      "raw_subject": "INITIATES AN AMENDMENT TO ARTICLES III, IV, V, VI, VII, VIII, X, XIII, AND XVI, OF THE CHARTER OF THE COUNTY OF HAWAI‘I (2024 EDITION), RELATING TO THE STRUCTURE AND ORGANIZATION OF THE COUNTY Converts the County’s government to a hybrid co",
+      "raw_subject": "INITIATES AN AMENDMENT TO ARTICLES III, IV, V, VI, VII, VIII, X, XIII, AND XVI, OF THE CHARTER OF THE COUNTY OF HAWAI‘I (2024 EDITION), RELATING TO THE STRUCTURE AND ORGANIZATION OF THE COUNTY",
       "subjects": [],
       "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:46+00:00"
+      "last_updated": "2026-06-05T05:13:49+00:00"
     },
     {
       "id": 233,
       "council": "hawaii",
       "bill_number": "Bill 159",
-      "title": "INITIATES AN AMENDMENT TO ARTICLES III, V, VI, VII, VIII, AND X OF THE CHARTER OF THE COUNTY OF HAWAIʻI (2024 EDITION), RELATING TO THE ESTABLISHMENT OF A BIENNIAL OPERATING BUDGET AND CAPITAL BUDGET Establishes biennial budgeting for the C",
+      "title": "INITIATES AN AMENDMENT TO ARTICLES III, V, VI, VII, VIII, AND X OF THE CHARTER OF THE COUNTY OF HAWAIʻI (2024 EDITION), RELATING TO THE ESTABLISHMENT OF A BIENNIAL OPERATING BUDGET AND CAPITAL BUDGET",
       "bill_type": "Bill",
       "introducer": "Heather Kimball, Council Member, D1",
       "introduced_date": null,
@@ -655,17 +605,17 @@
       "last_action": "FC-153:  Forwarded to Council with a negative recommendation - 5/19/2026",
       "last_action_date": "2026-05-19",
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1129675&dbid=0",
-      "raw_subject": "INITIATES AN AMENDMENT TO ARTICLES III, V, VI, VII, VIII, AND X OF THE CHARTER OF THE COUNTY OF HAWAIʻI (2024 EDITION), RELATING TO THE ESTABLISHMENT OF A BIENNIAL OPERATING BUDGET AND CAPITAL BUDGET Establishes biennial budgeting for the C",
+      "raw_subject": "INITIATES AN AMENDMENT TO ARTICLES III, V, VI, VII, VIII, AND X OF THE CHARTER OF THE COUNTY OF HAWAIʻI (2024 EDITION), RELATING TO THE ESTABLISHMENT OF A BIENNIAL OPERATING BUDGET AND CAPITAL BUDGET",
       "subjects": [],
       "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:47+00:00"
+      "last_updated": "2026-06-05T05:13:49+00:00"
     },
     {
       "id": 234,
       "council": "hawaii",
       "bill_number": "Bill 160",
-      "title": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026 Appropriates revenues in the Real Property Tax Penalties account ($1,125,000); and appropriates the same to the f",
+      "title": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026",
       "bill_type": "Bill",
       "introducer": "Matt Kaneali'i-Kleinfelder, Council member",
       "introduced_date": null,
@@ -673,19 +623,17 @@
       "last_action": "FC-154:  Recommended passage on first reading - 5/19/2026",
       "last_action_date": "2026-05-19",
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1129749&dbid=0",
-      "raw_subject": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026 Appropriates revenues in the Real Property Tax Penalties account ($1,125,000); and appropriates the same to the f",
-      "subjects": [
-        "tax"
-      ],
-      "classification_confidence": 0.038,
+      "raw_subject": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026",
+      "subjects": [],
+      "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:47+00:00"
+      "last_updated": "2026-06-05T05:13:50+00:00"
     },
     {
       "id": 235,
       "council": "hawaii",
       "bill_number": "Bill 161",
-      "title": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026 Appropriates revenues in the Fund Balance From Previous Year - Reserved account ($443,775.57); and appropriates t",
+      "title": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026",
       "bill_type": "Bill",
       "introducer": "Matt Kaneali'i-Kleinfelder, Council member",
       "introduced_date": null,
@@ -693,17 +641,17 @@
       "last_action": "FC-155:  Recommended passage on first reading - 5/19/2026",
       "last_action_date": "2026-05-19",
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1129751&dbid=0",
-      "raw_subject": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026 Appropriates revenues in the Fund Balance From Previous Year - Reserved account ($443,775.57); and appropriates t",
+      "raw_subject": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026",
       "subjects": [],
       "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:47+00:00"
+      "last_updated": "2026-06-05T05:13:50+00:00"
     },
     {
       "id": 236,
       "council": "hawaii",
       "bill_number": "Bill 166",
-      "title": "AMENDS ORDINANCE NO. 25-50, AS AMENDED, AN ORDINANCE AMENDING CHAPTER 6 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO TRANSIENT ACCOMMODATIONS Delays the effective date of Ordinance No. 25-50, relating to transient",
+      "title": "AMENDS ORDINANCE NO. 25-50, AS AMENDED, AN ORDINANCE AMENDING CHAPTER 6 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO TRANSIENT ACCOMMODATIONS",
       "bill_type": "Bill",
       "introducer": "Heather Kimball, Council Member",
       "introduced_date": null,
@@ -711,19 +659,19 @@
       "last_action": null,
       "last_action_date": null,
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130672&dbid=0",
-      "raw_subject": "AMENDS ORDINANCE NO. 25-50, AS AMENDED, AN ORDINANCE AMENDING CHAPTER 6 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO TRANSIENT ACCOMMODATIONS Delays the effective date of Ordinance No. 25-50, relating to transient",
+      "raw_subject": "AMENDS ORDINANCE NO. 25-50, AS AMENDED, AN ORDINANCE AMENDING CHAPTER 6 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO TRANSIENT ACCOMMODATIONS",
       "subjects": [
         "tax"
       ],
-      "classification_confidence": 0.014,
+      "classification_confidence": 0.02,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:48+00:00"
+      "last_updated": "2026-06-05T05:13:50+00:00"
     },
     {
       "id": 237,
       "council": "hawaii",
       "bill_number": "Bill 167",
-      "title": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026 Appropriates revenues in the Federal Grants – Justice Assistance Grant-Special Response Team Capability Enhanceme",
+      "title": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026",
       "bill_type": "Bill",
       "introducer": "Matt Kaneali'i-Kleinfelder, Council Member",
       "introduced_date": null,
@@ -731,17 +679,17 @@
       "last_action": null,
       "last_action_date": null,
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130794&dbid=0",
-      "raw_subject": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026 Appropriates revenues in the Federal Grants – Justice Assistance Grant-Special Response Team Capability Enhanceme",
+      "raw_subject": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026",
       "subjects": [],
       "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:48+00:00"
+      "last_updated": "2026-06-05T05:13:50+00:00"
     },
     {
       "id": 238,
       "council": "hawaii",
       "bill_number": "Bill 66",
-      "title": "ADOPTS THE COUNTY OF HAWAI‘I GENERAL PLAN 2045 AND REPEALS ORDINANCE NO. 05-025, AS AMENDED Reference: Comm. 372.30 Intr. by: Council Member Kierkiewicz (B/R) Approve: PCPLUED-10 ; and Comm. 372.192: From Council Member Ashley L. Kierkiewic",
+      "title": "ADOPTS THE COUNTY OF HAWAI‘I GENERAL PLAN 2045 AND REPEALS ORDINANCE NO. 05-025, AS AMENDED",
       "bill_type": "Bill",
       "introducer": "Ashley L. Kierkiewicz, Council Member",
       "introduced_date": null,
@@ -749,17 +697,17 @@
       "last_action": "PCPLUED: Bill 66, Draft 2 postponed to May 4, 2026 - 04/07/26\nPCPLUED-10:  Recommended passage on first reading - 05/04/26\nCouncil:  Bill 66, Draft 2 passes first reading; adopts PCPLUED-10 - 05/20/26",
       "last_action_date": "2026-04-07",
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1113328&dbid=0",
-      "raw_subject": "ADOPTS THE COUNTY OF HAWAI‘I GENERAL PLAN 2045 AND REPEALS ORDINANCE NO. 05-025, AS AMENDED Reference: Comm. 372.30 Intr. by: Council Member Kierkiewicz (B/R) Approve: PCPLUED-10 ; and Comm. 372.192: From Council Member Ashley L. Kierkiewic",
+      "raw_subject": "ADOPTS THE COUNTY OF HAWAI‘I GENERAL PLAN 2045 AND REPEALS ORDINANCE NO. 05-025, AS AMENDED",
       "subjects": [],
       "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:49+00:00"
+      "last_updated": "2026-06-05T05:13:51+00:00"
     },
     {
       "id": 239,
       "council": "hawaii",
       "bill_number": "Bill 152",
-      "title": "INITIATES AN AMENDMENT TO ARTICLE III, SECTION 3-18, OF THE CHARTER OF THE COUNTY OF HAWAI‘I (2024 EDITION), RELATING TO THE OFFICE OF THE COUNTY AUDITOR Clarifies that the County Auditor has the same power with respect to employees within",
+      "title": "INITIATES AN AMENDMENT TO ARTICLE III, SECTION 3-18, OF THE CHARTER OF THE COUNTY OF HAWAI‘I (2024 EDITION), RELATING TO THE OFFICE OF THE COUNTY AUDITOR",
       "bill_type": "Bill",
       "introducer": "Dr. Holeka G. Inaba, Council Member\nAshley L. Kierkiewicz, Council Member",
       "introduced_date": null,
@@ -767,17 +715,17 @@
       "last_action": "Council:  Bill 152 passes first of three required readings; adopts GOEAC-126 - 05/20/26",
       "last_action_date": "2026-05-20",
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1128945&dbid=0",
-      "raw_subject": "INITIATES AN AMENDMENT TO ARTICLE III, SECTION 3-18, OF THE CHARTER OF THE COUNTY OF HAWAI‘I (2024 EDITION), RELATING TO THE OFFICE OF THE COUNTY AUDITOR Clarifies that the County Auditor has the same power with respect to employees within",
+      "raw_subject": "INITIATES AN AMENDMENT TO ARTICLE III, SECTION 3-18, OF THE CHARTER OF THE COUNTY OF HAWAI‘I (2024 EDITION), RELATING TO THE OFFICE OF THE COUNTY AUDITOR",
       "subjects": [],
       "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:49+00:00"
+      "last_updated": "2026-06-05T05:13:51+00:00"
     },
     {
       "id": 240,
       "council": "hawaii",
       "bill_number": "Bill 153",
-      "title": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026 Appropriates revenues in the State Grants – Coffee Berry Borer/Coffee Leaf Rust Pesticide Subsidy Program account",
+      "title": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026",
       "bill_type": "Bill",
       "introducer": "Matt Kaneali'i-Kleinfelder, Council Member",
       "introduced_date": null,
@@ -785,131 +733,113 @@
       "last_action": "Council:  Bill 153 passes first reading; adopts FC-151 - 05/20/26",
       "last_action_date": "2026-05-20",
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1128957&dbid=0",
-      "raw_subject": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026 Appropriates revenues in the State Grants – Coffee Berry Borer/Coffee Leaf Rust Pesticide Subsidy Program account",
+      "raw_subject": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026",
       "subjects": [],
       "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:49+00:00"
+      "last_updated": "2026-06-05T05:13:51+00:00"
     },
     {
       "id": 241,
       "council": "hawaii",
       "bill_number": "Bill 164",
-      "title": "AMENDS CHAPTER 2, ARTICLE 13, DIVISION 2, SECTION 2-69, OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO THE HOUSING ADMINISTRATOR Requires Council confirmation for the Housing Administrator. Reference: Comm. 914 Intr",
+      "title": "AMENDS CHAPTER 2, ARTICLE 13, DIVISION 2, SECTION 2-69, OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO THE HOUSING ADMINISTRATOR",
       "bill_type": "Bill",
       "introducer": "Dennis \"Fresh\" Onishi, Council Member",
       "introduced_date": null,
-      "status": null,
-      "last_action": null,
-      "last_action_date": null,
+      "status": "Postponed",
+      "last_action": "GOEAC: Postponed to June 16, 2026 - 06/02/26",
+      "last_action_date": "2026-06-02",
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130363&dbid=0",
-      "raw_subject": "AMENDS CHAPTER 2, ARTICLE 13, DIVISION 2, SECTION 2-69, OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO THE HOUSING ADMINISTRATOR Requires Council confirmation for the Housing Administrator. Reference: Comm. 914 Intr",
+      "raw_subject": "AMENDS CHAPTER 2, ARTICLE 13, DIVISION 2, SECTION 2-69, OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO THE HOUSING ADMINISTRATOR",
       "subjects": [
         "affordable_housing"
       ],
-      "classification_confidence": 0.014,
+      "classification_confidence": 0.021,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:50+00:00"
+      "last_updated": "2026-06-05T05:13:52+00:00"
     },
     {
       "id": 242,
       "council": "hawaii",
       "bill_number": "Bill 165",
-      "title": "INITIATES AN AMENDMENT TO ARTICLE X OF THE CHARTER OF THE COUNTY OF HAWAI‘I (2024 EDITION), RELATING TO PUBLIC ACCESS, OPEN SPACE, AND NATURAL RESOURCES PRESERVATION Increases the annual allocation dedicated to the Public Access, Open Space",
+      "title": "INITIATES AN AMENDMENT TO ARTICLE X OF THE CHARTER OF THE COUNTY OF HAWAI‘I (2024 EDITION), RELATING TO PUBLIC ACCESS, OPEN SPACE, AND NATURAL RESOURCES PRESERVATION",
       "bill_type": "Bill",
       "introducer": "Ashley Kierkiewicz, Council Member",
       "introduced_date": null,
-      "status": null,
-      "last_action": null,
-      "last_action_date": null,
-      "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130366&dbid=0",
-      "raw_subject": "INITIATES AN AMENDMENT TO ARTICLE X OF THE CHARTER OF THE COUNTY OF HAWAI‘I (2024 EDITION), RELATING TO PUBLIC ACCESS, OPEN SPACE, AND NATURAL RESOURCES PRESERVATION Increases the annual allocation dedicated to the Public Access, Open Space",
-      "subjects": [],
-      "classification_confidence": 0.0,
-      "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:50+00:00"
-    },
-    {
-      "id": 243,
-      "council": "hawaii",
-      "bill_number": "Resolution 200-25",
-      "title": "ORDER OF RESOLUTIONS Res. 575-26: AUTHORIZES THE ACCEPTANCE OF ALL DONATIONS OF SECURITIES OR PERSONAL PROPERTY NOT COVERED UNDER THE CAPITALIZATION PROCEDURES OF THE DEPARTMENT OF FINANCE THAT ARE RECEIVED DURING THE FISCAL YEAR ENDING JUN",
-      "bill_type": "Resolution",
-      "introducer": null,
-      "introduced_date": null,
-      "status": null,
-      "last_action": "On agenda 2026-06-02",
+      "status": "Passed First Reading",
+      "last_action": "GOEAC-139:  Recommended passage on first reading - 06/02/26",
       "last_action_date": "2026-06-02",
-      "url": "https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&event_id=2017",
-      "raw_subject": "ORDER OF RESOLUTIONS Res. 575-26: AUTHORIZES THE ACCEPTANCE OF ALL DONATIONS OF SECURITIES OR PERSONAL PROPERTY NOT COVERED UNDER THE CAPITALIZATION PROCEDURES OF THE DEPARTMENT OF FINANCE THAT ARE RECEIVED DURING THE FISCAL YEAR ENDING JUN",
+      "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130366&dbid=0",
+      "raw_subject": "INITIATES AN AMENDMENT TO ARTICLE X OF THE CHARTER OF THE COUNTY OF HAWAI‘I (2024 EDITION), RELATING TO PUBLIC ACCESS, OPEN SPACE, AND NATURAL RESOURCES PRESERVATION",
       "subjects": [],
       "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:50+00:00"
+      "last_updated": "2026-06-05T05:13:53+00:00"
     },
     {
       "id": 244,
       "council": "hawaii",
       "bill_number": "Bill 163",
-      "title": "AMENDS CHAPTER 19, ARTICLE 8, OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO REAL PROPERTY TAXES Establishes a new real property tax dedication for certain properties that are owned by a descendant of a person who o",
+      "title": "AMENDS CHAPTER 19, ARTICLE 8, OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO REAL PROPERTY TAXES",
       "bill_type": "Bill",
       "introducer": "James Hustace, Council Member",
       "introduced_date": null,
-      "status": null,
-      "last_action": null,
-      "last_action_date": null,
+      "status": "Postponed",
+      "last_action": "FC:  Postponed to 6/16/2026 - 6/2/2026",
+      "last_action_date": "2026-06-16",
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130355&dbid=0",
-      "raw_subject": "AMENDS CHAPTER 19, ARTICLE 8, OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO REAL PROPERTY TAXES Establishes a new real property tax dedication for certain properties that are owned by a descendant of a person who o",
+      "raw_subject": "AMENDS CHAPTER 19, ARTICLE 8, OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO REAL PROPERTY TAXES",
       "subjects": [
         "tax"
       ],
-      "classification_confidence": 0.037,
+      "classification_confidence": 0.025,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:50+00:00"
+      "last_updated": "2026-06-05T05:13:52+00:00"
     },
     {
       "id": 245,
       "council": "hawaii",
       "bill_number": "Bill 162",
-      "title": "AMENDS CHAPTER 3 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO PAID PARKING FACILITIES Adds a new article to establish signage requirements for paid parking facilities, to include a schedule of rates, notice of any",
+      "title": "AMENDS CHAPTER 3 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO PAID PARKING FACILITIES",
       "bill_type": "Bill",
       "introducer": "Rebecca Villegas, Council Member",
       "introduced_date": null,
-      "status": null,
-      "last_action": null,
-      "last_action_date": null,
+      "status": "Passed First Reading",
+      "last_action": "PCPWMT-13:  Recommended passage on first reading - 06/02/26",
+      "last_action_date": "2026-06-02",
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130351&dbid=0",
-      "raw_subject": "AMENDS CHAPTER 3 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO PAID PARKING FACILITIES Adds a new article to establish signage requirements for paid parking facilities, to include a schedule of rates, notice of any",
+      "raw_subject": "AMENDS CHAPTER 3 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO PAID PARKING FACILITIES",
       "subjects": [
         "transportation"
       ],
-      "classification_confidence": 0.013,
+      "classification_confidence": 0.028,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:50+00:00"
+      "last_updated": "2026-06-05T05:13:52+00:00"
     },
     {
       "id": 246,
       "council": "hawaii",
       "bill_number": "Bill 157",
-      "title": "AMENDS CHAPTER 7 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO DISASTER RECOVERY Establishes a County Disaster Recovery Program to coordinate short-and long-term recovery efforts following major disasters, led by a",
+      "title": "AMENDS CHAPTER 7 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO DISASTER RECOVERY",
       "bill_type": "Bill",
       "introducer": "Ashley L. Kierkiewicz, Council Member. D4",
       "introduced_date": null,
-      "status": "Postponed",
-      "last_action": "PCHSW:  Postponed to June 2, 2026 - 05/19/26",
-      "last_action_date": "2026-05-19",
+      "status": null,
+      "last_action": "PCHSW:  Bill 157 amended to Draft 2 - 06/02/26",
+      "last_action_date": "2026-06-02",
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1129668&dbid=0",
-      "raw_subject": "AMENDS CHAPTER 7 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO DISASTER RECOVERY Establishes a County Disaster Recovery Program to coordinate short-and long-term recovery efforts following major disasters, led by a",
+      "raw_subject": "AMENDS CHAPTER 7 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO DISASTER RECOVERY",
       "subjects": [],
       "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:51+00:00"
+      "last_updated": "2026-06-05T05:13:53+00:00"
     },
     {
       "id": 247,
       "council": "hawaii",
       "bill_number": "Bill 148",
-      "title": "DESIGNATES TAX MAP KEY: 6-6-001:010 AS “LAʻELAʻE PARK”, AMENDS CHAPTER 15, ARTICLE 8, SECTION 15-68.1, AND AMENDS CHAPTER 14, ARTICLE 1, SECTION 14-1 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO PARKS AND RECREATI",
+      "title": "DESIGNATES TAX MAP KEY: 6-6-001:010 AS “LAʻELAʻE PARK”, AMENDS CHAPTER 15, ARTICLE 8, SECTION 15-68.1, AND AMENDS CHAPTER 14, ARTICLE 1, SECTION 14-1 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO PARKS AND RECREATIONAL FACILITIES",
       "bill_type": "Bill",
       "introducer": "James E. Hustace, Council Member",
       "introduced_date": null,
@@ -917,19 +847,19 @@
       "last_action": "Council:  Bill 148 passes second & final reading - 05/20/26",
       "last_action_date": "2026-05-20",
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1128335&dbid=0",
-      "raw_subject": "DESIGNATES TAX MAP KEY: 6-6-001:010 AS “LAʻELAʻE PARK”, AMENDS CHAPTER 15, ARTICLE 8, SECTION 15-68.1, AND AMENDS CHAPTER 14, ARTICLE 1, SECTION 14-1 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO PARKS AND RECREATI",
+      "raw_subject": "DESIGNATES TAX MAP KEY: 6-6-001:010 AS “LAʻELAʻE PARK”, AMENDS CHAPTER 15, ARTICLE 8, SECTION 15-68.1, AND AMENDS CHAPTER 14, ARTICLE 1, SECTION 14-1 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO PARKS AND RECREATIONAL FACILITIES",
       "subjects": [
         "tax"
       ],
       "classification_confidence": 0.013,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:51+00:00"
+      "last_updated": "2026-06-05T05:13:53+00:00"
     },
     {
       "id": 248,
       "council": "hawaii",
       "bill_number": "Bill 150",
-      "title": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026 Appropriates revenues in the State Grants – Safe Routes to School – Non-Infrastructure account ($50,344); and app",
+      "title": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026",
       "bill_type": "Bill",
       "introducer": "Matt Kaneali'i-Kleinfelder, Council Member",
       "introduced_date": null,
@@ -937,17 +867,17 @@
       "last_action": "Council:  Bill 150 passes second & final reading - 05/20/26",
       "last_action_date": "2026-05-20",
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1128331&dbid=0",
-      "raw_subject": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026 Appropriates revenues in the State Grants – Safe Routes to School – Non-Infrastructure account ($50,344); and app",
+      "raw_subject": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026",
       "subjects": [],
       "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:51+00:00"
+      "last_updated": "2026-06-05T05:13:53+00:00"
     },
     {
       "id": 249,
       "council": "hawaii",
       "bill_number": "Bill 151",
-      "title": "AMENDS ORDINANCE NO. 25-46, AS AMENDED, RELATING TO PUBLIC IMPROVEMENTS AND FINANCING THEREOF FOR THE FISCAL YEAR JULY 1, 2025, TO JUNE 30, 2026 Adds the Department of Public Works – Safe Routes to Waiākea School – Kīlauea Avenue Part 1 pro",
+      "title": "AMENDS ORDINANCE NO. 25-46, AS AMENDED, RELATING TO PUBLIC IMPROVEMENTS AND FINANCING THEREOF FOR THE FISCAL YEAR JULY 1, 2025, TO JUNE 30, 2026",
       "bill_type": "Bill",
       "introducer": "Matt Kaneali'i-Kleinfelder, Council Member",
       "introduced_date": null,
@@ -955,17 +885,17 @@
       "last_action": "Council: Bill 151 passes second & final reading - 05/20/26",
       "last_action_date": "2026-05-20",
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1128333&dbid=0",
-      "raw_subject": "AMENDS ORDINANCE NO. 25-46, AS AMENDED, RELATING TO PUBLIC IMPROVEMENTS AND FINANCING THEREOF FOR THE FISCAL YEAR JULY 1, 2025, TO JUNE 30, 2026 Adds the Department of Public Works – Safe Routes to Waiākea School – Kīlauea Avenue Part 1 pro",
+      "raw_subject": "AMENDS ORDINANCE NO. 25-46, AS AMENDED, RELATING TO PUBLIC IMPROVEMENTS AND FINANCING THEREOF FOR THE FISCAL YEAR JULY 1, 2025, TO JUNE 30, 2026",
       "subjects": [],
       "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:52+00:00"
+      "last_updated": "2026-06-05T05:13:54+00:00"
     },
     {
       "id": 250,
       "council": "hawaii",
       "bill_number": "Bill 155",
-      "title": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026 Appropriates revenues in the Federal Grants – HOME Investment Partnership-American Rescue Plan Program account ($",
+      "title": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026",
       "bill_type": "Bill",
       "introducer": "Matt Kaneali'i-Kleinfelder, Council Member",
       "introduced_date": null,
@@ -973,17 +903,17 @@
       "last_action": "Council:  Bill 155 passes second & final reading - 05/20/26",
       "last_action_date": "2026-05-20",
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1128999&dbid=0",
-      "raw_subject": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026 Appropriates revenues in the Federal Grants – HOME Investment Partnership-American Rescue Plan Program account ($",
+      "raw_subject": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026",
       "subjects": [],
       "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:52+00:00"
+      "last_updated": "2026-06-05T05:13:54+00:00"
     },
     {
       "id": 251,
       "council": "hawaii",
       "bill_number": "Bill 132",
-      "title": "AMENDS CHAPTER 6 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED) BY ADDING AN ARTICLE RELATING TO PAID PARKING FACILITIES IN KAILUA VILLAGE Adds a new article to regulate parking rates at private parking facilities in Kailua Vill",
+      "title": "AMENDS CHAPTER 6 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED) BY ADDING AN ARTICLE RELATING TO PAID PARKING FACILITIES IN KAILUA VILLAGE",
       "bill_type": "Bill",
       "introducer": "Rebecca Villegas, Council Member",
       "introduced_date": null,
@@ -991,19 +921,19 @@
       "last_action": "PCPWMT:  Withdrawn - 05/19/26",
       "last_action_date": "2026-05-19",
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1125213&dbid=0",
-      "raw_subject": "AMENDS CHAPTER 6 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED) BY ADDING AN ARTICLE RELATING TO PAID PARKING FACILITIES IN KAILUA VILLAGE Adds a new article to regulate parking rates at private parking facilities in Kailua Vill",
+      "raw_subject": "AMENDS CHAPTER 6 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED) BY ADDING AN ARTICLE RELATING TO PAID PARKING FACILITIES IN KAILUA VILLAGE",
       "subjects": [
         "transportation"
       ],
-      "classification_confidence": 0.013,
+      "classification_confidence": 0.02,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:52+00:00"
+      "last_updated": "2026-06-05T05:13:54+00:00"
     },
     {
       "id": 252,
       "council": "hawaii",
       "bill_number": "Bill 144",
-      "title": "ADOPTS A PAY PLAN FOR PERSONS EMPLOYED BY THE COUNTY OTHER THAN THOSE WHOSE PAY IS OTHERWISE PROVIDED FOR, DESIGNATING PAYROLL PERIODS, PAY DAYS, PRESCRIBING REQUIREMENTS WITH RESPECT TO OFFICIAL FIDELITY BONDS, AND REPEALING ORDINANCE NO.",
+      "title": "ADOPTS A PAY PLAN FOR PERSONS EMPLOYED BY THE COUNTY OTHER THAN THOSE WHOSE PAY IS OTHERWISE PROVIDED FOR, DESIGNATING PAYROLL PERIODS, PAY DAYS, PRESCRIBING REQUIREMENTS WITH RESPECT TO OFFICIAL FIDELITY BONDS, AND REPEALING ORDINANCE NO. 25-39 AND ALL AMENDMENTS THERETO, SAID ORDINANCE TO BE KNOWN AS THE SALARY ORDINANCE OF 2026",
       "bill_type": "Bill",
       "introducer": "Matt Kaneali'i-Kleinfelder, Council Member",
       "introduced_date": null,
@@ -1011,17 +941,17 @@
       "last_action": "Council:  Bill 144 passes second & final reading - 05/05/26",
       "last_action_date": "2026-05-05",
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1127023&dbid=0",
-      "raw_subject": "ADOPTS A PAY PLAN FOR PERSONS EMPLOYED BY THE COUNTY OTHER THAN THOSE WHOSE PAY IS OTHERWISE PROVIDED FOR, DESIGNATING PAYROLL PERIODS, PAY DAYS, PRESCRIBING REQUIREMENTS WITH RESPECT TO OFFICIAL FIDELITY BONDS, AND REPEALING ORDINANCE NO.",
+      "raw_subject": "ADOPTS A PAY PLAN FOR PERSONS EMPLOYED BY THE COUNTY OTHER THAN THOSE WHOSE PAY IS OTHERWISE PROVIDED FOR, DESIGNATING PAYROLL PERIODS, PAY DAYS, PRESCRIBING REQUIREMENTS WITH RESPECT TO OFFICIAL FIDELITY BONDS, AND REPEALING ORDINANCE NO. 25-39 AND ALL AMENDMENTS THERETO, SAID ORDINANCE TO BE KNOWN AS THE SALARY ORDINANCE OF 2026",
       "subjects": [],
       "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:53+00:00"
+      "last_updated": "2026-06-05T05:13:55+00:00"
     },
     {
       "id": 253,
       "council": "hawaii",
       "bill_number": "Bill 145",
-      "title": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026 Appropriates revenues in the Federal Grants – Housing Choice Voucher Program account ($1,000,000); and appropriat",
+      "title": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026",
       "bill_type": "Bill",
       "introducer": "Kehaulani M. Costa, Office of Housing and Community Development Administrator",
       "introduced_date": null,
@@ -1029,19 +959,17 @@
       "last_action": "Council:  Bill 145 passes second & final reading - 05/05/26",
       "last_action_date": "2026-05-05",
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1127024&dbid=0",
-      "raw_subject": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026 Appropriates revenues in the Federal Grants – Housing Choice Voucher Program account ($1,000,000); and appropriat",
-      "subjects": [
-        "affordable_housing"
-      ],
-      "classification_confidence": 0.027,
+      "raw_subject": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026",
+      "subjects": [],
+      "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:54+00:00"
+      "last_updated": "2026-06-05T05:13:55+00:00"
     },
     {
       "id": 254,
       "council": "hawaii",
       "bill_number": "Bill 146",
-      "title": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026 Increases revenues in the State Grants – Transit-Oriented Development Capital Improvement Program for 34 Rainbow",
+      "title": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026",
       "bill_type": "Bill",
       "introducer": "Kehaulani M. Costa, Office of Housing and Community Development Administrator",
       "introduced_date": null,
@@ -1049,20 +977,17 @@
       "last_action": "Council:  Bill 146 passes second & final reading - 05/05/26",
       "last_action_date": "2026-05-05",
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1127029&dbid=0",
-      "raw_subject": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026 Increases revenues in the State Grants – Transit-Oriented Development Capital Improvement Program for 34 Rainbow",
-      "subjects": [
-        "transportation",
-        "affordable_housing"
-      ],
-      "classification_confidence": 0.041,
+      "raw_subject": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026",
+      "subjects": [],
+      "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:55+00:00"
+      "last_updated": "2026-06-05T05:13:55+00:00"
     },
     {
       "id": 255,
       "council": "hawaii",
       "bill_number": "Bill 149",
-      "title": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026 Appropriates revenues in the Parks and Recreation Miscellaneous Contributions account ($160,000); and appropriate",
+      "title": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026",
       "bill_type": "Bill",
       "introducer": "Matt Kaneali'i-Kleinfelder, Council Member",
       "introduced_date": null,
@@ -1070,11 +995,11 @@
       "last_action": "Council:  Bill 149 passes second & final reading - 05/05/26",
       "last_action_date": "2026-05-05",
       "url": "https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1128345&dbid=0",
-      "raw_subject": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026 Appropriates revenues in the Parks and Recreation Miscellaneous Contributions account ($160,000); and appropriate",
+      "raw_subject": "AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026",
       "subjects": [],
       "classification_confidence": 0.0,
       "first_seen": "2026-05-30T20:41:50+00:00",
-      "last_updated": "2026-05-31T20:37:55+00:00"
+      "last_updated": "2026-06-05T05:13:56+00:00"
     },
     {
       "id": 256,
