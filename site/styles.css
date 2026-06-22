@@ -722,19 +722,76 @@ tbody .bill-row.open > td { background: var(--primary-bg); border-bottom-color: 
 }
 .detail-meta > span { display: flex; flex-direction: column; }
 .detail-meta a { font-weight: 600; }
+.bill-copy {
+  display: inline-flex; align-items: center; gap: 6px;
+  align-self: flex-start;
+  padding: 0; border: none; background: none;
+  font: inherit; font-size: 14.5px; font-weight: 600;
+  color: var(--link); cursor: pointer;
+}
+.bill-copy svg { width: 14px; height: 14px; }
+.bill-copy:hover { text-decoration: underline; }
+.bill-copy:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+
+/* Vertical progress timeline in the expanded detail */
+.detail-timeline { margin: 0 0 16px; }
+.tl { list-style: none; margin: 6px 0 0; padding: 0; }
+.tl-step {
+  position: relative; display: flex; align-items: baseline; gap: 10px;
+  padding: 0 0 14px 20px; min-height: 20px;
+}
+.tl-step::before { /* connector line */
+  content: ""; position: absolute; left: 4px; top: 9px; bottom: -2px;
+  width: 2px; background: var(--step-pending);
+}
+.tl-step:last-child::before { display: none; }
+.tl-step.tl-done::before { background: var(--primary); }
+.tl-dot {
+  position: absolute; left: 0; top: 5px;
+  width: 10px; height: 10px; border-radius: 50%;
+  background: var(--paper); border: 2px solid var(--step-pending); box-sizing: border-box;
+}
+.tl-done > .tl-dot { background: var(--primary); border-color: var(--primary); }
+.tl-current > .tl-dot { border-color: var(--primary); box-shadow: 0 0 0 3px var(--primary-bg); }
+.tl-current.tl-failed > .tl-dot { border-color: #c0392b; box-shadow: 0 0 0 3px color-mix(in srgb, #c0392b 18%, transparent); }
+.tl-current.tl-stalled > .tl-dot { border-color: var(--gold); box-shadow: 0 0 0 3px color-mix(in srgb, var(--gold) 18%, transparent); }
+.tl-name { font-size: 14px; font-weight: 600; color: var(--text); }
+.tl-future .tl-name { color: var(--text-faint); font-weight: 500; }
+.tl-current .tl-name { color: var(--primary-dark); }
+.tl-date { margin-left: auto; font-size: 12.5px; color: var(--text-muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
 
 /* Subject pills — tinted background, dark text (modern, higher contrast) */
 .subject-pill {
   display: inline-block;
   padding: 3px 10px;
   margin: 0 3px 3px 0;
+  border: none;
   border-radius: var(--radius-pill);
+  font-family: inherit;
   font-size: 12.5px;
   font-weight: 600;
   letter-spacing: .01em;
   white-space: nowrap;
   background: var(--primary-bg);
   color: var(--primary-dark);
+}
+/* Row subject pills are buttons that narrow the Subject filter on click. */
+button.subject-pill { cursor: pointer; transition: filter var(--dur-1), box-shadow var(--dur-1); }
+button.subject-pill:hover { filter: brightness(0.96); }
+button.subject-pill:focus-visible { outline: none; box-shadow: 0 0 0 2px var(--ring); }
+@media (prefers-color-scheme: dark) { button.subject-pill:hover { filter: brightness(1.15); } }
+
+/* Search-match highlight */
+mark {
+  background: color-mix(in srgb, var(--gold) 40%, transparent);
+  color: inherit; border-radius: 3px; padding: 0 1px;
+}
+
+/* ?bill= deep-link arrival flash */
+.bill-flash { animation: bill-flash 1.6s var(--ease-out); }
+@keyframes bill-flash {
+  0%, 18% { background: var(--primary-bg); }
+  100% { background: transparent; }
 }
 .subject-pill.tax { background: var(--tax-bg); color: var(--tax-fg); }
 .subject-pill.transportation { background: var(--transportation-bg); color: var(--transportation-fg); }

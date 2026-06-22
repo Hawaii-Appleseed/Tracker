@@ -253,6 +253,95 @@
     if (payload) mergeFavorites(payload);
   }
 
+  // ---- Shareable filter URLs ------------------------------------------------
+  // The active filter combination is mirrored into the query string so a
+  // filtered view itself is a shareable, bookmarkable link (the starred-list
+  // hash above is independent and preserved alongside it). Only dimensions that
+  // deviate from their defaults are emitted, keeping links short.
+  function serializeFilters() {
+    const it = state._items || {};
+    const p = new URLSearchParams();
+    const all = (set, items) => items && set.size === items.length;
+    const dimParam = (key, set, items) => {
+      if (!items || all(set, items)) return;            // at default "all" → omit
+      p.set(key, set.size ? [...set].join(",") : "none");
+    };
+    if (state.search) p.set("q", state.search);
+    dimParam("county", state.councils, it.council);
+    dimParam("type", state.types, it.type);
+    dimParam("subject", state.subjects, it.subject);
+    // Status defaults to {Active}; year to the newest single year.
+    const statusDefault = state.statuses.size === 1 && state.statuses.has("Active");
+    if (!statusDefault) {
+      p.set("status", all(state.statuses, it.status) ? "all"
+        : state.statuses.size ? [...state.statuses].join(",") : "none");
+    }
+    const newest = it.year?.[0]?.value;
+    const yearDefault = state.years.size === 1 && newest && state.years.has(newest);
+    if (!yearDefault) {
+      p.set("year", all(state.years, it.year) ? "all" : [...state.years].join(","));
+    }
+    if (!state.onlyClassified) p.set("classified", "0");
+    if (state.favoritesOnly) p.set("fav", "1");
+    return p.toString();
+  }
+  // Write the filter query string without disturbing the list hash (#l=/#id=).
+  function syncFilterUrl() {
+    if (!state._items) return;
+    const qs = serializeFilters();
+    history.replaceState(null, "",
+      location.pathname + (qs ? "?" + qs : "") + location.hash);
+  }
+  // Restore filter state from the query string on load (before first render).
+  function applyFilterParams() {
+    const it = state._items || {};
+    const p = new URLSearchParams(location.search);
+    if (![...p.keys()].length) return;
+    const setDim = (key, set, items) => {
+      if (!p.has(key) || !items) return;
+      const v = p.get(key);
+      set.clear();
+      if (v === "none") return;
+      if (v === "all") { items.forEach((x) => set.add(x.value)); return; }
+      const valid = new Set(items.map((x) => x.value));
+      v.split(",").forEach((x) => { if (valid.has(x)) set.add(x); });
+    };
+    if (p.has("q")) {
+      state.search = p.get("q").toLowerCase().trim();
+      const s = document.getElementById("f-search");
+      if (s) s.value = p.get("q");
+      const sc = document.getElementById("f-search-clear");
+      if (sc) sc.hidden = !state.search;
+    }
+    setDim("county", state.councils, it.council);
+    setDim("type", state.types, it.type);
+    setDim("subject", state.subjects, it.subject);
+    setDim("status", state.statuses, it.status);
+    setDim("year", state.years, it.year);
+    if (p.get("classified") === "0") {
+      state.onlyClassified = false;
+      const cc = document.getElementById("f-classified");
+      if (cc) cc.checked = false;
+    }
+    if (p.get("fav") === "1") state.favoritesOnly = true;
+    renderFilterGroups();
+  }
+
+  // ?bill=<slug> deep-links: open, scroll to, and briefly highlight one bill.
+  function openBillFromUrl() {
+    const slug = new URLSearchParams(location.search).get("bill");
+    if (!slug) return;
+    const row = document.querySelector(
+      `#results tbody tr.bill-row[data-slug="${CSS.escape(slug)}"]`);
+    if (!row) return;
+    row.scrollIntoView({ block: "center", behavior: REDUCED_MOTION ? "auto" : "smooth" });
+    if (!row.classList.contains("open")) row.click();
+    if (!REDUCED_MOTION) {
+      row.classList.add("bill-flash");
+      row.addEventListener("animationend", () => row.classList.remove("bill-flash"), { once: true });
+    }
+  }
+
   // Bill types collapse into 3 plain buckets. Councils emit ~9 raw types, most
   // of them procedural noise a regular reader doesn't care about.
   const TYPE_BUCKETS = ["Laws", "Resolutions", "Procedural & ceremonial"];
@@ -370,6 +459,28 @@
     return html + "</div>";
   }
 
+  // Vertical, labeled timeline for the expanded detail view: the five-stage
+  // track shown top-to-bottom, filled up to the stage reached, with the two
+  // dates we actually have (introduced + last action) anchored to the first
+  // and current stages. Adds named stages + dates the row's compact horizontal
+  // stepper can't show.
+  function billTimeline(b, prog) {
+    const reached = prog.state === "done" ? 4 : prog.step;
+    const rows = STEP_NAMES.map((name, i) => {
+      let cls = "tl-future";
+      if (prog.state === "done" || i < reached) cls = "tl-done";
+      else if (i === reached) cls = "tl-current tl-" + prog.state;
+      let date = "";
+      if (i === 0 && b.introduced_date) date = b.introduced_date;
+      if (i === reached && b.last_action_date) date = b.last_action_date;
+      return `<li class="tl-step ${cls}"><span class="tl-dot" aria-hidden="true"></span>` +
+        `<span class="tl-name">${name}</span>` +
+        (date ? `<time class="tl-date">${escapeHtml(date)}</time>` : "") + `</li>`;
+    }).join("");
+    return `<div class="detail-timeline"><span class="detail-label">Progress</span>` +
+      `<ol class="tl">${rows}</ol></div>`;
+  }
+
   // A readable headline for a bill — what it's actually ABOUT, not the legal
   // framing. Built from, in order of preference:
   //   1. the subject of the "RELATING TO …" clause (the legal statement of
@@ -483,6 +594,16 @@
       `<abbr class="gloss" title="${DRAFT_TITLE[kind]}">${full}</abbr>`
     );
     return s;
+  }
+
+  // Wrap occurrences of the search term in <mark>, operating only on the text
+  // between tags so it never corrupts the <abbr> markup that annotate() emits.
+  function highlightHtml(html, term) {
+    if (!term) return html;
+    const re = new RegExp("(" + term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "ig");
+    return html.split(/(<[^>]+>)/).map((seg) =>
+      seg.startsWith("<") ? seg : seg.replace(re, "<mark>$1</mark>")
+    ).join("");
   }
 
   function relTime(ts) {
@@ -1100,6 +1221,30 @@
     renderFilterGroups();
     applyFilters();
   }
+  // Clicking a subject pill on a row narrows the Subject filter to just it.
+  function filterToSubject(value) {
+    const it = state._items || {};
+    if (!it.subject?.some((x) => x.value === value)) return;
+    state.subjects.clear();
+    state.subjects.add(value);
+    renderFilterGroups();
+    animateNext();
+    applyFilters();
+  }
+  async function copyBillLink(btn) {
+    const slug = btn.dataset.slug;
+    const url = location.origin + location.pathname + "?bill=" + encodeURIComponent(slug);
+    const label = btn.querySelector(".bc-label");
+    const original = label ? label.textContent : "";
+    try {
+      await navigator.clipboard.writeText(url);
+      if (label) label.textContent = "✓ Link copied";
+    } catch {
+      history.replaceState(null, "", url); // fallback: surface it in the address bar
+      if (label) label.textContent = "Copy from the address bar";
+    }
+    if (label) setTimeout(() => { label.textContent = original; }, 2000);
+  }
   function resetAllFilters() {
     const it = state._items || {};
     setAll(state.councils, it.council);
@@ -1233,6 +1378,14 @@
       const chip = e.target.closest(".af-chip");
       if (chip) clearFilterDim(chip.dataset.dim);
     });
+    // Delegated row actions: clickable subject pills (filter) + per-bill copy.
+    const tbody = document.querySelector("#results tbody");
+    if (tbody) tbody.addEventListener("click", (e) => {
+      const pill = e.target.closest(".subject-pill[data-subject]");
+      if (pill) { filterToSubject(pill.dataset.subject); return; }
+      const copy = e.target.closest(".bill-copy");
+      if (copy) { e.stopPropagation(); copyBillLink(copy); }
+    });
     document.addEventListener("click", () => closeColPop(false));
     document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeColPop(true); });
     window.addEventListener("scroll", () => closeColPop(false), true);
@@ -1277,7 +1430,8 @@
     const pills = (b.subjects || [])
       .map(
         (s) =>
-          `<span class="subject-pill ${s}" title="${SUBJECT_LABEL[s] || s}">${SUBJECT_LABEL[s] || s}</span>`
+          `<button type="button" class="subject-pill ${s}" data-subject="${escapeHtml(s)}" ` +
+          `title="Show only ${SUBJECT_LABEL[s] || s} bills">${SUBJECT_LABEL[s] || s}</button>`
       )
       .join("");
 
@@ -1297,16 +1451,17 @@
     const tr = document.createElement("tr");
     tr.className = "bill-row";
     tr.tabIndex = 0;
+    tr.dataset.slug = billSlug(b);
     tr.setAttribute("role", "button");
     tr.setAttribute("aria-expanded", "false");
     tr.innerHTML = `
       <td class="col-fav">${favButtonHtml(b)}</td>
       <td class="col-council" data-label="County"><span class="county-tag county-${escapeHtml(b.council)}">${escapeHtml(council)}</span></td>
-      <td class="col-num" data-label="Number"><a class="bill-link" href="${escapeHtml(b.url)}" target="_blank" rel="noopener">${escapeHtml(b.bill_number)}</a></td>
+      <td class="col-num" data-label="Number"><a class="bill-link" href="${escapeHtml(b.url)}" target="_blank" rel="noopener">${highlightHtml(escapeHtml(b.bill_number), state.search)}</a></td>
       <td class="col-type" data-label="Type">${escapeHtml(b.bill_type)}</td>
       <td class="col-title" data-label="Title">
-        <div class="title-line"><span class="caret" aria-hidden="true">▸</span><span class="title-text">${annotate(head || fullTitle || "")}</span>${rowBadgeHtml(b)}</div>
-        ${sub ? `<div class="title-preview">${annotate(sub)}</div>` : ""}
+        <div class="title-line"><span class="caret" aria-hidden="true">▸</span><span class="title-text">${highlightHtml(annotate(head || fullTitle || ""), state.search)}</span>${rowBadgeHtml(b)}</div>
+        ${sub ? `<div class="title-preview">${highlightHtml(annotate(sub), state.search)}</div>` : ""}
       </td>
       <td class="col-subj" data-label="Subjects">${pills || '<span class="muted">—</span>'}</td>
       <td class="col-status" data-label="Progress" title="${escapeHtml(b.last_action || b.status || "")}">
@@ -1331,16 +1486,23 @@
     const parts = [];
     if (b.raw_subject) {
       parts.push(
-        `<div class="detail-summary"><span class="detail-label">${summaryLabel}</span>${annotate(b.raw_subject)}</div>`
+        `<div class="detail-summary"><span class="detail-label">${summaryLabel}</span>${highlightHtml(annotate(b.raw_subject), state.search)}</div>`
+      );
+    } else if (fullTitle) {
+      // No separate summary — the full legal title is the best description we
+      // have, so lead with it instead of an empty "nothing here" message.
+      parts.push(
+        `<div class="detail-summary"><span class="detail-label">Full title</span>${highlightHtml(annotate(fullTitle), state.search)}</div>`
       );
     } else {
       parts.push(`<div class="detail-summary muted">No description available from the council source.</div>`);
     }
+    parts.push(billTimeline(b, prog));
     const metaBits = [];
-    if (b.introducer) metaBits.push(`<span><span class="detail-label">Introducer</span>${escapeHtml(b.introducer)}</span>`);
-    if (b.introduced_date) metaBits.push(`<span><span class="detail-label">Introduced</span>${escapeHtml(b.introduced_date)}</span>`);
+    if (b.introducer) metaBits.push(`<span><span class="detail-label">Introducer</span>${highlightHtml(escapeHtml(b.introducer), state.search)}</span>`);
     if (lastAction) metaBits.push(`<span><span class="detail-label">Last action</span>${escapeHtml(lastAction)}</span>`);
     metaBits.push(`<span><a href="${escapeHtml(b.url)}" target="_blank" rel="noopener">View on council site ↗</a></span>`);
+    metaBits.push(`<span><button type="button" class="bill-copy" data-slug="${escapeHtml(billSlug(b))}"><svg aria-hidden="true"><use href="#i-link"/></svg><span class="bc-label">Copy link to this bill</span></button></span>`);
     parts.push(`<div class="detail-meta">${metaBits.join("")}</div>`);
     // Gutter cells occupy the star+county columns so the expanded content lines
     // up under the bill's Number/Title block instead of floating at the far left.
@@ -1370,7 +1532,8 @@
       }
     }
     tr.addEventListener("click", (e) => {
-      if (e.target.closest("a") || e.target.closest(".fav-btn")) return;
+      // Links, the star, and the clickable subject pills handle their own clicks.
+      if (e.target.closest("a") || e.target.closest(".fav-btn") || e.target.closest(".subject-pill")) return;
       toggle();
     });
     tr.addEventListener("keydown", (e) => {
@@ -1451,6 +1614,7 @@
     animateNextApply = false;
     if (useVT) document.startViewTransition(render);
     else render();
+    syncFilterUrl(); // keep the shareable query string in step with the filters
   }
 
   async function ingest(payload) {
@@ -1459,9 +1623,11 @@
     setStats(payload);
     buildFilters(payload);
     await restoreListFromHash();
+    applyFilterParams();           // restore any filters carried in the URL query
     setFavoritesOnly(state.favoritesOnly);
     updateFavCount();
     applyFilters();
+    openBillFromUrl();             // ?bill=<slug> → open + highlight that bill
   }
 
   // Placeholder shimmer rows shown while bills.json downloads (1.7MB — visible
