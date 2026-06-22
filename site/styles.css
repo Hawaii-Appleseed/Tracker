@@ -48,8 +48,11 @@
   --shadow-pop: 0 4px 14px rgba(20, 42, 30, .12), 0 2px 4px rgba(20, 42, 30, .08);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
+/* Dark tokens apply whenever data-theme="dark". A tiny inline script in the
+   <head> resolves the effective theme (stored override, else system pref) and
+   sets the attribute before first paint, so there's no flash and no token
+   duplication between a media query and a manual override. */
+:root[data-theme="dark"] {
     --primary: #7cb342;
     --primary-dark: #a8d77c;
     --primary-bg: rgba(124, 179, 66, 0.15);
@@ -82,7 +85,6 @@
     --shadow-sm: 0 1px 2px rgba(0, 0, 0, .3);
     --shadow: 0 1px 3px rgba(0, 0, 0, .35), 0 8px 24px rgba(0, 0, 0, .3);
     --shadow-pop: 0 6px 20px rgba(0, 0, 0, .5);
-  }
 }
 
 * { box-sizing: border-box; }
@@ -1060,4 +1062,37 @@ footer .meta { display: block; font-size: 13px; margin-top: 8px; }
   .detail-row { margin: -6px 0 12px; }
   .detail-inner { padding: 8px 14px 14px; }
   .detail-gutter { display: none; }
+}
+
+/* Per-option bill counts in the filter popovers */
+.opt-count {
+  margin-left: auto; padding-left: 10px;
+  font-size: 11.5px; font-weight: 600; color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Masthead stat numbers double as shortcuts to the filter that produces them */
+.stat-link { cursor: pointer; border-radius: 6px; transition: color var(--dur-1); }
+.stat-link:hover { color: var(--primary-dark); }
+.stat-link:hover strong { text-decoration: underline; text-underline-offset: 2px; }
+.stat-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+/* ---- Print: a clean, chrome-free list ------------------------------------ */
+@media print {
+  .toolbar, .filters-mobile, .hint, #active-filters, footer,
+  .site-header .overline, .stat-strip, .live-dot, .col-fav { display: none !important; }
+  body { background: #fff; }
+  :root { --text: #000; --bg: #fff; --paper: #fff; }
+  main { padding: 0; }
+  h1 { font-size: 20pt; margin: 0 0 8pt; }
+  .results-strip { margin: 0 0 6pt; }
+  .table-wrap { max-height: none; overflow: visible; border: none; box-shadow: none; }
+  table { width: 100%; font-size: 9pt; }
+  thead { display: table-header-group; }
+  th.col-filter .cf-caret, .cf-badge { display: none; }
+  tr.bill-row { break-inside: avoid; }
+  .detail-row { display: none; }
+  a { color: #000; text-decoration: none; }
+  * { box-shadow: none !important; }
+  .subject-pill, .county-tag { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 }

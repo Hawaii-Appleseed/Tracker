@@ -757,6 +757,12 @@
       node.className = opts.pill ? "subject-pill " + it.value : "county-badge";
       node.textContent = it.label;
       label.append(cb, node);
+      if (opts.counts && opts.counts[it.value] != null) {
+        const n = document.createElement("span");
+        n.className = "opt-count";
+        n.textContent = opts.counts[it.value].toLocaleString();
+        label.append(n);
+      }
       c.appendChild(label);
       itemBoxes.push({ cb, value: it.value });
     }
@@ -854,17 +860,31 @@
 
   // Render all five checkbox groups from the stashed item lists + current Sets.
   // Used on load and after a chip removal / reset re-syncs the Sets.
+  // How many bills fall under each filter option, across the whole dataset —
+  // shown beside each checkbox so the size of a choice is visible before
+  // picking it. (Totals, not cross-filtered, so the numbers stay stable.)
+  function filterCounts() {
+    const c = { council: {}, subject: {}, type: {}, status: {} };
+    for (const b of state.bills) {
+      c.council[b.council] = (c.council[b.council] || 0) + 1;
+      const tb = typeBucket(b.bill_type); c.type[tb] = (c.type[tb] || 0) + 1;
+      const sb = statusBucket(b); c.status[sb] = (c.status[sb] || 0) + 1;
+      for (const s of b.subjects || []) c.subject[s] = (c.subject[s] || 0) + 1;
+    }
+    return c;
+  }
   function renderFilterGroups() {
     const it = state._items;
     if (!it) return;
+    const counts = filterCounts();
     // County/Type/Subject/Status are filtered only through the column-header
     // popovers (f-*). On mobile the header collapses to a compact filter bar
     // (see styles.css) but the same buttons/popovers stay the single source.
     const groups = [
-      ["council", it.council, state.councils, undefined],
-      ["subject", it.subject, state.subjects, { pill: true }],
-      ["type", it.type, state.types, undefined],
-      ["status", it.status, state.statuses, undefined],
+      ["council", it.council, state.councils, { counts: counts.council }],
+      ["subject", it.subject, state.subjects, { pill: true, counts: counts.subject }],
+      ["type", it.type, state.types, { counts: counts.type }],
+      ["status", it.status, state.statuses, { counts: counts.status }],
     ];
     for (const [name, items, set, opts] of groups) {
       if (document.getElementById("f-" + name)) renderCheckGroup("f-" + name, items, set, opts);
@@ -976,6 +996,34 @@
         applyFilters();
       });
     }
+  }
+
+  // Light / dark / system theme. The <head> script applies the stored choice
+  // before paint; here we wire the overflow-menu control that cycles it and
+  // keep "system" live to OS changes.
+  function wireThemeToggle() {
+    const btn = document.getElementById("theme-btn");
+    if (!btn) return;
+    const label = btn.querySelector(".mi-label");
+    const order = ["system", "light", "dark"];
+    const names = { system: "System", light: "Light", dark: "Dark" };
+    const mq = window.matchMedia("(prefers-color-scheme: dark)");
+    const stored = () => {
+      try { return localStorage.getItem("tracker:theme") || "system"; } catch { return "system"; }
+    };
+    const apply = (pref) => {
+      const dark = pref === "dark" || (pref === "system" && mq.matches);
+      document.documentElement.dataset.theme = dark ? "dark" : "light";
+      if (label) label.textContent = "Theme: " + names[pref];
+    };
+    apply(stored());
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation(); // cycle without closing the menu
+      const next = order[(order.indexOf(stored()) + 1) % order.length];
+      try { localStorage.setItem("tracker:theme", next); } catch { /* ignore */ }
+      apply(next);
+    });
+    mq.addEventListener?.("change", () => { if (stored() === "system") apply("system"); });
   }
 
   // ---- Saved panel: share / subscribe to the starred list -------------------
@@ -1221,6 +1269,70 @@
     renderFilterGroups();
     applyFilters();
   }
+  // Reset the everyday filters to "show everything" — shared by the masthead
+  // stat shortcuts. Leaves the caller to set status/year/onlyClassified.
+  function openUpAllDimensions() {
+    const it = state._items || {};
+    setAll(state.councils, it.council);
+    setAll(state.subjects, it.subject);
+    setAll(state.types, it.type);
+    setFavoritesOnly(false);
+    state.search = "";
+    const s = document.getElementById("f-search"); if (s) s.value = "";
+    const sc = document.getElementById("f-search-clear"); if (sc) sc.hidden = true;
+  }
+  // Wire the masthead numbers to the filters that actually produce them, so the
+  // "225 active this year" stat and the table's result count visibly agree when
+  // you click through (resolves the stat-vs-count confusion).
+  function wireStatStrip() {
+    const it = state._items || {};
+    const newest = it.year?.[0]?.value;
+    const makeLink = (el, title, go) => {
+      if (!el) return;
+      el.classList.add("stat-link");
+      el.setAttribute("role", "button");
+      el.tabIndex = 0;
+      el.title = title;
+      el.addEventListener("click", () => { animateNext(); go(); });
+      el.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); animateNext(); go(); }
+      });
+    };
+    const setClassified = (on) => {
+      state.onlyClassified = on;
+      const cc = document.getElementById("f-classified"); if (cc) cc.checked = on;
+    };
+    makeLink(document.getElementById("stat-active")?.closest(".stat"),
+      newest ? `Show all active ${newest} bills` : "Show active bills", () => {
+        openUpAllDimensions();
+        state.statuses.clear(); state.statuses.add("Active");
+        if (newest) { state.years.clear(); state.years.add(newest); }
+        setClassified(false);
+        renderFilterGroups();
+        applyFilters();
+      });
+    makeLink(document.getElementById("stat-total")?.closest(".stat"),
+      "Show every tracked bill", () => {
+        openUpAllDimensions();
+        setAll(state.statuses, it.status);
+        setAll(state.years, it.year);
+        setClassified(false);
+        renderFilterGroups();
+        applyFilters();
+      });
+  }
+  // Arrow-key navigation between rows once a row has focus.
+  function wireKeyboardNav() {
+    document.addEventListener("keydown", (e) => {
+      if (e.key !== "ArrowDown" && e.key !== "ArrowUp") return;
+      const cur = document.activeElement;
+      if (!cur || !cur.classList?.contains("bill-row")) return;
+      e.preventDefault();
+      const rows = [...document.querySelectorAll("#results tbody tr.bill-row")];
+      const next = rows[rows.indexOf(cur) + (e.key === "ArrowDown" ? 1 : -1)];
+      if (next) next.focus();
+    });
+  }
   // Clicking a subject pill on a row narrows the Subject filter to just it.
   function filterToSubject(value) {
     const it = state._items || {};
@@ -1364,6 +1476,9 @@
       });
     }
     wireToolbarMenu();
+    wireThemeToggle();
+    wireStatStrip();
+    wireKeyboardNav();
     wireSavedPanel();
     wireHelpDialog();
     wireHint();
