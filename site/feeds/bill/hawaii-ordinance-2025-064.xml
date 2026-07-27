@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>tag:dtomkatsu.github.io,2026:feeds/bill/hawaii-ordinance-2025-064.xml</id>
+  <title>Ordinance 2025-064 — Hawaiʻi County</title>
+  <updated>2026-07-27T21:54:36+00:00</updated>
+  <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/hawaii-ordinance-2025-064.xml"/>
+  <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-ordinance-2025-064/2026-07-27T21:54:36+00:00</id>
+    <title>New: Ordinance 2025-064 (Hawaiʻi County) — Enacted</title>
+    <updated>2026-07-27T21:54:36+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1116249&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;Latest action: Effective 2025-09-05&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1116249&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+</feed>

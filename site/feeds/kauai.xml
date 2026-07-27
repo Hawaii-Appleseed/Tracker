@@ -2,92 +2,457 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:dtomkatsu.github.io,2026:feeds/kauai.xml</id>
   <title>Bill Tracker — Kauaʻi</title>
-  <updated>2026-06-19T16:17:17+00:00</updated>
+  <updated>2026-07-27T22:01:00+00:00</updated>
   <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/kauai.xml"/>
   <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2985/2026-06-19T16:17:17+00:00</id>
-    <title>Bill 2985 (Kauaʻi): — → In Committee</title>
-    <updated>2026-06-19T16:17:17+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3058"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 6, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO THE COUNTY HOUSING DEVELOPMENT FUND&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: — → In Committee&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-04-08&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3058"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2023-57/2026-07-27T22:01:00+00:00</id>
+    <title>New: Resolution 2023-57 (Kauaʻi) — On agenda 2023-08-23</title>
+    <updated>2026-07-27T22:01:00+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2599"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION REQUESTING THE STATE OF HAWAI‘I AND APPLICABLE TOURISM ENTITIES CONSIDER PROHIBITING OR DISCOURAGING CERTAIN UNDESIRABLE VISITOR ACTIVITIES&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2023-08-23&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2599"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2985/2026-06-17T16:17:12+00:00</id>
-    <title>Bill 2985 (Kauaʻi): In Committee → —</title>
-    <updated>2026-06-17T16:17:12+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3058"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 6, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO THE COUNTY HOUSING DEVELOPMENT FUND&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: In Committee → —&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-04-01&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3058"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2023-56/2026-07-27T22:01:00+00:00</id>
+    <title>New: Resolution 2023-56 (Kauaʻi) — On agenda 2023-08-23</title>
+    <updated>2026-07-27T22:01:00+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2599"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION URGING STATE OF HAWAI‘I ELECTED OFFICIALS TO SUPPORT INCREASED FUNDING FOR THE COMMISSION ON WATER RESOURCE MANAGEMENT TO EFFECTUATE THEIR MISSION&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2023-08-23&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2599"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2989/2026-06-17T16:17:12+00:00</id>
-    <title>Bill 2989 (Kauaʻi): On agenda 2026-05-27</title>
-    <updated>2026-06-17T16:17:12+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3089"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE RELATING TO CAPITAL IMPROVEMENTS AND FINANCING THEREOF FOR THE FISCAL YEAR JULY 1, 2026 TO JUNE 30, 2027 (Fiscal Year 2026-2027 CIP Budget)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-05-27&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3089"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2902/2026-07-27T22:01:00+00:00</id>
+    <title>New: Bill 2902 (Kauaʻi) — On agenda 2023-09-13</title>
+    <updated>2026-07-27T22:01:00+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2605"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 5A, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO REAL PROPERTY TAX (RPT Reform Tax Year 2025) 3. BN 2903.pdf&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2023-09-13&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2605"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2988/2026-06-17T16:17:12+00:00</id>
-    <title>Bill 2988 (Kauaʻi): On agenda 2026-05-27</title>
-    <updated>2026-06-17T16:17:12+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3089"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE RELATING TO THE OPERATING BUDGET AND FINANCING THEREOF FOR THE FISCAL YEAR JULY 1, 2026 TO JUNE 30, 2027 (Fiscal Year 2026-2027 Operating Budget)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-05-27&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3089"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2904/2026-07-27T22:01:00+00:00</id>
+    <title>New: Bill 2904 (Kauaʻi) — On agenda 2023-09-20</title>
+    <updated>2026-07-27T22:01:00+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2608"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 5A, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO REAL PROPERTY TAX (Separated Married Persons)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2023-09-20&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2608"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2026-11/2026-06-17T16:17:12+00:00</id>
-    <title>Resolution 2026-11 (Kauaʻi): — → In Committee</title>
-    <updated>2026-06-17T16:17:12+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3091"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION ESTABLISHING THE REAL PROPERTY TAX RATES FOR THE FISCAL YEAR JULY 1, 2026 TO JUNE 30, 2027 FOR THE COUNTY OF KAUA‘I&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: — → In Committee&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-06-03&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3091"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2903/2026-07-27T22:01:00+00:00</id>
+    <title>New: Bill 2903 (Kauaʻi) — On agenda 2023-09-20</title>
+    <updated>2026-07-27T22:01:00+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2608"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 5A, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO REAL PROPERTY TAX (Long-Term Gap Housing Rental) 4. BN 2904.pdf&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2023-09-20&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2608"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2026-11/2026-06-15T16:26:03+00:00</id>
-    <title>Resolution 2026-11 (Kauaʻi): In Committee → —</title>
-    <updated>2026-06-15T16:26:03+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3091"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION ESTABLISHING THE REAL PROPERTY TAX RATES FOR THE FISCAL YEAR JULY 1, 2026 TO JUNE 30, 2027 FOR THE COUNTY OF KAUA‘I&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: In Committee → —&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-04-09&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3091"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2901/2026-07-27T22:01:00+00:00</id>
+    <title>New: Bill 2901 (Kauaʻi) — In Committee</title>
+    <updated>2026-07-27T22:01:00+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2608"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 5A, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO REAL PROPERTY TAX (RPT Reform Tax Year 2024) 2. BN 2902.pdf&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2023-09-20&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2608"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2989/2026-06-15T16:26:03+00:00</id>
-    <title>Bill 2989 (Kauaʻi): On agenda 2026-04-09</title>
-    <updated>2026-06-15T16:26:03+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3089"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE RELATING TO CAPITAL IMPROVEMENTS AND FINANCING THEREOF FOR THE FISCAL YEAR JULY 1, 2026 TO JUNE 30, 2027 (Fiscal Year 2026-2027 CIP Budget)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-04-09&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3089"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2023-59/2026-07-27T22:01:00+00:00</id>
+    <title>New: Resolution 2023-59 (Kauaʻi) — On agenda 2023-09-20</title>
+    <updated>2026-07-27T22:01:00+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2608"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION URGING FEDERAL, STATE, AND COUNTY LEGISLATIVE AND ADMINISTRATIVE LEADERS TO SUPPORT DIGITAL INCLUSION WEEK&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2023-09-20&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2608"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2988/2026-06-15T16:26:03+00:00</id>
-    <title>Bill 2988 (Kauaʻi): On agenda 2026-04-09</title>
-    <updated>2026-06-15T16:26:03+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3089"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE RELATING TO THE OPERATING BUDGET AND FINANCING THEREOF FOR THE FISCAL YEAR JULY 1, 2026 TO JUNE 30, 2027 (Fiscal Year 2026-2027 Operating Budget)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-04-09&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3089"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2023-58/2026-07-27T22:01:00+00:00</id>
+    <title>New: Resolution 2023-58 (Kauaʻi) — On agenda 2023-09-20</title>
+    <updated>2026-07-27T22:01:00+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2608"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION SUPPORTING EFFORTS TO ACQUIRE THE COURTYARDS AT WAIPOULI AND PRESERVE LONG-TERM AFFORDABILITY&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2023-09-20&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2608"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2026-18/2026-06-12T16:17:31+00:00</id>
-    <title>New: Resolution 2026-18 (Kauaʻi) — On agenda 2026-06-17</title>
-    <updated>2026-06-12T16:17:31+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1593"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;Strongly Opposing The Federal Lawsuit Ryan V. Watson Which Challenges The Hawaiian Homes Commission Act And Reaffirming The County Of Kaua‘i’s Support For The Political, Cultural, And Trust Relationship Between The United States, The State Of Hawai‘i, And The Native Hawaiian People&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-06-17&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1593"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2023-60/2026-07-27T22:01:00+00:00</id>
+    <title>New: Resolution 2023-60 (Kauaʻi) — On agenda 2023-10-04</title>
+    <updated>2026-07-27T22:01:00+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2612"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION URGING THE STATE DEPARTMENT OF HEALTH TO CONTINUE TO CONTRACT WITH AMERICAN MEDICAL RESPONSE TO PROVIDE EMERGENCY-MEDICAL SERVICES IN THE COUNTY OF KAUA‘I&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2023-10-04&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2612"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2906/2026-07-27T22:01:00+00:00</id>
+    <title>New: Bill 2906 (Kauaʻi) — In Committee</title>
+    <updated>2026-07-27T22:01:00+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2612"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. B 2023 891, AS AMENDED, RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUAI, STATE OF HAWAII, FOR THE FISCAL YEAR JULY 1, 2023 THROUGH JUNE 30, 2024, BY REVISING THE AMOUNTS ESTIMATED IN THE GENERAL FUND (Constituent Staff Support -$500,000)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2023-10-04&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2612"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2023-61/2026-07-27T22:01:00+00:00</id>
+    <title>New: Resolution 2023-61 (Kauaʻi) — On agenda 2023-10-04</title>
+    <updated>2026-07-27T22:01:00+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2612"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION URGING STATE OFFICIALS TO PRIORITIZE FUNDING AND IMMEDIATE IMPLEMENTATION OF A RAPID RESPONSE MANAGEMENT EFFORT TO SAFEGUARD KAUA‘I FROM THE IMPACTS CAUSED BY THE COCONUT RHINOCEROS BEETLE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2023-10-04&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2612"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2023/2026-07-27T22:01:00+00:00</id>
+    <title>New: Resolution 2023 (Kauaʻi) — On agenda 2023-10-04</title>
+    <updated>2026-07-27T22:01:00+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2612"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Urging The State Department Of Health To Continue To Contract With American Medical Response To Provide Emergency-Medical Services In The County Of Kaua‘i&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2023-10-04&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2612"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2023-62/2026-07-27T22:01:00+00:00</id>
+    <title>New: Resolution 2023-62 (Kauaʻi) — On agenda 2023-10-18</title>
+    <updated>2026-07-27T22:01:00+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2618"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION SUPPORTING OPERATION GREEN LIGHT FOR VETERANS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2023-10-18&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2618"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2023-64/2026-07-27T22:01:00+00:00</id>
+    <title>New: Resolution 2023-64 (Kauaʻi) — On agenda 2023-10-18</title>
+    <updated>2026-07-27T22:01:00+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2618"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION RECOMMENDING THE KAUA‘I BOARD OF WATER SUPPLY AMEND RULES AND REGULATIONS TO ALLOW RAINWATER CATCHMENT SYSTEMS ON AGRICULTURAL PROPERTIES&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2023-10-18&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2618"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2023-65/2026-07-27T22:00:59+00:00</id>
+    <title>New: Resolution 2023-65 (Kauaʻi) — On agenda 2023-11-01</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2623"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION JOINING THE STATE LEGISLATURE IN REQUESTING THE DEPARTMENT OF EDUCATION TO IMPLEMENT A FILIPINO HISTORY, CULTURE, AND IDENTITY SOCIAL STUDIES COURSE FOR HIGH SCHOOL STUDENTS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2023-11-01&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2623"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2023-63/2026-07-27T22:00:59+00:00</id>
+    <title>New: Resolution 2023-63 (Kauaʻi) — On agenda 2023-11-01</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2623"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION PROPOSING A CHARTER AMENDMENT RELATING TO THE BOARD OF WATER SUPPLY ORGANIZATION (Deferred October 18, 2023)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2023-11-01&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2623"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2023-66/2026-07-27T22:00:59+00:00</id>
+    <title>New: Resolution 2023-66 (Kauaʻi) — On agenda 2023-11-15</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2628"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION APPROVING PROPOSALS FOR INCLUSION IN THE 2024 HAWAI‘I STATE ASSOCIATION OF COUNTIES LEGISLATIVE PACKAGE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2023-11-15&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2628"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2909/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2909 (Kauaʻi) — On agenda 2023-11-15</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2628"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AUTHORIZING THE PROCUREMENT OF THE SERVICES OF A CONTRACT AUDITOR AND APPROVING A CONTRACT FOR A CONTRACT AUDITOR FROM APPROPRIATIONS OF A LATER FISCAL YEAR FOR MORE THAN ONE FISCAL YEAR&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2023-11-15&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2628"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2908/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2908 (Kauaʻi) — On agenda 2023-11-15</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2628"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. B-2023-891, AS AMENDED, RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2023 THROUGH JUNE 30, 2024, BY REVISING THE AMOUNTS ESTIMATED IN THE GENERAL FUND (Additional Costs For Fiscal Year 2023 ACFR – $61,400.00)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2023-11-15&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2628"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2907/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2907 (Kauaʻi) — In Committee</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2628"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 19, ARTICLE 3, SECTION 19-3.2, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO PLAYING FEES AT THE WAILUA GOLF COURSE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2023-11-15&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2628"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2910/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2910 (Kauaʻi) — On agenda 2023-11-22</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2629"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 6, ARTICLE 13, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO RECOVERY OF RESCUE EXPENSES&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2023-11-22&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2629"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2023-87/2026-07-27T22:00:59+00:00</id>
+    <title>New: Resolution 2023-87 (Kauaʻi) — On agenda 2023-12-20</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2636"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Appointing Bernard P. Carvalho, Jr. As Representative And Bill DeCosta As The Alternate To The Executive Committee Of The Hawai‘i State Association Of Counties&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2023-12-20&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2636"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2024-04/2026-07-27T22:00:59+00:00</id>
+    <title>New: Resolution 2024-04 (Kauaʻi) — On agenda 2024-01-18</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2641"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Urging The Hawai‘i State Legislature To Expressly Authorize Counties To Amortize Nonconforming Single-Family Transient Vacation Rentals (TVRs)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-01-18&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2641"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2024-02/2026-07-27T22:00:59+00:00</id>
+    <title>Resolution 2024-02 (Kauaʻi): On agenda 2024-01-18</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2641"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Authorizing The Mayor Or The Director Of Finance Of The County Of Kaua‘i To Enter Into An Intergovernmental Agreement With The State Of Hawai‘i, Department Of Health For A Loan From The State Water Pollution Control Revolving Fund For The Wailua WWTP Improvements Phase II, Project No. C150055-08&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-01-18&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2641"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2911/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2911 (Kauaʻi) — In Committee</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2647"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. B-2023-891, AS AMENDED, RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2023 THROUGH JUNE 30, 2024, BY REVISING THE AMOUNTS ESTIMATED IN THE GENERAL FUND (Fire Engine #5, Kalaheo Replacement - $1,000,000.00)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-01-31&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2647"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2024-07/2026-07-27T22:00:59+00:00</id>
+    <title>New: Resolution 2024-07 (Kauaʻi) — On agenda 2024-01-31</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2647"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Supporting The Approval Of The Ka Lei Momi Kapa‘a Affordable Housing Project Pursuant To The Third Proclamation Relating To Affordable Housing Issued By The Governor Of The State Of Hawai‘i&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-01-31&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2647"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2024-06/2026-07-27T22:00:59+00:00</id>
+    <title>New: Resolution 2024-06 (Kauaʻi) — On agenda 2024-01-31</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2647"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Urging The Hawai‘i State Legislature And The Hawai‘i Department Of Health To Create Subsidies And Amended Rules For Cesspool Conversions And Related Building Requirements&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-01-31&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2647"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2024-05/2026-07-27T22:00:59+00:00</id>
+    <title>New: Resolution 2024-05 (Kauaʻi) — On agenda 2024-01-31</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2647"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Establishing One-Way Traffic On Ho‘ona Road, Koloa District, County Of Kaua‘i&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-01-31&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2647"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2024-10/2026-07-27T22:00:59+00:00</id>
+    <title>New: Resolution 2024-10 (Kauaʻi) — On agenda 2024-02-28</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2654"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION CONFIRMING MAYORAL APPOINTMENT TO THE CIVIL SERVICE COMMISSION (Robert B. Crowell)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-02-28&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2654"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2024-09/2026-07-27T22:00:59+00:00</id>
+    <title>New: Resolution 2024-09 (Kauaʻi) — On agenda 2024-02-28</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2654"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION CONFIRMING MAYORAL APPOINTMENT TO THE FIRE COMMISSION (Jef rey A. Murray)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-02-28&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2654"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2024-08/2026-07-27T22:00:59+00:00</id>
+    <title>New: Resolution 2024-08 (Kauaʻi) — On agenda 2024-02-28</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2654"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION CONFIRMING MAYORAL APPOINTMENT TO THE FIRE COMMISSION (Lorilee L. Almarza)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-02-28&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2654"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2024-12/2026-07-27T22:00:59+00:00</id>
+    <title>New: Resolution 2024-12 (Kauaʻi) — On agenda 2024-02-28</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2654"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Urging The 2024 Hawai‘i State Legislature To Oppose Senate&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-02-28&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2654"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2024-11/2026-07-27T22:00:59+00:00</id>
+    <title>New: Resolution 2024-11 (Kauaʻi) — On agenda 2024-02-28</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2654"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Authorizing The Mayor Or The Director Of Finance Of The County Of Kaua‘i To Enter Into An Intergovernmental Agreement With The State Of Hawai‘i, Department Of Health For A Loan From The State Water Pollution Control Revolving Fund For The Wailua SPS #3 Rehabilitation, Project No. C150055-06&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-02-28&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2654"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2024-14/2026-07-27T22:00:59+00:00</id>
+    <title>New: Resolution 2024-14 (Kauaʻi) — On agenda 2024-03-27</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2662"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Authorizing The Mayor And The Director Of Finance Of The County Of Kaua‘i To Enter Into An Intergovernmental Agreement With The State Of Hawai‘i And Department Of Health For A Loan From The State Water Pollution Control Revolving Fund For The Residential Cesspool Conversion Program (County Of Kaua‘i Residential Cesspool Conversion Program 1), Project No. RCC00KA-01&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-03-27&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2662"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2913/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2913 (Kauaʻi) — Second Reading</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2677"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 19, ARTICLE 3, SECTION 19-3.2, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO PLAYING FEES AT THE WAILUA GOLF COURSE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-04-10&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2677"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2024-16/2026-07-27T22:00:59+00:00</id>
+    <title>New: Resolution 2024-16 (Kauaʻi) — On agenda 2024-04-10</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2677"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION AUTHORIZING THE FILING OF THE KAUA‘I COUNTY 2024 ACTION PLAN (COMMUNITY DEVELOPMENT BLOCK GRANT) WITH THE DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT, UNITED STATES OF AMERICA, FOR A GRANT UNDER TITLE I OF THE HOUSING AND COMMUNITY DEVELOPMENT ACT OF 1974 AND 1987 (PUBLIC LAWS 93-383 AND 100-242), AS AMENDED&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-04-10&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2677"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2024-18/2026-07-27T22:00:59+00:00</id>
+    <title>New: Resolution 2024-18 (Kauaʻi) — On agenda 2024-04-24</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2680"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION APPROVING THE PROPOSED FISCAL YEAR 2024-2025 OPERATING BUDGET FOR THE HAWAI‘I STATE ASSOCIATION OF COUNTIES&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-04-24&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2680"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2024-17/2026-07-27T22:00:59+00:00</id>
+    <title>New: Resolution 2024-17 (Kauaʻi) — On agenda 2024-04-24</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2680"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION CONFIRMING MAYORAL APPOINTMENT TO THE CHARTER REVIEW COMMISSION (La‘akea Chun)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-04-24&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2680"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2915/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2915 (Kauaʻi) — On agenda 2024-05-01</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2682"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 7A, ARTICLE 5, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO HOUSING ELIGIBILITY AND SELECTION (Deferred April 17, 2024)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-05-01&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2682"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2914/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2914 (Kauaʻi) — On agenda 2024-05-01</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2682"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 7A, ARTICLE 9, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO GOVERNMENT ASSISTANCE FOR WORKFORCE HOUSING (Deferred April 3, 2024)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-05-01&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2682"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2920/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2920 (Kauaʻi) — On agenda 2024-05-15</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2686"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 5, ARTICLE 2, SECTION 5-2.6, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO BEAUTIFICATION FEES&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-05-15&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2686"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2918/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2918 (Kauaʻi) — In Committee</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2686"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING SECTIONS 5A-1.1 AND 5A-11.4, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO REAL PROPERTY TAX&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-05-15&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2686"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2917/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2917 (Kauaʻi) — On agenda 2024-05-29</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2688"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE RELATING TO CAPITAL IMPROVEMENTS AND FINANCING THEREOF FOR THE FISCAL YEAR JULY 1, 2024 TO JUNE 30, 2025 (Fiscal Year 2024-2025 CIP Budget)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-05-29&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2688"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2916/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2916 (Kauaʻi) — On agenda 2024-05-29</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2688"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE RELATING TO THE OPERATING BUDGET AND FINANCING THEREOF FOR THE FISCAL YEAR JULY 1, 2024 TO JUNE 30, 2025 (Fiscal Year 2024-2025 Operating Budget)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-05-29&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2688"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2024-13/2026-07-27T22:00:59+00:00</id>
+    <title>New: Resolution 2024-13 (Kauaʻi) — On agenda 2024-05-29</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2688"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION ESTABLISHING THE REAL PROPERTY TAX RATES FOR THE FISCAL YEAR JULY 1, 2024 TO JUNE 30, 2025 FOR THE COUNTY OF KAUA‘I&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-05-29&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2688"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2912/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2912 (Kauaʻi) — On agenda 2024-06-19</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2698"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE ADDING A NEW ARTICLE TO CHAPTER 6, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO GENERAL PROVISIONS RELATING TO FINANCE (Deferred March 20, 2024)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-06-19&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2698"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2922/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2922 (Kauaʻi) — Second Reading</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2706"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 19, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO REFRESHMENT CONCESSIONS AND INTOXICATING LIQUOR IN PARKS FACILITIES (Deferred June 19, 2024) KAUA‘I&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-07-10&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2706"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2924/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2924 (Kauaʻi) — On agenda 2024-07-24</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2708"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. B-2024-897 AS AMENDED, RELATING TO THE CAPITAL BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2024 THROUGH JUNE 30, 2025, BY REVISING THE AMOUNTS ESTIMATED IN THE PUBLIC ACCESS, OPEN SPACE, NATURAL RESOURCES PRESERVATION FUND—CIP&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-07-24&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2708"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2923/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2923 (Kauaʻi) — In Committee</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2712"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING ORDINANCE B-2024-896 AS AMENDED, RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2024 THROUGH JUNE 30, 2025, BY REVISING THE AMOUNTS ESTIMATED IN THE PUBLIC ACCESS, OPEN SPACE, NATURAL RESOURCES PRESERVATION FUND&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-07-31&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2712"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2927/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2927 (Kauaʻi) — On agenda 2024-09-04</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2729"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AUTHORIZING THE ISSUANCE OF GENERAL OBLIGATION REFUNDING BONDS OF THE COUNTY OF KAUA‘I FOR THE PURPOSE OF REFUNDING CERTAIN OUTSTANDING GENERAL OBLIGATION BONDS; FIXING OR AUTHORIZING THE FIXING OF THE FORM, DENOMINATIONS, AND CERTAIN OTHER DETAILS OF SUCH REFUNDING BONDS AND PROVIDING FOR THE SALE OF SUCH BONDS TO THE PUBLIC; PROVIDING FOR THE RETIREMENT OF THE BONDS TO BE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-09-04&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2729"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

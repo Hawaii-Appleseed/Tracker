@@ -2,478 +2,486 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:dtomkatsu.github.io,2026:feeds/subject-affordable_housing.xml</id>
   <title>Bill Tracker — Affordable Housing bills</title>
-  <updated>2026-07-27T19:23:31+00:00</updated>
+  <updated>2026-07-27T22:01:00+00:00</updated>
   <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/subject-affordable_housing.xml"/>
   <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-150/2026-07-27T19:23:31+00:00</id>
-    <title>RES26-150 (Honolulu): INTRO → ZON</title>
-    <updated>2026-07-27T19:23:31+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3769"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;PROPOSING AN AMENDMENT TO CHAPTER 21, REVISED ORDINANCES OF HONOLULU 2021 (THE LAND USE ORDINANCE), RELATING TO LARGE DETACHED DWELLINGS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: INTRO → ZON&lt;/p&gt;
-&lt;p&gt;Latest action: Postponed.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3769"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2903/2026-07-27T22:01:00+00:00</id>
+    <title>New: Bill 2903 (Kauaʻi) — On agenda 2023-09-20</title>
+    <updated>2026-07-27T22:01:00+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2608"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 5A, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO REAL PROPERTY TAX (Long-Term Gap Housing Rental) 4. BN 2904.pdf&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2023-09-20&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2608"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill018-26/2026-07-27T19:23:29+00:00</id>
-    <title>BILL018(26) (Honolulu): HHP → PUBLISH</title>
-    <updated>2026-07-27T19:23:29+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3626"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO AFFORDABLE HOUSING.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Amends various development standards, building construction standards, and other requirements and benefits for affordable rental housing projects developed under ROH Chapter 32.&lt;/p&gt;
-&lt;p&gt;Status: HHP → PUBLISH&lt;/p&gt;
-&lt;p&gt;Latest action: Second reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3626"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2024-04/2026-07-27T22:00:59+00:00</id>
+    <title>New: Resolution 2024-04 (Kauaʻi) — On agenda 2024-01-18</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2641"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Urging The Hawai‘i State Legislature To Expressly Authorize Counties To Amortize Nonconforming Single-Family Transient Vacation Rentals (TVRs)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-01-18&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2641"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill024-26/2026-07-27T19:23:28+00:00</id>
-    <title>BILL024(26) (Honolulu): MAYOR → PUBLISH</title>
-    <updated>2026-07-27T19:23:28+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3649"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE ISSUANCE AND SALE OF GENERAL OBLIGATION BONDS AND BOND ANTICIPATION NOTES OF THE CITY AND COUNTY OF HONOLULU IN A MAXIMUM PRINCIPAL AMOUNT EQUAL TO THE AGGREGATE OF THE AMOUNTS APPROPRIATED IN THE CAPITAL BUDGET ORDINANCE OF SAID CITY AND COUNTY FOR THE FISCAL YEAR ENDING JUNE 30, 2027, AND SPECIFIED IN SAID ORDINANCE TO BE FINANCED FROM THE PROCEEDS OF THE SALE OF SUCH BONDS AND TO BE EXPENDED FROM THE  GENERAL IMPROVEMENT BOND FUND, THE HIGHWAY IMPROVEMENT BOND FUND, SOLID WASTE IMPROVEMENT BOND FUND, THE HOUSING DEVELOPMENT SPECIAL FUND OR THE TAXABLE GENERAL IMPROVEMENT BOND FUND.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The bill authorizes the issuance and sale of general obligation bonds and bond anticipation notes of the City and County of Honolulu in a maximum principal amount equal to the aggregate of the amounts of general obligation bonds appropriated in the capital budget ordinance for Fiscal Year 2027.&lt;/p&gt;
-&lt;p&gt;Status: MAYOR → PUBLISH&lt;/p&gt;
-&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3649"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2024-07/2026-07-27T22:00:59+00:00</id>
+    <title>New: Resolution 2024-07 (Kauaʻi) — On agenda 2024-01-31</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2647"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Supporting The Approval Of The Ka Lei Momi Kapa‘a Affordable Housing Project Pursuant To The Third Proclamation Relating To Affordable Housing Issued By The Governor Of The State Of Hawai‘i&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-01-31&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2647"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill029-26/2026-07-27T19:23:28+00:00</id>
-    <title>BILL029(26) (Honolulu): CCL → BUD</title>
-    <updated>2026-07-27T19:23:28+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3667"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Amends the requirements for filing a claim for a continued RPT exemption for low-income rental housing.&lt;/p&gt;
-&lt;p&gt;Status: CCL → BUD&lt;/p&gt;
-&lt;p&gt;Latest action: Postponed to a date and time to be determined by the Committee Chair.
-&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3667"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2024-14/2026-07-27T22:00:59+00:00</id>
+    <title>New: Resolution 2024-14 (Kauaʻi) — On agenda 2024-03-27</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2662"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Authorizing The Mayor And The Director Of Finance Of The County Of Kaua‘i To Enter Into An Intergovernmental Agreement With The State Of Hawai‘i And Department Of Health For A Loan From The State Water Pollution Control Revolving Fund For The Residential Cesspool Conversion Program (County Of Kaua‘i Residential Cesspool Conversion Program 1), Project No. RCC00KA-01&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-03-27&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2662"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill039-26/2026-07-27T19:23:27+00:00</id>
-    <title>BILL039(26) (Honolulu): Communication D-446(26) approved.</title>
-    <updated>2026-07-27T19:23:27+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3741"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE REZONING OF LAND SITUATED AT KAPOLEI AND HONOULIULI IN ʻEWA , OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Rezones certain land in the East Kapolei Neighborhood TOD Plan area and ‘Ewa.&lt;/p&gt;
-&lt;p&gt;Latest action: Communication D-446(26) approved.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3741"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2024-16/2026-07-27T22:00:59+00:00</id>
+    <title>New: Resolution 2024-16 (Kauaʻi) — On agenda 2024-04-10</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2677"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION AUTHORIZING THE FILING OF THE KAUA‘I COUNTY 2024 ACTION PLAN (COMMUNITY DEVELOPMENT BLOCK GRANT) WITH THE DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT, UNITED STATES OF AMERICA, FOR A GRANT UNDER TITLE I OF THE HOUSING AND COMMUNITY DEVELOPMENT ACT OF 1974 AND 1987 (PUBLIC LAWS 93-383 AND 100-242), AS AMENDED&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-04-10&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2677"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill038-26/2026-07-27T19:23:27+00:00</id>
-    <title>BILL038(26) (Honolulu): Communication D-445(26) approved.</title>
-    <updated>2026-07-27T19:23:27+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3740"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO TRANSIT-ORIENTED DEVELOPMENT SPECIAL DISTRICT.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Amends the LUO by expanding the TOO Special District boundaries to the East Kapolei Neighborhood TOD Plan area, adding primary design objectives and use regulations, and modifying the TOD Special District Project Classification table.&lt;/p&gt;
-&lt;p&gt;Latest action: Communication D-445(26) approved.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3740"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2915/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2915 (Kauaʻi) — On agenda 2024-05-01</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2682"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 7A, ARTICLE 5, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO HOUSING ELIGIBILITY AND SELECTION (Deferred April 17, 2024)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-05-01&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2682"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill040-26/2026-07-27T19:23:27+00:00</id>
-    <title>BILL040(26) (Honolulu): CCL → BUD</title>
-    <updated>2026-07-27T19:23:27+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3752"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Temporarily entitles the owner of certain owner-occupied condominium units to a real property tax home exemption. Applies retroactively to the tax year beginning July 1, 2025, and thereafter.&lt;/p&gt;
-&lt;p&gt;Status: CCL → BUD&lt;/p&gt;
-&lt;p&gt;Latest action: Cancelled and not considered.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3752"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2914/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2914 (Kauaʻi) — On agenda 2024-05-01</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2682"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 7A, ARTICLE 9, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO GOVERNMENT ASSISTANCE FOR WORKFORCE HOUSING (Deferred April 3, 2024)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-05-01&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2682"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill042-26/2026-07-27T19:23:27+00:00</id>
-    <title>BILL042(26) (Honolulu): INTRO → CCL</title>
-    <updated>2026-07-27T19:23:27+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3760"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO AMEND A PORTION OF THE STATE LAND USE DISTRICT BOUNDARY MAP (KAHUKU QUADRANGLE) FROM THE AGRICULTURAL DISTRICT TO THE URBAN DISTRICT FOR CERTAIN LANDS SITUATED IN THE KOʻOLAU LOA DEVELOPMENT PLAN AREA, LĀ‘IE, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: INTRO → CCL&lt;/p&gt;
-&lt;p&gt;Latest action: Passed first reading.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3760"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2925/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2925 (Kauaʻi) — On agenda 2024-09-04</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2729"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 5A, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO REAL PROPERTY TAX (Residential Leases of State-Owned Property)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-09-04&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2729"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill020-25/2026-07-27T19:23:25+00:00</id>
-    <title>BILL020(25) (Honolulu): PUBLISH → MAYOR</title>
-    <updated>2026-07-27T19:23:25+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3245"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO FUNDS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Creates a new Down Payment Loan Assistance Revolving Fund to receive and expend moneys to assist prospective homebuyers who reside in the City, do not own real property, and have an annual household income at 120 percent or below of the AMI of the City, as determined by HUD. Effective on July 1, 2025.&lt;/p&gt;
-&lt;p&gt;Status: PUBLISH → MAYOR&lt;/p&gt;
-&lt;p&gt;Latest action: Returned approved.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3245"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2933/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2933 (Kauaʻi) — On agenda 2024-10-16</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2749"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 8, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO THE COMPREHENSIVE ZONING ORDINANCE, INCLUDING MATTERS PERTAINING TO GUEST HOUSES (Kaua‘i County Council, Applicant) (ZA-2024-3 – Planning Commission Recommendation)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-10-16&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2749"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill037-25/2026-07-27T19:23:25+00:00</id>
-    <title>BILL037(25) (Honolulu): — → ZON</title>
-    <updated>2026-07-27T19:23:25+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3306"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO AMEND PORTIONS (7.292 ACRES) OF THE STATE LAND USE DISTRICT BOUNDARY MAP (HALEʻIWA QUADRANGLE) FROM THE AGRICULTURAL DISTRICT TO THE URBAN DISTRICT FOR CERTAIN LANDS SITUATED IN THE HALEʻIWA SPECIAL DISTRICT, HALEʻIWA, OAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Reclassifies certain lands in Haleʻiwa, Oahu from the State Land Use Agricultural District to the State Land Use Urban District, subject to certain conditions.&lt;/p&gt;
-&lt;p&gt;Status: — → ZON&lt;/p&gt;
-&lt;p&gt;Latest action: CR-187(26)
-Reported out for passage on third reading.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3306"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2937/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2937 (Kauaʻi) — On agenda 2025-01-16</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2789"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 8, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO ZONING DESIGNATIONS IN HANAPEPE, KAUA‘I (County of Kaua‘i Planning Department, Applicant) (ZA-2024-2)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-01-16&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2789"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-009/2026-07-27T19:23:23+00:00</id>
-    <title>New: RES24-009 (Honolulu) — CCL</title>
-    <updated>2026-07-27T19:23:23+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2805"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING EXEMPTIONS FROM CERTAIN REQUIREMENTS RELATING TO THE PĀHOA RIDGE HOUSING PROJECT IN HONOLULU, OʻAHU&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2805"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2936/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2936 (Kauaʻi) — In Committee</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2789"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 8, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO ZONING DESIGNATIONS IN WAILUA, KAUA‘I (County of Kaua‘i Planning Department, Applicant) (ZA-2024-1)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-01-16&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2789"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-023/2026-07-27T19:23:22+00:00</id>
-    <title>New: RES24-023 (Honolulu) — CCL</title>
-    <updated>2026-07-27T19:23:22+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2821"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING A CONCEPTUAL PLAN FOR AN INTERIM PLANNED DEVELOPMENT-TRANSIT PROJECT FOR THE CHINATOWN HOTEL DEVELOPMENT.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2821"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2025-20/2026-07-27T22:00:59+00:00</id>
+    <title>New: Resolution 2025-20 (Kauaʻi) — On agenda 2025-03-12</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2812"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION AUTHORIZING THE FILING OF THE KAUA‘I COUNTY 2025 ACTION PLAN (COMMUNITY DEVELOPMENT BLOCK GRANT) WITH THE DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT, UNITED STATES OF AMERICA, FOR A GRANT UNDER TITLE I OF THE HOUSING AND COMMUNITY DEVELOPMENT ACT OF 1974 AND 1987 (PUBLIC LAWS 93-383 AND 100-242), AS AMENDED&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-03-12&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2812"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-038/2026-07-27T19:23:20+00:00</id>
-    <title>New: RES24-038 (Honolulu) — CCL</title>
-    <updated>2026-07-27T19:23:20+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2838"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;GRANTING A SPECIAL MANAGEMENT AREA MAJOR PERMIT TO ALLOW FOR THE REPLACEMENT OF THE ONO VISTA CONDOMINIUM WASTEWATER TREATMENT PLANT IN WAIALUA, OʻAHU.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2838"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2944/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2944 (Kauaʻi) — In Committee</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2829"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 5A, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO REAL PROPERTY TAX (New tax classification “Long Term Affordable Rental”)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-04-09&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2829"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-045/2026-07-27T19:23:20+00:00</id>
-    <title>New: RES24-045 (Honolulu) — CCL</title>
-    <updated>2026-07-27T19:23:20+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2846"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING THE CITY AND COUNTY OF HONOLULU’S THIRTIETH (3Oth) YEAR ACTION PLAN FOR COMMUNITY DEVELOPMENT BLOCK GRANT, HOME INVESTMENT PARTNERSHIPS, EMERGENCY SOLUTIONS GRANTS AND HOUSING OPPORTUNITIES FOR PERSONS WITH AIDS PROGRAM FUNDS, AND AUTHORIZING ITS SUBMITTAL TO THE U.S. DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2846"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2947/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2947 (Kauaʻi) — On agenda 2025-04-23</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2833"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 8, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO ZONING BOUNDARIES IN ‘ELE‘ELE, KAUA‘I (County of Kaua‘i Planning Department, Applicant) (ZA-2025-1)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-04-23&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2833"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-052/2026-07-27T19:23:19+00:00</id>
-    <title>New: RES24-052 (Honolulu) — CCL</title>
-    <updated>2026-07-27T19:23:19+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2859"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;REQUESTING THAT THE CITY ADMINISTRATION PROVIDE AN UPDATE ON FISCAL YEAR 2023 AND 2024 APPROPRIATIONS FOR PROJECTS RELATING TO AFFORDABLE HOUSING AND HOMELESSNESS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2859"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2946/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2946 (Kauaʻi) — On agenda 2025-04-23</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2833"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING THE STATE LAND USE DISTRICT BOUNDARY RELATING TO A PARCEL LOCATED IN ‘ELE‘ELE, KAUA‘I (County of Kaua‘i Planning Department, Applicant) (A-2025-1)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-04-23&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2833"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-065/2026-07-27T19:23:18+00:00</id>
-    <title>New: RES24-065 (Honolulu) — CCL</title>
-    <updated>2026-07-27T19:23:18+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2881"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION EXPRESSING THE HONOLULU CITY COUNCIL'S OPPOSITION TO HOUSE BILL 1630, H.D. 1, AND SENATE BILL 3202, S.D. 2, RELATING TO URBAN DEVELOPMENT.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2881"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2945/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2945 (Kauaʻi) — In Committee</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2833"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING “KAUA‘I KAKOU – KAUA‘I COUNTY GENERAL PLAN” (2018) RELATING TO A PARCEL LOCATED IN ‘ELE‘ELE, KAUA‘I (County of Kaua‘i Planning Department, Applicant) (GPA-2025-1)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-04-23&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2833"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-073/2026-07-27T19:23:17+00:00</id>
-    <title>New: RES24-073 (Honolulu) — CCL</title>
-    <updated>2026-07-27T19:23:17+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2891"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE LEASE OF CITY PROPERTY TO STATE OF HAWAIʻI, DEPARTMENT OF HUMAN SERVICES, HOMELESS PROGRAMS OFFICE FOR SPECIAL NEEDS HOUSING UNDER SECTION 38-3.4, REVISED ORDINANCES OF HONOLULU 2021.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2891"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2968/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2968 (Kauaʻi) — On agenda 2025-08-20</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2912"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 8, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO ZONING BOUNDARIES IN MAKAWELI AND WAHIAWA, KAUA‘I (County of Kaua‘i Planning Department, Applicant) (ZA-2025-10)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-08-20&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2912"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-080/2026-07-27T19:23:17+00:00</id>
-    <title>New: RES24-080 (Honolulu) — CCL</title>
-    <updated>2026-07-27T19:23:17+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2898"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDING RESOLUTION 17-221, CD1, AS AMENDED BY RESOLUTION 20-170, CD1, AS FURTHER AMENDED BY RESOLUTION 23-272, CD1, TO FURTHER EXTEND THE DEADLINE TO OBTAIN A BUILDING PERMIT FOR AN INTERIM PLANNED DEVELOPMENT-TRANSIT PROJECT LOCATED AT 1500 KAPI‘OLANI BOULEVARD, AND TO APPROVE CERTAIN PROJECT MODIFICATIONS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2898"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2967/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2967 (Kauaʻi) — On agenda 2025-08-20</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2912"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING THE STATE LAND USE DISTRICT BOUNDARY RELATING TO A PARCEL LOCATED IN MAKAWELI, KAUA‘I (County of Kaua‘i Planning Department, Applicant) (A-2025-3) (Ka‘awanui – State Land Use Amendment)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-08-20&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2912"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-084/2026-07-27T19:23:16+00:00</id>
-    <title>New: RES24-084 (Honolulu) — FILE</title>
-    <updated>2026-07-27T19:23:16+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2902"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;PROPOSING AN AMMENDMENT TO CHAPTER 21, REVISED ORDINANCES OF HONOLULU 2021 (THE LAND USE ORDINANCE), RELATING TO TRANSIT-ORIENTED DEVELOPMENT.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2902"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2966/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2966 (Kauaʻi) — On agenda 2025-08-20</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2912"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING “KAUA‘I KAKOU – KAUA‘I COUNTY GENERAL PLAN” (2018) RELATING TO A PARCEL LOCATED IN MAKAWELI, KAUA‘I (County of Kaua‘i Planning Department, Applicant) (GPA-2025-3) (Ka‘awanui – General Plan Amendment)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-08-20&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2912"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-096/2026-07-27T19:23:14+00:00</id>
-    <title>New: RES24-096 (Honolulu) — FILE</title>
-    <updated>2026-07-27T19:23:14+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2914"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;PROPOSING AN AMENDMENT TO CHAPTER 21, REVISED ORDINANCES OF HONOLULU 2021 (THE LAND USE ORDINANCE), RELATING TO SCREENING OR BUFFERING REQUIREMENTS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2914"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2964/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2964 (Kauaʻi) — On agenda 2025-08-27</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2917"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING THE STATE LAND USE DISTRICT BOUNDARY RELATING TO A PARCEL LOCATED IN WAHIAWA, KAUA‘I (County of Kaua‘i Planning Department, Applicant) (A-2025-2) (Numila – State Land Use Amendment)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-08-27&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2917"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-110/2026-07-27T19:23:13+00:00</id>
-    <title>New: RES24-110 (Honolulu) — CCL</title>
-    <updated>2026-07-27T19:23:13+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2932"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;GRANTING A SPECIAL MANAGEMENT AREA MAJOR PERMIT TO ALLOW THE CONSTRUCTION OF A NEW SINGLE-FAMILY DWELLING WITH AN ACCESSORY DWELLING UNIT, A SWIMMING POOL, AND A GARAGE IN KĀNEʻOHE, OʻAHU.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2932"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2963/2026-07-27T22:00:59+00:00</id>
+    <title>New: Bill 2963 (Kauaʻi) — On agenda 2025-08-27</title>
+    <updated>2026-07-27T22:00:59+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2917"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING “KAUA‘I KAKOU – KAUA‘I COUNTY GENERAL PLAN” (2018) RELATING TO A PARCEL LOCATED IN WAHIAWA, KAUA‘I (County of Kaua‘i Planning Department, Applicant) (GPA-2025-2) (Numila – General Plan Amendment)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-08-27&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2917"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-116/2026-07-27T19:23:12+00:00</id>
-    <title>New: RES24-116 (Honolulu) — FILE</title>
-    <updated>2026-07-27T19:23:12+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2939"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;INITIATING AMENDMENTS TO THE REVISED CHARTER OF THE CITY AND COUNTY OF HONOLULU 1973 (AMENDED 2017 EDITION), AS AMENDED, RELATING TO HOMELESSNESS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2939"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-194-2024-2026/2026-07-27T21:55:08+00:00</id>
+    <title>New: Bill 194 (2024-2026) (Hawaiʻi County) — On agenda 2025-02-18</title>
+    <updated>2026-07-27T21:55:08+00:00</updated>
+    <link rel="alternate" href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;clip_id=3310"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 25, ARTICLES 1, 2, 4, 5, AND 7, OF THE HAWAIʻI (2022-2024) COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO TELECOMMUNICATION ANTENNAS AND TOWERS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Amends the definition of “telecommunication antenna” and adds a definition for “telecommunication tower”, expands plan approval requirements, allows for telecommunication antennas or towers in any zoning district upon approval of the Planning Director, and revises siting, design, and operating regulations to align with State law.&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-02-18&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;amp;clip_id=3310"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-120/2026-07-27T19:23:12+00:00</id>
-    <title>New: RES24-120 (Honolulu) — FILE</title>
-    <updated>2026-07-27T19:23:12+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2943"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE REPROGRAMMING OF AMERICAN RESCUE PLAN ACT OF 2021 (PUB. L. 117-2), STATE AND LOCAL FISCAL RECOVERY FUNDS PROGRAM FOR THE RENTAL AND UTILITY RELIEF PROGRAM.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2943"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-606-2024-2026/2026-07-27T21:52:37+00:00</id>
+    <title>New: Resolution 606 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 606-26 - 07/23/26</title>
+    <updated>2026-07-27T21:52:37+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132597&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO GRASSROOTS COMMUNITY DEVELOPMENT GROUP FOR EXPENSES RELATING TO THE 4THELOVE FESTIVAL&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $5,500 from the Clerk-Council Services – Contingency Relief account (Council District 5)&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 606-26 - 07/23/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132597&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-141/2026-07-27T19:23:10+00:00</id>
-    <title>New: RES24-141 (Honolulu) — CCL</title>
-    <updated>2026-07-27T19:23:10+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2972"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;PROPOSING AN AMENDMENT TO CHAPTER 21, REVISED ORDINANCES OF HONOLULU 2021 (THE LAND USE ORDINANCE), RELATING TO ADMINISTRATIVE ENFORCEMENT.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2972"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-576-2024-2026/2026-07-27T21:52:21+00:00</id>
+    <title>New: Resolution 576 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 576-26 &amp; GOEAC-137 - 06/17/26</title>
+    <updated>2026-07-27T21:52:21+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130359&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO AN INTERGOVERNMENTAL AGREEMENT WITH THE STATE OF HAWAIʻI, DEPARTMENT OF BUSINESS, ECONOMIC DEVELOPMENT, AND TOURISM, TO RECEIVE A GRANT FOR THE KONA LOW BUSINESS RECOVERY PROGRAM&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Allows for the receipt of $500,000 to be provided to eligible Hawaiʻi Island small businesses that sustained material economic or physical damage from the recent Kona Low storm.&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 576-26 &amp;amp; GOEAC-137 - 06/17/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130359&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-148/2026-07-27T19:23:09+00:00</id>
-    <title>New: RES24-148 (Honolulu) — FILE</title>
-    <updated>2026-07-27T19:23:09+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2979"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;PROPOSING AN AMENDMENT TO CHAPTER 21, REVISED ORDINANCES OF HONOLULU 2021 (THE LAND USE ORDINANCE), RELATING TO THE DEVELOPMENT STANDARDS FOR THE APARTMENT AND APARTMENT MIXED-USE DISTRICTS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2979"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-549-2024-2026/2026-07-27T21:52:08+00:00</id>
+    <title>New: Resolution 549 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 549-26 &amp; FC-148 - 05/20/26</title>
+    <updated>2026-07-27T21:52:08+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1128950&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE PAYMENT OF FUNDS FROM LATER FISCAL YEARS TO ENTER INTO A MULTI-YEAR HOUSING ASSISTANCE PAYMENT CONTRACT WITH THE PROPERTY MANAGER OF AN AFFORDABLE HOUSING PROJECT SELECTED BY THE OFFICE OF HOUSING AND COMMUNITY DEVELOPMENT FOR THE PROJECT-BASED VOUCHER PROGRAM&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Authorizes the Mayor to enter into a multi-year agreement to provide 29 vouchers for the Kinoʻole Senior Residences proposed voucher project. The estimated annual cost of the agreement would be up to $550,000, with a term of up to 20 years.&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 549-26 &amp;amp; FC-148 - 05/20/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1128950&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill003-24/2026-07-27T19:23:09+00:00</id>
-    <title>New: BILL003(24) (Honolulu) — MAYOR</title>
-    <updated>2026-07-27T19:23:09+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2811"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO INCENTIVES FOR THE CONSTRUCTION OF AFFORDABLE RENTAL HOUSING.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Amends ROH Chapter 32, Article 4, by clarifying that the grants issued under ROH Chapter 32, Article 4 are post-construction grants; clarifying and updating the eligibility criteria for the post-construction grants and specifying the grant amount an owner of a zoning lot on which is situated an affordable housing project is eligible to receive, which depends on the size of the units; updating the application requirements for the post-construction grants; clarifying and updating the process by which the DPP and the BFS must process and award the post-construction grants to eligible owners; clarifying and updating the process by which an owner who receives a post-construction grant may be subject to certain penalties and the enforcement of those penalties on the owner by the DPP; and updating the reporting requirements for post-construction grants that were awarded and the frequency of submission of those reporting requirements (every three years) by the DPP to the City Council.&lt;/p&gt;
-&lt;p&gt;Latest action: Returned approved.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2811"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-538-2024-2026/2026-07-27T21:52:03+00:00</id>
+    <title>New: Resolution 538 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 538-26 - 04/22/26</title>
+    <updated>2026-07-27T21:52:03+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1128513&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO KEAUKAHA ONE YOUTH DEVELOPMENT FOR ITS COMMUNITY HUB ACTIVATION&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $2,275 from the Clerk-Council Services – Contingency Relief account (Council District 3)&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 538-26 - 04/22/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1128513&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill014-24/2026-07-27T19:23:08+00:00</id>
-    <title>New: BILL014(24) (Honolulu) — PUBLISH</title>
-    <updated>2026-07-27T19:23:08+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2871"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE ISSUANCE AND SALE OF GENERAL OBLIGATION BONDS AND BOND ANTICIPATION NOTES OF THE CITY AND COUNTY OF HONOLULU IN A MAXIMUM PRINCIPAL AMOUNT EQUAL TO THE AGGREGATE OF THE AMOUNTS APPROPRIATED IN THE CAPITAL BUDGET ORDINANCE OF SAID CITY AND COUNTY FOR THE FISCAL YEAR ENDING JUNE 30, 2025, AND SPECIFIED IN SAID ORDINANCE TO BE FINANCED FROM THE PROCEEDS OF THE SALE OF SUCH BONDS AND TO BE EXPENDED FROM THE GENERAL IMPROVEMENT BOND FUND, THE HIGHWAY IMPROVEMENT BOND FUND, SOLID WASTE IMPROVEMENT BOND FUND, OR THE HOUSING DEVELOPMENT SPECIAL FUND.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2871"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-533-2024-2026/2026-07-27T21:52:01+00:00</id>
+    <title>New: Resolution 533 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 533-26 - 04/22/26</title>
+    <updated>2026-07-27T21:52:01+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1128459&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE GRASSROOTS COMMUNITY DEVELOPMENT GROUP FOR THE 2026 HILO LEI DAY FESTIVAL AT KALĀKAUA PARK&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $1,500 from the Clerk-Council Services – Contingency Relief account (Council District 1)&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 533-26 - 04/22/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1128459&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill019-24/2026-07-27T19:23:07+00:00</id>
-    <title>New: BILL019(24) (Honolulu) — PUBLISH</title>
-    <updated>2026-07-27T19:23:07+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2880"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO HOUSING.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Establishes a resident preference policy for City housing programs. Establish permitted rates for affordable rental housing projects. Clarify eligibility to purchase a for-sale affordable dwelling unit shall not be limited by any monthly housing payment to gross household income ratio.&lt;/p&gt;
-&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2880"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-519-2024-2026/2026-07-27T21:51:54+00:00</id>
+    <title>New: Resolution 519 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 519-26 - 04/22/26</title>
+    <updated>2026-07-27T21:51:54+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1128353&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO GRASSROOTS COMMUNITY DEVELOPMENT GROUP FOR EXPENSES RELATED TO THE 2026 HILO LEI DAY FESTIVAL&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $2,700 from the Clerk-Council Services – Contingency Relief account (Council District 2)&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 519-26 - 04/22/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1128353&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill024-24/2026-07-27T19:23:07+00:00</id>
-    <title>New: BILL024(24) (Honolulu) — PUBLISH</title>
-    <updated>2026-07-27T19:23:07+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2925"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO ADOPT THE REVISED PRIMARY URBAN CENTER DEVELOPMENT PLAN FOR THE CITY AND COUNTY OF HONOLULU.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2925"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-517-2024-2026/2026-07-27T21:51:53+00:00</id>
+    <title>New: Resolution 517 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 517-26, Draft 2; adopts GOEAC-120 - 05/05/26</title>
+    <updated>2026-07-27T21:51:53+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1129870&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO AN INTERGOVERNMENTAL AGREEMENT WITH THE UNIVERSITY OF HAWAI‘I, BIG ISLAND INVASIVE SPECIES COMMITTEE, FOR THE PURPOSE OF AWARDING GRANT FUNDS TO CONTROL AND COMBAT THE SPREAD OF INVASIVE SPECIES&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Funds in the amount of $250,000 from the Department of Research and Development would be used to support critical invasive species efforts.&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 517-26, Draft 2; adopts GOEAC-120 - 05/05/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1129870&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill031-24/2026-07-27T19:23:06+00:00</id>
-    <title>New: BILL031(24) (Honolulu) — PUBLISH</title>
-    <updated>2026-07-27T19:23:06+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2961"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO PRE-CONSTRUCTION FINANCING FOR AFFORDABLE RENTAL HOUSING.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Adds a new Article 5 to ROH Chapter 32 to establish pre-construction financing. Sets forth the criteria for eligibility for the pre-construction financing, the amount of pre-construction financing an affordable housing project is eligible to receive, the application requirements for the pre-construction financing, the process by which the DPP and the BFS must process and award the pre-construction financing to eligible owners, and the process by which an owner who receives the pre-construction financing may be subject to certain penalties and the enforcement of those penalties on the owner by the DPP. Creates a reporting requirement. Provides the DPP and the BFS with rulemaking authority.&lt;/p&gt;
-&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2961"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-498-2024-2026/2026-07-27T21:51:37+00:00</id>
+    <title>New: Resolution 498 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 498-26 &amp; GOEAC-115 - 04/22/26</title>
+    <updated>2026-07-27T21:51:37+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1127026&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO AN INTERGOVERNMENTAL AGREEMENT WITH THE STATE OF HAWAIʻI, OFFICE OF PLANNING AND SUSTAINABLE DEVELOPMENT, TO RECEIVE A GRANT FOR THE 34 RAINBOW DRIVE AFFORDABLE HOUSING PROPOSAL TO BE USED BY THE OFFICE OF HOUSING AND COMMUNITY DEVELOPMENT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Allows for the receipt of $1,000,000 in federally derived funds to be used for the planning and engineering design for roadways and utility improvements to interior areas.&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 498-26 &amp;amp; GOEAC-115 - 04/22/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1127026&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill034-24/2026-07-27T19:23:06+00:00</id>
-    <title>New: BILL034(24) (Honolulu) — PUBLISH</title>
-    <updated>2026-07-27T19:23:06+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2966"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Increases the assessed value threshold for properties to be classified as Residential A. Amends valuation tiers for properties classified as Residential A and transient vacation. Effective upon approval and applies to tax years beginning July 1, 2027, and thereafter.&lt;/p&gt;
-&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2966"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-497-2024-2026/2026-07-27T21:51:36+00:00</id>
+    <title>New: Resolution 497 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 497-26 &amp; GOEAC-114 - 04/22/26</title>
+    <updated>2026-07-27T21:51:36+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1127025&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO AN INTERGOVERNMENTAL AGREEMENT WITH THE UNITED STATES DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT TO RECEIVE GRANTS FOR ACTIVITIES AND PROJECTS IN THE 2026 ANNUAL ACTION PLAN TO BE USED BY THE OFFICE OF HOUSING AND COMMUNITY DEVELOPMENT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Allows for the receipt of $2,970,000 in federally derived funds to be used for activities and projects in the 2026 Annual Action Plan.&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 497-26 &amp;amp; GOEAC-114 - 04/22/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1127025&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-184/2026-07-27T19:23:05+00:00</id>
-    <title>New: RES23-184 (Honolulu) — CCL</title>
-    <updated>2026-07-27T19:23:05+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2645"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;GRANTING A SPECIAL MANAGEMENT AREA USE PERMIT TO ALLOW THE CONSTRUCTION OF A SINGLE-FAMILY DWELLING, ACCESSORY DWELLING UNIT, AND CARPORT AT 66-153 WALIKANAHELE ROAD AT TAX MAP KEY 6-6-005:046 IN HALEʻIWA.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2645"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-488-2024-2026/2026-07-27T21:51:32+00:00</id>
+    <title>New: Resolution 488 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 488-26 - 03/18/26</title>
+    <updated>2026-07-27T21:51:32+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1126062&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTS AN AWARD OF GRANT FUNDS FOR THE DEPARTMENT OF RESEARCH AND DEVELOPMENT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Allows for the receipt of $12,500 from Hawai‘i Community Foundation to be used for the West Hawai‘i Food Systems Network Specialist position.&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 488-26 - 03/18/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1126062&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-183/2026-07-27T19:23:05+00:00</id>
-    <title>New: RES23-183 (Honolulu) — CCL</title>
-    <updated>2026-07-27T19:23:05+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2644"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDING RESOLUTION 20-188, CD1, AS AMENDED BY RESOLUTION 22-164, CD1, TO PROVIDE AN EXEMPTION FROM CERTAIN PARK DEDICATION REQUIREMENTS FOR THE HĀLAWA VIEW APARTMENTS AFFORDABLE HOUSING PROJECT DEVELOPED PURSUANT TO § 201H-38, HAWAII REVISED STATUTES.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2644"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-477-2024-2026/2026-07-27T21:51:27+00:00</id>
+    <title>New: Resolution 477 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 477-26 - 03/04/26</title>
+    <updated>2026-07-27T21:51:27+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1125225&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE PAYMENT OF FUNDS OF LATER FISCAL YEARS TO ENTER INTO A MULTI-YEAR LEASE AGREEMENT FOR ONE MULTIFUNCTION COPY MACHINE TO BE USED BY THE DEPARTMENT OF RESEARCH AND DEVELOPMENT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Authorizes the Mayor to enter into a five-year lease agreement with an approximate monthly cost of $105, to be used by department personnel at the West Hawai‘i Civic Center.&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 477-26 - 03/04/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1125225&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-185/2026-07-27T19:23:05+00:00</id>
-    <title>New: RES23-185 (Honolulu) — CCL</title>
-    <updated>2026-07-27T19:23:05+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2646"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE CITY ADMINISTRATION TO SUPPORT THE DEVELOPMENT OF THE KOʻOLAULOA COMMUNITY RESILIENCE HUB.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2646"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-475-2024-2026/2026-07-27T21:51:26+00:00</id>
+    <title>New: Resolution 475 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 476-26, Draft 2 &amp; FC-136 - 04/22/26</title>
+    <updated>2026-07-27T21:51:26+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1126277&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES AND DIRECTS THE DIRECTOR OF FINANCE TO NEGOTIATE THE DISPOSITION OF CERTAIN REAL PROPERTY BY LEASE TO NONPROFIT ORGANIZATIONS FOR PERMANENT HOUSING PURPOSES&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Authorizes the negotiation of eight one-year leases with four one-year renewal options at an approximate annual cost of $10 for eight residential properties to be used as long-term permanent housing for underserved populations.&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 476-26, Draft 2 &amp;amp; FC-136 - 04/22/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1126277&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-188/2026-07-27T19:23:04+00:00</id>
-    <title>New: RES23-188 (Honolulu) — FILE</title>
-    <updated>2026-07-27T19:23:04+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2652"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDING RESOLUTION 17-221, CD1, AND RESOLUTION 20-170, CD1, TO EXTEND THE DEADLINE TO OBTAIN A BUILDING PERMIT FOR AN INTERIM PLANNED DEVELOPMENT-TRANSIT (IPD-T) PROJECT AT 1500 KAPIOLANI BOULEVARD.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2652"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-462-2024-2026/2026-07-27T21:51:20+00:00</id>
+    <title>New: Resolution 462 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 462-26 &amp; FC-128 - 03/04/26</title>
+    <updated>2026-07-27T21:51:20+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1124504&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES AND DIRECTS THE DIRECTOR OF FINANCE TO NEGOTIATE THE DISPOSITION OF REAL PROPERTY IDENTIFIED AS TAX MAP KEY NO. 7-4-010:044 BY LEASE TO HOPE SERVICES HAWAIʻI, INC., FOR HOMELESS ASSISTANCE PURPOSES&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Authorizes the negotiation of a one-year lease with one one-year option to renew with an approximate annual cost of $10. The property, located at 74-5593 Pawai Place, would continue to be used as an assessment center and emergency shelter for individuals who are experiencing homelessness.&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 462-26 &amp;amp; FC-128 - 03/04/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1124504&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-206/2026-07-27T19:23:02+00:00</id>
-    <title>New: RES23-206 (Honolulu) — CCL</title>
-    <updated>2026-07-27T19:23:02+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2675"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;GRANTING A SPECIAL MANAGEMENT AREA MAJOR PERMIT TO ALLOW THE NEW CONSTRUCTION OF A SINGLE-FAMILY DETACHED DWELLING AND ACCESSORY DWELLING UNIT, AND OTHER IMPROVEMENTS AT 10 KAMANI KAI PLACE, KAILUA, OAHU.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2675"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-458-2024-2026/2026-07-27T21:51:18+00:00</id>
+    <title>New: Resolution 458 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 458-26 - 02/04/26</title>
+    <updated>2026-07-27T21:51:18+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1123798&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO AN INTERGOVERNMENTAL AGREEMENT WITH THE STATE OF HAWAIʻI, DEPARTMENT OF LABOR AND INDUSTRIAL RELATIONS, TO RECEIVE A GRANT OF WORKFORCE INNOVATION AND OPPORTUNITY ACT PROGRAM FUNDS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Allows for the receipt of $1,600,000 of federally-derived funds to provide services that enhance employment opportunities, job retention, earnings, skill development, and literacy.&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 458-26 - 02/04/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1123798&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-207/2026-07-27T19:23:02+00:00</id>
-    <title>New: RES23-207 (Honolulu) — FILE</title>
-    <updated>2026-07-27T19:23:02+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2676"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;PROPOSING AN AMENDMENT TO CHAPTER 21, REVISED ORDINANCES OF HONOLULU 2021 (THE LAND USE ORDINANCE), RELATING TO THE WAIKIKI SPECIAL DISTRICT.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2676"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-452-2024-2026/2026-07-27T21:51:15+00:00</id>
+    <title>New: Resolution 452 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 452-26 - 02/04/26</title>
+    <updated>2026-07-27T21:51:15+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1123741&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO HUMANITY HALE FOR SERVICES IN HAWAIIAN ARTS AND CULTURAL EDUCATION, ABUSE PREVENTION, AND LEADERSHIP DEVELOPMENT IN KONA&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $10,000 from the Clerk-Council Services – Contingency Relief account (Council District 7)&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 452-26 - 02/04/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1123741&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-217/2026-07-27T19:23:01+00:00</id>
-    <title>New: RES23-217 (Honolulu) — CCL</title>
-    <updated>2026-07-27T19:23:01+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2690"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE ISSUANCE AND DELIVERY OF A MULTIFAMILY HOUSING REVENUE NOTE IN A PRINCIPAL AMOUNT NOT TO EXCEED $30,000,000 FOR THE PURPOSE OF MAKING A MORTGAGE LOAN TO PROVIDE FINANCING TO JHW KUHAULUA PARTNERS LP, A HAWAII LIMITED PARTNERSHIP, FOR A MULTIFAMILY RENTAL HOUSING DEVELOPMENT; DETERMINING AND PRESCRIBING CERTAIN OTHER MATTERS RELATING THERETO AND APPROVING AND AUTHORIZING RELATED ACTIONS AND THE EXECUTION AND DELIVERY OF RELATED DOCUMENTS AND AGREEMENTS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2690"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-445-2024-2026/2026-07-27T21:51:10+00:00</id>
+    <title>New: Resolution 445 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 445-26 &amp; GOEAC-92 - 02/04/26</title>
+    <updated>2026-07-27T21:51:10+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1122819&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;REQUESTS THE COUNTY AUDITOR TO CONDUCT A PERFORMANCE AUDIT OF THE USE AND EFFECTIVENESS OF REAL PROPERTY TAX REVENUES APPROPRIATED FOR HOUSING AND HOMELESSNESS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The scope of the audit includes evaluation of performance with respect to the Office of Housing and Community Development’s Strategic Roadmap, data indicators and metrics, and compliance with the County Code.&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 445-26 &amp;amp; GOEAC-92 - 02/04/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1122819&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-216/2026-07-27T19:23:01+00:00</id>
-    <title>New: RES23-216 (Honolulu) — CCL</title>
-    <updated>2026-07-27T19:23:01+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2689"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING EXEMPTIONS FROM CERTAIN REQUIREMENTS RELATING TO THE HOCKING BUILDING AFFORDABLE RENTAL PROJECT IN CHINATOWN, O’AHU.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2689"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-425-2024-2026/2026-07-27T21:51:01+00:00</id>
+    <title>New: Resolution 425 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 425-25 - 01/07/26</title>
+    <updated>2026-07-27T21:51:01+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1121616&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE BIG ISLAND RESOURCE CONSERVATION AND DEVELOPMENT COUNCIL TO ASSIST WITH EXPENSES RELATED TO THE 2026 KA‘Ū COFFEE FESTIVAL&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $5,000 from the Clerk-Council Services – Contingency Relief account (Council District 6)&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 425-25 - 01/07/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1121616&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-228/2026-07-27T19:23:00+00:00</id>
-    <title>New: RES23-228 (Honolulu) — FILE</title>
-    <updated>2026-07-27T19:23:00+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2702"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;URGING CITY AGENCIES DESIGNATED TO ENFORCE THE CITY’S BUILDING, FIRE, AND ZONING CODES TO WORK WITH THE HONOLULU POLICE DEPARTMENT IN THE GATHERING OF EVIDENCE AND SERVING OF NOTICES OF VIOLATION FOR BUILDING CODE, FIRE CODE, AND LAND USE ORDINANCE VIOLATIONS FOR PROPERTIES ON WHICH ILLEGAL GAME ROOMS ARE SITUATED.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2702"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-423-2024-2026/2026-07-27T21:51:00+00:00</id>
+    <title>New: Resolution 423 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 423-25 - 01/07/26</title>
+    <updated>2026-07-27T21:51:00+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1121612&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO ASSIST THE DEPARTMENT OF RESEARCH AND DEVELOPMENT IN PURCHASING VOLUNTEER MANAGEMENT SOFTWARE TO INITIATE ITS VOLUNTEER CENTER PROGRAM&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $5,000 from the Clerk-Council Services – Contingency Relief account (Council District 8)&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 423-25 - 01/07/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1121612&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-241/2026-07-27T19:22:59+00:00</id>
-    <title>New: RES23-241 (Honolulu) — FILE</title>
-    <updated>2026-07-27T19:22:59+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2718"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE CITY ADMINISTRATION TO ESTABLISH A WORKING GROUP TO PROVIDE RECOMMENDATIONS ON LONG-TERM EMERGENCY PREPAREDNESS FOR RESIDENTIAL HOUSING.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2718"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-397-2024-2026/2026-07-27T21:50:48+00:00</id>
+    <title>New: Resolution 397 (2024-2026) (Hawaiʻi County) — Adopted</title>
+    <updated>2026-07-27T21:50:48+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1120244&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE OFFICE OF HOUSING AND COMMUNITY DEVELOPMENT TO AWARD GRANTS FOR PROGRAMS ADDRESSING HOUSING AND HOMELESSNESS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Proposes 12 grant awards to 8 different nonprofit organizations for a total of $6,000,000 in funding derived from Residential Tier Two property tax revenues, pursuant to Section 19-90(f) of the Hawaiʻi County Code.&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 397-25 &amp;amp; FC-111 - 12/17/25&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1120244&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-253/2026-07-27T19:22:58+00:00</id>
-    <title>New: RES23-253 (Honolulu) — CCL</title>
-    <updated>2026-07-27T19:22:58+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2730"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDING RESOLUTION 18-245, CD1, FD1, AS AMENDED BY RESOLUTION 21-115, CD1, TO FURTHER EXTEND THE DEADLINE TO OBTAIN A DEVELOPMENT PERMIT FOR A RURAL COMMUNITY COMMERCIAL CENTER AND ASSOCIATED IMPROVEMENTS IN PŪPŪKEA, OʻAHU.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2730"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-395-2024-2026/2026-07-27T21:50:47+00:00</id>
+    <title>New: Resolution 395 (2024-2026) (Hawaiʻi County) — Adopted</title>
+    <updated>2026-07-27T21:50:47+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119841&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVES LEGISLATIVE PROPOSALS AND PRIORITIES FOR INCLUSION IN THE 2026 HAWAIʻI STATE ASSOCIATION OF COUNTIES LEGISLATIVE PACKAGE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Includes proposals relating to emergency medical services and opioid use disorder treatment, mixed-use development relating to housing, cesspools, Department of Education recreational facilities, the Psychology Interjurisdictional Compact, tobacco products, the repeal of amendments to Section 201H-38 relating to housing, family, firearms, gun violence prevention, water pollution, general excise tax, conveyance tax, and housing for State and County employees&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 395-25 - 11/19/25&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119841&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-272/2026-07-27T19:22:56+00:00</id>
-    <title>New: RES23-272 (Honolulu) — CCL</title>
-    <updated>2026-07-27T19:22:56+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2755"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDING RESOLUTION 17-221, CD1, AS AMENDED BY RESOLUTION 20-170, CD1, TO FURTHER EXTEND THE DEADLINE TO OBTAIN A BUILDING PERMIT FOR AN INTERIM PLANNED DEVELOPMENT-TRANSIT PROJECT LOCATED AT 1500 KAPI‘OLANI BOULEVARD.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2755"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-384-2024-2026/2026-07-27T21:50:42+00:00</id>
+    <title>New: Resolution 384 (2024-2026) (Hawaiʻi County) — Adopted</title>
+    <updated>2026-07-27T21:50:42+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119670&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE OFFICE OF HOUSING AND COMMUNITY DEVELOPMENT TO AWARD FOUR GRANTS FOR PROGRAMS ADDRESSING AFFORDABLE HOUSING&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Allows for grant awards to Hoʻomalu at Waikoloa LP ($3,000,000) for the development of affordable multi-family housing, Housing and Land Enterprise of Hawaiʻi County ($300,000) for the development of affordable single-family housing, Hawaiian Community Assets Inc ($4,100,000) for the acquisition of property, and Hawaiʻi Community Lending Inc ($790,100) for financial assistance for homeownership through deferred-payment loans.&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 384-25 &amp;amp; FC-108 - 12/03/25&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119670&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-281/2026-07-27T19:22:55+00:00</id>
-    <title>New: RES23-281 (Honolulu) — CCL</title>
-    <updated>2026-07-27T19:22:55+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2764"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING EXEMPTIONS FROM CERTAIN REQUIREMENTS RELATING TO THE WAIPAHU STREET AFFORDABLE RENTAL HOUSING PROJECT IN WAIPAHU, OʻAHU.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2764"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-382-2024-2026/2026-07-27T21:50:41+00:00</id>
+    <title>New: Resolution 382 (2024-2026) (Hawaiʻi County) — Adopted</title>
+    <updated>2026-07-27T21:50:41+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119169&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE BIG ISLAND RESOURCE CONSERVATION AND DEVELOPMENT COUNCIL TO ASSIST WITH EXPENSES RELATING TO THE 2025 HAWAI‘I ISLAND VETERANS DAY PARADE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $1,000 from the Clerk-Council Services – Contingency Relief account (Council District 7)&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopted Res. 382-25 - 11/5/2025&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119169&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-286/2026-07-27T19:22:55+00:00</id>
-    <title>New: RES23-286 (Honolulu) — CCL</title>
-    <updated>2026-07-27T19:22:55+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2770"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;CONFIRMING THE REAPPOINTMENT OF MR. KANEKAWAIOLA LINDSEY TO THE ZONING BOARD OF APPEALS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2770"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-372-2024-2026/2026-07-27T21:50:36+00:00</id>
+    <title>New: Resolution 372 (2024-2026) (Hawaiʻi County) — Adopted</title>
+    <updated>2026-07-27T21:50:36+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1118923&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE BIG ISLAND RESOURCE CONSERVATION AND DEVELOPMENT COUNCIL FOR EXPENSES RELATING TO THE 2025 HAWAI‘I ISLAND VETERANS DAY PARADE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $1,000 from the Clerk-Council Services – Contingency Relief account (Council District 3)&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopted Res. 372-25 - 11/5/2025&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1118923&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill050-23/2026-07-27T19:22:52+00:00</id>
-    <title>New: BILL050(23) (Honolulu) — PUBLISH</title>
-    <updated>2026-07-27T19:22:52+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2672"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE TRANSIT-ORIENTED DEVELOPMENT SPECIAL DISTRICT.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2672"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-366-2024-2026/2026-07-27T21:50:33+00:00</id>
+    <title>New: Resolution 366 (2024-2026) (Hawaiʻi County) — Adopted</title>
+    <updated>2026-07-27T21:50:33+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1118234&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE BIG ISLAND RESOURCE CONSERVATION AND DEVELOPMENT COUNCIL TO ASSIST WITH EXPENSES RELATING TO THE 2025 HAWAI‘I ISLAND VETERANS DAY PARADE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $1,000 from the Clerk-Council Services – Contingency Relief account (Council District 9)&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 366-25 - 10/22/25&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1118234&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:maui-reso-23-192/2026-07-27T19:06:45+00:00</id>
-    <title>New: Reso 23-192 (Maui) — Agenda Ready</title>
-    <updated>2026-07-27T19:06:45+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=13996"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;"REFERRING TO THE MAUI PLANNING COMMISSION A PROPOSED BILL RELATING TO A CONDITIONAL CHANGE IN ZONING FOR APPROXIMATELY 14,467 SQUARE FEET LOCATED AT LĀHAINĀ, MAUI, HAWAIʻI, TAX MAP KEY (4) 5-0-130:120"&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=13996"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-361-2024-2026/2026-07-27T21:50:31+00:00</id>
+    <title>New: Resolution 361 (2024-2026) (Hawaiʻi County) — Adopted</title>
+    <updated>2026-07-27T21:50:31+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1118224&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE 12 STEP OHANA CLUB OF KONA, INC., TO ASSIST WITH EXPENSES FOR ITS CLEAN AND SOBER COMMUNITY SUPPORT PROGRAM IN NORTH KONA&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $3,000 from the Clerk-Council Services – Contingency Relief account (Council District 8)&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 361-25 - 10/22/25&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1118224&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:maui-hlu-16-bill-74-2023/2026-07-27T19:06:44+00:00</id>
-    <title>New: HLU-16 Bill 74 (2023) (Maui) — Agenda Ready</title>
-    <updated>2026-07-27T19:06:44+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14011"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 22 (2024), BILL 12 (2023), AND BILL 74 (2023) RELATING TO RESIDENTIAL WORKFORCE HOUSING DEED-RESTRICTIONS
-This is a duplicate.  See Bill 22 (2024) HLU-24&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14011"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-360-2024-2026/2026-07-27T21:50:30+00:00</id>
+    <title>New: Resolution 360 (2024-2026) (Hawaiʻi County) — Adopted</title>
+    <updated>2026-07-27T21:50:30+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1118222&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO HŌLUALOA VILLAGE ‘OHANA TO ASSIST WITH EXPENSES FOR THE 23RD ANNUAL MUSIC AND LIGHT FESTIVAL&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $4,300 from the Clerk-Council Services – Contingency Relief account (Council District 8)&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 360-25 - 10/22/25&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1118222&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:maui-bill-78-2023/2026-07-27T19:06:43+00:00</id>
-    <title>New: Bill 78 (2023) (Maui) — Agenda Ready</title>
-    <updated>2026-07-27T19:06:43+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14016"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE TO ESTABLISH A NEW CHAPTER 3.50, MAUI COUNTY CODE, CREATING AN IMMIGRANT SERVICES DIVISION UNITED STATES PASSPORT APPLICATION ACCEPTANCE FACILITY REVOLVING FUND"
-
-The purpose of this bill is to establish a revolving fund for the Department of Housing and Human Concerns Immigrant Services Division's designation as a United States Passport Application Acceptance Facility.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14016"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-358-2024-2026/2026-07-27T21:50:29+00:00</id>
+    <title>New: Resolution 358 (2024-2026) (Hawaiʻi County) — Adopted</title>
+    <updated>2026-07-27T21:50:29+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1118218&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE BIG ISLAND RESOURCE CONSERVATION AND DEVELOPMENT COUNCIL TO ASSIST WITH EXPENSES RELATING TO THE 2025 HAWAI‘I ISLAND VETERANS DAY PARADE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $1,000 from the Clerk-Council Services – Contingency Relief account (Council District 5)&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 358-25 - 10/22/25&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1118218&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:maui-reso-23-193/2026-07-27T19:06:43+00:00</id>
-    <title>New: Reso 23-193 (Maui) — Agenda Ready</title>
-    <updated>2026-07-27T19:06:43+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14015"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;"APPROVING CERTAIN FINANCING STRUCTURE COMPONENTS RELATING TO THE USE OF FUNDS RECEIVED THROUGH CHAPTER 3.35, MAUI COUNTY CODE, FOR THE HALE O PIʻIKEA I AFFORDABLE HOUSING PROJECT"&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14015"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-354-2024-2026/2026-07-27T21:50:28+00:00</id>
+    <title>New: Resolution 354 (2024-2026) (Hawaiʻi County) — Adopted</title>
+    <updated>2026-07-27T21:50:28+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1118193&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE BIG ISLAND RESOURCE CONSERVATION AND DEVELOPMENT COUNCIL FOR THE 2025 HALA FESTIVAL&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $2,000 from the Clerk-Council Services – Contingency Relief account (Council District 5)&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 354-25 - 10/22/25&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1118193&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

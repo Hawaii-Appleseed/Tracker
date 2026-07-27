@@ -629,6 +629,10 @@ tbody .bill-row.open > td { background: var(--primary-bg); border-bottom-color: 
 }
 .bill-row.open .title-text { -webkit-line-clamp: unset; }
 .bill-row:hover .title-text { color: var(--primary-dark); }
+/* No agenda ever carried a title for this record (e.g. Hawaii County
+   ordinances whose title lives only in a scanned PDF) — read as absent data,
+   not a rendering bug. */
+.title-text.title-missing { font-style: italic; color: var(--text-faint); font-weight: 400; }
 .muted { color: var(--text-muted); }
 
 /* New / Updated change badges (windows keyed to the data timestamp) */

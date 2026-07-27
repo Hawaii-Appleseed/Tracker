@@ -1751,7 +1751,7 @@
       <td class="col-num" data-label="Number"><a class="bill-link" href="${escapeHtml(b.url)}" target="_blank" rel="noopener">${highlightHtml(escapeHtml(b.bill_number), state.search)}</a></td>
       <td class="col-type" data-label="Type">${escapeHtml(b.bill_type)}</td>
       <td class="col-title" data-label="Title">
-        <div class="title-line"><span class="caret" aria-hidden="true">▸</span><span class="title-text">${highlightHtml(annotate(head || fullTitle || ""), state.search)}</span>${rowBadgeHtml(b)}</div>
+        <div class="title-line"><span class="caret" aria-hidden="true">▸</span><span class="title-text${head || fullTitle ? "" : " title-missing"}">${head || fullTitle ? highlightHtml(annotate(head || fullTitle), state.search) : "No title on file — see source"}</span>${rowBadgeHtml(b)}</div>
         ${sub ? `<div class="title-preview">${highlightHtml(annotate(sub), state.search)}</div>` : ""}
       </td>
       <td class="col-subj" data-label="Subjects">${pills || '<span class="muted">—</span>'}</td>
