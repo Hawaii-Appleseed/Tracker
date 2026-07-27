@@ -32,6 +32,7 @@ def cmd_scrape(args: argparse.Namespace) -> int:
                 db_path=args.db,
                 since=_parse_date(args.since),
                 force_actions=args.refetch_actions,
+                refetch_agendas=args.refetch_agendas,
             )
         ]
     print(json.dumps(results, indent=2))
@@ -72,12 +73,13 @@ def cmd_reclassify(args: argparse.Namespace) -> int:
     with connect(args.db) as conn:
         init_schema(conn)
         rows = conn.execute(
-            "SELECT id, council, bill_number, title, raw_subject, subjects FROM bills"
+            "SELECT id, council, bill_number, title, bill_type, raw_subject, subjects "
+            "FROM bills"
         ).fetchall()
         for r in rows:
             total += 1
             old = set(json.loads(r["subjects"] or "[]"))
-            cls = classify(r["title"], r["raw_subject"])
+            cls = classify(r["title"], r["raw_subject"], r["bill_type"])
             new = set(cls.subjects)
             if new == old:
                 continue
@@ -192,6 +194,12 @@ def main(argv: list[str] | None = None) -> int:
         action="store_true",
         help="fetch action history for every bill, not just new/updated "
         "(heavier one-time backfill; single-council only)",
+    )
+    sp.add_argument(
+        "--refetch-agendas",
+        action="store_true",
+        help="re-fetch Granicus agendas already in the cache (use after "
+        "changing agenda-parsing rules; single-council only)",
     )
     sp.set_defaults(fn=cmd_scrape)
 

@@ -45,6 +45,37 @@ CREATE TABLE IF NOT EXISTS bill_actions (
   UNIQUE(bill_id, action_date, action)
 );
 
+-- Granicus agenda cache. Hawaii County and Kauai have no bill API — their
+-- inventory is reconstructed from meeting agendas. Fetching an agenda needs a
+-- headless browser, so each one is parsed once and its bill mentions kept
+-- here; the adapter then assembles the full since-window from this cache plus
+-- whatever agendas are new (or recent enough to still be amended).
+CREATE TABLE IF NOT EXISTS agenda_fetches (
+  id INTEGER PRIMARY KEY,
+  council TEXT NOT NULL,
+  agenda_url TEXT NOT NULL,
+  meeting_date TEXT,
+  fetched_at TEXT NOT NULL,
+  UNIQUE(council, agenda_url)
+);
+
+CREATE TABLE IF NOT EXISTS agenda_mentions (
+  id INTEGER PRIMARY KEY,
+  council TEXT NOT NULL,
+  agenda_url TEXT NOT NULL,
+  meeting_date TEXT,
+  bill_number TEXT NOT NULL,
+  bill_type TEXT,
+  title TEXT,
+  summary TEXT,
+  stage TEXT
+);
+
+CREATE INDEX IF NOT EXISTS idx_agenda_mentions_council
+  ON agenda_mentions(council, meeting_date);
+CREATE INDEX IF NOT EXISTS idx_agenda_mentions_url
+  ON agenda_mentions(council, agenda_url);
+
 CREATE TABLE IF NOT EXISTS runs (
   id INTEGER PRIMARY KEY,
   started_at TEXT NOT NULL,
@@ -291,6 +322,104 @@ def finish_run(
             run_id,
         ),
     )
+
+
+# An agenda can be amended up to (and shortly after) its meeting; past that
+# horizon its text is settled and a cached parse is as good as a re-fetch.
+AGENDA_FRESH_DAYS = 7
+
+
+class AgendaStore:
+    """Cache of parsed Granicus agenda mentions for one council.
+
+    `save()` records that an agenda was fetched and replaces its mentions;
+    `is_fresh()` says whether an agenda can be skipped this run; `load()`
+    returns every cached mention in a date window, shaped exactly like
+    GranicusAdapter._parse_agenda output (plus `date`/`url`), so the adapter
+    can merge cached and freshly parsed agendas identically.
+
+    `refetch=True` disables skipping — use after changing the agenda-parsing
+    rules, since only mentions (not raw agenda text) are cached.
+    """
+
+    def __init__(
+        self,
+        conn: sqlite3.Connection,
+        council: str,
+        refetch: bool = False,
+        fresh_days: int = AGENDA_FRESH_DAYS,
+    ):
+        self.conn = conn
+        self.council = council
+        self.refetch = refetch
+        self.fresh_days = fresh_days
+
+    def is_fresh(self, agenda_url: str, meeting_date: str | None) -> bool:
+        if self.refetch:
+            return False
+        if not meeting_date:  # unknown date — can't tell, re-fetch
+            return False
+        settled = (date.today() - timedelta(days=self.fresh_days)).isoformat()
+        if meeting_date >= settled:
+            return False
+        row = self.conn.execute(
+            "SELECT 1 FROM agenda_fetches WHERE council = ? AND agenda_url = ?",
+            (self.council, agenda_url),
+        ).fetchone()
+        return row is not None
+
+    def save(self, agenda_url: str, meeting_date: str | None, mentions: list[dict]) -> None:
+        self.conn.execute(
+            """
+            INSERT INTO agenda_fetches (council, agenda_url, meeting_date, fetched_at)
+            VALUES (?, ?, ?, ?)
+            ON CONFLICT(council, agenda_url) DO UPDATE SET
+              meeting_date = excluded.meeting_date, fetched_at = excluded.fetched_at
+            """,
+            (self.council, agenda_url, meeting_date or "", _now()),
+        )
+        self.conn.execute(
+            "DELETE FROM agenda_mentions WHERE council = ? AND agenda_url = ?",
+            (self.council, agenda_url),
+        )
+        self.conn.executemany(
+            """
+            INSERT INTO agenda_mentions
+              (council, agenda_url, meeting_date, bill_number, bill_type,
+               title, summary, stage)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            [
+                (
+                    self.council, agenda_url, m.get("date") or meeting_date or "",
+                    m["bill_number"], m.get("bill_type"), m.get("title"),
+                    m.get("summary"), m.get("stage"),
+                )
+                for m in mentions
+            ],
+        )
+
+    def load(self, since_iso: str | None = None) -> list[dict]:
+        q = (
+            "SELECT agenda_url, meeting_date, bill_number, bill_type, title, "
+            "       summary, stage FROM agenda_mentions WHERE council = ?"
+        )
+        params: list = [self.council]
+        if since_iso:
+            q += " AND (meeting_date = '' OR meeting_date >= ?)"
+            params.append(since_iso)
+        return [
+            {
+                "bill_number": r["bill_number"],
+                "bill_type": r["bill_type"],
+                "title": r["title"],
+                "summary": r["summary"],
+                "stage": r["stage"],
+                "date": r["meeting_date"],
+                "url": r["agenda_url"],
+            }
+            for r in self.conn.execute(q, params)
+        ]
 
 
 def last_completed_run(

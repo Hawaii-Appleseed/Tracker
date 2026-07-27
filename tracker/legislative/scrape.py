@@ -31,7 +31,19 @@ from tracker.legislative.db import (
 log = logging.getLogger(__name__)
 
 
-def _build_adapter(council: str) -> CouncilAdapter:
+def _build_adapter(
+    council: str, conn=None, refetch_agendas: bool = False
+) -> CouncilAdapter:
+    """Adapter for one council. `conn` (when given) backs an AgendaStore for
+    the Granicus-based councils, so settled agendas are fetched once and the
+    full since-window is assembled from cache — without it (e.g. in tests)
+    every agenda in the window is fetched."""
+    def _store(c: str):
+        if conn is None:
+            return None
+        from tracker.legislative.db import AgendaStore
+        return AgendaStore(conn, c, refetch=refetch_agendas)
+
     if council == "maui":
         from tracker.legislative.adapters.legistar_api import LegistarApiAdapter
         return LegistarApiAdapter(council_id="maui", tenant="mauicounty")
@@ -43,11 +55,11 @@ def _build_adapter(council: str) -> CouncilAdapter:
         # (introducer, status, dated action history); titles borrowed from
         # Granicus agendas. See adapters/laserfiche.py.
         from tracker.legislative.adapters.laserfiche import HawaiiCountyAdapter
-        return HawaiiCountyAdapter()
+        return HawaiiCountyAdapter(agenda_store=_store("hawaii"))
     if council == "kauai":
         # No bill API; bills live in Granicus meeting agendas (HTML).
         from tracker.legislative.adapters.granicus import GranicusAdapter
-        return GranicusAdapter.for_council("kauai")
+        return GranicusAdapter.for_council("kauai", agenda_store=_store("kauai"))
     raise ValueError(f"unknown council: {council}")
 
 
@@ -57,6 +69,7 @@ def scrape_council(
     since: date | None = None,
     fetch_actions: bool = True,
     force_actions: bool = False,
+    refetch_agendas: bool = False,
 ) -> dict:
     """Scrape one council, upsert into DB, return run summary.
 
@@ -69,20 +82,24 @@ def scrape_council(
     updated ones — a heavier one-time backfill (each measure is an extra
     request for adapters that fetch history per-bill). Inline-action adapters
     backfill regardless.
+
+    `refetch_agendas` re-fetches Granicus agendas the cache already holds —
+    needed after changing the agenda-parsing rules, since only parsed mentions
+    (not raw agenda text) are cached.
     """
     if since is None:
         since = date.today() - timedelta(days=DEFAULT_LOOKBACK_DAYS)
-    adapter = _build_adapter(council)
     seen = new = updated = 0
     errors: list[str] = []
 
     with connect(db_path) as conn:
         init_schema(conn)
+        adapter = _build_adapter(council, conn, refetch_agendas=refetch_agendas)
         run_id = start_run(conn, council)
         try:
             for bill in adapter.fetch_bills(since=since):
                 seen += 1
-                cls = classify(bill.title, bill.raw_subject)
+                cls = classify(bill.title, bill.raw_subject, bill.bill_type)
                 bill_id, is_new, was_updated = upsert_bill(
                     conn, bill, cls.subjects, cls.confidence
                 )

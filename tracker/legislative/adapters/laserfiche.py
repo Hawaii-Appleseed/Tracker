@@ -160,7 +160,12 @@ class HawaiiCountyAdapter(CouncilAdapter):
         min_year: int | None = None,
         categories: tuple[str, ...] | None = None,
         delay: float | None = None,
+        agenda_store=None,
     ):
+        # Passed through to the Granicus adapter this borrows titles from, so
+        # Hawaii County's ~450 in-window agendas are cached rather than
+        # re-rendered on every nightly run. See GranicusAdapter.agenda_store.
+        self.agenda_store = agenda_store
         # term_year is retained for callers that pin a term; the index itself is
         # no longer scoped to one term.
         self.term_year = term_year or date.today().year
@@ -437,7 +442,7 @@ class HawaiiCountyAdapter(CouncilAdapter):
     def _active_from_granicus(self, since: date | None) -> dict[str, BillRecord]:
         active: dict[str, BillRecord] = {}
         try:
-            gran = GranicusAdapter.for_council("hawaii")
+            gran = GranicusAdapter.for_council("hawaii", agenda_store=self.agenda_store)
             for b in gran.fetch_bills(since=since):
                 active[b.bill_number] = b
         except Exception as e:

@@ -90,6 +90,77 @@ def test_committee_name_does_not_tag_transportation():
     assert "transportation" not in c.subjects
 
 
+def test_committee_name_raw_subject_ignored():
+    # Maui's raw_subject is the referring committee's name; its keywords must
+    # not tag the committee's whole docket. The title alone still classifies.
+    c = classify(
+        "COUNTY TRANSIT BUS ADVERTISING",
+        raw_subject="Agriculture, Diversification, Environment, & Public Transportation Committee",
+    )
+    assert "food_security" not in c.subjects
+    assert "transportation" in c.subjects  # from the title, not the committee
+
+    for committee in (
+        "Housing and Land Use Committee (2025-2027)",
+        "Special Committee on Real Property Tax Reform",
+        "Kōmike Aloha ʻĀina (2025-2027)",
+        "Council of the County of Maui ",
+    ):
+        c = classify("APPROVING A SETTLEMENT AGREEMENT.", raw_subject=committee)
+        assert c.subjects == [], committee
+
+
+def test_acronyms_case_sensitive():
+    # \bGET\b etc. used to be compiled IGNORECASE, tagging the verb "get" as
+    # tax, "snap" as food_security, the name "Tod" as housing.
+    assert "tax" not in classify("Urging the administration to get moving.").subjects
+    assert "food_security" not in classify("A resolution to snap into action.").subjects
+    assert "affordable_housing" not in classify("Honoring Tod Smith for his service.").subjects
+    assert "tax" not in classify("Relating to tit-for-tat enforcement.").subjects
+    # Genuine uppercase acronyms still match.
+    assert "tax" in classify("Appropriating monies from the GET Fund.").subjects
+    assert "food_security" in classify("Supporting SNAP outreach programs.").subjects
+    assert "affordable_housing" in classify("Amending the TOD special district rules.").subjects
+
+
+def test_bike_word_boundaries():
+    # The old pattern r"\bbike|bicycle\b" parsed as (\bbike)|(bicycle\b) and
+    # matched "motorbicycle"; prefix forms like "bikeway" must still match.
+    assert "transportation" not in classify("Relating to motorbicycle racing.").subjects
+    assert "transportation" in classify("Establishing a bikeway along the highway.").subjects
+
+
+def test_bare_development_not_housing():
+    # Bare "development" was the largest false-positive source (189 bills):
+    # youth campuses, budget amendments, infrastructure plans.
+    for title in (
+        "OVERVIEW OF PROPOSED COMMUNITY RESILIENCE AND YOUTH DEVELOPMENT CAMPUS",
+        "ADOPTING A REVISION TO THE PUBLIC INFRASTRUCTURE MAP FOR THE ʻEWA DEVELOPMENT PLAN AREA.",
+    ):
+        assert "affordable_housing" not in classify(title).subjects, title
+    # Housing-meaning development compounds still count.
+    assert "affordable_housing" in classify(
+        "APPROVING A RESIDENTIAL DEVELOPMENT AGREEMENT."
+    ).subjects
+
+
+def test_non_substantive_types_unclassified():
+    # Committee reports / communications / ceremonial resolutions duplicate or
+    # aren't legislation; they carry no subjects even when keywords match.
+    title = "Recommending FIRST READING of Bill 76, relating to food trucks."
+    for bt in ("Committee Report", "Rule 7(B)", "County Communication",
+               "Ceremonial Resolution", "Direct Referral"):
+        assert classify(title, bill_type=bt).subjects == [], bt
+    # Substantive and unknown types still classify.
+    assert classify(title, bill_type="Bill").subjects
+    assert classify(title, bill_type=None).subjects
+    # The gate gets its answer from matter_class(), which fails open, so a type
+    # name no council has used yet is treated as legislation rather than
+    # silently dropped from every subject feed.
+    for unknown in ("Charter Amendment", "Initiative Petition", "Reso"):
+        assert classify(title, bill_type=unknown).subjects, unknown
+
+
 def test_gift_disclosure_unclassified():
     # Gift-acceptance disclosures carry no policy subject even though their
     # contents mention meals / transportation.

@@ -74,13 +74,21 @@ All are bounded by the 3-year retention window, not by what the source holds.
 |---|---|---|
 | Maui | `webapi.legistar.com/v1/mauicounty/` | Legistar InSite JSON API |
 | Honolulu | `hnldoc.ehawaii.gov/hnldoc` | Undocumented JSON browse endpoints + HTML measure pages for action history |
-| Hawaii County | `records.hawaiicounty.gov` (Laserfiche) + `hawaiicounty.granicus.com` | Laserfiche WebLink metadata scrape, titles borrowed from Granicus agenda PDFs |
+| Hawaii County | `records.hawaiicounty.gov` (Laserfiche) + `hawaiicounty.granicus.com` | Laserfiche WebLink 11 JSON API for metadata, titles borrowed from Granicus agenda PDFs |
 | Kauai | `kauai.granicus.com` | Granicus agenda HTML parsed via headless Chromium |
 
 Notes:
 
-- Hawaii County's Laserfiche template carries no title field (titles live only in scanned PDFs), so titles are joined in from Granicus agendas. Bills that never hit an agenda are still ingested, without a title.
+- Hawaii County and Kauai have no bill API (their Legistar tenants are unprovisioned), so their inventory comes from council meeting agendas. For Hawaii County the Laserfiche document index is the spine and agendas supply titles; Kauai is agendas only.
+- Hawaii County's Laserfiche template carries no title field (titles live only in scanned PDFs), so titles are joined in from Granicus agendas. Records that never hit an agenda are still ingested, without a title.
+- Hawaii County reuses bill and resolution numbers every council term, so its keys are term-qualified (`Bill 148 (2024-2026)`) to keep them unique and stable across a term rollover.
 - The two WAFs are inverted: Laserfiche (Barracuda) blocks headless browsers but allows plain `requests`; Granicus blocks bare HTTP but tolerates real Chromium.
 - The authoritative daily scrape runs from a local launchd job on a residential IP, **not** GitHub Actions — Hawaii County's WAF blocks datacenter IPs. See `.github/workflows/scrape.yml`.
+
+#### Agenda cache
+
+Rendering a Granicus agenda needs a headless browser, and Hawaii County has ~450 in a 3-year window — an hour of cold PDF renders. So parsed agendas are cached in the DB (`agenda_fetches` / `agenda_mentions`): each is parsed once, and a run only re-reads agendas that are new or recent enough to still be amended. The window is then assembled from cache plus fresh parses, so the result matches a cold crawl.
+
+A bill's agenda appearances double as its action history for these councils. After changing the agenda-parsing rules, re-run with `--refetch-agendas` to rebuild the cache — only parsed mentions are stored, not raw agenda text.
 
 All council bill data is public record.

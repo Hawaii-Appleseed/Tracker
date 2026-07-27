@@ -12,7 +12,7 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass
 
-from tracker.legislative import SUBJECTS
+from tracker.legislative import SUBJECTS, matter_class
 
 # Each entry is a regex pattern matched case-insensitively against
 # (title + " " + raw_subject). Use \b word boundaries; allow short
@@ -22,9 +22,7 @@ _RULES: dict[str, list[str]] = {
         r"\btax(es|ation|payer|payers)?\b",
         r"\breal property tax\b",
         r"\bproperty tax\b",
-        r"\bTAT\b",
         r"\btransient accommodations?\b",
-        r"\bGET\b",
         r"\bgeneral excise\b",
         r"\bexemption\b",
         r"\bassessment\b",
@@ -32,6 +30,8 @@ _RULES: dict[str, list[str]] = {
         r"\bfee\b",
         r"\brevenue bond\b",
         r"\bmillage\b",
+        # Real-property assessment language ("to establish valuations for ...")
+        r"\bvaluations?\b",
     ],
     "transportation": [
         r"\bbus\b",
@@ -43,7 +43,7 @@ _RULES: dict[str, list[str]] = {
         r"\bhighway\b",
         r"\bstreet\b",
         r"\btraffic\b",
-        r"\bbike|bicycle\b",
+        r"\b(?:bike\w*|bicycles?)\b",
         r"\bpedestrian\b",
         r"\bparking\b",
         r"\bferry\b",
@@ -74,14 +74,11 @@ _RULES: dict[str, list[str]] = {
         r"\bairport\b",
         r"\bfreight\b",
         r"\belectric vehicle\b",
-        r"\b(EV|vehicle) charging\b",
+        r"\bvehicle charging\b",
         r"\btraffic calming\b",
     ],
     "food_security": [
         r"\bfood\b",
-        r"\bSNAP\b",
-        r"\bWIC\b",
-        r"\bEBT\b",
         r"\bhunger\b",
         r"\bagricultur(e|al)\b",
         r"\bfarm(ing|ers?|land)?\b",
@@ -113,30 +110,31 @@ _RULES: dict[str, list[str]] = {
     "affordable_housing": [
         r"\baffordable housing\b",
         r"\bhousing\b",
-        r"\bADU\b",
-        r"\baccessory dwelling\b",
-        r"\bdwelling\b",
+        r"\baccessory dwellings?\b",
+        r"\bdwellings?\b",
         r"\bohana\b",
         r"\brent(al|s|er|ers)?\b",
         r"\bzoning\b",
+        r"\bzoned\b",
+        r"\brezon(e|es|ed|ing)\b",
         r"\bdensity\b",
-        r"\bdevelopment\b",
+        # Bare "development" was the classifier's single largest error source
+        # (youth development campuses, budget amendments, infrastructure
+        # plans); only development compounds that actually mean housing count.
+        r"\b(?:housing|residential|mixed[- ]use|unit) developments?\b",
         r"\bhomeless(ness)?\b",
         r"\bshelter\b",
-        r"\bHUD\b",
         r"\bsection 8\b",
         r"\bvoucher\b",
         r"\binclusionary\b",
-        r"\bLIHTC\b",
         r"\bworkforce housing\b",
-        r"\bTOD\b",
         r"\btransit[- ]oriented\b",
         # Land-use / planning language that carries housing & development bills
         # whose titles never say "housing" outright (the common miss).
         r"\bland use\b",
         r"\bsubdivision\b",
         r"\bgeneral plan\b",
-        r"\bresidential\b",
+        r"\bresidential(ly)?\b",
         r"\bapartment\b",
         r"\bsingle[- ]family\b",
         r"\bmulti[- ]?family\b",
@@ -150,8 +148,36 @@ _RULES: dict[str, list[str]] = {
     ],
 }
 
+# Acronyms must match case-sensitively: compiled IGNORECASE, \bGET\b matches
+# the verb "get", \bSNAP\b "snap", \bTOD\b the name "Tod", \bTAT\b "tit-for-tat".
+# (All-caps titles can still collide — "URGING ... TO GET ..." — but the corpus
+# shows only genuine hits like "(GET Fund)"; the lowercase collisions were the
+# ones actually firing.)
+_ACRONYM_RULES: dict[str, list[str]] = {
+    "tax": [
+        r"\bTAT\b",
+        r"\bGET\b",
+    ],
+    "transportation": [
+        r"\bEV\b",
+    ],
+    "food_security": [
+        r"\bSNAP\b",
+        r"\bWIC\b",
+        r"\bEBT\b",
+        r"\bDA BUX\b",
+    ],
+    "affordable_housing": [
+        r"\bADU\b",
+        r"\bHUD\b",
+        r"\bLIHTC\b",
+        r"\bTOD\b",
+    ],
+}
+
 _COMPILED: dict[str, list[re.Pattern]] = {
     subject: [re.compile(p, re.IGNORECASE) for p in patterns]
+    + [re.compile(p) for p in _ACRONYM_RULES.get(subject, [])]
     for subject, patterns in _RULES.items()
 }
 
@@ -160,13 +186,30 @@ _COMPILED: dict[str, list[re.Pattern]] = {
 # not housing policy. Don't let those generic terms alone file them under
 # affordable_housing; a stronger housing term still can.
 _SMA_RE = re.compile(r"special management area|\bSMA\b", re.IGNORECASE)
-_HOUSING_WEAK = {"dwelling", "single-family", "single family"}
+_HOUSING_WEAK = {"dwelling", "dwellings", "single-family", "single family"}
 
 # "ACCEPTING A GIFT OF ..." resolutions are HRS gift disclosures (travel, meals,
 # transportation given to councilmembers) — administrative, not policy. Their
 # contents would otherwise mis-tag them (gift of meals -> food, gift of
 # transportation -> transit), so they're left entirely unclassified.
 _GIFT_RE = re.compile(r"\baccepting a gift\b", re.IGNORECASE)
+
+# Maui's raw_subject is the referring committee's name (Legistar
+# MatterBodyName), so keywords in a committee name would tag that committee's
+# ENTIRE docket: "Agriculture, ... & Public Transportation Committee" ->
+# food_security, "Housing and Land Use Committee" -> affordable_housing,
+# "Special Committee on Real Property Tax Reform" -> tax. A raw_subject that
+# is a bare committee/body name carries no signal about the measure itself —
+# drop it and classify on the title alone.
+_COMMITTEE_NAME_RE = re.compile(
+    r"^\s*(?:"
+    r".*\bcommittee\s*(?:\(\d{4}\s*[-–]\s*\d{4}\))?"   # "... Committee (2025-2027)"
+    r"|(?:special\s+)?committee\s+on\b.*"              # "Special Committee on ..."
+    r"|kōmike\b.*"                                     # "Kōmike Aloha ʻĀina"
+    r"|council of the county\b.*"                      # "Council of the County of Maui"
+    r")\s*$",
+    re.IGNORECASE,
+)
 
 
 @dataclass
@@ -176,12 +219,36 @@ class Classification:
     matched_terms: dict[str, list[str]]
 
 
-def classify(title: str | None, raw_subject: str | None = None) -> Classification:
+def classify(
+    title: str | None,
+    raw_subject: str | None = None,
+    bill_type: str | None = None,
+) -> Classification:
     """Classify a bill into 0..N subject areas.
 
-    confidence = (total distinct subject hits) / (number of subject categories),
-    a coarse signal — high means multiple categories matched, low means just one.
+    confidence = (matched terms) / (words in the matched-against text), capped
+    at 1.0 — a coarse density signal, not a probability.
     """
+    # Only substantive measures carry policy subjects. Committee reports and
+    # referrals duplicate the underlying bill (a CR "recommending FIRST READING
+    # of Bill 76" would inherit Bill 76's tags alongside Bill 76 itself);
+    # Rule 7(B) items are committee discussions, communications are
+    # administrative, and ceremonial resolutions are honors. None of them
+    # belong in subject feeds.
+    #
+    # The test is matter_class() — the same bucketing the store column and the
+    # dashboard's Records filter use — rather than a second list of type names
+    # kept in step by hand. It also fails open: an unrecognized type buckets as
+    # legislation, so a source reporting an unusual type name can't silently
+    # lose its bills from every subject feed.
+    if matter_class(bill_type) != "legislation":
+        return Classification(subjects=[], confidence=0.0, matched_terms={})
+
+    # A raw_subject that is just a committee/body name says which committee a
+    # measure sits in, not what it does — it must not feed the keyword match.
+    if raw_subject and _COMMITTEE_NAME_RE.match(raw_subject):
+        raw_subject = None
+
     haystack = " ".join(p for p in (title, raw_subject) if p)
     if not haystack.strip():
         return Classification(subjects=[], confidence=0.0, matched_terms={})

@@ -458,3 +458,78 @@ def test_agenda_dedupe_key_ignores_the_publisher_view():
     a = "https://h.granicus.com/AgendaViewer.php?view_id=1&clip_id=3785"
     b = "https://h.granicus.com/AgendaViewer.php?view_id=2&clip_id=3785"
     assert _CLIP_ID_RE.search(a).group(1) == _CLIP_ID_RE.search(b).group(1) == "3785"
+# --- fetch_bills: agenda-trail action history + agenda cache ------------------
+
+_FIRST = (
+    "2026-05-13", "http://x/a1",
+    "BILLS FOR FIRST READING Bill No. 2988 A BILL FOR AN ORDINANCE RELATING "
+    "TO THE OPERATING BUDGET OF THE COUNTY OF KAUAI",
+)
+_SECOND = (
+    "2026-05-27", "http://x/a2",
+    "BILLS FOR SECOND READING Bill No. 2988 A BILL FOR AN ORDINANCE RELATING "
+    "TO THE OPERATING BUDGET OF THE COUNTY OF KAUAI, AS AMENDED",
+)
+
+
+class _CannedAdapter(GranicusAdapter):
+    """Kauai adapter whose agendas come from a list instead of a browser."""
+
+    def __init__(self, agendas, **kw):
+        super().__init__("kauai", "kauai.granicus.com", [2], mode="html", **kw)
+        self._agendas = agendas
+
+    def iter_raw_agendas(self, since=None):
+        yield from self._agendas
+
+
+def test_fetch_bills_builds_action_history_from_agenda_trail():
+    ad = _CannedAdapter([_SECOND, _FIRST])
+    bills = {b.bill_number: b for b in ad.fetch_bills()}
+    b = bills["Bill 2988"]
+    assert [(a.action_date, a.action) for a in b.actions] == [
+        ("2026-05-13", "First Reading"),
+        ("2026-05-27", "Second Reading"),
+    ]
+    assert b.status == "Second Reading"
+    assert b.last_action_date == "2026-05-27"
+    assert "AS AMENDED" in b.title  # longest title across meetings wins
+
+
+def test_fetch_bills_merges_cached_mentions(tmp_path):
+    # The first-reading agenda lives only in the cache (a prior run fetched
+    # it); this run fetches just the second-reading agenda. The merged record
+    # must still span both meetings, and the new agenda must land in the cache.
+    from tracker.legislative.db import AgendaStore, connect, init_schema
+
+    with connect(tmp_path / "t.db") as conn:
+        init_schema(conn)
+        store = AgendaStore(conn, "kauai")
+        prior = GranicusAdapter("kauai", "kauai.granicus.com", [2], mode="html")
+        store.save("http://x/a1", _FIRST[0], prior._parse_agenda(_FIRST[2], _FIRST[0], _FIRST[1]))
+
+        ad = _CannedAdapter([_SECOND], agenda_store=store)
+        bills = {b.bill_number: b for b in ad.fetch_bills()}
+        b = bills["Bill 2988"]
+        assert [(a.action_date, a.action) for a in b.actions] == [
+            ("2026-05-13", "First Reading"),
+            ("2026-05-27", "Second Reading"),
+        ]
+        assert b.status == "Second Reading"
+        assert {m["url"] for m in store.load()} == {"http://x/a1", "http://x/a2"}
+
+
+def test_fetch_bills_since_window_excludes_old_cached_mentions(tmp_path):
+    from datetime import date
+    from tracker.legislative.db import AgendaStore, connect, init_schema
+
+    with connect(tmp_path / "t.db") as conn:
+        init_schema(conn)
+        store = AgendaStore(conn, "kauai")
+        ad = _CannedAdapter([_SECOND, _FIRST], agenda_store=store)
+        list(ad.fetch_bills())  # populate the cache with both agendas
+
+        ad2 = _CannedAdapter([], agenda_store=store)
+        bills = {b.bill_number: b for b in ad2.fetch_bills(since=date(2026, 5, 20))}
+        b = bills["Bill 2988"]
+        assert [a.action_date for a in b.actions] == ["2026-05-27"]
