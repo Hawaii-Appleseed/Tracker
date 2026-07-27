@@ -148,8 +148,10 @@ def test_hawaii_parse_agenda_carries_summary():
     )
     recs = ad._parse_agenda(agenda, "2026-06-04", "http://x")
     by_num = {r["bill_number"]: r for r in recs}
-    assert by_num["Bill 135"]["summary"].startswith("Draft 3 includes estimated revenues")
-    assert by_num["Bill 135"]["title"].startswith("ESTABLISHES AN OPERATING BUDGET")
+    # Hawaii keys are term-qualified — numbering restarts every council term.
+    key = "Bill 135 (2024-2026)"
+    assert by_num[key]["summary"].startswith("Draft 3 includes estimated revenues")
+    assert by_num[key]["title"].startswith("ESTABLISHES AN OPERATING BUDGET")
 
 
 def test_hawaii_title_keeps_parenthetical_edition():
@@ -286,3 +288,173 @@ def test_fixture_titles_match_snapshot(fname):
     recs = ad._parse_agenda((_FIXTURES / fname).read_text(), "2026-01-01", "http://x")
     got = {r["bill_number"]: r["title"] for r in recs}
     assert got == expected.get(fname, {})
+
+
+# --- Hawaii County term qualification ----------------------------------------
+# Hawaii restarts bill/resolution numbering every two-year council term, so
+# both this adapter and the Laserfiche one key bills by (number, term).
+
+from tracker.legislative.adapters.granicus import (
+    DEFAULT_MAX_MEETINGS,
+    window_start,
+    hawaii_bill_key,
+    hawaii_term,
+    hawaii_term_for_date,
+    split_hawaii_number,
+)
+
+
+@pytest.mark.parametrize("year,month,expected", [
+    (2026, 7, "2024-2026"),    # mid-term
+    (2025, 3, "2024-2026"),    # odd year is always mid-term
+    (2024, 12, "2024-2026"),   # terms are seated the December after the election
+    (2024, 6, "2022-2024"),    # ...so earlier in that even year is the old term
+    (2025, 12, "2024-2026"),
+])
+def test_hawaii_term_boundaries(year, month, expected):
+    assert hawaii_term(year, month) == expected
+
+
+def test_hawaii_term_for_date_handles_missing_dates():
+    assert hawaii_term_for_date("2026-06-04") == "2024-2026"
+    assert hawaii_term_for_date("") is None
+    assert hawaii_term_for_date(None) is None
+
+
+def test_hawaii_bill_key_format():
+    assert hawaii_bill_key("Bill", "148", "2024-2026") == "Bill 148 (2024-2026)"
+    assert hawaii_bill_key("Bill", "0148", "2024-2026") == "Bill 148 (2024-2026)"
+    assert hawaii_bill_key("Bill", "148", None) == "Bill 148"
+
+
+def test_split_hawaii_number_strips_adoption_year():
+    # Hawaii agendas write resolutions as "Res. 585-26"; Laserfiche files that
+    # as plain RES 585 within its term.
+    assert split_hawaii_number("585-26") == "585"
+    assert split_hawaii_number("135") == "135"
+
+
+def test_hawaii_agenda_key_is_term_qualified():
+    ad = GranicusAdapter.for_council("hawaii")
+    agenda = ("BILLS FOR FIRST READING Bill 135: AMENDS CHAPTER 3 OF THE HAWAII "
+              "COUNTY CODE RELATING TO PAID PARKING FACILITIES")
+    got = [r["bill_number"] for r in ad._parse_agenda(agenda, "2022-05-01", "http://x")]
+    assert got == ["Bill 135 (2020-2022)"]
+    got = [r["bill_number"] for r in ad._parse_agenda(agenda, "2026-05-01", "http://x")]
+    assert got == ["Bill 135 (2024-2026)"]
+
+
+def test_kauai_keys_are_not_term_qualified():
+    # Kauai bill numbers run continuously and its resolutions already carry a
+    # year, so they must be left alone.
+    out = _kauai(
+        "5. Bill No. 2988 A BILL FOR AN ORDINANCE RELATING TO THE OPERATING BUDGET "
+        "(Public Hearing held on May 13, 2026)"
+    )
+    assert list(out) == ["Bill 2988"]
+
+
+# --- crawl bounds ------------------------------------------------------------
+
+def test_max_meetings_clears_a_three_year_window():
+    # The date window is the real bound; max_meetings is only a backstop. It
+    # must comfortably clear 3 years of meetings — measured 2026-07, that is
+    # ~165 agendas for Kauai and ~400 for Hawaii County (two views) — while
+    # staying well under the 1,173 / 1,591 the views list in full.
+    assert 450 <= DEFAULT_MAX_MEETINGS < 1100
+    for council in ("kauai", "hawaii"):
+        assert GranicusAdapter.for_council(council).max_meetings == DEFAULT_MAX_MEETINGS
+
+
+# --- retention window --------------------------------------------------------
+
+def test_window_start_defaults_to_the_retention_window():
+    from datetime import date, timedelta
+    from tracker.legislative.adapters.granicus import DEFAULT_WINDOW_YEARS
+    start = window_start(None)
+    assert DEFAULT_WINDOW_YEARS == 3
+    assert start.year == date.today().year - 3
+    # a real window, not the whole archive
+    assert date.today() - start < timedelta(days=3 * 366 + 2)
+
+
+def test_window_start_honours_an_explicit_since():
+    from datetime import date
+    assert window_start(date(2019, 5, 1)) == date(2019, 5, 1)
+
+
+def test_window_start_years_override():
+    from datetime import date
+    assert window_start(None, years=1).year == date.today().year - 1
+
+
+def test_max_meetings_and_delay_are_overridable():
+    ad = GranicusAdapter.for_council("kauai", max_meetings=5, delay=0)
+    assert ad.max_meetings == 5 and ad.delay == 0
+
+
+# --- agenda transport --------------------------------------------------------
+
+class _FakePage:
+    def __init__(self, fail): self.fail = fail
+    def goto(self, *a, **kw):
+        if self.fail:
+            raise RuntimeError("Page.goto: Download is starting")
+    def wait_for_timeout(self, *a): pass
+    def inner_text(self, *a): return "HTML AGENDA TEXT"
+
+
+class _FakeCtx:
+    """Stands in for playwright's request context; returns a one-page PDF."""
+    def __init__(self, body): self.request = self; self._body = body
+    def get(self, *a, **kw): return self
+    def body(self): return self._body
+
+
+def test_html_mode_falls_back_to_pdf_when_navigation_downloads():
+    # Older Kauai agendas are served as PDF downloads; page.goto aborts on them.
+    ad = GranicusAdapter.for_council("kauai")
+    ad._pdf_text = staticmethod(lambda ctx, url: "PDF AGENDA TEXT")
+    assert ad._agenda_text(None, _FakePage(fail=True), "http://x") == "PDF AGENDA TEXT"
+    # the HTML path is still preferred when navigation works
+    assert ad._agenda_text(None, _FakePage(fail=False), "http://x") == "HTML AGENDA TEXT"
+
+
+def test_html_mode_reraises_navigation_error_when_not_a_pdf():
+    ad = GranicusAdapter.for_council("kauai")
+    ad._pdf_text = staticmethod(lambda ctx, url: "")
+    with pytest.raises(RuntimeError, match="Download is starting"):
+        ad._agenda_text(None, _FakePage(fail=True), "http://x")
+
+
+def test_pdf_text_ignores_non_pdf_bodies():
+    assert GranicusAdapter._pdf_text(_FakeCtx(b"<html>nope</html>"), "http://x") == ""
+
+
+def test_hawaii_abbreviated_resolution_is_matched():
+    # Hawaii County agendas write resolutions as "Res. 556-26: <TITLE>". Missing
+    # this form left that council's resolutions entirely without titles.
+    ad = GranicusAdapter.for_council("hawaii")
+    agenda = ("Res. 556-26: AUTHORIZES THE MAYOR TO ENTER INTO AN INTERGOVERNMENTAL "
+              "AGREEMENT WITH THE UNITED STATES POSTAL INSPECTION SERVICE")
+    out = {r["bill_number"]: r["title"] for r in ad._parse_agenda(agenda, "2026-06-03", "http://x")}
+    # the "-26" is the adoption year, not part of the number, and the key is
+    # term-qualified so it lines up with the Laserfiche index
+    assert list(out) == ["Resolution 556 (2024-2026)"]
+    assert out["Resolution 556 (2024-2026)"].startswith("AUTHORIZES THE MAYOR")
+
+
+def test_bare_res_without_period_is_not_matched():
+    # "Res" without a period is too easy to hit inside other text.
+    ad = GranicusAdapter.for_council("hawaii")
+    agenda = "The Res 556 reference AUTHORIZES NOTHING AND RELATES TO NOTHING AT ALL"
+    assert ad._parse_agenda(agenda, "2026-06-03", "http://x") == []
+
+
+def test_agenda_dedupe_key_ignores_the_publisher_view():
+    # Hawaii County lists the same meeting under two views, each linking the
+    # agenda with its own view_id. Deduping on the URL fetches each twice.
+    from tracker.legislative.adapters.granicus import _CLIP_ID_RE
+    a = "https://h.granicus.com/AgendaViewer.php?view_id=1&clip_id=3785"
+    b = "https://h.granicus.com/AgendaViewer.php?view_id=2&clip_id=3785"
+    assert _CLIP_ID_RE.search(a).group(1) == _CLIP_ID_RE.search(b).group(1) == "3785"

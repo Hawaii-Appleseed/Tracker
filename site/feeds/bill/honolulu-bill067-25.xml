@@ -2,17 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:dtomkatsu.github.io,2026:feeds/bill/honolulu-bill067-25.xml</id>
   <title>BILL067(25) — Honolulu</title>
-  <updated>2026-06-01T20:41:04+00:00</updated>
+  <updated>2026-07-27T19:23:25+00:00</updated>
   <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/honolulu-bill067-25.xml"/>
   <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill067-25/2026-06-01T20:41:04+00:00</id>
-    <title>New: BILL067(25) (Honolulu) — CCL</title>
-    <updated>2026-06-01T20:41:04+00:00</updated>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill067-25/2026-07-27T19:23:25+00:00</id>
+    <title>BILL067(25) (Honolulu): CCL → BUD</title>
+    <updated>2026-07-27T19:23:25+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3531"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Establishes a valuation cap (either 2 percent of the preceding tax year’s assessed value of the real property or the rate of inflation per year, whichever is lower) for real property owned and occupied by a taxpayer 65 years or age or older. Specifies certain exceptions to the valuation cap. Effective for tax years beginning July 1, 2027.&lt;/p&gt;
-&lt;p&gt;Latest action: Passed first reading.&lt;/p&gt;
+&lt;p&gt;Status: CCL → BUD&lt;/p&gt;
+&lt;p&gt;Latest action: Postponed to a date and time to be determined by the Committee Chair.
+&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3531"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

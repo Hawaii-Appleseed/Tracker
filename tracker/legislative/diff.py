@@ -33,16 +33,22 @@ def diff_since(
             else:
                 cutoff = "1970-01-01T00:00:00+00:00"
 
+        # Alerts stay scoped to legislation. The store also holds county
+        # communications, committee reports and minutes so they're searchable,
+        # but Maui alone files dozens a week — routing those to Slack would
+        # bury the bill movement the alert exists to surface.
         new_rows = conn.execute(
             "SELECT council, bill_number, title, status, url, subjects, "
             "       introduced_date, first_seen "
-            "FROM bills WHERE first_seen > ? ORDER BY first_seen DESC",
+            "FROM bills WHERE first_seen > ? AND matter_class = 'legislation' "
+            "ORDER BY first_seen DESC",
             (cutoff,),
         ).fetchall()
         updated_rows = conn.execute(
             "SELECT council, bill_number, title, status, last_action, "
             "       last_action_date, url, subjects, last_updated, first_seen "
             "FROM bills WHERE last_updated > ? AND first_seen <= ? "
+            "  AND matter_class = 'legislation' "
             "ORDER BY last_updated DESC",
             (cutoff, cutoff),
         ).fetchall()

@@ -2,17 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:dtomkatsu.github.io,2026:feeds/bill/honolulu-bill019-26.xml</id>
   <title>BILL019(26) — Honolulu</title>
-  <updated>2026-05-30T07:33:27+00:00</updated>
+  <updated>2026-07-27T19:23:29+00:00</updated>
   <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/honolulu-bill019-26.xml"/>
   <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill019-26/2026-05-30T07:33:27+00:00</id>
-    <title>New: BILL019(26) (Honolulu) — CCL</title>
-    <updated>2026-05-30T07:33:27+00:00</updated>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill019-26/2026-07-27T19:23:29+00:00</id>
+    <title>BILL019(26) (Honolulu): CCL → HHP</title>
+    <updated>2026-07-27T19:23:29+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3630"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE BUILDING CODE.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Amends the City’s Building Code to address temporary certificates of occupancy.&lt;/p&gt;
-&lt;p&gt;Latest action: Passed first reading.&lt;/p&gt;
+&lt;p&gt;Status: CCL → HHP&lt;/p&gt;
+&lt;p&gt;Latest action: Cancelled and not considered.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3630"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

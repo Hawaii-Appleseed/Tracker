@@ -26,15 +26,6 @@ log = logging.getLogger(__name__)
 API_BASE = "https://webapi.legistar.com/v1"
 WEB_BASE = "https://{tenant}.legistar.com"
 
-# Excluded matter types — administrative noise that's not a substantive bill/resolution.
-# Tune as needed; better to over-include and filter on the dashboard than to silently drop.
-_EXCLUDED_TYPES = {
-    "Comments from the Public",
-    "Communications",
-    "Minutes",
-    "Public Hearing Notice",
-}
-
 
 def _to_iso_date(s: str | None) -> str | None:
     if not s:
@@ -63,6 +54,10 @@ class LegistarApiAdapter(CouncilAdapter):
         self.session.headers.setdefault(
             "User-Agent", "Tracker/0.1 (+https://github.com/dtomkatsu/Tracker)"
         )
+        # MatterFile -> MatterId, filled as fetch_bills yields. fetch_actions
+        # would otherwise spend a whole extra request per bill re-looking-up an
+        # id we already had — which doubles the cost of a full backfill.
+        self._matter_ids: dict[str, int] = {}
 
     def _matter_url(self, matter_id: int) -> str:
         # Gateway.aspx?M=L&ID={MatterId} is the public legislation permalink.
@@ -82,7 +77,13 @@ class LegistarApiAdapter(CouncilAdapter):
             last_action=None,
             last_action_date=None,
             url=self._matter_url(m["MatterId"]),
-            raw_subject=m.get("MatterBodyName"),
+            # Legistar carries no summary field for this tenant — MatterTitle is
+            # the whole description. MatterBodyName is the *referring committee*
+            # ("…and Public Transportation Committee"), so it goes to `committee`
+            # and is deliberately kept out of raw_subject: as subject text it
+            # tagged every bill routed through that committee as transit.
+            raw_subject=None,
+            committee=m.get("MatterBodyName"),
         )
 
     def fetch_bills(self, since: date | None = None) -> Iterator[BillRecord]:
@@ -106,33 +107,43 @@ class LegistarApiAdapter(CouncilAdapter):
             for m in page:
                 if m.get("MatterRestrictViewViaWeb"):
                     continue
-                if m.get("MatterTypeName") in _EXCLUDED_TYPES:
-                    continue
                 if not m.get("MatterFile"):
                     continue
-                yield self._to_bill(m)
+                # Every matter type is ingested — communications and committee
+                # reports are real records people search for. They're bucketed
+                # by matter_class so the dashboard can default to legislation
+                # instead of dropping them here.
+                bill = self._to_bill(m)
+                self._matter_ids[bill.bill_number] = m["MatterId"]
+                yield bill
             if len(page) < self.page_size:
                 return
             skip += self.page_size
 
     def fetch_actions(self, bill_number: str) -> Iterator[ActionRecord]:
-        """Fetch action history for a bill via MatterHistories endpoint.
+        """Fetch action history for a bill via the MatterHistories endpoint.
 
-        Two-step: look up MatterId by MatterFile, then fetch histories.
+        Uses the MatterId cached by fetch_bills; only falls back to a lookup by
+        MatterFile when this bill wasn't seen in this process (e.g. an actions
+        refetch without a preceding scrape).
         """
-        url = f"{API_BASE}/{self.tenant}/Matters"
-        params = {
-            "$filter": f"MatterFile eq '{bill_number}'",
-            "$top": 1,
-            "$select": "MatterId",
-        }
         try:
-            r = self.session.get(url, params=params, timeout=self.timeout)
-            r.raise_for_status()
-            matches = r.json()
-            if not matches:
-                return
-            matter_id = matches[0]["MatterId"]
+            matter_id = self._matter_ids.get(bill_number)
+            if matter_id is None:
+                r = self.session.get(
+                    f"{API_BASE}/{self.tenant}/Matters",
+                    params={
+                        "$filter": f"MatterFile eq '{bill_number}'",
+                        "$top": 1,
+                        "$select": "MatterId",
+                    },
+                    timeout=self.timeout,
+                )
+                r.raise_for_status()
+                matches = r.json()
+                if not matches:
+                    return
+                matter_id = matches[0]["MatterId"]
             hist_url = (
                 f"{API_BASE}/{self.tenant}/Matters/{matter_id}/Histories"
             )

@@ -42,6 +42,11 @@ _TYPE_LABEL = {
     "RESOLUTION": "Resolution",
 }
 
+# hnldoc's browse index begins at 2017 — 2016 and earlier return an empty
+# result set rather than an error (probed 2026-07-27). A full backfill starts
+# here instead of walking back through years that can never return anything.
+EARLIEST_YEAR = 2017
+
 
 def _epoch_ms_to_iso(ms: int | None) -> str | None:
     if not ms:
@@ -140,7 +145,10 @@ class HonoluluAdapter(CouncilAdapter):
         )
 
     def fetch_bills(self, since: date | None = None) -> Iterator[BillRecord]:
-        start_year = since.year if since else date.today().year
+        # since=None means "everything available", not "this year" — the browse
+        # endpoint is queried a year at a time, so a full backfill walks from
+        # the first year hnldoc holds.
+        start_year = since.year if since else EARLIEST_YEAR
         end_year = date.today().year
         for year in range(start_year, end_year + 1):
             for kind in ("bills", "resolutions"):

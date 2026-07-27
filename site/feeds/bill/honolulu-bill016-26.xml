@@ -2,17 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:dtomkatsu.github.io,2026:feeds/bill/honolulu-bill016-26.xml</id>
   <title>BILL016(26) — Honolulu</title>
-  <updated>2026-05-30T07:33:27+00:00</updated>
+  <updated>2026-07-27T19:23:29+00:00</updated>
   <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/honolulu-bill016-26.xml"/>
   <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill016-26/2026-05-30T07:33:27+00:00</id>
-    <title>New: BILL016(26) (Honolulu) — CCL</title>
-    <updated>2026-05-30T07:33:27+00:00</updated>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill016-26/2026-07-27T19:23:29+00:00</id>
+    <title>BILL016(26) (Honolulu): CCL → ILA</title>
+    <updated>2026-07-27T19:23:29+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3606"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE REGULATION OF DOGS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Requires the CSD Director or the head of the City agency designated by the Mayor to require the animal control contractor to enforce the provisions contained in ROH Chapter 12, Article 4. Increases existing criminal fines and establishes new civil fines.&lt;/p&gt;
-&lt;p&gt;Latest action: Passed first reading.&lt;/p&gt;
+&lt;p&gt;Provides that it is unlawful for an owner of a dog to allow the dog to become, or fail to reasonably prevent the dog from becoming, a stray. Requires the CSD Director or the head of the City agency designated by the Mayor to require the animal control contractor to enforce the provisions contained in ROH Chapter 12, Article 4. Increases existing criminal fines and establishes new civil fines.&lt;/p&gt;
+&lt;p&gt;Status: CCL → ILA&lt;/p&gt;
+&lt;p&gt;Latest action: CR-204(26)
+Reported out for passage on second reading and scheduling of a public hearing as amended in CD1 form.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3606"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

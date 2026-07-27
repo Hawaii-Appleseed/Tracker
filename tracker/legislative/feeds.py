@@ -135,12 +135,17 @@ def build_feeds(db_path: Path = DEFAULT_DB, site_dir: Path | None = None) -> int
                    b.council, b.bill_number, b.title, b.raw_subject,
                    b.url, b.subjects
             FROM bill_changes c JOIN bills b ON b.id = c.bill_id
+            WHERE b.matter_class = 'legislation'
             ORDER BY c.changed_at DESC, c.id DESC
             """
         )]
+        # Feeds cover legislation only. Communications and committee reports are
+        # ingested and searchable on the site, but subscribing to every Maui
+        # committee report would make these feeds unreadable.
         bills = [dict(r) for r in conn.execute(
             "SELECT council, bill_number, title, raw_subject, url, status, "
-            "       last_action, last_updated FROM bills"
+            "       last_action, last_updated FROM bills "
+            "WHERE matter_class = 'legislation'"
         )]
 
     written = 0

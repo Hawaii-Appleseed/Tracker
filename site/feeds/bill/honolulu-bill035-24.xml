@@ -2,17 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:dtomkatsu.github.io,2026:feeds/bill/honolulu-bill035-24.xml</id>
   <title>BILL035(24) — Honolulu</title>
-  <updated>2026-06-01T20:41:03+00:00</updated>
+  <updated>2026-07-27T19:23:05+00:00</updated>
   <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/honolulu-bill035-24.xml"/>
   <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill035-24/2026-06-01T20:41:03+00:00</id>
-    <title>New: BILL035(24) (Honolulu) — Councilmember Nishimoto took office on January 2, 2025.</title>
-    <updated>2026-06-01T20:41:03+00:00</updated>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill035-24/2026-07-27T19:23:05+00:00</id>
+    <title>BILL035(24) (Honolulu): — → FILE</title>
+    <updated>2026-07-27T19:23:05+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2991"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO INTERGOVERNMENTAL AGREEMENTS.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Requires one-third of CDBG funds to be awarded to nonprofit organizations for acquisition projects.&lt;/p&gt;
-&lt;p&gt;Latest action: Councilmember Nishimoto took office on January 2, 2025.&lt;/p&gt;
+&lt;p&gt;Status: — → FILE&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2991"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

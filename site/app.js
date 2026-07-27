@@ -11,6 +11,173 @@
     food_security: "Food Security",
     affordable_housing: "Affordable Housing",
   };
+  const MATTER_CLASS_LABEL = {
+    legislation: "Bills & resolutions",
+    communication: "Communications",
+    procedural: "Procedural",
+  };
+
+  // ---- Search ---------------------------------------------------------------
+  // A field-weighted inverted index over the whole corpus, built once per
+  // ingest. It replaces a substring test against one concatenated haystack,
+  // which could not do multi-term queries ("maui housing"), rank results, or
+  // match a word still being typed.
+  //
+  // Hawaiian orthography is folded before indexing, so "Kauai", "Kaua'i" and
+  // "Kauaʻi" are one token and a macron never hides a match.
+
+  const SEARCH_FIELDS = [
+    ["bill_number", 12],
+    ["title", 6],
+    ["introducer", 3],
+    ["raw_subject", 2],
+    ["last_action", 1],
+    ["committee", 1],
+    ["status", 1],
+  ];
+  const SUBJECT_TOKEN_WEIGHT = 2;
+  const PHRASE_SCORE = 25;
+  // Vowels that a folded query character should still match in display text,
+  // so highlighting survives the same folding the index applied.
+  const FOLD_VARIANTS = { a: "aā", e: "eē", i: "iī", o: "oō", u: "uū" };
+  const OKINA_CLASS = "[\\u02bb\\u02bc\\u2018\\u2019']";
+
+  function fold(s) {
+    return (s || "")
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[̀-ͯ]/g, "")              // macrons & other diacritics
+      .replace(/[ʻʼ‘’']/g, ""); // ʻokina & apostrophes
+  }
+  function tokenize(s) {
+    return fold(s).match(/[a-z0-9]+/g) || [];
+  }
+
+  // Repeats count for something, but with sharply diminishing returns: a term
+  // appearing 10 times in one field is worth 1.5x one mention, not 10x. Without
+  // this, field weights stop meaning anything on long text.
+  function tfBoost(n) {
+    return 1 + Math.min(n - 1, 2) * 0.25;
+  }
+
+  const searchIndex = { postings: new Map(), tokens: [], blobs: [] };
+
+  function buildSearchIndex(bills) {
+    const postings = new Map();
+    const blobs = new Array(bills.length);
+    const add = (tok, i, w) => {
+      let p = postings.get(tok);
+      if (!p) postings.set(tok, (p = new Map()));
+      p.set(i, (p.get(i) || 0) + w);
+    };
+    for (let i = 0; i < bills.length; i++) {
+      const b = bills[i];
+      b._idx = i;
+      const parts = [];
+      for (const [field, weight] of SEARCH_FIELDS) {
+        const val = b[field];
+        if (!val) continue;
+        parts.push(val);
+        // Count occurrences first, then contribute once per distinct token with
+        // saturating term frequency. Adding weight per occurrence let a long
+        // summary that repeats "housing" outrank a bill with it in the title.
+        const tf = new Map();
+        for (const tok of tokenize(val)) tf.set(tok, (tf.get(tok) || 0) + 1);
+        for (const [tok, n] of tf) add(tok, i, weight * tfBoost(n));
+      }
+      // Subject tags are labels, not prose: indexing them lets "housing" find a
+      // bill tagged Affordable Housing whose title never says the word — but at
+      // a low weight, so a real title match always wins.
+      for (const s of b.subjects || []) {
+        for (const tok of new Set(tokenize(SUBJECT_LABEL[s] || s))) {
+          add(tok, i, SUBJECT_TOKEN_WEIGHT);
+        }
+      }
+      blobs[i] = fold(parts.join(" "));
+    }
+    searchIndex.postings = postings;
+    searchIndex.tokens = [...postings.keys()].sort();
+    searchIndex.blobs = blobs;
+  }
+
+  // Every indexed token starting with `pre`, found by binary search.
+  function prefixMatches(pre) {
+    const toks = searchIndex.tokens;
+    let lo = 0, hi = toks.length;
+    while (lo < hi) {
+      const mid = (lo + hi) >> 1;
+      if (toks[mid] < pre) lo = mid + 1; else hi = mid;
+    }
+    const out = [];
+    for (let i = lo; i < toks.length && toks[i].startsWith(pre); i++) out.push(toks[i]);
+    return out;
+  }
+
+  // "quoted text" must appear verbatim; bare words are ANDed together.
+  function parseQuery(raw) {
+    const phrases = [];
+    const rest = fold(raw).replace(/"([^"]*)"/g, (_, p) => {
+      const t = p.trim();
+      if (t) phrases.push(t);
+      return " ";
+    });
+    return { phrases, terms: rest.match(/[a-z0-9]+/g) || [] };
+  }
+
+  // Map(billIndex -> score) for a query, or null when the query is empty.
+  function searchScores(raw) {
+    const { phrases, terms } = parseQuery(raw);
+    if (!phrases.length && !terms.length) return null;
+
+    let acc = null;
+    const intersect = (hits) => {
+      if (acc === null) { acc = hits; return; }
+      const next = new Map();
+      for (const [i, s] of hits) {
+        const prev = acc.get(i);
+        if (prev !== undefined) next.set(i, prev + s);
+      }
+      acc = next;
+    };
+
+    terms.forEach((term, n) => {
+      const hits = new Map();
+      const exact = searchIndex.postings.get(term);
+      if (exact) for (const [i, w] of exact) hits.set(i, w * 2); // exact beats prefix
+      // Only the final word expands by prefix — it's the one still being typed.
+      // Expanding earlier words too would keep "tax bill" matching "taxonomy
+      // billing" long after the reader moved past it.
+      if (n === terms.length - 1) {
+        for (const t of prefixMatches(term)) {
+          if (t === term) continue;
+          for (const [i, w] of searchIndex.postings.get(t)) {
+            hits.set(i, (hits.get(i) || 0) + w);
+          }
+        }
+      }
+      intersect(hits);
+    });
+
+    if (phrases.length) {
+      const hits = new Map();
+      for (let i = 0; i < searchIndex.blobs.length; i++) {
+        const blob = searchIndex.blobs[i];
+        if (phrases.every((p) => blob.includes(p))) hits.set(i, PHRASE_SCORE * phrases.length);
+      }
+      intersect(hits);
+    }
+    return acc || new Map();
+  }
+
+  // Regex source matching `term` in *display* text, tolerating the ʻokina and
+  // macrons that fold() stripped when indexing — otherwise a hit on "kauai"
+  // would never highlight the "Kauaʻi" that produced it.
+  function termRegexSource(term) {
+    return term.split("").map((ch) => {
+      const v = FOLD_VARIANTS[ch];
+      return v ? `[${v}]` : ch.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    }).join(OKINA_CLASS + "*");
+  }
 
   // Full set powers the glossary panel; the conservative INLINE subset is
   // auto-linked inside titles/summaries.
@@ -120,9 +287,16 @@
     subjects: new Set(),
     years: new Set(),
     types: new Set(),
-    statuses: new Set(["Active"]),
+    statuses: new Set(),
+    // Everything the councils publish is ingested and searchable, but the
+    // default view is legislation: Maui alone files ~4,300 county
+    // communications and ~1,600 committee reports, which would otherwise bury
+    // actual bills in every result set.
+    matterClasses: new Set(["legislation"]),
     search: "",
-    onlyClassified: true,
+    // Map(billIndex -> relevance score) for the active query, recomputed once
+    // per filter pass rather than per bill.
+    searchHits: null,
     onlyStalled: false,
     favorites: loadFavSet(),
     favoritesOnly: false,
@@ -144,12 +318,33 @@
 
   // Sort the filtered list. "recent"/"oldest" key off the latest action date
   // (falling back to introduced / first-seen); "number" is a natural sort.
+  // Relevance only means anything while a query is active, so it becomes the
+  // effective order the moment someone searches — unless they've explicitly
+  // picked a sort. Ranking by date instead would bury the best match under
+  // whatever happened to move most recently.
+  function effectiveSort() {
+    if (state.search && state.searchHits && !state.sortExplicit) return "relevance";
+    return state.sort;
+  }
+
   function sortBills(arr) {
-    if (state.sort === "number") {
+    const mode = effectiveSort();
+    if (mode === "relevance" && state.searchHits) {
+      const hits = state.searchHits;
+      return arr.slice().sort((a, b) => {
+        const d = (hits.get(b._idx) || 0) - (hits.get(a._idx) || 0);
+        if (d) return d;
+        // Equally-scored matches still read newest-first.
+        const ka = a.last_action_date || a.introduced_date || "";
+        const kb = b.last_action_date || b.introduced_date || "";
+        return ka === kb ? 0 : (ka < kb ? 1 : -1);
+      });
+    }
+    if (mode === "number") {
       return arr.slice().sort((a, b) =>
         (a.bill_number || "").localeCompare(b.bill_number || "", undefined, { numeric: true }));
     }
-    const dir = state.sort === "oldest" ? 1 : -1;
+    const dir = mode === "oldest" ? 1 : -1;
     const key = (b) => b.last_action_date || b.introduced_date || b.first_seen || "";
     return arr.slice().sort((a, b) => {
       const ka = key(a), kb = key(b);
@@ -284,17 +479,19 @@
     dimParam("county", state.councils, it.council);
     dimParam("type", state.types, it.type);
     dimParam("subject", state.subjects, it.subject);
-    const statusDefault = state.statuses.size === 1 && state.statuses.has("Active");
-    if (!statusDefault) {
-      p.set("status", all(state.statuses, it.status) ? "all"
-        : state.statuses.size ? [...state.statuses].join(",") : "none");
+    // Status and year now default to "everything", so they only reach the URL
+    // once the reader has actually narrowed them.
+    if (!all(state.statuses, it.status)) {
+      p.set("status", state.statuses.size ? [...state.statuses].join(",") : "none");
     }
-    const newest = it.year?.[0]?.value;
-    const yearDefault = state.years.size === 1 && newest && state.years.has(newest);
-    if (!yearDefault) {
-      p.set("year", all(state.years, it.year) ? "all" : [...state.years].join(","));
+    if (!all(state.years, it.year)) {
+      p.set("year", state.years.size ? [...state.years].join(",") : "none");
     }
-    if (!state.onlyClassified) p.set("classified", "0");
+    const classDefault = state.matterClasses.size === 1 && state.matterClasses.has("legislation");
+    if (!classDefault) {
+      p.set("class", all(state.matterClasses, it.matterClass) ? "all"
+        : state.matterClasses.size ? [...state.matterClasses].join(",") : "none");
+    }
     if (state.onlyStalled) p.set("stalled", "1");
     if (state.favoritesOnly) p.set("fav", "1");
     return p.toString();
@@ -332,10 +529,7 @@
     setDim("subject", state.subjects, it.subject);
     setDim("status", state.statuses, it.status);
     setDim("year", state.years, it.year);
-    if (p.get("classified") === "0") {
-      state.onlyClassified = false;
-      const cc = document.getElementById("f-classified"); if (cc) cc.checked = false;
-    }
+    setDim("class", state.matterClasses, it.matterClass);
     if (p.get("stalled") === "1") {
       state.onlyStalled = true;
       const sf = document.getElementById("f-stalled"); if (sf) sf.checked = true;
@@ -578,9 +772,14 @@
 
   // Wrap occurrences of the search term in <mark>, operating only on the text
   // between tags so it never corrupts the <abbr> markup that annotate() emits.
-  function highlightHtml(html, term) {
-    if (!term) return html;
-    const re = new RegExp("(" + term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "ig");
+  function highlightHtml(html, query) {
+    if (!query) return html;
+    const { phrases, terms } = parseQuery(query);
+    const all = [...phrases, ...terms].filter(Boolean);
+    if (!all.length) return html;
+    // Longest first so a quoted phrase wins over its own component words.
+    all.sort((a, b) => b.length - a.length);
+    const re = new RegExp("(" + all.map(termRegexSource).join("|") + ")", "ig");
     return html.split(/(<[^>]+>)/).map((seg) =>
       seg.startsWith("<") ? seg : seg.replace(re, "<mark>$1</mark>")
     ).join("");
@@ -827,6 +1026,7 @@
       ["cf-subject-btn", state.subjects.size, state.subjectUniverse],
       ["cf-type-btn", state.types.size, state.typeUniverse],
       ["cf-status-btn", state.statuses.size, state.statusUniverse],
+      ["cf-class-btn", state.matterClasses.size, state.matterClassUniverse],
     ]) {
       const btn = document.getElementById(id);
       if (!btn) continue;
@@ -846,11 +1046,13 @@
   // shown beside each checkbox so the size of a choice is visible before
   // picking it. (Totals, not cross-filtered, so the numbers stay stable.)
   function filterCounts() {
-    const c = { council: {}, subject: {}, type: {}, status: {} };
+    const c = { council: {}, subject: {}, type: {}, status: {}, matterClass: {} };
     for (const b of state.bills) {
       c.council[b.council] = (c.council[b.council] || 0) + 1;
       const tb = typeBucket(b.bill_type); c.type[tb] = (c.type[tb] || 0) + 1;
       const sb = statusBucket(b); c.status[sb] = (c.status[sb] || 0) + 1;
+      const mc = b.matter_class || "legislation";
+      c.matterClass[mc] = (c.matterClass[mc] || 0) + 1;
       for (const s of b.subjects || []) c.subject[s] = (c.subject[s] || 0) + 1;
     }
     return c;
@@ -867,6 +1069,7 @@
       ["subject", it.subject, state.subjects, { pill: true, counts: counts.subject }],
       ["type", it.type, state.types, { counts: counts.type }],
       ["status", it.status, state.statuses, { counts: counts.status }],
+      ["class", it.matterClass, state.matterClasses, { counts: counts.matterClass }],
     ];
     for (const [name, items, set, opts] of groups) {
       if (document.getElementById("f-" + name)) renderCheckGroup("f-" + name, items, set, opts);
@@ -995,6 +1198,9 @@
     for (const opt of pop.querySelectorAll(".sort-opt")) {
       opt.addEventListener("click", () => {
         state.sort = opt.dataset.sort;
+        // An explicit pick sticks: after this, typing a query no longer
+        // silently promotes relevance over the order they asked for.
+        state.sortExplicit = true;
         for (const o of pop.querySelectorAll(".sort-opt")) {
           const sel = o === opt;
           o.classList.toggle("is-sel", sel);
@@ -1006,6 +1212,18 @@
         applyFilters();
       });
     }
+  }
+
+  // Keep the sort button honest about the order actually in effect — searching
+  // switches to relevance implicitly, and the label has to say so.
+  function syncSortLabel() {
+    const label = document.getElementById("sort-label");
+    if (!label) return;
+    const mode = effectiveSort();
+    const opt = document.querySelector(`#sort-pop .sort-opt[data-sort="${mode}"]`);
+    label.textContent = mode === "relevance" && !opt
+      ? "Best match"
+      : (opt?.querySelector(".mi-label")?.textContent || label.textContent);
   }
 
   // ---- Saved panel: share / subscribe to the starred list -------------------
@@ -1214,6 +1432,7 @@
     dimChip("type", state.types, it.type, "Type");
     dimChip("subject", state.subjects, it.subject, "Subject");
     dimChip("status", state.statuses, it.status, "Status");
+    dimChip("class", state.matterClasses, it.matterClass, "Records");
 
     host.innerHTML = "";
     if (!chips.length) { host.hidden = true; return; }
@@ -1240,6 +1459,7 @@
     else if (dim === "subject") setAll(state.subjects, it.subject);
     else if (dim === "status") setAll(state.statuses, it.status);
     else if (dim === "year") setAll(state.years, it.year);
+    else if (dim === "class") setAll(state.matterClasses, it.matterClass);
     else if (dim === "fav") {
       setFavoritesOnly(false);
       syncListHash();
@@ -1307,14 +1527,14 @@
     setAll(state.councils, it.council);
     setAll(state.subjects, it.subject);
     setAll(state.types, it.type);
-    state.statuses.clear(); state.statuses.add("Active");
-    state.years.clear(); if (it.year && it.year[0]) state.years.add(it.year[0].value);
+    setAll(state.statuses, it.status);
+    setAll(state.years, it.year);
+    state.matterClasses.clear(); state.matterClasses.add("legislation");
     state.search = "";
     const s = document.getElementById("f-search"); if (s) s.value = "";
     const sc = document.getElementById("f-search-clear"); if (sc) sc.hidden = true;
     setFavoritesOnly(false);
-    state.onlyClassified = true;
-    const cc = document.getElementById("f-classified"); if (cc) cc.checked = true;
+    state.sortExplicit = false;
     state.onlyStalled = false;
     const sf = document.getElementById("f-stalled"); if (sf) sf.checked = false;
     syncListHash();
@@ -1330,20 +1550,28 @@
     const years = [...new Set(payload.bills.map(billYear).filter(Boolean))].sort().reverse();
     const typesPresent = TYPE_BUCKETS.filter((t) => payload.bills.some((b) => typeBucket(b.bill_type) === t));
     const statusesPresent = STATUS_BUCKETS.filter((s) => payload.bills.some((b) => statusBucket(b) === s));
+    const classesPresent = (payload.matter_classes || ["legislation"])
+      .filter((k) => payload.bills.some((b) => (b.matter_class || "legislation") === k));
     if (!filtersWired) {
       payload.councils.forEach((c) => state.councils.add(c));
       payload.subjects.forEach((s) => state.subjects.add(s));
       typesPresent.forEach((t) => state.types.add(t)); // default: all types (no filter)
-      // statuses default to {Active} (state init); Year defaults to newest only.
-      if (years.length) state.years.add(years[0]);
+      // This is a search tool over the councils' whole published record, so
+      // every year and every status is in scope by default. Narrowing to the
+      // current year / active bills (the old defaults) silently hid most of
+      // the corpus from a query that should have found it.
+      statusesPresent.forEach((s) => state.statuses.add(s));
+      years.forEach((y) => state.years.add(y));
     }
     state.councilUniverse = payload.councils.length;
     state.subjectUniverse = payload.subjects.length;
     state.yearUniverse = years.length;
     state.typeUniverse = typesPresent.length;
     state.statusUniverse = statusesPresent.length;
+    state.matterClassUniverse = classesPresent.length;
 
     state._items = {
+      matterClass: classesPresent.map((k) => ({ value: k, label: MATTER_CLASS_LABEL[k] || k })),
       council: payload.councils.map((c) => ({ value: c, label: COUNCIL_LABEL[c] || c })),
       year: years.map((y) => ({ value: y, label: y })),
       subject: payload.subjects.map((s) => ({ value: s, label: SUBJECT_LABEL[s] || s })),
@@ -1369,11 +1597,6 @@
       searchInput.focus();
     });
     wireSortMenu();
-    document.getElementById("f-classified").addEventListener("change", (e) => {
-      state.onlyClassified = e.target.checked;
-      animateNext();
-      applyFilters();
-    });
     document.getElementById("f-stalled")?.addEventListener("change", (e) => {
       state.onlyStalled = e.target.checked;
       animateNext();
@@ -1449,6 +1672,7 @@
     wireColumnFilter("cf-subject-btn", "cf-subject-pop");
     wireColumnFilter("cf-type-btn", "cf-type-pop");
     wireColumnFilter("cf-status-btn", "cf-status-pop");
+    wireColumnFilter("cf-class-btn", "cf-class-pop");
     const af = document.getElementById("active-filters");
     if (af) af.addEventListener("click", (e) => {
       animateNext();
@@ -1469,23 +1693,23 @@
     const yearAll = state.years.size === state.yearUniverse;
     const typeAll = state.types.size === state.typeUniverse;
     const statusAll = state.statuses.size === state.statusUniverse;
+    const classAll = state.matterClasses.size === state.matterClassUniverse;
+    // Resolve the query once for the whole pass instead of per bill. The score
+    // map is kept on state so sortBills() can rank by relevance.
+    const hits = state.search ? searchScores(state.search) : null;
+    state.searchHits = hits;
     return state.bills.filter((b) => {
       if (state.favoritesOnly && !state.favorites.has(favKey(b))) return false;
       // "All" checked → no constraint on that dimension; otherwise the bill
       // must match a checked box (empty selection → nothing).
       if (!countyAll && !state.councils.has(b.council)) return false;
       if (!yearAll && !state.years.has(billYear(b))) return false;
-      if (!subjectAll) {
-        if (!b.subjects?.some((s) => state.subjects.has(s))) return false;
-      } else if (state.onlyClassified && (!b.subjects || b.subjects.length === 0)) {
-        return false;
-      }
+      if (!subjectAll && !b.subjects?.some((s) => state.subjects.has(s))) return false;
+      if (!classAll && !state.matterClasses.has(b.matter_class || "legislation")) return false;
       if (!typeAll && !state.types.has(typeBucket(b.bill_type))) return false;
       if (!statusAll && !state.statuses.has(statusBucket(b))) return false;
       if (state.onlyStalled && !isStalled(b)) return false;
-      if (state.search) {
-        if (!(b._hay || "").includes(state.search)) return false;
-      }
+      if (hits && !hits.has(b._idx)) return false;
       return true;
     });
   }
@@ -1601,10 +1825,15 @@
     // Action history. The scraper currently captures only the latest action, so
     // render that as a one-item timeline; when an `actions[]` array lands (see
     // the planned schema change) this fills out into the full vertical history.
-    const acts = Array.isArray(b.actions) && b.actions.length
-      ? b.actions
-      : (lastAction ? [{ action: b.last_action || lastAction, date: b.last_action_date || "" }] : []);
-    if (acts.length) {
+    // Timelines ship in per-council shards and attach lazily, so this is built
+    // as a function: until the shard lands it renders the single latest action,
+    // then gets rebuilt in place once the real history arrives (rebuilding via
+    // a full re-render would collapse the row the reader just opened).
+    const timelineInner = () => {
+      const acts = Array.isArray(b.actions) && b.actions.length
+        ? b.actions
+        : (lastAction ? [{ action: b.last_action || lastAction, date: b.last_action_date || "" }] : []);
+      if (!acts.length) return "";
       // Long histories (Honolulu bills run 14+ steps) dominate the panel's
       // height, so show only the most recent few and tuck the rest behind a
       // toggle. The item just above the fold drops its connector so the line
@@ -1628,12 +1857,12 @@
         ? `<button type="button" class="dx-tl-toggle" aria-expanded="false">` +
           `Show all ${acts.length} actions</button>`
         : "";
-      parts.push(
-        `<div class="dx-timeline"><span class="detail-label">` +
+      return `<span class="detail-label">` +
         `${acts.length > 1 ? "Action history" : "Latest action"}</span>` +
-        `<ul class="dx-tl">${items}</ul>${toggle}</div>`
-      );
-    }
+        `<ul class="dx-tl">${items}</ul>${toggle}`;
+    };
+    const tlInner = timelineInner();
+    if (tlInner) parts.push(`<div class="dx-timeline">${tlInner}</div>`);
 
     // Actions — primary link out to the council source plus quick utilities.
     const isFav = state.favorites.has(favKey(b));
@@ -1687,17 +1916,28 @@
         }, 1400);
       } catch { /* clipboard blocked — no-op */ }
     });
-    // Expand/collapse the capped action timeline.
-    const tlToggle = detail.querySelector(".dx-tl-toggle");
-    if (tlToggle) {
+    // Expand/collapse the capped action timeline. Re-wired after a lazy refill,
+    // since that replaces the button along with the rest of the markup.
+    const wireTimelineToggle = () => {
+      const tlToggle = detail.querySelector(".dx-tl-toggle");
+      if (!tlToggle) return;
+      const total = (b.actions || []).length;
       tlToggle.addEventListener("click", (e) => {
         e.stopPropagation();
         const tl = tlToggle.closest(".dx-timeline");
         const open = tl.classList.toggle("show-all");
         tlToggle.setAttribute("aria-expanded", String(open));
-        tlToggle.textContent = open ? "Show less" : `Show all ${acts.length} actions`;
+        tlToggle.textContent = open ? "Show less" : `Show all ${total} actions`;
       });
-    }
+    };
+    wireTimelineToggle();
+    // Called once this bill's council shard has loaded.
+    detail._refillTimeline = () => {
+      const host = detail.querySelector(".dx-timeline");
+      if (!host) return;
+      host.innerHTML = timelineInner();
+      wireTimelineToggle();
+    };
     // The in-panel Save button mirrors the row's star (and vice-versa via re-render).
     const dxFav = detail.querySelector(".dx-fav");
     dxFav.addEventListener("click", (e) => {
@@ -1722,6 +1962,9 @@
       const open = !tr.classList.contains("open");
       tr.classList.toggle("open", open);
       tr.setAttribute("aria-expanded", String(open));
+      // The full history may still be in flight (or never prefetched, on a slow
+      // connection). Fill it in when it lands rather than making the row wait.
+      if (open) ensureActions(b).then((got) => { if (got) detail._refillTimeline?.(); });
       if (REDUCED_MOTION) {
         detail.classList.toggle("expanded", open);
         detail.hidden = !open;
@@ -1791,6 +2034,7 @@
     const filtered = sortBills(filterBills());
     updateColumnFilterIndicators();
     renderActiveFilters();
+    syncSortLabel();
     const render = () => {
       const tbody = document.querySelector("#results tbody");
       tbody.innerHTML = "";
@@ -1848,6 +2092,7 @@
       ["County", (b) => COUNCIL_LABEL[b.council] || b.council],
       ["Number", (b) => b.bill_number],
       ["Type", (b) => b.bill_type],
+      ["Record kind", (b) => MATTER_CLASS_LABEL[b.matter_class] || b.matter_class || ""],
       ["Title", (b) => b.title || billHeadline(b) || ""],
       ["Introducer", (b) => b.introducer],
       ["Introduced", (b) => b.introduced_date],
@@ -1883,11 +2128,10 @@
     setAll(state.types, it.type);
     setAll(state.statuses, it.status);
     setAll(state.years, it.year);
-    state.onlyClassified = false;
+    setAll(state.matterClasses, it.matterClass);
     state.onlyStalled = false;
     state.search = "";
     setFavoritesOnly(false);
-    const cc = document.getElementById("f-classified"); if (cc) cc.checked = false;
     const sf = document.getElementById("f-stalled"); if (sf) sf.checked = false;
     const s = document.getElementById("f-search"); if (s) s.value = "";
     renderFilterGroups();
@@ -1916,20 +2160,92 @@
     });
   }
 
+  // ---- Action timelines (lazy) ----------------------------------------------
+  // Timelines live in per-council shards rather than inside bills.json: they're
+  // only needed once a row is expanded, and inlining them was a large share of
+  // the payload that has to arrive before the table can render at all.
+  const actionShards = new Map();
+  function loadActionShard(council) {
+    if (!actionShards.has(council)) {
+      actionShards.set(
+        council,
+        fetch(`actions/${council}.json`)
+          .then((r) => (r.ok ? r.json() : {}))
+          // Offline or missing shard: rows keep the latest-action fallback.
+          .catch(() => ({}))
+      );
+    }
+    return actionShards.get(council);
+  }
+
+  // Attach this bill's history if it isn't already loaded. Resolves true when
+  // something new arrived, so the caller knows a redraw is worthwhile.
+  async function ensureActions(b) {
+    if (Array.isArray(b.actions)) return false;
+    if (!b.action_count) { b.actions = []; return false; }
+    const shard = await loadActionShard(b.council);
+    b.actions = shard[String(b.id)] || [];
+    return b.actions.length > 0;
+  }
+
+  // Fold action text into the index once the shards land, so queries like
+  // "first reading" or a name appearing only in a vote tally still match. The
+  // histories aren't in bills.json any more, so without this they'd drop out of
+  // search entirely — the weight is low, well under any title match.
+  const ACTION_TOKEN_WEIGHT = 1;
+  function indexActionText(bills) {
+    const { postings } = searchIndex;
+    let added = false;
+    for (const b of bills) {
+      if (!Array.isArray(b.actions) || !b.actions.length || b._actionsIndexed) continue;
+      b._actionsIndexed = true;
+      const text = b.actions.map((a) => `${a.action || ""} ${a.committee || ""}`).join(" ");
+      searchIndex.blobs[b._idx] += " " + fold(text);
+      for (const tok of new Set(tokenize(text))) {
+        let p = postings.get(tok);
+        if (!p) postings.set(tok, (p = new Map()));
+        p.set(b._idx, (p.get(b._idx) || 0) + ACTION_TOKEN_WEIGHT);
+        added = true;
+      }
+    }
+    // prefixMatches() binary-searches this, so it has to stay sorted.
+    if (added) searchIndex.tokens = [...postings.keys()].sort();
+    return added;
+  }
+
+  // Warm every shard once the table is on screen so expanding a row is instant.
+  // Deliberately after first paint — this must never block it.
+  function prefetchActions() {
+    const councils = [...new Set(state.bills.map((b) => b.council))];
+    const run = async () => {
+      await Promise.all(councils.map(async (c) => {
+        const shard = await loadActionShard(c);
+        for (const b of state.bills) {
+          if (b.council === c && !Array.isArray(b.actions)) {
+            b.actions = shard[String(b.id)] || [];
+          }
+        }
+      }));
+      const grew = indexActionText(state.bills);
+      // Refill only rows the reader already has open; the rest pick the history
+      // up whenever they next render.
+      for (const d of document.querySelectorAll("#results tbody tr.detail-row:not([hidden])")) {
+        d._refillTimeline?.();
+      }
+      // A query typed before the shards arrived was answered without action
+      // text; re-run it now that there's more to match.
+      if (grew && state.search) applyFilters();
+    };
+    if ("requestIdleCallback" in window) requestIdleCallback(run, { timeout: 3000 });
+    else setTimeout(run, 500);
+  }
+
   async function ingest(payload) {
     state.bills = payload.bills;
-    // Precompute a lowercase search haystack per bill once (not per keystroke).
-    // Includes the full action history + committee codes so a search like
-    // "first reading" or a councilmember's name in a vote tally matches.
-    for (const b of state.bills) {
-      const actTxt = (b.actions || [])
-        .map((a) => `${a.action || ""} ${a.committee || ""}`)
-        .join(" ");
-      b._hay = [b.bill_number, b.title, b.introducer, b.raw_subject, actTxt]
-        .filter(Boolean)
-        .join(" ")
-        .toLowerCase();
-    }
+    state.matterClassUniverse = (payload.matter_classes || ["legislation"]).length;
+    // One inverted index over the whole corpus, built once per ingest rather
+    // than a haystack string rebuilt per keystroke.
+    buildSearchIndex(state.bills);
     setMeta(payload);
     setStats(payload);
     buildFilters(payload);
@@ -1939,6 +2255,7 @@
     updateFavCount();
     applyFilters();
     openBillFromHash();
+    prefetchActions();
   }
 
   // Placeholder shimmer rows shown while bills.json downloads (1.7MB — visible

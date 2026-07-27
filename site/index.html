@@ -2,21 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Hawaiʻi County Bill Tracker</title>
+  <title>Hawaiʻi County Bill Search</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Track bills before Honolulu, Maui, Hawaiʻi County, and Kauaʻi councils — Tax, Transportation, Food Security, Affordable Housing.">
+  <meta name="description" content="Search every bill and resolution before Hawaiʻi's four county councils — Honolulu, Maui, Hawaiʻi County, and Kauaʻi — in one place.">
   <meta name="theme-color" content="#3a7710" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#14181a" media="(prefers-color-scheme: dark)">
   <link rel="canonical" href="https://dtomkatsu.github.io/Tracker/">
   <!-- Social share preview (shown when a bookmarked/shared link is unfurled) -->
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Hawaiʻi County Bill Tracker">
-  <meta property="og:title" content="Hawaiʻi County Bill Tracker">
-  <meta property="og:description" content="Track bills before Honolulu, Maui, Hawaiʻi County, and Kauaʻi councils — Tax, Transportation, Food Security, and Affordable Housing.">
+  <meta property="og:site_name" content="Hawaiʻi County Bill Search">
+  <meta property="og:title" content="Hawaiʻi County Bill Search">
+  <meta property="og:description" content="Search every bill and resolution before Hawaiʻi's four county councils — Honolulu, Maui, Hawaiʻi County, and Kauaʻi — in one place.">
   <meta property="og:url" content="https://dtomkatsu.github.io/Tracker/">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Hawaiʻi County Bill Tracker">
-  <meta name="twitter:description" content="Track Tax, Transportation, Food Security, and Affordable Housing bills before Hawaiʻi's four county councils.">
+  <meta name="twitter:title" content="Hawaiʻi County Bill Search">
+  <meta name="twitter:description" content="Search every bill and resolution before Hawaiʻi's four county councils, all in one place.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%233a7710'/%3E%3Ctext x='8' y='12' font-size='11' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'%3EH%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,7 +34,7 @@
       } catch (e) { document.documentElement.dataset.theme = "light"; }
     })();
   </script>
-  <link rel="stylesheet" href="styles.css?v=20260622">
+  <link rel="stylesheet" href="styles.css?v=20260727b">
 </head>
 <body>
   <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
@@ -59,8 +59,8 @@
 
   <header class="site-header">
     <div class="header-inner">
-      <p class="overline">Tracking Honolulu · Maui · Hawaiʻi County · Kauaʻi</p>
-      <h1>County Bill Tracker</h1>
+      <p class="overline">Honolulu · Maui · Hawaiʻi County · Kauaʻi</p>
+      <h1>County Bill Search</h1>
       <div class="stat-strip">
         <span class="stat"><strong id="stat-total" data-count>—</strong> bills tracked</span>
         <span class="stat"><strong id="stat-active" data-count>—</strong> active this year</span>
@@ -73,11 +73,21 @@
     <div class="toolbar" role="search">
       <div class="search-wrap">
         <svg class="search-icon" aria-hidden="true"><use href="#i-search"/></svg>
-        <input id="f-search" type="search" placeholder="Search bills, number, introducer…" aria-label="Search bills">
+        <input id="f-search" type="search" placeholder="Search every county bill — keyword, number, introducer…" aria-label="Search bills">
         <span class="kbd-hint" aria-hidden="true">/</span>
         <button type="button" id="f-search-clear" class="search-clear" aria-label="Clear search" hidden><svg aria-hidden="true"><use href="#i-x"/></svg></button>
       </div>
       <div id="f-year" class="segmented" role="group" aria-label="Filter by year"></div>
+      <div class="tool-group class-wrap">
+        <button type="button" id="cf-class-btn" class="tool-btn" aria-haspopup="true" aria-expanded="false" title="Choose which kinds of council records to search">
+          <span>Records</span>
+          <svg class="sel-caret" aria-hidden="true"><use href="#i-chevron"/></svg>
+          <span class="cf-badge" hidden></span>
+        </button>
+        <div id="cf-class-pop" class="col-filter-pop" hidden role="group" aria-label="Filter by record kind">
+          <div id="f-class" class="chips"></div>
+        </div>
+      </div>
       <div class="tool-group saved-wrap">
         <button type="button" id="f-favorites" class="tool-btn tg-main" aria-pressed="false" title="Show only your starred bills">
           <svg class="tb-star" aria-hidden="true"><use href="#i-star-o"/></svg><span>Saved</span><span id="fav-count" class="count-badge" hidden></span>
@@ -110,6 +120,7 @@
           <svg class="sel-caret" aria-hidden="true"><use href="#i-chevron"/></svg>
         </button>
         <div id="sort-pop" class="tool-pop sort-pop" hidden role="menu" aria-label="Sort order">
+          <button type="button" class="menu-item sort-opt" role="menuitemradio" aria-checked="false" data-sort="relevance"><span class="mi-label">Best match</span></button>
           <button type="button" class="menu-item sort-opt is-sel" role="menuitemradio" aria-checked="true" data-sort="recent"><span class="mi-label">Recent activity</span></button>
           <button type="button" class="menu-item sort-opt" role="menuitemradio" aria-checked="false" data-sort="oldest"><span class="mi-label">Oldest activity</span></button>
           <button type="button" class="menu-item sort-opt" role="menuitemradio" aria-checked="false" data-sort="number"><span class="mi-label">Bill number</span></button>
@@ -118,7 +129,6 @@
       <div class="overflow">
         <button type="button" id="more-btn" class="tool-btn icon-only" aria-haspopup="true" aria-expanded="false" aria-label="More options"><svg aria-hidden="true"><use href="#i-more"/></svg></button>
         <div id="more-pop" class="tool-pop" hidden role="menu" aria-label="More options">
-          <label class="menu-check"><input id="f-classified" type="checkbox" checked> Only classified bills</label>
           <button type="button" id="theme-btn" class="menu-item" role="menuitem"><svg aria-hidden="true"><use href="#i-theme"/></svg><span class="mi-label">Theme: System</span></button>
           <label class="menu-check"><input id="f-stalled" type="checkbox"> Only stalled (no action 120+ days)</label>
           <button type="button" id="export-csv" class="menu-item" role="menuitem"><svg aria-hidden="true"><use href="#i-download"/></svg><span class="mi-label">Export current view (CSV)</span></button>
@@ -225,6 +235,6 @@
 
   <script>window.TRACKER_LIST_API = "https://tracker-lists.dtomkatsu.workers.dev";</script>
   <script src="qr.js?v=20260611"></script>
-  <script src="app.js?v=20260622"></script>
+  <script src="app.js?v=20260727b"></script>
 </body>
 </html>

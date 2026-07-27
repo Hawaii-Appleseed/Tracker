@@ -2,112 +2,476 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:dtomkatsu.github.io,2026:feeds/subject-transportation.xml</id>
   <title>Bill Tracker — Transportation bills</title>
-  <updated>2026-06-19T16:16:26+00:00</updated>
+  <updated>2026-07-27T19:23:32+00:00</updated>
   <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/subject-transportation.xml"/>
   <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-162/2026-06-19T16:16:26+00:00</id>
-    <title>Bill 162 (Hawaiʻi County): Council:  Bill 162 passes first reading; adopts PCPWMT-13 - 06/17/26</title>
-    <updated>2026-06-19T16:16:26+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130351&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 3 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO PAID PARKING FACILITIES&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Adds a new article to establish signage requirements for paid parking facilities, to include a schedule of rates, notice of any additional fees, hours of operation, and information on towing procedures.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Bill 162 passes first reading; adopts PCPWMT-13 - 06/17/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130351&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-132/2026-06-17T23:09:35+00:00</id>
-    <title>Bill 132 (Hawaiʻi County): PCPWMT:  Withdrawn - 05/19/26</title>
-    <updated>2026-06-17T23:09:35+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1125213&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 6 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED) BY ADDING AN ARTICLE RELATING TO PAID PARKING FACILITIES IN KAILUA VILLAGE&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Adds a new article to regulate parking rates at private parking facilities in Kailua Village.&lt;/p&gt;
-&lt;p&gt;Latest action: PCPWMT:  Withdrawn - 05/19/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1125213&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-162/2026-06-17T23:09:27+00:00</id>
-    <title>Bill 162 (Hawaiʻi County): — → Passed First Reading</title>
-    <updated>2026-06-17T23:09:27+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130351&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 3 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO PAID PARKING FACILITIES&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Adds a new article to establish signage requirements for paid parking facilities, to include a schedule of rates, notice of any additional fees, hours of operation, and information on towing procedures.&lt;/p&gt;
-&lt;p&gt;Status: — → Passed First Reading&lt;/p&gt;
-&lt;p&gt;Latest action: PCPWMT-13:  Recommended passage on first reading - 06/02/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130351&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-132/2026-06-17T16:16:24+00:00</id>
-    <title>Bill 132 (Hawaiʻi County): On agenda 2026-05-19</title>
-    <updated>2026-06-17T16:16:24+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1125213&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 6 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED) BY ADDING AN ARTICLE RELATING TO PAID PARKING FACILITIES IN KAILUA VILLAGE&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Adds a new article to regulate parking rates at private parking facilities in Kailua Village.&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-05-19&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1125213&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-162/2026-06-17T16:16:24+00:00</id>
-    <title>Bill 162 (Hawaiʻi County): Passed First Reading → —</title>
-    <updated>2026-06-17T16:16:24+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130351&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 3 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO PAID PARKING FACILITIES&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Adds a new article to establish signage requirements for paid parking facilities, to include a schedule of rates, notice of any additional fees, hours of operation, and information on towing procedures.&lt;/p&gt;
-&lt;p&gt;Status: Passed First Reading → —&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-06-17&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130351&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-146/2026-06-17T16:15:03+00:00</id>
-    <title>New: RES26-146 (Honolulu) — INTRO</title>
-    <updated>2026-06-17T16:15:03+00:00</updated>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-146/2026-07-27T19:23:32+00:00</id>
+    <title>RES26-146 (Honolulu): INTRO → CCL</title>
+    <updated>2026-07-27T19:23:32+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3765"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE DIRECTOR OF BUDGET AND FISCAL SERVICES TO ISSUE AND SELL IN ONE OR MORE SERIES NOT TO EXCEED $11,000,000 PRINCIPAL AMOUNT OF GENERAL OBLIGATION BONDS OF THE CITY AND COUNTY OF HONOLULU FOR FINANCING THE AMOUNT APPROPRIATED IN ORDINANCE NO. 26-_ (ALSO REFERRED TO, UPON ITS APPROVAL, AS BILL 23 (2026), CD2, FD1, AND AS MAY BE FURTHER AMENDED) OF THE CITY AND COUNTY OF HONOLULU FOR THE PURPOSE OF FINANCING CAPITAL COSTS OF THE HONOLULU RAIL TRANSIT PROJECT.&lt;/strong&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE DIRECTOR OF BUDGET AND FISCAL SERVICES TO ISSUE AND SELL IN ONE OR MORE SERIES NOT TO EXCEED $11,000,000 PRINCIPAL AMOUNT OF GENERAL OBLIGATION BONDS OF THE CITY AND COUNTY OF HONOLULU FOR FINANCING THE AMOUNT APPROPRIATED IN ORDINANCE NO. 26-13 (ALSO REFERRED TO, UPON ITS APPROVAL, AS BILL 23 (2026), CD2, FD1, AND AS MAY BE FURTHER AMENDED) OF THE CITY AND COUNTY OF HONOLULU FOR THE PURPOSE OF FINANCING CAPITAL COSTS OF THE HONOLULU RAIL TRANSIT PROJECT.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Recommendation of the adoption of the Resolution authorizing the issuance and sale not to exceed principal amount of General Obligation Bonds to finance the capital costs of the Honolulu Rail Transit Project (“HRTP”); Capital Budget Ordinance for Fiscal Year July 1, 2026 to June 30, 2027; Honolulu Authority for Rapid Transportation (“HART’); Budget and Fiscal Services.&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;Status: INTRO → CCL&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3765"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill027-26/2026-06-15T16:15:10+00:00</id>
-    <title>BILL027(26) (Honolulu): Deadline for Mayor to return Bill is 06/23/26.
-Transmitted to Mayor for his approval or otherwise.</title>
-    <updated>2026-06-15T16:15:10+00:00</updated>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-168/2026-07-27T19:23:29+00:00</id>
+    <title>New: RES26-168 (Honolulu) — INTRO</title>
+    <updated>2026-07-27T19:23:29+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3796"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;GRANTING A SPECIAL MANAGEMENT AREA MAJOR PERMIT TO ALLOW FOR THE CONSTRUCTION OF A NEW COMMERCIAL BUILDING WITH A PARKING LOT, CARETAKER DWELLING, AND ASSOCIATED IMPROVEMENTS IN NĀNĀKULI, OʻAHU.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3796"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill027-26/2026-07-27T19:23:29+00:00</id>
+    <title>BILL027(26) (Honolulu): MAYOR → PUBLISH</title>
+    <updated>2026-07-27T19:23:29+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3652"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE HONOLULU AUTHORITY FOR RAPID TRANSPORTATION CAPITAL BUDGET FOR THE FISCAL YEAR JULY 1, 2026 TO JUNE 30, 2027.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Deadline for Mayor to return Bill is 06/23/26.
-Transmitted to Mayor for his approval or otherwise.&lt;/p&gt;
+&lt;p&gt;Status: MAYOR → PUBLISH&lt;/p&gt;
+&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3652"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill026-26/2026-06-15T16:15:10+00:00</id>
-    <title>BILL026(26) (Honolulu): Deadline for Mayor to return Bill is 06/23/26.
-Transmitted to Mayor for his approval or otherwise.</title>
-    <updated>2026-06-15T16:15:10+00:00</updated>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill026-26/2026-07-27T19:23:28+00:00</id>
+    <title>BILL026(26) (Honolulu): MAYOR → PUBLISH</title>
+    <updated>2026-07-27T19:23:28+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3651"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE HONOLULU AUTHORITY FOR RAPID TRANSPORTATION OPERATING BUDGET FOR THE FISCAL YEAR JULY 1, 2026 TO JUNE 30, 2027.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Deadline for Mayor to return Bill is 06/23/26.
-Transmitted to Mayor for his approval or otherwise.&lt;/p&gt;
+&lt;p&gt;Status: MAYOR → PUBLISH&lt;/p&gt;
+&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3651"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill024-26/2026-06-15T16:15:10+00:00</id>
-    <title>BILL024(26) (Honolulu): Deadline for Mayor to return Bill is 06/23/26.
-Transmitted to Mayor for his approval or otherwise.</title>
-    <updated>2026-06-15T16:15:10+00:00</updated>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill024-26/2026-07-27T19:23:28+00:00</id>
+    <title>BILL024(26) (Honolulu): MAYOR → PUBLISH</title>
+    <updated>2026-07-27T19:23:28+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3649"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE ISSUANCE AND SALE OF GENERAL OBLIGATION BONDS AND BOND ANTICIPATION NOTES OF THE CITY AND COUNTY OF HONOLULU IN A MAXIMUM PRINCIPAL AMOUNT EQUAL TO THE AGGREGATE OF THE AMOUNTS APPROPRIATED IN THE CAPITAL BUDGET ORDINANCE OF SAID CITY AND COUNTY FOR THE FISCAL YEAR ENDING JUNE 30, 2027, AND SPECIFIED IN SAID ORDINANCE TO BE FINANCED FROM THE PROCEEDS OF THE SALE OF SUCH BONDS AND TO BE EXPENDED FROM THE  GENERAL IMPROVEMENT BOND FUND, THE HIGHWAY IMPROVEMENT BOND FUND, SOLID WASTE IMPROVEMENT BOND FUND, THE HOUSING DEVELOPMENT SPECIAL FUND OR THE TAXABLE GENERAL IMPROVEMENT BOND FUND.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The bill authorizes the issuance and sale of general obligation bonds and bond anticipation notes of the City and County of Honolulu in a maximum principal amount equal to the aggregate of the amounts of general obligation bonds appropriated in the capital budget ordinance for Fiscal Year 2027.&lt;/p&gt;
-&lt;p&gt;Latest action: Deadline for Mayor to return Bill is 06/23/26.
-Transmitted to Mayor for his approval or otherwise.&lt;/p&gt;
+&lt;p&gt;Status: MAYOR → PUBLISH&lt;/p&gt;
+&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3649"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:maui-wai-24-bill-68-2026/2026-06-12T16:15:06+00:00</id>
-    <title>New: WAI-24 Bill 68 (2026) (Maui) — Agenda Ready</title>
-    <updated>2026-06-12T16:15:06+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16284"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 68 (2026), AMENDING TITLE 10, ARTICLE II, MAUI COUNTY CODE, ON SPECIAL PARKING REGULATIONS  (WAI-24)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Water and Infrastructure Committee (2025-2027)&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16284"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill033-26/2026-07-27T19:23:28+00:00</id>
+    <title>BILL033(26) (Honolulu): HHP → BUD</title>
+    <updated>2026-07-27T19:23:28+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3672"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO FUNDS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Establishes a special fund to be called the Parks Maintenance and Recreation Services Revolving Fund for the deposit of all revenues and proceeds generated by the DPR relating to the use of lands dedicated for park use or for park maintenance and recreation services, or otherwise earmarked for the restoration, operation, or maintenance of beaches and parks under the jurisdiction of the DPR, to be expended for DPR operations, parks maintenance and recreational facilities, and programs under the jurisdiction of the DPR. Establishes a special fund to be called the Botanical Gardens and Urban Forestry Revolving Fund for the deposit of all revenues and proceeds relating to the use of lands dedicated for botanical gardens, community gardens, and urban forestry programs and operations generated by the DPR, or otherwise earmarked for the restoration, operation, or maintenance of gardens and park and street trees under the jurisdiction of the DPR, to be expended for the operations of the DPR's Division of Urban Forest&lt;/p&gt;
+&lt;p&gt;Status: HHP → BUD&lt;/p&gt;
+&lt;p&gt;Latest action: See: Proposed draft version OCS2026-0422/7/7/2026 1:16 PM
+Amended to CD2 and postponed to a date and time to be determined by the Committee Chair.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3672"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill038-26/2026-07-27T19:23:27+00:00</id>
+    <title>BILL038(26) (Honolulu): Communication D-445(26) approved.</title>
+    <updated>2026-07-27T19:23:27+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3740"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO TRANSIT-ORIENTED DEVELOPMENT SPECIAL DISTRICT.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Amends the LUO by expanding the TOO Special District boundaries to the East Kapolei Neighborhood TOD Plan area, adding primary design objectives and use regulations, and modifying the TOD Special District Project Classification table.&lt;/p&gt;
+&lt;p&gt;Latest action: Communication D-445(26) approved.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3740"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill041-26/2026-07-27T19:23:27+00:00</id>
+    <title>BILL041(26) (Honolulu): CCL → ITT</title>
+    <updated>2026-07-27T19:23:27+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3753"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO TRANSPORTATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Conforms ROH provisions to House Bill 2021, HD2, SD2, CD1, Relating to Transportation. Adds definitions for “Electric Bicycle,” “Class 1 Electric Bicycle,” Class 2 Electric Bicycle,” Class 3 Electric Bicycle, “Electric Micro-mobility Device, “High-speed Electric Device,” and “Electric Motorcycle.” Substitutes the term “electric bicycle” for the terms “bicycle with motor,” “motorized bicycles,” and similar terms. Substitutes the term “motor-driven cycle” for the term “motor scooter.” Regulates riding electric bicycles on sidewalks under certain circumstances. Prohibits on bikeways: (1) driving a vehicle, other than a bicycle, electric foot scooter, or electric micro-mobility device, with specified
+exceptions; and (2) operating mopeds or electric motorcycles. Prohibits a person under the age of sixteen from operating a class 2 or class 3 electric bicycle without direct supervision. Repeals as preempted: (1) certain safe driving requirements for the operation of electric bicycles on public streets, paths, or tra&lt;/p&gt;
+&lt;p&gt;Status: CCL → ITT&lt;/p&gt;
+&lt;p&gt;Latest action: CR-203(26)
+Reported out for passage on third reading as amended in CD1 form.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3753"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill047-26/2026-07-27T19:23:27+00:00</id>
+    <title>New: BILL047(26) (Honolulu) — BUD</title>
+    <updated>2026-07-27T19:23:27+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3779"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;REALTING TO THE MOTOR VEHICLE WEIGHT TAX.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Reduces the vehicle weight tax rates for motor vehicles designed primarily for carrying passengers; trucks and noncommercial vehicles having a net weight of 6,500 pounds or less; and vehicles designed for carrying property or for purposes other than carrying passengers. Takes effect on July 1, 2027.&lt;/p&gt;
+&lt;p&gt;Latest action: CR-196(26)
+Reported out for passage on second reading and scheduling of a public hearing.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3779"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill051-26/2026-07-27T19:23:26+00:00</id>
+    <title>New: BILL051(26) (Honolulu) — INTRO</title>
+    <updated>2026-07-27T19:23:26+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3792"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO PARKING.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Requires the DTS Director to mark with a warning certain parking restricted areas along curbs within one-quarter mile of any public access to a hiking trail.&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3792"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill078-25/2026-07-27T19:23:24+00:00</id>
+    <title>BILL078(25) (Honolulu): CCL → BUD</title>
+    <updated>2026-07-27T19:23:24+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3570"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO PARKING.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Modifies ROH Title IV, Chapter 15, Article 2, Article 22, Article 23, and Article 28 relating to traffic and vehicles, for the regulation of on-street and off-street public parking. Defines the” Parking Meter Zone” and authorizes the addition or subtraction of paid public parking within it. Adds flexibility to the City’s parking facilities operations model (metered v. concession) and makes conforming amendments to article sections. Updates hourly on-street and off-street parking rate maximums and minimums. Establishes variable “tiered” parking rates for extended stays at metered parking. Authorizes the incremental adjustment to minimum and secondary hourly parking rates on street segments and in off-street parking areas according to monitored parking occupancy. Updates methods of payment for all metered parking. Updates parking rate change communication requirements and allows for discounts to low-income residents. Allows for outsourcing parking violation enforcement including the lawful issuance of tickets b&lt;/p&gt;
+&lt;p&gt;Status: CCL → BUD&lt;/p&gt;
+&lt;p&gt;Latest action: Postponed to a date and time to be determined by the Committee Chair.
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3570"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-017/2026-07-27T19:23:22+00:00</id>
+    <title>New: RES24-017 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:22+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2815"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING THE SALE OF THE PIʻIKOI MINI PARK, ROAD REMNANT LOT 46, 1409 PIʻIKOI STREET, HONOLULU, HAWAIʻI, TAX MAP KEY: 2-4-020:056.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2815"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-023/2026-07-27T19:23:22+00:00</id>
+    <title>New: RES24-023 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:22+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2821"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING A CONCEPTUAL PLAN FOR AN INTERIM PLANNED DEVELOPMENT-TRANSIT PROJECT FOR THE CHINATOWN HOTEL DEVELOPMENT.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2821"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-080/2026-07-27T19:23:17+00:00</id>
+    <title>New: RES24-080 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:17+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2898"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDING RESOLUTION 17-221, CD1, AS AMENDED BY RESOLUTION 20-170, CD1, AS FURTHER AMENDED BY RESOLUTION 23-272, CD1, TO FURTHER EXTEND THE DEADLINE TO OBTAIN A BUILDING PERMIT FOR AN INTERIM PLANNED DEVELOPMENT-TRANSIT PROJECT LOCATED AT 1500 KAPI‘OLANI BOULEVARD, AND TO APPROVE CERTAIN PROJECT MODIFICATIONS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2898"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-078/2026-07-27T19:23:16+00:00</id>
+    <title>New: RES24-078 (Honolulu) — MAYOR</title>
+    <updated>2026-07-27T19:23:16+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2896"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;PROVIDING FOR THE ACQUISITION OF ACCESS EASEMENTS FOR PUBLIC USE TO THE KALAUAO (PEARLRIDGE) BUS TRANSIT CENTER AND MOBILITY HUB, LOCATED AT WAIMALU, ‘EWA, O’AHU, HAWAI’l, AND DETERMINING AND DECLARING THE NECESSITY OF THE ACQUISITION BY EMINENT DOMAIN.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Returned approved.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2896"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-084/2026-07-27T19:23:16+00:00</id>
+    <title>New: RES24-084 (Honolulu) — FILE</title>
+    <updated>2026-07-27T19:23:16+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2902"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;PROPOSING AN AMMENDMENT TO CHAPTER 21, REVISED ORDINANCES OF HONOLULU 2021 (THE LAND USE ORDINANCE), RELATING TO TRANSIT-ORIENTED DEVELOPMENT.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2902"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-107/2026-07-27T19:23:13+00:00</id>
+    <title>New: RES24-107 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:13+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2928"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;REQUESTING THE CITY ADMINISTRATION TO TAKE THE STEPS NECESSARY TO ACQUIRE THE NON-CITY AND NON-FEDERAL PORTION OF NORTH ROAD IN EWA BEACH, OAHU, INCLUDING, IF NECESSARY, THE PREPARATION OF A RESOLUTION TO INITIATE PROCEEDINGS IN EMINENT DOMAIN.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2928"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-131/2026-07-27T19:23:11+00:00</id>
+    <title>New: RES24-131 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:11+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2956"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING THE DEPARTMENT OF TRANSPORTATION SERVICES’ AGENCY RAIL SAFETY PLAN FOR RAIL OPERATIONS REQUIRED BY 49 CFR PART 673, 49 CFR PART 674 AND HAWAII DEPARTMENT OF TRANSPORTATION PROGRAM STANDARDS AND PROCEDURES.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2956"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-136/2026-07-27T19:23:10+00:00</id>
+    <title>New: RES24-136 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:10+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2967"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE DIRECTOR OF BUDGET AND FISCAL SERVICES TO ISSUE AND SELL IN ONE OR MORE SERIES NOT TO EXCEED $10,000,000 PRINCIPAL AMOUNT OF GENERAL OBLIGATION BONDS OF THE CITY AND COUNTY OF HONOLULU FOR FINANCING THE AMOUNT APPROPRIATED IN ORDINANCE NO.24-10 (ALSO REFERRED TO, UPON ITS APPROVAL, AS BILL 13 (2024), CD1 AND AS MAY BE FURTHER AMENDED) OF THE CITY AND COUNTY OF HONOLULU FOR THE PURPOSE OF FINANCING CAPITAL COSTS OF THE HONOLULU RAIL TRANSIT PROJECT.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Recommendation of the adoption of the Resolution authorizing the issuance and sale of a not to exceed principal amount of General Obligation Bonds to finance the capital costs of the Honolulu Rail Transit Project (“HRTP”).&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2967"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill002-24/2026-07-27T19:23:09+00:00</id>
+    <title>New: BILL002(24) (Honolulu) — MAYOR</title>
+    <updated>2026-07-27T19:23:09+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2799"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO PUBLIC TRANSIT.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Returned approved.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2799"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill017-24/2026-07-27T19:23:08+00:00</id>
+    <title>New: BILL017(24) (Honolulu) — PUBLISH</title>
+    <updated>2026-07-27T19:23:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2874"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE HONOLULU AUTHORITY FOR RAPID TRANSPORTATION CAPITAL BUDGET FOR THE FISCAL YEAR JULY 1, 2024 TO JUNE 30, 2025.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Appropriates funds for the Honolulu Authority for Rapid Transportation Capital Budget for Fiscal Year 2025.&lt;/p&gt;
+&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2874"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill016-24/2026-07-27T19:23:08+00:00</id>
+    <title>New: BILL016(24) (Honolulu) — PUBLISH</title>
+    <updated>2026-07-27T19:23:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2873"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE HONOLULU AUTHORITY FOR RAPID TRANSPORTATION OPERATING BUDGET FOR THE FISCAL YEAR JULY 1, 2024 TO JUNE 30, 2025.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2873"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill014-24/2026-07-27T19:23:08+00:00</id>
+    <title>New: BILL014(24) (Honolulu) — PUBLISH</title>
+    <updated>2026-07-27T19:23:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2871"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE ISSUANCE AND SALE OF GENERAL OBLIGATION BONDS AND BOND ANTICIPATION NOTES OF THE CITY AND COUNTY OF HONOLULU IN A MAXIMUM PRINCIPAL AMOUNT EQUAL TO THE AGGREGATE OF THE AMOUNTS APPROPRIATED IN THE CAPITAL BUDGET ORDINANCE OF SAID CITY AND COUNTY FOR THE FISCAL YEAR ENDING JUNE 30, 2025, AND SPECIFIED IN SAID ORDINANCE TO BE FINANCED FROM THE PROCEEDS OF THE SALE OF SUCH BONDS AND TO BE EXPENDED FROM THE GENERAL IMPROVEMENT BOND FUND, THE HIGHWAY IMPROVEMENT BOND FUND, SOLID WASTE IMPROVEMENT BOND FUND, OR THE HOUSING DEVELOPMENT SPECIAL FUND.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2871"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill037-24/2026-07-27T19:23:05+00:00</id>
+    <title>BILL037(24) (Honolulu): — → FILE</title>
+    <updated>2026-07-27T19:23:05+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3010"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO OVERT VIDEO MONITORING.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Authorizes the implementation of overt video monitoring of public activity from fixed locations in and around the City rail system for the purpose of general prevention and deterrence of criminal activity. Amends the definition of “Responsible City Official” to authorize the Director of Transportation Services to implement overt video monitoring of public activity in and around the City rail system. Requires the designation of the “Responsible City Official” in resolutions approving video monitoring pursuant to Section 2-32.3(a)(7).&lt;/p&gt;
+&lt;p&gt;Status: — → FILE&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3010"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-184/2026-07-27T19:23:05+00:00</id>
+    <title>New: RES23-184 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:05+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2645"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;GRANTING A SPECIAL MANAGEMENT AREA USE PERMIT TO ALLOW THE CONSTRUCTION OF A SINGLE-FAMILY DWELLING, ACCESSORY DWELLING UNIT, AND CARPORT AT 66-153 WALIKANAHELE ROAD AT TAX MAP KEY 6-6-005:046 IN HALEʻIWA.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2645"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-188/2026-07-27T19:23:04+00:00</id>
+    <title>New: RES23-188 (Honolulu) — FILE</title>
+    <updated>2026-07-27T19:23:04+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2652"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDING RESOLUTION 17-221, CD1, AND RESOLUTION 20-170, CD1, TO EXTEND THE DEADLINE TO OBTAIN A BUILDING PERMIT FOR AN INTERIM PLANNED DEVELOPMENT-TRANSIT (IPD-T) PROJECT AT 1500 KAPIOLANI BOULEVARD.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2652"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-189/2026-07-27T19:23:04+00:00</id>
+    <title>New: RES23-189 (Honolulu) — FILE</title>
+    <updated>2026-07-27T19:23:04+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2653"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE MAYOR OR THE MAYOR’S DESIGNEE TO ENTER INTO A MEMORANDUM OF AGREEMENT WITH THE UNIVERSITY OF HAWAIʻI, LEEWARD COMMUNITY COLLEGE, TO USE RESERVED PARKING STALLS TO SUPPORT THE SKYLINE HONOLULU RAIL SERVICE AND ENSURE THE SECURITY OF THE FACILITIES AT THE HĀLAULANI RAIL STATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2653"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-202/2026-07-27T19:23:02+00:00</id>
+    <title>New: RES23-202 (Honolulu) — MAYOR</title>
+    <updated>2026-07-27T19:23:02+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2669"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;(FOR CONDEMNATION) PROVIDING FOR THE ACQUISITION OF EASEMENTS FOR PUBLIC USE FOR THE ROCK SLIDE MITIGATIVE IMPROVEMENTS IN THE VICINITY OF PACIFIC HEIGHTS ROAD SITE 070G, LOCATED AT KEWALO, PAUOA, HONOLULU, OAHU, HAWAII, AND DETERMINING AND DECLARING THE NECESSITY OF THE ACQUISITION BY EMINENT DOMAIN.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Returned approved.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2669"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-212/2026-07-27T19:23:02+00:00</id>
+    <title>New: RES23-212 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:02+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2682"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;REQUESTING THE DEPARTMENT OF TRANSPORTATION SERVICES TO CONDUCT A TRAFFIC STUDY ON THE WAIʻALAE AVENUE CORRIDOR BETWEEN 1ST AVENUE AND 11TH AVENUE, INCLUDING CROSS STREETS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2682"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-211/2026-07-27T19:23:01+00:00</id>
+    <title>New: RES23-211 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:01+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2680"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE CITY ADMINISTRATION TO WORK WITH THE STATE OF HAWAII TO AUTHORIZE THE CITY TO COLLECT AND RETAIN UNPAID AND DELINQUENT TRAFFIC FINES AND TO DEPOSIT SUCH FINES IN THE CITY GENERAL FUND.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2680"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-214/2026-07-27T19:23:01+00:00</id>
+    <title>New: RES23-214 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:01+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2686"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;FEDERAL HIGHWAY ADMINISTRATION AND FEDERAL TRANSIT ADMINISTRATION CANDIDATE PROJECTS FOR CONSIDERATION IN THE NEW FEDERAL FISCAL YEARS 2025-2028 TRANSPORTATION IMPROVEMENT PROGRAM.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2686"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-227/2026-07-27T19:23:00+00:00</id>
+    <title>New: RES23-227 (Honolulu) — MAYOR</title>
+    <updated>2026-07-27T19:23:00+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2701"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;(FOR CONDEMNATION) PROVIDING FOR THE ACQUISITION OF LAND FOR PUBLIC USE OF 1421 PENSACOLA STREET, LOCATED AT KULAOKAHUA, HONOLULU, OAHU, HAWAII, AND DETERMINING AND DECLARING THE NECESSITY OF THE ACQUISITION BY EMINENT DOMAIN.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Returned approved.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2701"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-230/2026-07-27T19:22:59+00:00</id>
+    <title>New: RES23-230 (Honolulu) — FILE</title>
+    <updated>2026-07-27T19:22:59+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2707"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE DIRECTOR OF TRANSPORTATION SERVICES TO UPDATE AND EXPAND THE CITY'S POLICY REGARDING THE USE OF RED CURBMARKINGS TO INCLUDE DESIGNATION OF ADDITIONAL AREAS WHERE PARKING IS PROHIBITED.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2707"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-249/2026-07-27T19:22:58+00:00</id>
+    <title>New: RES23-249 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:22:58+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2726"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;REQUESTING THE DEPARTMENT OF TRANSPORTATION SERVICES TO TAKE IMMEDIATE STEPS TO IMPROVE PEDESTRIAN ACCESS BETWEEN THE HĀLAWA SKYLINE STATION AND THE HĀLAWA STATION PARK-AND-RIDE PARKING LOT.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2726"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-264/2026-07-27T19:22:57+00:00</id>
+    <title>New: RES23-264 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:22:57+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2747"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;GRANTING A SPECIAL MANAGEMENT AREA MAJOR PERMIT TO ALLOW FOR THE CONSTRUCTION OF A NEW SINGLE-FAMILY DWELLING UNIT AND OTHER IMPROVEMENTS AT 67-429A WAIALUA BEACH ROAD IN WAIALUA, O’AHU.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2747"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-272/2026-07-27T19:22:56+00:00</id>
+    <title>New: RES23-272 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:22:56+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2755"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDING RESOLUTION 17-221, CD1, AS AMENDED BY RESOLUTION 20-170, CD1, TO FURTHER EXTEND THE DEADLINE TO OBTAIN A BUILDING PERMIT FOR AN INTERIM PLANNED DEVELOPMENT-TRANSIT PROJECT LOCATED AT 1500 KAPI‘OLANI BOULEVARD.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2755"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-281/2026-07-27T19:22:55+00:00</id>
+    <title>New: RES23-281 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:22:55+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2764"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING EXEMPTIONS FROM CERTAIN REQUIREMENTS RELATING TO THE WAIPAHU STREET AFFORDABLE RENTAL HOUSING PROJECT IN WAIPAHU, OʻAHU.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2764"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-304/2026-07-27T19:22:53+00:00</id>
+    <title>New: RES23-304 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:22:53+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2790"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE EXECUTION OF AN AMENDED FULL FUNDING GRANT AGREEMENT WITH THE FEDERAL TRANSIT ADMINISTRATION FOR FEDERAL TRANSPORTATION ASSISTANCE AUTHORIZED BY UNITED STATES CODE TITLE 49, CHAPTER 53, AND OTHER FEDERAL STATUTES ADMINISTERED BY THE FEDERAL TRANSIT ADMINISTRATION&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2790"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill050-23/2026-07-27T19:22:52+00:00</id>
+    <title>New: BILL050(23) (Honolulu) — PUBLISH</title>
+    <updated>2026-07-27T19:22:52+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2672"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE TRANSIT-ORIENTED DEVELOPMENT SPECIAL DISTRICT.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2672"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-hlu-15-bill-70-2023/2026-07-27T19:06:43+00:00</id>
+    <title>New: HLU-15 Bill 70 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:43+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14009"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 70 (2023), TRANSFER OF A CONDITIONAL PERMIT FOR THE OLD WAILUKU INN AT ULUPONO AT 2199 KAHOʻOKELE STREET, WAILUKU  (HLU-15)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14009"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-bill-79-2023/2026-07-27T19:06:43+00:00</id>
+    <title>New: Bill 79 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:43+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14017"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AUTHORIZING THE MAYOR OF THE COUNTY OF MAUI TO ENTER INTO AN INTERGOVERNMENTAL AGREEMENT WITH THE DEPARTMENT OF TRANSPORTATION, STATE OF HAWAII"
+
+The purpose of this bill is to authorize the Mayor to enter into an intergovernmental agreement with the Department of Transportation, State of Hawaii, for the purpose of operating and maintaining traffic signal hardware and other electrical equipment located at the intersection of Main Street and Church Street in Wailuku.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14017"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-bill-81-2023/2026-07-27T19:06:42+00:00</id>
+    <title>New: Bill 81 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:42+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14022"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AMENDING CHAPTER 11.03, MAUI COUNTY CODE, ESTABLISHING A FREE BUS PASS PROGRAM"&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14022"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-bill-81-fd1-2023/2026-07-27T19:06:41+00:00</id>
+    <title>New: Bill 81, FD1 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:41+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14032"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AMENDING CHAPTER 11.03, MAUI COUNTY CODE, ESTABLISHING A FARE FREE BUS PASS PROGRAM"&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14032"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-bill-82-cd1-2023/2026-07-27T19:06:40+00:00</id>
+    <title>New: Bill 82, CD1 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:40+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14036"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. 4405, GRANTING HOʻOKAHI PALAMA ALIʻI, LLC A CONDITIONAL PERMIT TO CONDUCT LIMITED SPECIAL EVENTS, HISTORICAL AND BOTANICAL TOURS, PHOTO SHOOTS, WORKSHOPS, RETREATS, AND WELLNESS AND EXERCISE CLASSES, AND TO ALLOW A BRIDAL LOUNGE AND EVENT PREPARATION SPACE WITHIN THE COUNTY AGRICULTURAL DISTRICT, FOR PROPERTY SITUATED AT 250 HAIKU ROAD, HAIKU, MAUI, HAWAII"
+
+The purpose of this bill is to grant a five-year Conditional Permit time extension by amending Ordinance 4405 (2017) for Hoʻokahi Palama Aliʻi, LLC to continue operating special events in the County Agricultural District, located at 250 Haiku Road, Haʻikū, Maui, Hawaiʻi.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14036"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-hlu-19-bill-82-2023/2026-07-27T19:06:40+00:00</id>
+    <title>New: HLU-19 BILL 82 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:40+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14055"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 82 (2023), AMENDING ORDINANCE 4405 TO GRANT A CONDITIONAL PERMIT FOR SPECIAL EVENTS TO HOʻOKAHI PALAMA ALIʻI, LLC AT 250 HAIKU ROAD, HAIKU, MAUI (HLU-19)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14055"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-bill-87-2023/2026-07-27T19:06:39+00:00</id>
+    <title>New: Bill 87 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:39+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14065"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AMENDING TITLE 10, MAUI COUNTY CODE, RELATING TO THE ESTABLISHMENT OF PAID PARKING ZONES AND PERMIT PARKING ZONES IN WAILUKU, PROHIBITED ACTIVITIES FOR THE WAILUKU GARAGE, AND PENALTIES FOR PARKING VIOLATIONS"&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14065"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-wai-10-bill-87-20233/2026-07-27T19:06:37+00:00</id>
+    <title>New: WAI-10 Bill 87 (20233) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:37+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14072"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 87 (2023), RELATING TO THE ESTABLISHMENT OF PAID PARKING ZONES AND PERMIT PARKING ZONES IN WAILUKU, PROHIBITED ACTIVITIES FOR THE WAILUKU GARAGE, AND PENALTIES FOR PARKING VIOLATIONS  (WAI-10)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14072"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-bill-94-2023/2026-07-27T19:06:35+00:00</id>
+    <title>New: Bill 94 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:35+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14087"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AMENDING THE FISCAL YEAR 2024 BUDGET FOR THE COUNTY OF MAUI"
+
+The purpose of this bill is to amend the FY 2024 Budget, Revenues, Operating Expenses, Capital Improvement Projects, Appendix A, Part II, and Appendix C to decrease the expenses and revenues for all funds except for the Bikeway Fund.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14087"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-bill-87-cd1-2023/2026-07-27T19:06:23+00:00</id>
+    <title>New: Bill 87, CD1 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:23+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14196"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AMENDING TITLE 10, MAUI COUNTY CODE, RELATING TO THE ESTABLISHMENT OF PAID PARKING ZONES AND PERMIT PARKING ZONES IN WAILUKU, PROHIBITED ACTIVITIES FOR THE WAILUKU GARAGE FACILITY, AND PENALTIES FOR PARKING VIOLATIONS"&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14196"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-bill-127-2023/2026-07-27T19:06:17+00:00</id>
+    <title>New: Bill 127 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:17+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14241"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AUTHORIZING THE MAYOR OF THE COUNTY OF MAUI TO ENTER INTO AN INTERGOVERNMENTAL AGREEMENT WITH THE STATE OF HAWAII FOR THE LEASE OF THE MAUI BUS TRANSIT HUB PROPERTY"&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14241"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

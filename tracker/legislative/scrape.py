@@ -6,12 +6,15 @@ import logging
 from datetime import date, timedelta
 from pathlib import Path
 
-from tracker.legislative import COUNCILS
+from tracker.legislative import COUNCILS, matter_class
 
-# When no explicit --since is given, scrape this far back. County councils run
-# on 2-year terms (year-round bodies, not session-bound), so a 730-day window
-# covers the full active inventory of the sitting council.
-DEFAULT_LOOKBACK_DAYS = 730
+# Retention window. The sources reach much further back than this — Maui's
+# Legistar API to Nov 2015, Honolulu's browse index to 2017 — but the tracker
+# deliberately keeps a rolling 3 years: it covers the sitting council's full
+# 2-year term plus the one before it, which is the horizon anyone actually
+# searches. Older records are neither fetched nor kept (see prune_expired).
+RETENTION_YEARS = 3
+DEFAULT_LOOKBACK_DAYS = RETENTION_YEARS * 365
 from tracker.legislative.adapters.base import CouncilAdapter
 from tracker.legislative.classify import classify
 from tracker.legislative.db import (
@@ -19,6 +22,7 @@ from tracker.legislative.db import (
     connect,
     finish_run,
     init_schema,
+    prune_expired,
     start_run,
     upsert_actions,
     upsert_bill,
@@ -56,8 +60,10 @@ def scrape_council(
 ) -> dict:
     """Scrape one council, upsert into DB, return run summary.
 
-    If `since` is None, defaults to a DEFAULT_LOOKBACK_DAYS window so the daily
-    cron stays incremental. Pass an explicit old date for a full backfill.
+    If `since` is None it defaults to the retention window, which is also the
+    furthest back this tracker will go. Passing an older `since` explicitly
+    will fetch more, but prune_expired() will drop it again on the next run —
+    so the window, not the caller, is the source of truth.
 
     `force_actions` fetches action history for every bill seen, not just new or
     updated ones — a heavier one-time backfill (each measure is an extra
@@ -84,7 +90,12 @@ def scrape_council(
                     new += 1
                 if was_updated:
                     updated += 1
-                if fetch_actions:
+                # Action history is only worth a round-trip for legislation.
+                # Communications, committee reports and minutes are ~70% of
+                # Maui's inventory and have no meaningful progression, so
+                # fetching theirs would more than triple a full backfill for
+                # timelines nobody reads.
+                if fetch_actions and matter_class(bill.bill_type) == "legislation":
                     try:
                         if bill.actions:
                             # Adapter already has the history (no extra request) —
@@ -113,6 +124,20 @@ def scrape_council(
 
 
 def scrape_all(
-    db_path: Path = DEFAULT_DB, since: date | None = None
+    db_path: Path = DEFAULT_DB, since: date | None = None, prune: bool = True
 ) -> list[dict]:
-    return [scrape_council(c, db_path=db_path, since=since) for c in COUNCILS]
+    """Scrape every council, then enforce the retention window.
+
+    Pruning runs here rather than per-council so a single council's failure
+    can't drop the others' records: a failed scrape yields nothing new, but the
+    prune only ever removes rows that aged out on their own.
+    """
+    results = [scrape_council(c, db_path=db_path, since=since) for c in COUNCILS]
+    if prune:
+        with connect(db_path) as conn:
+            init_schema(conn)
+            removed = prune_expired(conn, years=RETENTION_YEARS)
+        if removed:
+            log.info("pruned %d records older than %d years", removed, RETENTION_YEARS)
+            results.append({"council": "*", "pruned": removed})
+    return results

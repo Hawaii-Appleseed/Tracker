@@ -2,17 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:dtomkatsu.github.io,2026:feeds/bill/honolulu-bill037-25.xml</id>
   <title>BILL037(25) — Honolulu</title>
-  <updated>2026-06-01T20:41:04+00:00</updated>
+  <updated>2026-07-27T19:23:25+00:00</updated>
   <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/honolulu-bill037-25.xml"/>
   <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill037-25/2026-06-01T20:41:04+00:00</id>
-    <title>New: BILL037(25) (Honolulu) — Recommitted.</title>
-    <updated>2026-06-01T20:41:04+00:00</updated>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill037-25/2026-07-27T19:23:25+00:00</id>
+    <title>BILL037(25) (Honolulu): — → ZON</title>
+    <updated>2026-07-27T19:23:25+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3306"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;TO AMEND PORTIONS (7.292 ACRES) OF THE STATE LAND USE DISTRICT BOUNDARY MAP (HALEʻIWA QUADRANGLE) FROM THE AGRICULTURAL DISTRICT TO THE URBAN DISTRICT FOR CERTAIN LANDS SITUATED IN THE HALEʻIWA SPECIAL DISTRICT, HALEʻIWA, OAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Reclassifies certain lands in Haleʻiwa, Oahu from the State Land Use Agricultural District to the State Land Use Urban District, subject to certain conditions.&lt;/p&gt;
-&lt;p&gt;Latest action: Recommitted.&lt;/p&gt;
+&lt;p&gt;Status: — → ZON&lt;/p&gt;
+&lt;p&gt;Latest action: CR-187(26)
+Reported out for passage on third reading.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3306"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

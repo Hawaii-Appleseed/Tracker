@@ -13,7 +13,7 @@ from tracker.legislative import COUNCILS
 from tracker.legislative.db import DEFAULT_DB
 from tracker.legislative.diff import diff_since
 from tracker.legislative.notify import post as post_slack
-from tracker.legislative.scrape import scrape_all, scrape_council
+from tracker.legislative.scrape import RETENTION_YEARS, scrape_all, scrape_council
 
 
 def _parse_date(s: str | None) -> date | None:
@@ -109,6 +109,44 @@ def cmd_reclassify(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_prune(args: argparse.Namespace) -> int:
+    """Enforce the retention window against the stored inventory.
+
+    scrape --council all prunes on its own; this exists to apply the window
+    after a one-off backfill, or to preview what it would remove.
+    """
+    from datetime import timedelta
+
+    from tracker.legislative.db import connect, expired_count, init_schema, prune_expired
+
+    cutoff = (date.today() - timedelta(days=args.years * 365)).isoformat()
+    with connect(args.db) as conn:
+        init_schema(conn)
+        total = conn.execute("SELECT COUNT(*) FROM bills").fetchone()[0]
+        doomed = expired_count(conn, cutoff)
+        by_year = [
+            dict(r)
+            for r in conn.execute(
+                "SELECT substr(COALESCE(introduced_date, first_seen), 1, 4) AS year, "
+                "       COUNT(*) AS n FROM bills "
+                "WHERE COALESCE(NULLIF(MAX(COALESCE(last_action_date, ''), "
+                "      COALESCE(introduced_date, '')), ''), first_seen) < ? "
+                "GROUP BY year ORDER BY year",
+                (cutoff,),
+            )
+        ]
+        removed = 0 if args.dry_run else prune_expired(conn, cutoff)
+    print(json.dumps({
+        "cutoff": cutoff,
+        "retention_years": args.years,
+        "bills_before": total,
+        "would_remove" if args.dry_run else "removed": doomed if args.dry_run else removed,
+        "remaining": total - (doomed if args.dry_run else removed),
+        "removed_by_year": by_year,
+    }, indent=2))
+    return 0
+
+
 def cmd_dump_agendas(args: argparse.Namespace) -> int:
     """Save raw agenda text from the Granicus councils (kauai, hawaii) as test
     fixtures, so title-parsing rules can be checked against real documents."""
@@ -144,7 +182,11 @@ def main(argv: list[str] | None = None) -> int:
 
     sp = sub.add_parser("scrape", help="scrape one or all councils")
     sp.add_argument("--council", choices=["all", *COUNCILS], default="all")
-    sp.add_argument("--since", help="YYYY-MM-DD; only fetch bills since this date")
+    sp.add_argument(
+        "--since",
+        help="YYYY-MM-DD; defaults to the retention window "
+        f"({RETENTION_YEARS} years). Older dates are fetched but pruned again.",
+    )
     sp.add_argument(
         "--refetch-actions",
         action="store_true",
@@ -174,6 +216,16 @@ def main(argv: list[str] | None = None) -> int:
     rp.add_argument("--dry-run", action="store_true", help="report changes without writing")
     rp.add_argument("--show", type=int, default=20, help="number of example changes to print")
     rp.set_defaults(fn=cmd_reclassify)
+
+    pp = sub.add_parser(
+        "prune", help=f"drop records older than the retention window "
+        f"({RETENTION_YEARS} years)"
+    )
+    pp.add_argument("--years", type=int, default=RETENTION_YEARS)
+    pp.add_argument(
+        "--dry-run", action="store_true", help="report what would be removed"
+    )
+    pp.set_defaults(fn=cmd_prune)
 
     da = sub.add_parser(
         "dump-agendas", help="save raw Granicus agenda text as test fixtures"

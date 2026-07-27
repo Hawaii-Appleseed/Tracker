@@ -300,8 +300,10 @@ input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; a
 /* Sort: custom popover dropdown matching the other toolbar menus */
 .sort-control { position: relative; display: inline-flex; align-items: center; }
 .sort-btn { gap: 8px; }
-.sort-btn .sel-caret { width: 14px; height: 14px; color: var(--text-faint); flex: none; transition: transform var(--dur-1) var(--ease-out); }
-.sort-btn[aria-expanded="true"] .sel-caret { transform: rotate(180deg); }
+/* Any toolbar button with a disclosure caret (Sort, Records), not just Sort —
+   an unscoped caret renders at the SVG's intrinsic size and blows up the bar. */
+.tool-btn .sel-caret { width: 14px; height: 14px; color: var(--text-faint); flex: none; transition: transform var(--dur-1) var(--ease-out); }
+.tool-btn[aria-expanded="true"] .sel-caret { transform: rotate(180deg); }
 .sort-pop { left: 0; right: auto; min-width: 188px; transform-origin: top left; }
 .sort-opt .mi-label { flex: 1; }
 .sort-opt.is-sel { color: var(--primary-dark); font-weight: 700; }

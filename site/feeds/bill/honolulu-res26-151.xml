@@ -2,9 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:dtomkatsu.github.io,2026:feeds/bill/honolulu-res26-151.xml</id>
   <title>RES26-151 — Honolulu</title>
-  <updated>2026-06-19T16:15:04+00:00</updated>
+  <updated>2026-07-27T19:23:31+00:00</updated>
   <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/honolulu-res26-151.xml"/>
   <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-151/2026-07-27T19:23:31+00:00</id>
+    <title>RES26-151 (Honolulu): INTRO → CCL</title>
+    <updated>2026-07-27T19:23:31+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3770"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING THE EXPENDITURE OF CLEAN WATER AND NATURAL LANDS FUNDS TO ACQUIRE A PERPETUAL CONSERVATION EASEMENT OVER ONE PARCEL OF LAND, TAX MAP KEY: (1) 3-6-023:006 (CPRs 0001-0008) SITUATED IN WAILUPE, O'AHU, HAWAI'I.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: INTRO → CCL&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3770"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:dtomkatsu.github.io,2026:honolulu-res26-151/2026-06-19T16:15:04+00:00</id>
     <title>New: RES26-151 (Honolulu) — INTRO</title>

@@ -2,196 +2,489 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:dtomkatsu.github.io,2026:feeds/subject-tax.xml</id>
   <title>Bill Tracker — Tax bills</title>
-  <updated>2026-06-19T16:16:29+00:00</updated>
+  <updated>2026-07-27T19:23:32+00:00</updated>
   <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/subject-tax.xml"/>
   <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-166/2026-06-19T16:16:29+00:00</id>
-    <title>Bill 166 (Hawaiʻi County): Passed First Reading → Passed Second Reading</title>
-    <updated>2026-06-19T16:16:29+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130672&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS ORDINANCE NO. 25-50, AS AMENDED, AN ORDINANCE AMENDING CHAPTER 6 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO TRANSIENT ACCOMMODATIONS&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Delays the effective date of Ordinance No. 25-50, relating to transient accommodations, until September 1, 2026.&lt;/p&gt;
-&lt;p&gt;Status: Passed First Reading → Passed Second Reading&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Bill 166 passes second &amp;amp; final reading - 06/17/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130672&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-134/2026-07-27T19:23:32+00:00</id>
+    <title>RES26-134 (Honolulu): INTRO → CCL</title>
+    <updated>2026-07-27T19:23:32+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3749"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING THE EXPENDITURE OF CLEAN WATER AND NATURAL LANDS FUNDS TO ACQUIRE A PERPETUAL CONSERVATION EASEMENT OVER TWELVE PARCELS OF LAND KNOWN AS KE KĪPUKA O KALAEUILA, TAX MAP KEYS: (1) 5-6-003:011, 019, 020, 021, 022, 023, 024, 026, 030, 031, 046, AND 049 IN KAHUKU, O‘AHU, HAWAI‘I.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: INTRO → CCL&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3749"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-160/2026-06-19T16:16:28+00:00</id>
-    <title>Bill 160 (Hawaiʻi County): Passed First Reading → Passed Second Reading</title>
-    <updated>2026-06-19T16:16:28+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1129749&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Appropriates revenues in the Real Property Tax Penalties account ($1,125,000)&lt;/p&gt;
-&lt;p&gt;Status: Passed First Reading → Passed Second Reading&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Bill 160 passes second &amp;amp; final reading - 06/17/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1129749&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-165/2026-06-19T16:16:26+00:00</id>
-    <title>Bill 165 (Hawaiʻi County): Passed First Reading → —</title>
-    <updated>2026-06-19T16:16:26+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130366&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;INITIATES AN AMENDMENT TO ARTICLE X OF THE CHARTER OF THE COUNTY OF HAWAI‘I (2024 EDITION), RELATING TO PUBLIC ACCESS, OPEN SPACE, AND NATURAL RESOURCES PRESERVATION&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Increases the annual allocation dedicated to the Public Access, Open Space, and Natural Resources Preservation maintenance fund from 0.25 percent to 0.5 percent of real property tax revenue; removes the accrual limit for the fund; provides that all expenses from the fund must align with the fund’s purpose&lt;/p&gt;
-&lt;p&gt;Status: Passed First Reading → —&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Bill 165 passes 1st of 3 required readings; adopts GOEAC-139 - 06/17/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130366&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-149/2026-06-19T16:15:05+00:00</id>
-    <title>New: RES26-149 (Honolulu) — INTRO</title>
-    <updated>2026-06-19T16:15:05+00:00</updated>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-149/2026-07-27T19:23:31+00:00</id>
+    <title>RES26-149 (Honolulu): INTRO → CCL</title>
+    <updated>2026-07-27T19:23:31+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3768"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING THE GRANT OF PERPETUAL SUBSURFACE EASEMENTS TO HAWAIKI SUBMARINE CABLE USA LLC WITHIN PORTIONS OF THE KAHE POINT BEACH PARK, 'EWA, HAWAI'I, TAX MAP KEY NO. (1) 9-2-049:001.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;Status: INTRO → CCL&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3768"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-151/2026-06-19T16:15:04+00:00</id>
-    <title>New: RES26-151 (Honolulu) — INTRO</title>
-    <updated>2026-06-19T16:15:04+00:00</updated>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-151/2026-07-27T19:23:31+00:00</id>
+    <title>RES26-151 (Honolulu): INTRO → CCL</title>
+    <updated>2026-07-27T19:23:31+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3770"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING THE EXPENDITURE OF CLEAN WATER AND NATURAL LANDS FUNDS TO ACQUIRE A PERPETUAL CONSERVATION EASEMENT OVER ONE PARCEL OF LAND, TAX MAP KEY: (1) 3-6-023:006 (CPRs 0001-0008) SITUATED IN WAILUPE, O'AHU, HAWAI'I.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;Status: INTRO → CCL&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3770"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-148/2026-06-17T23:09:34+00:00</id>
-    <title>Bill 148 (Hawaiʻi County): — → Passed Second Reading</title>
-    <updated>2026-06-17T23:09:34+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1128335&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;DESIGNATES TAX MAP KEY: 6-6-001:010 AS “LAʻELAʻE PARK”, AMENDS CHAPTER 15, ARTICLE 8, SECTION 15-68.1, AND AMENDS CHAPTER 14, ARTICLE 1, SECTION 14-1 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO PARKS AND RECREATIONAL FACILITIES&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Adds Laʻelaʻe Park, located in Waimea, to the Parks and Recreational Facility Schedule and to Section 14-1 of the County Code, which prohibits the consumption of alcohol at any time.&lt;/p&gt;
-&lt;p&gt;Status: — → Passed Second Reading&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Bill 148 passes second &amp;amp; final reading - 05/20/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1128335&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-154/2026-07-27T19:23:31+00:00</id>
+    <title>New: RES26-154 (Honolulu) — BUD</title>
+    <updated>2026-07-27T19:23:31+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3773"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;CONFIRMING THE APPOINTMENT OF SHANNON SMITH TO SERVE ON THE BOARD OF REVIEW I FOR REAL PROPERTY TAX APPEALS OF THE CITY AND COUNTY OF HONOLULU.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: CR-198(26)
+Reported out for adoption as amended in CD1 form.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3773"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-163/2026-06-17T23:09:30+00:00</id>
-    <title>Bill 163 (Hawaiʻi County): FC:  Amended to Draft 2 - 6/16/2026</title>
-    <updated>2026-06-17T23:09:30+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130355&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 19, ARTICLE 8, OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO REAL PROPERTY TAXES&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Establishes a new real property tax dedication for certain properties that are owned by a descendant of a person who owned the property at least one hundred years ago to be subject to the minimum tax.&lt;/p&gt;
-&lt;p&gt;Latest action: FC:  Amended to Draft 2 - 6/16/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130355&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-158/2026-07-27T19:23:31+00:00</id>
+    <title>New: RES26-158 (Honolulu) — EES</title>
+    <updated>2026-07-27T19:23:31+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3784"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE CITY ADMINISTRATION TO CONDUCT A CITYWIDE ENERGY VULNERABILITY ASSESSMENT AND TO REPORT ITS FINDINGS AND RECOMMENDATIONS TO THE COUNCIL.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: CR-201(26)
+Reported out for adoption.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3784"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-166/2026-06-17T23:09:30+00:00</id>
-    <title>Bill 166 (Hawaiʻi County): — → Passed First Reading</title>
-    <updated>2026-06-17T23:09:30+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130672&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS ORDINANCE NO. 25-50, AS AMENDED, AN ORDINANCE AMENDING CHAPTER 6 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO TRANSIENT ACCOMMODATIONS&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Delays the effective date of Ordinance No. 25-50, relating to transient accommodations, until September 1, 2026.&lt;/p&gt;
-&lt;p&gt;Status: — → Passed First Reading&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Bill 166 passes first reading - 06/03/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130672&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill029-26/2026-07-27T19:23:28+00:00</id>
+    <title>BILL029(26) (Honolulu): CCL → BUD</title>
+    <updated>2026-07-27T19:23:28+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3667"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Amends the requirements for filing a claim for a continued RPT exemption for low-income rental housing.&lt;/p&gt;
+&lt;p&gt;Status: CCL → BUD&lt;/p&gt;
+&lt;p&gt;Latest action: Postponed to a date and time to be determined by the Committee Chair.
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3667"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-160/2026-06-17T23:09:29+00:00</id>
-    <title>Bill 160 (Hawaiʻi County): — → Passed First Reading</title>
-    <updated>2026-06-17T23:09:29+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1129749&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Appropriates revenues in the Real Property Tax Penalties account ($1,125,000)&lt;/p&gt;
-&lt;p&gt;Status: — → Passed First Reading&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Bill 160 passes first reading; adopts FC-154 - 06/03/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1129749&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill040-26/2026-07-27T19:23:27+00:00</id>
+    <title>BILL040(26) (Honolulu): CCL → BUD</title>
+    <updated>2026-07-27T19:23:27+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3752"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Temporarily entitles the owner of certain owner-occupied condominium units to a real property tax home exemption. Applies retroactively to the tax year beginning July 1, 2025, and thereafter.&lt;/p&gt;
+&lt;p&gt;Status: CCL → BUD&lt;/p&gt;
+&lt;p&gt;Latest action: Cancelled and not considered.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3752"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-165/2026-06-17T23:09:28+00:00</id>
-    <title>Bill 165 (Hawaiʻi County): — → Passed First Reading</title>
-    <updated>2026-06-17T23:09:28+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130366&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;INITIATES AN AMENDMENT TO ARTICLE X OF THE CHARTER OF THE COUNTY OF HAWAI‘I (2024 EDITION), RELATING TO PUBLIC ACCESS, OPEN SPACE, AND NATURAL RESOURCES PRESERVATION&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Increases the annual allocation dedicated to the Public Access, Open Space, and Natural Resources Preservation maintenance fund from 0.25 percent to 0.5 percent of real property tax revenue; removes the accrual limit for the fund; provides that all expenses from the fund must align with the fund’s purpose&lt;/p&gt;
-&lt;p&gt;Status: — → Passed First Reading&lt;/p&gt;
-&lt;p&gt;Latest action: GOEAC-139:  Recommended passage on first reading - 06/02/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130366&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill047-26/2026-07-27T19:23:27+00:00</id>
+    <title>New: BILL047(26) (Honolulu) — BUD</title>
+    <updated>2026-07-27T19:23:27+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3779"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;REALTING TO THE MOTOR VEHICLE WEIGHT TAX.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Reduces the vehicle weight tax rates for motor vehicles designed primarily for carrying passengers; trucks and noncommercial vehicles having a net weight of 6,500 pounds or less; and vehicles designed for carrying property or for purposes other than carrying passengers. Takes effect on July 1, 2027.&lt;/p&gt;
+&lt;p&gt;Latest action: CR-196(26)
+Reported out for passage on second reading and scheduling of a public hearing.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3779"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2026-11/2026-06-17T16:17:12+00:00</id>
-    <title>Resolution 2026-11 (Kauaʻi): — → In Committee</title>
-    <updated>2026-06-17T16:17:12+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3091"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION ESTABLISHING THE REAL PROPERTY TAX RATES FOR THE FISCAL YEAR JULY 1, 2026 TO JUNE 30, 2027 FOR THE COUNTY OF KAUA‘I&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: — → In Committee&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-06-03&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3091"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill046-26/2026-07-27T19:23:27+00:00</id>
+    <title>New: BILL046(26) (Honolulu) — BUD</title>
+    <updated>2026-07-27T19:23:27+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3778"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Increases and makes uniform the real property tax homeowner’s exemption amount for taxpayers 65 years of age or over, to apply to all income levels and age brackets for taxpayers 65 years of age or over. Applies to tax years beginning July 1 2028, and thereafter.&lt;/p&gt;
+&lt;p&gt;Latest action: CR-195(26)
+Reported out for passage on second reading and scheduling of a public hearing.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3778"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-148/2026-06-17T16:16:24+00:00</id>
-    <title>Bill 148 (Hawaiʻi County): Passed Second Reading → —</title>
-    <updated>2026-06-17T16:16:24+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1128335&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;DESIGNATES TAX MAP KEY: 6-6-001:010 AS “LAʻELAʻE PARK”, AMENDS CHAPTER 15, ARTICLE 8, SECTION 15-68.1, AND AMENDS CHAPTER 14, ARTICLE 1, SECTION 14-1 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO PARKS AND RECREATIONAL FACILITIES&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Adds Laʻelaʻe Park, located in Waimea, to the Parks and Recreational Facility Schedule and to Section 14-1 of the County Code, which prohibits the consumption of alcohol at any time.&lt;/p&gt;
-&lt;p&gt;Status: Passed Second Reading → —&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-05-20&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1128335&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill045-26/2026-07-27T19:23:26+00:00</id>
+    <title>New: BILL045(26) (Honolulu) — BUD</title>
+    <updated>2026-07-27T19:23:26+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3777"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Amends the real property tax homeowner’s exemption base amount. Applies to tax years beginning July 1, 2028 and thereafter.&lt;/p&gt;
+&lt;p&gt;Latest action: CR-194(26)
+Reported out for passage on second reading and scheduling of a public hearing.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3777"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-163/2026-06-17T16:16:24+00:00</id>
-    <title>Bill 163 (Hawaiʻi County): Postponed → —</title>
-    <updated>2026-06-17T16:16:24+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130355&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 19, ARTICLE 8, OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO REAL PROPERTY TAXES&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Establishes a new real property tax dedication for certain properties that are owned by a descendant of a person who owned the property at least one hundred years ago to be subject to the minimum tax.&lt;/p&gt;
-&lt;p&gt;Status: Postponed → —&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-06-16&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130355&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill044-26/2026-07-27T19:23:26+00:00</id>
+    <title>New: BILL044(26) (Honolulu) — BUD</title>
+    <updated>2026-07-27T19:23:26+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3776"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REVENUES AND FUNDS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Specifies certain percentages of TAT revenues to be deposited into the Parks Maintenance and Recreation Services Revolving Fund, the Honolulu Zoo Fund, and the Botanical Gardens and Urban Forestry Revolving Fund. Takes effect upon the date of the bill’s approval; or (2) the date on which Bill 33 (2026), CD1, or any amended version thereof, has been enacted into law and taken effect, whichever occurs later.&lt;/p&gt;
+&lt;p&gt;Latest action: CR-193(26)
+Reported out for passage on second reading and scheduling of a public hearing.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3776"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-166/2026-06-17T16:16:24+00:00</id>
-    <title>Bill 166 (Hawaiʻi County): Passed First Reading → —</title>
-    <updated>2026-06-17T16:16:24+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130672&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS ORDINANCE NO. 25-50, AS AMENDED, AN ORDINANCE AMENDING CHAPTER 6 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO TRANSIENT ACCOMMODATIONS&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Delays the effective date of Ordinance No. 25-50, relating to transient accommodations, until September 1, 2026.&lt;/p&gt;
-&lt;p&gt;Status: Passed First Reading → —&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-06-17&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130672&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill049-26/2026-07-27T19:23:26+00:00</id>
+    <title>New: BILL049(26) (Honolulu) — BUD</title>
+    <updated>2026-07-27T19:23:26+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3781"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REVENUES AND FUNDS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Specifies certain percentages of TAT revenues to be deposited into the Parks Maintenance and Recreation Services Revolving Fund and the Botanical Gardens and Urban Forestry Revolving Fund. Takes effect upon the date of the bill’s approval; or (2) the date on which Bill 33 (2026), or any amended version thereof, has been enacted into law and taken effect, whichever occurs later.&lt;/p&gt;
+&lt;p&gt;Latest action: Postponed to a date and time to be determined by the Committee Chair.
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3781"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-160/2026-06-17T16:16:24+00:00</id>
-    <title>Bill 160 (Hawaiʻi County): Passed First Reading → —</title>
-    <updated>2026-06-17T16:16:24+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1129749&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Appropriates revenues in the Real Property Tax Penalties account ($1,125,000)&lt;/p&gt;
-&lt;p&gt;Status: Passed First Reading → —&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-06-17&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1129749&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res25-176/2026-07-27T19:23:26+00:00</id>
+    <title>RES25-176 (Honolulu): — → FILE</title>
+    <updated>2026-07-27T19:23:26+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3386"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING THE EXPENDITURE OF CLEAN WATER AND NATURAL LANDS FUNDS TO ACQUIRE A PERPETUAL CONSERVATION EASEMENT OVER TWELVE PARCELS KNOWN AS KE KĪPUKA O KALAEUILA TAX MAP KEYS: (1) 5-6-003: 011, 019, 020, 021, 022, 023, 024, 026, 030, 031, 046, AND 049 IN KAHUKU, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → FILE&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3386"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-165/2026-06-17T16:16:24+00:00</id>
-    <title>Bill 165 (Hawaiʻi County): Passed First Reading → —</title>
-    <updated>2026-06-17T16:16:24+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130366&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;INITIATES AN AMENDMENT TO ARTICLE X OF THE CHARTER OF THE COUNTY OF HAWAI‘I (2024 EDITION), RELATING TO PUBLIC ACCESS, OPEN SPACE, AND NATURAL RESOURCES PRESERVATION&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Increases the annual allocation dedicated to the Public Access, Open Space, and Natural Resources Preservation maintenance fund from 0.25 percent to 0.5 percent of real property tax revenue; removes the accrual limit for the fund; provides that all expenses from the fund must align with the fund’s purpose&lt;/p&gt;
-&lt;p&gt;Status: Passed First Reading → —&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-06-17&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130366&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill068-25/2026-07-27T19:23:25+00:00</id>
+    <title>BILL068(25) (Honolulu): CCL → BUD</title>
+    <updated>2026-07-27T19:23:25+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3532"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Amends the definition of income in ROH § 8-13.1 to clarify that only the titleholder’s income (and not the income of a non-titleholder who is included on a joint income tax return) will be considered when calculating income eligibility for the County Tax Credit.&lt;/p&gt;
+&lt;p&gt;Status: CCL → BUD&lt;/p&gt;
+&lt;p&gt;Latest action: CR-192(26)
+Reported out for passage on second reading and scheduling of a public hearing.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3532"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2026-11/2026-06-15T16:26:03+00:00</id>
-    <title>Resolution 2026-11 (Kauaʻi): In Committee → —</title>
-    <updated>2026-06-15T16:26:03+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3091"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION ESTABLISHING THE REAL PROPERTY TAX RATES FOR THE FISCAL YEAR JULY 1, 2026 TO JUNE 30, 2027 FOR THE COUNTY OF KAUA‘I&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: In Committee → —&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-04-09&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3091"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill067-25/2026-07-27T19:23:25+00:00</id>
+    <title>BILL067(25) (Honolulu): CCL → BUD</title>
+    <updated>2026-07-27T19:23:25+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3531"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Establishes a valuation cap (either 2 percent of the preceding tax year’s assessed value of the real property or the rate of inflation per year, whichever is lower) for real property owned and occupied by a taxpayer 65 years or age or older. Specifies certain exceptions to the valuation cap. Effective for tax years beginning July 1, 2027.&lt;/p&gt;
+&lt;p&gt;Status: CCL → BUD&lt;/p&gt;
+&lt;p&gt;Latest action: Postponed to a date and time to be determined by the Committee Chair.
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3531"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:maui-bfed-61-reso-26-100/2026-06-12T16:15:06+00:00</id>
-    <title>New: BFED-61 Reso 26-100 (Maui) — Agenda Ready</title>
-    <updated>2026-06-12T16:15:06+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16323"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION 26-100, AUTHORIZING A TAX-EXEMPT LEASE-PURCHASE AGREEMENT WITH TD EQUIPMENT FINANCE, INC., FOR THE JOHNSON CONTROLS, INC., ENERGY PERFORMANCE CONTRACT (BFED-61)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Budget, Finance, and Economic Development Committee (2025-2027)&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16323"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-017/2026-07-27T19:23:22+00:00</id>
+    <title>New: RES24-017 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:22+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2815"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING THE SALE OF THE PIʻIKOI MINI PARK, ROAD REMNANT LOT 46, 1409 PIʻIKOI STREET, HONOLULU, HAWAIʻI, TAX MAP KEY: 2-4-020:056.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2815"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-061/2026-07-27T19:23:18+00:00</id>
+    <title>New: RES24-061 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:18+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2875"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;DETERMINING THE REAL PROPERTY TAX RATES FOR THE CITY AND COUNTY OF HONOLULU FOR THE FISCAL YEAR JULY 1, 2024 TO JUNE 30, 2025.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2875"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-117/2026-07-27T19:23:12+00:00</id>
+    <title>New: RES24-117 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:12+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2940"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING THE TRANSFER OF PARCELS 1 THROUGH 6 WITHIN POUHALA MARSH, WAIKELE, OʻAHU, TAX MAP KEYS (1) 9-3-001:002, :006, :021; AND :022; LAND AREA: 32 ACRES.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2940"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res24-129/2026-07-27T19:23:11+00:00</id>
+    <title>New: RES24-129 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:11+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2954"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE CITY ADMINISTRATION TO PROVIDE ANNUAL MENTAL HEALTH ASSESSMENT OPPORTUNITIES FOR FIRST RESPONDERS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2954"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill015-24/2026-07-27T19:23:08+00:00</id>
+    <title>New: BILL015(24) (Honolulu) — FILE</title>
+    <updated>2026-07-27T19:23:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2872"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;DETERMINING THE REAL PROPERTY TAX RATES FOR THE CITY AND COUNTY OF HONOLULU FOR THE FISCAL YEAR JULY 1, 2024 TO JUNE 30, 2025.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2872"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill025-24/2026-07-27T19:23:06+00:00</id>
+    <title>New: BILL025(24) (Honolulu) — MAYOR</title>
+    <updated>2026-07-27T19:23:06+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2931"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO LICENSE FEES.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Repeals the outdated Hotel and Boardinghouse Annual License Fee. Takes effect January 1,2025.&lt;/p&gt;
+&lt;p&gt;Latest action: Returned approved.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2931"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill027-24/2026-07-27T19:23:06+00:00</id>
+    <title>New: BILL027(24) (Honolulu) — FILE</title>
+    <updated>2026-07-27T19:23:06+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2951"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE REAL PROPERTY TAX HOME EXEMPTION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Allows an owner of real property with a real property tax home exemption to maintain the property’s exempt status for a longer period of time if the owner must temporarily vacate the exempted home due to fire damage or destruction.&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2951"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill028-24/2026-07-27T19:23:06+00:00</id>
+    <title>New: BILL028(24) (Honolulu) — FILE</title>
+    <updated>2026-07-27T19:23:06+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2952"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Amends provisions of the real property tax home exemption for disabled veterans, and their surviving spouses. Expands the eligibility for the real property tax exemption for totally disabled veterans to those who are at least 80 percent disabled, and their surviving spouses. Provides for a real property tax exemption in the amount of ___________ on all real property owned by blind and deaf persons, and veterans who are less than 80 percent disabled, as certified on forms prescribed by the City’s Director of Budget and Fiscal Services.&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2952"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill030-24/2026-07-27T19:23:06+00:00</id>
+    <title>New: BILL030(24) (Honolulu) — FILE</title>
+    <updated>2026-07-27T19:23:06+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2960"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Establishes a real property tax exemption for land owned and leased by the State of Hawai’i. Provides application requirements for the exemption. Applies to tax years beginning July 1, 2026 and thereafter.&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2960"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill034-24/2026-07-27T19:23:06+00:00</id>
+    <title>New: BILL034(24) (Honolulu) — PUBLISH</title>
+    <updated>2026-07-27T19:23:06+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2966"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Increases the assessed value threshold for properties to be classified as Residential A. Amends valuation tiers for properties classified as Residential A and transient vacation. Effective upon approval and applies to tax years beginning July 1, 2027, and thereafter.&lt;/p&gt;
+&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2966"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-184/2026-07-27T19:23:05+00:00</id>
+    <title>New: RES23-184 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:05+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2645"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;GRANTING A SPECIAL MANAGEMENT AREA USE PERMIT TO ALLOW THE CONSTRUCTION OF A SINGLE-FAMILY DWELLING, ACCESSORY DWELLING UNIT, AND CARPORT AT 66-153 WALIKANAHELE ROAD AT TAX MAP KEY 6-6-005:046 IN HALEʻIWA.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2645"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-183/2026-07-27T19:23:05+00:00</id>
+    <title>New: RES23-183 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:05+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2644"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDING RESOLUTION 20-188, CD1, AS AMENDED BY RESOLUTION 22-164, CD1, TO PROVIDE AN EXEMPTION FROM CERTAIN PARK DEDICATION REQUIREMENTS FOR THE HĀLAWA VIEW APARTMENTS AFFORDABLE HOUSING PROJECT DEVELOPED PURSUANT TO § 201H-38, HAWAII REVISED STATUTES.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2644"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-181/2026-07-27T19:23:05+00:00</id>
+    <title>New: RES23-181 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:05+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2642"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;GRANTING A SPECIAL MANAGEMENT AREA USE PERMIT TO ALLOW THE CONSTRUCTION OF TWO NEW ACCESSORY FARM DWELLINGS AT TAX MAP KEY 6-8-003:045 IN MOKULĒʻIA.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2642"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-198/2026-07-27T19:23:03+00:00</id>
+    <title>New: RES23-198 (Honolulu) — FILE</title>
+    <updated>2026-07-27T19:23:03+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2664"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;ESTABLISHING A PERMITTED INTERACTION GROUP TO CONSIDER MATTERS RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2664"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-220/2026-07-27T19:23:01+00:00</id>
+    <title>New: RES23-220 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:01+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2693"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;CONFIRMING THE REAPPOINTMENT OF MR. VINCE OTSUKA TO SERVE ON THE BOARD OF REVIEW III FOR REAL PROPERTY TAX APPEALS OF THE CITY AND COUNTY OF HONOLULU.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2693"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-243/2026-07-27T19:22:59+00:00</id>
+    <title>New: RES23-243 (Honolulu) — FILE</title>
+    <updated>2026-07-27T19:22:59+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2720"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAX COMPROMISES.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2720"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res23-263/2026-07-27T19:22:57+00:00</id>
+    <title>New: RES23-263 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:22:57+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2743"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;IDENTIFYING THE DEDICATED SOURCE OF REVENUE AND PLEDGE TO REPAY LOANS WITH INTEREST AND LOAN FEE PROVIDED BY THE STATE OF HAWAII (STATE) WATER POLLUTION CONTROL REVOLVING FUND FOR VARIOUS WASTEWATER CAPITAL IMPROVEMENT PROJECTS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2743"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill048-23/2026-07-27T19:22:52+00:00</id>
+    <title>New: BILL048(23) (Honolulu) — FILE</title>
+    <updated>2026-07-27T19:22:52+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2659"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2659"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill060-23/2026-07-27T19:22:51+00:00</id>
+    <title>New: BILL060(23) (Honolulu) — FILE</title>
+    <updated>2026-07-27T19:22:51+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2741"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2741"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-reso-23-192/2026-07-27T19:06:45+00:00</id>
+    <title>New: Reso 23-192 (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:45+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=13996"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"REFERRING TO THE MAUI PLANNING COMMISSION A PROPOSED BILL RELATING TO A CONDITIONAL CHANGE IN ZONING FOR APPROXIMATELY 14,467 SQUARE FEET LOCATED AT LĀHAINĀ, MAUI, HAWAIʻI, TAX MAP KEY (4) 5-0-130:120"&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=13996"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-bill-80-cd1-2023/2026-07-27T19:06:42+00:00</id>
+    <title>New: Bill 80, CD1 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:42+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14021"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE GRANTING CAROLEE HIGASHINO A CONDITIONAL PERMIT TO CONDUCT SMALL SCALE SPECIAL EVENTS WITHIN THE COUNTY R-3 RESIDENTIAL DISTRICT, TAX MAP KEY NUMBER (2) 2-1-006:011, MAKENA, MAUI, HAWAII"
+
+The purpose of this bill is to allow the operation of small-scale commercial weddings and special events by Carolee Higashino, the owner and operator of A White Orchid Wedding.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14021"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-reso-23-212/2026-07-27T19:06:36+00:00</id>
+    <title>New: Reso 23-212 (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:36+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14094"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"RELATING TO THE APPOINTMENT OF MICHAEL LOWELL WILLIAMS TO THE REAL PROPERTY TAX REVIEW BOARD"&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14094"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-bill-91-2023/2026-07-27T19:06:34+00:00</id>
+    <title>New: Bill 91 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:34+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14084"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AMENDING CHAPTER 3.48, MAUI COUNTY CODE, ON A REAL PROPERTY TAX EXEMPTION FOR PROPERTIES DESTROYED OR DAMAGED BY NATURAL DISASTERS"
+
+The purpose of this bill is to exempt properties destroyed or damaged by a natural disaster on or after August 8, 2023, from real property taxation.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14084"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-bfed-35-bill-91-2023/2026-07-27T19:06:33+00:00</id>
+    <title>New: BFED-35 Bill 91 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:33+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14107"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;REAL PROPERTY TAX EXEMPTION FOR PROPERTIES IMPACTED BY NATURAL DISASTERS OR WILDFIRES  (BFED-35)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14107"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-reso-23-217/2026-07-27T19:06:33+00:00</id>
+    <title>New: Reso 23-217 (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:33+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14113"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"ACCEPTING LAND SET-ASIDE BY THE GOVERNOR OF THE STATE OF HAWAII IN EXECUTIVE ORDER NO 4687, TAX MAP KEY NUMBER (2) 3-8-077:011, CONTAINING AN AREA OF 9754 SQUARE FEET, FOR THE OPERATION OF KIHEI SEWERAGE SYSTEM PUMP STATION NO. 2"&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14113"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-bill-95-2023/2026-07-27T19:06:33+00:00</id>
+    <title>New: Bill 95 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:33+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14112"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AMENDING CHAPTER 3.48, MAUI COUNTY CODE, RELATING TO THE AUGUST 2023 FIRES DISASTER EXEMPTION"&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14112"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-bill-99-2023/2026-07-27T19:06:32+00:00</id>
+    <title>New: Bill 99 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:32+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14119"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AMENDING THE FISCAL YEAR 2024 BUDGET FOR THE COUNTY OF MAUI, APPENDIX B, DEPARTMENT OF FINANCE, GENERAL FUND, PENALTY AND INTEREST - TAT"
+
+The purpose of this bill is to delete language requiring a 20% penalty for taxes not completely paid within 60 days of the filing due date".&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14119"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-bill-102-2023/2026-07-27T19:06:31+00:00</id>
+    <title>New: Bill 102 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:31+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14127"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AMENDING CHAPTER 3.48, MAUI COUNTY CODE, TO ESTABLISH AN AUGUST 2023 MAUI WILDFIRES EXEMPTION FROM REAL PROPERTY TAXATION"&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14127"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-bfed-43-bill-99-2023/2026-07-27T19:06:30+00:00</id>
+    <title>New: BFED-43 Bill 99 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:30+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14135"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 99 (2023), AMENDING FISCAL YEAR 2024 BUDGET: APPENDIX B, DEPARTMENT OF FINANCE (GENERAL FUND, PENALTY AND INTEREST - TAT)  (BFED-43)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14135"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-bill-103-2023/2026-07-27T19:06:27+00:00</id>
+    <title>New: Bill 103 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:27+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14153"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE ON THE REAL PROPERTY TAX AGRICULTURAL CLASSIFICATION AND DEDICATED LANDS FOR AGRICULTURAL USE"
+
+The purpose of this bill is to tier the agricultural real property tax classification and require the Director of Finance to seek assistance from the Department of Agriculture with verification that lands dedicated to agriculture use comply with dedication requirements.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14153"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-bill-112-2023/2026-07-27T19:06:26+00:00</id>
+    <title>New: Bill 112 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:26+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14173"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AMENDING THE FISCAL YEAR 2024 BUDGET FOR THE COUNTY OF MAUI, REVENUES; DEPARTMENT OF FINANCE, COUNTYWIDE COSTS; AND APPENDIX A, PART II, GENERAL EXCISE TAX FUND AND GENERAL EXCISE TAX FUND - DEPARTMENT OF HAWAIIAN HOME LANDS"
+
+The purpose of this bill is to amend the Fiscal Year 2024 Budget, by 1) adding "General Excise Tax" to the section entitled "From Taxes, Fees and Assessments" in the amount of $20,000,000 and increasing the total accordingly; 2) adding two appropriations under Department of Finance, Countywide Costs; 3) revising the reference in Section 14 of the General Budget Provisions; and 4) adding the General Excise Tax Fund with conditional language for three projects.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14173"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-bill-111-2023/2026-07-27T19:06:26+00:00</id>
+    <title>New: Bill 111 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:26+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14172"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AMENDING CHAPTER 3.100, MAUI COUNTY CODE, RELATING TO GENERAL EXCISE AND USE TAX SURCHARGE"
+
+The purpose of this bill is to allocate 80 percent of all funds received from the general excise tax and use surcharge to the general excise tax fund; 2) establish a new Section 3.100.021 entitled "General excise tax fund - Department of Hawaiian Home Lands" and allocating 20 percent of all funds received from the general excise tax and use surcharge; and 3) amend Section 3.100.040, Maui County Code to delete Subsection (C), and add the general excise tax fund - Department of Hawaiian Home Lands to the final section.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14172"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-bill-no-66-cd1-fd1-2023/2026-07-27T19:06:24+00:00</id>
+    <title>New: Bill No. 66, CD1, FD1 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:24+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14163"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AMENDING CHAPTER 16.04D, MAUI COUNTY CODE, RELATING TO INSPECTIONS AND TO CORRECT AN OMISSION"
+
+The purpose of this bill is to allow for fire inspections on commercial activities conducted outside normal business hours or at distant locations to be charged a fee, and to correct a previously omitted Department of Water Supply exception for building fire flow requirements for first and second dwellings.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14163"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-bill-104-2023/2026-07-27T19:06:24+00:00</id>
+    <title>New: Bill 104 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:24+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14154"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AMENDING SECTION 3.100.040, MAUI COUNTY CODE, ON USE OF THE GENERAL EXCISE TAX FUND"
+
+The purpose of this bill is to require that private recipients allow the County to audit their financial records.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14154"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:maui-bfed-50-bill-112-2023/2026-07-27T19:06:24+00:00</id>
+    <title>New: BFED-50 Bill 112 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:24+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14187"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 112 (2023), AMENDING FISCAL YEAR 2024 BUDGET:  DEPARTMENT OF FINANCE (COUNTYWIDE COSTS), AND APPENDIX A, PART II, (GENERAL EXCISE TAX FUND AND GENERAL EXCISE TAX FUND - DEPARTMENT OF HAWAIIAN HOME LANDS)  (BFED-50)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14187"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

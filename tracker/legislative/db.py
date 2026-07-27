@@ -1,10 +1,11 @@
 import json
 import sqlite3
 from contextlib import contextmanager
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Iterable
 
+from tracker.legislative import matter_class
 from tracker.legislative.adapters.base import ActionRecord, BillRecord
 
 DEFAULT_DB = Path(__file__).resolve().parents[2] / "data" / "bills.db"
@@ -23,6 +24,8 @@ CREATE TABLE IF NOT EXISTS bills (
   last_action_date TEXT,
   url TEXT,
   raw_subject TEXT,
+  committee TEXT,
+  matter_class TEXT NOT NULL DEFAULT 'legislation',
   subjects TEXT NOT NULL DEFAULT '[]',
   classification_confidence REAL,
   first_seen TEXT NOT NULL,
@@ -92,6 +95,32 @@ def connect(db_path: Path = DEFAULT_DB):
 
 def init_schema(conn: sqlite3.Connection) -> None:
     conn.executescript(SCHEMA)
+    _migrate(conn)
+
+
+# Columns added after the original schema shipped. CREATE TABLE IF NOT EXISTS
+# is a no-op against an existing table, so an already-populated bills.db needs
+# them added explicitly rather than picking them up from SCHEMA.
+_ADDED_COLUMNS = (
+    ("committee", "TEXT"),
+    ("matter_class", "TEXT NOT NULL DEFAULT 'legislation'"),
+)
+
+# Indexes over added columns must be created after the ALTERs, not from SCHEMA:
+# executescript() runs the whole script against the pre-migration table, so an
+# index on matter_class there fails with "no such column" on an existing DB.
+_ADDED_INDEXES = (
+    "CREATE INDEX IF NOT EXISTS idx_bills_matter_class ON bills(matter_class)",
+)
+
+
+def _migrate(conn: sqlite3.Connection) -> None:
+    have = {r["name"] for r in conn.execute("PRAGMA table_info(bills)")}
+    for col, ddl in _ADDED_COLUMNS:
+        if col not in have:
+            conn.execute(f"ALTER TABLE bills ADD COLUMN {col} {ddl}")
+    for ddl in _ADDED_INDEXES:
+        conn.execute(ddl)
 
 
 def upsert_bill(
@@ -103,9 +132,11 @@ def upsert_bill(
     """Insert or update a bill. Returns (bill_id, is_new, was_updated)."""
     now = _now()
     subjects_json = json.dumps(subjects)
+    mclass = matter_class(bill.bill_type)
 
     existing = conn.execute(
-        "SELECT id, status, last_action, last_action_date, title, url, raw_subject "
+        "SELECT id, status, last_action, last_action_date, title, url, raw_subject, "
+        "       committee "
         "FROM bills WHERE council = ? AND bill_number = ?",
         (bill.council, bill.bill_number),
     ).fetchone()
@@ -116,15 +147,17 @@ def upsert_bill(
             INSERT INTO bills (
               council, bill_number, title, bill_type, introducer, introduced_date,
               status, last_action, last_action_date, url,
-              raw_subject, subjects, classification_confidence,
+              raw_subject, committee, matter_class,
+              subjects, classification_confidence,
               first_seen, last_updated
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             (
                 bill.council, bill.bill_number, bill.title, bill.bill_type,
                 bill.introducer, bill.introduced_date, bill.status,
                 bill.last_action, bill.last_action_date, bill.url,
-                bill.raw_subject, subjects_json, confidence, now, now,
+                bill.raw_subject, bill.committee, mclass,
+                subjects_json, confidence, now, now,
             ),
         )
         conn.execute(
@@ -141,6 +174,7 @@ def upsert_bill(
         or existing["title"] != bill.title
         or existing["url"] != bill.url
         or existing["raw_subject"] != bill.raw_subject
+        or existing["committee"] != bill.committee
     )
     if changed:
         conn.execute(
@@ -148,14 +182,16 @@ def upsert_bill(
             UPDATE bills SET
               title = ?, bill_type = ?, introducer = ?, status = ?,
               last_action = ?, last_action_date = ?, url = ?,
-              raw_subject = ?, subjects = ?, classification_confidence = ?,
+              raw_subject = ?, committee = ?, matter_class = ?,
+              subjects = ?, classification_confidence = ?,
               last_updated = ?
             WHERE id = ?
             """,
             (
                 bill.title, bill.bill_type, bill.introducer, bill.status,
                 bill.last_action, bill.last_action_date, bill.url,
-                bill.raw_subject, subjects_json, confidence,
+                bill.raw_subject, bill.committee, mclass,
+                subjects_json, confidence,
                 now, existing["id"],
             ),
         )
@@ -190,6 +226,41 @@ def upsert_actions(
         )
         n += cur.rowcount or 0
     return n
+
+
+# A record's age is its most recent date, not its introduction date: a bill
+# filed four years ago that saw action last month is still live and must
+# survive the window. first_seen is the fallback for agenda-derived records
+# that carry no dates at all.
+_AGE_EXPR = """
+    COALESCE(
+      NULLIF(MAX(COALESCE(last_action_date, ''), COALESCE(introduced_date, '')), ''),
+      first_seen
+    )
+"""
+
+
+def expired_count(conn: sqlite3.Connection, cutoff_iso: str) -> int:
+    """How many records prune_expired() would remove. For dry runs."""
+    return conn.execute(
+        f"SELECT COUNT(*) FROM bills WHERE {_AGE_EXPR} < ?", (cutoff_iso,)
+    ).fetchone()[0]
+
+
+def prune_expired(
+    conn: sqlite3.Connection, cutoff_iso: str | None = None, years: int = 3
+) -> int:
+    """Drop records that have aged out of the retention window.
+
+    Sources reach much further back than the tracker keeps, and a scrape run
+    with an explicit old --since would otherwise leave that history behind
+    permanently. Child rows (actions, changes) go with them via ON DELETE
+    CASCADE, which requires PRAGMA foreign_keys — connect() sets it.
+    """
+    if cutoff_iso is None:
+        cutoff_iso = (date.today() - timedelta(days=years * 365)).isoformat()
+    cur = conn.execute(f"DELETE FROM bills WHERE {_AGE_EXPR} < ?", (cutoff_iso,))
+    return cur.rowcount or 0
 
 
 def start_run(conn: sqlite3.Connection, council: str | None) -> int:

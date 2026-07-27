@@ -2,9 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:dtomkatsu.github.io,2026:feeds/bill/honolulu-res26-143.xml</id>
   <title>RES26-143 — Honolulu</title>
-  <updated>2026-06-12T16:15:03+00:00</updated>
+  <updated>2026-07-27T19:23:32+00:00</updated>
   <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/honolulu-res26-143.xml"/>
   <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
+  <entry>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-143/2026-07-27T19:23:32+00:00</id>
+    <title>RES26-143 (Honolulu): INTRO → CCL</title>
+    <updated>2026-07-27T19:23:32+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3762"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE APPOINTMENT OF LUCA CUNIBERTI TO SERVE ON THE RATE COMMISSION OF THE CITY AND COUNTY OF HONOLULU.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: INTRO → CCL&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3762"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:dtomkatsu.github.io,2026:honolulu-res26-143/2026-06-12T16:15:03+00:00</id>
     <title>New: RES26-143 (Honolulu) — INTRO</title>

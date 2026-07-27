@@ -22,7 +22,9 @@ from __future__ import annotations
 
 import io
 import logging
+import os
 import re
+import time
 import unicodedata
 from datetime import date, datetime
 from typing import Iterator
@@ -40,17 +42,51 @@ _UA = (
     "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 )
 
+
+def _env_num(name: str, default: float) -> float:
+    try:
+        return float(os.environ[name])
+    except (KeyError, ValueError):
+        return default
+
+
+# The tracker keeps a rolling window rather than the whole archive (the
+# retention policy lives in scrape.py; this is the scrape-side half of it). An
+# explicit `since` from the caller always wins — this only supplies the floor
+# when the caller asks for "everything you hold", which would otherwise mean
+# 2010 for Kauai and 1905 for Hawaii County.
+DEFAULT_WINDOW_YEARS = int(_env_num("TRACKER_WINDOW_YEARS", 3))
+
+# Safety cap on a single crawl. The `since` window above is the real bound;
+# this only stops a runaway if a publisher view balloons. Measured 2026-07,
+# distinct agendas inside a 3-year window: Kauai 190, Hawaii County 452 (it
+# publishes committee meetings separately, so it lists far more than Kauai).
+# 600 clears both with headroom while staying well under the 1,173 / 1,591
+# agendas the views list in full. Exceeding it logs a warning rather than
+# silently truncating.
+DEFAULT_MAX_MEETINGS = int(_env_num("TRACKER_GRANICUS_MAX_MEETINGS", 600))
+
+# Courtesy pause between agenda fetches. Each fetch already costs ~2s (page
+# load or PDF render), so this is a small extra margin rather than the main
+# rate limiter.
+AGENDA_DELAY = _env_num("TRACKER_GRANICUS_DELAY", 0.25)
+
 # A meeting row on ViewPublisher carries a date like "May 27, 2026" and an
 # AgendaViewer link. We pair each agenda link with the nearest date on its row.
 _AGENDA_RE = re.compile(r"AgendaViewer\.php\?[^\"']*\b(?:clip_id|event_id)=\d+", re.I)
+# The agenda's own id, independent of which publisher view links to it.
+_CLIP_ID_RE = re.compile(r"\b(?:clip_id|event_id)=(\d+)", re.I)
 _DATE_PATTERNS = [
     re.compile(r"[A-Z][a-z]{2,8}\s+\d{1,2},\s+\d{4}"),          # May 27, 2026
     re.compile(r"\d{1,2}/\d{1,2}/\d{4}"),                         # 05/27/2026
 ]
 
-# Legislation references inside agenda text.
+# Legislation references inside agenda text. Hawaii County agendas abbreviate
+# resolutions as "Res. 556-26: <TITLE>" — without the abbreviation the whole
+# resolution half of that council goes titleless, so "Res." is matched too. The
+# trailing period is required: bare "Res" is too easy to hit inside other words.
 _BILL_RE = re.compile(
-    r"\b(Bill|Resolution|Reso)\s+(?:No\.?\s*)?(\d{2,4}(?:-\d{1,4})?)\b", re.I
+    r"\b(Bill|Resolution|Reso|Res\.)\s*(?:No\.?\s*)?(\d{2,4}(?:-\d{1,4})?)\b", re.I
 )
 # Section headers that indicate a reading stage / status.
 _STAGE_RE = re.compile(
@@ -92,6 +128,70 @@ def _parse_date(s: str) -> str | None:
         except ValueError:
             continue
     return None
+
+
+def window_start(since: date | None, years: int | None = None) -> date:
+    """The oldest date a scrape should reach back to.
+
+    A caller's explicit `since` is honoured as-is. `since=None` means "whatever
+    you hold", which for these archives is decades — so it resolves to the
+    retention window instead.
+    """
+    if since is not None:
+        return since
+    yrs = DEFAULT_WINDOW_YEARS if years is None else years
+    today = date.today()
+    try:
+        return today.replace(year=today.year - yrs)
+    except ValueError:            # Feb 29
+        return today.replace(year=today.year - yrs, day=28)
+
+
+# --- Hawaii County: council terms disambiguate repeated bill numbers ---------
+# Hawaii County restarts its bill AND resolution numbering at 1 every two-year
+# council term, so "Bill 148" names a different bill in each of the ~25 terms
+# the Laserfiche archive holds. bills.db is UNIQUE(council, bill_number), so a
+# bare "Bill 148" would collapse them all into one garbled row. Every Hawaii
+# bill/resolution key therefore carries its term: "Bill 148 (2024-2026)".
+#
+# Qualifying *every* term (rather than leaving the current one bare) keeps keys
+# stable across a term rollover — otherwise today's "Bill 148" would have to be
+# silently re-keyed each December of an even year, and the incoming term's
+# Bill 148 would land on top of it.
+#
+# Terms are seated the December after each even-year general election, so
+# December of an even year already belongs to the term that year opens.
+_HI_YEAR_SUFFIX_RE = re.compile(r"^(\d{1,4})-(\d{2})$")
+
+
+def hawaii_term(year: int, month: int) -> str:
+    start = year if (year % 2 == 0 and month == 12) else (year - 1 if year % 2 else year - 2)
+    return f"{start}-{start + 2}"
+
+
+def hawaii_term_for_date(iso_date: str | None) -> str | None:
+    """Council term ('2024-2026') containing a meeting date, or None if unknown."""
+    if not iso_date or len(iso_date) < 7:
+        return None
+    try:
+        return hawaii_term(int(iso_date[:4]), int(iso_date[5:7]))
+    except ValueError:
+        return None
+
+
+def hawaii_bill_key(bill_type: str, number: str | int, term: str | None) -> str:
+    """Term-qualified key for a Hawaii County bill/resolution."""
+    n = str(number)
+    base = f"{bill_type} {int(n)}" if n.isdigit() else f"{bill_type} {n}"
+    return f"{base} ({term})" if term else base
+
+
+def split_hawaii_number(num: str) -> str:
+    """Strip the adoption-year suffix Hawaii agendas append to resolution
+    numbers ("Res. 585-26" is resolution 585, adopted in 2026 — Laserfiche
+    files it as plain RES 585 within its term). Bills are never suffixed."""
+    m = _HI_YEAR_SUFFIX_RE.match(num)
+    return m.group(1) if m else num
 
 
 # PDF text extraction (both pypdf and the Granicus HTML viewer) drops "ff"/"fi"
@@ -293,26 +393,43 @@ class GranicusAdapter(CouncilAdapter):
         host: str,
         view_ids: list[int],
         mode: str = "html",
-        max_meetings: int = 60,
+        max_meetings: int | None = None,
+        delay: float | None = None,
     ):
         self.council_id = council_id
         self.host = host
         self.view_ids = view_ids
         self.mode = mode
-        self.max_meetings = max_meetings
+        self.max_meetings = DEFAULT_MAX_MEETINGS if max_meetings is None else max_meetings
+        self.delay = AGENDA_DELAY if delay is None else delay
 
     @classmethod
-    def for_council(cls, council_id: str) -> "GranicusAdapter":
+    def for_council(cls, council_id: str, **kw) -> "GranicusAdapter":
         """Granicus agenda config per council, kept in one place so the scraper,
-        the Hawaii County Laserfiche adapter, and the dump-agendas CLI agree."""
+        the Hawaii County Laserfiche adapter, and the dump-agendas CLI agree.
+
+        max_meetings/delay default to the module-level settings (overridable via
+        TRACKER_GRANICUS_MAX_MEETINGS / TRACKER_GRANICUS_DELAY) so a caller can
+        bound an exploratory crawl without editing this table.
+        """
         if council_id == "kauai":
-            return cls("kauai", "kauai.granicus.com", [2], mode="html", max_meetings=30)
+            return cls("kauai", "kauai.granicus.com", [2], mode="html", **kw)
         if council_id == "hawaii":
-            return cls(
-                "hawaii", "hawaiicounty.granicus.com", [1, 2],
-                mode="pdf", max_meetings=30,
-            )
+            return cls("hawaii", "hawaiicounty.granicus.com", [1, 2], mode="pdf", **kw)
         raise ValueError(f"no Granicus config for council: {council_id}")
+
+    # ---- keys --------------------------------------------------------------
+
+    def _bill_key(self, bill_type: str, num: str, meeting_date: str) -> str:
+        """Hawaii County reuses bill/resolution numbers every council term, so
+        its keys are term-qualified (see hawaii_bill_key). Kauai numbers run
+        continuously (Bill 2988) or already carry a year (Resolution 2026-11),
+        so they are used as-is."""
+        if self.council_id != "hawaii":
+            return f"{bill_type} {num}"
+        return hawaii_bill_key(
+            bill_type, split_hawaii_number(num), hawaii_term_for_date(meeting_date)
+        )
 
     # ---- meeting discovery -------------------------------------------------
 
@@ -356,20 +473,38 @@ class GranicusAdapter(CouncilAdapter):
 
     # ---- agenda fetch ------------------------------------------------------
 
+    @staticmethod
+    def _pdf_text(ctx, agenda_url: str) -> str:
+        from pypdf import PdfReader
+
+        resp = ctx.request.get(agenda_url, timeout=45000)
+        body = resp.body()
+        if body[:4] != b"%PDF":
+            return ""
+        reader = PdfReader(io.BytesIO(body))
+        return "\n".join((pg.extract_text() or "") for pg in reader.pages)
+
     def _agenda_text(self, ctx, page, agenda_url: str) -> str:
         if self.mode == "pdf":
-            from pypdf import PdfReader
-
-            resp = ctx.request.get(agenda_url, timeout=45000)
-            body = resp.body()
-            if body[:4] != b"%PDF":
-                return ""
-            reader = PdfReader(io.BytesIO(body))
-            return "\n".join((pg.extract_text() or "") for pg in reader.pages)
+            return self._pdf_text(ctx, agenda_url)
         # html mode
-        page.goto(agenda_url, wait_until="domcontentloaded", timeout=45000)
-        page.wait_for_timeout(800)
-        return page.inner_text("body")
+        try:
+            page.goto(agenda_url, wait_until="domcontentloaded", timeout=45000)
+            page.wait_for_timeout(800)
+            return page.inner_text("body")
+        except Exception:
+            # Kauai's tenant renders recent agendas as HTML but serves older
+            # ones as a PDF download, which navigation aborts on ("Download is
+            # starting"). Uncapping the crawl walks straight into those, so fall
+            # back to reading the response as a PDF before giving up. A failure
+            # in the fallback must not mask the navigation error.
+            try:
+                text = self._pdf_text(ctx, agenda_url)
+            except Exception:
+                text = ""
+            if text:
+                return text
+            raise
 
     # ---- agenda parsing ----------------------------------------------------
 
@@ -386,7 +521,7 @@ class GranicusAdapter(CouncilAdapter):
             kind = m.group(1).lower()
             num = m.group(2)
             bill_type = "Resolution" if kind.startswith("res") else "Bill"
-            bill_number = f"{bill_type} {num}"
+            bill_number = self._bill_key(bill_type, num, meeting_date)
 
             # Title extraction is source-shaped: Hawaii County (pdf) trims a
             # Title-case staff summary and metadata trailing an ALL-CAPS title;
@@ -442,19 +577,47 @@ class GranicusAdapter(CouncilAdapter):
             ctx = browser.new_context(user_agent=_UA, ignore_https_errors=True)
             page = ctx.new_page()
             try:
-                meetings: list[tuple[str, str]] = []
+                # Views overlap heavily — Hawaii County's view 2 lists the same
+                # meetings as view 1 — but each view links the agenda under its
+                # own view_id, so the URLs differ for what is one meeting.
+                # Dedupe on the clip/event id instead, which identifies the
+                # agenda itself; keying on the URL fetches each twice.
+                by_clip: dict[str, tuple[str, str]] = {}
                 for vid in self.view_ids:
                     try:
-                        meetings.extend(self._list_meetings(page, vid))
+                        for mdate, url in self._list_meetings(page, vid):
+                            cid = _CLIP_ID_RE.search(url)
+                            key = cid.group(1) if cid else url
+                            prev = by_clip.get(key)
+                            if prev is None or (mdate and not prev[0]):
+                                by_clip[key] = (mdate, url)
                     except Exception as e:
                         log.warning("%s view %s listing failed: %s", self.council_id, vid, e)
+                by_url = {url: mdate for mdate, url in by_clip.values()}
 
-                # Most recent first; honor the since window and the meeting cap.
-                meetings = [m for m in meetings if not (since and m[0] and m[0] < since.isoformat())]
+                # The date window is the real bound: keep meetings on or after
+                # it and drop the rest, however many that is. max_meetings is
+                # only a backstop against a runaway view.
+                floor = window_start(since).isoformat()
+                listed = len(by_url)
+                meetings = [(d, u) for u, d in by_url.items() if not d or d >= floor]
                 meetings.sort(key=lambda m: m[0], reverse=True)
+                in_window = len(meetings)
                 meetings = meetings[: self.max_meetings]
+                if in_window > len(meetings):
+                    log.warning(
+                        "%s: %d agendas in window since %s but max_meetings=%d truncated "
+                        "the crawl — raise TRACKER_GRANICUS_MAX_MEETINGS",
+                        self.council_id, in_window, floor, self.max_meetings,
+                    )
+                log.info(
+                    "%s: %d agendas listed, %d since %s, reading %d",
+                    self.council_id, listed, in_window, floor, len(meetings),
+                )
 
-                for mdate, agenda_url in meetings:
+                for i, (mdate, agenda_url) in enumerate(meetings):
+                    if i and self.delay:
+                        time.sleep(self.delay)
                     try:
                         text = self._agenda_text(ctx, page, agenda_url)
                     except Exception as e:

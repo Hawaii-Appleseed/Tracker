@@ -2,17 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:dtomkatsu.github.io,2026:feeds/bill/honolulu-bill068-25.xml</id>
   <title>BILL068(25) — Honolulu</title>
-  <updated>2026-06-01T20:41:04+00:00</updated>
+  <updated>2026-07-27T19:23:25+00:00</updated>
   <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/honolulu-bill068-25.xml"/>
   <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill068-25/2026-06-01T20:41:04+00:00</id>
-    <title>New: BILL068(25) (Honolulu) — CCL</title>
-    <updated>2026-06-01T20:41:04+00:00</updated>
+    <id>tag:dtomkatsu.github.io,2026:honolulu-bill068-25/2026-07-27T19:23:25+00:00</id>
+    <title>BILL068(25) (Honolulu): CCL → BUD</title>
+    <updated>2026-07-27T19:23:25+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3532"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Amends the definition of income in ROH § 8-13.1 to clarify that only the titleholder’s income (and not the income of a non-titleholder who is included on a joint income tax return) will be considered when calculating income eligibility for the County Tax Credit.&lt;/p&gt;
-&lt;p&gt;Latest action: Passed first reading.&lt;/p&gt;
+&lt;p&gt;Status: CCL → BUD&lt;/p&gt;
+&lt;p&gt;Latest action: CR-192(26)
+Reported out for passage on second reading and scheduling of a public hearing.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3532"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
