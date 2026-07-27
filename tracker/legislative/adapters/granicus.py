@@ -34,6 +34,7 @@ from tracker.legislative.adapters.base import (
     BillRecord,
     CouncilAdapter,
 )
+from tracker.legislative.scrape import RETENTION_YEARS
 
 log = logging.getLogger(__name__)
 
@@ -50,12 +51,14 @@ def _env_num(name: str, default: float) -> float:
         return default
 
 
-# The tracker keeps a rolling window rather than the whole archive (the
-# retention policy lives in scrape.py; this is the scrape-side half of it). An
-# explicit `since` from the caller always wins — this only supplies the floor
-# when the caller asks for "everything you hold", which would otherwise mean
-# 2010 for Kauai and 1905 for Hawaii County.
-DEFAULT_WINDOW_YEARS = int(_env_num("TRACKER_WINDOW_YEARS", 3))
+# The tracker keeps a rolling window rather than the whole archive. Sourced
+# from scrape.RETENTION_YEARS — the single policy value — rather than a second
+# hardcoded constant, so the two can't silently drift apart. An explicit
+# `since` from the caller always wins; this only supplies the floor when the
+# caller asks for "everything you hold", which would otherwise mean 2010 for
+# Kauai and 1905 for Hawaii County. The env override exists for one-off local
+# runs, not for changing the standing policy — edit RETENTION_YEARS for that.
+DEFAULT_WINDOW_YEARS = int(_env_num("TRACKER_WINDOW_YEARS", RETENTION_YEARS))
 
 # Safety cap on a single crawl. The `since` window above is the real bound;
 # this only stops a runaway if a publisher view balloons. Measured 2026-07,
