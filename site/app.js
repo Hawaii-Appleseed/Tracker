@@ -5,11 +5,19 @@
     hawaii: "Hawaii County",
     kauai: "Kauai",
   };
+  // "Other" is a UI facet, not a classifier output: it means "carries none of
+  // the four subject tags". Most of the corpus is untagged (the councils
+  // legislate on far more than four topics), and without it the Subjects
+  // filter can only ever narrow to tagged bills — there was no way to ask for
+  // the remainder. Kept out of the data so classify.py, the feeds and the
+  // stored subjects[] stay a closed set of real policy areas.
+  const OTHER_SUBJECT = "other";
   const SUBJECT_LABEL = {
     tax: "Tax",
     transportation: "Transportation",
     food_security: "Food Security",
     affordable_housing: "Affordable Housing",
+    [OTHER_SUBJECT]: "Other",
   };
   const MATTER_CLASS_LABEL = {
     legislation: "Bills & resolutions",
@@ -1047,13 +1055,23 @@
   // picking it. (Totals, not cross-filtered, so the numbers stay stable.)
   function filterCounts() {
     const c = { council: {}, subject: {}, type: {}, status: {}, matterClass: {} };
+    const classAll = state.matterClasses.size === state.matterClassUniverse;
     for (const b of state.bills) {
       c.council[b.council] = (c.council[b.council] || 0) + 1;
       const tb = typeBucket(b.bill_type); c.type[tb] = (c.type[tb] || 0) + 1;
       const sb = statusBucket(b); c.status[sb] = (c.status[sb] || 0) + 1;
       const mc = b.matter_class || "legislation";
       c.matterClass[mc] = (c.matterClass[mc] || 0) + 1;
-      for (const s of b.subjects || []) c.subject[s] = (c.subject[s] || 0) + 1;
+      // Subject counts — and only these — are cross-filtered by Records. The
+      // classifier tags legislation only, so every communication and committee
+      // report is untagged; counting them would inflate "Other" by the entire
+      // non-legislation inventory and advertise more rows than the filter
+      // returns. The other dimensions stay uncross-filtered so their numbers
+      // don't shift under you as you click.
+      if (!classAll && !state.matterClasses.has(mc)) continue;
+      const tags = b.subjects || [];
+      if (tags.length) for (const s of tags) c.subject[s] = (c.subject[s] || 0) + 1;
+      else c.subject[OTHER_SUBJECT] = (c.subject[OTHER_SUBJECT] || 0) + 1;
     }
     return c;
   }
@@ -1552,9 +1570,12 @@
     const statusesPresent = STATUS_BUCKETS.filter((s) => payload.bills.some((b) => statusBucket(b) === s));
     const classesPresent = (payload.matter_classes || ["legislation"])
       .filter((k) => payload.bills.some((b) => (b.matter_class || "legislation") === k));
+    // The four real subjects plus the "Other" complement, so the filter can
+    // express "untagged" — which is most of the corpus.
+    const subjectsPresent = [...payload.subjects, OTHER_SUBJECT];
     if (!filtersWired) {
       payload.councils.forEach((c) => state.councils.add(c));
-      payload.subjects.forEach((s) => state.subjects.add(s));
+      subjectsPresent.forEach((s) => state.subjects.add(s));
       typesPresent.forEach((t) => state.types.add(t)); // default: all types (no filter)
       // This is a search tool over the councils' whole published record, so
       // every year and every status is in scope by default. Narrowing to the
@@ -1564,7 +1585,7 @@
       years.forEach((y) => state.years.add(y));
     }
     state.councilUniverse = payload.councils.length;
-    state.subjectUniverse = payload.subjects.length;
+    state.subjectUniverse = subjectsPresent.length;
     state.yearUniverse = years.length;
     state.typeUniverse = typesPresent.length;
     state.statusUniverse = statusesPresent.length;
@@ -1574,7 +1595,7 @@
       matterClass: classesPresent.map((k) => ({ value: k, label: MATTER_CLASS_LABEL[k] || k })),
       council: payload.councils.map((c) => ({ value: c, label: COUNCIL_LABEL[c] || c })),
       year: years.map((y) => ({ value: y, label: y })),
-      subject: payload.subjects.map((s) => ({ value: s, label: SUBJECT_LABEL[s] || s })),
+      subject: subjectsPresent.map((s) => ({ value: s, label: SUBJECT_LABEL[s] || s })),
       type: typesPresent.map((t) => ({ value: t, label: t })),
       status: statusesPresent.map((s) => ({ value: s, label: s })),
     };
@@ -1704,7 +1725,16 @@
       // must match a checked box (empty selection → nothing).
       if (!countyAll && !state.councils.has(b.council)) return false;
       if (!yearAll && !state.years.has(billYear(b))) return false;
-      if (!subjectAll && !b.subjects?.some((s) => state.subjects.has(s))) return false;
+      if (!subjectAll) {
+        // A tagged bill matches its own subjects; an untagged one matches only
+        // the "Other" facet. The two are complements, so nothing falls through
+        // both and nothing is counted twice.
+        const tags = b.subjects || [];
+        const hit = tags.length
+          ? tags.some((s) => state.subjects.has(s))
+          : state.subjects.has(OTHER_SUBJECT);
+        if (!hit) return false;
+      }
       if (!classAll && !state.matterClasses.has(b.matter_class || "legislation")) return false;
       if (!typeAll && !state.types.has(typeBucket(b.bill_type))) return false;
       if (!statusAll && !state.statuses.has(statusBucket(b))) return false;
@@ -1718,7 +1748,9 @@
   // description gets the full table width instead of the narrow Title column.
   function renderRows(b) {
     const council = COUNCIL_LABEL[b.council] || b.council;
-    const pills = (b.subjects || [])
+    // An untagged bill shows a muted "Other" pill rather than a bare dash, so
+    // the facet is discoverable from a row and clickable like any other.
+    const pills = ((b.subjects || []).length ? b.subjects : [OTHER_SUBJECT])
       .map(
         (s) =>
           `<button type="button" class="subject-pill ${s}" data-subject="${escapeHtml(s)}" ` +
@@ -2099,7 +2131,9 @@
       ["Status", (b) => normalizeStatus(b).label],
       ["Last action", (b) => b.last_action],
       ["Last action date", (b) => b.last_action_date],
-      ["Subjects", (b) => (b.subjects || []).map((s) => SUBJECT_LABEL[s] || s).join("; ")],
+      ["Subjects", (b) => ((b.subjects || []).length
+        ? b.subjects.map((s) => SUBJECT_LABEL[s] || s).join("; ")
+        : SUBJECT_LABEL[OTHER_SUBJECT])],
       ["URL", (b) => b.url],
     ];
     const lines = [cols.map((c) => csvCell(c[0])).join(",")];

@@ -931,6 +931,9 @@ tbody .bill-row.open > td { background: var(--primary-bg); border-bottom-color: 
 .subject-pill.transportation { background: var(--transportation-bg); color: var(--transportation-fg); }
 .subject-pill.food_security { background: var(--food_security-bg); color: var(--food_security-fg); }
 .subject-pill.affordable_housing { background: var(--affordable_housing-bg); color: var(--affordable_housing-fg); }
+/* "Other" means no subject tag — deliberately the quietest pill on the row so
+   it reads as an absence, not a fifth policy area competing with the four. */
+.subject-pill.other { background: var(--surface-2, rgba(128,128,128,.10)); color: var(--text-faint); }
 /* Row subject pills are buttons that narrow the Subject filter on click. */
 button.subject-pill { cursor: pointer; transition: filter var(--dur-1), box-shadow var(--dur-1); }
 button.subject-pill:hover { filter: brightness(0.96); }
