@@ -45,6 +45,17 @@
   ];
   const SUBJECT_TOKEN_WEIGHT = 2;
   const PHRASE_SCORE = 25;
+  // Long enough that a normal typing burst collapses into one render, short
+  // enough to still read as live filtering rather than a submit.
+  const SEARCH_DEBOUNCE_MS = 120;
+  // Anything that clears the query by another route (Escape, the x button, a
+  // filter chip, Reset all) must cancel a queued render first, or the pending
+  // keystroke lands afterwards and puts the query back.
+  let searchTimer = 0;
+  function cancelSearchDebounce() {
+    clearTimeout(searchTimer);
+    searchTimer = 0;
+  }
   // Vowels that a folded query character should still match in display text,
   // so highlighting survives the same folding the index applied.
   const FOLD_VARIANTS = { a: "aā", e: "eē", i: "iī", o: "oō", u: "uū" };
@@ -1482,6 +1493,7 @@
       setFavoritesOnly(false);
       syncListHash();
     } else if (dim === "search") {
+      cancelSearchDebounce();
       state.search = "";
       const s = document.getElementById("f-search"); if (s) s.value = "";
     const sc = document.getElementById("f-search-clear"); if (sc) sc.hidden = true;
@@ -1548,6 +1560,7 @@
     setAll(state.statuses, it.status);
     setAll(state.years, it.year);
     state.matterClasses.clear(); state.matterClasses.add("legislation");
+    cancelSearchDebounce();
     state.search = "";
     const s = document.getElementById("f-search"); if (s) s.value = "";
     const sc = document.getElementById("f-search-clear"); if (sc) sc.hidden = true;
@@ -1605,18 +1618,28 @@
     filtersWired = true;
     const searchInput = document.getElementById("f-search");
     const searchClear = document.getElementById("f-search-clear");
+    // Typing is the one input that fires per keystroke, and each render costs
+    // far more than the search behind it, so it alone is debounced. Every other
+    // control (chips, segments, sort) stays instant — those are single
+    // deliberate clicks where a delay would just feel broken.
     searchInput.addEventListener("input", (e) => {
-      state.search = e.target.value.toLowerCase().trim();
-      if (searchClear) searchClear.hidden = !e.target.value;
-      applyFilters();
+      const v = e.target.value;
+      if (searchClear) searchClear.hidden = !v;
+      cancelSearchDebounce();
+      searchTimer = setTimeout(() => {
+        state.search = v.toLowerCase().trim();
+        applyFilters();
+      }, SEARCH_DEBOUNCE_MS);
     });
-    if (searchClear) searchClear.addEventListener("click", () => {
+    const clearSearchNow = () => {
+      cancelSearchDebounce();
       searchInput.value = "";
       state.search = "";
-      searchClear.hidden = true;
+      if (searchClear) searchClear.hidden = true;
       applyFilters();
       searchInput.focus();
-    });
+    };
+    if (searchClear) searchClear.addEventListener("click", clearSearchNow);
     wireSortMenu();
     document.getElementById("f-stalled")?.addEventListener("change", (e) => {
       state.onlyStalled = e.target.checked;
@@ -1645,6 +1668,7 @@
     });
     searchInput.addEventListener("keydown", (e) => {
       if (e.key !== "Escape") return;
+      cancelSearchDebounce();
       searchInput.value = "";
       state.search = "";
       if (searchClear) searchClear.hidden = true;
@@ -1797,201 +1821,211 @@
     const detail = document.createElement("tr");
     detail.className = "detail-row";
     detail.hidden = true;
-    // Maui's raw_subject is the referring committee; everywhere else it is a
-    // staff summary — or, when the council source has no separate summary
-    // (Kauai), the full legal title, which is itself the best description.
-    const summaryLabel =
-      b.council === "maui" ? "Committee / body"
-      : b.raw_subject && b.raw_subject !== fullTitle ? "Summary"
-      : "Full title";
-    const st = normalizeStatus(b);
-    const parts = [];
+    // The collapsed panel is ~62% of a rendered row's DOM and none of it is
+    // visible until someone expands the row, so it is built on first open
+    // rather than for every row in the result set. At 500+ results that was
+    // the single largest cost of a keystroke.
+    let detailBuilt = false;
+    const buildDetail = () => {
+      if (detailBuilt) return;
+      detailBuilt = true;
+      // Maui's raw_subject is the referring committee; everywhere else it is a
+      // staff summary — or, when the council source has no separate summary
+      // (Kauai), the full legal title, which is itself the best description.
+      const summaryLabel =
+        b.council === "maui" ? "Committee / body"
+        : b.raw_subject && b.raw_subject !== fullTitle ? "Summary"
+        : "Full title";
+      const st = normalizeStatus(b);
+      const parts = [];
 
-    // Header band — the panel's own identity (county, type, current stage) so it
-    // reads on its own instead of leaning on the collapsed row above it.
-    parts.push(
-      `<div class="dx-head">` +
-        `<span class="county-tag county-${escapeHtml(b.council)}">${escapeHtml(council)}</span>` +
-        `<span class="dx-type">${escapeHtml(b.bill_type)}</span>` +
-        `<span class="dx-status ${st.cls}">${escapeHtml(st.label)}</span>` +
-      `</div>`
-    );
-
-    // Progress is already shown in the row's Progress column, so the expanded
-    // view skips the (redundant) labeled stepper and leads with the summary.
-    // When the council gives no separate summary, fall back to the full legal
-    // title (the row truncates it; here it shows in full) before giving up.
-    if (b.raw_subject) {
+      // Header band — the panel's own identity (county, type, current stage) so it
+      // reads on its own instead of leaning on the collapsed row above it.
       parts.push(
-        `<div class="detail-summary"><span class="detail-label">${summaryLabel}</span>${annotate(b.raw_subject)}</div>`
+        `<div class="dx-head">` +
+          `<span class="county-tag county-${escapeHtml(b.council)}">${escapeHtml(council)}</span>` +
+          `<span class="dx-type">${escapeHtml(b.bill_type)}</span>` +
+          `<span class="dx-status ${st.cls}">${escapeHtml(st.label)}</span>` +
+        `</div>`
       );
-    } else if (fullTitle) {
+
+      // Progress is already shown in the row's Progress column, so the expanded
+      // view skips the (redundant) labeled stepper and leads with the summary.
+      // When the council gives no separate summary, fall back to the full legal
+      // title (the row truncates it; here it shows in full) before giving up.
+      if (b.raw_subject) {
+        parts.push(
+          `<div class="detail-summary"><span class="detail-label">${summaryLabel}</span>${annotate(b.raw_subject)}</div>`
+        );
+      } else if (fullTitle) {
+        parts.push(
+          `<div class="detail-summary"><span class="detail-label">Full title</span>${annotate(fullTitle)}</div>`
+        );
+      } else {
+        parts.push(`<div class="detail-summary muted">No description available from the council source.</div>`);
+      }
+
+      // Meta chips — labelled facts with inline icons, each in its own card.
+      const trackedSince = (b.first_seen || "").slice(0, 10);
+      const chip = (icon, label, value) =>
+        `<div class="dx-chip"><svg class="dx-chip-ic" aria-hidden="true"><use href="#${icon}"/></svg>` +
+        `<div class="dx-chip-body"><span class="dx-chip-label">${label}</span>` +
+        `<span class="dx-chip-val">${value}</span></div></div>`;
+      const chips = [];
+      if (b.introducer) chips.push(chip("i-user", "Introducer", escapeHtml(b.introducer)));
+      if (b.introduced_date) chips.push(chip("i-calendar", "Introduced", escapeHtml(b.introduced_date)));
+      if (trackedSince) chips.push(chip("i-clock", "Tracked since", escapeHtml(trackedSince)));
+      if (chips.length) parts.push(`<div class="dx-meta">${chips.join("")}</div>`);
+
+      // Subjects — re-shown here with a label so the panel documents how the bill
+      // was classified (the row's pills carry no header).
+      if (pills) {
+        parts.push(
+          `<div class="dx-subjects"><span class="detail-label">Subjects</span>` +
+          `<div class="dx-subjects-pills">${pills}</div></div>`
+        );
+      }
+
+      // Action history. The scraper currently captures only the latest action, so
+      // render that as a one-item timeline; when an `actions[]` array lands (see
+      // the planned schema change) this fills out into the full vertical history.
+      // Timelines ship in per-council shards and attach lazily, so this is built
+      // as a function: until the shard lands it renders the single latest action,
+      // then gets rebuilt in place once the real history arrives (rebuilding via
+      // a full re-render would collapse the row the reader just opened).
+      const timelineInner = () => {
+        const acts = Array.isArray(b.actions) && b.actions.length
+          ? b.actions
+          : (lastAction ? [{ action: b.last_action || lastAction, date: b.last_action_date || "" }] : []);
+        if (!acts.length) return "";
+        // Long histories (Honolulu bills run 14+ steps) dominate the panel's
+        // height, so show only the most recent few and tuck the rest behind a
+        // toggle. The item just above the fold drops its connector so the line
+        // doesn't dangle into the hidden region.
+        const TL_CAP = 4;
+        const capped = acts.length > TL_CAP;
+        const items = acts.map((a, i) => {
+          const when = a.date ? `<span class="dx-tl-date">${escapeHtml(a.date)}</span>` : "";
+          const text = escapeHtml(a.action || "");
+          const cls = [
+            "dx-tl-item",
+            i === 0 ? "is-latest" : "",
+            capped && i >= TL_CAP ? "dx-tl-extra" : "",
+            capped && i === TL_CAP - 1 ? "dx-tl-foldedge" : "",
+          ].filter(Boolean).join(" ");
+          return `<li class="${cls}">` +
+            `<span class="dx-tl-dot" aria-hidden="true"></span>` +
+            `<div class="dx-tl-body">${when}<span class="dx-tl-text">${text}</span></div></li>`;
+        }).join("");
+        const toggle = capped
+          ? `<button type="button" class="dx-tl-toggle" aria-expanded="false">` +
+            `Show all ${acts.length} actions</button>`
+          : "";
+        return `<span class="detail-label">` +
+          `${acts.length > 1 ? "Action history" : "Latest action"}</span>` +
+          `<ul class="dx-tl">${items}</ul>${toggle}`;
+      };
+      const tlInner = timelineInner();
+      if (tlInner) parts.push(`<div class="dx-timeline">${tlInner}</div>`);
+
+      // Actions — primary link out to the council source plus quick utilities.
+      const isFav = state.favorites.has(favKey(b));
       parts.push(
-        `<div class="detail-summary"><span class="detail-label">Full title</span>${annotate(fullTitle)}</div>`
+        `<div class="dx-actions">` +
+          `<a class="dx-btn dx-btn-primary" href="${escapeHtml(b.url)}" target="_blank" rel="noopener">` +
+            `<svg aria-hidden="true"><use href="#i-external"/></svg>View on council site</a>` +
+          `<button type="button" class="dx-btn dx-copy">` +
+            `<svg aria-hidden="true"><use href="#i-copy"/></svg>Copy reference</button>` +
+          `<button type="button" class="dx-btn dx-link">` +
+            `<svg aria-hidden="true"><use href="#i-link"/></svg>Copy link</button>` +
+          `<button type="button" class="dx-btn dx-fav${isFav ? " is-fav" : ""}" aria-pressed="${isFav}">` +
+            `<svg aria-hidden="true"><use href="#i-star${isFav ? "" : "-o"}"/></svg>` +
+            `<span class="dx-fav-txt">${isFav ? "Saved" : "Save"}</span></button>` +
+        `</div>`
       );
-    } else {
-      parts.push(`<div class="detail-summary muted">No description available from the council source.</div>`);
-    }
 
-    // Meta chips — labelled facts with inline icons, each in its own card.
-    const trackedSince = (b.first_seen || "").slice(0, 10);
-    const chip = (icon, label, value) =>
-      `<div class="dx-chip"><svg class="dx-chip-ic" aria-hidden="true"><use href="#${icon}"/></svg>` +
-      `<div class="dx-chip-body"><span class="dx-chip-label">${label}</span>` +
-      `<span class="dx-chip-val">${value}</span></div></div>`;
-    const chips = [];
-    if (b.introducer) chips.push(chip("i-user", "Introducer", escapeHtml(b.introducer)));
-    if (b.introduced_date) chips.push(chip("i-calendar", "Introduced", escapeHtml(b.introduced_date)));
-    if (trackedSince) chips.push(chip("i-clock", "Tracked since", escapeHtml(trackedSince)));
-    if (chips.length) parts.push(`<div class="dx-meta">${chips.join("")}</div>`);
+      // Gutter cells occupy the star+county columns so the expanded content lines
+      // up under the bill's Number/Title block instead of floating at the far left.
+      // .detail-anim is the grid 0fr→1fr wrapper that animates the open/close.
+      detail.innerHTML = `<td class="detail-gutter" colspan="2"></td>` +
+        `<td colspan="5"><div class="detail-anim"><div class="detail-inner">${parts.join("")}</div></div></td>`;
 
-    // Subjects — re-shown here with a label so the panel documents how the bill
-    // was classified (the row's pills carry no header).
-    if (pills) {
-      parts.push(
-        `<div class="dx-subjects"><span class="detail-label">Subjects</span>` +
-        `<div class="dx-subjects-pills">${pills}</div></div>`
-      );
-    }
-
-    // Action history. The scraper currently captures only the latest action, so
-    // render that as a one-item timeline; when an `actions[]` array lands (see
-    // the planned schema change) this fills out into the full vertical history.
-    // Timelines ship in per-council shards and attach lazily, so this is built
-    // as a function: until the shard lands it renders the single latest action,
-    // then gets rebuilt in place once the real history arrives (rebuilding via
-    // a full re-render would collapse the row the reader just opened).
-    const timelineInner = () => {
-      const acts = Array.isArray(b.actions) && b.actions.length
-        ? b.actions
-        : (lastAction ? [{ action: b.last_action || lastAction, date: b.last_action_date || "" }] : []);
-      if (!acts.length) return "";
-      // Long histories (Honolulu bills run 14+ steps) dominate the panel's
-      // height, so show only the most recent few and tuck the rest behind a
-      // toggle. The item just above the fold drops its connector so the line
-      // doesn't dangle into the hidden region.
-      const TL_CAP = 4;
-      const capped = acts.length > TL_CAP;
-      const items = acts.map((a, i) => {
-        const when = a.date ? `<span class="dx-tl-date">${escapeHtml(a.date)}</span>` : "";
-        const text = escapeHtml(a.action || "");
-        const cls = [
-          "dx-tl-item",
-          i === 0 ? "is-latest" : "",
-          capped && i >= TL_CAP ? "dx-tl-extra" : "",
-          capped && i === TL_CAP - 1 ? "dx-tl-foldedge" : "",
-        ].filter(Boolean).join(" ");
-        return `<li class="${cls}">` +
-          `<span class="dx-tl-dot" aria-hidden="true"></span>` +
-          `<div class="dx-tl-body">${when}<span class="dx-tl-text">${text}</span></div></li>`;
-      }).join("");
-      const toggle = capped
-        ? `<button type="button" class="dx-tl-toggle" aria-expanded="false">` +
-          `Show all ${acts.length} actions</button>`
-        : "";
-      return `<span class="detail-label">` +
-        `${acts.length > 1 ? "Action history" : "Latest action"}</span>` +
-        `<ul class="dx-tl">${items}</ul>${toggle}`;
-    };
-    const tlInner = timelineInner();
-    if (tlInner) parts.push(`<div class="dx-timeline">${tlInner}</div>`);
-
-    // Actions — primary link out to the council source plus quick utilities.
-    const isFav = state.favorites.has(favKey(b));
-    parts.push(
-      `<div class="dx-actions">` +
-        `<a class="dx-btn dx-btn-primary" href="${escapeHtml(b.url)}" target="_blank" rel="noopener">` +
-          `<svg aria-hidden="true"><use href="#i-external"/></svg>View on council site</a>` +
-        `<button type="button" class="dx-btn dx-copy">` +
-          `<svg aria-hidden="true"><use href="#i-copy"/></svg>Copy reference</button>` +
-        `<button type="button" class="dx-btn dx-link">` +
-          `<svg aria-hidden="true"><use href="#i-link"/></svg>Copy link</button>` +
-        `<button type="button" class="dx-btn dx-fav${isFav ? " is-fav" : ""}" aria-pressed="${isFav}">` +
-          `<svg aria-hidden="true"><use href="#i-star${isFav ? "" : "-o"}"/></svg>` +
-          `<span class="dx-fav-txt">${isFav ? "Saved" : "Save"}</span></button>` +
-      `</div>`
-    );
-
-    // Gutter cells occupy the star+county columns so the expanded content lines
-    // up under the bill's Number/Title block instead of floating at the far left.
-    // .detail-anim is the grid 0fr→1fr wrapper that animates the open/close.
-    detail.innerHTML = `<td class="detail-gutter" colspan="2"></td>` +
-      `<td colspan="5"><div class="detail-anim"><div class="detail-inner">${parts.join("")}</div></div></td>`;
-
-    // Copy a plain-text reference (council, number, title, source URL) — handy
-    // for the analyst pasting a bill into notes or a message.
-    const copyBtn = detail.querySelector(".dx-copy");
-    copyBtn.addEventListener("click", async (e) => {
-      e.stopPropagation();
-      const ref = `${council} ${b.bill_number} — ${(head || fullTitle || "").trim()}\n${b.url}`;
-      try {
-        await navigator.clipboard.writeText(ref);
-        copyBtn.classList.add("is-done");
-        copyBtn.querySelector("use").setAttribute("href", "#i-check");
-        setTimeout(() => {
-          copyBtn.classList.remove("is-done");
-          copyBtn.querySelector("use").setAttribute("href", "#i-copy");
-        }, 1400);
-      } catch { /* clipboard blocked — no-op */ }
-    });
-    // Copy a shareable dashboard link that re-opens this bill expanded.
-    const linkBtn = detail.querySelector(".dx-link");
-    linkBtn.addEventListener("click", async (e) => {
-      e.stopPropagation();
-      try {
-        await navigator.clipboard.writeText(billDeepLink(b));
-        linkBtn.classList.add("is-done");
-        linkBtn.querySelector("use").setAttribute("href", "#i-check");
-        setTimeout(() => {
-          linkBtn.classList.remove("is-done");
-          linkBtn.querySelector("use").setAttribute("href", "#i-link");
-        }, 1400);
-      } catch { /* clipboard blocked — no-op */ }
-    });
-    // Expand/collapse the capped action timeline. Re-wired after a lazy refill,
-    // since that replaces the button along with the rest of the markup.
-    const wireTimelineToggle = () => {
-      const tlToggle = detail.querySelector(".dx-tl-toggle");
-      if (!tlToggle) return;
-      const total = (b.actions || []).length;
-      tlToggle.addEventListener("click", (e) => {
+      // Copy a plain-text reference (council, number, title, source URL) — handy
+      // for the analyst pasting a bill into notes or a message.
+      const copyBtn = detail.querySelector(".dx-copy");
+      copyBtn.addEventListener("click", async (e) => {
         e.stopPropagation();
-        const tl = tlToggle.closest(".dx-timeline");
-        const open = tl.classList.toggle("show-all");
-        tlToggle.setAttribute("aria-expanded", String(open));
-        tlToggle.textContent = open ? "Show less" : `Show all ${total} actions`;
+        const ref = `${council} ${b.bill_number} — ${(head || fullTitle || "").trim()}\n${b.url}`;
+        try {
+          await navigator.clipboard.writeText(ref);
+          copyBtn.classList.add("is-done");
+          copyBtn.querySelector("use").setAttribute("href", "#i-check");
+          setTimeout(() => {
+            copyBtn.classList.remove("is-done");
+            copyBtn.querySelector("use").setAttribute("href", "#i-copy");
+          }, 1400);
+        } catch { /* clipboard blocked — no-op */ }
+      });
+      // Copy a shareable dashboard link that re-opens this bill expanded.
+      const linkBtn = detail.querySelector(".dx-link");
+      linkBtn.addEventListener("click", async (e) => {
+        e.stopPropagation();
+        try {
+          await navigator.clipboard.writeText(billDeepLink(b));
+          linkBtn.classList.add("is-done");
+          linkBtn.querySelector("use").setAttribute("href", "#i-check");
+          setTimeout(() => {
+            linkBtn.classList.remove("is-done");
+            linkBtn.querySelector("use").setAttribute("href", "#i-link");
+          }, 1400);
+        } catch { /* clipboard blocked — no-op */ }
+      });
+      // Expand/collapse the capped action timeline. Re-wired after a lazy refill,
+      // since that replaces the button along with the rest of the markup.
+      const wireTimelineToggle = () => {
+        const tlToggle = detail.querySelector(".dx-tl-toggle");
+        if (!tlToggle) return;
+        const total = (b.actions || []).length;
+        tlToggle.addEventListener("click", (e) => {
+          e.stopPropagation();
+          const tl = tlToggle.closest(".dx-timeline");
+          const open = tl.classList.toggle("show-all");
+          tlToggle.setAttribute("aria-expanded", String(open));
+          tlToggle.textContent = open ? "Show less" : `Show all ${total} actions`;
+        });
+      };
+      wireTimelineToggle();
+      // Called once this bill's council shard has loaded.
+      detail._refillTimeline = () => {
+        const host = detail.querySelector(".dx-timeline");
+        if (!host) return;
+        host.innerHTML = timelineInner();
+        wireTimelineToggle();
+      };
+      // The in-panel Save button mirrors the row's star (and vice-versa via re-render).
+      const dxFav = detail.querySelector(".dx-fav");
+      dxFav.addEventListener("click", (e) => {
+        e.stopPropagation();
+        toggleFav(b);
+        const on = state.favorites.has(favKey(b));
+        dxFav.classList.toggle("is-fav", on);
+        dxFav.setAttribute("aria-pressed", String(on));
+        dxFav.querySelector("use").setAttribute("href", on ? "#i-star" : "#i-star-o");
+        dxFav.querySelector(".dx-fav-txt").textContent = on ? "Saved" : "Save";
+        // Keep the row's star in sync.
+        const star = tr.querySelector(".fav-btn");
+        if (star) {
+          star.classList.toggle("is-fav", on);
+          star.setAttribute("aria-pressed", String(on));
+          star.querySelector("use")?.setAttribute("href", on ? "#i-star" : "#i-star-o");
+          star.title = on ? "Remove from favorites" : "Save to favorites";
+        }
       });
     };
-    wireTimelineToggle();
-    // Called once this bill's council shard has loaded.
-    detail._refillTimeline = () => {
-      const host = detail.querySelector(".dx-timeline");
-      if (!host) return;
-      host.innerHTML = timelineInner();
-      wireTimelineToggle();
-    };
-    // The in-panel Save button mirrors the row's star (and vice-versa via re-render).
-    const dxFav = detail.querySelector(".dx-fav");
-    dxFav.addEventListener("click", (e) => {
-      e.stopPropagation();
-      toggleFav(b);
-      const on = state.favorites.has(favKey(b));
-      dxFav.classList.toggle("is-fav", on);
-      dxFav.setAttribute("aria-pressed", String(on));
-      dxFav.querySelector("use").setAttribute("href", on ? "#i-star" : "#i-star-o");
-      dxFav.querySelector(".dx-fav-txt").textContent = on ? "Saved" : "Save";
-      // Keep the row's star in sync.
-      const star = tr.querySelector(".fav-btn");
-      if (star) {
-        star.classList.toggle("is-fav", on);
-        star.setAttribute("aria-pressed", String(on));
-        star.querySelector("use")?.setAttribute("href", on ? "#i-star" : "#i-star-o");
-        star.title = on ? "Remove from favorites" : "Save to favorites";
-      }
-    });
 
     function toggle() {
       const open = !tr.classList.contains("open");
+      if (open) buildDetail();   // first expand materialises the panel
       tr.classList.toggle("open", open);
       tr.setAttribute("aria-expanded", String(open));
       // The full history may still be in flight (or never prefetched, on a slow
@@ -2062,13 +2096,24 @@
   }
 
   let firstRender = true;
-  function applyFilters() {
+  // `onRendered` runs once the table has actually been written. Callers that
+  // need to touch a row can't just use requestAnimationFrame: when a view
+  // transition is in play the render is deferred past it, and the callback
+  // would run against the previous DOM.
+  function applyFilters(onRendered) {
     const filtered = sortBills(filterBills());
     updateColumnFilterIndicators();
     renderActiveFilters();
     syncSortLabel();
     const render = () => {
       const tbody = document.querySelector("#results tbody");
+      // Every render rebuilds the table from scratch, which would silently
+      // collapse whatever the reader had expanded — including a row opened by
+      // a #bill= link, when a background re-render lands a moment later.
+      // Remember what was open and restore it after.
+      const wasOpen = new Set(
+        [...tbody.querySelectorAll("tr.bill-row.open")].map((tr) => tr.dataset.key)
+      );
       tbody.innerHTML = "";
       if (!filtered.length) {
         const tr = document.createElement("tr");
@@ -2096,11 +2141,17 @@
         }
         tbody.appendChild(frag);
         observeSteppers(tbody);
+        if (wasOpen.size) {
+          for (const tr of tbody.querySelectorAll("tr.bill-row")) {
+            if (wasOpen.has(tr.dataset.key)) tr.click(); // re-expands, building its panel
+          }
+        }
       }
       document.getElementById("result-count").textContent =
         `${filtered.length} bill${filtered.length === 1 ? "" : "s"}` +
         (filtered.length > 1000 ? " (showing first 1000)" : "");
       firstRender = false;
+      if (onRendered) onRendered();
     };
     const useVT = animateNextApply && !REDUCED_MOTION && typeof document.startViewTransition === "function";
     animateNextApply = false;
@@ -2164,6 +2215,7 @@
     setAll(state.years, it.year);
     setAll(state.matterClasses, it.matterClass);
     state.onlyStalled = false;
+    cancelSearchDebounce();
     state.search = "";
     setFavoritesOnly(false);
     const sf = document.getElementById("f-stalled"); if (sf) sf.checked = false;
@@ -2172,6 +2224,12 @@
   }
 
   // On load, honor a #bill=<council>:<number> link: reveal, expand and scroll to it.
+  // Guards against a second open for the same link landing while the first is
+  // still pending. On load this fires twice — once from ingest(), once from the
+  // hashchange listener — and because the render is deferred, both callbacks
+  // ran against the same row: the first opened it and the second toggled it
+  // shut, so the link appeared to do nothing at all.
+  let openingBillHash = null;
   function openBillFromHash() {
     const m = /[#&]bill=([^:&]+):([^&]+)/.exec(location.hash);
     if (!m) return;
@@ -2179,9 +2237,22 @@
     const number = decodeURIComponent(m[2]);
     const bill = state.bills.find((b) => b.council === council && b.bill_number === number);
     if (!bill) return;
+    if (openingBillHash === location.hash) return;
+    openingBillHash = location.hash;
     showEverything();
-    applyFilters();
-    requestAnimationFrame(() => {
+    // Clearing the filters isn't enough on its own: only the first 1000 rows
+    // are rendered, and an older bill can sort well past that (a 2023 measure
+    // lands around #2600 of 5,140), so the loop below would never find its row
+    // and the link would silently do nothing. Narrow to the bill number so the
+    // target is guaranteed to be on screen — following a link to one bill and
+    // landing on exactly that bill is also the clearer outcome.
+    state.search = bill.bill_number.toLowerCase();
+    const box = document.getElementById("f-search");
+    if (box) box.value = bill.bill_number;
+    const clr = document.getElementById("f-search-clear");
+    if (clr) clr.hidden = false;
+    applyFilters(() => {
+      openingBillHash = null;
       const key = favKey(bill);
       for (const tr of document.querySelectorAll("tr.bill-row")) {
         if (tr.dataset.key !== key) continue;
