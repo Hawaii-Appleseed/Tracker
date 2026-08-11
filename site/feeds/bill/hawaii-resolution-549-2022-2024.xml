@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:dtomkatsu.github.io,2026:feeds/bill/hawaii-resolution-549-2022-2024.xml</id>
+  <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-resolution-549-2022-2024.xml</id>
   <title>Resolution 549 (2022-2024) — Hawaiʻi County</title>
   <updated>2026-07-27T21:46:01+00:00</updated>
-  <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/hawaii-resolution-549-2022-2024.xml"/>
-  <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
+  <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-resolution-549-2022-2024.xml"/>
+  <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-549-2022-2024/2026-07-27T21:46:01+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-549-2022-2024/2026-07-27T21:46:01+00:00</id>
     <title>New: Resolution 549 (2022-2024) (Hawaiʻi County) — Adopted</title>
     <updated>2026-07-27T21:46:01+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1079428&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO AN AGREEMENT WITH THE DEPARTMENT OF THE ARMY, PURSUANT TO HAWAI‘I REVISED STATUTES SECTION 46-7, REGARDING AN AQUATIC ECOSYSTEM RESTORATION STUDY OF KAHALU‘U BAY&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Allows for a 50 percent cost sharing agreement to conduct a study to identify and evaluate alternatives and recommend a solution for aquatic ecosystem restoration of Kahaluʻu Bay.&lt;/p&gt;
+    <content type="html">&lt;p&gt;GOEAC&lt;/p&gt;
 &lt;p&gt;Latest action: Council:  Adopts Res. 549-24 &amp;amp; GOEAC-145 - 07/24/24&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1079428&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>

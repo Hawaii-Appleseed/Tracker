@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:dtomkatsu.github.io,2026:feeds/bill/hawaii-bill-22-2024-2026.xml</id>
+  <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-bill-22-2024-2026.xml</id>
   <title>Bill 22 (2024-2026) — Hawaiʻi County</title>
   <updated>2026-07-27T21:40:04+00:00</updated>
-  <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/hawaii-bill-22-2024-2026.xml"/>
-  <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
+  <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-bill-22-2024-2026.xml"/>
+  <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-22-2024-2026/2026-07-27T21:40:04+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-22-2024-2026/2026-07-27T21:40:04+00:00</id>
     <title>New: Bill 22 (2024-2026) (Hawaiʻi County) — Adopted</title>
     <updated>2026-07-27T21:40:04+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1094784&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 25, ARTICLE 5, OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO HOSPITALS, SANITARIUMS, OLD AGE, CONVALESCENT, NURSING AND REST HOMES&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Adds hospitals, sanitariums, old age, convalescent, nursing and rest homes as permitted uses in the Industrial-Commercial Mixed Zoning District.&lt;/p&gt;
+    <content type="html">&lt;p&gt;PCPLUED&lt;/p&gt;
 &lt;p&gt;Latest action: Council:  Bill 22 passes second &amp;amp; final reading - 2/19/25&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1094784&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>

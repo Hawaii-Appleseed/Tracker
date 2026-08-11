@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:dtomkatsu.github.io,2026:feeds/bill/hawaii-resolution-122-2024-2026.xml</id>
+  <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-resolution-122-2024-2026.xml</id>
   <title>Resolution 122 (2024-2026) — Hawaiʻi County</title>
   <updated>2026-07-27T21:48:30+00:00</updated>
-  <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/hawaii-resolution-122-2024-2026.xml"/>
-  <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
+  <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-resolution-122-2024-2026.xml"/>
+  <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-122-2024-2026/2026-07-27T21:48:30+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-122-2024-2026/2026-07-27T21:48:30+00:00</id>
     <title>New: Resolution 122 (2024-2026) (Hawaiʻi County) — Adopted</title>
     <updated>2026-07-27T21:48:30+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1103169&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE PAYMENT OF FUNDS OF A LATER FISCAL YEAR AND OF MORE THAN ONE FISCAL YEAR FOR A MULTI-YEAR AGREEMENT FOR FIXED ROUTE TRANSIT OPERATIONS FOR THE MASS TRANSIT AGENCY&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Authorizes the Mayor to enter into a three-year agreement with two renewal option years for a selected contractor to provide vehicles, drivers, management, personnel, dispatching, maintenance, and other ancillary services to operate an island wide public transportation system.&lt;/p&gt;
+    <content type="html">&lt;p&gt;FC&lt;/p&gt;
 &lt;p&gt;Latest action: Council:  Adopts Res. 122-25 &amp;amp; FC-38 - 5/7/25&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1103169&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>

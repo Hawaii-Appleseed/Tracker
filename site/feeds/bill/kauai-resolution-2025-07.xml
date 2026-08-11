@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:dtomkatsu.github.io,2026:feeds/bill/kauai-resolution-2025-07.xml</id>
+  <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/kauai-resolution-2025-07.xml</id>
   <title>Resolution 2025-07 — Kauaʻi</title>
   <updated>2026-07-27T22:00:59+00:00</updated>
-  <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/kauai-resolution-2025-07.xml"/>
-  <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
+  <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/kauai-resolution-2025-07.xml"/>
+  <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2025-07/2026-07-27T22:00:59+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-resolution-2025-07/2026-07-27T22:00:59+00:00</id>
     <title>New: Resolution 2025-07 (Kauaʻi) — On agenda 2024-12-18</title>
     <updated>2026-07-27T22:00:59+00:00</updated>
     <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2784"/>

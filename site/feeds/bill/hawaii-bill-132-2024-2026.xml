@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:dtomkatsu.github.io,2026:feeds/bill/hawaii-bill-132-2024-2026.xml</id>
+  <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-bill-132-2024-2026.xml</id>
   <title>Bill 132 (2024-2026) — Hawaiʻi County</title>
   <updated>2026-07-27T21:41:03+00:00</updated>
-  <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/hawaii-bill-132-2024-2026.xml"/>
-  <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
+  <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-bill-132-2024-2026.xml"/>
+  <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-132-2024-2026/2026-07-27T21:41:03+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-132-2024-2026/2026-07-27T21:41:03+00:00</id>
     <title>New: Bill 132 (2024-2026) (Hawaiʻi County) — PCPWMT:  Withdrawn - 05/19/26</title>
     <updated>2026-07-27T21:41:03+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1125213&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 6 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED) BY ADDING AN ARTICLE RELATING TO PAID PARKING FACILITIES IN KAILUA VILLAGE&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Adds a new article to regulate parking rates at private parking facilities in Kailua Village.&lt;/p&gt;
+    <content type="html">&lt;p&gt;PCPWMT&lt;/p&gt;
 &lt;p&gt;Latest action: PCPWMT:  Withdrawn - 05/19/26&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1125213&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>

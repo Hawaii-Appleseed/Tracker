@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:dtomkatsu.github.io,2026:feeds/bill/hawaii-bill-27-2024-2026.xml</id>
+  <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-bill-27-2024-2026.xml</id>
   <title>Bill 27 (2024-2026) — Hawaiʻi County</title>
   <updated>2026-07-27T21:40:06+00:00</updated>
-  <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/hawaii-bill-27-2024-2026.xml"/>
-  <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
+  <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-bill-27-2024-2026.xml"/>
+  <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-27-2024-2026/2026-07-27T21:40:06+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-27-2024-2026/2026-07-27T21:40:06+00:00</id>
     <title>New: Bill 27 (2024-2026) (Hawaiʻi County) — Adopted</title>
     <updated>2026-07-27T21:40:06+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1102320&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 2, ARTICLE 45, SECTION 2-235, OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO THE GENERAL EXCISE AND USE TAX SURCHARGE&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Adds County-appropriated housing infrastructure costs and the definition of “Housing infrastructure costs” to use of funds to codify the Session Laws of Hawaiʻi 2024, Act 30, which took effect on July 1, 2024.&lt;/p&gt;
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
 &lt;p&gt;Latest action: Council:  Bill 27, Draft 2 passes second &amp;amp; final reading - 3/19/25&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1102320&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>

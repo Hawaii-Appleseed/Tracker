@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:dtomkatsu.github.io,2026:feeds/bill/kauai-bill-2988.xml</id>
+  <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/kauai-bill-2988.xml</id>
   <title>Bill 2988 — Kauaʻi</title>
   <updated>2026-06-17T16:17:12+00:00</updated>
-  <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/kauai-bill-2988.xml"/>
-  <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
+  <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/kauai-bill-2988.xml"/>
+  <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2988/2026-06-17T16:17:12+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2988/2026-06-17T16:17:12+00:00</id>
     <title>Bill 2988 (Kauaʻi): On agenda 2026-05-27</title>
     <updated>2026-06-17T16:17:12+00:00</updated>
     <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3089"/>
@@ -15,7 +15,7 @@
 &lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3089"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2988/2026-06-15T16:26:03+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2988/2026-06-15T16:26:03+00:00</id>
     <title>Bill 2988 (Kauaʻi): On agenda 2026-04-09</title>
     <updated>2026-06-15T16:26:03+00:00</updated>
     <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3089"/>

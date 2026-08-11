@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:dtomkatsu.github.io,2026:feeds/bill/hawaii-bill-43-2024-2026.xml</id>
+  <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-bill-43-2024-2026.xml</id>
   <title>Bill 43 (2024-2026) — Hawaiʻi County</title>
   <updated>2026-07-27T21:40:15+00:00</updated>
-  <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/hawaii-bill-43-2024-2026.xml"/>
-  <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
+  <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-bill-43-2024-2026.xml"/>
+  <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-43-2024-2026/2026-07-27T21:40:15+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-43-2024-2026/2026-07-27T21:40:15+00:00</id>
     <title>New: Bill 43 (2024-2026) (Hawaiʻi County) — Adopted</title>
     <updated>2026-07-27T21:40:15+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1103307&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS ORDINANCE NO. 23-40, WHICH AMENDS ORDINANCE NO. 22-125, WHICH AUTHORIZES THE MAYOR TO ENTER INTO AN INTERGOVERNMENTAL AGREEMENT FOR A STATE WATER POLLUTION CONTROL REVOLVING FUND LOAN FOR WASTEWATER PUBLIC IMPROVEMENT PROJECTS AND AUTHORIZES THE ISSUANCE OF $17,000,000 GENERAL OBLIGATION BONDS FOR THE PURPOSE OF FINANCING QUALIFIED WASTEWATER PUBLIC IMPROVEMENTS OF THE COUNTY OF HAWAI‘I&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Increases the amount of funds for the Hilo Wastewater Treatment Plant Rehabilitation Project from $17 million to $52 million.&lt;/p&gt;
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
 &lt;p&gt;Latest action: Council:  Bill 43 passes second &amp;amp; final reading - 5/7/25&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1103307&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>

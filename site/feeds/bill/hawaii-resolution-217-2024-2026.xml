@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:dtomkatsu.github.io,2026:feeds/bill/hawaii-resolution-217-2024-2026.xml</id>
+  <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-resolution-217-2024-2026.xml</id>
   <title>Resolution 217 (2024-2026) — Hawaiʻi County</title>
   <updated>2026-07-27T21:49:20+00:00</updated>
-  <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/hawaii-resolution-217-2024-2026.xml"/>
-  <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
+  <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-resolution-217-2024-2026.xml"/>
+  <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-217-2024-2026/2026-07-27T21:49:20+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-217-2024-2026/2026-07-27T21:49:20+00:00</id>
     <title>New: Resolution 217 (2024-2026) (Hawaiʻi County) — On agenda 2025-07-09</title>
     <updated>2026-07-27T21:49:20+00:00</updated>
     <link rel="alternate" href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;clip_id=3461"/>

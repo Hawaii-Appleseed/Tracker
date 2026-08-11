@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:dtomkatsu.github.io,2026:feeds/bill/hawaii-resolution-583-2022-2024.xml</id>
+  <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-resolution-583-2022-2024.xml</id>
   <title>Resolution 583 (2022-2024) — Hawaiʻi County</title>
   <updated>2026-07-27T21:46:17+00:00</updated>
-  <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/hawaii-resolution-583-2022-2024.xml"/>
-  <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
+  <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-resolution-583-2022-2024.xml"/>
+  <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-583-2022-2024/2026-07-27T21:46:17+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-583-2022-2024/2026-07-27T21:46:17+00:00</id>
     <title>New: Resolution 583 (2022-2024) (Hawaiʻi County) — Adopted</title>
     <updated>2026-07-27T21:46:17+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1084429&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO A MULTI-YEAR AGREEMENT WITH SUSTAINABILITY PARTNERS SUBSIDIARY HAWAIʻI ISLAND EV, LLC, TO REPLACE AND INSTALL ADDITIONAL ELECTRIC VEHICLE CHARGING STATIONS&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Authorizes the Mayor to enter into a ten-year lease agreement with an approximate monthly cost of $5,717, to replace inoperable and aging vehicle charging stations and install four additional charging stations at the West Hawaiʻi Civic Center, the Aupuni Center, and the County Building.&lt;/p&gt;
+    <content type="html">&lt;p&gt;FC&lt;/p&gt;
 &lt;p&gt;Latest action: Council:  Adopts Res. 583-24, Draft 2 &amp;amp; FC-183 - 9/4/24&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1084429&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>

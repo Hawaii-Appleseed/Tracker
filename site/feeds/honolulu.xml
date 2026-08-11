@@ -1,12 +1,322 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:dtomkatsu.github.io,2026:feeds/honolulu.xml</id>
+  <id>tag:hawaii-appleseed.github.io,2026:feeds/honolulu.xml</id>
   <title>Bill Tracker — Honolulu</title>
-  <updated>2026-07-27T19:23:33+00:00</updated>
-  <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/honolulu.xml"/>
-  <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
+  <updated>2026-08-11T20:42:28+00:00</updated>
+  <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/honolulu.xml"/>
+  <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-065/2026-07-27T19:23:33+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-171/2026-08-11T20:42:28+00:00</id>
+    <title>New: RES26-171 (Honolulu) — INTRO</title>
+    <updated>2026-08-11T20:42:28+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3800"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING A CONCEPTUAL PLAN FOR AN INTERIM PLANNED DEVELOPMENT-TRANSIT PROJECT FOR THE 1588 ALA MOANA DEVELOPMENT PROJECT.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3800"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-170/2026-08-11T20:42:28+00:00</id>
+    <title>New: RES26-170 (Honolulu) — INTRO</title>
+    <updated>2026-08-11T20:42:28+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3799"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE TRANSFER OF FUNDS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3799"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-173/2026-08-11T20:42:28+00:00</id>
+    <title>New: RES26-173 (Honolulu) — INTRO</title>
+    <updated>2026-08-11T20:42:28+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3802"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE TRANSFER OF FUNDS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3802"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-172/2026-08-11T20:42:27+00:00</id>
+    <title>New: RES26-172 (Honolulu) — PUBLISH</title>
+    <updated>2026-08-11T20:42:27+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3801"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE REAPPOINTMENT OF NA'ALEHU ANTHONY TO SERVE ON THE BOARD OF WATER SUPPLY OF THE CITY AND COUNTY OF HONOLULU.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Public hearing notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3801"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-174/2026-08-11T20:42:27+00:00</id>
+    <title>New: RES26-174 (Honolulu) — INTRO</title>
+    <updated>2026-08-11T20:42:27+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3803"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;NAMING THE TENNIS COURTS AT KALIHI VALLEY DISTRICT PARK TO THE VAILIMA WATSON KALIHI VALLEY DISTRICT PARK TENNIS COURTS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3803"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-178/2026-08-11T20:42:27+00:00</id>
+    <title>New: RES26-178 (Honolulu) — INTRO</title>
+    <updated>2026-08-11T20:42:27+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3807"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT OF TWO (2) HIGH-BACK TRADITIONAL BENCHES, GROUND PREPARATION AND TWO (2) BRONZE PLAQUES WITH THE INSCRIPTION, “DONATED BY THE FAMILY AND FRIENDS OF JACK ‘THE RUNNING DOC’ SCAFF,” VALUED AT $3,999.25, TO THE CITY FROM DONNA SCAFF FOR PLACEMENT AT KAPIʻOLANI REGIONAL PARK.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3807"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-177/2026-08-11T20:42:27+00:00</id>
+    <title>New: RES26-177 (Honolulu) — INTRO</title>
+    <updated>2026-08-11T20:42:27+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3806"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TO RETAIN THE LEGAL SERVICES OF KOBAYASHI SUGITA &amp;amp; GODA, LLP AS SPECIAL COUNSEL TO REPRESENT DEFENDANT VERNON BRANCO IN THE LEGAL ACTION ENTITLED LAUREL J. MAU V. CITY AND COUNTY OF HONOLULU, ET AL.; CASE NO. 1:24-CV-00253 GPC-WRP (U.S.D.C.).&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3806"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-176/2026-08-11T20:42:27+00:00</id>
+    <title>New: RES26-176 (Honolulu) — INTRO</title>
+    <updated>2026-08-11T20:42:27+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3805"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TO RETAIN THE LEGAL SERVICES OF THOMPSON, COE, COUSINS &amp;amp; IRONS, L.L.P. AS SPECIAL COUNSEL TO REPRESENT DEFENDANT JACOB GEORGE DELAPLANE IN THE LEGAL ACTION ENTITLED LAUREL J. MAU V. CITY AND COUNTY OF HONOLULU, ET AL.; CASE NO. 1:24-CV-00253 GPC-WRP (U.S.D.C).&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3805"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-175/2026-08-11T20:42:27+00:00</id>
+    <title>New: RES26-175 (Honolulu) — INTRO</title>
+    <updated>2026-08-11T20:42:27+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3804"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TO RETAIN THE LEGAL SERVICES OF STARN O’TOOLE MARCUS &amp;amp; FISHER, A LAW CORPORATION AS SPECIAL COUNSEL TO REPRESENT DEFENDANT CITY AND COUNTY OF HONOLULU IN THE LEGAL ACTION ENTITLED LAUREL J. MAU V. CITY AND COUNTY OF HONOLULU, ET AL.; CASE NO. 1:24-CV-00253 GPC-WRP (U.S.D.C).&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3804"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-179/2026-08-11T20:42:26+00:00</id>
+    <title>New: RES26-179 (Honolulu) — INTRO</title>
+    <updated>2026-08-11T20:42:26+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3809"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING COLLECTIVE BARGAINING COST ITEMS FOR THE HAWAlʻI FIRE FIGHTERS ASSOCIATION BARGAINING UNIT 11 INCLUDED AND EXCLUDED MANAGERIAL EMPLOYEES OF THE CITY AND COUNTY OF HONOLULU.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3809"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-182/2026-08-11T20:42:26+00:00</id>
+    <title>New: RES26-182 (Honolulu) — INTRO</title>
+    <updated>2026-08-11T20:42:26+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3812"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT OF CONFERENCE REGISTRATION FEES AND LODGING TO THE CITY, VALUED AT $2,172.06, FROM THE HAWAIʻI EXECUTIVE COLLABORATIVE FOR THE MAYOR AND MANAGING DIRECTOR TO ATTEND THE HAWAIʻI EXECUTIVE CONFERENCE ON THE ISLAND OF HAWAIʻI FROM SEPTEMBER 30 — OCTOBER 3, 2026.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3812"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-181/2026-08-11T20:42:26+00:00</id>
+    <title>New: RES26-181 (Honolulu) — INTRO</title>
+    <updated>2026-08-11T20:42:26+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3811"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE TRANSFER OF FUNDS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3811"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-180/2026-08-11T20:42:26+00:00</id>
+    <title>New: RES26-180 (Honolulu) — INTRO</title>
+    <updated>2026-08-11T20:42:26+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3810"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT OF ONE (1) HIGH-BACK TRADITIONAL BENCH, PREPARATIONS OF THE GROUNDS AND ONE (1) BRONZE PLAQUE WITH AN INSCRIPTION TO READ “DONATED BY THE FAMILY OF RURIKO FUJINO,” VALUED AT $2,718.74 TO THE CITY FROM ANNE FUJINO FOR PLACEMENT AT KAILUA BEACH PARK.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3810"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill016-26/2026-08-11T20:42:25+00:00</id>
+    <title>BILL016(26) (Honolulu): ILA → PUBLISH</title>
+    <updated>2026-08-11T20:42:25+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3606"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE REGULATION OF DOGS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Provides that it is unlawful for an owner of a dog to allow the dog to become, or fail to reasonably prevent the dog from becoming, a stray. Requires the CSD Director or the head of the City agency designated by the Mayor to require the animal control contractor to enforce the provisions contained in ROH Chapter 12, Article 4. Increases existing criminal fines and establishes new civil fines.&lt;/p&gt;
+&lt;p&gt;Status: ILA → PUBLISH&lt;/p&gt;
+&lt;p&gt;Latest action: Public hearing notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3606"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill048-26/2026-08-11T20:42:25+00:00</id>
+    <title>BILL048(26) (Honolulu): ILA → PUBLISH</title>
+    <updated>2026-08-11T20:42:25+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3780"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO CONDEMNATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: ILA → PUBLISH&lt;/p&gt;
+&lt;p&gt;Latest action: Public hearing notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3780"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill047-26/2026-08-11T20:42:25+00:00</id>
+    <title>BILL047(26) (Honolulu): BUD → PUBLISH</title>
+    <updated>2026-08-11T20:42:25+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3779"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;REALTING TO THE MOTOR VEHICLE WEIGHT TAX.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Reduces the vehicle weight tax rates for motor vehicles designed primarily for carrying passengers; trucks and noncommercial vehicles having a net weight of 6,500 pounds or less; and vehicles designed for carrying property or for purposes other than carrying passengers. Takes effect on July 1, 2027.&lt;/p&gt;
+&lt;p&gt;Status: BUD → PUBLISH&lt;/p&gt;
+&lt;p&gt;Latest action: Public hearing notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3779"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill046-26/2026-08-11T20:42:25+00:00</id>
+    <title>BILL046(26) (Honolulu): BUD → PUBLISH</title>
+    <updated>2026-08-11T20:42:25+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3778"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Increases and makes uniform the real property tax homeowner’s exemption amount for taxpayers 65 years of age or over, to apply to all income levels and age brackets for taxpayers 65 years of age or over. Applies to tax years beginning July 1 2028, and thereafter.&lt;/p&gt;
+&lt;p&gt;Status: BUD → PUBLISH&lt;/p&gt;
+&lt;p&gt;Latest action: Public hearing notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3778"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill045-26/2026-08-11T20:42:25+00:00</id>
+    <title>BILL045(26) (Honolulu): BUD → PUBLISH</title>
+    <updated>2026-08-11T20:42:25+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3777"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Amends the real property tax homeowner’s exemption base amount. Applies to tax years beginning July 1, 2028 and thereafter.&lt;/p&gt;
+&lt;p&gt;Status: BUD → PUBLISH&lt;/p&gt;
+&lt;p&gt;Latest action: Public hearing notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3777"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill044-26/2026-08-11T20:42:25+00:00</id>
+    <title>BILL044(26) (Honolulu): BUD → PUBLISH</title>
+    <updated>2026-08-11T20:42:25+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3776"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REVENUES AND FUNDS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Specifies certain percentages of TAT revenues to be deposited into the Parks Maintenance and Recreation Services Revolving Fund, the Honolulu Zoo Fund, and the Botanical Gardens and Urban Forestry Revolving Fund. Takes effect upon the date of the bill’s approval; or (2) the date on which Bill 33 (2026), CD1, or any amended version thereof, has been enacted into law and taken effect, whichever occurs later.&lt;/p&gt;
+&lt;p&gt;Status: BUD → PUBLISH&lt;/p&gt;
+&lt;p&gt;Latest action: Public hearing notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3776"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill050-26/2026-08-11T20:42:24+00:00</id>
+    <title>BILL050(26) (Honolulu): BUD → PUBLISH</title>
+    <updated>2026-08-11T20:42:24+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3783"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO FUNDS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Repeals Chapter 6, Article 59, Revised Ordinances of Honolulu 2021 (“Land Conservation Fund”). Takes effect on July 1, 2028, and provides that all ordinances and resolutions, or portions thereof, that are in conflict or inconsistent with this bill are also repealed.&lt;/p&gt;
+&lt;p&gt;Status: BUD → PUBLISH&lt;/p&gt;
+&lt;p&gt;Latest action: Public hearing notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3783"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill053-26/2026-08-11T20:42:24+00:00</id>
+    <title>New: BILL053(26) (Honolulu) — INTRO</title>
+    <updated>2026-08-11T20:42:24+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3798"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO SHOPPING CARTS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Generally prohibits possession and use of shopping carts on Oʻahu unless the shopping cart is identified by the legal owner and used on a premises under the legal control of the owner. Establishes penalties. Defines shopping cart to include metal or plastic handcarts on three or more wheels, and to exclude handcarts made out of other
+materials, without sides (flatbeds), or with a carrying capacity of less than 1 .41 cubic feet or 40 liters (baskets with wheels).&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3798"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill054-26/2026-08-11T20:42:24+00:00</id>
+    <title>New: BILL054(26) (Honolulu) — INTRO</title>
+    <updated>2026-08-11T20:42:24+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3808"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO PARKING.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Upon the request of an adjacent property owner or resident, allows the DTS Director to mark certain curbs within one-quarter mile of any public access to a hiking trail with a warning of certain parking restrictions or prohibitions.&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3808"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill020-25/2026-08-11T20:42:23+00:00</id>
+    <title>BILL020(25) (Honolulu): MAYOR → PUBLISH</title>
+    <updated>2026-08-11T20:42:23+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3245"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO FUNDS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Creates a new Down Payment Loan Assistance Revolving Fund to receive and expend moneys to assist prospective homebuyers who reside in the City, do not own real property, and have an annual household income at 120 percent or below of the AMI of the City, as determined by HUD. Effective on July 1, 2025.&lt;/p&gt;
+&lt;p&gt;Status: MAYOR → PUBLISH&lt;/p&gt;
+&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3245"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill068-25/2026-08-11T20:42:23+00:00</id>
+    <title>BILL068(25) (Honolulu): BUD → PUBLISH</title>
+    <updated>2026-08-11T20:42:23+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3532"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Amends the definition of income in ROH § 8-13.1 to clarify that only the titleholder’s income (and not the income of a non-titleholder who is included on a joint income tax return) will be considered when calculating income eligibility for the County Tax Credit.&lt;/p&gt;
+&lt;p&gt;Status: BUD → PUBLISH&lt;/p&gt;
+&lt;p&gt;Latest action: Public hearing notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3532"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill043-24/2026-08-11T20:42:22+00:00</id>
+    <title>BILL043(24) (Honolulu): — → FILE</title>
+    <updated>2026-08-11T20:42:22+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3041"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → FILE&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3041"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill042-24/2026-08-11T20:42:22+00:00</id>
+    <title>BILL042(24) (Honolulu): — → FILE</title>
+    <updated>2026-08-11T20:42:22+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3040"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → FILE&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3040"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill045-24/2026-08-11T20:42:22+00:00</id>
+    <title>BILL045(24) (Honolulu): BUD → FILE</title>
+    <updated>2026-08-11T20:42:22+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3045"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: BUD → FILE&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3045"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill049-24/2026-08-11T20:42:22+00:00</id>
+    <title>BILL049(24) (Honolulu): — → FILE</title>
+    <updated>2026-08-11T20:42:22+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3050"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Establishes a real property tax exemption for real property whose assessed valuations exceed an unspecified percentage of the previous tax year’s assessed value and for which a homeowner’s exemption has been claimed for an unspecified number of years. Allows the real property tax exemption to continue to apply if the real property is inherited in sole ownership by a single family member who is eligible for the home exemption with respect to that real property, and the real property continues to be held in sole ownership. Effective upon the enactment of certain State legislation.&lt;/p&gt;
+&lt;p&gt;Status: — → FILE&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3050"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill048-24/2026-08-11T20:42:21+00:00</id>
+    <title>BILL048(24) (Honolulu): — → FILE</title>
+    <updated>2026-08-11T20:42:21+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3049"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Authorizes an owner of real property classified as Residential A to dedicate their property for use as a long-term residential rental and have such property classified as Residential. Provides the BFS Director with rulemaking authority. Applies to the tax years beginning July 1, 2026 and thereafter.&lt;/p&gt;
+&lt;p&gt;Status: — → FILE&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3049"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill047-24/2026-08-11T20:42:21+00:00</id>
+    <title>BILL047(24) (Honolulu): — → FILE</title>
+    <updated>2026-08-11T20:42:21+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3048"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Establishes dedications of real property as aina kupuna. Provides petition requirements to qualify for the dedication. Applies to tax years beginning July 1 2026 and thereafter.&lt;/p&gt;
+&lt;p&gt;Status: — → FILE&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3048"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill046-24/2026-08-11T20:42:20+00:00</id>
+    <title>BILL046(24) (Honolulu): — → FILE</title>
+    <updated>2026-08-11T20:42:20+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3047"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Establishes an empty homes tax as a supplemental real property tax on dwelling units that are vacant for a certain number of days each year and provides exemptions from the empty homes tax. Requires residential property owners to annually submit a property status declaration. Provides the Department of Budget and Fiscal Services with rulemaking authority. Establishes violations and penalties, including foreclosure of real properties having delinquent empty homes taxes and penalties for at least three consecutive years after notice.&lt;/p&gt;
+&lt;p&gt;Status: — → FILE&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3047"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-065/2026-07-27T19:23:33+00:00</id>
     <title>RES26-065 (Honolulu): Committee report and Resolution were adopted.</title>
     <updated>2026-07-27T19:23:33+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3674"/>
@@ -15,7 +325,7 @@
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3674"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-071/2026-07-27T19:23:33+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-071/2026-07-27T19:23:33+00:00</id>
     <title>RES26-071 (Honolulu): INTRO → ILA</title>
     <updated>2026-07-27T19:23:33+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3680"/>
@@ -26,7 +336,7 @@
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3680"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-073/2026-07-27T19:23:33+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-073/2026-07-27T19:23:33+00:00</id>
     <title>RES26-073 (Honolulu): INTRO → ILA</title>
     <updated>2026-07-27T19:23:33+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3682"/>
@@ -37,7 +347,7 @@
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3682"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-129/2026-07-27T19:23:33+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-129/2026-07-27T19:23:33+00:00</id>
     <title>RES26-129 (Honolulu): INTRO → ILA</title>
     <updated>2026-07-27T19:23:33+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3744"/>
@@ -49,7 +359,7 @@ Reported out for adoption.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3744"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-130/2026-07-27T19:23:33+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-130/2026-07-27T19:23:33+00:00</id>
     <title>RES26-130 (Honolulu): INTRO → EES</title>
     <updated>2026-07-27T19:23:33+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3745"/>
@@ -60,7 +370,7 @@ Reported out for adoption as amended in CD1 form.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3745"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-132/2026-07-27T19:23:32+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-132/2026-07-27T19:23:32+00:00</id>
     <title>RES26-132 (Honolulu): INTRO → CCL</title>
     <updated>2026-07-27T19:23:32+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3747"/>
@@ -70,7 +380,7 @@ Reported out for adoption as amended in CD1 form.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3747"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-133/2026-07-27T19:23:32+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-133/2026-07-27T19:23:32+00:00</id>
     <title>RES26-133 (Honolulu): INTRO → CCL</title>
     <updated>2026-07-27T19:23:32+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3748"/>
@@ -80,7 +390,7 @@ Reported out for adoption as amended in CD1 form.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3748"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-134/2026-07-27T19:23:32+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-134/2026-07-27T19:23:32+00:00</id>
     <title>RES26-134 (Honolulu): INTRO → CCL</title>
     <updated>2026-07-27T19:23:32+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3749"/>
@@ -90,7 +400,7 @@ Reported out for adoption as amended in CD1 form.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3749"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-142/2026-07-27T19:23:32+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-142/2026-07-27T19:23:32+00:00</id>
     <title>RES26-142 (Honolulu): INTRO → CCL</title>
     <updated>2026-07-27T19:23:32+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3759"/>
@@ -100,7 +410,7 @@ Reported out for adoption as amended in CD1 form.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3759"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-141/2026-07-27T19:23:32+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-141/2026-07-27T19:23:32+00:00</id>
     <title>RES26-141 (Honolulu): INTRO → CCL</title>
     <updated>2026-07-27T19:23:32+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3758"/>
@@ -110,7 +420,7 @@ Reported out for adoption as amended in CD1 form.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3758"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-140/2026-07-27T19:23:32+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-140/2026-07-27T19:23:32+00:00</id>
     <title>RES26-140 (Honolulu): INTRO → CCL</title>
     <updated>2026-07-27T19:23:32+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3757"/>
@@ -120,7 +430,7 @@ Reported out for adoption as amended in CD1 form.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3757"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-139/2026-07-27T19:23:32+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-139/2026-07-27T19:23:32+00:00</id>
     <title>RES26-139 (Honolulu): INTRO → CCL</title>
     <updated>2026-07-27T19:23:32+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3756"/>
@@ -130,7 +440,7 @@ Reported out for adoption as amended in CD1 form.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3756"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-143/2026-07-27T19:23:32+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-143/2026-07-27T19:23:32+00:00</id>
     <title>RES26-143 (Honolulu): INTRO → CCL</title>
     <updated>2026-07-27T19:23:32+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3762"/>
@@ -140,7 +450,7 @@ Reported out for adoption as amended in CD1 form.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3762"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-146/2026-07-27T19:23:32+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-146/2026-07-27T19:23:32+00:00</id>
     <title>RES26-146 (Honolulu): INTRO → CCL</title>
     <updated>2026-07-27T19:23:32+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3765"/>
@@ -151,7 +461,7 @@ Reported out for adoption as amended in CD1 form.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3765"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-145/2026-07-27T19:23:32+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-145/2026-07-27T19:23:32+00:00</id>
     <title>RES26-145 (Honolulu): INTRO → CCL</title>
     <updated>2026-07-27T19:23:32+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3764"/>
@@ -162,7 +472,7 @@ Reported out for adoption as amended in CD1 form.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3764"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-148/2026-07-27T19:23:32+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-148/2026-07-27T19:23:32+00:00</id>
     <title>RES26-148 (Honolulu): INTRO → CCL</title>
     <updated>2026-07-27T19:23:32+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3767"/>
@@ -172,7 +482,7 @@ Reported out for adoption as amended in CD1 form.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3767"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-147/2026-07-27T19:23:31+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-147/2026-07-27T19:23:31+00:00</id>
     <title>RES26-147 (Honolulu): INTRO → CCL</title>
     <updated>2026-07-27T19:23:31+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3766"/>
@@ -182,7 +492,7 @@ Reported out for adoption as amended in CD1 form.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3766"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-150/2026-07-27T19:23:31+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-150/2026-07-27T19:23:31+00:00</id>
     <title>RES26-150 (Honolulu): INTRO → ZON</title>
     <updated>2026-07-27T19:23:31+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3769"/>
@@ -192,7 +502,7 @@ Reported out for adoption as amended in CD1 form.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3769"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-149/2026-07-27T19:23:31+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-149/2026-07-27T19:23:31+00:00</id>
     <title>RES26-149 (Honolulu): INTRO → CCL</title>
     <updated>2026-07-27T19:23:31+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3768"/>
@@ -200,321 +510,5 @@ Reported out for adoption as amended in CD1 form.&lt;/p&gt;
 &lt;p&gt;Status: INTRO → CCL&lt;/p&gt;
 &lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3768"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-151/2026-07-27T19:23:31+00:00</id>
-    <title>RES26-151 (Honolulu): INTRO → CCL</title>
-    <updated>2026-07-27T19:23:31+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3770"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING THE EXPENDITURE OF CLEAN WATER AND NATURAL LANDS FUNDS TO ACQUIRE A PERPETUAL CONSERVATION EASEMENT OVER ONE PARCEL OF LAND, TAX MAP KEY: (1) 3-6-023:006 (CPRs 0001-0008) SITUATED IN WAILUPE, O'AHU, HAWAI'I.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: INTRO → CCL&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3770"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-155/2026-07-27T19:23:31+00:00</id>
-    <title>New: RES26-155 (Honolulu) — BUD</title>
-    <updated>2026-07-27T19:23:31+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3774"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;CONFIRMING THE APPOINTMENT OF SHANNON ALIVADO TO SERVE ON THE GRANTS IN AID ADVISORY COMMISSION OF THE CITY AND COUNTY OF HONOLULU.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: CR-199(26)
-Reported out for adoption.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3774"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-154/2026-07-27T19:23:31+00:00</id>
-    <title>New: RES26-154 (Honolulu) — BUD</title>
-    <updated>2026-07-27T19:23:31+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3773"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;CONFIRMING THE APPOINTMENT OF SHANNON SMITH TO SERVE ON THE BOARD OF REVIEW I FOR REAL PROPERTY TAX APPEALS OF THE CITY AND COUNTY OF HONOLULU.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: CR-198(26)
-Reported out for adoption as amended in CD1 form.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3773"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-153/2026-07-27T19:23:31+00:00</id>
-    <title>New: RES26-153 (Honolulu) — CCL</title>
-    <updated>2026-07-27T19:23:31+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3772"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO RETAIN THE LEGAL SERVICES OF KOBAYASHI SUGITA &amp;amp; GODA, LLP AS SPECIAL COUNSEL TO REPRESENT THE HONOLULU LIQUOR COMMISSION IN POST-SETTLEMENT PROCEEDINGS IN THE LEGAL ACTION ENTITLED SCARLET HONOLULU, INC., ET AL. V. HONOLULU LIQUOR COMMISSION, ET AL., CASE NO. CV 21-00457 KJM (USDC).&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3772"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-152/2026-07-27T19:23:31+00:00</id>
-    <title>New: RES26-152 (Honolulu) — CCL</title>
-    <updated>2026-07-27T19:23:31+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3771"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO RETAIN THE LEGAL SERVICES OF KALAMA &amp;amp; FARM LLP A LIMITED LIABILITY LAW PARTNERSHIP AS SPECIAL COUNSEL TO REPRESENT DEFENDANT ARTHUR J. LOGAN IN THE LEGAL ACTION ENTITLED AMMON FEPULEAI, ET AL. V. CITY AND COUNTY OF HONOLULU, ET. AL.; CIVIL NO. 1CCV-25-0000879 (CIRCUIT COURT).&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3771"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-156/2026-07-27T19:23:31+00:00</id>
-    <title>New: RES26-156 (Honolulu) — CCL</title>
-    <updated>2026-07-27T19:23:31+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3775"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE DEPARTMENT OF THE CORPORATION COUNSEL TO INITIATE LEGAL ACTION AGAINST SHAY TAL AND MIRIAM J.H.S. TAL TO STOP ADVERTISEMENTS OF THEIR UNPERMITTED BED AND BREAKFAST HOME OR TRANSIENT VACATION UNIT.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3775"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-158/2026-07-27T19:23:31+00:00</id>
-    <title>New: RES26-158 (Honolulu) — EES</title>
-    <updated>2026-07-27T19:23:31+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3784"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE CITY ADMINISTRATION TO CONDUCT A CITYWIDE ENERGY VULNERABILITY ASSESSMENT AND TO REPORT ITS FINDINGS AND RECOMMENDATIONS TO THE COUNCIL.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: CR-201(26)
-Reported out for adoption.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3784"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-157/2026-07-27T19:23:30+00:00</id>
-    <title>New: RES26-157 (Honolulu) — ILA</title>
-    <updated>2026-07-27T19:23:30+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3782"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT OF TRAVEL, ACCOMODATIONS, MEALS, AND GROUND TRANSPORTATION EXPENSES VALUED AT $7,150.00 TO THE CITY FROM THE FUZHOU MUNICIPAL PEOPLE'S GOVERNMENT, PEOPLE'S REPUBLIC OF CHINA, FOR COUNCILMEMBER ANDRIA TUPOLA TO ATTEND THE 2026 BOND WITH KULIANG FESTIVAL IN FUZHOU, FUJIAN, CHINA.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: CR-207(26)
-Reported out for adoption.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3782"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-161/2026-07-27T19:23:30+00:00</id>
-    <title>New: RES26-161 (Honolulu) — EES</title>
-    <updated>2026-07-27T19:23:30+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3787"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;REQUESTING THE CITY ADMINISTRATION TO DEVELOP MINIMUM STANDARDS FOR ALL RESILIENCE HUBS CONSTRUCTED OR RETROFITTED USING THE FUNDS APPROPRIATED IN THE FISCAL YEAR 2027 EXECUTIVE CAPITAL BUDGET.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Postponed to a date and time to be determined by the Committee Chair.
-&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3787"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-160/2026-07-27T19:23:30+00:00</id>
-    <title>New: RES26-160 (Honolulu) — ZON</title>
-    <updated>2026-07-27T19:23:30+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3786"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE HAWAIʻI STATE LEGISLATURE TO ENACT LEGISLATION THAT PROHIBITS THE HARVEST OF AQUATIC LIFE FROM STATE OF HAWAIʻI MARINE WATERS FOR COMMERCIAL AQUARIUM PURPOSES.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: CR-211(26)
-Reported out for adoption.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3786"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-159/2026-07-27T19:23:30+00:00</id>
-    <title>New: RES26-159 (Honolulu) — ZON</title>
-    <updated>2026-07-27T19:23:30+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3785"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE STATE BOARD OF LAND AND NATURAL RESOURCES TO DIRECT THE DEPARTMENT OF LAND AND NATURAL RESOURCES, DIVISION OF AQUATIC RESOURCES, TO ADOPT RULES PROHIBITING THE HARVEST OF AQUATIC LIFE FROM STATE OF HAWAIʻI MARINE WATERS FOR COMMERCIAL AQUARIUM PURPOSES.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: CR-210(26)
-Reported out for adoption.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3785"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-164/2026-07-27T19:23:30+00:00</id>
-    <title>New: RES26-164 (Honolulu) — PSE</title>
-    <updated>2026-07-27T19:23:30+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3790"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT IN THE AMOUNT $25,000 TO THE CITY FROM REAL HEAVEN, INC., TO SUPPORT PUBLIC PROGRAMS, GARDEN MAINTENANCE AND OPERATIONAL NEEDS AT HO’OMALUHIA BOTANICAL GARDEN.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: CR-215(26)
-Reported out for adoption.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3790"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-163/2026-07-27T19:23:30+00:00</id>
-    <title>New: RES26-163 (Honolulu) — PSE</title>
-    <updated>2026-07-27T19:23:30+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3789"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT OF A 4.5’ x 3’ FRAMED “KOʻOLAU SHADOWS” GICLEE PRINT BY GARY REED, VALUED AT $3,000, TO THE CITY FROM LAURIE P. THORNLEY TO BE DISPLAYED AT THE HOʻOMALUHIA BOTANICAL GARDEN, PAUL R. WEISSICH EDUCATION CENTER.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: CR-214(26)
-Reported out for adoption as amended in CD1 form.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3789"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-162/2026-07-27T19:23:30+00:00</id>
-    <title>New: RES26-162 (Honolulu) — PSE</title>
-    <updated>2026-07-27T19:23:30+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3788"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT OF $4000 TO THE CITY FROM HAWAIʻI MEDICAL SERVICE ASSOCIATION TO HELP OFF-SET THE OPERATIONAL COST OF THE MAYOR’S 50TH ANNUAL CRAFT AND COUNTRY FAIR ON NOVEMBER 21, 2026, AT THE NEAL S. BLAISDELL CENTER EXHIBITION HALL.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: CR-213(26)
-Reported out for adoption.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3788"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-165/2026-07-27T19:23:30+00:00</id>
-    <title>New: RES26-165 (Honolulu) — ZON</title>
-    <updated>2026-07-27T19:23:30+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3791"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;GRANTING A SPECIAL MANAGEMENT AREA MAJOR PERMIT TO ALLOW FOR THE OʻAHU SUBSEA CABLE TELECOMMUNICATIONS PROJECT IN KAPOLEI, OʻAHU.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: CR-212(26)
-Reported out for adoption as amended in CD1 form.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3791"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-167/2026-07-27T19:23:30+00:00</id>
-    <title>New: RES26-167 (Honolulu) — INTRO</title>
-    <updated>2026-07-27T19:23:30+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3795"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT OF ONE (1) HIGH-BACK TRADITIONAL BENCH, PREPARATIONS OF THE GROUNDS AND ONE (1) BRONZE PLAQUE WITH AN INSCRIPTION TO READ “DONATED BY THE FAMILY AND FRIENDS OF PETER NGUYEN,” VALUED AT $3,848.07, TO THE CITY FROM MARTIN NGUYEN TO BE PLACED AT AINA MOANA PARK.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3795"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-166/2026-07-27T19:23:30+00:00</id>
-    <title>New: RES26-166 (Honolulu) — INTRO</title>
-    <updated>2026-07-27T19:23:30+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3794"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING COLLECTIVE BARGAINING COST ITEMS FOR EMPLOYEES OF THE CITY AND COUNTY OF HONOLULU IN BARGAINING UNIT 15 (HAWAIʻI GOVERNMENT EMPLOYEES ASSOCIATION, AFSCME LOCAL 152, AFL-CIO).&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3794"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-168/2026-07-27T19:23:29+00:00</id>
-    <title>New: RES26-168 (Honolulu) — INTRO</title>
-    <updated>2026-07-27T19:23:29+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3796"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;GRANTING A SPECIAL MANAGEMENT AREA MAJOR PERMIT TO ALLOW FOR THE CONSTRUCTION OF A NEW COMMERCIAL BUILDING WITH A PARKING LOT, CARETAKER DWELLING, AND ASSOCIATED IMPROVEMENTS IN NĀNĀKULI, OʻAHU.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3796"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-169/2026-07-27T19:23:29+00:00</id>
-    <title>New: RES26-169 (Honolulu) — INTRO</title>
-    <updated>2026-07-27T19:23:29+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3797"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT IN THE AMOUNT $15,000 TO THE CITY FROM BUMPER PRODUCTIONS LLC TO THE DEPARTMENT OF ENVIRONMENTAL SERVICES FOR UPGRADES AND IMPROVEMENTS TO THE KĀNEHOA CONFERENCE ROOM AT THE HONOULIULI WASTEWATER TREATMENT PLANT.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3797"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill016-26/2026-07-27T19:23:29+00:00</id>
-    <title>BILL016(26) (Honolulu): CCL → ILA</title>
-    <updated>2026-07-27T19:23:29+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3606"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE REGULATION OF DOGS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Provides that it is unlawful for an owner of a dog to allow the dog to become, or fail to reasonably prevent the dog from becoming, a stray. Requires the CSD Director or the head of the City agency designated by the Mayor to require the animal control contractor to enforce the provisions contained in ROH Chapter 12, Article 4. Increases existing criminal fines and establishes new civil fines.&lt;/p&gt;
-&lt;p&gt;Status: CCL → ILA&lt;/p&gt;
-&lt;p&gt;Latest action: CR-204(26)
-Reported out for passage on second reading and scheduling of a public hearing as amended in CD1 form.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3606"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill012-26/2026-07-27T19:23:29+00:00</id>
-    <title>BILL012(26) (Honolulu): MAYOR → PUBLISH</title>
-    <updated>2026-07-27T19:23:29+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3605"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO SEWERS, DRAINAGE, AND CESSPOOLS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Requires a department to be designated by the Mayor to make certain information relating to the City's wastewater system and separate storm sewer system publicly accessible. Establishes reporting requirements.&lt;/p&gt;
-&lt;p&gt;Status: MAYOR → PUBLISH&lt;/p&gt;
-&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3605"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill018-26/2026-07-27T19:23:29+00:00</id>
-    <title>BILL018(26) (Honolulu): HHP → PUBLISH</title>
-    <updated>2026-07-27T19:23:29+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3626"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO AFFORDABLE HOUSING.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Amends various development standards, building construction standards, and other requirements and benefits for affordable rental housing projects developed under ROH Chapter 32.&lt;/p&gt;
-&lt;p&gt;Status: HHP → PUBLISH&lt;/p&gt;
-&lt;p&gt;Latest action: Second reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3626"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill019-26/2026-07-27T19:23:29+00:00</id>
-    <title>BILL019(26) (Honolulu): CCL → HHP</title>
-    <updated>2026-07-27T19:23:29+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3630"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE BUILDING CODE.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Amends the City’s Building Code to address temporary certificates of occupancy.&lt;/p&gt;
-&lt;p&gt;Status: CCL → HHP&lt;/p&gt;
-&lt;p&gt;Latest action: Cancelled and not considered.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3630"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill028-26/2026-07-27T19:23:29+00:00</id>
-    <title>BILL028(26) (Honolulu): MAYOR → PUBLISH</title>
-    <updated>2026-07-27T19:23:29+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3653"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE LEGISLATIVE BUDGET FOR THE FISCAL YEAR JULY 1, 2026 TO JUNE 30, 2027.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Appropriates funds for the Legislative Budget for Fiscal Year 2027.&lt;/p&gt;
-&lt;p&gt;Status: MAYOR → PUBLISH&lt;/p&gt;
-&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3653"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill027-26/2026-07-27T19:23:29+00:00</id>
-    <title>BILL027(26) (Honolulu): MAYOR → PUBLISH</title>
-    <updated>2026-07-27T19:23:29+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3652"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE HONOLULU AUTHORITY FOR RAPID TRANSPORTATION CAPITAL BUDGET FOR THE FISCAL YEAR JULY 1, 2026 TO JUNE 30, 2027.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: MAYOR → PUBLISH&lt;/p&gt;
-&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3652"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill026-26/2026-07-27T19:23:28+00:00</id>
-    <title>BILL026(26) (Honolulu): MAYOR → PUBLISH</title>
-    <updated>2026-07-27T19:23:28+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3651"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE HONOLULU AUTHORITY FOR RAPID TRANSPORTATION OPERATING BUDGET FOR THE FISCAL YEAR JULY 1, 2026 TO JUNE 30, 2027.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: MAYOR → PUBLISH&lt;/p&gt;
-&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3651"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill024-26/2026-07-27T19:23:28+00:00</id>
-    <title>BILL024(26) (Honolulu): MAYOR → PUBLISH</title>
-    <updated>2026-07-27T19:23:28+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3649"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE ISSUANCE AND SALE OF GENERAL OBLIGATION BONDS AND BOND ANTICIPATION NOTES OF THE CITY AND COUNTY OF HONOLULU IN A MAXIMUM PRINCIPAL AMOUNT EQUAL TO THE AGGREGATE OF THE AMOUNTS APPROPRIATED IN THE CAPITAL BUDGET ORDINANCE OF SAID CITY AND COUNTY FOR THE FISCAL YEAR ENDING JUNE 30, 2027, AND SPECIFIED IN SAID ORDINANCE TO BE FINANCED FROM THE PROCEEDS OF THE SALE OF SUCH BONDS AND TO BE EXPENDED FROM THE  GENERAL IMPROVEMENT BOND FUND, THE HIGHWAY IMPROVEMENT BOND FUND, SOLID WASTE IMPROVEMENT BOND FUND, THE HOUSING DEVELOPMENT SPECIAL FUND OR THE TAXABLE GENERAL IMPROVEMENT BOND FUND.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The bill authorizes the issuance and sale of general obligation bonds and bond anticipation notes of the City and County of Honolulu in a maximum principal amount equal to the aggregate of the amounts of general obligation bonds appropriated in the capital budget ordinance for Fiscal Year 2027.&lt;/p&gt;
-&lt;p&gt;Status: MAYOR → PUBLISH&lt;/p&gt;
-&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3649"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill023-26/2026-07-27T19:23:28+00:00</id>
-    <title>BILL023(26) (Honolulu): MAYOR → PUBLISH</title>
-    <updated>2026-07-27T19:23:28+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3648"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE EXECUTIVE CAPITAL BUDGET AND PROGRAM FOR THE FISCAL YEAR JULY 1, 2026 TO JUNE 30, 2027.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Appropriates funds for the Executive Capital Budget and Program for Fiscal Year 2027.&lt;/p&gt;
-&lt;p&gt;Status: MAYOR → PUBLISH&lt;/p&gt;
-&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3648"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill022-26/2026-07-27T19:23:28+00:00</id>
-    <title>BILL022(26) (Honolulu): MAYOR → PUBLISH</title>
-    <updated>2026-07-27T19:23:28+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3647"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE EXECUTIVE OPERATING BUDGET AND PROGRAM FOR THE FISCAL YEAR JULY 1, 2026 TO JUNE 30, 2027.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Appropriates funds for the Executive Operating Budget for Fiscal Year 2027.&lt;/p&gt;
-&lt;p&gt;Status: MAYOR → PUBLISH&lt;/p&gt;
-&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3647"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill029-26/2026-07-27T19:23:28+00:00</id>
-    <title>BILL029(26) (Honolulu): CCL → BUD</title>
-    <updated>2026-07-27T19:23:28+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3667"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Amends the requirements for filing a claim for a continued RPT exemption for low-income rental housing.&lt;/p&gt;
-&lt;p&gt;Status: CCL → BUD&lt;/p&gt;
-&lt;p&gt;Latest action: Postponed to a date and time to be determined by the Committee Chair.
-&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3667"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-bill033-26/2026-07-27T19:23:28+00:00</id>
-    <title>BILL033(26) (Honolulu): HHP → BUD</title>
-    <updated>2026-07-27T19:23:28+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3672"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO FUNDS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Establishes a special fund to be called the Parks Maintenance and Recreation Services Revolving Fund for the deposit of all revenues and proceeds generated by the DPR relating to the use of lands dedicated for park use or for park maintenance and recreation services, or otherwise earmarked for the restoration, operation, or maintenance of beaches and parks under the jurisdiction of the DPR, to be expended for DPR operations, parks maintenance and recreational facilities, and programs under the jurisdiction of the DPR. Establishes a special fund to be called the Botanical Gardens and Urban Forestry Revolving Fund for the deposit of all revenues and proceeds relating to the use of lands dedicated for botanical gardens, community gardens, and urban forestry programs and operations generated by the DPR, or otherwise earmarked for the restoration, operation, or maintenance of gardens and park and street trees under the jurisdiction of the DPR, to be expended for the operations of the DPR's Division of Urban Forest&lt;/p&gt;
-&lt;p&gt;Status: HHP → BUD&lt;/p&gt;
-&lt;p&gt;Latest action: See: Proposed draft version OCS2026-0422/7/7/2026 1:16 PM
-Amended to CD2 and postponed to a date and time to be determined by the Committee Chair.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3672"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

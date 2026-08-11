@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:dtomkatsu.github.io,2026:feeds/bill/hawaii-bill-83-2024-2026.xml</id>
+  <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-bill-83-2024-2026.xml</id>
   <title>Bill 83 (2024-2026) — Hawaiʻi County</title>
   <updated>2026-07-27T21:40:36+00:00</updated>
-  <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/hawaii-bill-83-2024-2026.xml"/>
-  <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
+  <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-bill-83-2024-2026.xml"/>
+  <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-83-2024-2026/2026-07-27T21:40:36+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-83-2024-2026/2026-07-27T21:40:36+00:00</id>
     <title>New: Bill 83 (2024-2026) (Hawaiʻi County) — Passed Second Reading</title>
     <updated>2026-07-27T21:40:36+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1121632&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 20 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO PLASTIC AND POLYSTYRENE WASTE&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Seeks to reduce disposable plastic or polystyrene foodware and serviceware in alignment with the County of Hawai‘i’s Zero Waste Plan and the State of Hawai‘i’s Aloha+ Challenge Solid Waste Reduction Goals.&lt;/p&gt;
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
 &lt;p&gt;Latest action: Council:  Bill 83, Draft 3 passes second &amp;amp; final reading - 12/03/25&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1121632&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:dtomkatsu.github.io,2026:feeds/bill/hawaii-bill-32-2024-2026.xml</id>
+  <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-bill-32-2024-2026.xml</id>
   <title>Bill 32 (2024-2026) — Hawaiʻi County</title>
   <updated>2026-07-27T21:40:09+00:00</updated>
-  <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/hawaii-bill-32-2024-2026.xml"/>
-  <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
+  <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-bill-32-2024-2026.xml"/>
+  <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-32-2024-2026/2026-07-27T21:40:09+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-32-2024-2026/2026-07-27T21:40:09+00:00</id>
     <title>New: Bill 32 (2024-2026) (Hawaiʻi County) — Adopted</title>
     <updated>2026-07-27T21:40:09+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1108095&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATES TO PUBLIC IMPROVEMENTS AND FINANCING THEREOF FOR THE FISCAL YEAR JULY 1, 2025, TO JUNE 30, 2026&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Draft 3 requires a total appropriation of $621,515,000, of which $550,086,000 are intended to be funded in whole or part by bonds, $36,752,000 to be funded by Federal Grants, $30,000,000 to be funded by State Grants, and $4,677,000 to be funded by Community Benefit Assessments and other funds.&lt;/p&gt;
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
 &lt;p&gt;Latest action: Council:  Bill 32, Draft 4 passes second &amp;amp; final reading - 06/04/25&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1108095&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>

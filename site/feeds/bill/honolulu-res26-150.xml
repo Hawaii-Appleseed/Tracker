@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:dtomkatsu.github.io,2026:feeds/bill/honolulu-res26-150.xml</id>
+  <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/honolulu-res26-150.xml</id>
   <title>RES26-150 — Honolulu</title>
   <updated>2026-07-27T19:23:31+00:00</updated>
-  <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/honolulu-res26-150.xml"/>
-  <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
+  <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/honolulu-res26-150.xml"/>
+  <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-150/2026-07-27T19:23:31+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-150/2026-07-27T19:23:31+00:00</id>
     <title>RES26-150 (Honolulu): INTRO → ZON</title>
     <updated>2026-07-27T19:23:31+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3769"/>
@@ -16,7 +16,7 @@
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3769"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:honolulu-res26-150/2026-06-19T16:15:05+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-150/2026-06-19T16:15:05+00:00</id>
     <title>New: RES26-150 (Honolulu) — INTRO</title>
     <updated>2026-06-19T16:15:05+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3769"/>

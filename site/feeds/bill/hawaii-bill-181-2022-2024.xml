@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:dtomkatsu.github.io,2026:feeds/bill/hawaii-bill-181-2022-2024.xml</id>
+  <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-bill-181-2022-2024.xml</id>
   <title>Bill 181 (2022-2024) — Hawaiʻi County</title>
   <updated>2026-07-27T21:39:21+00:00</updated>
-  <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/hawaii-bill-181-2022-2024.xml"/>
-  <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
+  <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-bill-181-2022-2024.xml"/>
+  <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-181-2022-2024/2026-07-27T21:39:21+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-181-2022-2024/2026-07-27T21:39:21+00:00</id>
     <title>New: Bill 181 (2022-2024) (Hawaiʻi County) — Postponed</title>
     <updated>2026-07-27T21:39:21+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1085743&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 16, ARTICLE 1, OF THE HAWAIʻI COUNTY CODE (Draft 2) 1983 (2016 EDITION, AS AMENDED), RELATING TO THE GENERAL PLAN&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Inserts amendment procedures for the General Plan, including a comprehensive review at least every ten years, and interim amendments between comprehensive reviews; describes the powers and duties of the Planning Director and Planning Commissions to review and recommend amendments, and of the Council to initiate or adopt proposed amendments.&lt;/p&gt;
+    <content type="html">&lt;p&gt;PCPLUD&lt;/p&gt;
 &lt;p&gt;Latest action: PCPLUD  Postponed to the Call of the Chair - 11/08/24; never taken up again&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1085743&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>

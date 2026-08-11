@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:dtomkatsu.github.io,2026:feeds/bill/hawaii-bill-102-2022-2024.xml</id>
+  <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-bill-102-2022-2024.xml</id>
   <title>Bill 102 (2022-2024) — Hawaiʻi County</title>
   <updated>2026-07-27T21:38:35+00:00</updated>
-  <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/hawaii-bill-102-2022-2024.xml"/>
-  <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
+  <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-bill-102-2022-2024.xml"/>
+  <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-102-2022-2024/2026-07-27T21:38:35+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-102-2022-2024/2026-07-27T21:38:35+00:00</id>
     <title>New: Bill 102 (2022-2024) (Hawaiʻi County) — Adopted</title>
     <updated>2026-07-27T21:38:35+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1067987&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 14 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), BY ADDING A NEW ARTICLE RELATING TO THE PROHIBITION OF FLAVORED TOBACCO PRODUCTS&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Prohibits retailers from selling, offering to sell, marketing, displaying, or advertising for sale any product made of or derived from tobacco or nicotine that imparts a taste or smell other than the taste or smell of tobacco. Includes a prospective effective date of 42 days after the day that State law governing the sale of tobacco products is either repealed or suspended.&lt;/p&gt;
+    <content type="html">&lt;p&gt;PCHSW&lt;/p&gt;
 &lt;p&gt;Latest action: Council:  Bill 102, Draft 2, passes second and final reading - 01/10/24&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1067987&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>

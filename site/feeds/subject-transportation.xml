@@ -1,12 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:dtomkatsu.github.io,2026:feeds/subject-transportation.xml</id>
+  <id>tag:hawaii-appleseed.github.io,2026:feeds/subject-transportation.xml</id>
   <title>Bill Tracker — Transportation bills</title>
-  <updated>2026-07-27T22:00:59+00:00</updated>
-  <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/subject-transportation.xml"/>
-  <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
+  <updated>2026-08-11T20:42:28+00:00</updated>
+  <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/subject-transportation.xml"/>
+  <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2024-05/2026-07-27T22:00:59+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-171/2026-08-11T20:42:28+00:00</id>
+    <title>New: RES26-171 (Honolulu) — INTRO</title>
+    <updated>2026-08-11T20:42:28+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3800"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING A CONCEPTUAL PLAN FOR AN INTERIM PLANNED DEVELOPMENT-TRANSIT PROJECT FOR THE 1588 ALA MOANA DEVELOPMENT PROJECT.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3800"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill047-26/2026-08-11T20:42:25+00:00</id>
+    <title>BILL047(26) (Honolulu): BUD → PUBLISH</title>
+    <updated>2026-08-11T20:42:25+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3779"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;REALTING TO THE MOTOR VEHICLE WEIGHT TAX.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Reduces the vehicle weight tax rates for motor vehicles designed primarily for carrying passengers; trucks and noncommercial vehicles having a net weight of 6,500 pounds or less; and vehicles designed for carrying property or for purposes other than carrying passengers. Takes effect on July 1, 2027.&lt;/p&gt;
+&lt;p&gt;Status: BUD → PUBLISH&lt;/p&gt;
+&lt;p&gt;Latest action: Public hearing notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3779"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill054-26/2026-08-11T20:42:24+00:00</id>
+    <title>New: BILL054(26) (Honolulu) — INTRO</title>
+    <updated>2026-08-11T20:42:24+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3808"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO PARKING.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Upon the request of an adjacent property owner or resident, allows the DTS Director to mark certain curbs within one-quarter mile of any public access to a hiking trail with a warning of certain parking restrictions or prohibitions.&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3808"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-resolution-2024-05/2026-07-27T22:00:59+00:00</id>
     <title>New: Resolution 2024-05 (Kauaʻi) — On agenda 2024-01-31</title>
     <updated>2026-07-27T22:00:59+00:00</updated>
     <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2647"/>
@@ -15,7 +45,7 @@
 &lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2647"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2931/2026-07-27T22:00:59+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2931/2026-07-27T22:00:59+00:00</id>
     <title>New: Bill 2931 (Kauaʻi) — On agenda 2024-10-09</title>
     <updated>2026-07-27T22:00:59+00:00</updated>
     <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2745"/>
@@ -24,7 +54,7 @@
 &lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2745"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2939/2026-07-27T22:00:59+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2939/2026-07-27T22:00:59+00:00</id>
     <title>New: Bill 2939 (Kauaʻi) — On agenda 2025-01-08</title>
     <updated>2026-07-27T22:00:59+00:00</updated>
     <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2786"/>
@@ -33,7 +63,7 @@
 &lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2786"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2941/2026-07-27T22:00:59+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2941/2026-07-27T22:00:59+00:00</id>
     <title>New: Bill 2941 (Kauaʻi) — In Committee</title>
     <updated>2026-07-27T22:00:59+00:00</updated>
     <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2812"/>
@@ -42,7 +72,7 @@
 &lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2812"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2025-24/2026-07-27T22:00:59+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-resolution-2025-24/2026-07-27T22:00:59+00:00</id>
     <title>New: Resolution 2025-24 (Kauaʻi) — On agenda 2025-04-23</title>
     <updated>2026-07-27T22:00:59+00:00</updated>
     <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2833"/>
@@ -51,7 +81,7 @@
 &lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2833"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2952/2026-07-27T22:00:59+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2952/2026-07-27T22:00:59+00:00</id>
     <title>New: Bill 2952 (Kauaʻi) — On agenda 2025-05-21</title>
     <updated>2026-07-27T22:00:59+00:00</updated>
     <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2861"/>
@@ -60,7 +90,7 @@
 &lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2861"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2025-30/2026-07-27T22:00:59+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-resolution-2025-30/2026-07-27T22:00:59+00:00</id>
     <title>New: Resolution 2025-30 (Kauaʻi) — On agenda 2025-06-25</title>
     <updated>2026-07-27T22:00:59+00:00</updated>
     <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2898"/>
@@ -69,7 +99,7 @@
 &lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2898"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2025-35/2026-07-27T22:00:59+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-resolution-2025-35/2026-07-27T22:00:59+00:00</id>
     <title>New: Resolution 2025-35 (Kauaʻi) — On agenda 2025-08-27</title>
     <updated>2026-07-27T22:00:59+00:00</updated>
     <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2917"/>
@@ -78,7 +108,7 @@
 &lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2917"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:kauai-bill-2972/2026-07-27T22:00:59+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2972/2026-07-27T22:00:59+00:00</id>
     <title>New: Bill 2972 (Kauaʻi) — In Committee</title>
     <updated>2026-07-27T22:00:59+00:00</updated>
     <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2945"/>
@@ -87,7 +117,7 @@
 &lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2945"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:kauai-resolution-2026-22/2026-07-27T22:00:59+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-resolution-2026-22/2026-07-27T22:00:59+00:00</id>
     <title>New: Resolution 2026-22 (Kauaʻi) — On agenda 2026-07-08</title>
     <updated>2026-07-27T22:00:59+00:00</updated>
     <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3110"/>
@@ -96,403 +126,360 @@
 &lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3110"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-604-2024-2026/2026-07-27T21:52:36+00:00</id>
-    <title>New: Resolution 604 (2024-2026) (Hawaiʻi County) — FC-159:  Recommended adoption - 7/22/2026</title>
-    <updated>2026-07-27T21:52:36+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132535&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO AN INTERGOVERNMENTAL AGREEMENT WITH THE STATE OF HAWAIʻI, DEPARTMENT OF TRANSPORTATION, TO RECEIVE FUNDS TO UPDATE THE COUNTY’S MOTOR VEHICLE REGISTRATION SYSTEM TO IMPLEMENT A SURCHARGE DESIGNATED FOR THE SAFE ROUTES TO SCHOOL PROGRAM&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Allows for the receipt of $6,282.72 of federally-derived funds for expenses associated with programming and updating the County’s motor vehicle registration system.&lt;/p&gt;
-&lt;p&gt;Latest action: FC-159:  Recommended adoption - 7/22/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132535&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-146/2026-07-27T19:23:32+00:00</id>
+    <title>RES26-146 (Honolulu): INTRO → CCL</title>
+    <updated>2026-07-27T19:23:32+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3765"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE DIRECTOR OF BUDGET AND FISCAL SERVICES TO ISSUE AND SELL IN ONE OR MORE SERIES NOT TO EXCEED $11,000,000 PRINCIPAL AMOUNT OF GENERAL OBLIGATION BONDS OF THE CITY AND COUNTY OF HONOLULU FOR FINANCING THE AMOUNT APPROPRIATED IN ORDINANCE NO. 26-13 (ALSO REFERRED TO, UPON ITS APPROVAL, AS BILL 23 (2026), CD2, FD1, AND AS MAY BE FURTHER AMENDED) OF THE CITY AND COUNTY OF HONOLULU FOR THE PURPOSE OF FINANCING CAPITAL COSTS OF THE HONOLULU RAIL TRANSIT PROJECT.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Recommendation of the adoption of the Resolution authorizing the issuance and sale not to exceed principal amount of General Obligation Bonds to finance the capital costs of the Honolulu Rail Transit Project (“HRTP”); Capital Budget Ordinance for Fiscal Year July 1, 2026 to June 30, 2027; Honolulu Authority for Rapid Transportation (“HART’); Budget and Fiscal Services.&lt;/p&gt;
+&lt;p&gt;Status: INTRO → CCL&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3765"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-567-2024-2026/2026-07-27T21:52:17+00:00</id>
-    <title>New: Resolution 567 (2024-2026) (Hawaiʻi County) — Postponed</title>
-    <updated>2026-07-27T21:52:17+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1129585&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE ACQUISITION OF PRIVATE PROPERTY BY EMINENT DOMAIN, BEING CERTAIN PORTIONS OF TAX MAP KEY: 1-5-009:012 AND 058, SITUATED AT KEONEPOKO IKI, PUNA, FOR THE CONSTRUCTION AND IMPROVEMENT OF GOVERNMENT BEACH ROAD, A PUBLIC ROADWAY&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Authorizes the Corporation Counsel to initiate proceedings for the taking, acquisition, and condemnation of private property for the improvement and widening of Government Beach Road.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Postponed Res. 567-26 to the August 5, 2026, Council Meeting - 06/17/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1129585&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-168/2026-07-27T19:23:29+00:00</id>
+    <title>New: RES26-168 (Honolulu) — INTRO</title>
+    <updated>2026-07-27T19:23:29+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3796"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;GRANTING A SPECIAL MANAGEMENT AREA MAJOR PERMIT TO ALLOW FOR THE CONSTRUCTION OF A NEW COMMERCIAL BUILDING WITH A PARKING LOT, CARETAKER DWELLING, AND ASSOCIATED IMPROVEMENTS IN NĀNĀKULI, OʻAHU.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3796"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-499-2024-2026/2026-07-27T21:51:37+00:00</id>
-    <title>New: Resolution 499 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 499-26 &amp; LAAC-036 - 04/22/26</title>
-    <updated>2026-07-27T21:51:37+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1127059&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES AND DIRECTS THE DIRECTOR OF FINANCE TO EXCHANGE REAL PROPERTY IDENTIFIED AS PORTIONS OF TAX MAP KEY: 2-8-010:999, SITUATED AT HONOMŪ, SOUTH HILO, FOR PUBLIC ROADWAY AND PUBLIC ACCESS PURPOSES&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The County seeks the exchange of property with the Stella May Swain Trust to align and straighten Wailele Road and ensure public access to the Hilo Forest Reserve.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 499-26 &amp;amp; LAAC-036 - 04/22/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1127059&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill027-26/2026-07-27T19:23:29+00:00</id>
+    <title>BILL027(26) (Honolulu): MAYOR → PUBLISH</title>
+    <updated>2026-07-27T19:23:29+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3652"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE HONOLULU AUTHORITY FOR RAPID TRANSPORTATION CAPITAL BUDGET FOR THE FISCAL YEAR JULY 1, 2026 TO JUNE 30, 2027.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: MAYOR → PUBLISH&lt;/p&gt;
+&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3652"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-494-2024-2026/2026-07-27T21:51:35+00:00</id>
-    <title>New: Resolution 494 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 494-26 &amp; FC-137 - 04/22/26</title>
-    <updated>2026-07-27T21:51:35+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1127020&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE PAYMENT OF FUNDS OF LATER FISCAL YEARS TO ENTER INTO A MULTI-YEAR LEASE AGREEMENT FOR REAL PROPERTY TO BE USED BY THE HAWAIʻI FIRE DEPARTMENT&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Authorizes the Mayor to enter into a five-year lease agreement with Maui Varieties Investments, Inc., with an estimated cost of $2,547.23 per month, for two units located at 95-1163 Kaʻalaiki Road.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 494-26 &amp;amp; FC-137 - 04/22/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1127020&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill026-26/2026-07-27T19:23:28+00:00</id>
+    <title>BILL026(26) (Honolulu): MAYOR → PUBLISH</title>
+    <updated>2026-07-27T19:23:28+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3651"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE HONOLULU AUTHORITY FOR RAPID TRANSPORTATION OPERATING BUDGET FOR THE FISCAL YEAR JULY 1, 2026 TO JUNE 30, 2027.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: MAYOR → PUBLISH&lt;/p&gt;
+&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3651"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-474-2024-2026/2026-07-27T21:51:25+00:00</id>
-    <title>New: Resolution 474 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 474-26, Draft 2 &amp; GOEAC-102 - 03/18/26</title>
-    <updated>2026-07-27T21:51:25+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1127408&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO AN INTERGOVERNMENTAL AGREEMENT WITH THE STATE OF HAWAI‘I, HILO BENIOFF MEDICAL CENTER, TO AUTHORIZE PRIVATE OFF-STREET PARKING AT GILBERT CARVALHO PARK&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Authorizes the Mayor to enter into an agreement not to exceed December 31, 2026, with no expenditure or receipt of funds, with Hilo Benioff Medical Center, to use a portion of land for parking purposes.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 474-26, Draft 2 &amp;amp; GOEAC-102 - 03/18/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1127408&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill024-26/2026-07-27T19:23:28+00:00</id>
+    <title>BILL024(26) (Honolulu): MAYOR → PUBLISH</title>
+    <updated>2026-07-27T19:23:28+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3649"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE ISSUANCE AND SALE OF GENERAL OBLIGATION BONDS AND BOND ANTICIPATION NOTES OF THE CITY AND COUNTY OF HONOLULU IN A MAXIMUM PRINCIPAL AMOUNT EQUAL TO THE AGGREGATE OF THE AMOUNTS APPROPRIATED IN THE CAPITAL BUDGET ORDINANCE OF SAID CITY AND COUNTY FOR THE FISCAL YEAR ENDING JUNE 30, 2027, AND SPECIFIED IN SAID ORDINANCE TO BE FINANCED FROM THE PROCEEDS OF THE SALE OF SUCH BONDS AND TO BE EXPENDED FROM THE  GENERAL IMPROVEMENT BOND FUND, THE HIGHWAY IMPROVEMENT BOND FUND, SOLID WASTE IMPROVEMENT BOND FUND, THE HOUSING DEVELOPMENT SPECIAL FUND OR THE TAXABLE GENERAL IMPROVEMENT BOND FUND.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The bill authorizes the issuance and sale of general obligation bonds and bond anticipation notes of the City and County of Honolulu in a maximum principal amount equal to the aggregate of the amounts of general obligation bonds appropriated in the capital budget ordinance for Fiscal Year 2027.&lt;/p&gt;
+&lt;p&gt;Status: MAYOR → PUBLISH&lt;/p&gt;
+&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3649"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-469-2024-2026/2026-07-27T21:51:23+00:00</id>
-    <title>New: Resolution 469 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 469-26 &amp; LAAC-032 - 03/04/26</title>
-    <updated>2026-07-27T21:51:23+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1124585&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES AND DIRECTS THE DIRECTOR OF PUBLIC WORKS TO ISSUE A LICENSE FOR ENTRY, LANDSCAPING, AND MAINTENANCE OF A PORTION OF A RIGHT-OF-WAY OWNED BY THE COUNTY&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Seeks to grant Kuakini Makai Association, Inc., a revocable license to enter, landscape, and maintain a portion of Kuakini Highway.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 469-26 &amp;amp; LAAC-032 - 03/04/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1124585&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill033-26/2026-07-27T19:23:28+00:00</id>
+    <title>BILL033(26) (Honolulu): HHP → BUD</title>
+    <updated>2026-07-27T19:23:28+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3672"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO FUNDS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Establishes a special fund to be called the Parks Maintenance and Recreation Services Revolving Fund for the deposit of all revenues and proceeds generated by the DPR relating to the use of lands dedicated for park use or for park maintenance and recreation services, or otherwise earmarked for the restoration, operation, or maintenance of beaches and parks under the jurisdiction of the DPR, to be expended for DPR operations, parks maintenance and recreational facilities, and programs under the jurisdiction of the DPR. Establishes a special fund to be called the Botanical Gardens and Urban Forestry Revolving Fund for the deposit of all revenues and proceeds relating to the use of lands dedicated for botanical gardens, community gardens, and urban forestry programs and operations generated by the DPR, or otherwise earmarked for the restoration, operation, or maintenance of gardens and park and street trees under the jurisdiction of the DPR, to be expended for the operations of the DPR's Division of Urban Forest&lt;/p&gt;
+&lt;p&gt;Status: HHP → BUD&lt;/p&gt;
+&lt;p&gt;Latest action: See: Proposed draft version OCS2026-0422/7/7/2026 1:16 PM
+Amended to CD2 and postponed to a date and time to be determined by the Committee Chair.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3672"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-460-2024-2026/2026-07-27T21:51:19+00:00</id>
-    <title>New: Resolution 460 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 460-26, Draft 3 &amp; FC-126 - 03/04/26</title>
-    <updated>2026-07-27T21:51:19+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1126275&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE PAYMENT OF FUNDS OF LATER FISCAL YEARS TO ENTER INTO A MULTI-YEAR LEASE AGREEMENT FOR REAL PROPERTY TO BE USED BY THE OFFICE OF THE CORPORATION COUNSEL&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Authorizes the Mayor to enter into a three-year lease agreement with two options to extend the lease for an additional three years at an estimated monthly cost of approximately $2,600 with Joy A. San Buenaventura, Trustee of the Joy A. San Buenaventura Revocable Living Trust dated November 26, 2025, for space located at 101 Aupuni Street.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 460-26, Draft 3 &amp;amp; FC-126 - 03/04/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1126275&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill038-26/2026-07-27T19:23:27+00:00</id>
+    <title>BILL038(26) (Honolulu): Communication D-445(26) approved.</title>
+    <updated>2026-07-27T19:23:27+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3740"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO TRANSIT-ORIENTED DEVELOPMENT SPECIAL DISTRICT.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Amends the LUO by expanding the TOO Special District boundaries to the East Kapolei Neighborhood TOD Plan area, adding primary design objectives and use regulations, and modifying the TOD Special District Project Classification table.&lt;/p&gt;
+&lt;p&gt;Latest action: Communication D-445(26) approved.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3740"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-456-2024-2026/2026-07-27T21:51:17+00:00</id>
-    <title>New: Resolution 456 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 456-26 - 02/04/26</title>
-    <updated>2026-07-27T21:51:17+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1123790&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE PAYMENT OF FUNDS OF LATER FISCAL YEARS TO ENTER INTO A MULTI-YEAR LEASE AGREEMENT FOR ONE MULTIFUNCTION COPY MACHINE TO BE USED BY THE DEPARTMENT OF PUBLIC WORKS&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Authorizes the Mayor to enter into a five-year lease agreement with an approximate monthly cost of $175, to be used by the department’s Traffic Division in Hilo.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 456-26 - 02/04/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1123790&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill041-26/2026-07-27T19:23:27+00:00</id>
+    <title>BILL041(26) (Honolulu): CCL → ITT</title>
+    <updated>2026-07-27T19:23:27+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3753"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO TRANSPORTATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Conforms ROH provisions to House Bill 2021, HD2, SD2, CD1, Relating to Transportation. Adds definitions for “Electric Bicycle,” “Class 1 Electric Bicycle,” Class 2 Electric Bicycle,” Class 3 Electric Bicycle, “Electric Micro-mobility Device, “High-speed Electric Device,” and “Electric Motorcycle.” Substitutes the term “electric bicycle” for the terms “bicycle with motor,” “motorized bicycles,” and similar terms. Substitutes the term “motor-driven cycle” for the term “motor scooter.” Regulates riding electric bicycles on sidewalks under certain circumstances. Prohibits on bikeways: (1) driving a vehicle, other than a bicycle, electric foot scooter, or electric micro-mobility device, with specified
+exceptions; and (2) operating mopeds or electric motorcycles. Prohibits a person under the age of sixteen from operating a class 2 or class 3 electric bicycle without direct supervision. Repeals as preempted: (1) certain safe driving requirements for the operation of electric bicycles on public streets, paths, or tra&lt;/p&gt;
+&lt;p&gt;Status: CCL → ITT&lt;/p&gt;
+&lt;p&gt;Latest action: CR-203(26)
+Reported out for passage on third reading as amended in CD1 form.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3753"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-449-2024-2026/2026-07-27T21:51:14+00:00</id>
-    <title>New: Resolution 449 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 449-26 - 01/23/26</title>
-    <updated>2026-07-27T21:51:14+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1123246&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE PAYMENT OF FUNDS OF LATER FISCAL YEARS TO ENTER INTO A MULTI-YEAR REVOCABLE RIGHT-OF-ENTRY AGREEMENT WITH THE TRUSTEES OF THE ESTATE OF BERNICE PAUAHI BISHOP FOR LAND IDENTIFIED BY TAX MAP KEY NOS. 4-4-002:005, 4-4-002:006, AND 4-4-009:008, SITUATED IN THE DISTRICT OF HĀMĀKUA, TO BE ACCESSED AND USED BY THE DEPARTMENT OF PUBLIC WORKS&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The Department of Public Works seeks to maintain temporary alternate road access while the one-lane bridge over Waika‘alulu Gulch is being repaired.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 449-26 - 01/23/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1123246&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill047-26/2026-07-27T19:23:27+00:00</id>
+    <title>New: BILL047(26) (Honolulu) — BUD</title>
+    <updated>2026-07-27T19:23:27+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3779"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;REALTING TO THE MOTOR VEHICLE WEIGHT TAX.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Reduces the vehicle weight tax rates for motor vehicles designed primarily for carrying passengers; trucks and noncommercial vehicles having a net weight of 6,500 pounds or less; and vehicles designed for carrying property or for purposes other than carrying passengers. Takes effect on July 1, 2027.&lt;/p&gt;
+&lt;p&gt;Latest action: CR-196(26)
+Reported out for passage on second reading and scheduling of a public hearing.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3779"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-393-2024-2026/2026-07-27T21:50:46+00:00</id>
-    <title>New: Resolution 393 (2024-2026) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:50:46+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119866&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO MALAMA O PUNA FOR THE MAINTENANCE AND BEAUTIFICATION OF THE RENE SIRACUSA PĀHOA ROUNDABOUT&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $2,500 from the Clerk-Council Services – Contingency Relief account (Council District 4)&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 393-25 - 11/19/25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119866&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill051-26/2026-07-27T19:23:26+00:00</id>
+    <title>New: BILL051(26) (Honolulu) — INTRO</title>
+    <updated>2026-07-27T19:23:26+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3792"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO PARKING.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Requires the DTS Director to mark with a warning certain parking restricted areas along curbs within one-quarter mile of any public access to a hiking trail.&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3792"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-371-2024-2026/2026-07-27T21:50:36+00:00</id>
-    <title>New: Resolution 371 (2024-2026) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:50:36+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1118921&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE PAYMENT OF FUNDS OF LATER FISCAL YEARS TO ENTER INTO A LEASE AGREEMENT FOR ONE MULTIFUNCTION COPY MACHINE TO BE USED BY THE MASS TRANSIT AGENCY&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Authorizes the Mayor to enter into a five-year lease agreement with an approximate monthly cost of $183.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopted Res. 371-25 - 11/5/2025&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1118921&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill078-25/2026-07-27T19:23:24+00:00</id>
+    <title>BILL078(25) (Honolulu): CCL → BUD</title>
+    <updated>2026-07-27T19:23:24+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3570"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO PARKING.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Modifies ROH Title IV, Chapter 15, Article 2, Article 22, Article 23, and Article 28 relating to traffic and vehicles, for the regulation of on-street and off-street public parking. Defines the” Parking Meter Zone” and authorizes the addition or subtraction of paid public parking within it. Adds flexibility to the City’s parking facilities operations model (metered v. concession) and makes conforming amendments to article sections. Updates hourly on-street and off-street parking rate maximums and minimums. Establishes variable “tiered” parking rates for extended stays at metered parking. Authorizes the incremental adjustment to minimum and secondary hourly parking rates on street segments and in off-street parking areas according to monitored parking occupancy. Updates methods of payment for all metered parking. Updates parking rate change communication requirements and allows for discounts to low-income residents. Allows for outsourcing parking violation enforcement including the lawful issuance of tickets b&lt;/p&gt;
+&lt;p&gt;Status: CCL → BUD&lt;/p&gt;
+&lt;p&gt;Latest action: Postponed to a date and time to be determined by the Committee Chair.
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3570"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-370-2024-2026/2026-07-27T21:50:35+00:00</id>
-    <title>New: Resolution 370 (2024-2026) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:50:35+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1118907&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES AND DIRECTS THE DISPOSITION AND CONVEYANCE OF A ROAD REMNANT, BEING A PORTION OF TAX MAP KEY NO. 2-2-037:999, SITUATED AT WAIĀKEA, DISTRICT OF SOUTH HILO, ISLAND, COUNTY, AND STATE OF HAWAIʻI&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Seeks to dispose of the Remnant and convey it to the State, thereby alleviating the County of any liability or maintenance responsibility.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 370-25 &amp;amp; LAAC-25 - 11/19/25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1118907&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res24-017/2026-07-27T19:23:22+00:00</id>
+    <title>New: RES24-017 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:22+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2815"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING THE SALE OF THE PIʻIKOI MINI PARK, ROAD REMNANT LOT 46, 1409 PIʻIKOI STREET, HONOLULU, HAWAIʻI, TAX MAP KEY: 2-4-020:056.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2815"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-363-2024-2026/2026-07-27T21:50:32+00:00</id>
-    <title>New: Resolution 363 (2024-2026) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:50:32+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1118228&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE FRIENDS OF HAWAI‘I VOLCANOES NATIONAL PARK TO SUPPORT THE VOLCANO CYMBIDIUM ACRES ROAD MAINTENANCE COMMITTEE’S WILD PIG CONTROL PROJECT&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $7,000 from the Clerk-Council Services – Contingency Relief account (Council District 6)&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 363-25 - 10/22/25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1118228&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res24-023/2026-07-27T19:23:22+00:00</id>
+    <title>New: RES24-023 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:22+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2821"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING A CONCEPTUAL PLAN FOR AN INTERIM PLANNED DEVELOPMENT-TRANSIT PROJECT FOR THE CHINATOWN HOTEL DEVELOPMENT.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2821"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-325-2024-2026/2026-07-27T21:50:14+00:00</id>
-    <title>New: Resolution 325 (2024-2026) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:50:14+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1117059&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO SUSTAINABLE ENERGY HAWAI‘I FOR ITS HE ALA PONO ELECTRIC VEHICLE AND SUSTAINABILITY FAIR&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $2,000 from the Clerk-Council Services – Contingency Relief account (Council District 2)&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 325-25 - 10/8/25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1117059&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res24-080/2026-07-27T19:23:17+00:00</id>
+    <title>New: RES24-080 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:17+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2898"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDING RESOLUTION 17-221, CD1, AS AMENDED BY RESOLUTION 20-170, CD1, AS FURTHER AMENDED BY RESOLUTION 23-272, CD1, TO FURTHER EXTEND THE DEADLINE TO OBTAIN A BUILDING PERMIT FOR AN INTERIM PLANNED DEVELOPMENT-TRANSIT PROJECT LOCATED AT 1500 KAPI‘OLANI BOULEVARD, AND TO APPROVE CERTAIN PROJECT MODIFICATIONS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2898"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-318-2024-2026/2026-07-27T21:50:10+00:00</id>
-    <title>New: Resolution 318 (2024-2026) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:50:10+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1116951&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MASS TRANSIT AGENCY TO AWARD A GRANT TO PEOPLE FOR ACTIVE TRANSPORTATION HAWAIʻI&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Provides $240,000 of grant funds for the HIBIKE bike share program to cover day- to-day operations and maintenance.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 318-25 &amp;amp; FC-89 - 10/22/25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1116951&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res24-078/2026-07-27T19:23:16+00:00</id>
+    <title>New: RES24-078 (Honolulu) — MAYOR</title>
+    <updated>2026-07-27T19:23:16+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2896"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;PROVIDING FOR THE ACQUISITION OF ACCESS EASEMENTS FOR PUBLIC USE TO THE KALAUAO (PEARLRIDGE) BUS TRANSIT CENTER AND MOBILITY HUB, LOCATED AT WAIMALU, ‘EWA, O’AHU, HAWAI’l, AND DETERMINING AND DECLARING THE NECESSITY OF THE ACQUISITION BY EMINENT DOMAIN.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Returned approved.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2896"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-251-2024-2026/2026-07-27T21:49:37+00:00</id>
-    <title>New: Resolution 251 (2024-2026) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:49:37+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1110959&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE PAYMENT OF FUNDS OF LATER FISCAL YEARS TO ENTER INTO A MULTI-YEAR LEASE AGREEMENT FOR REAL PROPERTY TO BE USED BY THE HAWAIʻI POLICE DEPARTMENT&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Authorizes the Mayor to enter into a five-year lease agreement with four options to extend the lease for an additional five years with GEC Development Group, LLC., for space located at 28-2903 Hawaiʻi Belt Road.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 251-25 &amp;amp; FC-76 - 8/20/25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1110959&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res24-084/2026-07-27T19:23:16+00:00</id>
+    <title>New: RES24-084 (Honolulu) — FILE</title>
+    <updated>2026-07-27T19:23:16+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2902"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;PROPOSING AN AMMENDMENT TO CHAPTER 21, REVISED ORDINANCES OF HONOLULU 2021 (THE LAND USE ORDINANCE), RELATING TO TRANSIT-ORIENTED DEVELOPMENT.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2902"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-213-2024-2026/2026-07-27T21:49:18+00:00</id>
-    <title>New: Resolution 213 (2024-2026) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:49:18+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1106890&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO AN AGREEMENT WITH THE UNITED STATES FEDERAL HIGHWAY ADMINISTRATION (FHWA) AND/OR THE STATE OF HAWAI‘I DEPARTMENT OF TRANSPORTATION, PURSUANT TO HAWAI‘I REVISED STATUTES SECTION 46-7, FOR A GRANT TO THE COUNTY OF HAWAI‘I&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Allows for the receipt of $3,360,000 to be used towards the Smart Intersection Demonstration Project to improve road safety and reduce accidents at high-risk intersections.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 213-25 - 06/04/25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1106890&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res24-107/2026-07-27T19:23:13+00:00</id>
+    <title>New: RES24-107 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:13+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2928"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;REQUESTING THE CITY ADMINISTRATION TO TAKE THE STEPS NECESSARY TO ACQUIRE THE NON-CITY AND NON-FEDERAL PORTION OF NORTH ROAD IN EWA BEACH, OAHU, INCLUDING, IF NECESSARY, THE PREPARATION OF A RESOLUTION TO INITIATE PROCEEDINGS IN EMINENT DOMAIN.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2928"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-142-2024-2026/2026-07-27T21:48:43+00:00</id>
-    <title>New: Resolution 142 (2024-2026) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:48:43+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1106805&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO AN INTERGOVERNMENTAL AGREEMENT WITH THE STATE OF HAWAIʻI’S DEPARTMENT OF TRANSPORTATION AS WELL AS GRANT A REAL PROPERTY LICENSE OR PERMIT FOR THEIR INSTALLATION AND UPKEEP OF NATIONAL ELECTRIC VEHICLE INFRASTRUCTURE SYSTEMS AT VARIOUS COUNTY OF HAWAIʻI PROPERTIES&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Seeks to allow the State Department of Transportation to install and maintain National Electric Vehicle Infrastructure Charging Stations at various sites within Hawaiʻi County.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 142-25, Draft 2; adopts GOEAC-42 - 05/21/25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1106805&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res24-131/2026-07-27T19:23:11+00:00</id>
+    <title>New: RES24-131 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:11+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2956"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING THE DEPARTMENT OF TRANSPORTATION SERVICES’ AGENCY RAIL SAFETY PLAN FOR RAIL OPERATIONS REQUIRED BY 49 CFR PART 673, 49 CFR PART 674 AND HAWAII DEPARTMENT OF TRANSPORTATION PROGRAM STANDARDS AND PROCEDURES.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2956"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-138-2024-2026/2026-07-27T21:48:41+00:00</id>
-    <title>New: Resolution 138 (2024-2026) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:48:41+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1104395&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO AN AGREEMENT WITH THE STATE OF HAWAIʻI DEPARTMENT OF TRANSPORTATION, PURSUANT TO HAWAIʻI REVISED STATUTES SECTION 46-7, FOR A GRANT TO THE COUNTY OF HAWAIʻI MASS TRANSIT AGENCY&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Allows for the receipt of $270,000 of federally-derived funds for the planning of the Pāhoa Transit Hub.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 138-25 &amp;amp; FC-42 - 05/21/25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1104395&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res24-136/2026-07-27T19:23:10+00:00</id>
+    <title>New: RES24-136 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:10+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2967"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE DIRECTOR OF BUDGET AND FISCAL SERVICES TO ISSUE AND SELL IN ONE OR MORE SERIES NOT TO EXCEED $10,000,000 PRINCIPAL AMOUNT OF GENERAL OBLIGATION BONDS OF THE CITY AND COUNTY OF HONOLULU FOR FINANCING THE AMOUNT APPROPRIATED IN ORDINANCE NO.24-10 (ALSO REFERRED TO, UPON ITS APPROVAL, AS BILL 13 (2024), CD1 AND AS MAY BE FURTHER AMENDED) OF THE CITY AND COUNTY OF HONOLULU FOR THE PURPOSE OF FINANCING CAPITAL COSTS OF THE HONOLULU RAIL TRANSIT PROJECT.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Recommendation of the adoption of the Resolution authorizing the issuance and sale of a not to exceed principal amount of General Obligation Bonds to finance the capital costs of the Honolulu Rail Transit Project (“HRTP”).&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2967"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-132-2024-2026/2026-07-27T21:48:39+00:00</id>
-    <title>New: Resolution 132 (2024-2026) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:48:39+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1103299&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO ASSIST WITH EXPENSES RELATED TO THE REMOVAL OF THREE PENCIL TREES OF THE MAKA‘EO WALKING PATH AT THE OLD KONA AIRPORT PARK&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $3,000 from the Clerk-Council Services – Contingency Relief account (Council District 7)&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 132-25 - 04/16/25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1103299&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill002-24/2026-07-27T19:23:09+00:00</id>
+    <title>New: BILL002(24) (Honolulu) — MAYOR</title>
+    <updated>2026-07-27T19:23:09+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2799"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO PUBLIC TRANSIT.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Returned approved.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2799"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-124-2024-2026/2026-07-27T21:48:31+00:00</id>
-    <title>New: Resolution 124 (2024-2026) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:48:31+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1103281&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE PAYMENT OF FUNDS OF A LATER FISCAL YEAR AND OF MORE THAN ONE FISCAL YEAR FOR MULTI-YEAR LEASES FOR SEVEN MULTI-FUNCTION COPY MACHINES FOR THE DEPARTMENT OF PUBLIC WORKS&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Authorizes the Mayor to enter into five-year lease agreements with an approximate monthly cost of $59 each for six copiers and $179 for one copier, to be used by the department’s Highway Maintenance Division at Hawai‘i County base yards.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 124-25 - 04/16/25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1103281&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill017-24/2026-07-27T19:23:08+00:00</id>
+    <title>New: BILL017(24) (Honolulu) — PUBLISH</title>
+    <updated>2026-07-27T19:23:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2874"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE HONOLULU AUTHORITY FOR RAPID TRANSPORTATION CAPITAL BUDGET FOR THE FISCAL YEAR JULY 1, 2024 TO JUNE 30, 2025.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Appropriates funds for the Honolulu Authority for Rapid Transportation Capital Budget for Fiscal Year 2025.&lt;/p&gt;
+&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2874"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-122-2024-2026/2026-07-27T21:48:30+00:00</id>
-    <title>New: Resolution 122 (2024-2026) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:48:30+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1103169&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE PAYMENT OF FUNDS OF A LATER FISCAL YEAR AND OF MORE THAN ONE FISCAL YEAR FOR A MULTI-YEAR AGREEMENT FOR FIXED ROUTE TRANSIT OPERATIONS FOR THE MASS TRANSIT AGENCY&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Authorizes the Mayor to enter into a three-year agreement with two renewal option years for a selected contractor to provide vehicles, drivers, management, personnel, dispatching, maintenance, and other ancillary services to operate an island wide public transportation system.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 122-25 &amp;amp; FC-38 - 5/7/25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1103169&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill016-24/2026-07-27T19:23:08+00:00</id>
+    <title>New: BILL016(24) (Honolulu) — PUBLISH</title>
+    <updated>2026-07-27T19:23:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2873"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE HONOLULU AUTHORITY FOR RAPID TRANSPORTATION OPERATING BUDGET FOR THE FISCAL YEAR JULY 1, 2024 TO JUNE 30, 2025.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2873"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-103-2024-2026/2026-07-27T21:48:21+00:00</id>
-    <title>New: Resolution 103 (2024-2026) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:48:21+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1101130&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE ARTS AND SCIENCES CENTER FOR ITS DRIVER’S EDUCATION TRAFFIC SAFETY FAIR IN PĀHOA&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $2,500 from the Clerk-Council Services – Contingency Relief account (Council District 4)&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res 103-25 - 04/02/25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1101130&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill014-24/2026-07-27T19:23:08+00:00</id>
+    <title>New: BILL014(24) (Honolulu) — PUBLISH</title>
+    <updated>2026-07-27T19:23:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2871"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE ISSUANCE AND SALE OF GENERAL OBLIGATION BONDS AND BOND ANTICIPATION NOTES OF THE CITY AND COUNTY OF HONOLULU IN A MAXIMUM PRINCIPAL AMOUNT EQUAL TO THE AGGREGATE OF THE AMOUNTS APPROPRIATED IN THE CAPITAL BUDGET ORDINANCE OF SAID CITY AND COUNTY FOR THE FISCAL YEAR ENDING JUNE 30, 2025, AND SPECIFIED IN SAID ORDINANCE TO BE FINANCED FROM THE PROCEEDS OF THE SALE OF SUCH BONDS AND TO BE EXPENDED FROM THE GENERAL IMPROVEMENT BOND FUND, THE HIGHWAY IMPROVEMENT BOND FUND, SOLID WASTE IMPROVEMENT BOND FUND, OR THE HOUSING DEVELOPMENT SPECIAL FUND.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2871"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-67-2024-2026/2026-07-27T21:48:03+00:00</id>
-    <title>New: Resolution 67 (2024-2026) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:48:03+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1097121&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE ACCEPTANCE OF A DONATION OF GILLIG BUS PARTS TO THE MASS TRANSIT AGENCY&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The donation from Oahu Transit Services, with an estimated value of $176,899, would be used to repair buses currently operating in Hawaiʻi County.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 67-25 &amp;amp; FC-23 - 2/19/25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1097121&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill037-24/2026-07-27T19:23:05+00:00</id>
+    <title>BILL037(24) (Honolulu): — → FILE</title>
+    <updated>2026-07-27T19:23:05+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3010"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO OVERT VIDEO MONITORING.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Authorizes the implementation of overt video monitoring of public activity from fixed locations in and around the City rail system for the purpose of general prevention and deterrence of criminal activity. Amends the definition of “Responsible City Official” to authorize the Director of Transportation Services to implement overt video monitoring of public activity in and around the City rail system. Requires the designation of the “Responsible City Official” in resolutions approving video monitoring pursuant to Section 2-32.3(a)(7).&lt;/p&gt;
+&lt;p&gt;Status: — → FILE&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3010"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-62-2024-2026/2026-07-27T21:48:00+00:00</id>
-    <title>New: Resolution 62 (2024-2026) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:48:00+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1094782&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE DIRECTOR OF FINANCE TO NEGOTIATE A LEASE OF REAL PROPERTY, SITUATED AT KAILUA-KONA, COUNTY AND STATE OF HAWAI‘I, IDENTIFIED AS TAX MAP KEY: 7-5-008:027, TO THE ASSOCIATION OF APARTMENT OWNERS OF KAILUA VILLAGE&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Allows the Association of Apartment Owners of Kailua Village to continue to lease the parcel for Kailua Village Condominium’s visitor parking and fire lane access purposes.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 62-25 &amp;amp; LAAC-4 - 2/5/25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1094782&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res23-184/2026-07-27T19:23:05+00:00</id>
+    <title>New: RES23-184 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:05+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2645"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;GRANTING A SPECIAL MANAGEMENT AREA USE PERMIT TO ALLOW THE CONSTRUCTION OF A SINGLE-FAMILY DWELLING, ACCESSORY DWELLING UNIT, AND CARPORT AT 66-153 WALIKANAHELE ROAD AT TAX MAP KEY 6-6-005:046 IN HALEʻIWA.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2645"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-51-2024-2026/2026-07-27T21:47:55+00:00</id>
-    <title>New: Resolution 51 (2024-2026) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:47:55+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1094493&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE EXEMPTION OF CERTAIN CODE REQUIREMENTS, PURSUANT TO SECTION 201H-38 OF THE HAWAIʻI REVISED STATUTES, FOR THE HUALĀLAI COURT AFFORDABLE HOUSING PROJECT IN HILO, HAWAIʻI, COVERED BY TAX MAP KEY: 2-4-028:009 (Area: 3.2920 acres)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The Applicant requests an exemption from Single-Family Residential District 7,500 feet zoning requirements, to be replaced with Multiple-Family Residential 1,000 Square Feet requirements, to allow for greater density and an exemption from Sections 5-7-1 and 5-7-3 of the Hawaiʻi County Code regarding permit plan reviews and permit fees to reduce costs for the production of 104 affordable residential rental units, to be located at 364 Hualālai Street in South Hilo.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 52-25 &amp;amp; LAAC-3 - 2/5/25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1094493&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res23-188/2026-07-27T19:23:04+00:00</id>
+    <title>New: RES23-188 (Honolulu) — FILE</title>
+    <updated>2026-07-27T19:23:04+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2652"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDING RESOLUTION 17-221, CD1, AND RESOLUTION 20-170, CD1, TO EXTEND THE DEADLINE TO OBTAIN A BUILDING PERMIT FOR AN INTERIM PLANNED DEVELOPMENT-TRANSIT (IPD-T) PROJECT AT 1500 KAPIOLANI BOULEVARD.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2652"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-48-2024-2026/2026-07-27T21:47:53+00:00</id>
-    <title>New: Resolution 48 (2024-2026) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:47:53+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1093887&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO AN AGREEMENT WITH THE STATE OF HAWAIʻI DEPARTMENT OF TRANSPORTATION, HIGHWAY SAFETY OFFICE, PURSUANT TO HAWAIʻI REVISED STATUTES SECTION 46-7, FOR A GRANT TO THE HAWAIʻI POLICE DEPARTMENT&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Allows for the receipt of $41,792 of federally-derived funds to conduct community engagement and enforcement activities related to pedestrian safety.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 48-25 &amp;amp; FC-7 - 1/22/25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1093887&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res23-189/2026-07-27T19:23:04+00:00</id>
+    <title>New: RES23-189 (Honolulu) — FILE</title>
+    <updated>2026-07-27T19:23:04+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2653"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE MAYOR OR THE MAYOR’S DESIGNEE TO ENTER INTO A MEMORANDUM OF AGREEMENT WITH THE UNIVERSITY OF HAWAIʻI, LEEWARD COMMUNITY COLLEGE, TO USE RESERVED PARKING STALLS TO SUPPORT THE SKYLINE HONOLULU RAIL SERVICE AND ENSURE THE SECURITY OF THE FACILITIES AT THE HĀLAULANI RAIL STATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2653"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-10-2024-2026/2026-07-27T21:47:35+00:00</id>
-    <title>New: Resolution 10 (2024-2026) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:47:35+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1090612&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;APPOINTS MEMBERS OF THE POLICY COMMITTEE ON PUBLIC WORKS AND MASS TRANSIT AND DESIGNATES THE CHAIRPERSON AND VICE CHAIRPERSON THEREOF&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Designates Council Members James E. Hustace as Chairperson and Ashley L. Kierkiewicz as Vice Chairperson (remaining Council Members to serve as Members of this Committee).&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 10-25 - 12/2/2024&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1090612&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res23-202/2026-07-27T19:23:02+00:00</id>
+    <title>New: RES23-202 (Honolulu) — MAYOR</title>
+    <updated>2026-07-27T19:23:02+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2669"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;(FOR CONDEMNATION) PROVIDING FOR THE ACQUISITION OF EASEMENTS FOR PUBLIC USE FOR THE ROCK SLIDE MITIGATIVE IMPROVEMENTS IN THE VICINITY OF PACIFIC HEIGHTS ROAD SITE 070G, LOCATED AT KEWALO, PAUOA, HONOLULU, OAHU, HAWAII, AND DETERMINING AND DECLARING THE NECESSITY OF THE ACQUISITION BY EMINENT DOMAIN.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Returned approved.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2669"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-704-2022-2024/2026-07-27T21:47:19+00:00</id>
-    <title>New: Resolution 704 (2022-2024) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:47:19+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1089374&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE EXTENSION OF THE PUBLIC SEWER FROM AN EXISTING SEWER LINE TERMINUS AT PUKIHAE BRIDGE TO HAU LANE, WITHIN HAWAI‘I BELT ROAD, TO SERVICE TAX MAP KEYS: 2-6-015:001 AND 002 AT AHUPUA‘A OF WAINAKU, DISTRICT OF SOUTH HILO, ISLAND AND COUNTY OF HAWAI‘I, STATE OF HAWAI‘I&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The extension would service the Hawaiian Ola Brewing Corporation for its operations at 238 Belt Road in Hilo.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 704-24 &amp;amp; LAAC-75 - 12/18/24&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1089374&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res23-212/2026-07-27T19:23:02+00:00</id>
+    <title>New: RES23-212 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:02+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2682"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;REQUESTING THE DEPARTMENT OF TRANSPORTATION SERVICES TO CONDUCT A TRAFFIC STUDY ON THE WAIʻALAE AVENUE CORRIDOR BETWEEN 1ST AVENUE AND 11TH AVENUE, INCLUDING CROSS STREETS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2682"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-669-2022-2024/2026-07-27T21:46:59+00:00</id>
-    <title>New: Resolution 669 (2022-2024) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:46:59+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1087622&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE WEST HAWAI‘I VETERANS CEMETERY DEVELOPMENT AND EXPANSION ASSOCIATION FOR EXPENSES RELATING TO THE PERMANENT CAMP TARAWA DISPLAY AT ELLISON ONIZUKA INTERNATIONAL AIRPORT&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $2,500 from the Clerk-Council Services – Contingency Relief account (Council District 9)&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 669-24 - 10/16/2024&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1087622&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res23-211/2026-07-27T19:23:01+00:00</id>
+    <title>New: RES23-211 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:01+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2680"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE CITY ADMINISTRATION TO WORK WITH THE STATE OF HAWAII TO AUTHORIZE THE CITY TO COLLECT AND RETAIN UNPAID AND DELINQUENT TRAFFIC FINES AND TO DEPOSIT SUCH FINES IN THE CITY GENERAL FUND.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2680"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-643-2022-2024/2026-07-27T21:46:47+00:00</id>
-    <title>New: Resolution 643 (2022-2024) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:46:47+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1086399&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO SUSTAINABLE ENERGY HAWAI‘I FOR THE BIG ISLAND ELECTRIC VEHICLE ASSOCIATION’S 2024 HE ALA PONO ELECTRIC VEHICLE AND SUSTAINABILITY FAIR&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $2,500 from the Clerk-Council Services – Contingency Relief account (Council District 2)&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 643-24 - 10/2/2024&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1086399&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res23-214/2026-07-27T19:23:01+00:00</id>
+    <title>New: RES23-214 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:23:01+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2686"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;FEDERAL HIGHWAY ADMINISTRATION AND FEDERAL TRANSIT ADMINISTRATION CANDIDATE PROJECTS FOR CONSIDERATION IN THE NEW FEDERAL FISCAL YEARS 2025-2028 TRANSPORTATION IMPROVEMENT PROGRAM.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2686"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-636-2022-2024/2026-07-27T21:46:43+00:00</id>
-    <title>New: Resolution 636 (2022-2024) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:46:43+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1086350&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO AN AGREEMENT WITH THE STATE OF HAWAIʻI DEPARTMENT OF TRANSPORTATION, PURSUANT TO HAWAIʻI REVISED STATUTES SECTION 46-7, FOR A GRANT TO THE COUNTY OF HAWAIʻI MASS TRANSIT AGENCY&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Allows for the receipt of $1,145,239 in federally-derived funds to purchase Americans with Disabilities Act vans to accommodate the increase in ridership within the Paratransit Program.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 636-24 &amp;amp; FC-204 - 10/16/2024&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1086350&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res23-227/2026-07-27T19:23:00+00:00</id>
+    <title>New: RES23-227 (Honolulu) — MAYOR</title>
+    <updated>2026-07-27T19:23:00+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2701"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;(FOR CONDEMNATION) PROVIDING FOR THE ACQUISITION OF LAND FOR PUBLIC USE OF 1421 PENSACOLA STREET, LOCATED AT KULAOKAHUA, HONOLULU, OAHU, HAWAII, AND DETERMINING AND DECLARING THE NECESSITY OF THE ACQUISITION BY EMINENT DOMAIN.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Returned approved.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2701"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-626-2022-2024/2026-07-27T21:46:38+00:00</id>
-    <title>New: Resolution 626 (2022-2024) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:46:38+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1085349&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO MĀLAMA O PUNA TO ASSIST KEA‘AU MIDDLE SCHOOL WITH BUS TRANSPORTATION FOR ITS YOUTH LEADERSHIP ACTIVITIES IN THE 2024-2025 SCHOOL YEAR&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $1,760 from the Clerk-Council Services – Contingency Relief account (Council District 3)&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 626-24 - 9/17/2024&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1085349&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res23-230/2026-07-27T19:22:59+00:00</id>
+    <title>New: RES23-230 (Honolulu) — FILE</title>
+    <updated>2026-07-27T19:22:59+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2707"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE DIRECTOR OF TRANSPORTATION SERVICES TO UPDATE AND EXPAND THE CITY'S POLICY REGARDING THE USE OF RED CURBMARKINGS TO INCLUDE DESIGNATION OF ADDITIONAL AREAS WHERE PARKING IS PROHIBITED.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2707"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-605-2022-2024/2026-07-27T21:46:28+00:00</id>
-    <title>New: Resolution 605 (2022-2024) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:46:28+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1084137&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO AN AGREEMENT WITH THE STATE OF HAWAI‘I DEPARTMENT OF BUSINESS, ECONOMIC DEVELOPMENT AND TOURISM, THE CITY AND COUNTY OF HONOLULU, THE COUNTY OF MAUI, AND THE COUNTY OF KAUA‘I, PURSUANT TO HAWAI‘I REVISED STATUTES SECTION 46-7, TO SUPPORT THE DEVELOPMENT OF HAWAI‘I’S CREATIVE ECONOMY&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Establishes and defines the roles of each entity to execute a plan on shared marketing efforts, develop a strategic road map, implement plans to support workforce development, align County and State Film Office integration, and institute cost sharing to support the development of Hawai‘i’s creative economy.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 605-24 - 9/4/2024&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1084137&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res23-249/2026-07-27T19:22:58+00:00</id>
+    <title>New: RES23-249 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:22:58+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2726"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;REQUESTING THE DEPARTMENT OF TRANSPORTATION SERVICES TO TAKE IMMEDIATE STEPS TO IMPROVE PEDESTRIAN ACCESS BETWEEN THE HĀLAWA SKYLINE STATION AND THE HĀLAWA STATION PARK-AND-RIDE PARKING LOT.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2726"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-586-2022-2024/2026-07-27T21:46:19+00:00</id>
-    <title>New: Resolution 586 (2022-2024) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:46:19+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1082817&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO AN AGREEMENT WITH THE FEDERAL HIGHWAY ADMINISTRATION AND THE STATE OF HAWAIʻI DEPARTMENT OF TRANSPORTATION PURSUANT TO HAWAIʻI REVISED STATUTES SECTION 46-7, FOR A GRANT TO THE OFFICE OF MANAGEMENT&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Allows for the receipt of $96,000 in federally-derived funds, which would be used to promote alternative transportation options, pedestrian and bicycle safety, and introduce the community to the interconnectivity provided through the Trek the Trails project.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 586-24 &amp;amp; FC-186 - 9/4/2024&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1082817&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res23-264/2026-07-27T19:22:57+00:00</id>
+    <title>New: RES23-264 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:22:57+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2747"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;GRANTING A SPECIAL MANAGEMENT AREA MAJOR PERMIT TO ALLOW FOR THE CONSTRUCTION OF A NEW SINGLE-FAMILY DWELLING UNIT AND OTHER IMPROVEMENTS AT 67-429A WAIALUA BEACH ROAD IN WAIALUA, O’AHU.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2747"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-583-2022-2024/2026-07-27T21:46:17+00:00</id>
-    <title>New: Resolution 583 (2022-2024) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:46:17+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1084429&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO A MULTI-YEAR AGREEMENT WITH SUSTAINABILITY PARTNERS SUBSIDIARY HAWAIʻI ISLAND EV, LLC, TO REPLACE AND INSTALL ADDITIONAL ELECTRIC VEHICLE CHARGING STATIONS&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Authorizes the Mayor to enter into a ten-year lease agreement with an approximate monthly cost of $5,717, to replace inoperable and aging vehicle charging stations and install four additional charging stations at the West Hawaiʻi Civic Center, the Aupuni Center, and the County Building.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 583-24, Draft 2 &amp;amp; FC-183 - 9/4/24&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1084429&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res23-272/2026-07-27T19:22:56+00:00</id>
+    <title>New: RES23-272 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:22:56+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2755"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDING RESOLUTION 17-221, CD1, AS AMENDED BY RESOLUTION 20-170, CD1, TO FURTHER EXTEND THE DEADLINE TO OBTAIN A BUILDING PERMIT FOR AN INTERIM PLANNED DEVELOPMENT-TRANSIT PROJECT LOCATED AT 1500 KAPI‘OLANI BOULEVARD.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2755"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-573-2022-2024/2026-07-27T21:46:13+00:00</id>
-    <title>New: Resolution 573 (2022-2024) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:46:13+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1082048&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO AN AGREEMENT WITH THE STATE OF HAWAI‘I AIRPORT RESCUE FIREFIGHTING UNIT (ARFF) PURSUANT TO HAWAI‘I REVISED STATUTES SECTION 46-7, FOR MUTUAL ASSISTANCE WITH THE HAWAI‘I FIRE DEPARTMENT IN A FIRE EMERGENCY&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Seeks to enter into a Memorandum of Agreement to facilitate joint recruit classes between the Hawai‘i Fire Department and State Airport Rescue Firefighters and clarify their roles regarding firefighter recruit training.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopst Res. 573-24 &amp;amp; GOEAC-148 - 8/21/2024&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1082048&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-562-2022-2024/2026-07-27T21:46:08+00:00</id>
-    <title>New: Resolution 562 (2022-2024) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:46:08+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1084425&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO A MULTI-YEAR (Draft 2) AGREEMENT WITH HAWAIʻI ISLAND EV, LLC, TO REPLACE HAWAIʻI COUNTY SHARED-USE ELECTRIC VEHICLES&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Authorizes the Mayor to enter into a ten-year lease agreement with an approximate monthly cost of $7,200, to replace the County’s disposed shared-use electric vehicle fleet with seven new electric vehicles.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 562-24, Draft 3; adopts FC-180 - 8/21/2024&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1084425&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-552-2022-2024/2026-07-27T21:46:03+00:00</id>
-    <title>New: Resolution 552 (2022-2024) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:46:03+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1079435&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE PAYMENT OF FUNDS OF A LATER FISCAL YEAR AND OF MORE THAN ONE FISCAL YEAR FOR A MULTI-YEAR LEASE OF REAL PROPERTY FOR THE COUNTY OF HAWAIʻI OFFICE OF HOUSING AND COMMUNITY DEVELOPMENT&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Authorizes the Mayor to enter into a five-year lease agreement with Kaneshiro &amp;amp; Sons Enterprise, Limited and Glenn Kaneshiro Partnership, with an approximate monthly cost of $1,827, for office space located at 1990 Kinoʻole Street.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 552-24 &amp;amp; FC-174 - 07/24/24&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1079435&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-resolution-547-2022-2024/2026-07-27T21:46:00+00:00</id>
-    <title>New: Resolution 547 (2022-2024) (Hawaiʻi County) — Adopted</title>
-    <updated>2026-07-27T21:46:00+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1078864&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVES THE COUNTY OF HAWAIʻI DEPARTMENT OF PARKS AND RECREATION 2024 TITLE VI PLAN PURSUANT TO THE FEDERAL TRANSIT ADMINISTRATION TITLE VI CIRCULAR 4702.1B REQUIREMENTS AND GUIDELINES&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Adoption of the plan fulfills federal requirements to ensure that the department provides public transit service in conformance with Title VI legislation, which prohibits discrimination on the basis of race, color, or national origin.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 547-24 &amp;amp; PCHSW-13 - 07/24/24&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1078864&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res23-281/2026-07-27T19:22:55+00:00</id>
+    <title>New: RES23-281 (Honolulu) — CCL</title>
+    <updated>2026-07-27T19:22:55+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2764"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING EXEMPTIONS FROM CERTAIN REQUIREMENTS RELATING TO THE WAIPAHU STREET AFFORDABLE RENTAL HOUSING PROJECT IN WAIPAHU, OʻAHU.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Committee report and Resolution as amended were adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2764"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

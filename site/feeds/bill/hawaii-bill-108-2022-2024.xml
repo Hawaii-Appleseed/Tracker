@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:dtomkatsu.github.io,2026:feeds/bill/hawaii-bill-108-2022-2024.xml</id>
+  <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-bill-108-2022-2024.xml</id>
   <title>Bill 108 (2022-2024) — Hawaiʻi County</title>
   <updated>2026-07-27T21:38:38+00:00</updated>
-  <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/hawaii-bill-108-2022-2024.xml"/>
-  <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
+  <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-bill-108-2022-2024.xml"/>
+  <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-108-2022-2024/2026-07-27T21:38:38+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-108-2022-2024/2026-07-27T21:38:38+00:00</id>
     <title>New: Bill 108 (2022-2024) (Hawaiʻi County) — Adopted</title>
     <updated>2026-07-27T21:38:38+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1070768&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 2, ARTICLE 49, SECTION 2-271; CHAPTER 37, ARTICLE 1, SECTIONS 37-1-2 AND 37-1-3; AND CHAPTER 37, ARTICLE 2, SECTION 37-2-21, OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO SUSTAINABILITY, CLIMATE, EQUITY, AND RESILIENCE&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Adds definitions for “trauma” and “trauma informed”, and incorporates the concept of applying a “trauma informed approach” to the application of and access to critical resources and support for the County’s most vulnerable populations.”&lt;/p&gt;
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
 &lt;p&gt;Latest action: Council:  Bill 108, Draft 3, passes second &amp;amp; final reading - 02/07/24&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1070768&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>

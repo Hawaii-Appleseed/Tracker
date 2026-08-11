@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:dtomkatsu.github.io,2026:feeds/bill/hawaii-bill-129-2024-2026.xml</id>
+  <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-bill-129-2024-2026.xml</id>
   <title>Bill 129 (2024-2026) — Hawaiʻi County</title>
   <updated>2026-07-27T21:41:02+00:00</updated>
-  <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/hawaii-bill-129-2024-2026.xml"/>
-  <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
+  <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-bill-129-2024-2026.xml"/>
+  <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-129-2024-2026/2026-07-27T21:41:02+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-129-2024-2026/2026-07-27T21:41:02+00:00</id>
     <title>New: Bill 129 (2024-2026) (Hawaiʻi County) — Passed Second Reading</title>
     <updated>2026-07-27T21:41:02+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1127406&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 24, ARTICLE 10, DIVISION 5, SECTION 24-280, SCHEDULE 28 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO NO PARKING AT ANYTIME&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Prohibits parking at any time for certain portions of Ali‘i Drive fronting Kahalu‘u Beach Park.&lt;/p&gt;
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
 &lt;p&gt;Latest action: Council:  Bill 129, Draft 2 passes second &amp;amp; final reading - 04/08/26&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1127406&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>

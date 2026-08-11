@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:dtomkatsu.github.io,2026:feeds/bill/hawaii-bill-146.xml</id>
+  <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-bill-146.xml</id>
   <title>Bill 146 — Hawaiʻi County</title>
   <updated>2026-06-11T21:07:13+00:00</updated>
-  <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/hawaii-bill-146.xml"/>
-  <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
+  <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-bill-146.xml"/>
+  <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-bill-146/2026-06-11T21:07:13+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-146/2026-06-11T21:07:13+00:00</id>
     <title>New: Bill 146 (Hawaiʻi County) — Passed Second Reading</title>
     <updated>2026-06-11T21:07:13+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1127029&amp;dbid=0"/>

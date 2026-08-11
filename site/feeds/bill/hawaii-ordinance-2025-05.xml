@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:dtomkatsu.github.io,2026:feeds/bill/hawaii-ordinance-2025-05.xml</id>
+  <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-ordinance-2025-05.xml</id>
   <title>Ordinance 2025-05 — Hawaiʻi County</title>
   <updated>2026-07-27T21:54:11+00:00</updated>
-  <link rel="self" href="https://dtomkatsu.github.io/Tracker/feeds/bill/hawaii-ordinance-2025-05.xml"/>
-  <link rel="alternate" href="https://dtomkatsu.github.io/Tracker/"/>
+  <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-ordinance-2025-05.xml"/>
+  <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:dtomkatsu.github.io,2026:hawaii-ordinance-2025-05/2026-07-27T21:54:11+00:00</id>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-ordinance-2025-05/2026-07-27T21:54:11+00:00</id>
     <title>New: Ordinance 2025-05 (Hawaiʻi County) — Enacted</title>
     <updated>2026-07-27T21:54:11+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1097697&amp;dbid=0"/>
