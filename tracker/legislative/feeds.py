@@ -24,8 +24,8 @@ from xml.sax.saxutils import escape
 
 from tracker.legislative.db import DEFAULT_DB, connect, init_schema
 
-BASE_URL = "https://dtomkatsu.github.io/Tracker/"
-TAG_AUTHORITY = "tag:dtomkatsu.github.io,2026"
+BASE_URL = "https://hawaii-appleseed.github.io/Tracker/"
+TAG_AUTHORITY = "tag:hawaii-appleseed.github.io,2026"
 
 COUNCIL_LABEL = {
     "honolulu": "Honolulu",

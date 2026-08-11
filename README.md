@@ -12,7 +12,7 @@ A searchable archive of what Hawaii's four county councils — Honolulu, Maui, H
 - Full-text search across every county, ranked by relevance
 - Bills additionally tagged into four subject areas (**Tax**, **Transportation**, **Food Security**, **Affordable Housing**) via keyword rules, as an optional filter
 - New bills and status changes posted to Slack; per-bill and per-subject Atom feeds
-- Browsable static dashboard: <https://dtomkatsu.github.io/Tracker/>
+- Browsable static dashboard: <https://hawaii-appleseed.github.io/Tracker/>
 
 #### What gets ingested
 

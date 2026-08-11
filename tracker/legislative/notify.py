@@ -9,7 +9,7 @@ import sys
 import requests
 
 PAGES_BASE = os.environ.get(
-    "TRACKER_PAGES_BASE", "https://dtomkatsu.github.io/Tracker"
+    "TRACKER_PAGES_BASE", "https://hawaii-appleseed.github.io/Tracker"
 )
 
 _SUBJECT_LABEL = {

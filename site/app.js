@@ -1258,7 +1258,7 @@
   // ---- Saved panel: share / subscribe to the starred list -------------------
   // Per-bill Atom feeds are generated at scrape time under feeds/bill/<slug>.xml
   // (tracker/legislative/feeds.py). billSlug() must mirror feeds.bill_slug().
-  const SITE_BASE = "https://dtomkatsu.github.io/Tracker/";
+  const SITE_BASE = "https://hawaii-appleseed.github.io/Tracker/";
   function billSlug(b) {
     return (b.council + "-" + b.bill_number).toLowerCase()
       .replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
