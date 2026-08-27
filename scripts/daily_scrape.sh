@@ -6,6 +6,10 @@
 set -euo pipefail
 
 export PATH="/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+# No terminal under launchd: a credential prompt would hang the job
+# forever instead of failing. Fail fast and let the staleness monitor
+# notice the missing run.
+export GIT_TERMINAL_PROMPT=0
 REPO="$HOME/repos/Tracker"
 PY="$REPO/.venv/bin/python"
 LOG="$HOME/.openclaw/logs/tracker-scrape.log"
