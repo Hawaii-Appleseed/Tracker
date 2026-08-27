@@ -2,9 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/honolulu-bill042-26.xml</id>
   <title>BILL042(26) — Honolulu</title>
-  <updated>2026-07-27T19:23:27+00:00</updated>
+  <updated>2026-08-27T22:06:41+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/honolulu-bill042-26.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill042-26/2026-08-27T22:06:41+00:00</id>
+    <title>BILL042(26) (Honolulu): CCL → PUBLISH</title>
+    <updated>2026-08-27T22:06:41+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3760"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TO AMEND A PORTION OF THE STATE LAND USE DISTRICT BOUNDARY MAP (KAHUKU QUADRANGLE) FROM THE AGRICULTURAL DISTRICT TO THE URBAN DISTRICT FOR CERTAIN LANDS SITUATED IN THE KOʻOLAU LOA DEVELOPMENT PLAN AREA, LĀ‘IE, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: CCL → PUBLISH&lt;/p&gt;
+&lt;p&gt;Latest action: Public hearing notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3760"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill042-26/2026-07-27T19:23:27+00:00</id>
     <title>BILL042(26) (Honolulu): INTRO → CCL</title>

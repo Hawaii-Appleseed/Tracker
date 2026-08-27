@@ -2,9 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/honolulu-res26-166.xml</id>
   <title>RES26-166 — Honolulu</title>
-  <updated>2026-07-27T19:23:30+00:00</updated>
+  <updated>2026-08-27T22:06:46+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/honolulu-res26-166.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-166/2026-08-27T22:06:46+00:00</id>
+    <title>RES26-166 (Honolulu): INTRO → BUD</title>
+    <updated>2026-08-27T22:06:46+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3794"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING COLLECTIVE BARGAINING COST ITEMS FOR EMPLOYEES OF THE CITY AND COUNTY OF HONOLULU IN BARGAINING UNIT 15 (HAWAIʻI GOVERNMENT EMPLOYEES ASSOCIATION, AFSCME LOCAL 152, AFL-CIO).&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: INTRO → BUD&lt;/p&gt;
+&lt;p&gt;Latest action: CR-218(26)
+Reported out for adoption.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3794"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-166/2026-07-27T19:23:30+00:00</id>
     <title>New: RES26-166 (Honolulu) — INTRO</title>

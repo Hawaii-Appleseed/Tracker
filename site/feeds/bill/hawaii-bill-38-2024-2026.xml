@@ -2,15 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-bill-38-2024-2026.xml</id>
   <title>Bill 38 (2024-2026) — Hawaiʻi County</title>
-  <updated>2026-07-27T21:40:12+00:00</updated>
+  <updated>2026-08-27T22:24:44+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-bill-38-2024-2026.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-38-2024-2026/2026-08-27T22:24:44+00:00</id>
+    <title>Bill 38 (2024-2026) (Hawaiʻi County): Passed Second Reading → Adopted</title>
+    <updated>2026-08-27T22:24:44+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1118324&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 19, ARTICLE 13, OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO REAL PROPERTY TAX CREDITS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Establishes a Private Road Tax Credit in the amount of at least $500 to be applied towards a homeowner’s real property tax bill when the homeowner expends at least $100 annually to maintain, repair, or improve a private roadway that is not restricted by a gate and is managed by a road maintenance organization.&lt;/p&gt;
+&lt;p&gt;Status: Passed Second Reading → Adopted&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Bill 38, Draft 4 passes second &amp;amp; final reading - 10/8/25&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1118324&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-38-2024-2026/2026-07-27T21:40:12+00:00</id>
     <title>New: Bill 38 (2024-2026) (Hawaiʻi County) — Passed Second Reading</title>
     <updated>2026-07-27T21:40:12+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1118324&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 19, ARTICLE 13, OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO REAL PROPERTY TAX CREDITS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Establishes a Private Road Tax Credit in the amount of at least $500 to be applied towards a homeowner’s real property tax bill when the homeowner expends at least $100 annually to maintain, repair, or improve a private roadway that is not restricted by a gate and is managed by a road maintenance organization.&lt;/p&gt;
 &lt;p&gt;Latest action: Council:  Bill 38, Draft 4 passes second &amp;amp; final reading - 10/8/25&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1118324&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>

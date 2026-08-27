@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/honolulu-bill055-26.xml</id>
+  <title>BILL055(26) — Honolulu</title>
+  <updated>2026-08-27T22:06:40+00:00</updated>
+  <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/honolulu-bill055-26.xml"/>
+  <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill055-26/2026-08-27T22:06:40+00:00</id>
+    <title>New: BILL055(26) (Honolulu) — INTRO</title>
+    <updated>2026-08-27T22:06:40+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3813"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TO REZONE LAND SITUATED AT WAIKĪKĪ, HONOLULU, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3813"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+</feed>

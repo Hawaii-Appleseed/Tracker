@@ -2,9 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/honolulu-bill030-26.xml</id>
   <title>BILL030(26) — Honolulu</title>
-  <updated>2026-07-27T19:23:28+00:00</updated>
+  <updated>2026-08-27T22:06:42+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/honolulu-bill030-26.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill030-26/2026-08-27T22:06:42+00:00</id>
+    <title>BILL030(26) (Honolulu): PUBLISH → HHP</title>
+    <updated>2026-08-27T22:06:42+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3669"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO PUBLIC PARKS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Amends provisions relating to the use of City parks for farmers' markets and food distribution events conducted by nonprofit organizations.&lt;/p&gt;
+&lt;p&gt;Status: PUBLISH → HHP&lt;/p&gt;
+&lt;p&gt;Latest action: CR-224(26)
+Reported out for passage on third reading.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3669"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill030-26/2026-07-27T19:23:28+00:00</id>
     <title>BILL030(26) (Honolulu): HHP → PUBLISH</title>

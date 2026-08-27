@@ -2,9 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/honolulu-res26-176.xml</id>
   <title>RES26-176 — Honolulu</title>
-  <updated>2026-08-11T20:42:27+00:00</updated>
+  <updated>2026-08-27T22:06:45+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/honolulu-res26-176.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-176/2026-08-27T22:06:45+00:00</id>
+    <title>RES26-176 (Honolulu): INTRO → CCL</title>
+    <updated>2026-08-27T22:06:45+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3805"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TO RETAIN THE LEGAL SERVICES OF THOMPSON, COE, COUSINS &amp;amp; IRONS, L.L.P. AS SPECIAL COUNSEL TO REPRESENT DEFENDANT JACOB GEORGE DELAPLANE IN THE LEGAL ACTION ENTITLED LAUREL J. MAU V. CITY AND COUNTY OF HONOLULU, ET AL.; CASE NO. 1:24-CV-00253 GPC-WRP (U.S.D.C).&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: INTRO → CCL&lt;/p&gt;
+&lt;p&gt;Latest action: Adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3805"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-176/2026-08-11T20:42:27+00:00</id>
     <title>New: RES26-176 (Honolulu) — INTRO</title>

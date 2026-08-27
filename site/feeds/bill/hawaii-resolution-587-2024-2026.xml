@@ -2,15 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-resolution-587-2024-2026.xml</id>
   <title>Resolution 587 (2024-2026) — Hawaiʻi County</title>
-  <updated>2026-07-27T21:52:28+00:00</updated>
+  <updated>2026-08-27T22:37:55+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-resolution-587-2024-2026.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-587-2024-2026/2026-08-27T22:37:55+00:00</id>
+    <title>Resolution 587 (2024-2026) (Hawaiʻi County): — → Adopted</title>
+    <updated>2026-08-27T22:37:55+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130826&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVES THE PROPOSED OPERATING BUDGET FOR THE HAWAI‘I STATE ASSOCIATION OF COUNTIES FOR THE FISCAL YEAR ENDING JUNE 30, 2027&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → Adopted&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 587-26 - 06/17/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130826&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-587-2024-2026/2026-07-27T21:52:28+00:00</id>
     <title>New: Resolution 587 (2024-2026) (Hawaiʻi County) — Council:  Adopts Res. 587-26 - 06/17/26</title>
     <updated>2026-07-27T21:52:28+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130826&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVES THE PROPOSED OPERATING BUDGET FOR THE HAWAI‘I STATE ASSOCIATION OF COUNTIES FOR THE FISCAL YEAR ENDING JUNE 30, 2027&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Latest action: Council:  Adopts Res. 587-26 - 06/17/26&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1130826&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
