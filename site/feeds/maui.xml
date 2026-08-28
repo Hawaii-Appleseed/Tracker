@@ -2,9 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/maui.xml</id>
   <title>Bill Tracker — Maui</title>
-  <updated>2026-08-27T22:06:55+00:00</updated>
+  <updated>2026-08-28T16:15:11+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/maui.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-drip-27-bill-113-2026/2026-08-28T16:15:11+00:00</id>
+    <title>New: DRIP-27 Bill 113 (2026) (Maui) — Agenda Ready</title>
+    <updated>2026-08-28T16:15:11+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16376"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 113 (2026), ESTABLISHING CHAPTER 8.38, MAUI COUNTY CODE, ON THE DISCLOSURE, SALE, AND COMMERCIAL USE OF LICENSE PLATE READER DATA  (DRIP-27)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16376"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-drip-26-bill-112-2026/2026-08-28T16:15:11+00:00</id>
+    <title>New: DRIP-26 Bill 112 (2026) (Maui) — Agenda Ready</title>
+    <updated>2026-08-28T16:15:11+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16375"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 112 (2026), ESTABLISHING CHAPTER 8.37, MAUI COUNTY CODE, ON FACIAL RECOGNITION TECHNOLOGY  (DRIP-26)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16375"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:maui-bill-93-2024-bfed-18/2026-08-27T22:06:55+00:00</id>
     <title>New: Bill 93 (2024) BFED-18 (Maui) — Agenda Ready</title>
@@ -404,21 +420,5 @@ The purpose of this bill is to establish standards and procedures for the remova
     <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14108"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;BILL 92 (2023), AMENDING FISCAL YEAR 2024 BUDGET:  DEPARTMENT OF MANAGEMENT (MANAGEMENT PROGRAM)  (BFED-36)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14108"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-bfed-35-bill-91-2023/2026-07-27T19:06:33+00:00</id>
-    <title>New: BFED-35 Bill 91 (2023) (Maui) — Agenda Ready</title>
-    <updated>2026-07-27T19:06:33+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14107"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;REAL PROPERTY TAX EXEMPTION FOR PROPERTIES IMPACTED BY NATURAL DISASTERS OR WILDFIRES  (BFED-35)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14107"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-wai-11-bill-89-2023/2026-07-27T19:06:33+00:00</id>
-    <title>New: WAI-11 Bill 89 (2023) (Maui) — Agenda Ready</title>
-    <updated>2026-07-27T19:06:33+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14115"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 89 (2023), RELATING TO AUTHORIZING THE MAYOR OF THE COUNTY OF MAUI TO ENTER INTO AN INTERGOVERNMENTAL AGREEMENT WITH U.S. GEOLOGICAL SURVEY, PACIFIC ISLANDS WATER SCIENCE CENTER, UNITED STATES DEPARTMENT OF THE INTERIOR (COOPERATIVE WATER-RESOURCE MONITORING PROGRAM)  (WAI-11)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14115"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

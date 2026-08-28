@@ -2,25 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/kauai-bill-3001.xml</id>
   <title>Bill 3001 — Kauaʻi</title>
-  <updated>2026-08-27T23:09:22+00:00</updated>
+  <updated>2026-08-28T16:36:16+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/kauai-bill-3001.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-3001/2026-08-28T16:36:16+00:00</id>
+    <title>Bill 3001 (Kauaʻi): On agenda 2026-09-02</title>
+    <updated>2026-08-28T16:36:16+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1621"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. B-2026-917 RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2026 THROUGH JUNE 30, 2027, BY REVISING THE AMOUNTS ESTIMATED IN THE GENERAL FUND (Temporary Voter Service Center Workers – $50,000.00)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2026-09-02&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1621"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-3001/2026-08-27T23:09:22+00:00</id>
     <title>Bill 3001 (Kauaʻi): On agenda 2026-08-26</title>
     <updated>2026-08-27T23:09:22+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3134"/>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1621"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. B-2026-917 RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2026 THROUGH JUNE 30, 2027, BY REVISING THE AMOUNTS ESTIMATED IN THE GENERAL FUND (Temporary Voter Service Center Workers – $50,000.00)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2026-08-26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3134"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1621"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-3001/2026-08-27T22:46:55+00:00</id>
     <title>New: Bill 3001 (Kauaʻi) — On agenda 2026-09-02</title>
     <updated>2026-08-27T22:46:55+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3134"/>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1621"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. B-2026-917 RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2026 THROUGH JUNE 30, 2027, BY REVISING THE AMOUNTS ESTIMATED IN THE GENERAL FUND (Temporary Voter Service Center Workers – $50,000.00)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2026-09-02&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3134"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1621"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

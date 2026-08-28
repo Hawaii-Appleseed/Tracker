@@ -2,26 +2,333 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/all.xml</id>
   <title>Hawaiʻi County Bill Tracker — all updates</title>
-  <updated>2026-08-27T23:09:22+00:00</updated>
+  <updated>2026-08-28T16:36:16+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/all.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-3001/2026-08-28T16:36:16+00:00</id>
+    <title>Bill 3001 (Kauaʻi): On agenda 2026-09-02</title>
+    <updated>2026-08-28T16:36:16+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1621"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. B-2026-917 RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2026 THROUGH JUNE 30, 2027, BY REVISING THE AMOUNTS ESTIMATED IN THE GENERAL FUND (Temporary Voter Service Center Workers – $50,000.00)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2026-09-02&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1621"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-3000/2026-08-28T16:36:16+00:00</id>
+    <title>Bill 3000 (Kauaʻi): On agenda 2026-09-02</title>
+    <updated>2026-08-28T16:36:16+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1621"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE APPROVING A COLLECTIVE BARGAINING AGREEMENT FOR BARGAINING UNIT 15 BETWEEN JULY 1, 2025 AND JUNE 30, 2029&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2026-09-02&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1621"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-ordinance-2025-071/2026-08-28T16:34:52+00:00</id>
+    <title>Ordinance 2025-071 (Hawaiʻi County): Effective 2025-10-24</title>
+    <updated>2026-08-28T16:34:52+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119204&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;Latest action: Effective 2025-10-24&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119204&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-ordinance-2025-071/2026-08-28T16:34:51+00:00</id>
+    <title>Ordinance 2025-071 (Hawaiʻi County): Effective 2026-01-01</title>
+    <updated>2026-08-28T16:34:51+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119204&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;Latest action: Effective 2026-01-01&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119204&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-702-2022-2024/2026-08-28T16:26:41+00:00</id>
+    <title>Resolution 702 (2022-2024) (Hawaiʻi County): Council:  Adopts Res. 703-24 - 11/8/2024</title>
+    <updated>2026-08-28T16:26:41+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1088990&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE HAWAI‘I KEIKI MUSEUM FOR EXPENSES RELATING TO THE COORDINATION AND FACILITATION OF THE K-12 EDUCATION WORKFORCE DEVELOPMENT PROJECT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $3,625 from the Clerk-Council Services – Contingency Relief account (Council District 1)&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 703-24 - 11/8/2024&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1088990&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-702-2022-2024/2026-08-28T16:26:41+00:00</id>
+    <title>Resolution 702 (2022-2024) (Hawaiʻi County): Council:  Adopts Res. 702-24 - 11/8/2024</title>
+    <updated>2026-08-28T16:26:41+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1088990&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE HAWAI‘I KEIKI MUSEUM FOR EXPENSES RELATING TO THE COORDINATION AND FACILITATION OF THE K-12 EDUCATION WORKFORCE DEVELOPMENT PROJECT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $3,625 from the Clerk-Council Services – Contingency Relief account (Council District 1)&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 702-24 - 11/8/2024&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1088990&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-55-2022-2024/2026-08-28T16:25:22+00:00</id>
+    <title>Resolution 55 (2022-2024) (Hawaiʻi County): Council:  Adopts Res. 550-24, Draft 2; adopts FC-172 - 07/24/24</title>
+    <updated>2026-08-28T16:25:22+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1082276&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO A MULTI-YEAR AGREEMENT WITH HAWAIIAN TELCOM, INC., REGARDING COMMUNICATION SERVICES FOR A NEW EMERGENCY COMMUNICATIONS CENTER IN HILO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Authorizes the Mayor to enter into a three-year agreement at an estimated cost of $200,000 per year, for the Hawaiʻi Fire and Police Departments’ emergency operations.&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 550-24, Draft 2; adopts FC-172 - 07/24/24&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1082276&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-55-2022-2024/2026-08-28T16:20:53+00:00</id>
+    <title>Resolution 55 (2022-2024) (Hawaiʻi County): Council: Adopts Res. 55-23 - 2/22/23</title>
+    <updated>2026-08-28T16:20:53+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1082276&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO A MULTI-YEAR AGREEMENT WITH HAWAIIAN TELCOM, INC., REGARDING COMMUNICATION SERVICES FOR A NEW EMERGENCY COMMUNICATIONS CENTER IN HILO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Authorizes the Mayor to enter into a three-year agreement at an estimated cost of $200,000 per year, for the Hawaiʻi Fire and Police Departments’ emergency operations.&lt;/p&gt;
+&lt;p&gt;Latest action: Council: Adopts Res. 55-23 - 2/22/23&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1082276&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-drip-27-bill-113-2026/2026-08-28T16:15:11+00:00</id>
+    <title>New: DRIP-27 Bill 113 (2026) (Maui) — Agenda Ready</title>
+    <updated>2026-08-28T16:15:11+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16376"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 113 (2026), ESTABLISHING CHAPTER 8.38, MAUI COUNTY CODE, ON THE DISCLOSURE, SALE, AND COMMERCIAL USE OF LICENSE PLATE READER DATA  (DRIP-27)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16376"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-drip-26-bill-112-2026/2026-08-28T16:15:11+00:00</id>
+    <title>New: DRIP-26 Bill 112 (2026) (Maui) — Agenda Ready</title>
+    <updated>2026-08-28T16:15:11+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16375"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 112 (2026), ESTABLISHING CHAPTER 8.37, MAUI COUNTY CODE, ON FACIAL RECOGNITION TECHNOLOGY  (DRIP-26)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16375"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-071/2026-08-28T16:15:09+00:00</id>
+    <title>RES26-071 (Honolulu): CR-237(26)
+Reported out for adoption.</title>
+    <updated>2026-08-28T16:15:09+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3680"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING THE SALE OF SURPLUS CITY PROPERTY, PARCEL1-A AND PARCEL 2-A, PORTION OF WEST LOCH GOLF COURSE, HONOULIULI, ʻEWA, OʻAHU, HAWAIʻI, TMK: 9-1-181:022.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: CR-237(26)
+Reported out for adoption.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3680"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-150/2026-08-28T16:15:09+00:00</id>
+    <title>RES26-150 (Honolulu): CR-252(26)
+Reported out for adoption.</title>
+    <updated>2026-08-28T16:15:09+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3769"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;PROPOSING AN AMENDMENT TO CHAPTER 21, REVISED ORDINANCES OF HONOLULU 2021 (THE LAND USE ORDINANCE), RELATING TO LARGE DETACHED DWELLINGS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: CR-252(26)
+Reported out for adoption.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3769"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-168/2026-08-28T16:15:08+00:00</id>
+    <title>RES26-168 (Honolulu): INTRO → ZON</title>
+    <updated>2026-08-28T16:15:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3796"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;GRANTING A SPECIAL MANAGEMENT AREA MAJOR PERMIT TO ALLOW FOR THE CONSTRUCTION OF A NEW COMMERCIAL BUILDING WITH A PARKING LOT, CARETAKER DWELLING, AND ASSOCIATED IMPROVEMENTS IN NĀNĀKULI, OʻAHU.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: INTRO → ZON&lt;/p&gt;
+&lt;p&gt;Latest action: CR-253(26)
+Reported out for adoption as amended in CD1 form.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3796"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-171/2026-08-28T16:15:08+00:00</id>
+    <title>RES26-171 (Honolulu): INTRO → ZON</title>
+    <updated>2026-08-28T16:15:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3800"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING A CONCEPTUAL PLAN FOR AN INTERIM PLANNED DEVELOPMENT-TRANSIT PROJECT FOR THE 1588 ALA MOANA DEVELOPMENT PROJECT.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: INTRO → ZON&lt;/p&gt;
+&lt;p&gt;Latest action: CR-254(26)
+Extension of time reported out for adoption.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3800"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-182/2026-08-28T16:15:08+00:00</id>
+    <title>RES26-182 (Honolulu): INTRO → ILA</title>
+    <updated>2026-08-28T16:15:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3812"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT OF CONFERENCE REGISTRATION FEES AND LODGING TO THE CITY, VALUED AT $2,172.06, FROM THE HAWAIʻI EXECUTIVE COLLABORATIVE FOR THE MAYOR AND MANAGING DIRECTOR TO ATTEND THE HAWAIʻI EXECUTIVE CONFERENCE ON THE ISLAND OF HAWAIʻI FROM SEPTEMBER 30 — OCTOBER 3, 2026.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: INTRO → ILA&lt;/p&gt;
+&lt;p&gt;Latest action: CR-238(26) 
+Reported out for adoption.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3812"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-185/2026-08-28T16:15:08+00:00</id>
+    <title>RES26-185 (Honolulu): INTRO → ILA</title>
+    <updated>2026-08-28T16:15:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3816"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDING THE CITY'S POLICY GUIDELINES FOR SISTER CITY RELATIONSHIPS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: INTRO → ILA&lt;/p&gt;
+&lt;p&gt;Latest action: CR-240(26)
+Reported out for adoption as amended in CD1 form.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3816"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-184/2026-08-28T16:15:08+00:00</id>
+    <title>RES26-184 (Honolulu): INTRO → ILA</title>
+    <updated>2026-08-28T16:15:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3815"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RENEWING THE CITY'S SISTER CITY RELATIONSHIP WITH CEBU CITY, REPUBLIC OF THE PHILIPPINES.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: INTRO → ILA&lt;/p&gt;
+&lt;p&gt;Latest action: CR-239(26)
+Reported out for adoption as amended in CD1 form.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3815"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-188/2026-08-28T16:15:08+00:00</id>
+    <title>RES26-188 (Honolulu): INTRO → ZON</title>
+    <updated>2026-08-28T16:15:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3819"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;PROPOSING AN AMENDMENT TO ZONING MAP NO. 23 (KAILUA-LANIKAI-KEOLU), ORDINANCE 86-124, TO REZONE LAND SITUATED AT KAILUA, O’AHU, HAWAI’I.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: INTRO → ZON&lt;/p&gt;
+&lt;p&gt;Latest action: CR-255(26)
+Reported out for adoption.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3819"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-191/2026-08-28T16:15:08+00:00</id>
+    <title>RES26-191 (Honolulu): INTRO → ILA</title>
+    <updated>2026-08-28T16:15:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3822"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT OF TRAVEL AND LODGING VALUED AT $1,304.20, TO THE CITY FROM THE AAPI LEAD FOUNDATION FOR THE STRATEGIC ADVISOR FROM THE OFFICE OF THE MANAGING DIRECTOR TO ATTEND THE 3RD ANNUAL AAPI LEAD SUMMIT IN LOS ANGELES, CALIFORNIA, FROM JULY 17-19, 2026.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: INTRO → ILA&lt;/p&gt;
+&lt;p&gt;Latest action: CR-241(26)
+Reported out for adoption.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3822"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-193/2026-08-28T16:15:07+00:00</id>
+    <title>RES26-193 (Honolulu): INTRO → ILA</title>
+    <updated>2026-08-28T16:15:07+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3824"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE UNITED STATES ENVIRONMENTAL PROTECTION AGENCY AND THE HAWAIʻI STATE DEPARTMENT OF HEALTH TO REQUIRE THE UNITED STATES DEPARTMENT OF THE NAVY TO INCREASE THE FREQUENCY, CHEMICAL SCOPE, AND GEOGRAPHIC EXTENT OF GROUNDWATER TESTING FOR PER- AND POLYFLUOROALKYL SUBSTANCES AND PETROLEUM CHEMICALS IN THE IMMEDIATE VICINITY OF THE RED HILL BULK FUEL STORAGE FACILITY AND SURROUNDING AREAS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: INTRO → ILA&lt;/p&gt;
+&lt;p&gt;Latest action: CR-242(26)
+Reported out for adoption.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3824"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-198/2026-08-28T16:15:07+00:00</id>
+    <title>RES26-198 (Honolulu): INTRO → ILA</title>
+    <updated>2026-08-28T16:15:07+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3829"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TO AUTHORIZE THE DEPARMENT OF THE CORPORATION COUNSEL TO INITIATE FORECLOSURE ACTION AGAINST THE J.T. VILLA TRUST AND ITS TRUSTEE(S) TO COLLECT CIVIL FINES AND REAL PROPERTY TAXES.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: INTRO → ILA&lt;/p&gt;
+&lt;p&gt;Latest action: CR-243(26)
+Reported out for adoption.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3829"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill016-26/2026-08-28T16:15:07+00:00</id>
+    <title>BILL016(26) (Honolulu): PUBLISH → ILA</title>
+    <updated>2026-08-28T16:15:07+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3606"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE REGULATION OF DOGS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Provides that it is unlawful for an owner of a dog to allow the dog to become, or fail to reasonably prevent the dog from becoming, a stray. Requires the CSD Director or the head of the City agency designated by the Mayor to require the animal control contractor to enforce the provisions contained in ROH Chapter 12, Article 4. Increases existing criminal fines and establishes new civil fines. Requires the CSD Director to
+adopt certain rules.&lt;/p&gt;
+&lt;p&gt;Status: PUBLISH → ILA&lt;/p&gt;
+&lt;p&gt;Latest action: CR-234(26)
+Reported out for passage on third reading as amended in CD2 form.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3606"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill037-26/2026-08-28T16:15:07+00:00</id>
+    <title>BILL037(26) (Honolulu): PUBLISH → ZON</title>
+    <updated>2026-08-28T16:15:07+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3723"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TO AMEND PORTIONS (APPROXIMATELY 14.837 ACRES) OF THE STATE LAND USE DISTRICT BOUNDARY MAPS (SCHOFIELD QUADRANGLE AND ‘EWA QUADRANGLE) FROM THE AGRICULTURAL DISTRICT TO THE URBAN DISTRICT FOR CERTAIN LANDS SITUATED AT KAPOLEI AND HONOULIULI IN ‘EWA, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: PUBLISH → ZON&lt;/p&gt;
+&lt;p&gt;Latest action: CR-247(26)
+Reported out for passage on second reading and scheduling of a public hearing.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3723"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill039-26/2026-08-28T16:15:07+00:00</id>
+    <title>BILL039(26) (Honolulu): PUBLISH → ZON</title>
+    <updated>2026-08-28T16:15:07+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3741"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE REZONING OF LAND SITUATED AT KAPOLEI AND HONOULIULI IN ʻEWA , OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Rezones certain land in the East Kapolei Neighborhood TOD Plan area and ʻEwa.&lt;/p&gt;
+&lt;p&gt;Status: PUBLISH → ZON&lt;/p&gt;
+&lt;p&gt;Latest action: CR-249(26)
+Reported out for passage on second reading and scheduling of a public hearing as amended in CD1 form.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3741"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill038-26/2026-08-28T16:15:07+00:00</id>
+    <title>BILL038(26) (Honolulu): PUBLISH → ZON</title>
+    <updated>2026-08-28T16:15:07+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3740"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO TRANSIT-ORIENTED DEVELOPMENT SPECIAL DISTRICT.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Amends the LUO by expanding the TOO Special District boundaries to the East Kapolei Neighborhood TOD Plan area, adding primary design objectives and use regulations, and modifying the TOD Special District Project Classification table.&lt;/p&gt;
+&lt;p&gt;Status: PUBLISH → ZON&lt;/p&gt;
+&lt;p&gt;Latest action: CR-248(26)
+Reported out for passage on second reading and scheduling of a public hearing.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3740"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill043-26/2026-08-28T16:15:06+00:00</id>
+    <title>BILL043(26) (Honolulu): PUBLISH → ZON</title>
+    <updated>2026-08-28T16:15:06+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3761"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TO REZONE LAND SITUATED AT PAʻALAʻA KAI, WAIALUA, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Rezones land situated at 66-9A Waialua Beach Road, Waialua, identified as Tax Map Key 6-6-018:024 (portion) from the County District to the R-5 Residential District.&lt;/p&gt;
+&lt;p&gt;Status: PUBLISH → ZON&lt;/p&gt;
+&lt;p&gt;Latest action: CR-251(26)
+Reported out for passage on second reading and scheduling of a public hearing as amended in CD1 form.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3761"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill042-26/2026-08-28T16:15:06+00:00</id>
+    <title>BILL042(26) (Honolulu): PUBLISH → ZON</title>
+    <updated>2026-08-28T16:15:06+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3760"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TO AMEND A PORTION OF THE STATE LAND USE DISTRICT BOUNDARY MAP (KAHUKU QUADRANGLE) FROM THE AGRICULTURAL DISTRICT TO THE URBAN DISTRICT FOR CERTAIN LANDS SITUATED IN THE KOʻOLAU LOA DEVELOPMENT PLAN AREA, LĀ‘IE, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Reclassifies certain lands in Lāʻie, Oʻahu from the State Land Use Agricultural District to the State Land Use Urban District.&lt;/p&gt;
+&lt;p&gt;Status: PUBLISH → ZON&lt;/p&gt;
+&lt;p&gt;Latest action: CR-250(26)
+Reported out for passage on second reading and scheduling of a public hearing as amended in CD1 form.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3760"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill048-26/2026-08-28T16:15:06+00:00</id>
+    <title>BILL048(26) (Honolulu): PUBLISH → ILA</title>
+    <updated>2026-08-28T16:15:06+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3780"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO CONDEMNATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Amends ROH Section 2-39.2 to clarify that the section applies to executive agencies and does not apply to HART. Applies retroactively to October 21, 2016 (the effective date of Ordinance 16-29).&lt;/p&gt;
+&lt;p&gt;Status: PUBLISH → ILA&lt;/p&gt;
+&lt;p&gt;Latest action: CR-235(26)
+Reported out for passage on third reading as amended in CD1 form.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3780"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill052-26/2026-08-28T16:15:05+00:00</id>
+    <title>BILL052(26) (Honolulu): PUBLISH → ILA</title>
+    <updated>2026-08-28T16:15:05+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3793"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO STREETS, SIDEWALKS, MALLS, AND OTHER PUBLIC PLACES.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Increases the fines for violations of ROH Chapter 13, Article 6, relating to peddling.&lt;/p&gt;
+&lt;p&gt;Status: PUBLISH → ILA&lt;/p&gt;
+&lt;p&gt;Latest action: CR-236(26)
+Reported out for passage on second reading and scheduling of a public hearing.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3793"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-3001/2026-08-27T23:09:22+00:00</id>
     <title>Bill 3001 (Kauaʻi): On agenda 2026-08-26</title>
     <updated>2026-08-27T23:09:22+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3134"/>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1621"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. B-2026-917 RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2026 THROUGH JUNE 30, 2027, BY REVISING THE AMOUNTS ESTIMATED IN THE GENERAL FUND (Temporary Voter Service Center Workers – $50,000.00)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2026-08-26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3134"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1621"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-3000/2026-08-27T23:09:22+00:00</id>
     <title>Bill 3000 (Kauaʻi): On agenda 2026-08-26</title>
     <updated>2026-08-27T23:09:22+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3134"/>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1621"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE APPROVING A COLLECTIVE BARGAINING AGREEMENT FOR BARGAINING UNIT 15 BETWEEN JULY 1, 2025 AND JUNE 30, 2029&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2026-08-26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3134"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1621"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2970/2026-08-27T23:09:22+00:00</id>
@@ -93,19 +400,19 @@
     <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-3001/2026-08-27T22:46:55+00:00</id>
     <title>New: Bill 3001 (Kauaʻi) — On agenda 2026-09-02</title>
     <updated>2026-08-27T22:46:55+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3134"/>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1621"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. B-2026-917 RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2026 THROUGH JUNE 30, 2027, BY REVISING THE AMOUNTS ESTIMATED IN THE GENERAL FUND (Temporary Voter Service Center Workers – $50,000.00)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2026-09-02&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3134"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1621"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-3000/2026-08-27T22:46:55+00:00</id>
     <title>New: Bill 3000 (Kauaʻi) — On agenda 2026-09-02</title>
     <updated>2026-08-27T22:46:55+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3134"/>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1621"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE APPROVING A COLLECTIVE BARGAINING AGREEMENT FOR BARGAINING UNIT 15 BETWEEN JULY 1, 2025 AND JUNE 30, 2029&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2026-09-02&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3134"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1621"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2999/2026-08-27T22:46:55+00:00</id>
@@ -183,7 +490,8 @@
     <title>New: Resolution 667 (2024-2026) (Hawaiʻi County) — now tracked</title>
     <updated>2026-08-27T22:38:37+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134747&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE PAYMENT OF FUNDS OF LATER FISCAL YEARS TO ENTER INTO A MULTI-YEAR LEASE AGREEMENT FOR TWO MULTIFUNCTION COPY MACHINES TO BE USED BY THE DEPARTMENT OF PUBLIC WORKS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Authorizes the Mayor to enter into a five-year lease agreement with an approximate monthly cost of $240, to be used by the department’s Automotive Division in Hilo.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134747&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
@@ -217,7 +525,8 @@
     <title>New: Resolution 663 (2024-2026) (Hawaiʻi County) — now tracked</title>
     <updated>2026-08-27T22:38:35+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134578&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO HĀMĀKUA HEALTH CENTER, INC., FOR THE HONOKA‘A RENAISSANCE FAIRE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $5,000 from the Clerk-Council Services – Contingency Relief account (Council District 1)&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134578&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
@@ -225,7 +534,8 @@
     <title>New: Resolution 662 (2024-2026) (Hawaiʻi County) — now tracked</title>
     <updated>2026-08-27T22:38:35+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134576&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE AKAKA FOUNDATION FOR TROPICAL FORESTS FOR THE HAWAI‘I ISLAND SEED BANK OUTREACH PROGRAM&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $5,500 from the Clerk-Council Services – Contingency Relief account (Council District 8)&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134576&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
@@ -233,7 +543,8 @@
     <title>New: Resolution 661 (2024-2026) (Hawaiʻi County) — now tracked</title>
     <updated>2026-08-27T22:38:34+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134574&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE BIG ISLAND RESOURCE CONSERVATION AND DEVELOPMENT COUNCIL FOR THE 2026 BARRIO FIESTA&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $1,000 from the Clerk-Council Services – Contingency Relief account (Council District 4)&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134574&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
@@ -241,7 +552,8 @@
     <title>New: Resolution 660 (2024-2026) (Hawaiʻi County) — now tracked</title>
     <updated>2026-08-27T22:38:34+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134572&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE GRASSROOTS COMMUNITY DEVELOPMENT GROUP FOR THE 12TH ANNUAL HAWAI‘I ISLAND ALL NATIONS POWWOW&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $1,000 from the Clerk-Council Services – Contingency Relief account (Council District 4)&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134572&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
@@ -249,7 +561,8 @@
     <title>New: Resolution 659 (2024-2026) (Hawaiʻi County) — now tracked</title>
     <updated>2026-08-27T22:38:33+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134570&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO MALAMA O PUNA FOR THE BLACK SANDS BEACH COMMUNITY GARDEN’S KEIKI RESILIENCE PROJECT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $5,000 from the Clerk-Council Services – Contingency Relief account (Council District 4)&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134570&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
@@ -266,7 +579,8 @@
     <title>New: Resolution 657 (2024-2026) (Hawaiʻi County) — now tracked</title>
     <updated>2026-08-27T22:38:33+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134400&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE WEST HAWAI‘I VETERANS CEMETERY DEVELOPMENT AND EXPANSION ASSOCIATION TO ASSIST WITH EXPENSES FOR THE MEDAL OF HONOR MEMORIAL&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $10,000 from the Clerk-Council Services – Contingency Relief account (Council District 9)&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134400&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
@@ -274,316 +588,8 @@
     <title>New: Resolution 656 (2024-2026) (Hawaiʻi County) — now tracked</title>
     <updated>2026-08-27T22:38:32+00:00</updated>
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134398&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO FRIENDS OF FIRST RESPONDERS FOR THE 2026 ROBUST CONFERENCE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $2,500 from the Clerk-Council Services – Contingency Relief account (Council District 9)&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134398&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-655-2024-2026/2026-08-27T22:38:32+00:00</id>
-    <title>New: Resolution 655 (2024-2026) (Hawaiʻi County) — now tracked</title>
-    <updated>2026-08-27T22:38:32+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134395&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134395&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-654-2024-2026/2026-08-27T22:38:31+00:00</id>
-    <title>New: Resolution 654 (2024-2026) (Hawaiʻi County) — now tracked</title>
-    <updated>2026-08-27T22:38:31+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134392&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134392&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-653-2024-2026/2026-08-27T22:38:31+00:00</id>
-    <title>New: Resolution 653 (2024-2026) (Hawaiʻi County) — now tracked</title>
-    <updated>2026-08-27T22:38:31+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134389&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134389&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-631-2024-2026/2026-08-27T22:38:19+00:00</id>
-    <title>Resolution 631 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:19+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133497&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE SHAC FOUNDATION TO ASSIST WITH EXPENSES FOR THE GLOBAL BREADFRUIT SUMMIT&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $2,500 from the Clerk-Council Services – Contingency Relief account (Council District 9)&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 631-26 - 08/05/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133497&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-630-2024-2026/2026-08-27T22:38:19+00:00</id>
-    <title>Resolution 630 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:19+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133495&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO FRIENDS OF THE FUTURE TO ASSIST WITH EXPENSES FOR PUAKALEHUA EARLY LEARNING CONSORTIUM’S 4TH ANNUAL CELEBRATE ‘OHANA FESTIVAL&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $2,500 from the Clerk-Council Services – Contingency Relief account (Council District 9)&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 630-26 - 08/05/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133495&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-629-2024-2026/2026-08-27T22:38:18+00:00</id>
-    <title>Resolution 629 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:18+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133493&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE SHAC FOUNDATION FOR THE ‘AHA ‘ULU CULTURAL GATHERING&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $5,000 from the Clerk-Council Services – Contingency Relief account (Council District 8)&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 629-26 - 08/05/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133493&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-628-2024-2026/2026-08-27T22:38:18+00:00</id>
-    <title>Resolution 628 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:18+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133491&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE SHAC FOUNDATION FOR THE ‘ULU HO‘OLAULE‘A 2026&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $5,000 from the Clerk-Council Services – Contingency Relief account (Council District 6)&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 628-26 - 08/05/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133491&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-626-2024-2026/2026-08-27T22:38:16+00:00</id>
-    <title>Resolution 626 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:16+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133450&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO KU‘IKAHI MEDIATION CENTER INC. FOR ITS CONFLICT PREVENTION AND RESOLUTION TRAINING SERIES&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $3,000 from the Clerk-Council Services – Contingency Relief account (Council District 1)&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 626-26 - 08/05/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133450&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-625-2024-2026/2026-08-27T22:38:15+00:00</id>
-    <title>Resolution 625 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:15+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133448&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO FRIENDS OF THE FUTURE FOR THE PUAKALEHUA EARLY LEARNING CONSORTIUM’S 4TH ANNUAL CELEBRATE ‘OHANA FESTIVAL&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $2,500 from the Clerk-Council Services – Contingency Relief account (Council District 8)&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 625-26 - 08/05/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133448&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-624-2024-2026/2026-08-27T22:38:15+00:00</id>
-    <title>Resolution 624 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:15+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133446&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO LAUPĀHOEHOE TRAIN MUSEUM FOR ITS HONEYBEE EDUCATION PROGRAM YOUTH OUTREACH PROGRAM&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $5,000 from the Clerk-Council Services – Contingency Relief account (Council District 1)&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 624-26 - 08/05/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133446&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-623-2024-2026/2026-08-27T22:38:14+00:00</id>
-    <title>Resolution 623 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:14+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133444&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO FRIENDS OF THE FUTURE TO UPGRADE THE AUTOMATED EXTERNAL DEFIBRILLATOR FOR ‘ŌʻŌKALA MAUKA COMMUNITY ASSOCIATION&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $250 from the Clerk-Council Services – Contingency Relief account (Council District 1)&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 623-26 - 08/05/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133444&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-622-2024-2026/2026-08-27T22:38:14+00:00</id>
-    <title>Resolution 622 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:14+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133442&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO FRIENDS OF FIRST RESPONDERS FOR THEIR FIRST RESPONDERS’ KIDS’ CAMP&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $2,000 from the Clerk-Council Services – Contingency Relief account (Council District 4)&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 622-26 - 08/05/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133442&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-621-2024-2026/2026-08-27T22:38:14+00:00</id>
-    <title>Resolution 621 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:14+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133440&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO FRIENDS OF FIRST RESPONDERS FOR THE PURCHASE OF OFFICER WELLNESS RESOURCE BOOKS&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $1,000 from the Clerk-Council Services – Contingency Relief account (Council District 6)&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 621-26 - 08/05/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133440&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-620-2024-2026/2026-08-27T22:38:13+00:00</id>
-    <title>Resolution 620 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:13+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133438&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE FRIENDS OF THE PALACE THEATER FOR THEIR COMMUNITY CONNECTIONS PROGRAM&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $2,000 from the Clerk-Council Services – Contingency Relief account (Council District 4)&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 620-26 - 08/05/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133438&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-619-2024-2026/2026-08-27T22:38:13+00:00</id>
-    <title>Resolution 619 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:13+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133436&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO KU‘IKAHI MEDIATION CENTER INC. FOR ITS CONFLICT PREVENTION AND RESOLUTION TRAINING SERIES&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $3,000 from the Clerk-Council Services – Contingency Relief account (Council District 5)&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 619-26 - 08/05/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133436&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-618-2024-2026/2026-08-27T22:38:12+00:00</id>
-    <title>Resolution 618 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:12+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133299&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE FRIENDS OF FIRST RESPONDERS FOR THE 2026 ROBUST CONFERENCE&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $10,000 from the Clerk-Council Services – Contingency Relief account (Council District 8)&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 618-26 - 08/05/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133299&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-608-2024-2026/2026-08-27T22:38:07+00:00</id>
-    <title>Resolution 608 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:07+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132601&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO KELI‘IPIO-KUAMO‘O FOUNDATION, INC., FOR A KĪPAEPAE CEREMONY HONORING THE PRESERVATION OF HONOLULU LANDING&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $2,500 from the Clerk-Council Services – Contingency Relief account (Council District 4)&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 608-26 - 07/23/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132601&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-607-2024-2026/2026-08-27T22:38:06+00:00</id>
-    <title>Resolution 607 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:06+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133585&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO MALAMA O PUNA FOR THE 2ND ANNUAL SMOKE IT UP FESTIVAL&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $5,000 from the Clerk-Council Services – Contingency Relief account (Council District 4)&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 607-26, Draft 2 - 07/23/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133585&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-606-2024-2026/2026-08-27T22:38:06+00:00</id>
-    <title>Resolution 606 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:06+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132597&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO GRASSROOTS COMMUNITY DEVELOPMENT GROUP FOR EXPENSES RELATING TO THE 4THELOVE FESTIVAL&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $5,500 from the Clerk-Council Services – Contingency Relief account (Council District 5)&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 606-26 - 07/23/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132597&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-605-2024-2026/2026-08-27T22:38:05+00:00</id>
-    <title>Resolution 605 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:05+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132542&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;DIRECTS THE COUNTY CLERK TO TAKE NECESSARY ACTION TO PLACE THE CHARTER AMENDMENT PROPOSED BY ORDINANCE NO. 26-47, RELATING TO THE OFFICE OF THE COUNTY AUDITOR, ON THE 2026 GENERAL ELECTION BALLOT&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Proposes to clarify that the County Auditor has the same power with respect to employees within the Office of the County Auditor as department heads in the Executive Branch and specifies that the County Auditor may appoint a deputy.&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 605-26 &amp;amp; GOEAC-150 - 08/05/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132542&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-604-2024-2026/2026-08-27T22:38:05+00:00</id>
-    <title>Resolution 604 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:05+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132535&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO AN INTERGOVERNMENTAL AGREEMENT WITH THE STATE OF HAWAIʻI, DEPARTMENT OF TRANSPORTATION, TO RECEIVE FUNDS TO UPDATE THE COUNTY’S MOTOR VEHICLE REGISTRATION SYSTEM TO IMPLEMENT A SURCHARGE DESIGNATED FOR THE SAFE ROUTES TO SCHOOL PROGRAM&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Allows for the receipt of $6,282.72 of federally-derived funds for expenses associated with programming and updating the County’s motor vehicle registration system.&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 604-26 &amp;amp; FC-159 - 08/05/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132535&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-603-2024-2026/2026-08-27T22:38:04+00:00</id>
-    <title>Resolution 603 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:04+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132343&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;URGES THE DEPARTMENT OF AGRICULTURE AND BIOSECURITY TO IMPLEMENT AND ENFORCE PLANT QUARANTINE INTERIM RULE 26-1, REGULATING THE TRANSPORTATION OF COCONUT RHINOCEROS BEETLE HOST MATERIAL ON HAWAIʻI ISLAND&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 603-26 &amp;amp; GOEAC-149 - 08/05/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132343&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-602-2024-2026/2026-08-27T22:38:04+00:00</id>
-    <title>Resolution 602 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:04+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132308&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO AN INTERGOVERNMENTAL AGREEMENT WITH THE UNITED STATES DEPARTMENT OF THE INTERIOR, NATIONAL PARK SERVICE, FOR INTERAGENCY PUBLIC SAFETY COORDINATION&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Establishes a working relationship between the National Park Service and Hawaiʻi Fire Department to allow for the coordination of personnel, services, equipment, and facilities required for the protection of life and properties during emergency incidents.&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 602.26 &amp;amp; GOEAC-148 - 08/05/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132308&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-601-2024-2026/2026-08-27T22:38:03+00:00</id>
-    <title>Resolution 601 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:03+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132022&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO HAWAI‘I INTERNATIONAL SCIENCE EXPERIENCE FOR ITS 2026 HAWAI‘I INTERNATIONAL SCIENCE EXPERIENCE PROGRAM&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $7,000 from the Clerk-Council Services – Contingency Relief account (Council District 2)&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 601-26 - 07/08/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132022&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-600-2024-2026/2026-08-27T22:38:03+00:00</id>
-    <title>Resolution 600 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:03+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132020&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO BIG ISLAND SUBSTANCE ABUSE COUNCIL FOR ITS 12TH ANNUAL SUMMER JAM&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $2,000 from the Clerk-Council Services – Contingency Relief account (Council District 2)&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 600-26 - 07/08/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132020&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-599-2024-2026/2026-08-27T22:38:02+00:00</id>
-    <title>Resolution 599 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:02+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132018&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO ASSIST THE DEPARTMENT OF PARKS AND RECREATION WITH EXPENSES RELATING TO THE HILO BAY BLAST FIREWORKS DISPLAY CELEBRATING INDEPENDENCE DAY&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $1,500 from the Clerk-Council Services – Contingency Relief account (Council District 4)&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 599-26 - 07/08/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132018&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-598-2024-2026/2026-08-27T22:38:02+00:00</id>
-    <title>Resolution 598 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:02+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132016&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE FRIENDS OF FIRST RESPONDERS FOR THE 2026 ROBUST CONFERENCE&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $5,000 from the Clerk-Council Services – Contingency Relief account (Council District 4)&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 598-26 - 07/08/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132016&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-597-2024-2026/2026-08-27T22:38:01+00:00</id>
-    <title>Resolution 597 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:01+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132014&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO HAWAI‘I INTERNATIONAL SCIENCE EXPERIENCE TO ASSIST WITH EXPENSES FOR ITS 2026 HISE PROGRAM&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $6,500 from the Clerk-Council Services – Contingency Relief account (Council District 1)&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 597-26 - 07/08/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132014&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-596-2024-2026/2026-08-27T22:38:01+00:00</id>
-    <title>Resolution 596 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-08-27T22:38:01+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132012&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO FULL LIFE FOR THE ABLED HAWAI‘I ARTISTS ART IMMERSION EXHIBIT&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $5,500 from the Clerk-Council Services – Contingency Relief account (Council District 1)&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 596-26 - 07/08/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132012&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

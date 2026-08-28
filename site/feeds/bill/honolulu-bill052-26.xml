@@ -2,9 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/honolulu-bill052-26.xml</id>
   <title>BILL052(26) — Honolulu</title>
-  <updated>2026-08-27T22:06:40+00:00</updated>
+  <updated>2026-08-28T16:15:05+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/honolulu-bill052-26.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill052-26/2026-08-28T16:15:05+00:00</id>
+    <title>BILL052(26) (Honolulu): PUBLISH → ILA</title>
+    <updated>2026-08-28T16:15:05+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3793"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO STREETS, SIDEWALKS, MALLS, AND OTHER PUBLIC PLACES.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Increases the fines for violations of ROH Chapter 13, Article 6, relating to peddling.&lt;/p&gt;
+&lt;p&gt;Status: PUBLISH → ILA&lt;/p&gt;
+&lt;p&gt;Latest action: CR-236(26)
+Reported out for passage on second reading and scheduling of a public hearing.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3793"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill052-26/2026-08-27T22:06:40+00:00</id>
     <title>BILL052(26) (Honolulu): INTRO → PUBLISH</title>
