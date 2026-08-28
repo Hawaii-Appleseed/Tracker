@@ -31,7 +31,7 @@
   // which could not do multi-term queries ("maui housing"), rank results, or
   // match a word still being typed.
   //
-  // Hawaiian orthography is folded before indexing, so "Kauai", "Kaua'i" and
+  // Hawaiian orthography is folded before indexing, so "Kauai", "Kaua'i" and  // okina-lint:ignore
   // "Kauaʻi" are one token and a macron never hides a match.
 
   const SEARCH_FIELDS = [
