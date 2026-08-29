@@ -18,7 +18,12 @@ cd "$REPO"
 echo "=== $(date '+%Y-%m-%d %H:%M:%S') daily scrape start ===" >> "$LOG"
 
 # Sync with remote (Pages-only commits may have landed); keep local clean.
-git pull --rebase --autostash origin main >> "$LOG" 2>&1 || true
+# Skipped when invoked from tracker-scrape-guard.sh: the guard has already
+# pulled AND verified that tree against an approved fingerprint. Pulling
+# again here would re-open the hole the guard exists to close.
+if [ "${SKIP_PULL:-0}" != "1" ]; then
+  git pull --rebase --autostash origin main >> "$LOG" 2>&1 || true
+fi
 
 "$PY" -m tracker.legislative scrape --council all >> "$LOG" 2>&1
 "$PY" -m tracker.legislative diff --output /tmp/tracker-diff.json >> "$LOG" 2>&1 || true
