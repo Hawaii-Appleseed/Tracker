@@ -128,4 +128,3 @@ def build(db_path: Path = DEFAULT_DB, site_dir: Path = SITE_DIR) -> Path:
 
 if __name__ == "__main__":
     build()
-# guard end-to-end test 1787993128
