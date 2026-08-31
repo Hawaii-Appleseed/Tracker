@@ -2,9 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/kauai.xml</id>
   <title>Bill Tracker — Kauaʻi</title>
-  <updated>2026-08-28T16:36:16+00:00</updated>
+  <updated>2026-08-31T16:47:00+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/kauai.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2923/2026-08-31T16:47:00+00:00</id>
+    <title>Bill 2923 (Kauaʻi): — → In Committee</title>
+    <updated>2026-08-31T16:47:00+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2712"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING ORDINANCE B-2024-896 AS AMENDED, RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2024 THROUGH JUNE 30, 2025, BY REVISING THE AMOUNTS ESTIMATED IN THE PUBLIC ACCESS, OPEN SPACE, NATURAL RESOURCES PRESERVATION FUND&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → In Committee&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-07-31&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2712"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-3001/2026-08-28T16:36:16+00:00</id>
     <title>Bill 3001 (Kauaʻi): On agenda 2026-09-02</title>
@@ -118,11 +128,11 @@
     <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2923/2026-08-27T22:46:55+00:00</id>
     <title>Bill 2923 (Kauaʻi): In Committee → —</title>
     <updated>2026-08-27T22:46:55+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2706"/>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2712"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING ORDINANCE B-2024-896 AS AMENDED, RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2024 THROUGH JUNE 30, 2025, BY REVISING THE AMOUNTS ESTIMATED IN THE PUBLIC ACCESS, OPEN SPACE, NATURAL RESOURCES PRESERVATION FUND&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Status: In Committee → —&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2024-07-10&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2706"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2712"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2902/2026-07-27T22:01:00+00:00</id>
@@ -447,14 +457,5 @@
     <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION CONFIRMING MAYORAL APPOINTMENT TO THE CHARTER REVIEW COMMISSION (La‘akea Chun)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2024-04-24&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2680"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2915/2026-07-27T22:00:59+00:00</id>
-    <title>New: Bill 2915 (Kauaʻi) — On agenda 2024-05-01</title>
-    <updated>2026-07-27T22:00:59+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2682"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 7A, ARTICLE 5, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO HOUSING ELIGIBILITY AND SELECTION (Deferred April 17, 2024)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2024-05-01&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2682"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

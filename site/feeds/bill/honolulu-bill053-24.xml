@@ -2,17 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/honolulu-bill053-24.xml</id>
   <title>BILL053(24) — Honolulu</title>
-  <updated>2026-06-01T20:41:03+00:00</updated>
+  <updated>2026-08-31T16:15:05+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/honolulu-bill053-24.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill053-24/2026-06-01T20:41:03+00:00</id>
-    <title>New: BILL053(24) (Honolulu) — CC-181(25) - Bill re-referred from Zoning, to Zoning &amp; Planning Committee.</title>
-    <updated>2026-06-01T20:41:03+00:00</updated>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill053-24/2026-08-31T16:15:05+00:00</id>
+    <title>BILL053(24) (Honolulu): — → FILE</title>
+    <updated>2026-08-31T16:15:05+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3072"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE SPECIAL MANAGEMENT AREA.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Delegates the authority to take action on special management area major permits for certain types of development from the City Council to the Director of Planning and Permitting. Makes conforming amendments consistent with Act 229, Session Laws of Hawaii 2023, amending the State of Hawaii Coastal Zone Management Act.&lt;/p&gt;
-&lt;p&gt;Latest action: CC-181(25) - Bill re-referred from Zoning, to Zoning &amp;amp; Planning Committee.&lt;/p&gt;
+&lt;p&gt;Status: — → FILE&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3072"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

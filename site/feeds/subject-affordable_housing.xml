@@ -2,9 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/subject-affordable_housing.xml</id>
   <title>Bill Tracker — Affordable Housing bills</title>
-  <updated>2026-08-28T16:15:09+00:00</updated>
+  <updated>2026-08-31T16:26:41+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/subject-affordable_housing.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-168-2024-2026/2026-08-31T16:26:41+00:00</id>
+    <title>Bill 168 (2024-2026) (Hawaiʻi County): Passed Second Reading → Adopted</title>
+    <updated>2026-08-31T16:26:41+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133526&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;REPEALS ORDINANCE NOS. 19-38, 09-50, 09-49, 06-138, 06-137, 95-118, 92-36, 90-10, 86-49, 533 (1980), AND 594 (1973) AND AMENDS CHAPTER 25, ARTICLE 8, SECTION 25-8-3 (NORTH KONA ZONING MAP) AND SECTION 25-8-5 (KAILUA URBAN ZONING MAP), OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), BY CHANGING THE DISTRICT CLASSIFICATION FROM VILLAGE COMMERCIAL – 7,500 SQUARE FEET (CV-7.5) AND MULTIPLE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Director Initiated) (Area: 6,467 acres) The Leeward Planning Commission forwards its favorable recommendation to revert the current zoning of 3.331 acres from Village Commercial to Double-Family Residential and 3.227 acres from Multiple-Family Residentia&lt;/p&gt;
+&lt;p&gt;Status: Passed Second Reading → Adopted&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Bill 168, Draft 2 passes second &amp;amp; final reading - 08/05/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133526&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-150/2026-08-28T16:15:09+00:00</id>
     <title>RES26-150 (Honolulu): CR-252(26)
@@ -545,14 +556,5 @@ Council:  Bill 66, Draft 2 passes second &amp;amp; final reading - 06/03/26&lt;/
     <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16351"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;BILL 109 (2026) AND BILL 115 (2026), COMMUNITY PLAN AMENDMENT AND CHANGE IN ZONING FOR 19.933 ACRES IDENTIFIED AS TAX MAP KEYS (2) 2-5-005:023 AND (2) 2-5-005:054, PĀʻIA, HAWAIʻI (PĀʻIA SUGAR MILL REDEVELOPMENT PROJECT)  (HLU-25)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16351"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-188/2026-08-27T22:06:44+00:00</id>
-    <title>New: RES26-188 (Honolulu) — INTRO</title>
-    <updated>2026-08-27T22:06:44+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3819"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;PROPOSING AN AMENDMENT TO ZONING MAP NO. 23 (KAILUA-LANIKAI-KEOLU), ORDINANCE 86-124, TO REZONE LAND SITUATED AT KAILUA, O’AHU, HAWAI’I.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3819"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
