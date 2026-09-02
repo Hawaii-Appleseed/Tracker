@@ -2,9 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-bill-190-2024-2026.xml</id>
   <title>Bill 190 (2024-2026) — Hawaiʻi County</title>
-  <updated>2026-08-27T22:26:19+00:00</updated>
+  <updated>2026-09-02T16:27:51+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-bill-190-2024-2026.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-190-2024-2026/2026-09-02T16:27:51+00:00</id>
+    <title>Bill 190 (2024-2026) (Hawaiʻi County): — → Passed First Reading</title>
+    <updated>2026-09-02T16:27:51+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134745&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS ORDINANCE NO. 26-44, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2027&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Appropriates revenues in the Federal Grants – Workforce Innovation and Opportunity Act account ($1,300,000) and appropriates the same to the following Workforce Innovation and Opportunity Act 2026-2027 accounts: Administrative/Planning ($150,000), Adult Program ($500,000), Dislocated Worker Program ($250,000), and Youth Program ($400,000). Funds would be used to provide services that enhance employment opportunities, job retention, earnings, skill development and literacy.&lt;/p&gt;
+&lt;p&gt;Status: — → Passed First Reading&lt;/p&gt;
+&lt;p&gt;Latest action: FC-179:  Recommended passage on first reading - 9/1/2026&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134745&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-190-2024-2026/2026-08-27T22:26:19+00:00</id>
     <title>New: Bill 190 (2024-2026) (Hawaiʻi County) — now tracked</title>

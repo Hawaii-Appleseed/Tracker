@@ -2,9 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/honolulu.xml</id>
   <title>Bill Tracker — Honolulu</title>
-  <updated>2026-08-31T16:15:13+00:00</updated>
+  <updated>2026-09-02T16:15:27+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/honolulu.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-200/2026-09-02T16:15:27+00:00</id>
+    <title>New: RES26-200 (Honolulu) — INTRO</title>
+    <updated>2026-09-02T16:15:27+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3831"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING THE DEPARTMENT OF TRANSPORTATION SERVICES’ AGENCY RAIL SAFETY PLAN FOR RAIL OPERATIONS REQUIRED BY 49 CFR PART 673, 49 CFR PART 674 AND HAWAII DEPARTMENT OF TRANSPORTATION PROGRAM STANDARDS AND PROCEDURES.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3831"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-203/2026-09-02T16:15:27+00:00</id>
+    <title>New: RES26-203 (Honolulu) — INTRO</title>
+    <updated>2026-09-02T16:15:27+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3835"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE TRANSFER OF FUNDS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3835"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-202/2026-09-02T16:15:27+00:00</id>
+    <title>New: RES26-202 (Honolulu) — INTRO</title>
+    <updated>2026-09-02T16:15:27+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3834"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE TRANSFER OF FUNDS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3834"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-201/2026-09-02T16:15:25+00:00</id>
+    <title>New: RES26-201 (Honolulu) — INTRO</title>
+    <updated>2026-09-02T16:15:25+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3833"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;INITIATING AMENDMENTS TO THE REVISED CHARTER OF THE CITY AND COUNTY OF HONOLULU 1973 (AMENDED 2017 EDITION), AS AMENDED, PURSUANT TO THE MAYOR’S EXECUTIVE REORGANIZATION AUTHORITY, RELATING TO THE MAYOR’S OFFICE OF CULTURE AND THE ARTS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3833"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill056-26/2026-09-02T16:15:20+00:00</id>
+    <title>New: BILL056(26) (Honolulu) — INTRO</title>
+    <updated>2026-09-02T16:15:20+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3832"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE CORPORATION COUNSEL.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3832"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-199/2026-08-31T16:15:13+00:00</id>
     <title>New: RES26-199 (Honolulu) — INTRO</title>
@@ -140,7 +185,7 @@ Reported out for adoption.&lt;/p&gt;
     <title>RES26-198 (Honolulu): INTRO → ILA</title>
     <updated>2026-08-28T16:15:07+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3829"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO AUTHORIZE THE DEPARMENT OF THE CORPORATION COUNSEL TO INITIATE FORECLOSURE ACTION AGAINST THE J.T. VILLA TRUST AND ITS TRUSTEE(S) TO COLLECT CIVIL FINES AND REAL PROPERTY TAXES.&lt;/strong&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;TO AUTHORIZE THE DEPARTMENT OF THE CORPORATION COUNSEL TO INITIATE FORECLOSURE ACTION AGAINST THE J.T. VILLA TRUST AND ITS TRUSTEE(S) TO COLLECT CIVIL FINES AND REAL PROPERTY TAXES.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Status: INTRO → ILA&lt;/p&gt;
 &lt;p&gt;Latest action: CR-243(26)
 Reported out for adoption.&lt;/p&gt;
@@ -489,54 +534,5 @@ Reported out for adoption.&lt;/p&gt;
 &lt;p&gt;Status: INTRO → CCL&lt;/p&gt;
 &lt;p&gt;Latest action: Adopted.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3809"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-181/2026-08-27T22:06:45+00:00</id>
-    <title>RES26-181 (Honolulu): INTRO → BUD</title>
-    <updated>2026-08-27T22:06:45+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3811"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE TRANSFER OF FUNDS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: INTRO → BUD&lt;/p&gt;
-&lt;p&gt;Latest action: CR-220(26)
-Reported out for adoption as amended in CD1 form.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3811"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-180/2026-08-27T22:06:45+00:00</id>
-    <title>RES26-180 (Honolulu): INTRO → HHP</title>
-    <updated>2026-08-27T22:06:45+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3810"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT OF ONE (1) HIGH-BACK TRADITIONAL BENCH, PREPARATIONS OF THE GROUNDS AND ONE (1) BRONZE PLAQUE WITH AN INSCRIPTION TO READ “DONATED BY THE FAMILY OF RURIKO FUJINO,” VALUED AT $2,718.74 TO THE CITY FROM ANNE FUJINO FOR PLACEMENT AT KAILUA BEACH PARK.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: INTRO → HHP&lt;/p&gt;
-&lt;p&gt;Latest action: CR-230(26)
-Reported out for adoption.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3810"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-185/2026-08-27T22:06:44+00:00</id>
-    <title>New: RES26-185 (Honolulu) — INTRO</title>
-    <updated>2026-08-27T22:06:44+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3816"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDING THE CITY'S POLICY GUIDELINES FOR SISTER CITY RELATIONSHIPS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3816"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-184/2026-08-27T22:06:44+00:00</id>
-    <title>New: RES26-184 (Honolulu) — INTRO</title>
-    <updated>2026-08-27T22:06:44+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3815"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RENEWING THE CITY'S SISTER CITY RELATIONSHIP WITH CEBU CITY, REPUBLIC OF THE PHILIPPINES.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3815"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-183/2026-08-27T22:06:44+00:00</id>
-    <title>New: RES26-183 (Honolulu) — INTRO</title>
-    <updated>2026-08-27T22:06:44+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3814"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;GRANTING A SPECIAL MANAGEMENT AREA MAJOR PERMIT TO ALLOW FOR THE CONSTRUCTION OF A NEW TWO-STORY SINGLE-UNIT DWELLING WITH LANAI, CARPORT, A ROCK GARDEN, AN OPEN ONE-CAR PARKING AREA, AN IN-GROUND POOL, AND AN INDIVIDUAL WASTEWATER SYSTEM IN KAHUKU, OʻAHU.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3814"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

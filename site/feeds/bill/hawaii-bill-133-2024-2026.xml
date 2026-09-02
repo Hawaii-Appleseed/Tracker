@@ -2,28 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-bill-133-2024-2026.xml</id>
   <title>Bill 133 (2024-2026) — Hawaiʻi County</title>
-  <updated>2026-08-27T22:25:46+00:00</updated>
+  <updated>2026-09-02T16:26:28+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-bill-133-2024-2026.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-133-2024-2026/2026-09-02T16:26:28+00:00</id>
+    <title>Bill 133 (2024-2026) (Hawaiʻi County): Adopted → —</title>
+    <updated>2026-09-02T16:26:28+00:00</updated>
+    <link rel="alternate" href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;clip_id=3716"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Increases revenues in the Federal Grants – Staffing for Adequate Fire and Emergency Response account ($271,447)&lt;/p&gt;
+&lt;p&gt;Status: Adopted → —&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2026-04-08&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;amp;clip_id=3716"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-133-2024-2026/2026-08-27T22:25:46+00:00</id>
     <title>Bill 133 (2024-2026) (Hawaiʻi County): Passed Second Reading → Adopted</title>
     <updated>2026-08-27T22:25:46+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1125219&amp;dbid=0"/>
+    <link rel="alternate" href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;clip_id=3716"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Increases revenues in the Federal Grants – Staffing for Adequate Fire and Emergency Response account ($271,447)&lt;/p&gt;
 &lt;p&gt;Status: Passed Second Reading → Adopted&lt;/p&gt;
 &lt;p&gt;Latest action: Council:  Bill 133 passes second &amp;amp; final reading - 04/08/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1125219&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;amp;clip_id=3716"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-133-2024-2026/2026-07-27T21:41:04+00:00</id>
     <title>New: Bill 133 (2024-2026) (Hawaiʻi County) — Passed Second Reading</title>
     <updated>2026-07-27T21:41:04+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1125219&amp;dbid=0"/>
+    <link rel="alternate" href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;clip_id=3716"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Increases revenues in the Federal Grants – Staffing for Adequate Fire and Emergency Response account ($271,447)&lt;/p&gt;
 &lt;p&gt;Latest action: Council:  Bill 133 passes second &amp;amp; final reading - 04/08/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1125219&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;amp;clip_id=3716"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

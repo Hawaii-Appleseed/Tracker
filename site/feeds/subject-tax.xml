@@ -2,15 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/subject-tax.xml</id>
   <title>Bill Tracker — Tax bills</title>
-  <updated>2026-08-28T16:15:07+00:00</updated>
+  <updated>2026-09-02T17:10:33+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/subject-tax.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2999/2026-09-02T17:10:33+00:00</id>
+    <title>Bill 2999 (Kauaʻi): On agenda 2026-08-19</title>
+    <updated>2026-09-02T17:10:33+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3131"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 6, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO ESTABLISHING THE SPECIAL-DUTY POLICE OFFICER PROGRAM FEE ACCOUNT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2026-08-19&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3131"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-645-2024-2026/2026-09-02T17:04:53+00:00</id>
+    <title>Resolution 645 (2024-2026) (Hawaiʻi County): FC-171:  Recommended adoption - 9/1/2026</title>
+    <updated>2026-09-02T17:04:53+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134073&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE PAYMENT OF FUNDS OF LATER FISCAL YEARS TO ENTER INTO A MULTI-YEAR AGREEMENT WITH JUST APPRAISED INC. TO RENEW A SOFTWARE LICENSE FOR THE DEPARTMENT OF FINANCE, REAL PROPERTY TAX DIVISION&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Authorizes the Mayor to enter into a three-year agreement with an approximate annual cost of $61,110, to be used by the department to update ownership information that is used for issuance of assessments, tax billing, and other required correspondences.&lt;/p&gt;
+&lt;p&gt;Latest action: FC-171:  Recommended adoption - 9/1/2026&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134073&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-131-2024-2026/2026-09-02T16:26:25+00:00</id>
+    <title>Bill 131 (2024-2026) (Hawaiʻi County): Adopted → —</title>
+    <updated>2026-09-02T16:26:25+00:00</updated>
+    <link rel="alternate" href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;clip_id=3716"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS SECTION 25-8-33 (CITY OF HILO ZONE MAP), ARTICLE 8, CHAPTER 25 (ZONING CODE) OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), BY CHANGING THE DISTRICT CLASSIFICATION FROM SINGLE-FAMILY RESIDENTIAL – 10,000 SQUARE FEET (RS-10) TO NEIGHBORHOOD COMMERCIAL – 10,000 SQUARE FEET (CN-10) AT WAIĀKEA, SOUTH HILO, HAWAIʻI, COVERED BY TAX MAP KEY: 2-2-034:045 (Applicant: CU&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hawaiʻi Federal Credit Union) (Area: 22,500 square feet) The Windward Planning Commission forwards its favorable recommendation for this requested change of zone, which would allow the applicant to construct a 41-stall parking lot for the proposed new credit union facility to be located on Tax Map Key: 2-2-034:036. The property is located at 494 Hīnano Street.&lt;/p&gt;
+&lt;p&gt;Status: Adopted → —&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2026-04-08&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;amp;clip_id=3716"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-198/2026-08-28T16:15:07+00:00</id>
     <title>RES26-198 (Honolulu): INTRO → ILA</title>
     <updated>2026-08-28T16:15:07+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3829"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO AUTHORIZE THE DEPARMENT OF THE CORPORATION COUNSEL TO INITIATE FORECLOSURE ACTION AGAINST THE J.T. VILLA TRUST AND ITS TRUSTEE(S) TO COLLECT CIVIL FINES AND REAL PROPERTY TAXES.&lt;/strong&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;TO AUTHORIZE THE DEPARTMENT OF THE CORPORATION COUNSEL TO INITIATE FORECLOSURE ACTION AGAINST THE J.T. VILLA TRUST AND ITS TRUSTEE(S) TO COLLECT CIVIL FINES AND REAL PROPERTY TAXES.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Status: INTRO → ILA&lt;/p&gt;
 &lt;p&gt;Latest action: CR-243(26)
 Reported out for adoption.&lt;/p&gt;
@@ -32,10 +62,10 @@ Reported out for passage on second reading and scheduling of a public hearing as
     <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2999/2026-08-27T22:46:55+00:00</id>
     <title>New: Bill 2999 (Kauaʻi) — On agenda 2026-08-26</title>
     <updated>2026-08-27T22:46:55+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3134"/>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3131"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 6, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO ESTABLISHING THE SPECIAL-DUTY POLICE OFFICER PROGRAM FEE ACCOUNT&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2026-08-26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3134"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3131"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-604-2024-2026/2026-08-27T22:38:05+00:00</id>
@@ -227,12 +257,12 @@ Reported out for passage on second reading and scheduling of a public hearing as
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-131-2024-2026/2026-08-27T22:25:45+00:00</id>
     <title>Bill 131 (2024-2026) (Hawaiʻi County): Passed Second Reading → Adopted</title>
     <updated>2026-08-27T22:25:45+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1124869&amp;dbid=0"/>
+    <link rel="alternate" href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;clip_id=3716"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS SECTION 25-8-33 (CITY OF HILO ZONE MAP), ARTICLE 8, CHAPTER 25 (ZONING CODE) OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), BY CHANGING THE DISTRICT CLASSIFICATION FROM SINGLE-FAMILY RESIDENTIAL – 10,000 SQUARE FEET (RS-10) TO NEIGHBORHOOD COMMERCIAL – 10,000 SQUARE FEET (CN-10) AT WAIĀKEA, SOUTH HILO, HAWAIʻI, COVERED BY TAX MAP KEY: 2-2-034:045 (Applicant: CU&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Hawaiʻi Federal Credit Union) (Area: 22,500 square feet) The Windward Planning Commission forwards its favorable recommendation for this requested change of zone, which would allow the applicant to construct a 41-stall parking lot for the proposed new credit union facility to be located on Tax Map Key: 2-2-034:036. The property is located at 494 Hīnano Street.&lt;/p&gt;
 &lt;p&gt;Status: Passed Second Reading → Adopted&lt;/p&gt;
 &lt;p&gt;Latest action: Council:  Bill 131 passes second &amp;amp; final reading - 04/08/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1124869&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;amp;clip_id=3716"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-130-2024-2026/2026-08-27T22:25:45+00:00</id>
@@ -453,7 +483,7 @@ Reported out for passage on second reading and scheduling of a public hearing as
     <title>New: RES26-198 (Honolulu) — INTRO</title>
     <updated>2026-08-27T22:06:43+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3829"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO AUTHORIZE THE DEPARMENT OF THE CORPORATION COUNSEL TO INITIATE FORECLOSURE ACTION AGAINST THE J.T. VILLA TRUST AND ITS TRUSTEE(S) TO COLLECT CIVIL FINES AND REAL PROPERTY TAXES.&lt;/strong&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;TO AUTHORIZE THE DEPARTMENT OF THE CORPORATION COUNSEL TO INITIATE FORECLOSURE ACTION AGAINST THE J.T. VILLA TRUST AND ITS TRUSTEE(S) TO COLLECT CIVIL FINES AND REAL PROPERTY TAXES.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Latest action: Introduced.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3829"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
@@ -508,33 +538,5 @@ Reported out for passage on second reading and scheduling of a public hearing as
 &lt;p&gt;Status: PUBLISH → BUD&lt;/p&gt;
 &lt;p&gt;Latest action: Cancelled and not considered.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3776"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill068-25/2026-08-27T22:06:39+00:00</id>
-    <title>BILL068(25) (Honolulu): Second reading notice published in the Honolulu Star-Advertiser.</title>
-    <updated>2026-08-27T22:06:39+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3532"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Amends the definition of income in ROH § 8-13.1 to clarify that only the titleholder’s income (and not the income of a non-titleholder who is included on a joint income tax return) will be considered when calculating income eligibility for the County Tax Credit.&lt;/p&gt;
-&lt;p&gt;Latest action: Second reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3532"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-645-2024-2026/2026-08-11T20:57:43+00:00</id>
-    <title>New: Resolution 645 (2024-2026) (Hawaiʻi County) — now tracked</title>
-    <updated>2026-08-11T20:57:43+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134073&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE PAYMENT OF FUNDS OF LATER FISCAL YEARS TO ENTER INTO A MULTI-YEAR AGREEMENT WITH JUST APPRAISED INC. TO RENEW A SOFTWARE LICENSE FOR THE DEPARTMENT OF FINANCE, REAL PROPERTY TAX DIVISION&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Authorizes the Mayor to enter into a three-year agreement with an approximate annual cost of $61,110, to be used by the department to update ownership information that is used for issuance of assessments, tax billing, and other required correspondences.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134073&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-632-2024-2026/2026-08-11T20:57:38+00:00</id>
-    <title>New: Resolution 632 (2024-2026) (Hawaiʻi County) — now tracked</title>
-    <updated>2026-08-11T20:57:38+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134038&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE DIRECTOR OF FINANCE TO ENTER INTO NEGOTIATIONS FOR THE ACQUISITION OF LANDS OR CONSERVATION EASEMENTS FOR ALL OR A PORTION OF THE PROPERTIES IDENTIFIED AS TAX MAP KEYS: 1-5-088:009, 010, 011, 012, AND 013, ALSO KNOWN AS WAIAKAHIʻULA VILLAGE OCEAN ACCESS, AND TAX MAP KEYS: 1-5-063:042 AND 043, ALSO KNOWN AS WAIAKAHIʻULA BURIAL SITE 19014 AND AGRICULTURAL COMPLEX SITE 19013, BOTH SITU&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The County seeks to acquire approximately 1.505 acres of land listed as the fifth and sixth highest priorities in the 2025 Annual Report of the Public Access, Open Space, and Natural Resources Preservation Commission.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134038&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

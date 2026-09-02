@@ -2,9 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/subject-affordable_housing.xml</id>
   <title>Bill Tracker — Affordable Housing bills</title>
-  <updated>2026-08-31T16:26:41+00:00</updated>
+  <updated>2026-09-02T16:26:28+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/subject-affordable_housing.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-134-2024-2026/2026-09-02T16:26:28+00:00</id>
+    <title>Bill 134 (2024-2026) (Hawaiʻi County): Adopted → —</title>
+    <updated>2026-09-02T16:26:28+00:00</updated>
+    <link rel="alternate" href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;clip_id=3716"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Appropriates revenues in the Housing Production, Program Income - Repayment account ($16,100)&lt;/p&gt;
+&lt;p&gt;Status: Adopted → —&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2026-04-08&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;amp;clip_id=3716"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-131-2024-2026/2026-09-02T16:26:25+00:00</id>
+    <title>Bill 131 (2024-2026) (Hawaiʻi County): Adopted → —</title>
+    <updated>2026-09-02T16:26:25+00:00</updated>
+    <link rel="alternate" href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;clip_id=3716"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS SECTION 25-8-33 (CITY OF HILO ZONE MAP), ARTICLE 8, CHAPTER 25 (ZONING CODE) OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), BY CHANGING THE DISTRICT CLASSIFICATION FROM SINGLE-FAMILY RESIDENTIAL – 10,000 SQUARE FEET (RS-10) TO NEIGHBORHOOD COMMERCIAL – 10,000 SQUARE FEET (CN-10) AT WAIĀKEA, SOUTH HILO, HAWAIʻI, COVERED BY TAX MAP KEY: 2-2-034:045 (Applicant: CU&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hawaiʻi Federal Credit Union) (Area: 22,500 square feet) The Windward Planning Commission forwards its favorable recommendation for this requested change of zone, which would allow the applicant to construct a 41-stall parking lot for the proposed new credit union facility to be located on Tax Map Key: 2-2-034:036. The property is located at 494 Hīnano Street.&lt;/p&gt;
+&lt;p&gt;Status: Adopted → —&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2026-04-08&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;amp;clip_id=3716"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-168-2024-2026/2026-08-31T16:26:41+00:00</id>
     <title>Bill 168 (2024-2026) (Hawaiʻi County): Passed Second Reading → Adopted</title>
@@ -277,23 +299,23 @@ Reported out for passage on second reading and scheduling of a public hearing as
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-134-2024-2026/2026-08-27T22:25:47+00:00</id>
     <title>Bill 134 (2024-2026) (Hawaiʻi County): Passed Second Reading → Adopted</title>
     <updated>2026-08-27T22:25:47+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1125221&amp;dbid=0"/>
+    <link rel="alternate" href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;clip_id=3716"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Appropriates revenues in the Housing Production, Program Income - Repayment account ($16,100)&lt;/p&gt;
 &lt;p&gt;Status: Passed Second Reading → Adopted&lt;/p&gt;
 &lt;p&gt;Latest action: Council:  Bill 134 passes second &amp;amp; final reading - 04/08/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1125221&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;amp;clip_id=3716"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-131-2024-2026/2026-08-27T22:25:45+00:00</id>
     <title>Bill 131 (2024-2026) (Hawaiʻi County): Passed Second Reading → Adopted</title>
     <updated>2026-08-27T22:25:45+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1124869&amp;dbid=0"/>
+    <link rel="alternate" href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;clip_id=3716"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS SECTION 25-8-33 (CITY OF HILO ZONE MAP), ARTICLE 8, CHAPTER 25 (ZONING CODE) OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), BY CHANGING THE DISTRICT CLASSIFICATION FROM SINGLE-FAMILY RESIDENTIAL – 10,000 SQUARE FEET (RS-10) TO NEIGHBORHOOD COMMERCIAL – 10,000 SQUARE FEET (CN-10) AT WAIĀKEA, SOUTH HILO, HAWAIʻI, COVERED BY TAX MAP KEY: 2-2-034:045 (Applicant: CU&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Hawaiʻi Federal Credit Union) (Area: 22,500 square feet) The Windward Planning Commission forwards its favorable recommendation for this requested change of zone, which would allow the applicant to construct a 41-stall parking lot for the proposed new credit union facility to be located on Tax Map Key: 2-2-034:036. The property is located at 494 Hīnano Street.&lt;/p&gt;
 &lt;p&gt;Status: Passed Second Reading → Adopted&lt;/p&gt;
 &lt;p&gt;Latest action: Council:  Bill 131 passes second &amp;amp; final reading - 04/08/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1124869&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;amp;clip_id=3716"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-130-2024-2026/2026-08-27T22:25:45+00:00</id>
@@ -537,24 +559,5 @@ Council:  Bill 66, Draft 2 passes second &amp;amp; final reading - 06/03/26&lt;/
 &lt;p&gt;Status: — → Withdrawn&lt;/p&gt;
 &lt;p&gt;Latest action: FC:  Withdrawn by introducer - 4/1/2025&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1100615&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-29-2024-2026/2026-08-27T22:24:36+00:00</id>
-    <title>Bill 29 (2024-2026) (Hawaiʻi County): Passed Second Reading → Adopted</title>
-    <updated>2026-08-27T22:24:36+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1112023&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 25, ARTICLE 3, SECTION 25-3-3, OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO THE ESTABLISHMENT OF ZONING DISTRICTS&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Allows for the establishment of special zoning districts using methods of geographical description other than metes and bounds.&lt;/p&gt;
-&lt;p&gt;Status: Passed Second Reading → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Bill 29, Draft 2 passes second &amp;amp; final reading - 8/20/25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1112023&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-hlu-25-bill-109-2026/2026-08-27T22:06:50+00:00</id>
-    <title>New: HLU-25 Bill 109 (2026) (Maui) — Agenda Ready</title>
-    <updated>2026-08-27T22:06:50+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16351"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 109 (2026) AND BILL 115 (2026), COMMUNITY PLAN AMENDMENT AND CHANGE IN ZONING FOR 19.933 ACRES IDENTIFIED AS TAX MAP KEYS (2) 2-5-005:023 AND (2) 2-5-005:054, PĀʻIA, HAWAIʻI (PĀʻIA SUGAR MILL REDEVELOPMENT PROJECT)  (HLU-25)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16351"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

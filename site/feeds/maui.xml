@@ -2,9 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/maui.xml</id>
   <title>Bill Tracker — Maui</title>
-  <updated>2026-08-28T16:15:11+00:00</updated>
+  <updated>2026-09-02T16:18:35+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/maui.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-bfed-18-bill-93-2024/2026-09-02T16:18:35+00:00</id>
+    <title>New: BFED-18 Bill 93 (2024) (Maui) — Agenda Ready</title>
+    <updated>2026-09-02T16:18:35+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14769"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 93 (2024), AMENDING TITLE 3, MAUI COUNTY CODE, RELATING TO MONETARY DONATIONS DURING AN EMERGENCY  (BFED-18)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14769"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:maui-drip-27-bill-113-2026/2026-08-28T16:15:11+00:00</id>
     <title>New: DRIP-27 Bill 113 (2026) (Maui) — Agenda Ready</title>
@@ -412,13 +420,5 @@ The purpose of this bill is to establish standards and procedures for the remova
     <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14109"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;FISCAL YEAR 2024 ESTIMATED REVENUE SHORTFALL  (BFED-37)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14109"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-bfed-36-bill-92-2023/2026-07-27T19:06:33+00:00</id>
-    <title>New: BFED-36 Bill 92 (2023) (Maui) — Agenda Ready</title>
-    <updated>2026-07-27T19:06:33+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14108"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 92 (2023), AMENDING FISCAL YEAR 2024 BUDGET:  DEPARTMENT OF MANAGEMENT (MANAGEMENT PROGRAM)  (BFED-36)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14108"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
