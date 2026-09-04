@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-resolution-664-2024-2026.xml</id>
   <title>Resolution 664 (2024-2026) — Hawaiʻi County</title>
-  <updated>2026-08-27T22:38:36+00:00</updated>
+  <updated>2026-09-04T16:39:14+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-resolution-664-2024-2026.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-664-2024-2026/2026-09-04T16:39:14+00:00</id>
+    <title>Resolution 664 (2024-2026) (Hawaiʻi County): GOEAC:  Amended to Draft 2 - 09/01/26</title>
+    <updated>2026-09-04T16:39:14+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134612&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;GOEAC&lt;/p&gt;
+&lt;p&gt;Latest action: GOEAC:  Amended to Draft 2 - 09/01/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134612&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-664-2024-2026/2026-08-27T22:38:36+00:00</id>
     <title>New: Resolution 664 (2024-2026) (Hawaiʻi County) — now tracked</title>

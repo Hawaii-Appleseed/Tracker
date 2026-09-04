@@ -2,9 +2,363 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/all.xml</id>
   <title>Hawaiʻi County Bill Tracker — all updates</title>
-  <updated>2026-09-02T17:10:33+00:00</updated>
+  <updated>2026-09-04T16:41:29+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/all.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-ordinance-2025-071/2026-09-04T16:41:29+00:00</id>
+    <title>Ordinance 2025-071 (Hawaiʻi County): Effective 2025-10-24</title>
+    <updated>2026-09-04T16:41:29+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119204&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;Latest action: Effective 2025-10-24&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119204&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-ordinance-2025-071/2026-09-04T16:41:29+00:00</id>
+    <title>Ordinance 2025-071 (Hawaiʻi County): Effective 2026-01-01</title>
+    <updated>2026-09-04T16:41:29+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119204&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;Latest action: Effective 2026-01-01&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119204&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-677-2024-2026/2026-09-04T16:39:22+00:00</id>
+    <title>New: Resolution 677 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-09-04T16:39:22+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135622&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135622&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-676-2024-2026/2026-09-04T16:39:21+00:00</id>
+    <title>New: Resolution 676 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-09-04T16:39:21+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135620&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135620&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-675-2024-2026/2026-09-04T16:39:21+00:00</id>
+    <title>New: Resolution 675 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-09-04T16:39:21+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135615&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;FC&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135615&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-674-2024-2026/2026-09-04T16:39:20+00:00</id>
+    <title>New: Resolution 674 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-09-04T16:39:20+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135613&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;FC&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135613&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-673-2024-2026/2026-09-04T16:39:20+00:00</id>
+    <title>New: Resolution 673 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-09-04T16:39:20+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135611&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;FC&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135611&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-672-2024-2026/2026-09-04T16:39:18+00:00</id>
+    <title>New: Resolution 672 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-09-04T16:39:18+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135608&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;FC&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135608&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-671-2024-2026/2026-09-04T16:39:17+00:00</id>
+    <title>New: Resolution 671 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-09-04T16:39:17+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135604&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;FC&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135604&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-670-2024-2026/2026-09-04T16:39:17+00:00</id>
+    <title>New: Resolution 670 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-09-04T16:39:17+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135602&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;FC&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135602&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-669-2024-2026/2026-09-04T16:39:17+00:00</id>
+    <title>New: Resolution 669 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-09-04T16:39:17+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135600&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135600&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-664-2024-2026/2026-09-04T16:39:14+00:00</id>
+    <title>Resolution 664 (2024-2026) (Hawaiʻi County): GOEAC:  Amended to Draft 2 - 09/01/26</title>
+    <updated>2026-09-04T16:39:14+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134612&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;GOEAC&lt;/p&gt;
+&lt;p&gt;Latest action: GOEAC:  Amended to Draft 2 - 09/01/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134612&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-632-2024-2026/2026-09-04T16:38:53+00:00</id>
+    <title>Resolution 632 (2024-2026) (Hawaiʻi County): LAAC-44:  Recommended adoption - 09/01/26</title>
+    <updated>2026-09-04T16:38:53+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134038&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE DIRECTOR OF FINANCE TO ENTER INTO NEGOTIATIONS FOR THE ACQUISITION OF LANDS OR CONSERVATION EASEMENTS FOR ALL OR A PORTION OF THE PROPERTIES IDENTIFIED AS TAX MAP KEYS: 1-5-088:009, 010, 011, 012, AND 013, ALSO KNOWN AS WAIAKAHIʻULA VILLAGE OCEAN ACCESS, AND TAX MAP KEYS: 1-5-063:042 AND 043, ALSO KNOWN AS WAIAKAHIʻULA BURIAL SITE 19014 AND AGRICULTURAL COMPLEX SITE 19013, BOTH SITU&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The County seeks to acquire approximately 1.505 acres of land listed as the fifth and sixth highest priorities in the 2025 Annual Report of the Public Access, Open Space, and Natural Resources Preservation Commission.&lt;/p&gt;
+&lt;p&gt;Latest action: LAAC-44:  Recommended adoption - 09/01/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134038&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-29-2024-2026/2026-09-04T16:32:34+00:00</id>
+    <title>Resolution 29 (2024-2026) (Hawaiʻi County): — → Adopted</title>
+    <updated>2026-09-04T16:32:34+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1091326&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE ACCEPTANCE OF A DONATION OF MATERIALS AND LABOR TO REMODEL A MOBILE OFFICE TRAILER&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The donation from University of the Nations, Kona Inc., with an estimated value of $7,000, would be used to upgrade a mobile office trailer being utilized to train lifeguards at Kahalu‘u Beach.&lt;/p&gt;
+&lt;p&gt;Status: — → Adopted&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 29-25 - 12/18/24&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1091326&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-28-2024-2026/2026-09-04T16:32:34+00:00</id>
+    <title>Resolution 28 (2024-2026) (Hawaiʻi County): — → Adopted</title>
+    <updated>2026-09-04T16:32:34+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1091135&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO HAWAI‘I RISE FOUNDATION TO ASSIST WITH EXPENSES RELATING TO THE 28TH KWXX HO‘OLAULE‘A&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $10,450 from the Clerk-Council Services – Contingency Relief account (Council District 2)&lt;/p&gt;
+&lt;p&gt;Status: — → Adopted&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 28-25 - 12/18/24&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1091135&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-702-2022-2024/2026-09-04T16:32:00+00:00</id>
+    <title>Resolution 702 (2022-2024) (Hawaiʻi County): Council:  Adopts Res. 703-24 - 11/8/2024</title>
+    <updated>2026-09-04T16:32:00+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1088990&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE HAWAI‘I KEIKI MUSEUM FOR EXPENSES RELATING TO THE COORDINATION AND FACILITATION OF THE K-12 EDUCATION WORKFORCE DEVELOPMENT PROJECT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $3,625 from the Clerk-Council Services – Contingency Relief account (Council District 1)&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 703-24 - 11/8/2024&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1088990&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-702-2022-2024/2026-09-04T16:31:59+00:00</id>
+    <title>Resolution 702 (2022-2024) (Hawaiʻi County): Council:  Adopts Res. 702-24 - 11/8/2024</title>
+    <updated>2026-09-04T16:31:59+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1088990&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE HAWAI‘I KEIKI MUSEUM FOR EXPENSES RELATING TO THE COORDINATION AND FACILITATION OF THE K-12 EDUCATION WORKFORCE DEVELOPMENT PROJECT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $3,625 from the Clerk-Council Services – Contingency Relief account (Council District 1)&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 702-24 - 11/8/2024&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1088990&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-589-2022-2024/2026-09-04T16:30:50+00:00</id>
+    <title>Resolution 589 (2022-2024) (Hawaiʻi County): — → Adopted</title>
+    <updated>2026-09-04T16:30:50+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1083167&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE LOʻI COLLECTIVE FOUNDATION FOR EXPENSES RELATING TO ITS ANNUAL KANU VOLLEYBALL CLASSIC AT THE WAIMEA DISTRICT PARK&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transfers $3,000 from the Clerk-Council Services – Contingency Relief account (Council District 9)&lt;/p&gt;
+&lt;p&gt;Status: — → Adopted&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 589-24 - 8/21/2024&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1083167&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-55-2022-2024/2026-09-04T16:30:27+00:00</id>
+    <title>Resolution 55 (2022-2024) (Hawaiʻi County): Council:  Adopts Res. 550-24, Draft 2; adopts FC-172 - 07/24/24</title>
+    <updated>2026-09-04T16:30:27+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1082276&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO A MULTI-YEAR AGREEMENT WITH HAWAIIAN TELCOM, INC., REGARDING COMMUNICATION SERVICES FOR A NEW EMERGENCY COMMUNICATIONS CENTER IN HILO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Authorizes the Mayor to enter into a three-year agreement at an estimated cost of $200,000 per year, for the Hawaiʻi Fire and Police Departments’ emergency operations.&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 550-24, Draft 2; adopts FC-172 - 07/24/24&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1082276&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-420-2022-2024/2026-09-04T16:29:01+00:00</id>
+    <title>Resolution 420 (2022-2024) (Hawaiʻi County): — → Adopted</title>
+    <updated>2026-09-04T16:29:01+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1070547&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE PAYMENT OF FUNDS OF A LATER FISCAL YEAR AND OF MORE THAN ONE FISCAL YEAR FOR MULTI-YEAR LEASES FOR TWO BACKHOES, TWO WHEELED LOADERS, SIX ROLL-OFF TRUCKS, AND SEVEN TRUCK TRACTORS FOR THE DEPARTMENT OF ENVIRONMENTAL MANAGEMENT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Authorizes the Mayor to enter into five-year lease agreements with an approximate monthly cost of $6,800 for the two backhoes, $23,700 for the two wheeled loaders, $32,400 for the six roll-off trucks, and $36,400 for the seven truck tractors, to be used by the Solid Waste Division.&lt;/p&gt;
+&lt;p&gt;Status: — → Adopted&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 420-24 &amp;amp; FC-138 - 02/21/24&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1070547&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-409-2022-2024/2026-09-04T16:28:54+00:00</id>
+    <title>Resolution 409 (2022-2024) (Hawaiʻi County): — → Adopted</title>
+    <updated>2026-09-04T16:28:54+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1069406&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE ACCEPTANCE OF A QUITCLAIM OF REAL PROPERTY, BEING A PORTION OF GOVERNMENT HOMESTEAD ROAD AND A 30-FOOT-WIDE RIGHT OF WAY, SITUATED AT HONOMŪ, SOUTH HILO, ISLAND OF HAWAIʻI, STATE OF HAWAIʻI, BY ITS BOARD OF LAND AND NATURAL RESOURCES&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The County seeks to preserve and protect public access to the Hilo Forest Reserve.&lt;/p&gt;
+&lt;p&gt;Status: — → Adopted&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 409-24 &amp;amp; LAAC-49 - 02/07/24&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1069406&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-342-2022-2024/2026-09-04T16:28:14+00:00</id>
+    <title>Resolution 342 (2022-2024) (Hawaiʻi County): — → Adopted</title>
+    <updated>2026-09-04T16:28:14+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1065989&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;CREATES ONE NEW GRANT COORDINATOR POSITION, ONE NEW PUBLIC SAFETY COUNSELOR POSITION, AND ONE NEW HUMAN RESOURCES SPECIALIST II POSITION FOR THE POLICE DEPARTMENT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Establishes three new positions to (1) identify and evaluate potential funding sources, (2) support employees and their families by maintaining a safe and productive work environment, and (3) address the department’s personnel expansion.&lt;/p&gt;
+&lt;p&gt;Status: — → Adopted&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 342-23 &amp;amp; FC-111 - 12/06/23&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1065989&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-55-2022-2024/2026-09-04T16:25:32+00:00</id>
+    <title>Resolution 55 (2022-2024) (Hawaiʻi County): Council: Adopts Res. 55-23 - 2/22/23</title>
+    <updated>2026-09-04T16:25:32+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1082276&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO A MULTI-YEAR AGREEMENT WITH HAWAIIAN TELCOM, INC., REGARDING COMMUNICATION SERVICES FOR A NEW EMERGENCY COMMUNICATIONS CENTER IN HILO&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Authorizes the Mayor to enter into a three-year agreement at an estimated cost of $200,000 per year, for the Hawaiʻi Fire and Police Departments’ emergency operations.&lt;/p&gt;
+&lt;p&gt;Latest action: Council: Adopts Res. 55-23 - 2/22/23&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1082276&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-189-2024-2026/2026-09-04T16:24:59+00:00</id>
+    <title>Bill 189 (2024-2026) (Hawaiʻi County): — → Passed First Reading</title>
+    <updated>2026-09-04T16:24:59+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134495&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 14, ARTICLE 25, SECTION 14-151 OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO CLEARING UNSAFE FLORA&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Specifies that a department designated by the mayor may investigate and certify complaints of unsafe flora and specifies that an appropriate expert may be consulted in such cases.&lt;/p&gt;
+&lt;p&gt;Status: — → Passed First Reading&lt;/p&gt;
+&lt;p&gt;Latest action: PCHSW-011:  Recommended passage on first reading - 09/01/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134495&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-187-2024-2026/2026-09-04T16:24:58+00:00</id>
+    <title>Bill 187 (2024-2026) (Hawaiʻi County): — → Postponed</title>
+    <updated>2026-09-04T16:24:58+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134267&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS SECTION 25-8-14 (WAIKŌLOA VILLAGE DISTRICT ZONE MAP), ARTICLE 8, CHAPTER 25 (ZONING CODE) OF THE HAWAI‘I COUNTY CODE (2016 EDITION, AS AMENDED), BY CHANGING THE DISTRICT CLASSIFICATION FROM RESIDENTIAL AND AGRICULTURAL – 1 ACRE (RA-1A) AND OPEN (O) TO MULTIPLE-FAMILY RESIDENTIAL – 1,500 SQUARE FEET (RM-1.5), FAMILY AGRICULTURAL – 1 ACRE (FA-1A), AGRICULTURAL – 10 ACRES (A-10A), AND OPEN (O)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Waikoloa Green LLC) (Area: 14.868 Acres) The Leeward Planning Commission forwards its favorable recommendation for this amendment to the State Land Use Boundaries Map for the requested change of zone, which would allow the applicant to develop a 400-unit multiple-family housing complex with a clubhouse and related improvements. The property is located at the southeast side of Pua Melia Street, ap&lt;/p&gt;
+&lt;p&gt;Status: — → Postponed&lt;/p&gt;
+&lt;p&gt;Latest action: LAAC: Amended to Draft 2 &amp;amp; Postponed to 09/15/26 - 09/01/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134267&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-186-2024-2026/2026-09-04T16:24:57+00:00</id>
+    <title>Bill 186 (2024-2026) (Hawaiʻi County): — → Postponed</title>
+    <updated>2026-09-04T16:24:57+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134266&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS THE STATE LAND USE DISTRICT BOUNDARIES MAP BY CHANGING THE DISTRICT CLASSIFICATION FROM AGRICULTURAL TO URBAN AT WAIKŌLOA, SOUTH KOHALA, HAWAI‘I, COVERED BY A PORTION OF TAX MAP KEY: 6-8-002:016 ; and&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → Postponed&lt;/p&gt;
+&lt;p&gt;Latest action: LAAC: Postponed to 09/15/26 - 09/01/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134266&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-185-2024-2026/2026-09-04T16:24:57+00:00</id>
+    <title>Bill 185 (2024-2026) (Hawaiʻi County): — → Passed First Reading</title>
+    <updated>2026-09-04T16:24:57+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134142&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS SECTION 25-8-11 (LĀLĀMILO-PUʻUKAPU DISTRICT ZONE MAP), ARTICLE 8, CHAPTER 25 (ZONING CODE) OF THE HAWAI‘I COUNTY CODE (2016 EDITION, AS AMENDED), BY CHANGING THE DISTRICT CLASSIFICATION FROM AGRICULTURAL – 40 ACRES (A40-A) TO FAMILY AGRICULTURAL – 1 ACRE (FA-1A) AT PUʻUKAPU, WAIMEA, HAWAI‘I, COVERED BY TAX MAP KEY: 6-4-018:030 (Applicants&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Jacqueline Visser, Hanale Visser, and Gilbert Visser) (Area: 2.397 acres) The Leeward Planning Commission forwards its favorable recommendation for this requested change of zone, which would allow the applicant to create a two-lot subdivision of one-acre each. The property is located at 64-5091 White Road.&lt;/p&gt;
+&lt;p&gt;Status: — → Passed First Reading&lt;/p&gt;
+&lt;p&gt;Latest action: LAAC-46:  Recommended passage on first reading - 09/01/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134142&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-184-2024-2026/2026-09-04T16:24:56+00:00</id>
+    <title>Bill 184 (2024-2026) (Hawaiʻi County): — → Passed First Reading</title>
+    <updated>2026-09-04T16:24:56+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134081&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 14 OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO THE USE OF NATIVE PLANTS IN COUNTY LANDSCAPING&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Requires the use of native plants in County landscaping.&lt;/p&gt;
+&lt;p&gt;Status: — → Passed First Reading&lt;/p&gt;
+&lt;p&gt;Latest action: PCHSW-010:  Recommended passage on first reading - 09/01/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134081&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-181-2024-2026/2026-09-04T16:24:54+00:00</id>
+    <title>Bill 181 (2024-2026) (Hawaiʻi County): — → Passed First Reading</title>
+    <updated>2026-09-04T16:24:54+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134041&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS SECTION 25-8-33 (CITY OF HILO DISTRICT ZONE MAP), ARTICLE 8, CHAPTER 25 (ZONING CODE) OF THE HAWAI‘I COUNTY CODE (2016 EDITION, AS AMENDED), BY CHANGING THE DISTRICT CLASSIFICATION FROM SINGLE-FAMILY RESIDENTIAL – 15,000 SQUARE FEET (RS-15) TO SINGLE-FAMILY RESIDENTIAL – 10,000 SQUARE FEET (RS-10) AT WAIĀKEA, SOUTH HILO, HAWAI‘I, COVERED BY TAX MAP KEY: 2-4-014:016 (Applicant&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Zak Ai Ikawa Saito) (Area: 21,792 square feet) The Windward Planning Commission forwards its favorable recommendation for this requested change of zone, which would allow the applicant to subdivide the property into two lots. The property is located at 283 West Puainako Street.&lt;/p&gt;
+&lt;p&gt;Status: — → Passed First Reading&lt;/p&gt;
+&lt;p&gt;Latest action: LAAC-45:  Recommended passage on first reading - 09/01/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134041&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-134-2024-2026/2026-09-04T16:24:19+00:00</id>
+    <title>Bill 134 (2024-2026) (Hawaiʻi County): — → Adopted</title>
+    <updated>2026-09-04T16:24:19+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1125221&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Appropriates revenues in the Housing Production, Program Income - Repayment account ($16,100)&lt;/p&gt;
+&lt;p&gt;Status: — → Adopted&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Bill 134 passes second &amp;amp; final reading - 04/08/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1125221&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-133-2024-2026/2026-09-04T16:24:17+00:00</id>
+    <title>Bill 133 (2024-2026) (Hawaiʻi County): — → Adopted</title>
+    <updated>2026-09-04T16:24:17+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1125219&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Increases revenues in the Federal Grants – Staffing for Adequate Fire and Emergency Response account ($271,447)&lt;/p&gt;
+&lt;p&gt;Status: — → Adopted&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Bill 133 passes second &amp;amp; final reading - 04/08/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1125219&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-132-2024-2026/2026-09-04T16:24:17+00:00</id>
+    <title>Bill 132 (2024-2026) (Hawaiʻi County): — → Withdrawn</title>
+    <updated>2026-09-04T16:24:17+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1125213&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 6 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED) BY ADDING AN ARTICLE RELATING TO PAID PARKING FACILITIES IN KAILUA VILLAGE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Adds a new article to regulate parking rates at private parking facilities in Kailua Village.&lt;/p&gt;
+&lt;p&gt;Status: — → Withdrawn&lt;/p&gt;
+&lt;p&gt;Latest action: PCPWMT:  Withdrawn - 05/19/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1125213&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-131-2024-2026/2026-09-04T16:24:16+00:00</id>
+    <title>Bill 131 (2024-2026) (Hawaiʻi County): — → Adopted</title>
+    <updated>2026-09-04T16:24:16+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1124869&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS SECTION 25-8-33 (CITY OF HILO ZONE MAP), ARTICLE 8, CHAPTER 25 (ZONING CODE) OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), BY CHANGING THE DISTRICT CLASSIFICATION FROM SINGLE-FAMILY RESIDENTIAL – 10,000 SQUARE FEET (RS-10) TO NEIGHBORHOOD COMMERCIAL – 10,000 SQUARE FEET (CN-10) AT WAIĀKEA, SOUTH HILO, HAWAIʻI, COVERED BY TAX MAP KEY: 2-2-034:045 (Applicant: CU&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hawaiʻi Federal Credit Union) (Area: 22,500 square feet) The Windward Planning Commission forwards its favorable recommendation for this requested change of zone, which would allow the applicant to construct a 41-stall parking lot for the proposed new credit union facility to be located on Tax Map Key: 2-2-034:036. The property is located at 494 Hīnano Street.&lt;/p&gt;
+&lt;p&gt;Status: — → Adopted&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Bill 131 passes second &amp;amp; final reading - 04/08/2026&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1124869&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-125-2024-2026/2026-09-04T16:24:12+00:00</id>
+    <title>Bill 125 (2024-2026) (Hawaiʻi County): — → Adopted</title>
+    <updated>2026-09-04T16:24:12+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1123780&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 25, ARTICLE 7, DIVISION 4, OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO THE PĀHOA VILLAGE DESIGN DISTRICT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Clarifies duties, procedures, and other regulations regarding the Pāhoa Village Design Guidelines and the Pāhoa Design Review Committee; makes other technical and non-substantive amendments.&lt;/p&gt;
+&lt;p&gt;Status: — → Adopted&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Bill 125 passes second &amp;amp; final reading - 07/23/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1123780&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-204/2026-09-04T16:15:15+00:00</id>
+    <title>New: RES26-204 (Honolulu) — INTRO</title>
+    <updated>2026-09-04T16:15:15+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3836"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE APPOINTMENT OF DOMINEQUE BONIFACIO TO SERVE ON THE NEIGHBORHOOD COMMISSION OF THE CITY AND COUNTY OF HONOLULU.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3836"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill048-26/2026-09-04T16:15:10+00:00</id>
+    <title>BILL048(26) (Honolulu): See: Proposed draft version OCS2026-0489/8/13/2026 3:45 PM
+Amended to CD1.</title>
+    <updated>2026-09-04T16:15:10+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3780"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO CONDEMNATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Amends ROH Section 2-39.2 to clarify that the section applies to executive agencies and does not apply to HART. Applies retroactively to October 21, 2016 (the effective date of Ordinance 16-29).&lt;/p&gt;
+&lt;p&gt;Latest action: See: Proposed draft version OCS2026-0489/8/13/2026 3:45 PM
+Amended to CD1.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3780"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2999/2026-09-02T17:10:33+00:00</id>
     <title>Bill 2999 (Kauaʻi): On agenda 2026-08-19</title>
@@ -94,23 +448,23 @@
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-29-2024-2026/2026-09-02T16:50:32+00:00</id>
     <title>Resolution 29 (2024-2026) (Hawaiʻi County): Adopted → —</title>
     <updated>2026-09-02T16:50:32+00:00</updated>
-    <link rel="alternate" href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;clip_id=3257"/>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1091326&amp;dbid=0"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE ACCEPTANCE OF A DONATION OF MATERIALS AND LABOR TO REMODEL A MOBILE OFFICE TRAILER&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The donation from University of the Nations, Kona Inc., with an estimated value of $7,000, would be used to upgrade a mobile office trailer being utilized to train lifeguards at Kahalu‘u Beach.&lt;/p&gt;
 &lt;p&gt;Status: Adopted → —&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2024-12-18&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;amp;clip_id=3257"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1091326&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-28-2024-2026/2026-09-02T16:50:22+00:00</id>
     <title>Resolution 28 (2024-2026) (Hawaiʻi County): Adopted → —</title>
     <updated>2026-09-02T16:50:22+00:00</updated>
-    <link rel="alternate" href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;clip_id=3257"/>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1091135&amp;dbid=0"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO HAWAI‘I RISE FOUNDATION TO ASSIST WITH EXPENSES RELATING TO THE 28TH KWXX HO‘OLAULE‘A&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Transfers $10,450 from the Clerk-Council Services – Contingency Relief account (Council District 2)&lt;/p&gt;
 &lt;p&gt;Status: Adopted → —&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2024-12-18&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;amp;clip_id=3257"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1091135&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-702-2022-2024/2026-09-02T16:47:43+00:00</id>
@@ -136,12 +490,12 @@
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-589-2022-2024/2026-09-02T16:43:59+00:00</id>
     <title>Resolution 589 (2022-2024) (Hawaiʻi County): Adopted → —</title>
     <updated>2026-09-02T16:43:59+00:00</updated>
-    <link rel="alternate" href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;clip_id=3155"/>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1083167&amp;dbid=0"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE LOʻI COLLECTIVE FOUNDATION FOR EXPENSES RELATING TO ITS ANNUAL KANU VOLLEYBALL CLASSIC AT THE WAIMEA DISTRICT PARK&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Transfers $3,000 from the Clerk-Council Services – Contingency Relief account (Council District 9)&lt;/p&gt;
 &lt;p&gt;Status: Adopted → —&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2024-08-21&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;amp;clip_id=3155"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1083167&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-55-2022-2024/2026-09-02T16:42:04+00:00</id>
@@ -157,34 +511,34 @@
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-420-2022-2024/2026-09-02T16:38:17+00:00</id>
     <title>Resolution 420 (2022-2024) (Hawaiʻi County): Adopted → —</title>
     <updated>2026-09-02T16:38:17+00:00</updated>
-    <link rel="alternate" href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;clip_id=2972"/>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1070547&amp;dbid=0"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE PAYMENT OF FUNDS OF A LATER FISCAL YEAR AND OF MORE THAN ONE FISCAL YEAR FOR MULTI-YEAR LEASES FOR TWO BACKHOES, TWO WHEELED LOADERS, SIX ROLL-OFF TRUCKS, AND SEVEN TRUCK TRACTORS FOR THE DEPARTMENT OF ENVIRONMENTAL MANAGEMENT&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Authorizes the Mayor to enter into five-year lease agreements with an approximate monthly cost of $6,800 for the two backhoes, $23,700 for the two wheeled loaders, $32,400 for the six roll-off trucks, and $36,400 for the seven truck tractors, to be used by the Solid Waste Division.&lt;/p&gt;
 &lt;p&gt;Status: Adopted → —&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2024-02-21&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;amp;clip_id=2972"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1070547&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-409-2022-2024/2026-09-02T16:36:50+00:00</id>
     <title>Resolution 409 (2022-2024) (Hawaiʻi County): Adopted → —</title>
     <updated>2026-09-02T16:36:50+00:00</updated>
-    <link rel="alternate" href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;clip_id=2957"/>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1069406&amp;dbid=0"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE ACCEPTANCE OF A QUITCLAIM OF REAL PROPERTY, BEING A PORTION OF GOVERNMENT HOMESTEAD ROAD AND A 30-FOOT-WIDE RIGHT OF WAY, SITUATED AT HONOMŪ, SOUTH HILO, ISLAND OF HAWAIʻI, STATE OF HAWAIʻI, BY ITS BOARD OF LAND AND NATURAL RESOURCES&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The County seeks to preserve and protect public access to the Hilo Forest Reserve.&lt;/p&gt;
 &lt;p&gt;Status: Adopted → —&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2024-02-07&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;amp;clip_id=2957"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1069406&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-342-2022-2024/2026-09-02T16:33:55+00:00</id>
     <title>Resolution 342 (2022-2024) (Hawaiʻi County): Adopted → —</title>
     <updated>2026-09-02T16:33:55+00:00</updated>
-    <link rel="alternate" href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;clip_id=2902"/>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1065989&amp;dbid=0"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;CREATES ONE NEW GRANT COORDINATOR POSITION, ONE NEW PUBLIC SAFETY COUNSELOR POSITION, AND ONE NEW HUMAN RESOURCES SPECIALIST II POSITION FOR THE POLICE DEPARTMENT&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Establishes three new positions to (1) identify and evaluate potential funding sources, (2) support employees and their families by maintaining a safe and productive work environment, and (3) address the department’s personnel expansion.&lt;/p&gt;
 &lt;p&gt;Status: Adopted → —&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2023-12-06&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;amp;clip_id=2902"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1065989&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-55-2022-2024/2026-09-02T16:28:26+00:00</id>
@@ -244,349 +598,11 @@
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-134-2024-2026/2026-09-02T16:26:28+00:00</id>
     <title>Bill 134 (2024-2026) (Hawaiʻi County): Adopted → —</title>
     <updated>2026-09-02T16:26:28+00:00</updated>
-    <link rel="alternate" href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;clip_id=3716"/>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1125221&amp;dbid=0"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Appropriates revenues in the Housing Production, Program Income - Repayment account ($16,100)&lt;/p&gt;
 &lt;p&gt;Status: Adopted → —&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2026-04-08&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;amp;clip_id=3716"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-133-2024-2026/2026-09-02T16:26:28+00:00</id>
-    <title>Bill 133 (2024-2026) (Hawaiʻi County): Adopted → —</title>
-    <updated>2026-09-02T16:26:28+00:00</updated>
-    <link rel="alternate" href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;clip_id=3716"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS ORDINANCE NO. 25-45, AS AMENDED, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2026&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Increases revenues in the Federal Grants – Staffing for Adequate Fire and Emergency Response account ($271,447)&lt;/p&gt;
-&lt;p&gt;Status: Adopted → —&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-04-08&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;amp;clip_id=3716"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-132-2024-2026/2026-09-02T16:26:26+00:00</id>
-    <title>Bill 132 (2024-2026) (Hawaiʻi County): Withdrawn → —</title>
-    <updated>2026-09-02T16:26:26+00:00</updated>
-    <link rel="alternate" href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;clip_id=3762"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 6 OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED) BY ADDING AN ARTICLE RELATING TO PAID PARKING FACILITIES IN KAILUA VILLAGE&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Adds a new article to regulate parking rates at private parking facilities in Kailua Village.&lt;/p&gt;
-&lt;p&gt;Status: Withdrawn → —&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-05-19&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;amp;clip_id=3762"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-131-2024-2026/2026-09-02T16:26:25+00:00</id>
-    <title>Bill 131 (2024-2026) (Hawaiʻi County): Adopted → —</title>
-    <updated>2026-09-02T16:26:25+00:00</updated>
-    <link rel="alternate" href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;clip_id=3716"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS SECTION 25-8-33 (CITY OF HILO ZONE MAP), ARTICLE 8, CHAPTER 25 (ZONING CODE) OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), BY CHANGING THE DISTRICT CLASSIFICATION FROM SINGLE-FAMILY RESIDENTIAL – 10,000 SQUARE FEET (RS-10) TO NEIGHBORHOOD COMMERCIAL – 10,000 SQUARE FEET (CN-10) AT WAIĀKEA, SOUTH HILO, HAWAIʻI, COVERED BY TAX MAP KEY: 2-2-034:045 (Applicant: CU&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Hawaiʻi Federal Credit Union) (Area: 22,500 square feet) The Windward Planning Commission forwards its favorable recommendation for this requested change of zone, which would allow the applicant to construct a 41-stall parking lot for the proposed new credit union facility to be located on Tax Map Key: 2-2-034:036. The property is located at 494 Hīnano Street.&lt;/p&gt;
-&lt;p&gt;Status: Adopted → —&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-04-08&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;amp;clip_id=3716"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-125-2024-2026/2026-09-02T16:26:00+00:00</id>
-    <title>Bill 125 (2024-2026) (Hawaiʻi County): Adopted → —</title>
-    <updated>2026-09-02T16:26:00+00:00</updated>
-    <link rel="alternate" href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;clip_id=3820"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 25, ARTICLE 7, DIVISION 4, OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO THE PĀHOA VILLAGE DESIGN DISTRICT&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Clarifies duties, procedures, and other regulations regarding the Pāhoa Village Design Guidelines and the Pāhoa Design Review Committee; makes other technical and non-substantive amendments.&lt;/p&gt;
-&lt;p&gt;Status: Adopted → —&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-07-23&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hawaiicounty.granicus.com/AgendaViewer.php?view_id=1&amp;amp;clip_id=3820"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-bfed-18-bill-93-2024/2026-09-02T16:18:35+00:00</id>
-    <title>New: BFED-18 Bill 93 (2024) (Maui) — Agenda Ready</title>
-    <updated>2026-09-02T16:18:35+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14769"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 93 (2024), AMENDING TITLE 3, MAUI COUNTY CODE, RELATING TO MONETARY DONATIONS DURING AN EMERGENCY  (BFED-18)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14769"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-200/2026-09-02T16:15:27+00:00</id>
-    <title>New: RES26-200 (Honolulu) — INTRO</title>
-    <updated>2026-09-02T16:15:27+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3831"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING THE DEPARTMENT OF TRANSPORTATION SERVICES’ AGENCY RAIL SAFETY PLAN FOR RAIL OPERATIONS REQUIRED BY 49 CFR PART 673, 49 CFR PART 674 AND HAWAII DEPARTMENT OF TRANSPORTATION PROGRAM STANDARDS AND PROCEDURES.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3831"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-203/2026-09-02T16:15:27+00:00</id>
-    <title>New: RES26-203 (Honolulu) — INTRO</title>
-    <updated>2026-09-02T16:15:27+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3835"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE TRANSFER OF FUNDS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3835"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-202/2026-09-02T16:15:27+00:00</id>
-    <title>New: RES26-202 (Honolulu) — INTRO</title>
-    <updated>2026-09-02T16:15:27+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3834"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE TRANSFER OF FUNDS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3834"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-201/2026-09-02T16:15:25+00:00</id>
-    <title>New: RES26-201 (Honolulu) — INTRO</title>
-    <updated>2026-09-02T16:15:25+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3833"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;INITIATING AMENDMENTS TO THE REVISED CHARTER OF THE CITY AND COUNTY OF HONOLULU 1973 (AMENDED 2017 EDITION), AS AMENDED, PURSUANT TO THE MAYOR’S EXECUTIVE REORGANIZATION AUTHORITY, RELATING TO THE MAYOR’S OFFICE OF CULTURE AND THE ARTS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3833"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill056-26/2026-09-02T16:15:20+00:00</id>
-    <title>New: BILL056(26) (Honolulu) — INTRO</title>
-    <updated>2026-09-02T16:15:20+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3832"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE CORPORATION COUNSEL.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3832"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2923/2026-08-31T16:47:00+00:00</id>
-    <title>Bill 2923 (Kauaʻi): — → In Committee</title>
-    <updated>2026-08-31T16:47:00+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2712"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING ORDINANCE B-2024-896 AS AMENDED, RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2024 THROUGH JUNE 30, 2025, BY REVISING THE AMOUNTS ESTIMATED IN THE PUBLIC ACCESS, OPEN SPACE, NATURAL RESOURCES PRESERVATION FUND&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: — → In Committee&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2024-07-31&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2712"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-ordinance-2026-060/2026-08-31T16:46:36+00:00</id>
-    <title>New: Ordinance 2026-060 (Hawaiʻi County) — Enacted</title>
-    <updated>2026-08-31T16:46:36+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135104&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;Latest action: Effective 2026-08-26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135104&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-ordinance-2025-071/2026-08-31T16:45:47+00:00</id>
-    <title>Ordinance 2025-071 (Hawaiʻi County): Effective 2025-10-24</title>
-    <updated>2026-08-31T16:45:47+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119204&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;Latest action: Effective 2025-10-24&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119204&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-ordinance-2025-071/2026-08-31T16:45:47+00:00</id>
-    <title>Ordinance 2025-071 (Hawaiʻi County): Effective 2026-01-01</title>
-    <updated>2026-08-31T16:45:47+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119204&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;Latest action: Effective 2026-01-01&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119204&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-668-2024-2026/2026-08-31T16:43:23+00:00</id>
-    <title>New: Resolution 668 (2024-2026) (Hawaiʻi County) — now tracked</title>
-    <updated>2026-08-31T16:43:23+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135113&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135113&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-702-2022-2024/2026-08-31T16:34:56+00:00</id>
-    <title>Resolution 702 (2022-2024) (Hawaiʻi County): Council:  Adopts Res. 703-24 - 11/8/2024</title>
-    <updated>2026-08-31T16:34:56+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1088990&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE HAWAI‘I KEIKI MUSEUM FOR EXPENSES RELATING TO THE COORDINATION AND FACILITATION OF THE K-12 EDUCATION WORKFORCE DEVELOPMENT PROJECT&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $3,625 from the Clerk-Council Services – Contingency Relief account (Council District 1)&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 703-24 - 11/8/2024&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1088990&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-702-2022-2024/2026-08-31T16:34:55+00:00</id>
-    <title>Resolution 702 (2022-2024) (Hawaiʻi County): Council:  Adopts Res. 702-24 - 11/8/2024</title>
-    <updated>2026-08-31T16:34:55+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1088990&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE HAWAI‘I KEIKI MUSEUM FOR EXPENSES RELATING TO THE COORDINATION AND FACILITATION OF THE K-12 EDUCATION WORKFORCE DEVELOPMENT PROJECT&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $3,625 from the Clerk-Council Services – Contingency Relief account (Council District 1)&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 702-24 - 11/8/2024&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1088990&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-55-2022-2024/2026-08-31T16:33:06+00:00</id>
-    <title>Resolution 55 (2022-2024) (Hawaiʻi County): Council:  Adopts Res. 550-24, Draft 2; adopts FC-172 - 07/24/24</title>
-    <updated>2026-08-31T16:33:06+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1082276&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO A MULTI-YEAR AGREEMENT WITH HAWAIIAN TELCOM, INC., REGARDING COMMUNICATION SERVICES FOR A NEW EMERGENCY COMMUNICATIONS CENTER IN HILO&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Authorizes the Mayor to enter into a three-year agreement at an estimated cost of $200,000 per year, for the Hawaiʻi Fire and Police Departments’ emergency operations.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 550-24, Draft 2; adopts FC-172 - 07/24/24&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1082276&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-55-2022-2024/2026-08-31T16:27:35+00:00</id>
-    <title>Resolution 55 (2022-2024) (Hawaiʻi County): Council: Adopts Res. 55-23 - 2/22/23</title>
-    <updated>2026-08-31T16:27:35+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1082276&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO A MULTI-YEAR AGREEMENT WITH HAWAIIAN TELCOM, INC., REGARDING COMMUNICATION SERVICES FOR A NEW EMERGENCY COMMUNICATIONS CENTER IN HILO&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Authorizes the Mayor to enter into a three-year agreement at an estimated cost of $200,000 per year, for the Hawaiʻi Fire and Police Departments’ emergency operations.&lt;/p&gt;
-&lt;p&gt;Latest action: Council: Adopts Res. 55-23 - 2/22/23&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1082276&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-192-2024-2026/2026-08-31T16:26:58+00:00</id>
-    <title>New: Bill 192 (2024-2026) (Hawaiʻi County) — now tracked</title>
-    <updated>2026-08-31T16:26:58+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135111&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;FC&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135111&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-191-2024-2026/2026-08-31T16:26:57+00:00</id>
-    <title>New: Bill 191 (2024-2026) (Hawaiʻi County) — now tracked</title>
-    <updated>2026-08-31T16:26:57+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135109&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;PCENRM&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135109&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-168-2024-2026/2026-08-31T16:26:41+00:00</id>
-    <title>Bill 168 (2024-2026) (Hawaiʻi County): Passed Second Reading → Adopted</title>
-    <updated>2026-08-31T16:26:41+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133526&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;REPEALS ORDINANCE NOS. 19-38, 09-50, 09-49, 06-138, 06-137, 95-118, 92-36, 90-10, 86-49, 533 (1980), AND 594 (1973) AND AMENDS CHAPTER 25, ARTICLE 8, SECTION 25-8-3 (NORTH KONA ZONING MAP) AND SECTION 25-8-5 (KAILUA URBAN ZONING MAP), OF THE HAWAI‘I COUNTY CODE 1983 (2016 EDITION, AS AMENDED), BY CHANGING THE DISTRICT CLASSIFICATION FROM VILLAGE COMMERCIAL – 7,500 SQUARE FEET (CV-7.5) AND MULTIPLE&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Director Initiated) (Area: 6,467 acres) The Leeward Planning Commission forwards its favorable recommendation to revert the current zoning of 3.331 acres from Village Commercial to Double-Family Residential and 3.227 acres from Multiple-Family Residentia&lt;/p&gt;
-&lt;p&gt;Status: Passed Second Reading → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Bill 168, Draft 2 passes second &amp;amp; final reading - 08/05/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133526&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-199/2026-08-31T16:15:13+00:00</id>
-    <title>New: RES26-199 (Honolulu) — INTRO</title>
-    <updated>2026-08-31T16:15:13+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3830"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE HONOLULU POLICE DEPARMENT TO CONDUCT COMPREHENSIVE FIREARMS TRACING USING THE ETRACE SYSTEM AND ENHANCE CRIME GUN INTELLIGENCE THROUGH THE DEVELOPMENT OF RELATED DASHBOARDS AND PLATFORMS, TRAINING, AND DATA ANALYTICS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3830"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill053-24/2026-08-31T16:15:05+00:00</id>
-    <title>BILL053(24) (Honolulu): — → FILE</title>
-    <updated>2026-08-31T16:15:05+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3072"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE SPECIAL MANAGEMENT AREA.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Delegates the authority to take action on special management area major permits for certain types of development from the City Council to the Director of Planning and Permitting. Makes conforming amendments consistent with Act 229, Session Laws of Hawaii 2023, amending the State of Hawaii Coastal Zone Management Act.&lt;/p&gt;
-&lt;p&gt;Status: — → FILE&lt;/p&gt;
-&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3072"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-3001/2026-08-28T16:36:16+00:00</id>
-    <title>Bill 3001 (Kauaʻi): On agenda 2026-09-02</title>
-    <updated>2026-08-28T16:36:16+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1621"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. B-2026-917 RELATING TO THE OPERATING BUDGET OF THE COUNTY OF KAUA‘I, STATE OF HAWAI‘I, FOR THE FISCAL YEAR JULY 1, 2026 THROUGH JUNE 30, 2027, BY REVISING THE AMOUNTS ESTIMATED IN THE GENERAL FUND (Temporary Voter Service Center Workers – $50,000.00)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-09-02&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1621"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-3000/2026-08-28T16:36:16+00:00</id>
-    <title>Bill 3000 (Kauaʻi): On agenda 2026-09-02</title>
-    <updated>2026-08-28T16:36:16+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1621"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE APPROVING A COLLECTIVE BARGAINING AGREEMENT FOR BARGAINING UNIT 15 BETWEEN JULY 1, 2025 AND JUNE 30, 2029&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-09-02&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1621"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-ordinance-2025-071/2026-08-28T16:34:52+00:00</id>
-    <title>Ordinance 2025-071 (Hawaiʻi County): Effective 2025-10-24</title>
-    <updated>2026-08-28T16:34:52+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119204&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;Latest action: Effective 2025-10-24&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119204&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-ordinance-2025-071/2026-08-28T16:34:51+00:00</id>
-    <title>Ordinance 2025-071 (Hawaiʻi County): Effective 2026-01-01</title>
-    <updated>2026-08-28T16:34:51+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119204&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;Latest action: Effective 2026-01-01&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119204&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-702-2022-2024/2026-08-28T16:26:41+00:00</id>
-    <title>Resolution 702 (2022-2024) (Hawaiʻi County): Council:  Adopts Res. 703-24 - 11/8/2024</title>
-    <updated>2026-08-28T16:26:41+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1088990&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE HAWAI‘I KEIKI MUSEUM FOR EXPENSES RELATING TO THE COORDINATION AND FACILITATION OF THE K-12 EDUCATION WORKFORCE DEVELOPMENT PROJECT&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $3,625 from the Clerk-Council Services – Contingency Relief account (Council District 1)&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 703-24 - 11/8/2024&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1088990&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-702-2022-2024/2026-08-28T16:26:41+00:00</id>
-    <title>Resolution 702 (2022-2024) (Hawaiʻi County): Council:  Adopts Res. 702-24 - 11/8/2024</title>
-    <updated>2026-08-28T16:26:41+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1088990&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TRANSFERS/APPROPRIATES AN APPROPRIATION OUT AND FROM A DESIGNATED FUND ACCOUNT AND CREDITS SAME TO A DESIGNATED FUND ACCOUNT TO PROVIDE A GRANT TO THE HAWAI‘I KEIKI MUSEUM FOR EXPENSES RELATING TO THE COORDINATION AND FACILITATION OF THE K-12 EDUCATION WORKFORCE DEVELOPMENT PROJECT&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Transfers $3,625 from the Clerk-Council Services – Contingency Relief account (Council District 1)&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 702-24 - 11/8/2024&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1088990&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-55-2022-2024/2026-08-28T16:25:22+00:00</id>
-    <title>Resolution 55 (2022-2024) (Hawaiʻi County): Council:  Adopts Res. 550-24, Draft 2; adopts FC-172 - 07/24/24</title>
-    <updated>2026-08-28T16:25:22+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1082276&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO A MULTI-YEAR AGREEMENT WITH HAWAIIAN TELCOM, INC., REGARDING COMMUNICATION SERVICES FOR A NEW EMERGENCY COMMUNICATIONS CENTER IN HILO&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Authorizes the Mayor to enter into a three-year agreement at an estimated cost of $200,000 per year, for the Hawaiʻi Fire and Police Departments’ emergency operations.&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 550-24, Draft 2; adopts FC-172 - 07/24/24&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1082276&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-55-2022-2024/2026-08-28T16:20:53+00:00</id>
-    <title>Resolution 55 (2022-2024) (Hawaiʻi County): Council: Adopts Res. 55-23 - 2/22/23</title>
-    <updated>2026-08-28T16:20:53+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1082276&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE MAYOR TO ENTER INTO A MULTI-YEAR AGREEMENT WITH HAWAIIAN TELCOM, INC., REGARDING COMMUNICATION SERVICES FOR A NEW EMERGENCY COMMUNICATIONS CENTER IN HILO&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Authorizes the Mayor to enter into a three-year agreement at an estimated cost of $200,000 per year, for the Hawaiʻi Fire and Police Departments’ emergency operations.&lt;/p&gt;
-&lt;p&gt;Latest action: Council: Adopts Res. 55-23 - 2/22/23&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1082276&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-drip-27-bill-113-2026/2026-08-28T16:15:11+00:00</id>
-    <title>New: DRIP-27 Bill 113 (2026) (Maui) — Agenda Ready</title>
-    <updated>2026-08-28T16:15:11+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16376"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 113 (2026), ESTABLISHING CHAPTER 8.38, MAUI COUNTY CODE, ON THE DISCLOSURE, SALE, AND COMMERCIAL USE OF LICENSE PLATE READER DATA  (DRIP-27)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16376"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-drip-26-bill-112-2026/2026-08-28T16:15:11+00:00</id>
-    <title>New: DRIP-26 Bill 112 (2026) (Maui) — Agenda Ready</title>
-    <updated>2026-08-28T16:15:11+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16375"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 112 (2026), ESTABLISHING CHAPTER 8.37, MAUI COUNTY CODE, ON FACIAL RECOGNITION TECHNOLOGY  (DRIP-26)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16375"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-071/2026-08-28T16:15:09+00:00</id>
-    <title>RES26-071 (Honolulu): CR-237(26)
-Reported out for adoption.</title>
-    <updated>2026-08-28T16:15:09+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3680"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING THE SALE OF SURPLUS CITY PROPERTY, PARCEL1-A AND PARCEL 2-A, PORTION OF WEST LOCH GOLF COURSE, HONOULIULI, ʻEWA, OʻAHU, HAWAIʻI, TMK: 9-1-181:022.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: CR-237(26)
-Reported out for adoption.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3680"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-150/2026-08-28T16:15:09+00:00</id>
-    <title>RES26-150 (Honolulu): CR-252(26)
-Reported out for adoption.</title>
-    <updated>2026-08-28T16:15:09+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3769"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;PROPOSING AN AMENDMENT TO CHAPTER 21, REVISED ORDINANCES OF HONOLULU 2021 (THE LAND USE ORDINANCE), RELATING TO LARGE DETACHED DWELLINGS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: CR-252(26)
-Reported out for adoption.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3769"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1125221&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

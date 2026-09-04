@@ -2,9 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/honolulu.xml</id>
   <title>Bill Tracker — Honolulu</title>
-  <updated>2026-09-02T16:15:27+00:00</updated>
+  <updated>2026-09-04T16:15:15+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/honolulu.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-204/2026-09-04T16:15:15+00:00</id>
+    <title>New: RES26-204 (Honolulu) — INTRO</title>
+    <updated>2026-09-04T16:15:15+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3836"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE APPOINTMENT OF DOMINEQUE BONIFACIO TO SERVE ON THE NEIGHBORHOOD COMMISSION OF THE CITY AND COUNTY OF HONOLULU.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3836"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill048-26/2026-09-04T16:15:10+00:00</id>
+    <title>BILL048(26) (Honolulu): See: Proposed draft version OCS2026-0489/8/13/2026 3:45 PM
+Amended to CD1.</title>
+    <updated>2026-09-04T16:15:10+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3780"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO CONDEMNATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Amends ROH Section 2-39.2 to clarify that the section applies to executive agencies and does not apply to HART. Applies retroactively to October 21, 2016 (the effective date of Ordinance 16-29).&lt;/p&gt;
+&lt;p&gt;Latest action: See: Proposed draft version OCS2026-0489/8/13/2026 3:45 PM
+Amended to CD1.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3780"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-200/2026-09-02T16:15:27+00:00</id>
     <title>New: RES26-200 (Honolulu) — INTRO</title>
@@ -514,25 +535,5 @@ Reported out for adoption.&lt;/p&gt;
 &lt;p&gt;Status: INTRO → CCL&lt;/p&gt;
 &lt;p&gt;Latest action: Adopted.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3805"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-175/2026-08-27T22:06:45+00:00</id>
-    <title>RES26-175 (Honolulu): INTRO → CCL</title>
-    <updated>2026-08-27T22:06:45+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3804"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO RETAIN THE LEGAL SERVICES OF STARN O’TOOLE MARCUS &amp;amp; FISHER, A LAW CORPORATION AS SPECIAL COUNSEL TO REPRESENT DEFENDANT CITY AND COUNTY OF HONOLULU IN THE LEGAL ACTION ENTITLED LAUREL J. MAU V. CITY AND COUNTY OF HONOLULU, ET AL.; CASE NO. 1:24-CV-00253 GPC-WRP (U.S.D.C).&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: INTRO → CCL&lt;/p&gt;
-&lt;p&gt;Latest action: Adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3804"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-179/2026-08-27T22:06:45+00:00</id>
-    <title>RES26-179 (Honolulu): INTRO → CCL</title>
-    <updated>2026-08-27T22:06:45+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3809"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING COLLECTIVE BARGAINING COST ITEMS FOR THE HAWAIʻI FIRE FIGHTERS ASSOCIATION BARGAINING UNIT 11 INCLUDED AND EXCLUDED MANAGERIAL EMPLOYEES OF THE CITY AND COUNTY OF HONOLULU.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: INTRO → CCL&lt;/p&gt;
-&lt;p&gt;Latest action: Adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3809"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

@@ -2,9 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/honolulu-bill048-26.xml</id>
   <title>BILL048(26) — Honolulu</title>
-  <updated>2026-08-28T16:15:06+00:00</updated>
+  <updated>2026-09-04T16:15:10+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/honolulu-bill048-26.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill048-26/2026-09-04T16:15:10+00:00</id>
+    <title>BILL048(26) (Honolulu): See: Proposed draft version OCS2026-0489/8/13/2026 3:45 PM
+Amended to CD1.</title>
+    <updated>2026-09-04T16:15:10+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3780"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO CONDEMNATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Amends ROH Section 2-39.2 to clarify that the section applies to executive agencies and does not apply to HART. Applies retroactively to October 21, 2016 (the effective date of Ordinance 16-29).&lt;/p&gt;
+&lt;p&gt;Latest action: See: Proposed draft version OCS2026-0489/8/13/2026 3:45 PM
+Amended to CD1.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3780"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill048-26/2026-08-28T16:15:06+00:00</id>
     <title>BILL048(26) (Honolulu): PUBLISH → ILA</title>
