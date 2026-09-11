@@ -2,16 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/honolulu-res25-228.xml</id>
   <title>RES25-228 — Honolulu</title>
-  <updated>2026-06-01T20:41:04+00:00</updated>
+  <updated>2026-09-11T16:15:08+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/honolulu-res25-228.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res25-228/2026-06-01T20:41:04+00:00</id>
-    <title>New: RES25-228 (Honolulu) — ZON</title>
-    <updated>2026-06-01T20:41:04+00:00</updated>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res25-228/2026-09-11T16:15:08+00:00</id>
+    <title>RES25-228 (Honolulu): ZON → FILE</title>
+    <updated>2026-09-11T16:15:08+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3447"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;PROPOSING AN AMENDMENT TO CHAPTER 21, REVISED ORDINANCES OF HONOLULU 2021 (THE LAND USE ORDINANCE), RELATING TO CONDITIONAL USE PERMITS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Resolution not reported out; Pending in Committee.&lt;/p&gt;
+&lt;p&gt;Status: ZON → FILE&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3447"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

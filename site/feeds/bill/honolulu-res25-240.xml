@@ -2,16 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/honolulu-res25-240.xml</id>
   <title>RES25-240 — Honolulu</title>
-  <updated>2026-06-01T20:41:04+00:00</updated>
+  <updated>2026-09-11T16:15:07+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/honolulu-res25-240.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res25-240/2026-06-01T20:41:04+00:00</id>
-    <title>New: RES25-240 (Honolulu) — INTRO</title>
-    <updated>2026-06-01T20:41:04+00:00</updated>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res25-240/2026-09-11T16:15:07+00:00</id>
+    <title>RES25-240 (Honolulu): INTRO → FILE</title>
+    <updated>2026-09-11T16:15:07+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3463"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE DEPARTMENT OF PLANNING AND PERMITTING TO CONSIDER MEANS BY WHICH THE ISSUANCE OF CERTIFICATES OF OCCUPANCY CAN BE EXPEDITED WITHOUT COMPROMISING PUBLIC SAFETY.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;Status: INTRO → FILE&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3463"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

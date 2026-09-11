@@ -2,16 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/honolulu-res25-244.xml</id>
   <title>RES25-244 — Honolulu</title>
-  <updated>2026-06-01T20:41:04+00:00</updated>
+  <updated>2026-09-11T16:15:06+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/honolulu-res25-244.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res25-244/2026-06-01T20:41:04+00:00</id>
-    <title>New: RES25-244 (Honolulu) — INTRO</title>
-    <updated>2026-06-01T20:41:04+00:00</updated>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res25-244/2026-09-11T16:15:06+00:00</id>
+    <title>RES25-244 (Honolulu): INTRO → FILE</title>
+    <updated>2026-09-11T16:15:06+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3468"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;REQUESTING THE CITY ADMINISTRATION TO TAKE THE STEPS NECESSARY TO ACQUIRE REAL PROPERTY IDENTIFIED AS TAX MAP KEY 7-4-001:025 (WHICH INCLUDES REAL PROPERTY LOCATED AT 525 AND 535 AVOCADO STREET AND STRUCTURES THEREON) IN WAHIAWĀ, OʻAHU, INCLUDING, IF NECESSARY, THE PREPARATION OF A RESOLUTION FOR THE COUNCIL TO INITIATE PROCEEDINGS IN EMINENT DOMAIN.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;Status: INTRO → FILE&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3468"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
