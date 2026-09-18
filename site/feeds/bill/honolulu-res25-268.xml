@@ -2,16 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/honolulu-res25-268.xml</id>
   <title>RES25-268 — Honolulu</title>
-  <updated>2026-06-01T20:41:04+00:00</updated>
+  <updated>2026-09-18T16:15:07+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/honolulu-res25-268.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res25-268/2026-06-01T20:41:04+00:00</id>
-    <title>New: RES25-268 (Honolulu) — INTRO</title>
-    <updated>2026-06-01T20:41:04+00:00</updated>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res25-268/2026-09-18T16:15:07+00:00</id>
+    <title>RES25-268 (Honolulu): INTRO → FILE</title>
+    <updated>2026-09-18T16:15:07+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3494"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE DEPARTMENT OF PLANNING AND PERMITTING TO PROVIDE A PUBLIC DATABASE OF ALL DISCRETIONARY PERMIT APPLICATIONS, INCLUDING CONDITIONAL USE PERMIT-MINOR AND SPECIAL MANAGEMENT AREA MINOR PERMIT APPLICATIONS, IT IS CURRENTLY PROCESSING.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;Status: INTRO → FILE&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3494"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-bill-187-2024-2026.xml</id>
   <title>Bill 187 (2024-2026) — Hawaiʻi County</title>
-  <updated>2026-09-11T16:20:54+00:00</updated>
+  <updated>2026-09-18T16:19:51+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-bill-187-2024-2026.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-187-2024-2026/2026-09-18T16:19:51+00:00</id>
+    <title>Bill 187 (2024-2026) (Hawaiʻi County): LAAC: Amended to Draft 3 &amp; postponed to 10/06/26 - 09/15/26</title>
+    <updated>2026-09-18T16:19:51+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135839&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;LAAC&lt;/p&gt;
+&lt;p&gt;Latest action: LAAC: Amended to Draft 3 &amp;amp; postponed to 10/06/26 - 09/15/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135839&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-187-2024-2026/2026-09-11T16:20:54+00:00</id>
     <title>Bill 187 (2024-2026) (Hawaiʻi County): LAAC: Postponed to 09/15/26 - 09/01/26</title>

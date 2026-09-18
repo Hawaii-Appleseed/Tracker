@@ -2,9 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/honolulu.xml</id>
   <title>Bill Tracker — Honolulu</title>
-  <updated>2026-09-16T16:15:20+00:00</updated>
+  <updated>2026-09-18T16:15:08+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/honolulu.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-208/2026-09-18T16:15:08+00:00</id>
+    <title>New: RES26-208 (Honolulu) — INTRO</title>
+    <updated>2026-09-18T16:15:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3842"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT OF TRAVEL AND RELATED EXPENSES, VALUED AT $1,301.04, TO THE CITY FROM THE HASKELL FOUNDATION FOR A REPRESENTATIVE FROM THE OFFICE OF CLIMATE CHANGE, SUSTAINABILITY AND RESILIENCY TO ATTEND THE INDIGENOUS PEOPLES' CLIMATE CHANGE WORKING GROUP IN-PERSON WORKSHOP FROM SEPTEMBER 22 TO SEPTEMBER 25, 2026, IN KANSAS CITY, MISSOURI.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3842"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-211/2026-09-18T16:15:08+00:00</id>
+    <title>New: RES26-211 (Honolulu) — INTRO</title>
+    <updated>2026-09-18T16:15:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3845"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE UNIVERSITY OF HAWAIʻI BOARD OF REGENTS TO EXPEDITIOUSLY ADVANCE THE UNIVERSITY OF HAWAIʻI-WEST OʻAHU FILM AND MEDIA PRODUCTION FACILITY PROJECT.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3845"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-210/2026-09-18T16:15:08+00:00</id>
+    <title>New: RES26-210 (Honolulu) — INTRO</title>
+    <updated>2026-09-18T16:15:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3844"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDING THE COUNCIL RULES RELATING TO MASS COMMUNICATIONS NEAR ELECTION DATES.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3844"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-209/2026-09-18T16:15:08+00:00</id>
+    <title>New: RES26-209 (Honolulu) — INTRO</title>
+    <updated>2026-09-18T16:15:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3843"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING THE MONTH-TO-MONTH RENTAL WITH MRS. LEIALOHA "ROCKY" KALUHIWA, FOR UP TO THREE YEARS, WITHIN A PORTION OF HEʻEIA KEA VALLEY NATURE PARK, KANEʻOHE, HAWAIʻI, TAX MAP KEY NO.: (1) 4-6-016:032.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3843"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res25-268/2026-09-18T16:15:07+00:00</id>
+    <title>RES25-268 (Honolulu): INTRO → FILE</title>
+    <updated>2026-09-18T16:15:07+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3494"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE DEPARTMENT OF PLANNING AND PERMITTING TO PROVIDE A PUBLIC DATABASE OF ALL DISCRETIONARY PERMIT APPLICATIONS, INCLUDING CONDITIONAL USE PERMIT-MINOR AND SPECIAL MANAGEMENT AREA MINOR PERMIT APPLICATIONS, IT IS CURRENTLY PROCESSING.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: INTRO → FILE&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3494"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-207/2026-09-16T16:15:20+00:00</id>
     <title>New: RES26-207 (Honolulu) — INTRO</title>
@@ -473,62 +519,5 @@ Transmitted to Mayor for his approval or otherwise.&lt;/p&gt;
 &lt;p&gt;Status: ZON → CCL/PH&lt;/p&gt;
 &lt;p&gt;Latest action: Committee report adopted.  Bill passed second reading, public hearing closed and referred to committee.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3740"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill043-26/2026-09-11T16:15:09+00:00</id>
-    <title>BILL043(26) (Honolulu): ZON → CCL/PH</title>
-    <updated>2026-09-11T16:15:09+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3761"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO REZONE LAND SITUATED AT PAʻALAʻA KAI, WAIALUA, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Rezones land situated at 66-9A Waialua Beach Road, Waialua, identified as Tax Map Key 6-6-018:024 (portion) from the County District to the R-5 Residential District.&lt;/p&gt;
-&lt;p&gt;Status: ZON → CCL/PH&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report adopted.  Bill passed second reading as amended, public hearing closed and referred to committee.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3761"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill042-26/2026-09-11T16:15:09+00:00</id>
-    <title>BILL042(26) (Honolulu): ZON → CCL/PH</title>
-    <updated>2026-09-11T16:15:09+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3760"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO AMEND A PORTION OF THE STATE LAND USE DISTRICT BOUNDARY MAP (KAHUKU QUADRANGLE) FROM THE AGRICULTURAL DISTRICT TO THE URBAN DISTRICT FOR CERTAIN LANDS SITUATED IN THE KOʻOLAU LOA DEVELOPMENT PLAN AREA, LĀ‘IE, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Reclassifies certain lands in Lāʻie, Oʻahu from the State Land Use Agricultural District to the State Land Use Urban District.&lt;/p&gt;
-&lt;p&gt;Status: ZON → CCL/PH&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report adopted.  Bill passed second reading as amended, public hearing closed and referred to committee.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3760"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill048-26/2026-09-11T16:15:09+00:00</id>
-    <title>BILL048(26) (Honolulu): ILA → MAYOR</title>
-    <updated>2026-09-11T16:15:09+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3780"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO CONDEMNATION.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Amends ROH Section 2-39.2 to clarify that the section applies to executive agencies and does not apply to HART. Applies retroactively to October 21, 2016 (the effective date of Ordinance 16-29).&lt;/p&gt;
-&lt;p&gt;Status: ILA → MAYOR&lt;/p&gt;
-&lt;p&gt;Latest action: Deadline for Mayor to return Bill is 09/24/26.
-Transmitted to Mayor for his approval or otherwise.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3780"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill050-26/2026-09-11T16:15:09+00:00</id>
-    <title>BILL050(26) (Honolulu): BUD → MAYOR</title>
-    <updated>2026-09-11T16:15:09+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3783"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO FUNDS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Repeals Chapter 6, Article 59, Revised Ordinances of Honolulu 2021 (“Land Conservation Fund”). Takes effect on July 1, 2028, and provides that all ordinances and resolutions, or portions thereof, that are in conflict or inconsistent with this bill are also repealed.&lt;/p&gt;
-&lt;p&gt;Status: BUD → MAYOR&lt;/p&gt;
-&lt;p&gt;Latest action: Deadline for Mayor to return Bill is 09/24/26.
-Transmitted to Mayor for his approval or otherwise.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3783"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill052-26/2026-09-11T16:15:08+00:00</id>
-    <title>BILL052(26) (Honolulu): ILA → CCL/PH</title>
-    <updated>2026-09-11T16:15:08+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3793"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO STREETS, SIDEWALKS, MALLS, AND OTHER PUBLIC PLACES.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Increases the fines for violations of ROH Chapter 13, Article 6, relating to peddling.&lt;/p&gt;
-&lt;p&gt;Status: ILA → CCL/PH&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report adopted.  Bill passed second reading, public hearing closed and referred to committee.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3793"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
