@@ -2,17 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/honolulu-bill011-26.xml</id>
   <title>BILL011(26) — Honolulu</title>
-  <updated>2026-05-30T07:33:27+00:00</updated>
+  <updated>2026-09-23T16:15:11+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/honolulu-bill011-26.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill011-26/2026-05-30T07:33:27+00:00</id>
-    <title>New: BILL011(26) (Honolulu) — PUBLISH</title>
-    <updated>2026-05-30T07:33:27+00:00</updated>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill011-26/2026-09-23T16:15:11+00:00</id>
+    <title>BILL011(26) (Honolulu): PUBLISH → HHP</title>
+    <updated>2026-09-23T16:15:11+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3603"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO AFFORDABLE HOUSING INCENTIVES.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Requires the HLM to submit semi-annual reports detailing all types of incentives, along with the total amount and value of each incentive, received by every affordable housing project that has received one or more incentives from the City.&lt;/p&gt;
-&lt;p&gt;Latest action: Second reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;Status: PUBLISH → HHP&lt;/p&gt;
+&lt;p&gt;Latest action: Meeting cancelled.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3603"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

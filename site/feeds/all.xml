@@ -2,9 +2,355 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/all.xml</id>
   <title>Hawaiʻi County Bill Tracker — all updates</title>
-  <updated>2026-09-21T16:36:59+00:00</updated>
+  <updated>2026-09-23T16:34:51+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/all.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-ordinance-2025-071/2026-09-23T16:34:51+00:00</id>
+    <title>Ordinance 2025-071 (Hawaiʻi County): Effective 2025-10-24</title>
+    <updated>2026-09-23T16:34:51+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119204&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;Latest action: Effective 2025-10-24&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119204&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-ordinance-2025-071/2026-09-23T16:34:50+00:00</id>
+    <title>Ordinance 2025-071 (Hawaiʻi County): Effective 2026-01-01</title>
+    <updated>2026-09-23T16:34:50+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119204&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;Latest action: Effective 2026-01-01&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1119204&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-704-2024-2026/2026-09-23T16:32:51+00:00</id>
+    <title>New: Resolution 704 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-09-23T16:32:51+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136597&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136597&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-703-2024-2026/2026-09-23T16:32:50+00:00</id>
+    <title>New: Resolution 703 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-09-23T16:32:50+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136594&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136594&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-702-2024-2026/2026-09-23T16:32:50+00:00</id>
+    <title>New: Resolution 702 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-09-23T16:32:50+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136592&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136592&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-701-2024-2026/2026-09-23T16:32:49+00:00</id>
+    <title>New: Resolution 701 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-09-23T16:32:49+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136590&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136590&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-700-2024-2026/2026-09-23T16:32:49+00:00</id>
+    <title>New: Resolution 700 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-09-23T16:32:49+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136581&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136581&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-699-2024-2026/2026-09-23T16:32:48+00:00</id>
+    <title>New: Resolution 699 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-09-23T16:32:48+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136579&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136579&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-698-2024-2026/2026-09-23T16:32:48+00:00</id>
+    <title>New: Resolution 698 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-09-23T16:32:48+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136577&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136577&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-697-2024-2026/2026-09-23T16:32:47+00:00</id>
+    <title>New: Resolution 697 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-09-23T16:32:47+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136575&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136575&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-696-2024-2026/2026-09-23T16:32:47+00:00</id>
+    <title>New: Resolution 696 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-09-23T16:32:47+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136573&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136573&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-695-2024-2026/2026-09-23T16:32:46+00:00</id>
+    <title>New: Resolution 695 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-09-23T16:32:46+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136571&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136571&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-676-2024-2026/2026-09-23T16:32:38+00:00</id>
+    <title>Resolution 676 (2024-2026) (Hawaiʻi County): — → Adopted</title>
+    <updated>2026-09-23T16:32:38+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136556&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+&lt;p&gt;Status: — → Adopted&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 676-26 - 9/16/2026&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136556&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-675-2024-2026/2026-09-23T16:32:37+00:00</id>
+    <title>Resolution 675 (2024-2026) (Hawaiʻi County): FC-185:  Recommended Adoption - 09/15/26</title>
+    <updated>2026-09-23T16:32:37+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135615&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;FC&lt;/p&gt;
+&lt;p&gt;Latest action: FC-185:  Recommended Adoption - 09/15/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135615&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-674-2024-2026/2026-09-23T16:32:37+00:00</id>
+    <title>Resolution 674 (2024-2026) (Hawaiʻi County): FC-184:  Recommended Adoption - 09/15/26</title>
+    <updated>2026-09-23T16:32:37+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135613&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;FC&lt;/p&gt;
+&lt;p&gt;Latest action: FC-184:  Recommended Adoption - 09/15/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135613&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-673-2024-2026/2026-09-23T16:32:36+00:00</id>
+    <title>Resolution 673 (2024-2026) (Hawaiʻi County): FC-183:  Recommended Adoption - 09/15/26</title>
+    <updated>2026-09-23T16:32:36+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135611&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;FC&lt;/p&gt;
+&lt;p&gt;Latest action: FC-183:  Recommended Adoption - 09/15/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135611&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-672-2024-2026/2026-09-23T16:32:35+00:00</id>
+    <title>Resolution 672 (2024-2026) (Hawaiʻi County): FC-182:  Recommended Adoption - 09/15/26</title>
+    <updated>2026-09-23T16:32:35+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135608&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;FC&lt;/p&gt;
+&lt;p&gt;Latest action: FC-182:  Recommended Adoption - 09/15/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135608&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-671-2024-2026/2026-09-23T16:32:35+00:00</id>
+    <title>Resolution 671 (2024-2026) (Hawaiʻi County): FC-181:  Recommended Adoption - 09/15/26</title>
+    <updated>2026-09-23T16:32:35+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135604&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;FC&lt;/p&gt;
+&lt;p&gt;Latest action: FC-181:  Recommended Adoption - 09/15/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135604&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-670-2024-2026/2026-09-23T16:32:34+00:00</id>
+    <title>Resolution 670 (2024-2026) (Hawaiʻi County): FC-180:  Recommended Adoption - 09/15/26</title>
+    <updated>2026-09-23T16:32:34+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135602&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;FC&lt;/p&gt;
+&lt;p&gt;Latest action: FC-180:  Recommended Adoption - 09/15/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135602&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-634-2024-2026/2026-09-23T16:32:13+00:00</id>
+    <title>Resolution 634 (2024-2026) (Hawaiʻi County): — → Adopted</title>
+    <updated>2026-09-23T16:32:13+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136533&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+&lt;p&gt;Status: — → Adopted&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 634-26, Draft 2 - 09/02/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136533&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-702-2022-2024/2026-09-23T16:26:25+00:00</id>
+    <title>Resolution 702 (2022-2024) (Hawaiʻi County): Council:  Adopts Res. 703-24 - 11/8/2024</title>
+    <updated>2026-09-23T16:26:25+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1088990&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 703-24 - 11/8/2024&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1088990&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-702-2022-2024/2026-09-23T16:26:25+00:00</id>
+    <title>Resolution 702 (2022-2024) (Hawaiʻi County): Council:  Adopts Res. 702-24 - 11/8/2024</title>
+    <updated>2026-09-23T16:26:25+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1088990&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 702-24 - 11/8/2024&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1088990&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-55-2022-2024/2026-09-23T16:25:05+00:00</id>
+    <title>Resolution 55 (2022-2024) (Hawaiʻi County): Council:  Adopts Res. 550-24, Draft 2; adopts FC-172 - 07/24/24</title>
+    <updated>2026-09-23T16:25:05+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1082276&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 550-24, Draft 2; adopts FC-172 - 07/24/24&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1082276&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-55-2022-2024/2026-09-23T16:20:36+00:00</id>
+    <title>Resolution 55 (2022-2024) (Hawaiʻi County): Council: Adopts Res. 55-23 - 2/22/23</title>
+    <updated>2026-09-23T16:20:36+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1082276&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+&lt;p&gt;Latest action: Council: Adopts Res. 55-23 - 2/22/23&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1082276&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-192-2024-2026/2026-09-23T16:20:02+00:00</id>
+    <title>Bill 192 (2024-2026) (Hawaiʻi County): — → Passed First Reading</title>
+    <updated>2026-09-23T16:20:02+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136378&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;FC&lt;/p&gt;
+&lt;p&gt;Status: — → Passed First Reading&lt;/p&gt;
+&lt;p&gt;Latest action: FC-186:  Recommended passage on first reading - 09/15/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136378&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-191-2024-2026/2026-09-23T16:20:02+00:00</id>
+    <title>Bill 191 (2024-2026) (Hawaiʻi County): — → Passed First Reading</title>
+    <updated>2026-09-23T16:20:02+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136483&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;PCENRM&lt;/p&gt;
+&lt;p&gt;Status: — → Passed First Reading&lt;/p&gt;
+&lt;p&gt;Latest action: PCENRM-4:  Recommended passage on first reading - 09/15/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136483&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-187-2024-2026/2026-09-23T16:19:59+00:00</id>
+    <title>Bill 187 (2024-2026) (Hawaiʻi County): updated</title>
+    <updated>2026-09-23T16:19:59+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136559&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;LAAC&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136559&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-184-2024-2026/2026-09-23T16:19:58+00:00</id>
+    <title>Bill 184 (2024-2026) (Hawaiʻi County): — → Passed First Reading</title>
+    <updated>2026-09-23T16:19:58+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136551&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+&lt;p&gt;Status: — → Passed First Reading&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Passes Bill 184, Draft 2 &amp;amp; PCHSW-10 on first reading - 9/16/2026&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136551&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-183-2024-2026/2026-09-23T16:19:57+00:00</id>
+    <title>Bill 183 (2024-2026) (Hawaiʻi County): PCENRM:  Postponed to 10/06/26 - 09/15/26</title>
+    <updated>2026-09-23T16:19:57+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134079&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;PCENRM&lt;/p&gt;
+&lt;p&gt;Latest action: PCENRM:  Postponed to 10/06/26 - 09/15/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134079&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-179-2024-2026/2026-09-23T16:19:54+00:00</id>
+    <title>Bill 179 (2024-2026) (Hawaiʻi County): — → Passed Second Reading</title>
+    <updated>2026-09-23T16:19:54+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136549&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
+&lt;p&gt;Status: — → Passed Second Reading&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Passes Bill 179, Draft 2 on second &amp;amp; final reading - 9/16/2026&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136549&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-171-2024-2026/2026-09-23T16:19:50+00:00</id>
+    <title>Bill 171 (2024-2026) (Hawaiʻi County): FC:  Postponed to 11/05/2026 - 09/15/26</title>
+    <updated>2026-09-23T16:19:50+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132311&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;FC&lt;/p&gt;
+&lt;p&gt;Latest action: FC:  Postponed to 11/05/2026 - 09/15/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132311&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-203/2026-09-23T16:15:13+00:00</id>
+    <title>RES26-203 (Honolulu): INTRO → BUD</title>
+    <updated>2026-09-23T16:15:13+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3835"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE TRANSFER OF FUNDS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: INTRO → BUD&lt;/p&gt;
+&lt;p&gt;Latest action: CR-257(26)
+Reported out for adoption.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3835"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-202/2026-09-23T16:15:12+00:00</id>
+    <title>RES26-202 (Honolulu): INTRO → BUD</title>
+    <updated>2026-09-23T16:15:12+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3834"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE TRANSFER OF FUNDS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: INTRO → BUD&lt;/p&gt;
+&lt;p&gt;Latest action: CR-256(26)
+Reported out for adoption.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3834"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-206/2026-09-23T16:15:12+00:00</id>
+    <title>RES26-206 (Honolulu): INTRO → EES</title>
+    <updated>2026-09-23T16:15:12+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3840"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;ADOPTING THE 2025—2030 CLIMATE ACTION PLAN FOR THE CITY AND COUNTY OF HONOLULU.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: INTRO → EES&lt;/p&gt;
+&lt;p&gt;Latest action: CR-258(26)
+Reported out for adoption.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3840"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-208/2026-09-23T16:15:12+00:00</id>
+    <title>RES26-208 (Honolulu): INTRO → EES</title>
+    <updated>2026-09-23T16:15:12+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3842"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT OF TRAVEL AND RELATED EXPENSES, VALUED AT $1,301.04, TO THE CITY FROM THE HASKELL FOUNDATION FOR A REPRESENTATIVE FROM THE OFFICE OF CLIMATE CHANGE, SUSTAINABILITY AND RESILIENCY TO ATTEND THE INDIGENOUS PEOPLES' CLIMATE CHANGE WORKING GROUP IN-PERSON WORKSHOP FROM SEPTEMBER 22 TO SEPTEMBER 25, 2026, IN KANSAS CITY, MISSOURI.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: INTRO → EES&lt;/p&gt;
+&lt;p&gt;Latest action: CR-259(26)
+Reported out for adoption.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3842"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-213/2026-09-23T16:15:12+00:00</id>
+    <title>New: RES26-213 (Honolulu) — INTRO</title>
+    <updated>2026-09-23T16:15:12+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3847"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;CONFIRMING THE REAPPOINTMENT OF DR. RICHARD KEBO TO SERVE ON THE OCEAN SAFETY COMMISSION OF THE CITY AND COUNTY OF HONOLULU.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3847"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill011-26/2026-09-23T16:15:11+00:00</id>
+    <title>BILL011(26) (Honolulu): PUBLISH → HHP</title>
+    <updated>2026-09-23T16:15:11+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3603"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO AFFORDABLE HOUSING INCENTIVES.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Requires the HLM to submit semi-annual reports detailing all types of incentives, along with the total amount and value of each incentive, received by every affordable housing project that has received one or more incentives from the City.&lt;/p&gt;
+&lt;p&gt;Status: PUBLISH → HHP&lt;/p&gt;
+&lt;p&gt;Latest action: Meeting cancelled.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3603"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill018-26/2026-09-23T16:15:10+00:00</id>
+    <title>BILL018(26) (Honolulu): Meeting cancelled.</title>
+    <updated>2026-09-23T16:15:10+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3626"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO AFFORDABLE HOUSING.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Amends various development standards, building construction standards, and other requirements and benefits for affordable rental housing projects developed under ROH Chapter 32.&lt;/p&gt;
+&lt;p&gt;Latest action: Meeting cancelled.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3626"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-ordinance-2025-071/2026-09-21T16:36:59+00:00</id>
     <title>Ordinance 2025-071 (Hawaiʻi County): Effective 2025-10-24</title>
@@ -99,11 +445,11 @@
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-187-2024-2026/2026-09-21T16:20:12+00:00</id>
     <title>Bill 187 (2024-2026) (Hawaiʻi County): Postponed → —</title>
     <updated>2026-09-21T16:20:12+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135839&amp;dbid=0"/>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136559&amp;dbid=0"/>
     <content type="html">&lt;p&gt;LAAC&lt;/p&gt;
 &lt;p&gt;Status: Postponed → —&lt;/p&gt;
 &lt;p&gt;Latest action: LAAC: Amended to Draft 3 - 09/15/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135839&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136559&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-212/2026-09-21T16:15:03+00:00</id>
@@ -193,372 +539,5 @@
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136418&amp;dbid=0"/>
     <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136418&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-686-2024-2026/2026-09-18T16:32:50+00:00</id>
-    <title>New: Resolution 686 (2024-2026) (Hawaiʻi County) — now tracked</title>
-    <updated>2026-09-18T16:32:50+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136415&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136415&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-685-2024-2026/2026-09-18T16:32:50+00:00</id>
-    <title>New: Resolution 685 (2024-2026) (Hawaiʻi County) — now tracked</title>
-    <updated>2026-09-18T16:32:50+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136413&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136413&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-684-2024-2026/2026-09-18T16:32:49+00:00</id>
-    <title>New: Resolution 684 (2024-2026) (Hawaiʻi County) — now tracked</title>
-    <updated>2026-09-18T16:32:49+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136411&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136411&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-683-2024-2026/2026-09-18T16:32:49+00:00</id>
-    <title>New: Resolution 683 (2024-2026) (Hawaiʻi County) — now tracked</title>
-    <updated>2026-09-18T16:32:49+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136409&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136409&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-682-2024-2026/2026-09-18T16:32:49+00:00</id>
-    <title>New: Resolution 682 (2024-2026) (Hawaiʻi County) — now tracked</title>
-    <updated>2026-09-18T16:32:49+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136382&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136382&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-678-2024-2026/2026-09-18T16:32:47+00:00</id>
-    <title>Resolution 678 (2024-2026) (Hawaiʻi County): Council:  Amended to Draft 2 - 9/16/2026</title>
-    <updated>2026-09-18T16:32:47+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136485&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Amended to Draft 2 - 9/16/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136485&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-677-2024-2026/2026-09-18T16:32:46+00:00</id>
-    <title>Resolution 677 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:46+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135622&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 677-26 - 9/16/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135622&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-676-2024-2026/2026-09-18T16:32:45+00:00</id>
-    <title>Resolution 676 (2024-2026) (Hawaiʻi County): Council:  Amended to Draft 2 - 9/16/2026</title>
-    <updated>2026-09-18T16:32:45+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135620&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Amended to Draft 2 - 9/16/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135620&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-669-2024-2026/2026-09-18T16:32:42+00:00</id>
-    <title>Resolution 669 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:42+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135600&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 669-26 -9/16/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135600&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-668-2024-2026/2026-09-18T16:32:42+00:00</id>
-    <title>Resolution 668 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:42+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135113&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 668-26 - 9/16/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135113&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-667-2024-2026/2026-09-18T16:32:41+00:00</id>
-    <title>Resolution 667 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:41+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134747&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 667-26 - 09/02/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134747&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-666-2024-2026/2026-09-18T16:32:41+00:00</id>
-    <title>Resolution 666 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:41+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134744&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;FC&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 666-26 &amp;amp; FC-176 - 9/16/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134744&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-665-2024-2026/2026-09-18T16:32:40+00:00</id>
-    <title>Resolution 665 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:40+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134742&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;FC&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 665-26 &amp;amp; FC-175 - 9/16/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134742&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-664-2024-2026/2026-09-18T16:32:39+00:00</id>
-    <title>Resolution 664 (2024-2026) (Hawaiʻi County): Council:  Amended to Draft 2 - 9/16/2026</title>
-    <updated>2026-09-18T16:32:39+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136487&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Amended to Draft 2 - 9/16/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136487&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-663-2024-2026/2026-09-18T16:32:39+00:00</id>
-    <title>Resolution 663 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:39+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134578&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 663-26 - 09/02/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134578&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-662-2024-2026/2026-09-18T16:32:38+00:00</id>
-    <title>Resolution 662 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:38+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134576&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 662-26 - 09/02/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134576&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-661-2024-2026/2026-09-18T16:32:38+00:00</id>
-    <title>Resolution 661 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:38+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134574&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 661-26 - 09/02/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134574&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-660-2024-2026/2026-09-18T16:32:37+00:00</id>
-    <title>Resolution 660 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:37+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134572&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 660-26 - 09/02/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134572&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-659-2024-2026/2026-09-18T16:32:37+00:00</id>
-    <title>Resolution 659 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:37+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134570&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 659-26 - 09/02/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134570&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-658-2024-2026/2026-09-18T16:32:36+00:00</id>
-    <title>Resolution 658 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:36+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134493&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;FC&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 658-26 &amp;amp; FC-174 - 9/16/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134493&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-657-2024-2026/2026-09-18T16:32:36+00:00</id>
-    <title>Resolution 657 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:36+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134400&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 657-26 - 09/02/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134400&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-656-2024-2026/2026-09-18T16:32:35+00:00</id>
-    <title>Resolution 656 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:35+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134398&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 656-26 - 09/02/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134398&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-655-2024-2026/2026-09-18T16:32:35+00:00</id>
-    <title>Resolution 655 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:35+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134395&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 655-26 - 09/02/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134395&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-654-2024-2026/2026-09-18T16:32:34+00:00</id>
-    <title>Resolution 654 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:34+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134392&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 654-26 - 09/02/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134392&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-653-2024-2026/2026-09-18T16:32:34+00:00</id>
-    <title>Resolution 653 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:34+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134389&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 653-26 - 09/02/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134389&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-652-2024-2026/2026-09-18T16:32:33+00:00</id>
-    <title>Resolution 652 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:33+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134167&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 652-26 - 09/02/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134167&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-651-2024-2026/2026-09-18T16:32:33+00:00</id>
-    <title>Resolution 651 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:33+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134162&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;FC&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 651-26 &amp;amp; FC-173 - 9/16/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134162&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-650-2024-2026/2026-09-18T16:32:32+00:00</id>
-    <title>Resolution 650 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:32+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134160&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 650-26 - 09/02/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134160&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-649-2024-2026/2026-09-18T16:32:32+00:00</id>
-    <title>Resolution 649 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:32+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134213&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 649-26 - 09/02/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134213&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-648-2024-2026/2026-09-18T16:32:31+00:00</id>
-    <title>Resolution 648 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:31+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134210&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 648-26 - 09/02/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134210&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-647-2024-2026/2026-09-18T16:32:30+00:00</id>
-    <title>Resolution 647 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:30+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134208&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 647-26 - 09/02/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134208&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-646-2024-2026/2026-09-18T16:32:30+00:00</id>
-    <title>Resolution 646 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:30+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134075&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;FC&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 464-26 &amp;amp; FC-172 - 9/16/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134075&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-645-2024-2026/2026-09-18T16:32:29+00:00</id>
-    <title>Resolution 645 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:29+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134073&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;FC&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 645-26 &amp;amp; FC-171 - 9/16/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134073&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-644-2024-2026/2026-09-18T16:32:29+00:00</id>
-    <title>Resolution 644 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:29+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134071&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 644-26 - 09/02/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134071&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-643-2024-2026/2026-09-18T16:32:28+00:00</id>
-    <title>Resolution 643 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:28+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134069&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 643-26 - 09/02/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134069&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-642-2024-2026/2026-09-18T16:32:28+00:00</id>
-    <title>Resolution 642 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:28+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134067&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 642-26 - 09/02/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134067&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-641-2024-2026/2026-09-18T16:32:27+00:00</id>
-    <title>Resolution 641 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:27+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134064&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 641-26 - 09/02/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134064&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-640-2024-2026/2026-09-18T16:32:27+00:00</id>
-    <title>Resolution 640 (2024-2026) (Hawaiʻi County): — → Adopted</title>
-    <updated>2026-09-18T16:32:27+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134062&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;COUNCIL&lt;/p&gt;
-&lt;p&gt;Status: — → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Adopts Res. 640-26 - 09/02/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134062&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

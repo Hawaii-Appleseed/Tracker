@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-bill-171-2024-2026.xml</id>
   <title>Bill 171 (2024-2026) — Hawaiʻi County</title>
-  <updated>2026-07-27T21:41:24+00:00</updated>
+  <updated>2026-09-23T16:19:50+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-bill-171-2024-2026.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-171-2024-2026/2026-09-23T16:19:50+00:00</id>
+    <title>Bill 171 (2024-2026) (Hawaiʻi County): FC:  Postponed to 11/05/2026 - 09/15/26</title>
+    <updated>2026-09-23T16:19:50+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132311&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;FC&lt;/p&gt;
+&lt;p&gt;Latest action: FC:  Postponed to 11/05/2026 - 09/15/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132311&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-171-2024-2026/2026-07-27T21:41:24+00:00</id>
     <title>New: Bill 171 (2024-2026) (Hawaiʻi County) — Postponed</title>

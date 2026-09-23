@@ -2,9 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/subject-affordable_housing.xml</id>
   <title>Bill Tracker — Affordable Housing bills</title>
-  <updated>2026-09-18T16:15:08+00:00</updated>
+  <updated>2026-09-23T16:15:11+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/subject-affordable_housing.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill011-26/2026-09-23T16:15:11+00:00</id>
+    <title>BILL011(26) (Honolulu): PUBLISH → HHP</title>
+    <updated>2026-09-23T16:15:11+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3603"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO AFFORDABLE HOUSING INCENTIVES.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Requires the HLM to submit semi-annual reports detailing all types of incentives, along with the total amount and value of each incentive, received by every affordable housing project that has received one or more incentives from the City.&lt;/p&gt;
+&lt;p&gt;Status: PUBLISH → HHP&lt;/p&gt;
+&lt;p&gt;Latest action: Meeting cancelled.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3603"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill018-26/2026-09-23T16:15:10+00:00</id>
+    <title>BILL018(26) (Honolulu): Meeting cancelled.</title>
+    <updated>2026-09-23T16:15:10+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3626"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO AFFORDABLE HOUSING.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Amends various development standards, building construction standards, and other requirements and benefits for affordable rental housing projects developed under ROH Chapter 32.&lt;/p&gt;
+&lt;p&gt;Latest action: Meeting cancelled.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3626"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-209/2026-09-18T16:15:08+00:00</id>
     <title>New: RES26-209 (Honolulu) — INTRO</title>
@@ -493,23 +514,5 @@ Reported out for passage on second reading and scheduling of a public hearing as
     <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 8, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO ZONING DESIGNATIONS IN WAILUA, KAUA‘I (County of Kaua‘i Planning Department, Applicant) (ZA-2024-1)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2025-01-16&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2789"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-resolution-2025-20/2026-07-27T22:00:59+00:00</id>
-    <title>New: Resolution 2025-20 (Kauaʻi) — On agenda 2025-03-12</title>
-    <updated>2026-07-27T22:00:59+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2812"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION AUTHORIZING THE FILING OF THE KAUA‘I COUNTY 2025 ACTION PLAN (COMMUNITY DEVELOPMENT BLOCK GRANT) WITH THE DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT, UNITED STATES OF AMERICA, FOR A GRANT UNDER TITLE I OF THE HOUSING AND COMMUNITY DEVELOPMENT ACT OF 1974 AND 1987 (PUBLIC LAWS 93-383 AND 100-242), AS AMENDED&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2025-03-12&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2812"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2944/2026-07-27T22:00:59+00:00</id>
-    <title>New: Bill 2944 (Kauaʻi) — In Committee</title>
-    <updated>2026-07-27T22:00:59+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2829"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 5A, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO REAL PROPERTY TAX (New tax classification “Long-Term Affordable Rental”)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2025-04-09&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2829"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
