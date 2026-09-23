@@ -25,8 +25,13 @@ if [ "${SKIP_PULL:-0}" != "1" ]; then
   git pull --rebase --autostash origin main >> "$LOG" 2>&1 || true
 fi
 
+# Diff against THIS scrape's start. diff's default cutoff is "the second-most-
+# recent run", but since the 7/27 rewrite `runs` holds one row per COUNCIL, so
+# that was the previous council in this same scrape: the commit message and the
+# Slack alert read "0 new, 0 updated" from 9/4 on while bills were landing.
+SCRAPE_START=$(date -u +%Y-%m-%dT%H:%M:%S+00:00)
 "$PY" -m tracker.legislative scrape --council all >> "$LOG" 2>&1
-"$PY" -m tracker.legislative diff --output /tmp/tracker-diff.json >> "$LOG" 2>&1 || true
+"$PY" -m tracker.legislative diff --since "$SCRAPE_START" --output /tmp/tracker-diff.json >> "$LOG" 2>&1 || true
 
 # Slack alert if a webhook is configured (best-effort).
 if [ -n "${SLACK_WEBHOOK_URL:-}" ]; then
