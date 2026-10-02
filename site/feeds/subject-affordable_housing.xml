@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/subject-affordable_housing.xml</id>
   <title>Bill Tracker — Affordable Housing bills</title>
-  <updated>2026-09-25T16:15:05+00:00</updated>
+  <updated>2026-10-02T16:15:10+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/subject-affordable_housing.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-221/2026-10-02T16:15:10+00:00</id>
+    <title>New: RES26-221 (Honolulu) — INTRO</title>
+    <updated>2026-10-02T16:15:10+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3856"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;GRANTING A SPECIAL MANAGEMENT AREA MAJOR PERMIT TO ALLOW FOR THE CONSTRUCTION OF A ONE-STORY SINGLE-UNIT DWELLING WITH A DETACHED THREE-CAR GARAGE, AND ACCESSORY DWELLING UNIT; AND INSTALLATION OF A NEW INDIVIDUAL WASTEWATER SYSTEM IN WAI'ANAE, O'AHU.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3856"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-207/2026-09-25T16:15:05+00:00</id>
     <title>RES26-207 (Honolulu): INTRO → ZON</title>
@@ -523,14 +532,5 @@ Reported out for passage on second reading and scheduling of a public hearing as
     <content type="html">&lt;p&gt;&lt;strong&gt;Supporting The Approval Of The Ka Lei Momi Kapa‘a Affordable Housing Project Pursuant To The Third Proclamation Relating To Affordable Housing Issued By The Governor Of The State Of Hawai‘i&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2024-01-31&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2647"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-resolution-2024-14/2026-07-27T22:00:59+00:00</id>
-    <title>New: Resolution 2024-14 (Kauaʻi) — On agenda 2024-03-27</title>
-    <updated>2026-07-27T22:00:59+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2662"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;Authorizing The Mayor And The Director Of Finance Of The County Of Kaua‘i To Enter Into An Intergovernmental Agreement With The State Of Hawai‘i And Department Of Health For A Loan From The State Water Pollution Control Revolving Fund For The Residential Cesspool Conversion Program (County Of Kaua‘i Residential Cesspool Conversion Program 1), Project No. RCC00KA-01&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2024-03-27&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2662"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
