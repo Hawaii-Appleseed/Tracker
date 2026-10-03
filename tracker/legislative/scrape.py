@@ -19,6 +19,7 @@ from tracker.legislative.adapters.base import CouncilAdapter
 from tracker.legislative.classify import classify
 from tracker.legislative.db import (
     DEFAULT_DB,
+    carry_forward,
     connect,
     finish_run,
     init_schema,
@@ -99,6 +100,11 @@ def scrape_council(
         try:
             for bill in adapter.fetch_bills(since=since):
                 seen += 1
+                # A clean --refetch-agendas run is authoritative: let it clear
+                # text a parser fix no longer produces. Any other run (or a
+                # refetch whose crawl degraded) keeps what was stored.
+                if adapter.text_may_be_missing and not (refetch_agendas and not adapter.errors):
+                    bill = carry_forward(conn, bill)
                 cls = classify(bill.title, bill.raw_subject, bill.bill_type)
                 bill_id, is_new, was_updated = upsert_bill(
                     conn, bill, cls.subjects, cls.confidence
@@ -129,6 +135,10 @@ def scrape_council(
             errors.append(str(e))
             log.exception("scrape failed for council=%s", council)
         finally:
+            # Failures the adapter worked around rather than raised (a crawl
+            # served from cache, an unreachable secondary source) — recorded so
+            # a degraded run doesn't look like a clean one.
+            errors.extend(adapter.errors)
             finish_run(conn, run_id, seen, new, updated, errors or None)
 
     return {

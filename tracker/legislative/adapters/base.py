@@ -5,6 +5,13 @@ from typing import Iterator
 from pydantic import BaseModel
 
 
+def first_line(e: BaseException) -> str:
+    """An exception's first line, for runs.errors. Playwright's launch error
+    carries a multi-line box-drawing banner after the useful part."""
+    lines = str(e).strip().splitlines()
+    return lines[0] if lines else type(e).__name__
+
+
 class ActionRecord(BaseModel):
     council: str
     bill_number: str
@@ -41,6 +48,20 @@ class BillRecord(BaseModel):
 
 class CouncilAdapter(ABC):
     council_id: str
+    # True when this adapter's descriptive text (title, raw_subject) comes from
+    # a source it can fail to read on a given run, so a None means "unknown
+    # this run" rather than "the source has none" — see db.carry_forward. The
+    # agenda-derived councils; API-backed sources report their text directly.
+    text_may_be_missing: bool = False
+
+    @property
+    def errors(self) -> list[str]:
+        """Failures fetch_bills() worked around instead of raising — e.g. an
+        agenda crawl that failed and was served from cache. The orchestrator
+        copies these into runs.errors, so a degraded run is flagged rather than
+        only logged. Per instance; created on first use, so subclasses need no
+        __init__ cooperation."""
+        return self.__dict__.setdefault("_errors", [])
 
     @abstractmethod
     def fetch_bills(self, since: date | None = None) -> Iterator[BillRecord]:

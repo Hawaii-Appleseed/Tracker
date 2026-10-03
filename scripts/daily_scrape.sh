@@ -30,6 +30,15 @@ fi
 # that was the previous council in this same scrape: the commit message and the
 # Slack alert read "0 new, 0 updated" from 9/4 on while bills were landing.
 SCRAPE_START=$(date -u +%Y-%m-%dT%H:%M:%S+00:00)
+
+# Kauai and Hawaii County agendas are read through Playwright's headless
+# Chromium, which lives outside the venv (~/Library/Caches/ms-playwright) and
+# nothing reinstalls if it is deleted: a disk cleaner did exactly that on
+# 2026-09-05 and both councils failed for four weeks. No-op when present.
+# Best-effort: without network the other councils should still scrape.
+"$PY" -m playwright install chromium-headless-shell >> "$LOG" 2>&1 \
+  || echo "WARNING: playwright browser install failed" >> "$LOG"
+
 "$PY" -m tracker.legislative scrape --council all >> "$LOG" 2>&1
 "$PY" -m tracker.legislative diff --since "$SCRAPE_START" --output /tmp/tracker-diff.json >> "$LOG" 2>&1 || true
 

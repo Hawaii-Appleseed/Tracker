@@ -33,6 +33,7 @@ from tracker.legislative.adapters.base import (
     ActionRecord,
     BillRecord,
     CouncilAdapter,
+    first_line,
 )
 from tracker.legislative.scrape import RETENTION_YEARS
 
@@ -390,6 +391,8 @@ def _looks_like_title(t: str) -> bool:
 
 
 class GranicusAdapter(CouncilAdapter):
+    text_may_be_missing = True
+
     def __init__(
         self,
         council_id: str,
@@ -603,6 +606,9 @@ class GranicusAdapter(CouncilAdapter):
                                 by_clip[key] = (mdate, url)
                     except Exception as e:
                         log.warning("%s view %s listing failed: %s", self.council_id, vid, e)
+                        self.errors.append(
+                            f"{self.council_id} agenda view {vid} listing failed: {first_line(e)}"
+                        )
                 by_url = {url: mdate for mdate, url in by_clip.values()}
 
                 # The date window is the real bound: keep meetings on or after
@@ -625,7 +631,8 @@ class GranicusAdapter(CouncilAdapter):
                     self.council_id, listed, in_window, floor, len(meetings),
                 )
 
-                fetched = skipped = 0
+                fetched = skipped = failed = 0
+                last_err: Exception | None = None
                 for mdate, agenda_url in meetings:
                     # A settled agenda already in the cache never changes, so
                     # skip the (expensive) render entirely. is_fresh() keeps
@@ -642,9 +649,19 @@ class GranicusAdapter(CouncilAdapter):
                         text = self._agenda_text(ctx, page, agenda_url)
                     except Exception as e:
                         log.warning("%s agenda fetch failed (%s): %s", self.council_id, agenda_url, e)
+                        failed += 1
+                        last_err = e
                         continue
                     fetched += 1
                     yield mdate, agenda_url, text
+                # One line for the run record, not one per agenda: a browser
+                # that dies mid-crawl fails every remaining agenda without
+                # raising, which would otherwise look like a clean run.
+                if failed:
+                    self.errors.append(
+                        f"{self.council_id} {failed} of {fetched + failed} agenda fetches "
+                        f"failed: {first_line(last_err)}"
+                    )
                 if skipped:
                     log.info(
                         "%s: fetched %d agendas, %d served from cache",
@@ -659,12 +676,23 @@ class GranicusAdapter(CouncilAdapter):
         # agendas skipped as settled still contribute their mentions, and the
         # result is identical to a cold crawl.
         parsed: list[dict] = []
-        for mdate, agenda_url, text in self.iter_raw_agendas(since=since):
-            mens = self._parse_agenda(text, mdate, agenda_url)
-            if self.agenda_store is not None:
-                self.agenda_store.save(agenda_url, mdate, mens)
-            else:
-                parsed.extend(mens)
+        try:
+            for mdate, agenda_url, text in self.iter_raw_agendas(since=since):
+                mens = self._parse_agenda(text, mdate, agenda_url)
+                if self.agenda_store is not None:
+                    self.agenda_store.save(agenda_url, mdate, mens)
+                else:
+                    parsed.extend(mens)
+        except Exception as e:
+            if self.agenda_store is None:
+                raise
+            # The crawl itself failed (e.g. the headless browser is missing),
+            # but every agenda parsed on earlier runs is still cached. Serve the
+            # window from cache rather than yielding nothing: for Hawaii County,
+            # nothing means every bill's title is written back as missing.
+            msg = f"{self.council_id} agenda crawl failed, served from cache: {first_line(e)}"
+            log.warning(msg)
+            self.errors.append(msg)
         if self.agenda_store is not None:
             mentions = self.agenda_store.load(since.isoformat() if since else None)
         else:

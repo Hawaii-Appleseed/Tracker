@@ -1,3 +1,4 @@
+import pytest
 from datetime import date
 from tracker.legislative.adapters.base import BillRecord
 from tracker.legislative.adapters.laserfiche import (
@@ -259,14 +260,16 @@ def test_fetch_bills_still_yields_agenda_only_bills():
     assert len(out) == 2
 
 
-def test_fetch_bills_falls_back_to_granicus_when_laserfiche_is_down():
+def test_fetch_bills_aborts_when_laserfiche_is_down():
+    """Agenda-only records would overwrite the Laserfiche-backed rows (no
+    introducer, Granicus status/URL), so an outage writes nothing instead."""
     ad = HawaiiCountyAdapter(delay=0)
     ad._active_from_granicus = lambda since: {"Bill 1 (2024-2026)": _gbill("Bill 1 (2024-2026)", "T")}
     def boom():
         raise RuntimeError("WAF said no")
     ad._session = boom
-    out = list(ad.fetch_bills())
-    assert [b.bill_number for b in out] == ["Bill 1 (2024-2026)"]
+    with pytest.raises(RuntimeError, match="WAF said no"):
+        list(ad.fetch_bills())
 
 
 def test_fetch_bills_survives_a_single_bad_metadata_read():

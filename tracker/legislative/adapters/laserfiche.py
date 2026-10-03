@@ -57,6 +57,7 @@ from tracker.legislative.adapters.base import (
     ActionRecord,
     BillRecord,
     CouncilAdapter,
+    first_line,
 )
 from tracker.legislative.adapters.granicus import (
     GranicusAdapter,
@@ -153,6 +154,8 @@ class _Doc(NamedTuple):
 
 class HawaiiCountyAdapter(CouncilAdapter):
     council_id = "hawaii"
+    # Titles and summaries exist only on Granicus agendas, never in Laserfiche.
+    text_may_be_missing = True
 
     def __init__(
         self,
@@ -345,7 +348,9 @@ class HawaiiCountyAdapter(CouncilAdapter):
             last_action=last_action,
             last_action_date=last_action_date,
             url=urljoin(_BASE, f"DocView.aspx?id={doc_id}&dbid=0"),
-            raw_subject=(meta.get("Referred To") or "").strip() or None,
+            # "Referred To" is a committee code ("COUNCIL", "FC"), not a
+            # description; raw_subject is filled from the agenda summary below.
+            committee=(meta.get("Referred To") or "").strip() or None,
             actions=action_records,
         )
 
@@ -441,12 +446,16 @@ class HawaiiCountyAdapter(CouncilAdapter):
 
     def _active_from_granicus(self, since: date | None) -> dict[str, BillRecord]:
         active: dict[str, BillRecord] = {}
+        gran = GranicusAdapter.for_council("hawaii", agenda_store=self.agenda_store)
         try:
-            gran = GranicusAdapter.for_council("hawaii", agenda_store=self.agenda_store)
             for b in gran.fetch_bills(since=since):
                 active[b.bill_number] = b
         except Exception as e:
             log.warning("Granicus active-set fetch failed: %s", e)
+            self.errors.append(f"hawaii agenda titles unavailable: {first_line(e)}")
+        # Granicus is where every Hawaii County title comes from, so a crawl it
+        # worked around (served from cache) still belongs on this run's record.
+        self.errors.extend(gran.errors)
         return active
 
     # ---- public API --------------------------------------------------------
@@ -458,24 +467,33 @@ class HawaiiCountyAdapter(CouncilAdapter):
             self._s = self._session()
             index = self._doc_index(since=since)
         except Exception as e:
-            log.warning("Laserfiche unreachable (%s); using Granicus-only data", e)
-            yield from active.values()
-            return
+            # Abort rather than fall back to agenda-only records: those carry no
+            # introducer and a Granicus URL/status, so upserting them rewrote
+            # ~1,430 Laserfiche-backed rows (and logged as many fake status
+            # changes) whenever the county server was down. Nothing is written;
+            # the next run catches up.
+            raise RuntimeError(f"hawaii Laserfiche unreachable: {first_line(e)}") from e
 
         if not index:
-            log.warning("Laserfiche index empty; using Granicus-only data for hawaii")
-            yield from active.values()
-            return
+            raise RuntimeError("hawaii Laserfiche index empty; nothing written")
 
         log.info("hawaii: %d Laserfiche docs, %d Granicus titles", len(index), len(active))
         seen: set[str] = set()
+        meta_failed = 0
+        last_err: Exception | None = None
         for key, doc in index.items():
             gbill = active.get(key)
             try:
                 rec = self._build_record(self._metadata(doc.doc_id), doc.doc_id, doc.term)
             except Exception as e:
+                # A failed fetch is not "no template": skip the doc so its
+                # stored row stands, rather than overwriting it with the
+                # thinner agenda record below. Marked seen for the same reason.
                 log.warning("hawaii metadata (%s) failed: %s", key, e)
-                rec = None
+                meta_failed += 1
+                last_err = e
+                seen.add(key)
+                continue
             if rec is None:
                 # No usable template — fall back to the agenda record if this
                 # bill happened to appear on one, else skip.
@@ -498,6 +516,12 @@ class HawaiiCountyAdapter(CouncilAdapter):
                 rec.title = gbill.title
                 rec.raw_subject = gbill.raw_subject or gbill.title or rec.raw_subject
             yield rec
+
+        if meta_failed:
+            self.errors.append(
+                f"hawaii {meta_failed} of {len(index)} Laserfiche metadata fetches "
+                f"failed (rows left unchanged): {first_line(last_err)}"
+            )
 
         # On an agenda but not (yet) filed in Laserfiche.
         for key, gbill in active.items():

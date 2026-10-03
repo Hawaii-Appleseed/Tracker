@@ -1,4 +1,5 @@
 import json
+import re
 import sqlite3
 from contextlib import contextmanager
 from datetime import date, datetime, timedelta, timezone
@@ -152,6 +153,42 @@ def _migrate(conn: sqlite3.Connection) -> None:
             conn.execute(f"ALTER TABLE bills ADD COLUMN {col} {ddl}")
     for ddl in _ADDED_INDEXES:
         conn.execute(ddl)
+
+
+_COMMITTEE_CODE_RE = re.compile(r"[A-Z]{2,10}")
+
+
+def carry_forward(conn: sqlite3.Connection, bill: BillRecord) -> BillRecord:
+    """Fill a record's missing title / summary from the stored row.
+
+    Sources lose descriptive text far more often than they retract it: Hawaii
+    County's titles come only from agendas, so a run that can't read them emits
+    every bill untitled, and upserting that as-is wiped ~1,450 titles (and
+    their subject tags) on each such run. A missing value therefore means
+    "unknown this run", never "now blank". Apply before classifying, so the
+    subjects are computed from the text that will actually be stored.
+
+    Only for adapters with text_may_be_missing, and the orchestrator skips it
+    on a clean --refetch-agendas run, so a parser fix can still clear text.
+    """
+    if bill.title is not None and bill.raw_subject is not None:
+        return bill
+    row = conn.execute(
+        "SELECT title, raw_subject FROM bills WHERE council = ? AND bill_number = ?",
+        (bill.council, bill.bill_number),
+    ).fetchone()
+    if row is None:
+        return bill
+    fill = {}
+    if bill.title is None and row["title"] is not None:
+        fill["title"] = row["title"]
+    # A stored summary that is a bare committee code ("COUNCIL", "FC") is the
+    # residue of the old Laserfiche mapping ("Referred To" -> raw_subject), not
+    # a description; let it clear rather than preserving it.
+    if (bill.raw_subject is None and row["raw_subject"] is not None
+            and not _COMMITTEE_CODE_RE.fullmatch(row["raw_subject"])):
+        fill["raw_subject"] = row["raw_subject"]
+    return bill.model_copy(update=fill) if fill else bill
 
 
 def upsert_bill(
