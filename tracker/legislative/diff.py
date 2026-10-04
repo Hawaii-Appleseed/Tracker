@@ -28,8 +28,6 @@ def diff_since(
             ).fetchall()
             if len(rows) >= 2:
                 cutoff = rows[1]["completed_at"]
-            elif rows:
-                cutoff = rows[0]["started_at"] if False else "1970-01-01T00:00:00+00:00"
             else:
                 cutoff = "1970-01-01T00:00:00+00:00"
 
@@ -44,12 +42,16 @@ def diff_since(
             "ORDER BY first_seen DESC",
             (cutoff,),
         ).fetchall()
+        # "Updated" = a status / latest-action move, as logged in bill_changes.
+        # last_updated also moves on title, URL or summary edits, which made
+        # a title backfill read as "1447 status changes".
         updated_rows = conn.execute(
-            "SELECT council, bill_number, title, status, last_action, "
-            "       last_action_date, url, subjects, last_updated, first_seen "
-            "FROM bills WHERE last_updated > ? AND first_seen <= ? "
-            "  AND matter_class = 'legislation' "
-            "ORDER BY last_updated DESC",
+            "SELECT b.council, b.bill_number, b.title, b.status, b.last_action, "
+            "       b.last_action_date, b.url, b.subjects, b.last_updated, b.first_seen "
+            "FROM bills b WHERE b.first_seen <= ? AND b.matter_class = 'legislation' "
+            "  AND EXISTS (SELECT 1 FROM bill_changes c WHERE c.bill_id = b.id "
+            "              AND c.kind = 'update' AND c.changed_at > ?) "
+            "ORDER BY b.last_updated DESC",
             (cutoff, cutoff),
         ).fetchall()
 

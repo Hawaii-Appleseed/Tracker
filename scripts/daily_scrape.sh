@@ -39,7 +39,17 @@ SCRAPE_START=$(date -u +%Y-%m-%dT%H:%M:%S+00:00)
 "$PY" -m playwright install chromium-headless-shell >> "$LOG" 2>&1 \
   || echo "WARNING: playwright browser install failed" >> "$LOG"
 
-"$PY" -m tracker.legislative scrape --council all >> "$LOG" 2>&1
+# scrape exits 1 when any council errored or degraded. Keep going — the
+# councils that did work still get built, committed and published — and
+# report the failure at the end.
+SCRAPE_OUT=/tmp/tracker-scrape.json
+SCRAPE_RC=0
+"$PY" -m tracker.legislative scrape --council all > "$SCRAPE_OUT" 2>> "$LOG" || SCRAPE_RC=$?
+cat "$SCRAPE_OUT" >> "$LOG"
+
+# Remove the previous diff first: if this one fails, the commit message and
+# Slack must not quietly reuse the last run's numbers.
+rm -f /tmp/tracker-diff.json
 "$PY" -m tracker.legislative diff --since "$SCRAPE_START" --output /tmp/tracker-diff.json >> "$LOG" 2>&1 || true
 
 # Slack alert if a webhook is configured (best-effort).
@@ -60,3 +70,25 @@ else
   echo "pushed: $NEW new, $UPD updated" >> "$LOG"
 fi
 echo "=== $(date '+%Y-%m-%d %H:%M:%S') done ===" >> "$LOG"
+
+if [ "$SCRAPE_RC" != 0 ]; then
+  # Push alert to the same ntfy topic madison's disk alarm uses. A silent
+  # Kauai failure ran four weeks (9/07-10/03) because only runs.errors knew.
+  SUMMARY=$("$PY" -c "
+import json, sys
+try:
+    rs = json.load(open('$SCRAPE_OUT'))
+except Exception:
+    print('scrape crashed before reporting; see tracker-scrape.log'); sys.exit()
+for r in rs:
+    if r['errors']:
+        print(f\"{r['council']}: {r['bills_seen']} seen; {r['errors'][0][:200]}\")
+" 2>/dev/null || echo "scrape failed; see tracker-scrape.log")
+  echo "SCRAPE FAILED (rc=$SCRAPE_RC): $SUMMARY" >> "$LOG"
+  TOPIC=$(cat "$HOME/.config/ntfy-topic" 2>/dev/null || true)
+  if [ -n "$TOPIC" ]; then
+    curl -s -m 10 -H "Title: Tracker scrape degraded" -H "Priority: high" \
+      -d "$SUMMARY" "https://ntfy.sh/$TOPIC" > /dev/null 2>&1 || true
+  fi
+  exit 1
+fi

@@ -24,7 +24,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from tracker.legislative import COUNCILS, MATTER_CLASSES, SUBJECTS
-from tracker.legislative.db import DEFAULT_DB, connect, init_schema, last_completed_run
+from tracker.legislative.db import (
+    DEFAULT_DB, connect, council_status, init_schema, last_completed_run,
+)
 from tracker.legislative.feeds import build_feeds
 
 SITE_DIR = Path(__file__).resolve().parent / "site"
@@ -64,6 +66,7 @@ def build(db_path: Path = DEFAULT_DB, site_dir: Path = SITE_DIR) -> Path:
             """
         ).fetchall()
         last_run = last_completed_run(conn)
+        status = council_status(conn, COUNCILS)
         action_rows = conn.execute(
             """
             SELECT b.council, a.bill_id, a.action_date, a.action, a.committee
@@ -98,7 +101,12 @@ def build(db_path: Path = DEFAULT_DB, site_dir: Path = SITE_DIR) -> Path:
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "last_scrape": dict(last_run) if last_run else None,
+        # Timestamp only: the run row's error text (local paths, stack lines)
+        # is for runs.errors and the operator alert, not a public payload.
+        "last_scrape": {"completed_at": last_run["completed_at"]} if last_run else None,
+        # Per-council freshness, so the site can say which data is stale
+        # instead of a single "updated N hr ago" that a failed run still bumps.
+        "council_status": status,
         "subjects": list(SUBJECTS),
         "councils": list(COUNCILS),
         "matter_classes": list(MATTER_CLASSES),

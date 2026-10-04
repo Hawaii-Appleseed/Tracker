@@ -166,6 +166,8 @@ h1 {
   box-shadow: 0 0 0 3px var(--ring);
   animation: live-pulse 2.6s ease-in-out infinite;
 }
+.live-dot.stale { background: #b8860b; animation: none; box-shadow: 0 0 0 3px rgba(184, 134, 11, 0.18); }
+.stale-note { color: #8a6508; }
 @keyframes live-pulse {
   0%, 100% { box-shadow: 0 0 0 3px var(--ring); }
   50% { box-shadow: 0 0 0 5px rgba(46, 107, 30, 0.12); }

@@ -459,16 +459,36 @@ class AgendaStore:
         ]
 
 
+def council_status(conn: sqlite3.Connection, councils: Iterable[str]) -> dict[str, dict]:
+    """Per council: when its data last refreshed cleanly, and whether its
+    latest run did. A run that errored, or saw nothing, is not a success —
+    the browser outage of 9/07 ran "successfully" with 0 Kauai bills seen."""
+    out = {}
+    for c in councils:
+        ok = conn.execute(
+            "SELECT MAX(completed_at) FROM runs WHERE council = ? "
+            "AND completed_at IS NOT NULL AND errors IS NULL AND bills_seen > 0",
+            (c,),
+        ).fetchone()[0]
+        last = last_completed_run(conn, c)
+        out[c] = {
+            "last_success": ok,
+            "last_run": last["completed_at"] if last else None,
+            "ok": bool(last) and last["errors"] is None and last["bills_seen"] > 0,
+        }
+    return out
+
+
 def last_completed_run(
     conn: sqlite3.Connection, council: str | None = None
 ) -> sqlite3.Row | None:
     if council:
         return conn.execute(
             "SELECT * FROM runs WHERE council = ? AND completed_at IS NOT NULL "
-            "ORDER BY completed_at DESC LIMIT 1",
+            "ORDER BY completed_at DESC, id DESC LIMIT 1",
             (council,),
         ).fetchone()
     return conn.execute(
         "SELECT * FROM runs WHERE completed_at IS NOT NULL "
-        "ORDER BY completed_at DESC LIMIT 1"
+        "ORDER BY completed_at DESC, id DESC LIMIT 1"
     ).fetchone()

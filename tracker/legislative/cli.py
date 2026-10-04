@@ -36,7 +36,9 @@ def cmd_scrape(args: argparse.Namespace) -> int:
             )
         ]
     print(json.dumps(results, indent=2))
-    return 0
+    # Non-zero when any council errored or degraded, so the caller (the daily
+    # job, the staleness monitor) can tell a partial run from a clean one.
+    return 1 if any(r["errors"] for r in results) else 0
 
 
 def cmd_diff(args: argparse.Namespace) -> int:

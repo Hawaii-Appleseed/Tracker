@@ -859,15 +859,33 @@
     }
   }
 
+  // Two missed Mon/Wed/Fri runs.
+  const STALE_AFTER_MS = 5 * 86400e3;
+
   function setMeta(payload) {
     const ts = payload.last_scrape?.completed_at || payload.generated_at;
     const exact = ts ? new Date(ts).toLocaleString() : "—";
     const rel = ts ? relTime(ts) : exact;
     const el = document.getElementById("meta");
+    // A run that failed for one council still completes, so the timestamp
+    // above can be fresh while that council's data is weeks old. Name it.
+    const stale = Object.entries(payload.council_status || {}).filter(([, s]) =>
+      !s.ok || !s.last_success || Date.now() - Date.parse(s.last_success) > STALE_AFTER_MS
+    );
+    const staleNote = stale.map(([c, s]) => {
+      const name = COUNCIL_LABEL[c] || c;
+      return s.last_success
+        ? `${name} data last refreshed ${new Date(s.last_success).toLocaleDateString()}`
+        : `${name} data has not refreshed`;
+    });
     el.innerHTML =
-      `<span class="live-dot" aria-hidden="true"></span>` +
-      `<span>updated ${escapeHtml(rel)}</span>`;
-    el.title = `Data current as of ${exact} — refreshes Mon, Wed & Fri`;
+      `<span class="live-dot${stale.length ? " stale" : ""}" aria-hidden="true"></span>` +
+      `<span>updated ${escapeHtml(rel)}</span>` +
+      (stale.length
+        ? `<span class="stale-note"> · ${escapeHtml(stale.map(([c]) => COUNCIL_LABEL[c] || c).join(", "))} delayed</span>`
+        : "");
+    el.title = `Data current as of ${exact} — refreshes Mon, Wed & Fri` +
+      (staleNote.length ? `\n${staleNote.join("\n")}` : "");
     state.dataTs = ts ? Date.parse(ts) : 0;
   }
 
