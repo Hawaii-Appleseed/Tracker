@@ -129,7 +129,7 @@ def test_adapter_errors_are_recorded_on_the_run(tmp_path: Path, monkeypatch):
 # --- Granicus: a failed crawl falls back to the agenda cache ------------------
 
 def _no_browser(self, since=None):
-    raise RuntimeError("BrowserType.launch: Executable doesn't exist\n╔═══ banner ═══╗")
+    raise RuntimeError("Max retries exceeded\n╔═══ banner ═══╗")
     yield  # pragma: no cover — makes this a generator, like the real one
 
 
@@ -153,7 +153,7 @@ def test_granicus_crawl_failure_serves_cache(tmp_path: Path, monkeypatch):
     assert [(b.bill_number, b.title) for b in bills] == [("Bill 3000", TAX_TITLE)]
     assert len(ad.errors) == 1
     assert "served from cache" in ad.errors[0]
-    assert "Executable doesn't exist" in ad.errors[0]
+    assert "Max retries exceeded" in ad.errors[0]
     assert "banner" not in ad.errors[0]  # first line only
 
 
@@ -176,32 +176,18 @@ def test_hawaii_inherits_granicus_degradation(tmp_path: Path, monkeypatch):
 
 
 def test_per_agenda_failures_are_recorded(monkeypatch):
-    """A browser that launches and then dies fails each agenda without
-    raising; the run must still be flagged."""
-    import playwright.sync_api
+    """Agendas that fail one by one don't raise; the run must still be
+    flagged."""
+    def _closed(self, session, url):
+        raise ConnectionError("Read timed out\nmore")
 
-    class _Obj:
-        def __getattr__(self, name):
-            return lambda *a, **k: self
-
-    class _PW:
-        chromium = _Obj()
-        def __enter__(self): return self
-        def __exit__(self, *a): return False
-
-    def _closed(self, ctx, page, url):
-        raise RuntimeError("Target page, context or browser has been closed\nmore")
-
-    monkeypatch.setattr(playwright.sync_api, "sync_playwright", lambda: _PW())
     monkeypatch.setattr(GranicusAdapter, "_list_meetings",
-                        lambda self, page, vid: [("2026-09-02", "http://g/a1"),
-                                                 ("2026-09-09", "http://g/a2")])
+                        lambda self, session, vid: [("2026-09-02", "http://g/a1"),
+                                                    ("2026-09-09", "http://g/a2")])
     monkeypatch.setattr(GranicusAdapter, "_agenda_text", _closed)
     ad = GranicusAdapter.for_council("kauai", delay=0)
     assert list(ad.fetch_bills(since=date(2024, 1, 1))) == []
-    assert ad.errors == [
-        "kauai 2 of 2 agenda fetches failed: Target page, context or browser has been closed"
-    ]
+    assert ad.errors == ["kauai 2 of 2 agenda fetches failed: Read timed out"]
 
 
 # --- Laserfiche outages leave stored rows alone ------------------------------

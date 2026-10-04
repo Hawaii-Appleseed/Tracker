@@ -1,3 +1,4 @@
+import io
 import json
 from pathlib import Path
 
@@ -395,40 +396,66 @@ def test_max_meetings_and_delay_are_overridable():
 
 # --- agenda transport --------------------------------------------------------
 
-class _FakePage:
-    def __init__(self, fail): self.fail = fail
-    def goto(self, *a, **kw):
-        if self.fail:
-            raise RuntimeError("Page.goto: Download is starting")
-    def wait_for_timeout(self, *a): pass
-    def inner_text(self, *a): return "HTML AGENDA TEXT"
+class _Resp:
+    def __init__(self, content=b"", location=None, text=""):
+        self.content, self.text = content, text
+        self.is_redirect = location is not None
+        self.headers = {"location": location} if location else {}
+    def raise_for_status(self): pass
 
 
-class _FakeCtx:
-    """Stands in for playwright's request context; returns a one-page PDF."""
-    def __init__(self, body): self.request = self; self._body = body
-    def get(self, *a, **kw): return self
-    def body(self): return self._body
+class _FakeSession:
+    """Maps URL -> response; records what was requested."""
+    def __init__(self, routes): self.routes, self.got = routes, []
+    def get(self, url, **kw):
+        self.got.append(url)
+        return self.routes[url]
 
 
-def test_html_mode_falls_back_to_pdf_when_navigation_downloads():
-    # Older Kauai agendas are served as PDF downloads; page.goto aborts on them.
+def _one_page_pdf(text: str) -> bytes:
+    from pypdf import PdfWriter
+    w = PdfWriter(); w.add_blank_page(72, 72)
+    buf = io.BytesIO(); w.write(buf)
+    return buf.getvalue()
+
+
+def test_document_url_unwraps_google_viewer_to_path_style_s3():
+    loc = ("https://docs.google.com/gview?url=https%3A%2F%2Fgranicus_production_"
+           "attachments.s3.amazonaws.com%2Fkauai%2Fabc.pdf&embedded=true")
+    assert GranicusAdapter._document_url(loc) == (
+        "https://s3.amazonaws.com/granicus_production_attachments/kauai/abc.pdf")
+
+
+def test_document_url_keeps_granicus_document_viewer():
+    loc = ("https://docs.google.com/gview?url=https%3A%2F%2Fkauai.granicus.com%2F"
+           "DocumentViewer.php%3Ffile%3Dkauai_x.pdf%26view%3D1&embedded=true")
+    assert GranicusAdapter._document_url(loc) == (
+        "https://kauai.granicus.com/DocumentViewer.php?file=kauai_x.pdf&view=1")
+
+
+def test_agenda_text_follows_redirect_to_pdf():
+    ad = GranicusAdapter.for_council("hawaii")
+    sess = _FakeSession({
+        "https://h/AgendaViewer.php?clip_id=1": _Resp(location="/DocumentViewer.php?file=a.pdf"),
+        "https://h/DocumentViewer.php?file=a.pdf": _Resp(content=_one_page_pdf("x")),
+    })
+    assert ad._agenda_text(sess, "https://h/AgendaViewer.php?clip_id=1") == ""
+    assert sess.got[-1] == "https://h/DocumentViewer.php?file=a.pdf"
+
+
+def test_agenda_text_reads_html_when_not_redirected():
     ad = GranicusAdapter.for_council("kauai")
-    ad._pdf_text = staticmethod(lambda ctx, url: "PDF AGENDA TEXT")
-    assert ad._agenda_text(None, _FakePage(fail=True), "http://x") == "PDF AGENDA TEXT"
-    # the HTML path is still preferred when navigation works
-    assert ad._agenda_text(None, _FakePage(fail=False), "http://x") == "HTML AGENDA TEXT"
+    sess = _FakeSession({"https://k/a": _Resp(content=b"<html>", text="<html><body>AGENDA TEXT</body></html>")})
+    assert "AGENDA TEXT" in ad._agenda_text(sess, "https://k/a")
 
 
-def test_html_mode_reraises_navigation_error_when_not_a_pdf():
+def test_list_meetings_reads_date_from_row():
     ad = GranicusAdapter.for_council("kauai")
-    ad._pdf_text = staticmethod(lambda ctx, url: "")
-    with pytest.raises(RuntimeError, match="Download is starting"):
-        ad._agenda_text(None, _FakePage(fail=True), "http://x")
-
-
-def test_pdf_text_ignores_non_pdf_bodies():
-    assert GranicusAdapter._pdf_text(_FakeCtx(b"<html>nope</html>"), "http://x") == ""
+    html = ('<ul><li>County Council Meeting October\xa0 7,\xa02026 - 08:25 AM '
+            '<a href="//kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1637">Agenda</a></li></ul>')
+    sess = _FakeSession({"https://kauai.granicus.com/ViewPublisher.php?view_id=2": _Resp(text=html)})
+    assert ad._list_meetings(sess, 2) == [
+        ("2026-10-07", "https://kauai.granicus.com/AgendaViewer.php?view_id=2&event_id=1637")]
 
 
 def test_hawaii_abbreviated_resolution_is_matched():
@@ -462,12 +489,12 @@ def test_agenda_dedupe_key_ignores_the_publisher_view():
 
 _FIRST = (
     "2026-05-13", "http://x/a1",
-    "BILLS FOR FIRST READING Bill No. 2988 A BILL FOR AN ORDINANCE RELATING "
+    "H. BILLS FOR FIRST READING Bill No. 2988 A BILL FOR AN ORDINANCE RELATING "
     "TO THE OPERATING BUDGET OF THE COUNTY OF KAUAI",
 )
 _SECOND = (
     "2026-05-27", "http://x/a2",
-    "BILLS FOR SECOND READING Bill No. 2988 A BILL FOR AN ORDINANCE RELATING "
+    "I. BILLS FOR SECOND READING Bill No. 2988 A BILL FOR AN ORDINANCE RELATING "
     "TO THE OPERATING BUDGET OF THE COUNTY OF KAUAI, AS AMENDED",
 )
 

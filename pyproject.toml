@@ -9,7 +9,6 @@ dependencies = [
     "beautifulsoup4>=4.12",
     "pydantic>=2.6",
     "lxml>=5.1",
-    "playwright>=1.50",
     "pypdf>=5.0",
 ]
 

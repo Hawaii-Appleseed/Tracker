@@ -29,8 +29,7 @@ with DocView.aspx?id=… kept as the human-facing permalink.
 The records site runs a WAF (Barracuda) that blocks *headless browsers* but is
 happy with a normal requests session (browser-like headers, cookie jar for the
 CookieCheck handshake) — no browser, and it passes where Playwright is blocked.
-Granicus is the opposite (blocks bare HTTP, tolerates real Chromium), which is
-why the two halves of this adapter use different transports.
+Granicus agendas are plain HTTP too (see granicus.py).
 
 Folder layout:
   Bills (50) / Resolutions (41) / Ordinances (47)

@@ -4,15 +4,17 @@ Granicus meeting agendas (Hawaii County and Kauai).
 Neither council has a usable bill API: their Legistar tenants are unprovisioned
 and their .gov sites are behind an Akamai WAF that blocks headless requests.
 But both publish meeting agendas on Granicus, and bills/resolutions appear in
-the agenda text with their numbers, titles, and reading stage. We drive a real
-headless browser (the WAF/Granicus tolerate Chromium far better than bare HTTP)
-to read each recent agenda and extract legislation.
+the agenda text with their numbers, titles, and reading stage.
 
-Two agenda render modes:
-  - "html": AgendaViewer.php returns an HTML page (Kauai)
-  - "pdf":  AgendaViewer.php returns a generated PDF (Hawaii County)
+Everything is plain HTTP. Listings (ViewPublisher.php) and agendas both
+answer `requests`; AgendaViewer.php redirects to the agenda PDF — Hawaii
+County to DocumentViewer.php, Kauai through a Google Docs viewer to S3. Until
+2026-10 this used headless Chromium, which read Kauai through that viewer and
+so saw only pages 1-3 of each agenda, and which failed outright whenever the
+browser binary went missing.
 
-Both are text-extractable. We list recent meetings from ViewPublisher.php,
+`mode` selects the title rules, not the transport: "pdf" for Hawaii County's
+ALL-CAPS title + staff summary layout, "html" for Kauai's. We list recent meetings from ViewPublisher.php,
 read each agenda, and pull out Bill/Resolution items. A bill can appear across
 several meetings as it advances; we keep the most recent appearance (its
 section heading gives the latest reading stage).
@@ -28,6 +30,7 @@ import time
 import unicodedata
 from datetime import date, datetime
 from typing import Iterator
+from urllib.parse import parse_qs, urljoin, urlparse
 
 from tracker.legislative.adapters.base import (
     ActionRecord,
@@ -70,9 +73,9 @@ DEFAULT_WINDOW_YEARS = int(_env_num("TRACKER_WINDOW_YEARS", RETENTION_YEARS))
 # silently truncating.
 DEFAULT_MAX_MEETINGS = int(_env_num("TRACKER_GRANICUS_MAX_MEETINGS", 600))
 
-# Courtesy pause between agenda fetches. Each fetch already costs ~2s (page
-# load or PDF render), so this is a small extra margin rather than the main
-# rate limiter.
+# Courtesy pause between agenda fetches. Each fetch already costs ~1-2s
+# (redirect + PDF download), so this is a small extra margin rather than the
+# main rate limiter.
 AGENDA_DELAY = _env_num("TRACKER_GRANICUS_DELAY", 0.25)
 
 # A meeting row on ViewPublisher carries a date like "May 27, 2026" and an
@@ -89,20 +92,22 @@ _DATE_PATTERNS = [
 # resolutions as "Res. 556-26: <TITLE>" — without the abbreviation the whole
 # resolution half of that council goes titleless, so "Res." is matched too. The
 # trailing period is required: bare "Res" is too easy to hit inside other words.
+# Kauai also writes "Proposed Draft Bill (No. 3006)" for a first reading, so
+# the number may sit in parentheses.
 _BILL_RE = re.compile(
-    r"\b(Bill|Resolution|Reso|Res\.)\s*(?:No\.?\s*)?(\d{2,4}(?:-\d{1,4})?)\b", re.I
+    r"\b(Bill|Resolution|Reso|Res\.)\s*\(?\s*(?:No\.?\s*)?(\d{2,4}(?:-\d{1,4})?)\b\)?", re.I
 )
-# Section headers that indicate a reading stage / status.
-_STAGE_RE = re.compile(
-    r"(BILLS?\s+FOR\s+FIRST\s+READING"
-    r"|BILLS?\s+FOR\s+SECOND\s+(?:AND\s+FINAL\s+)?READING"
-    r"|BILLS?\s+FOR\s+SECOND\s+READING"
-    r"|RESOLUTION[S]?\b"
-    r"|BILLS?\b"
-    r"|COMMITTEE\s+REPORTS?"
-    r"|UNFINISHED\s+BUSINESS)",
-    re.I,
+# A line-wrapped resolution number reads "Resolution No. 2025- 10" once
+# whitespace is collapsed; rejoin it before matching, or it keys as "2025".
+_WRAPPED_NUM_RE = re.compile(
+    r"\b((?:Resolution|Reso|Res\.)\s*\(?\s*(?:No\.?\s*)?\d{4})-\s+(\d{1,3})\b", re.I
 )
+# A lettered agenda section header ("H. BILL FOR FIRST READING", "J.
+# RESOLUTIONS", "G. CLAIMS"). Case-sensitive and lettered on purpose: matching
+# the words alone, case-insensitively, hit every "A BILL FOR AN ORDINANCE"
+# inside an item title, so 137 of 156 Kauai bills got no stage. Any header
+# ends the previous section, so the nearest one before an item is its stage.
+_STAGE_RE = re.compile(r"(?<![A-Za-z])[A-Z]\.\s+[A-Z][A-Z ,&/-]{3,}")
 _STAGE_LABELS = {
     "first reading": "First Reading",
     "second": "Second Reading",
@@ -288,6 +293,8 @@ _KAUAI_END_RE = re.compile(
 
 def _kauai_trim(t: str) -> str:
     t = _BILL_RE.split(t)[0]                 # stop at the next bill/resolution
+    # ...which leaves that item's own lead-in behind: "… FUND 2. Proposed Draft"
+    t = re.sub(r"\s+\d{1,2}\.\s*(?:Proposed\s+Draft\s*)?$", "", t, flags=re.I)
     end = _KAUAI_END_RE.search(t)
     if end:
         t = t[: end.start()]
@@ -307,6 +314,8 @@ def _clean_kauai_title(flat: str, m: re.Match) -> str | None:
         rec = _KAUAI_RECOVER_RE.search(seg)
         return _kauai_trim(rec.group(1)) if rec else None
     cand = _clean(flat[m.end(): m.end() + 600]).lstrip("-–—:.,) ")
+    # "Bill No. 2998, Draft 1 A BILL FOR …": the draft marker precedes the title.
+    cand = re.sub(r"^Draft\s+\d+[,.]?\s*", "", cand, flags=re.I)
     # Quoted title: take the quoted span (cuts trailing boilerplate cleanly).
     q = re.match(r'["“](.+?)["”]', cand)
     if q:
@@ -411,8 +420,8 @@ class GranicusAdapter(CouncilAdapter):
         self.delay = AGENDA_DELAY if delay is None else delay
         # Optional db.AgendaStore. Without it every agenda in the window is
         # fetched on every run — fine for tests and one-off crawls, but the
-        # nightly scrape would re-read ~450 Hawaii County agendas (~an hour of
-        # cold PDF renders) to discover almost nothing new. With it, settled
+        # nightly scrape would re-download ~450 Hawaii County agenda PDFs to
+        # discover almost nothing new. With it, settled
         # agendas are parsed once and the window is assembled from cache.
         self.agenda_store = agenda_store
 
@@ -446,78 +455,79 @@ class GranicusAdapter(CouncilAdapter):
 
     # ---- meeting discovery -------------------------------------------------
 
-    def _list_meetings(self, page, view_id: int) -> list[tuple[str, str]]:
+    def _session(self):
+        import requests
+        s = requests.Session()
+        s.headers["User-Agent"] = _UA
+        return s
+
+    def _list_meetings(self, session, view_id: int) -> list[tuple[str, str]]:
         """Return [(iso_date, agenda_url)] for one publisher view.
 
-        Layout varies by tenant (Hawaii County uses table rows, Kauai doesn't),
-        so for each agenda link we read the nearest sensible container for its
-        meeting date rather than assuming a <tr>.
+        Layout varies by tenant (Hawaii County uses table rows, Kauai list
+        items), so for each agenda link we read the nearest sensible container
+        for its meeting date rather than assuming a <tr>.
         """
+        from bs4 import BeautifulSoup
+
         url = f"https://{self.host}/ViewPublisher.php?view_id={view_id}"
-        page.goto(url, wait_until="domcontentloaded", timeout=45000)
-        try:
-            page.wait_for_load_state("networkidle", timeout=8000)
-        except Exception:
-            page.wait_for_timeout(1500)
-        rows = page.eval_on_selector_all(
-            "a",
-            """els => els
-                .filter(a => /AgendaViewer\\.php/.test(a.href))
-                .map(a => {
-                    const box = a.closest('tr, li, .listingRow, .row') || a.parentElement?.parentElement || a.parentElement;
-                    return { href: a.href, row: (box ? box.innerText : '') || '' };
-                })""",
-        )
+        resp = session.get(url, timeout=90)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "lxml")
         out: list[tuple[str, str]] = []
         seen: set[str] = set()
-        for r in rows:
-            if not _AGENDA_RE.search(r["href"]) or r["href"] in seen:
+        for a in soup.find_all("a", href=True):
+            href = urljoin(url, a["href"])
+            if not _AGENDA_RE.search(href) or href in seen:
                 continue
-            seen.add(r["href"])
+            seen.add(href)
+            box = a.find_parent(["tr", "li"]) or a.parent
+            row = " ".join(box.get_text(" ").split()) if box else ""
             iso = None
             for pat in _DATE_PATTERNS:
-                m = pat.search(r["row"])
+                m = pat.search(row)
                 if m:
                     iso = _parse_date(m.group(0))
                     if iso:
                         break
-            out.append((iso or "", r["href"]))
+            out.append((iso or "", href))
         return out
 
     # ---- agenda fetch ------------------------------------------------------
 
     @staticmethod
-    def _pdf_text(ctx, agenda_url: str) -> str:
+    def _document_url(location: str) -> str:
+        """Where an AgendaViewer redirect really points. Kauai wraps its PDF
+        in a Google Docs viewer (which renders only pages 1-3 — the old
+        browser crawl read that and missed most of every agenda); unwrap it.
+        The bucket name has an underscore, so the virtual-host S3 URL fails
+        TLS hostname checks; use the path-style form."""
+        u = urlparse(location)
+        if u.netloc == "docs.google.com":
+            inner = parse_qs(u.query).get("url")
+            if inner:
+                u = urlparse(inner[0])
+        if u.netloc.endswith(".s3.amazonaws.com"):
+            bucket = u.netloc[: -len(".s3.amazonaws.com")]
+            return f"https://s3.amazonaws.com/{bucket}{u.path}"
+        return u.geturl()
+
+    def _agenda_text(self, session, agenda_url: str) -> str:
+        """Agenda text over plain HTTP. AgendaViewer redirects to the agenda
+        PDF (Hawaii County: DocumentViewer.php; Kauai: via Google Docs viewer
+        to S3 or DocumentViewer.php); an un-redirected page is HTML."""
         from pypdf import PdfReader
 
-        resp = ctx.request.get(agenda_url, timeout=45000)
-        body = resp.body()
-        if body[:4] != b"%PDF":
-            return ""
-        reader = PdfReader(io.BytesIO(body))
-        return "\n".join((pg.extract_text() or "") for pg in reader.pages)
-
-    def _agenda_text(self, ctx, page, agenda_url: str) -> str:
-        if self.mode == "pdf":
-            return self._pdf_text(ctx, agenda_url)
-        # html mode
-        try:
-            page.goto(agenda_url, wait_until="domcontentloaded", timeout=45000)
-            page.wait_for_timeout(800)
-            return page.inner_text("body")
-        except Exception:
-            # Kauai's tenant renders recent agendas as HTML but serves older
-            # ones as a PDF download, which navigation aborts on ("Download is
-            # starting"). Uncapping the crawl walks straight into those, so fall
-            # back to reading the response as a PDF before giving up. A failure
-            # in the fallback must not mask the navigation error.
-            try:
-                text = self._pdf_text(ctx, agenda_url)
-            except Exception:
-                text = ""
-            if text:
-                return text
-            raise
+        resp = session.get(agenda_url, allow_redirects=False, timeout=60)
+        if resp.is_redirect:
+            target = self._document_url(urljoin(agenda_url, resp.headers["location"]))
+            resp = session.get(target, timeout=90)
+        resp.raise_for_status()
+        if resp.content[:4] == b"%PDF":
+            reader = PdfReader(io.BytesIO(resp.content))
+            return "\n".join((pg.extract_text() or "") for pg in reader.pages)
+        from bs4 import BeautifulSoup
+        return BeautifulSoup(resp.text, "lxml").get_text("\n")
 
     # ---- agenda parsing ----------------------------------------------------
 
@@ -528,7 +538,7 @@ class GranicusAdapter(CouncilAdapter):
         a real legislative title. Incidental cross-references (a number listed
         in a sentence, a minutes line, etc.) are skipped — their trailing text
         won't pass _looks_like_title."""
-        flat = _clean(text)
+        flat = _WRAPPED_NUM_RE.sub(r"\1-\2", _clean(text))
         out: list[dict] = []
         for m in _BILL_RE.finditer(flat):
             kind = m.group(1).lower()
@@ -580,95 +590,90 @@ class GranicusAdapter(CouncilAdapter):
     def iter_raw_agendas(
         self, since: date | None = None
     ) -> Iterator[tuple[str, str, str]]:
-        """Drive a headless browser and yield (meeting_date, agenda_url, raw_text)
-        for each recent agenda. The single place that fetches agenda text — both
+        """Yield (meeting_date, agenda_url, raw_text) for each recent agenda,
+        over plain HTTP. The single place that fetches agenda text — both
         fetch_bills() and the `dump-agendas` CLI consume it."""
-        from playwright.sync_api import sync_playwright
-
-        with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
-            ctx = browser.new_context(user_agent=_UA, ignore_https_errors=True)
-            page = ctx.new_page()
-            try:
-                # Views overlap heavily — Hawaii County's view 2 lists the same
-                # meetings as view 1 — but each view links the agenda under its
-                # own view_id, so the URLs differ for what is one meeting.
-                # Dedupe on the clip/event id instead, which identifies the
-                # agenda itself; keying on the URL fetches each twice.
-                by_clip: dict[str, tuple[str, str]] = {}
-                for vid in self.view_ids:
-                    try:
-                        for mdate, url in self._list_meetings(page, vid):
-                            cid = _CLIP_ID_RE.search(url)
-                            key = cid.group(1) if cid else url
-                            prev = by_clip.get(key)
-                            if prev is None or (mdate and not prev[0]):
-                                by_clip[key] = (mdate, url)
-                    except Exception as e:
-                        log.warning("%s view %s listing failed: %s", self.council_id, vid, e)
-                        self.errors.append(
-                            f"{self.council_id} agenda view {vid} listing failed: {first_line(e)}"
-                        )
-                by_url = {url: mdate for mdate, url in by_clip.values()}
-
-                # The date window is the real bound: keep meetings on or after
-                # it and drop the rest, however many that is. max_meetings is
-                # only a backstop against a runaway view.
-                floor = window_start(since).isoformat()
-                listed = len(by_url)
-                meetings = [(d, u) for u, d in by_url.items() if not d or d >= floor]
-                meetings.sort(key=lambda m: m[0], reverse=True)
-                in_window = len(meetings)
-                meetings = meetings[: self.max_meetings]
-                if in_window > len(meetings):
-                    log.warning(
-                        "%s: %d agendas in window since %s but max_meetings=%d truncated "
-                        "the crawl — raise TRACKER_GRANICUS_MAX_MEETINGS",
-                        self.council_id, in_window, floor, self.max_meetings,
-                    )
-                log.info(
-                    "%s: %d agendas listed, %d since %s, reading %d",
-                    self.council_id, listed, in_window, floor, len(meetings),
-                )
-
-                fetched = skipped = failed = 0
-                last_err: Exception | None = None
-                for mdate, agenda_url in meetings:
-                    # A settled agenda already in the cache never changes, so
-                    # skip the (expensive) render entirely. is_fresh() keeps
-                    # re-reading recent meetings, whose agendas can still be
-                    # amended, and returns False for everything when the caller
-                    # asked for a refetch.
-                    store = self.agenda_store
-                    if store is not None and store.is_fresh(agenda_url, mdate):
-                        skipped += 1
-                        continue
-                    if fetched and self.delay:
-                        time.sleep(self.delay)
-                    try:
-                        text = self._agenda_text(ctx, page, agenda_url)
-                    except Exception as e:
-                        log.warning("%s agenda fetch failed (%s): %s", self.council_id, agenda_url, e)
-                        failed += 1
-                        last_err = e
-                        continue
-                    fetched += 1
-                    yield mdate, agenda_url, text
-                # One line for the run record, not one per agenda: a browser
-                # that dies mid-crawl fails every remaining agenda without
-                # raising, which would otherwise look like a clean run.
-                if failed:
+        session = self._session()
+        try:
+            # Views overlap heavily — Hawaii County's view 2 lists the same
+            # meetings as view 1 — but each view links the agenda under its
+            # own view_id, so the URLs differ for what is one meeting.
+            # Dedupe on the clip/event id instead, which identifies the
+            # agenda itself; keying on the URL fetches each twice.
+            by_clip: dict[str, tuple[str, str]] = {}
+            for vid in self.view_ids:
+                try:
+                    for mdate, url in self._list_meetings(session, vid):
+                        cid = _CLIP_ID_RE.search(url)
+                        key = cid.group(1) if cid else url
+                        prev = by_clip.get(key)
+                        if prev is None or (mdate and not prev[0]):
+                            by_clip[key] = (mdate, url)
+                except Exception as e:
+                    log.warning("%s view %s listing failed: %s", self.council_id, vid, e)
                     self.errors.append(
-                        f"{self.council_id} {failed} of {fetched + failed} agenda fetches "
-                        f"failed: {first_line(last_err)}"
+                        f"{self.council_id} agenda view {vid} listing failed: {first_line(e)}"
                     )
-                if skipped:
-                    log.info(
-                        "%s: fetched %d agendas, %d served from cache",
-                        self.council_id, fetched, skipped,
-                    )
-            finally:
-                browser.close()
+            by_url = {url: mdate for mdate, url in by_clip.values()}
+
+            # The date window is the real bound: keep meetings on or after
+            # it and drop the rest, however many that is. max_meetings is
+            # only a backstop against a runaway view.
+            floor = window_start(since).isoformat()
+            listed = len(by_url)
+            meetings = [(d, u) for u, d in by_url.items() if not d or d >= floor]
+            meetings.sort(key=lambda m: m[0], reverse=True)
+            in_window = len(meetings)
+            meetings = meetings[: self.max_meetings]
+            if in_window > len(meetings):
+                log.warning(
+                    "%s: %d agendas in window since %s but max_meetings=%d truncated "
+                    "the crawl — raise TRACKER_GRANICUS_MAX_MEETINGS",
+                    self.council_id, in_window, floor, self.max_meetings,
+                )
+            log.info(
+                "%s: %d agendas listed, %d since %s, reading %d",
+                self.council_id, listed, in_window, floor, len(meetings),
+            )
+
+            fetched = skipped = failed = 0
+            last_err: Exception | None = None
+            for mdate, agenda_url in meetings:
+                # A settled agenda already in the cache never changes, so
+                # skip the download entirely. is_fresh() keeps
+                # re-reading recent meetings, whose agendas can still be
+                # amended, and returns False for everything when the caller
+                # asked for a refetch.
+                store = self.agenda_store
+                if store is not None and store.is_fresh(agenda_url, mdate):
+                    skipped += 1
+                    continue
+                if fetched and self.delay:
+                    time.sleep(self.delay)
+                try:
+                    text = self._agenda_text(session, agenda_url)
+                except Exception as e:
+                    log.warning("%s agenda fetch failed (%s): %s", self.council_id, agenda_url, e)
+                    failed += 1
+                    last_err = e
+                    continue
+                fetched += 1
+                yield mdate, agenda_url, text
+            # One line for the run record, not one per agenda: a source that
+            # starts timing out mid-crawl fails every remaining agenda without
+            # raising, which would otherwise look like a clean run.
+            if failed:
+                self.errors.append(
+                    f"{self.council_id} {failed} of {fetched + failed} agenda fetches "
+                    f"failed: {first_line(last_err)}"
+                )
+            if skipped:
+                log.info(
+                    "%s: fetched %d agendas, %d served from cache",
+                    self.council_id, fetched, skipped,
+                )
+        finally:
+            session.close()
 
     def fetch_bills(self, since: date | None = None) -> Iterator[BillRecord]:
         # Parse whatever agendas needed (re-)fetching. With a store, each parse
@@ -686,7 +691,7 @@ class GranicusAdapter(CouncilAdapter):
         except Exception as e:
             if self.agenda_store is None:
                 raise
-            # The crawl itself failed (e.g. the headless browser is missing),
+            # The crawl itself failed (e.g. Granicus unreachable),
             # but every agenda parsed on earlier runs is still cached. Serve the
             # window from cache rather than yielding nothing: for Hawaii County,
             # nothing means every bill's title is written back as missing.

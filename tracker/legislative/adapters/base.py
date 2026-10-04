@@ -6,8 +6,8 @@ from pydantic import BaseModel
 
 
 def first_line(e: BaseException) -> str:
-    """An exception's first line, for runs.errors. Playwright's launch error
-    carries a multi-line box-drawing banner after the useful part."""
+    """An exception's first line, for runs.errors — later lines (response
+    bodies, banners) are noise there."""
     lines = str(e).strip().splitlines()
     return lines[0] if lines else type(e).__name__
 

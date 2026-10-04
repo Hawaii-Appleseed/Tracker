@@ -30,9 +30,6 @@ jobs:
       - name: Install
         run: pip install -e .
 
-      - name: Install Playwright browser
-        run: python -m playwright install --with-deps chromium
-
       - name: Scrape all councils
         run: |
           python -m tracker.legislative scrape --council all > scrape.json

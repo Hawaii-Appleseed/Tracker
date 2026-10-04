@@ -47,8 +47,8 @@ CREATE TABLE IF NOT EXISTS bill_actions (
 );
 
 -- Granicus agenda cache. Hawaii County and Kauai have no bill API — their
--- inventory is reconstructed from meeting agendas. Fetching an agenda needs a
--- headless browser, so each one is parsed once and its bill mentions kept
+-- inventory is reconstructed from meeting agendas. Re-downloading ~640 agenda
+-- PDFs every run would be slow and impolite, so each is parsed once and its bill mentions kept
 -- here; the adapter then assembles the full since-window from this cache plus
 -- whatever agendas are new (or recent enough to still be amended).
 CREATE TABLE IF NOT EXISTS agenda_fetches (
