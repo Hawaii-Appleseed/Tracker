@@ -20,7 +20,9 @@ def test_scrape_exit_code_reflects_errors(monkeypatch, capsys):
     ok = {"council": "maui", "bills_seen": 5, "bills_new": 0, "bills_updated": 0, "errors": []}
     bad = {**ok, "council": "kauai", "errors": ["crawl failed"]}
     args = Namespace(council="all", db=None, since=None)
-    monkeypatch.setattr(cli, "scrape_all", lambda **k: [ok])
+    # scrape_all appends a prune summary with no "errors" key (crashed 10/05).
+    pruned = {"council": "*", "pruned": 421}
+    monkeypatch.setattr(cli, "scrape_all", lambda **k: [ok, pruned])
     assert cli.cmd_scrape(args) == 0
     monkeypatch.setattr(cli, "scrape_all", lambda **k: [ok, bad])
     assert cli.cmd_scrape(args) == 1
