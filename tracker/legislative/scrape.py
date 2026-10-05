@@ -56,7 +56,11 @@ def _build_adapter(
         # (introducer, status, dated action history); titles borrowed from
         # Granicus agendas. See adapters/laserfiche.py.
         from tracker.legislative.adapters.laserfiche import HawaiiCountyAdapter
-        return HawaiiCountyAdapter(agenda_store=_store("hawaii"))
+        meta_cache = None
+        if conn is not None:
+            from tracker.legislative.db import LaserficheMetaCache
+            meta_cache = LaserficheMetaCache(conn)
+        return HawaiiCountyAdapter(agenda_store=_store("hawaii"), meta_cache=meta_cache)
     if council == "kauai":
         # No bill API; bills live in Granicus meeting agendas (HTML).
         from tracker.legislative.adapters.granicus import GranicusAdapter

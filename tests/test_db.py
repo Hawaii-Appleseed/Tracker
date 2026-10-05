@@ -109,3 +109,18 @@ def test_agenda_store_freshness(tmp_path: Path):
         assert not store.is_fresh("http://x/boundary", boundary)
         # refetch mode ignores the cache entirely
         assert not AgendaStore(conn, "kauai", refetch=True).is_fresh("http://x/old", old)
+
+
+def test_laserfiche_meta_cache(tmp_path: Path):
+    from tracker.legislative.db import LaserficheMetaCache
+    with connect(tmp_path / "t.db") as conn:
+        init_schema(conn)
+        c = LaserficheMetaCache(conn)
+        assert c.get("1", "3/3/2025 11:05:01 PM") is None
+        c.put("1", "3/3/2025 11:05:01 PM", {"Status": "Adopted"})
+        assert c.get("1", "3/3/2025 11:05:01 PM") == {"Status": "Adopted"}
+        assert c.get("1", "10/3/2026 1:00:00 AM") is None      # modified -> refetch
+        assert c.get("1", "") is None                           # unknown -> refetch
+        assert LaserficheMetaCache(conn, refetch=True).get("1", "3/3/2025 11:05:01 PM") is None
+        conn.execute("UPDATE laserfiche_meta SET fetched_at = '2000-01-01T00:00:00+00:00'")
+        assert c.get("1", "3/3/2025 11:05:01 PM") is None      # expired backstop

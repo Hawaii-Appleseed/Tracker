@@ -573,9 +573,10 @@
   const STATUS_BUCKET_OF = {
     "Introduced": "Active", "Scheduled": "Active", "In committee": "Active",
     "In progress": "Active", "Passed 1st reading": "Active",
+    "Passed 2nd reading": "Active",
     "Passed final reading": "Active", "Tracking": "Active",
     "Adopted / enacted": "Passed",
-    "Stalled": "Dead", "Failed": "Dead",
+    "Stalled": "Dead", "Failed": "Dead", "Lapsed": "Dead",
   };
   function statusBucket(b) {
     return STATUS_BUCKET_OF[normalizeStatus(b).label] || "Active";
@@ -600,9 +601,26 @@
   // sparse). Collapse the mess into a small set of plain-language stages that
   // a regular person can follow, derived from the status field + last action.
   // Order matters: terminal/late stages are checked before earlier ones.
+  // Honolulu's status is the browse index's event-type code (CCL, PUBLISH,
+  // FILE, MAYOR, a committee code), and its bills take THREE readings, so the
+  // generic rules below misread it: "second reading notice" is not final
+  // passage, a FILE is a lapsed measure, MAYOR "Returned approved" is law.
+  function honoluluStatus(s, a) {
+    if (s === "mayor" && /returned approved|became law|signed/.test(a)) return { label: "Adopted / enacted", cls: "st-law" };
+    if (s === "file") return { label: "Lapsed", cls: "st-failed" };
+    if (/\bfail|finally lost/.test(a)) return { label: "Failed", cls: "st-failed" };
+    if (/final reading notice|passed third reading|passes third reading/.test(a)) return { label: "Passed final reading", cls: "st-pass" };
+    if (/second reading notice|passed second reading|third reading/.test(a)) return { label: "Passed 2nd reading", cls: "st-progress" };
+    return null;
+  }
+
   function normalizeStatus(b) {
     const s = (b.status || "").toLowerCase().trim();
     const a = (b.last_action || "").toLowerCase();
+    if (b.council === "honolulu") {
+      const h = honoluluStatus(s, a);
+      if (h) return h;
+    }
     // Strong signals from the status field first.
     if (/adopt|enact|became law|approved/.test(s)) return { label: "Adopted / enacted", cls: "st-law" };
     if (/fail|defeat|withdraw|died|reject/.test(s)) return { label: "Failed", cls: "st-failed" };
@@ -634,10 +652,10 @@
   const STEP_OF = {
     "Introduced": 0, "Scheduled": 0, "Tracking": 0,
     "In committee": 1, "In progress": 1,
-    "Passed 1st reading": 2,
+    "Passed 1st reading": 2, "Passed 2nd reading": 2,
     "Passed final reading": 3,
     "Adopted / enacted": 4,
-    "Stalled": 1, "Failed": 1,
+    "Stalled": 1, "Failed": 1, "Lapsed": 1,
   };
 
   function billProgress(b) {
@@ -896,7 +914,10 @@
     const totalEl = document.getElementById("stat-total");
     const activeEl = document.getElementById("stat-active");
     if (!totalEl || !activeEl) return;
-    const newest = [...new Set(payload.bills.map(billYear).filter(Boolean))].sort().at(-1);
+    // Clamp to the data's own year: an ordinance whose effective date is next
+    // January made "newest year" 2027, and the strip read "0 active this year".
+    const thisYear = (payload.generated_at || "").slice(0, 4) || String(new Date().getFullYear());
+    const newest = [...new Set(payload.bills.map(billYear).filter((y) => y && y <= thisYear))].sort().at(-1);
     const active = payload.bills.filter(
       (b) => statusBucket(b) === "Active" && billYear(b) === newest
     ).length;

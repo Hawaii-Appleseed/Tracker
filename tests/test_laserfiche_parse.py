@@ -239,7 +239,8 @@ def test_fetch_bills_yields_every_laserfiche_doc_titled_or_not():
               "Introducer": "Someone", "Action 1": "Council: passes - 3/4/89"},
     }
     granicus = {"Bill 148 (2024-2026)": _gbill("Bill 148 (2024-2026)", "A TITLE FROM THE AGENDA")}
-    out = {b.bill_number: b for b in _adapter_with(index, meta, granicus).fetch_bills()}
+    ad = _adapter_with(index, meta, granicus)
+    out = {b.bill_number: b for b in ad.fetch_bills(since=date(1980, 1, 1))}
 
     assert sorted(out) == ["Bill 12 (1988-1992)", "Bill 148 (2024-2026)"]
     # enriched where an agenda title exists...
@@ -274,8 +275,53 @@ def test_fetch_bills_aborts_when_laserfiche_is_down():
 
 def test_fetch_bills_survives_a_single_bad_metadata_read():
     index = {
-        "Bill 1 (2024-2026)": _Doc("1", "Bill", "1", "2024-2026", 1, "Bill/Resolution"),
+        "Bill 148 (2024-2026)": _Doc("1", "Bill", "148", "2024-2026", 1, "Bill/Resolution"),
         "Bill 2 (2024-2026)": _Doc("2", "Bill", "2", "2024-2026", 1, "Bill/Resolution"),
     }
     ad = _adapter_with(index, {"1": META_BILL}, {})   # doc 2 raises KeyError
     assert [b.bill_number for b in ad.fetch_bills()] == ["Bill 148 (2024-2026)"]
+
+
+# --- fix 5: window filter, number typos, duplicate keys, action dates --------
+
+def test_out_of_window_records_are_not_yielded():
+    index = {"Bill 12 (1988-1992)": _Doc("2", "Bill", "12", "1988-1992", 1, "Bill/Resolution")}
+    meta = {"2": {"Bill/Resolution - Type": "BIL", "Bill/Resolution": "012",
+                  "Bill/Resolution - Council Term": "1988-1992",
+                  "Action 1": "Council: passes - 3/4/89"}}
+    # default window is the retention window; prune would delete it anyway
+    assert list(_adapter_with(index, meta, {}).fetch_bills()) == []
+
+
+def test_metadata_number_typo_keys_by_document_name():
+    """Doc "RES 550" filed with number '055' used to land on Res 55."""
+    res = lambda n: {"Bill/Resolution - Type": "RES", "Bill/Resolution": n,
+                     "Bill/Resolution - Council Term": "2024-2026",
+                     "Action 1": "Council: adopted - 5/20/26"}
+    index = {
+        "Resolution 55 (2024-2026)": _Doc("1", "Resolution", "055", "2024-2026", 1, "Bill/Resolution"),
+        "Resolution 550 (2024-2026)": _Doc("2", "Resolution", "550", "2024-2026", 1, "Bill/Resolution"),
+    }
+    out = {b.bill_number: b for b in _adapter_with(index, {"1": res("055"), "2": res("055")}, {}).fetch_bills()}
+    assert sorted(out) == ["Resolution 55 (2024-2026)", "Resolution 550 (2024-2026)"]
+    assert out["Resolution 550 (2024-2026)"].url.endswith("id=2&dbid=0")
+    assert all(a.bill_number == "Resolution 550 (2024-2026)"
+               for a in out["Resolution 550 (2024-2026)"].actions)
+
+
+def test_duplicate_key_keeps_first_only():
+    ordm = lambda: {"Ordinances - Type": "ORD", "Year": "2026", "Ordinance": "06",
+                    "Effective Date": "5/1/2026"}
+    index = {
+        "Ordinance 2026-06": _Doc("1", "Ordinance", "2026-06", "2026", 0, "Ordinances"),
+        "Ordinance 2026-6": _Doc("2", "Ordinance", "2026-6", "2026", 0, "Ordinances"),
+    }
+    out = [b.bill_number for b in _adapter_with(index, {"1": ordm(), "2": ordm()}, {}).fetch_bills()]
+    assert out == ["Ordinance 2026-06"]
+
+
+def test_action_date_is_the_trailing_date():
+    from tracker.legislative.adapters.laserfiche import _iso_from_action
+    assert _iso_from_action("Postponed to 10/6/26 - 09/15/26") == "2026-09-15"
+    assert _iso_from_action("Council: passes - 3/4/89") == "1989-03-04"
+    assert _iso_from_action("no date") is None

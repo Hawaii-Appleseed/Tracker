@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import logging
 from datetime import date, datetime
+from zoneinfo import ZoneInfo
 from typing import Any, Iterator
 
 import requests
@@ -48,11 +49,16 @@ _TYPE_LABEL = {
 EARLIEST_YEAR = 2017
 
 
+_HST = ZoneInfo("Pacific/Honolulu")
+
+
 def _epoch_ms_to_iso(ms: int | None) -> str | None:
+    """Calendar date in Honolulu. In UTC, any event after 2 pm HST lands on
+    the next day — ~45% of timeline events were dated a day late."""
     if not ms:
         return None
     try:
-        return datetime.utcfromtimestamp(ms / 1000).date().isoformat()
+        return datetime.fromtimestamp(ms / 1000, _HST).date().isoformat()
     except (TypeError, ValueError, OSError):
         return None
 

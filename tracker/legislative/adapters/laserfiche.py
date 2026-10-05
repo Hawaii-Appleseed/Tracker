@@ -132,6 +132,14 @@ def _iso_from_mdy(s: str) -> str | None:
         return None
 
 
+def _iso_from_action(text: str) -> str | None:
+    """An action's own date is the LAST date in its text: "Postponed to
+    10/6/26 - 09/15/26" happened on 9/15. Taking the first dated it to the
+    future meeting, and future dates then led the default "Recent" sort."""
+    found = _DATE_RE.findall(text or "")
+    return _iso_from_mdy("/".join(found[-1])) if found else None
+
+
 def _term_end_year(name: str) -> int | None:
     """Last calendar year a term folder covers ("2022-2024" -> 2024), or None
     for a folder whose name is not a year/term (e.g. "MAPS AND LARGE
@@ -142,6 +150,18 @@ def _term_end_year(name: str) -> int | None:
     return int(m.group(2) or m.group(1))
 
 
+def _number_mismatch(meta: dict[str, str], doc: "_Doc") -> bool:
+    """True when the metadata's number contradicts the document name's."""
+    try:
+        if doc.type_label == "Ordinance":
+            year, _, seq = doc.number.partition("-")
+            got = (int(meta.get("Year", "").strip()), int(meta.get("Ordinance", "").strip()))
+            return got != (int(year), int(seq))
+        return int(meta.get("Bill/Resolution", "").strip()) != int(doc.number)
+    except ValueError:
+        return False
+
+
 class _Doc(NamedTuple):
     doc_id: str
     type_label: str
@@ -149,6 +169,8 @@ class _Doc(NamedTuple):
     term: str | None
     draft: int
     template: str
+    # LastModified from the folder listing; keys the metadata cache.
+    modified: str = ""
 
 
 class HawaiiCountyAdapter(CouncilAdapter):
@@ -163,7 +185,11 @@ class HawaiiCountyAdapter(CouncilAdapter):
         categories: tuple[str, ...] | None = None,
         delay: float | None = None,
         agenda_store=None,
+        meta_cache=None,
     ):
+        # db.LaserficheMetaCache: reuse metadata for documents whose listed
+        # LastModified hasn't changed. Without it every doc is re-read.
+        self.meta_cache = meta_cache
         # Passed through to the Granicus adapter this borrows titles from, so
         # Hawaii County's ~450 in-window agendas are cached rather than
         # re-rendered on every nightly run. See GranicusAdapter.agenda_store.
@@ -235,10 +261,14 @@ class HawaiiCountyAdapter(CouncilAdapter):
             # name from colTypes rather than trusting a fixed index.
             cols = [c.get("name") for c in (data.get("colTypes") or [])]
             ti = cols.index("TemplateName") if "TemplateName" in cols else None
+            mi = cols.index("LastModified") if "LastModified" in cols else None
             for row in rows:
                 vals = row.get("data") or []
                 row["_template"] = (
                     vals[ti] if ti is not None and ti < len(vals) else None
+                ) or ""
+                row["_modified"] = (
+                    vals[mi] if mi is not None and mi < len(vals) else None
                 ) or ""
                 out.append(row)
             total = data.get("totalEntries") or 0
@@ -262,14 +292,16 @@ class HawaiiCountyAdapter(CouncilAdapter):
             ]
         return sorted(folders)
 
-    def _list_docs(self, folder_id: int) -> list[tuple[str, str, str]]:
-        """[(doc_id, name, template)] for the documents directly in a folder.
+    def _list_docs(self, folder_id: int) -> list[tuple[str, str, str, str]]:
+        """[(doc_id, name, template, last_modified)] for the documents directly
+        in a folder.
 
         Subfolders are not followed: the only one that exists ("Word Documents")
         holds untemplated .doc duplicates of the same bills.
         """
         return [
-            (str(c["entryId"]), (c.get("name") or "").strip(), c.get("_template") or "")
+            (str(c["entryId"]), (c.get("name") or "").strip(),
+             c.get("_template") or "", c.get("_modified") or "")
             for c in self._children(folder_id)
             if c.get("type") != 0
         ]
@@ -308,7 +340,7 @@ class HawaiiCountyAdapter(CouncilAdapter):
             key=lambda x: x[0],
         )
         last_action = actions[-1][1] if actions else None
-        last_action_date = _iso_from_mdy(last_action) if last_action else None
+        last_action_date = _iso_from_action(last_action) if last_action else None
         key = _norm_key(type_label, number, term)
         # The template's numbered Action fields ARE the dated action history;
         # surface them so the dashboard timeline shows the full progression
@@ -317,7 +349,7 @@ class HawaiiCountyAdapter(CouncilAdapter):
             ActionRecord(
                 council=self.council_id,
                 bill_number=key,
-                action_date=_iso_from_mdy(text) or "",
+                action_date=_iso_from_action(text) or "",
                 action=text.strip(),
             )
             for _, text in actions
@@ -413,8 +445,8 @@ class HawaiiCountyAdapter(CouncilAdapter):
                     log.warning("hawaii folder %s (%s) failed: %s", term, type_label, e)
                     continue
                 walked += 1
-                for doc_id, name, template in docs:
-                    self._index_doc(index, doc_id, name, template, term)
+                for doc_id, name, template, modified in docs:
+                    self._index_doc(index, doc_id, name, template, term, modified)
             log.info(
                 "hawaii index: %s -> %d across %d term folders",
                 type_label, len(index) - before, walked,
@@ -423,7 +455,8 @@ class HawaiiCountyAdapter(CouncilAdapter):
 
     @staticmethod
     def _index_doc(
-        index: dict[str, _Doc], doc_id: str, name: str, template: str, term: str
+        index: dict[str, _Doc], doc_id: str, name: str, template: str, term: str,
+        modified: str = "",
     ) -> None:
         m = _DOCNAME_RE.search(name)
         if m:
@@ -432,7 +465,9 @@ class HawaiiCountyAdapter(CouncilAdapter):
             key = _norm_key(label, num, term)
             cur = index.get(key)
             if cur is None or draft > cur.draft:
-                index[key] = _Doc(doc_id, label, num, term, draft, template or _TEMPLATE_BILL)
+                index[key] = _Doc(
+                    doc_id, label, num, term, draft, template or _TEMPLATE_BILL, modified
+                )
             return
         o = _ORDNAME_RE.search(name)
         if o:
@@ -440,8 +475,20 @@ class HawaiiCountyAdapter(CouncilAdapter):
             key = f"Ordinance {year}-{seq}"
             if key not in index:
                 index[key] = _Doc(
-                    doc_id, "Ordinance", f"{year}-{seq}", term, 0, template or _TEMPLATE_ORD
+                    doc_id, "Ordinance", f"{year}-{seq}", term, 0,
+                    template or _TEMPLATE_ORD, modified,
                 )
+
+    def _cached_metadata(self, doc: _Doc) -> dict[str, str]:
+        cache = self.meta_cache
+        if cache is not None:
+            meta = cache.get(doc.doc_id, doc.modified)
+            if meta is not None:
+                return meta
+        meta = self._metadata(doc.doc_id)
+        if cache is not None:
+            cache.put(doc.doc_id, doc.modified, meta)
+        return meta
 
     def _active_from_granicus(self, since: date | None) -> dict[str, BillRecord]:
         active: dict[str, BillRecord] = {}
@@ -478,12 +525,25 @@ class HawaiiCountyAdapter(CouncilAdapter):
 
         log.info("hawaii: %d Laserfiche docs, %d Granicus titles", len(index), len(active))
         seen: set[str] = set()
+        emitted: set[str] = set()
         meta_failed = 0
         last_err: Exception | None = None
+        cutoff = window_start(since).isoformat()
         for key, doc in index.items():
             gbill = active.get(key)
             try:
-                rec = self._build_record(self._metadata(doc.doc_id), doc.doc_id, doc.term)
+                meta = self._cached_metadata(doc)
+                rec = self._build_record(meta, doc.doc_id, doc.term)
+                if rec is not None and _number_mismatch(meta, doc):
+                    # Clerk typo in the metadata number (doc "RES 550" filed as
+                    # '055'): it collided with the real Res 55, which then showed
+                    # Res 550's data while 550 vanished. The document name is the
+                    # one the clerk sees, so it wins.
+                    log.warning("hawaii %s: metadata number disagrees with name %r; "
+                                "keying by name", rec.bill_number, key)
+                    rec.bill_number = key
+                    for a in rec.actions:
+                        a.bill_number = key
             except Exception as e:
                 # A failed fetch is not "no template": skip the doc so its
                 # stored row stands, rather than overwriting it with the
@@ -506,6 +566,19 @@ class HawaiiCountyAdapter(CouncilAdapter):
             # re-emitted below as an "agenda-only" bill.
             seen.add(key)
             seen.add(rec.bill_number)
+            # Out of the retention window: prune_expired would delete it at the
+            # end of the run anyway (~360 records inserted then deleted every
+            # run, each reported as "new").
+            age = max(rec.last_action_date or "", rec.introduced_date or "")
+            if age and age < cutoff:
+                continue
+            if rec.bill_number in emitted:
+                # Two documents resolving to one key would overwrite each other
+                # back and forth, logging a fake update each run.
+                log.warning("hawaii: duplicate key %s (doc %s); keeping the first",
+                            rec.bill_number, doc.doc_id)
+                continue
+            emitted.add(rec.bill_number)
             if gbill is None and rec.bill_number != key:
                 gbill = active.get(rec.bill_number)
             if gbill is not None:
@@ -516,6 +589,9 @@ class HawaiiCountyAdapter(CouncilAdapter):
                 rec.raw_subject = gbill.raw_subject or gbill.title or rec.raw_subject
             yield rec
 
+        if self.meta_cache is not None:
+            log.info("hawaii metadata: %d from cache, %d fetched",
+                     self.meta_cache.hits, self.meta_cache.misses)
         if meta_failed:
             self.errors.append(
                 f"hawaii {meta_failed} of {len(index)} Laserfiche metadata fetches "

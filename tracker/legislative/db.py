@@ -77,6 +77,17 @@ CREATE INDEX IF NOT EXISTS idx_agenda_mentions_council
 CREATE INDEX IF NOT EXISTS idx_agenda_mentions_url
   ON agenda_mentions(council, agenda_url);
 
+-- Hawaii County Laserfiche metadata, keyed by the document's LastModified
+-- from the folder listing. A full read is ~2,200 sequential POSTs (~21 min)
+-- to a small county server, of which ~10 documents actually change per run;
+-- an unchanged document is rebuilt from here instead.
+CREATE TABLE IF NOT EXISTS laserfiche_meta (
+  doc_id TEXT PRIMARY KEY,
+  modified TEXT NOT NULL,
+  meta TEXT NOT NULL,
+  fetched_at TEXT NOT NULL
+);
+
 CREATE TABLE IF NOT EXISTS runs (
   id INTEGER PRIMARY KEY,
   started_at TEXT NOT NULL,
@@ -364,6 +375,46 @@ def finish_run(
 # An agenda can be amended up to (and shortly after) its meeting; past that
 # horizon its text is settled and a cached parse is as good as a re-fetch.
 AGENDA_FRESH_DAYS = 7
+
+
+class LaserficheMetaCache:
+    """Laserfiche GetMetaData results, reused while the document's listed
+    LastModified is unchanged. Entries also expire after 14-27 days (staggered
+    by doc id so they don't all lapse on one run) — a backstop in case a
+    metadata edit ever fails to bump LastModified."""
+
+    def __init__(self, conn: sqlite3.Connection, refetch: bool = False):
+        self.conn = conn
+        self.refetch = refetch
+        self.hits = self.misses = 0
+
+    def get(self, doc_id: str, modified: str) -> dict | None:
+        if self.refetch or not modified:
+            self.misses += 1
+            return None
+        row = self.conn.execute(
+            "SELECT modified, meta, fetched_at FROM laserfiche_meta WHERE doc_id = ?",
+            (doc_id,),
+        ).fetchone()
+        max_age = 14 + (int(doc_id) % 14 if doc_id.isdigit() else 0)
+        fresh_after = (datetime.now(timezone.utc) - timedelta(days=max_age)).isoformat(
+            timespec="seconds")
+        if row is None or row["modified"] != modified or row["fetched_at"] < fresh_after:
+            self.misses += 1
+            return None
+        self.hits += 1
+        return json.loads(row["meta"])
+
+    def put(self, doc_id: str, modified: str, meta: dict) -> None:
+        if not modified:
+            return
+        self.conn.execute(
+            "INSERT INTO laserfiche_meta (doc_id, modified, meta, fetched_at) "
+            "VALUES (?, ?, ?, ?) ON CONFLICT(doc_id) DO UPDATE SET "
+            "modified = excluded.modified, meta = excluded.meta, "
+            "fetched_at = excluded.fetched_at",
+            (doc_id, modified, json.dumps(meta), _now()),
+        )
 
 
 class AgendaStore:
