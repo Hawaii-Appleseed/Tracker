@@ -2,15 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/kauai-bill-2920.xml</id>
   <title>Bill 2920 — Kauaʻi</title>
-  <updated>2026-07-27T22:00:59+00:00</updated>
+  <updated>2026-10-04T19:17:03+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/kauai-bill-2920.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2920/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2920 (Kauaʻi): — → Second Reading</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2686"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;For An Ordinance Amending Chapter 5, Article 2, Section 5-2.6 Kaua‘i County Code 1987, As Amended, Relating To Beautification Fees, to offset the tourism-related impacts of rental or U-drive motor vehicles by standardizing the beautification fee assessed to all motor vehicles in the County at five dollars ($5) per certificate of registration&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → Second Reading&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-05-15&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2686"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2920/2026-07-27T22:00:59+00:00</id>
     <title>New: Bill 2920 (Kauaʻi) — On agenda 2024-05-15</title>
     <updated>2026-07-27T22:00:59+00:00</updated>
     <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2686"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 5, ARTICLE 2, SECTION 5-2.6, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO BEAUTIFICATION FEES&lt;/strong&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;For An Ordinance Amending Chapter 5, Article 2, Section 5-2.6 Kaua‘i County Code 1987, As Amended, Relating To Beautification Fees, to offset the tourism-related impacts of rental or U-drive motor vehicles by standardizing the beautification fee assessed to all motor vehicles in the County at five dollars ($5) per certificate of registration&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2024-05-15&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2686"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>

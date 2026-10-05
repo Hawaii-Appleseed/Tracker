@@ -2,15 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/kauai-bill-2954.xml</id>
   <title>Bill 2954 — Kauaʻi</title>
-  <updated>2026-07-27T22:00:59+00:00</updated>
+  <updated>2026-10-04T19:17:03+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/kauai-bill-2954.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2954/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2954 (Kauaʻi): In Committee → Second Reading</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2898"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;For An Ordinance Amending Chapter 6, Article 14, Kaua‘i County Code 1987, As Amended, Relating To The Public Access, Open Space, Natural Resources Preservation Fund, to implement the approved charter amendment to allow up to five percent (5%) of the Public Access, Open Space, Natural Resources Preservation Fund to be used for the maintenance of entitlements acquired by the fund. (Copies of the Dra&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: In Committee → Second Reading&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-06-25&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2898"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2954/2026-07-27T22:00:59+00:00</id>
     <title>New: Bill 2954 (Kauaʻi) — In Committee</title>
     <updated>2026-07-27T22:00:59+00:00</updated>
     <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2898"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 6, ARTICLE 14, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO THE PUBLIC ACCESS, OPEN SPACE, NATURAL RESOURCES PRESERVATION FUND&lt;/strong&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;For An Ordinance Amending Chapter 6, Article 14, Kaua‘i County Code 1987, As Amended, Relating To The Public Access, Open Space, Natural Resources Preservation Fund, to implement the approved charter amendment to allow up to five percent (5%) of the Public Access, Open Space, Natural Resources Preservation Fund to be used for the maintenance of entitlements acquired by the fund. (Copies of the Dra&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2025-06-25&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2898"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>

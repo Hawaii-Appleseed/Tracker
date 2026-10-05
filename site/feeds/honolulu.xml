@@ -2,9 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/honolulu.xml</id>
   <title>Bill Tracker — Honolulu</title>
-  <updated>2026-10-02T16:15:10+00:00</updated>
+  <updated>2026-10-05T16:15:08+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/honolulu.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-223/2026-10-05T16:15:08+00:00</id>
+    <title>New: RES26-223 (Honolulu) — INTRO</title>
+    <updated>2026-10-05T16:15:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3861"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT OF ONE (1) HIGH-BACK TRADITIONAL BENCH, PREPARATIONS OF THE GROUNDS AND ONE (1) BRONZE PLAQUE WITH AN INSCRIPTION TO READ, “DONATED BY THE FAMILY OF SERM CHONGCHUA,” VALUED AT $2,718.74, TO THE CITY FROM VICTOR CHONGCHUA FOR PLACEMENT AT SANDY BEACH PARK.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3861"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-222/2026-10-05T16:15:08+00:00</id>
+    <title>New: RES26-222 (Honolulu) — INTRO</title>
+    <updated>2026-10-05T16:15:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3860"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE DIRECTOR OF BUDGET AND FISCAL SERVICES TO ISSUE AND SELL NOT TO EXCEED $210,000,000 PRINCIPAL AMOUNT OF WASTEWATER SYSTEM REVENUE BONDS, JUNIOR SERIES 2026 AND RELATED MATTERS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3860"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-225/2026-10-05T16:15:08+00:00</id>
+    <title>New: RES26-225 (Honolulu) — INTRO</title>
+    <updated>2026-10-05T16:15:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3859"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE DIRECTOR OF BUDGET AND FISCAL SERVICES TO ISSUE AND SELL NOT TO EXCEED $205,000,000 PRINCIPAL AMOUNT OF WASTEWATER SYSTEM REVENUE BONDS, SENIOR SERIES 2026 AND RELATED MATTERS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3859"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-224/2026-10-05T16:15:07+00:00</id>
+    <title>New: RES26-224 (Honolulu) — INTRO</title>
+    <updated>2026-10-05T16:15:07+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3858"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT TO FURNISH AND INSTALL TWELVE (12) TENNIS NETS, VALUED AT $3,769.63, TO THE CITY FROM USTA HAWAII PACIFIC INC. FOR PATSY T. MINK CENTRAL OʻAHU REGIONAL PARK.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3858"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-218/2026-10-02T16:15:10+00:00</id>
     <title>New: RES26-218 (Honolulu) — INTRO</title>
@@ -495,49 +531,5 @@ collected (except those derived from the use of the Hanauma Bay Nature Preserve 
 &lt;p&gt;Repeals Chapter 6, Article 59, Revised Ordinances of Honolulu 2021 (“Land Conservation Fund”). Takes effect on July 1, 2028, and provides that all ordinances and resolutions, or portions thereof, that are in conflict or inconsistent with this bill are also repealed.&lt;/p&gt;
 &lt;p&gt;Latest action: Returned approved.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3783"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-203/2026-09-23T16:15:13+00:00</id>
-    <title>RES26-203 (Honolulu): INTRO → BUD</title>
-    <updated>2026-09-23T16:15:13+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3835"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE TRANSFER OF FUNDS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: INTRO → BUD&lt;/p&gt;
-&lt;p&gt;Latest action: CR-257(26)
-Reported out for adoption.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3835"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-202/2026-09-23T16:15:12+00:00</id>
-    <title>RES26-202 (Honolulu): INTRO → BUD</title>
-    <updated>2026-09-23T16:15:12+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3834"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE TRANSFER OF FUNDS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: INTRO → BUD&lt;/p&gt;
-&lt;p&gt;Latest action: CR-256(26)
-Reported out for adoption.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3834"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-206/2026-09-23T16:15:12+00:00</id>
-    <title>RES26-206 (Honolulu): INTRO → EES</title>
-    <updated>2026-09-23T16:15:12+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3840"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;ADOPTING THE 2025—2030 CLIMATE ACTION PLAN FOR THE CITY AND COUNTY OF HONOLULU.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: INTRO → EES&lt;/p&gt;
-&lt;p&gt;Latest action: CR-258(26)
-Reported out for adoption.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3840"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-208/2026-09-23T16:15:12+00:00</id>
-    <title>RES26-208 (Honolulu): INTRO → EES</title>
-    <updated>2026-09-23T16:15:12+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3842"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT OF TRAVEL AND RELATED EXPENSES, VALUED AT $1,301.04, TO THE CITY FROM THE HASKELL FOUNDATION FOR A REPRESENTATIVE FROM THE OFFICE OF CLIMATE CHANGE, SUSTAINABILITY AND RESILIENCY TO ATTEND THE INDIGENOUS PEOPLES' CLIMATE CHANGE WORKING GROUP IN-PERSON WORKSHOP FROM SEPTEMBER 22 TO SEPTEMBER 25, 2026, IN KANSAS CITY, MISSOURI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: INTRO → EES&lt;/p&gt;
-&lt;p&gt;Latest action: CR-259(26)
-Reported out for adoption.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3842"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

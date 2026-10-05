@@ -2,16 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/kauai-bill-2981.xml</id>
   <title>Bill 2981 — Kauaʻi</title>
-  <updated>2026-05-31T20:36:25+00:00</updated>
+  <updated>2026-10-04T19:17:03+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/kauai-bill-2981.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2981/2026-05-31T20:36:25+00:00</id>
-    <title>New: Bill 2981 (Kauaʻi) — On agenda 2026-03-18</title>
-    <updated>2026-05-31T20:36:25+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3041"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 5A, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO REAL PROPERTY TAX (Provides the Director of Finance with inspection and examination of real property powers)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-03-18&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3041"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2981/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2981 (Kauaʻi): — → Second Reading</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3044"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;For An Ordinance Amending Chapter 5A, Kaua‘i County Code 1987, As Amended, Relating To Real Property Tax, enabling the Director to inspect and examine any real property in the County to attain information needed for real property assessments and to expressly provide the Director with the authority to promulgate rules with retroactive effect&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → Second Reading&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2026-03-25&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3044"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

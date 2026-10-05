@@ -2,9 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/kauai-bill-2945.xml</id>
   <title>Bill 2945 — Kauaʻi</title>
-  <updated>2026-07-27T22:00:59+00:00</updated>
+  <updated>2026-10-04T19:17:03+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/kauai-bill-2945.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2945/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2945 (Kauaʻi): In Committee → Second Reading</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2833"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING “KAUA‘I KAKOU – KAUA‘I COUNTY GENERAL PLAN” (2018) RELATING TO A PARCEL LOCATED IN ‘ELE‘ELE, KAUA‘I (County of Kaua‘i Planning Department, Applicant) (GPA-2025-1)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: In Committee → Second Reading&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-04-23&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2833"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2945/2026-07-27T22:00:59+00:00</id>
     <title>New: Bill 2945 (Kauaʻi) — In Committee</title>

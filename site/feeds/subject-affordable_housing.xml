@@ -2,9 +2,284 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/subject-affordable_housing.xml</id>
   <title>Bill Tracker — Affordable Housing bills</title>
-  <updated>2026-10-02T16:15:10+00:00</updated>
+  <updated>2026-10-04T19:17:03+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/subject-affordable_housing.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-3004/2026-10-04T19:17:03+00:00</id>
+    <title>New: Bill 3004 (Kauaʻi) — First Reading</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3141"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;For An Ordinance Amending Chapter 8, Kaua‘i County Code 1987, As Amended, By Establishing A New Article Relating To Condominium Property Regimes. (Copies of the Draft Ordinance for Zoning Amendment (ZA-2026-5); Planning Commission’s Agendas dated May 12, 2026 and August 11, 2026; Director’s Report dated May 12, 2026; Supplemental #1 and #2 Director’s Reports dated August 4, 2026 and August 7, 2026&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2026-09-23&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3141"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2998/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2998 (Kauaʻi): — → In Committee</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1637"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;For An Ordinance Amending Chapter 15, 12, And 8, Kaua‘i County Code 1987, As Amended, Relating To A Wildfire And The Wildland Urban Interface (WUI). (Copies of the Draft Ordinance for Zoning Amendment (ZA-2026-6); Planning Commission’s Agenda dated May 12, 2026 and June 9, 2026; Director’s Report dated May 6, 2026 and June 3, 2026; and Agency Comments, on file in the Office of the County Clerk.)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → In Committee&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2026-10-07&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1637"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2995/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2995 (Kauaʻi): — → Second Reading</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3091"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;For An Ordinance Amending Chapter 5A, Kaua‘i County Code 1987, As Amended, Relating To Real Property Tax, to define the age of a legal tenant and that the tenant shall reside on the property as their principal residence&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → Second Reading&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2026-06-03&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3091"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2986/2026-10-04T19:17:03+00:00</id>
+    <title>New: Bill 2986 (Kauaʻi) — First Reading</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3141"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 8, KAUA‘I COUNTY CODE 1987, AS AMENDED, BY ESTABLISHING A NEW ARTICLE RELATING TO CONDOMINIUM PROPERTY REGIMES (Referred February 18, 2026)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2026-09-23&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3141"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2985/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2985 (Kauaʻi): In Committee → Second Reading</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3058"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 6, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO THE COUNTY HOUSING DEVELOPMENT FUND&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: In Committee → Second Reading&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2026-04-08&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3058"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2984/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2984 (Kauaʻi): — → Second Reading</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3044"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;For An Ordinance Amending Chapter 8, Article 27, Kaua‘i County Code 1987, As Amended, Relating To Shoreline Setback And Coastal Protection. (Copies of the Draft Ordinance for Zoning Amendment (ZA-2026-1); Planning Commission’s Agenda dated August 26, 2025, November 10, 2025, and January 13, 2026; Director’s Report dated August 18, 2025; Supplement # 1 to the Director’s Report dated January 5, 2026&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → Second Reading&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2026-03-25&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3044"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2979/2026-10-04T19:17:03+00:00</id>
+    <title>New: Bill 2979 (Kauaʻi) — In Committee</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2990"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;For An Ordinance Amending Chapter 8, Kaua‘i County Code 1987, As Amended, Relating To Uses In Districts, to create new definitions for “Employee dormitory” and “Group housing dormitory,” respectively update the Use Table in Section 8-2.4, and outline two (2) new sections describing application requirements that are customized to these new dormitory types&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-12-17&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2990"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2976/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2976 (Kauaʻi): Second Reading → In Committee</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2979"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;For An Ordinance To Establish A New Article 29, Chapter 22, Kaua‘i County Code 1987, As Amended, Relating To Disposable Bodyboard Reduction, to define and prohibit the sale, rental, or distribution of disposable bodyboards within the County of Kaua‘i&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: Second Reading → In Committee&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-11-26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2979"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2973/2026-10-04T19:17:03+00:00</id>
+    <title>New: Bill 2973 (Kauaʻi) — First Reading</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2917"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;For An Ordinance Amending Chapter 8, Kaua‘i County Code 1987, As Amended, Relating To Uses In Districts, effectuating relevant changes to the definitions of “Family” and “Dwelling Unit,” thereby preventing potential exploitative and impermissible uses of single-family residences, which erode the traditional form and character of neighborhoods&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-08-27&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2917"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2968/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2968 (Kauaʻi): — → In Committee</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2945"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 8, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO ZONING BOUNDARIES IN MAKAWELI AND WAHIAWA, KAUA‘I (County of Kaua‘i Planning Department, Applicant) (ZA-2025-10) (Deferred August 20, 2025)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → In Committee&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-10-29&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2945"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2967/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2967 (Kauaʻi): — → In Committee</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2945"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING THE STATE LAND USE DISTRICT BOUNDARY RELATING TO A PARCEL LOCATED IN MAKAWELI, KAUA‘I (County of Kaua‘i Planning Department, Applicant) (A-2025-3) (Ka‘awanui – State Land Use Amendment) (Deferred August 20, 2025)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → In Committee&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-10-29&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2945"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2966/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2966 (Kauaʻi): — → In Committee</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2945"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING “KAUA‘I KAKOU – KAUA‘I COUNTY GENERAL PLAN” (2018) RELATING TO A PARCEL LOCATED IN MAKAWELI, KAUA‘I (County of Kaua‘i Planning Department, Applicant) (GPA-2025-3) (Ka‘awanui – General Plan Amendment) (Deferred August 20, 2025)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → In Committee&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-10-29&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2945"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2964/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2964 (Kauaʻi): — → Second Reading</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2917"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING THE STATE LAND USE DISTRICT BOUNDARY RELATING TO A PARCEL LOCATED IN WAHIAWA, KAUA‘I (County of Kaua‘i Planning Department, Applicant) (A-2025-2) (Numila – State Land Use Amendment)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → Second Reading&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-08-27&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2917"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2963/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2963 (Kauaʻi): — → Second Reading</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2917"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING “KAUA‘I KAKOU – KAUA‘I COUNTY GENERAL PLAN” (2018) RELATING TO A PARCEL LOCATED IN WAHIAWA, KAUA‘I (County of Kaua‘i Planning Department, Applicant) (GPA-2025-2) (Numila – General Plan Amendment)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → Second Reading&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-08-27&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2917"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2960/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2960 (Kauaʻi): — → Second Reading</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2902"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;For An Ordinance Amending Section 25-11.2, Kaua‘i County Code 1987, As Amended, Relating To Sewers, to provide sewer connection fee exemptions for workforce housing projects&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → Second Reading&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-07-16&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2902"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2951/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2951 (Kauaʻi): — → In Committee</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2859"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;For An Ordinance Amending Chapter 8, Kaua‘i County Code 1987, As Amended, Relating To Commercial Use Of Parks Facilities. (Copies of the Draft Ordinance for Zoning Amendment (ZA-2025-7); Planning Commission’s Agenda dated March 11, 2025; Director’s Report dated February 26, 2025; Supplement #1 to the Director’s Report dated March 5, 2025; Supplement #2 to the Director’s Report dates March 10, 2025&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → In Committee&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-05-14&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2859"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2947/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2947 (Kauaʻi): — → Second Reading</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2833"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 8, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO ZONING BOUNDARIES IN ‘ELE‘ELE, KAUA‘I (County of Kaua‘i Planning Department, Applicant) (ZA-2025-1)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → Second Reading&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-04-23&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2833"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2946/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2946 (Kauaʻi): — → Second Reading</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2833"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING THE STATE LAND USE DISTRICT BOUNDARY RELATING TO A PARCEL LOCATED IN ‘ELE‘ELE, KAUA‘I (County of Kaua‘i Planning Department, Applicant) (A-2025-1)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → Second Reading&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-04-23&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2833"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2945/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2945 (Kauaʻi): In Committee → Second Reading</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2833"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING “KAUA‘I KAKOU – KAUA‘I COUNTY GENERAL PLAN” (2018) RELATING TO A PARCEL LOCATED IN ‘ELE‘ELE, KAUA‘I (County of Kaua‘i Planning Department, Applicant) (GPA-2025-1)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: In Committee → Second Reading&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-04-23&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2833"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2937/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2937 (Kauaʻi): — → Second Reading</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2789"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 8, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO ZONING DESIGNATIONS IN HANAPEPE, KAUA‘I (County of Kaua‘i Planning Department, Applicant) (ZA-2024-2)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → Second Reading&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-01-16&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2789"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2936/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2936 (Kauaʻi): In Committee → Second Reading</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2789"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 8, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO ZONING DESIGNATIONS IN WAILUA, KAUA‘I (County of Kaua‘i Planning Department, Applicant) (ZA-2024-1)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: In Committee → Second Reading&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2025-01-16&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2789"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2933/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2933 (Kauaʻi): — → In Committee</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2762"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;For An Ordinance Amending Chapter 8, Kaua‘i County Code 1987, As Amended, Relating To The Comprehensive Zoning Ordinance, Including Matters Pertaining To Guest Houses. ( Copies of the Draft Ordinance for Zoning Amendment (ZA-2024-3); Planning Commission’s Agenda dated June 4, 2024 and August 13, 2024; Director’s Report dated May 22, 2024; Supplement #1 to the Director’s Report dated July 31, 2024;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → In Committee&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-10-23&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2762"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2925/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2925 (Kauaʻi): — → Second Reading</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2732"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;For An Ordinance Amending Chapter 5A, Kaua‘i County Code 1987, As Amended, Relating To Property Tax, allowing lessees of a state-owned property used for residential purposes to qualify for a beneficial tax rate and the assessment cap&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → Second Reading&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-09-11&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2732"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2920/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2920 (Kauaʻi): — → Second Reading</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2686"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;For An Ordinance Amending Chapter 5, Article 2, Section 5-2.6 Kaua‘i County Code 1987, As Amended, Relating To Beautification Fees, to offset the tourism-related impacts of rental or U-drive motor vehicles by standardizing the beautification fee assessed to all motor vehicles in the County at five dollars ($5) per certificate of registration&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → Second Reading&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-05-15&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2686"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2919/2026-10-04T19:17:03+00:00</id>
+    <title>New: Bill 2919 (Kauaʻi) — First Reading</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2732"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 8, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO THE COMPREHENSIVE ZONING ORDINANCE, INCLUDING MATTERS PERTAINING TO GUEST HOUSES (Referred to the Planning Commission on March 27, 2024)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-09-11&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2732"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2915/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2915 (Kauaʻi): — → In Committee</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2688"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 7A, ARTICLE 5, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO HOUSING ELIGIBILITY AND SELECTION (Deferred April 17, 2024)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → In Committee&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-05-29&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2688"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2914/2026-10-04T19:17:03+00:00</id>
+    <title>Bill 2914 (Kauaʻi): — → In Committee</title>
+    <updated>2026-10-04T19:17:03+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2688"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;For An Ordinance Amending Chapter 7A, Article 9, Kaua‘i County Code 1987, As Amended, Relating To Government Assistance For Workforce Housing, adding a new subsection to implement a Residential Workforce Housing Credit System, providing a new non-governmental source of financing for affordable housing while simultaneously providing additional pathways to generate market rate housing more quickly&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: — → In Committee&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2024-05-29&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2688"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-187-2024-2026/2026-10-02T16:20:02+00:00</id>
+    <title>Bill 187 (2024-2026) (Hawaiʻi County): LAAC: Postponed to 10/6/26 - 09/15/26</title>
+    <updated>2026-10-02T16:20:02+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136559&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS SECTION 25-8-14 (WAIKŌLOA VILLAGE DISTRICT ZONE MAP), ARTICLE 8, CHAPTER 25 (ZONING CODE) OF THE HAWAI‘I COUNTY CODE (2016 EDITION, AS AMENDED), BY CHANGING THE DISTRICT CLASSIFICATION FROM RESIDENTIAL AND AGRICULTURAL – 1 ACRE (RA-1A) AND OPEN (O) TO MULTIPLE-FAMILY RESIDENTIAL – 1,500 SQUARE FEET (RM-1.5), FAMILY AGRICULTURAL – 1 ACRE (FA-1A), AGRICULTURAL – 10 ACRES (A-10A), AND OPEN (O)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Waikoloa Green LLC) (Area: 14.868 Acres) The Leeward Planning Commission forwards its favorable recommendation for this amendment to the State Land Use Boundaries Map for the requested change of zone, which would allow the applicant to develop a 400-unit multiple-family housing complex with a clubhouse and related improvements. The property is located at the southeast side of Pua Melia Street, ap&lt;/p&gt;
+&lt;p&gt;Latest action: LAAC: Postponed to 10/6/26 - 09/15/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136559&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-221/2026-10-02T16:15:10+00:00</id>
     <title>New: RES26-221 (Honolulu) — INTRO</title>
@@ -13,6 +288,38 @@
     <content type="html">&lt;p&gt;&lt;strong&gt;GRANTING A SPECIAL MANAGEMENT AREA MAJOR PERMIT TO ALLOW FOR THE CONSTRUCTION OF A ONE-STORY SINGLE-UNIT DWELLING WITH A DETACHED THREE-CAR GARAGE, AND ACCESSORY DWELLING UNIT; AND INSTALLATION OF A NEW INDIVIDUAL WASTEWATER SYSTEM IN WAI'ANAE, O'AHU.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Latest action: Introduced.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3856"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-187-2024-2026/2026-09-25T16:19:37+00:00</id>
+    <title>Bill 187 (2024-2026) (Hawaiʻi County): — → Postponed</title>
+    <updated>2026-09-25T16:19:37+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136559&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS SECTION 25-8-14 (WAIKŌLOA VILLAGE DISTRICT ZONE MAP), ARTICLE 8, CHAPTER 25 (ZONING CODE) OF THE HAWAI‘I COUNTY CODE (2016 EDITION, AS AMENDED), BY CHANGING THE DISTRICT CLASSIFICATION FROM RESIDENTIAL AND AGRICULTURAL – 1 ACRE (RA-1A) AND OPEN (O) TO MULTIPLE-FAMILY RESIDENTIAL – 1,500 SQUARE FEET (RM-1.5), FAMILY AGRICULTURAL – 1 ACRE (FA-1A), AGRICULTURAL – 10 ACRES (A-10A), AND OPEN (O)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Waikoloa Green LLC) (Area: 14.868 Acres) The Leeward Planning Commission forwards its favorable recommendation for this amendment to the State Land Use Boundaries Map for the requested change of zone, which would allow the applicant to develop a 400-unit multiple-family housing complex with a clubhouse and related improvements. The property is located at the southeast side of Pua Melia Street, ap&lt;/p&gt;
+&lt;p&gt;Status: — → Postponed&lt;/p&gt;
+&lt;p&gt;Latest action: LAAC: Postponed to October 6, 2026 - 09/15/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136559&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-175-2024-2026/2026-09-25T16:19:30+00:00</id>
+    <title>Bill 175 (2024-2026) (Hawaiʻi County): Passed Second Reading → Adopted</title>
+    <updated>2026-09-25T16:19:30+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134262&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS ORDINANCE NO. 25-50, AS AMENDED, AN ORDINANCE AMENDING CHAPTER 6 OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO TRANSIENT ACCOMMODATIONS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Changes certain responsibilities for proposed vacation rental laws under Ordinance No. 25-50 from the finance director to the planning director; exempts prospective vacation rentals that have submitted a valid use permit or special permit application from Ordinance No. 25-50&lt;/p&gt;
+&lt;p&gt;Status: Passed Second Reading → Adopted&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Bill 175, Draft 2 passes second &amp;amp; final reading - 09/02/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134262&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-170-2024-2026/2026-09-25T16:19:27+00:00</id>
+    <title>Bill 170 (2024-2026) (Hawaiʻi County): PCPLUED: Bill 170 referred to Planning Director and Planning Commissions - 07/07/26</title>
+    <updated>2026-09-25T16:19:27+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1131559&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 25, ARTICLE 1, OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO ZONING&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Distinguishes data centers from data processing facilities for zoning and land use purposes; defines “data center.”&lt;/p&gt;
+&lt;p&gt;Latest action: PCPLUED: Bill 170 referred to Planning Director and Planning Commissions - 07/07/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1131559&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-207/2026-09-25T16:15:05+00:00</id>
@@ -96,6 +403,26 @@ Reported out for passage on third reading.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3760"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-192-2024-2026/2026-09-23T16:20:02+00:00</id>
+    <title>Bill 192 (2024-2026) (Hawaiʻi County): — → Passed First Reading</title>
+    <updated>2026-09-23T16:20:02+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136378&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 19, ARTICLE 11, SECTION 19-90 OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO REAL PROPERTY TAX&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Extends the requirement to appropriate residential tier-two and tier-three property tax revenue to the housing and homelessness fund until 2029; requires that monies from the fund be used to award grants that address housing and homelessness.&lt;/p&gt;
+&lt;p&gt;Status: — → Passed First Reading&lt;/p&gt;
+&lt;p&gt;Latest action: FC-186:  Recommended passage on first reading - 09/15/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136378&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-187-2024-2026/2026-09-23T16:19:59+00:00</id>
+    <title>Bill 187 (2024-2026) (Hawaiʻi County): updated</title>
+    <updated>2026-09-23T16:19:59+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136559&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS SECTION 25-8-14 (WAIKŌLOA VILLAGE DISTRICT ZONE MAP), ARTICLE 8, CHAPTER 25 (ZONING CODE) OF THE HAWAI‘I COUNTY CODE (2016 EDITION, AS AMENDED), BY CHANGING THE DISTRICT CLASSIFICATION FROM RESIDENTIAL AND AGRICULTURAL – 1 ACRE (RA-1A) AND OPEN (O) TO MULTIPLE-FAMILY RESIDENTIAL – 1,500 SQUARE FEET (RM-1.5), FAMILY AGRICULTURAL – 1 ACRE (FA-1A), AGRICULTURAL – 10 ACRES (A-10A), AND OPEN (O)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Waikoloa Green LLC) (Area: 14.868 Acres) The Leeward Planning Commission forwards its favorable recommendation for this amendment to the State Land Use Boundaries Map for the requested change of zone, which would allow the applicant to develop a 400-unit multiple-family housing complex with a clubhouse and related improvements. The property is located at the southeast side of Pua Melia Street, ap&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136559&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
     <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill011-26/2026-09-23T16:15:11+00:00</id>
     <title>BILL011(26) (Honolulu): PUBLISH → HHP</title>
     <updated>2026-09-23T16:15:11+00:00</updated>
@@ -117,420 +444,75 @@ Reported out for passage on third reading.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3626"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-209/2026-09-18T16:15:08+00:00</id>
-    <title>New: RES26-209 (Honolulu) — INTRO</title>
-    <updated>2026-09-18T16:15:08+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3843"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING THE MONTH-TO-MONTH RENTAL WITH MRS. LEIALOHA "ROCKY" KALUHIWA, FOR UP TO THREE YEARS, WITHIN A PORTION OF HEʻEIA KEA VALLEY NATURE PARK, KANEʻOHE, HAWAIʻI, TAX MAP KEY NO.: (1) 4-6-016:032.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3843"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-187-2024-2026/2026-09-21T16:20:12+00:00</id>
+    <title>Bill 187 (2024-2026) (Hawaiʻi County): Postponed → —</title>
+    <updated>2026-09-21T16:20:12+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136559&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS SECTION 25-8-14 (WAIKŌLOA VILLAGE DISTRICT ZONE MAP), ARTICLE 8, CHAPTER 25 (ZONING CODE) OF THE HAWAI‘I COUNTY CODE (2016 EDITION, AS AMENDED), BY CHANGING THE DISTRICT CLASSIFICATION FROM RESIDENTIAL AND AGRICULTURAL – 1 ACRE (RA-1A) AND OPEN (O) TO MULTIPLE-FAMILY RESIDENTIAL – 1,500 SQUARE FEET (RM-1.5), FAMILY AGRICULTURAL – 1 ACRE (FA-1A), AGRICULTURAL – 10 ACRES (A-10A), AND OPEN (O)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Waikoloa Green LLC) (Area: 14.868 Acres) The Leeward Planning Commission forwards its favorable recommendation for this amendment to the State Land Use Boundaries Map for the requested change of zone, which would allow the applicant to develop a 400-unit multiple-family housing complex with a clubhouse and related improvements. The property is located at the southeast side of Pua Melia Street, ap&lt;/p&gt;
+&lt;p&gt;Status: Postponed → —&lt;/p&gt;
+&lt;p&gt;Latest action: LAAC: Amended to Draft 3 - 09/15/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136559&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-207/2026-09-16T16:15:20+00:00</id>
-    <title>New: RES26-207 (Honolulu) — INTRO</title>
-    <updated>2026-09-16T16:15:20+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3841"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDING RESOLUTION 23-83, CD1, TO UPDATE THE PROJECT DESCRIPTION, INCORPORATE BY REFERENCE AN UPDATED LIST OF EXEMPTIONS FROM THE HAWAIʻI COMMUNITY DEVELOPMENT AUTHORITY'S MAUKA AREA RULES, AND EXTEND THE DEADLINE FOR THE COMMENCEMENT OF CONSTRUCTION FOR THE POHUKAINA COMMONS AFFORDABLE RENTAL AND MIXED-USE PROJECT IN KAKAʻAKO, OʻAHU.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3841"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-669-2024-2026/2026-09-18T16:32:42+00:00</id>
+    <title>Resolution 669 (2024-2026) (Hawaiʻi County): — → Adopted</title>
+    <updated>2026-09-18T16:32:42+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135600&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE PAYMENT OF FUNDS OF A LATER FISCAL YEAR TO ENTER INTO A MULTI-YEAR LEASE AGREEMENT FOR THREE MULTI-FUNCTION COPY MACHINES TO BE USED BY THE OFFICE OF HOUSING AND COMMUNITY DEVELOPMENT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Authorizes the Mayor to enter into a five-year lease agreement with an approximate annual cost of $25,000, to be used by the department’s Administration Division, Existing Housing Division, and West Hawai‘i Civic Center personnel.&lt;/p&gt;
+&lt;p&gt;Status: — → Adopted&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 669-26 -9/16/2026&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1135600&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill037-26/2026-09-16T16:15:20+00:00</id>
-    <title>BILL037(26) (Honolulu): CCL/PH → PUBLISH</title>
-    <updated>2026-09-16T16:15:20+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3723"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO AMEND PORTIONS (APPROXIMATELY 14.837 ACRES) OF THE STATE LAND USE DISTRICT BOUNDARY MAPS (SCHOFIELD QUADRANGLE AND ‘EWA QUADRANGLE) FROM THE AGRICULTURAL DISTRICT TO THE URBAN DISTRICT FOR CERTAIN LANDS SITUATED AT KAPOLEI AND HONOULIULI IN ‘EWA, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: CCL/PH → PUBLISH&lt;/p&gt;
-&lt;p&gt;Latest action: Second reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3723"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-610-2024-2026/2026-09-18T16:32:10+00:00</id>
+    <title>Resolution 610 (2024-2026) (Hawaiʻi County): — → Adopted</title>
+    <updated>2026-09-18T16:32:10+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133195&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZES THE PAYMENT OF FUNDS OF LATER FISCAL YEARS TO ENTER INTO A MULTI-YEAR LICENSING AGREEMENT WITH MRI SOFTWARE LLC FOR PHA PRO SOFTWARE AND RELATED SERVICES TO BE USED BY THE OFFICE OF HOUSING AND COMMUNITY DEVELOPMENT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Authorizes the Mayor to enter into a five-year agreement with an approximate annual cost of $55,593 for the first year and increasing thereafter to provide software licensing and other related services to be used by the department to meet program requirements and efficiently document communications with applicants, participants, and vendors.&lt;/p&gt;
+&lt;p&gt;Status: — → Adopted&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Adopts Res. 610-26 &amp;amp; FC-163 - 09/02/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1133195&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill039-26/2026-09-16T16:15:20+00:00</id>
-    <title>BILL039(26) (Honolulu): CCL/PH → PUBLISH</title>
-    <updated>2026-09-16T16:15:20+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3741"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE REZONING OF LAND SITUATED AT KAPOLEI AND HONOULIULI IN ʻEWA , OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Rezones certain land in the East Kapolei Neighborhood TOD Plan area and ʻEwa.&lt;/p&gt;
-&lt;p&gt;Status: CCL/PH → PUBLISH&lt;/p&gt;
-&lt;p&gt;Latest action: Second reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3741"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-187-2024-2026/2026-09-18T16:19:51+00:00</id>
+    <title>Bill 187 (2024-2026) (Hawaiʻi County): LAAC: Amended to Draft 3 &amp; postponed to 10/06/26 - 09/15/26</title>
+    <updated>2026-09-18T16:19:51+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136559&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS SECTION 25-8-14 (WAIKŌLOA VILLAGE DISTRICT ZONE MAP), ARTICLE 8, CHAPTER 25 (ZONING CODE) OF THE HAWAI‘I COUNTY CODE (2016 EDITION, AS AMENDED), BY CHANGING THE DISTRICT CLASSIFICATION FROM RESIDENTIAL AND AGRICULTURAL – 1 ACRE (RA-1A) AND OPEN (O) TO MULTIPLE-FAMILY RESIDENTIAL – 1,500 SQUARE FEET (RM-1.5), FAMILY AGRICULTURAL – 1 ACRE (FA-1A), AGRICULTURAL – 10 ACRES (A-10A), AND OPEN (O)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Waikoloa Green LLC) (Area: 14.868 Acres) The Leeward Planning Commission forwards its favorable recommendation for this amendment to the State Land Use Boundaries Map for the requested change of zone, which would allow the applicant to develop a 400-unit multiple-family housing complex with a clubhouse and related improvements. The property is located at the southeast side of Pua Melia Street, ap&lt;/p&gt;
+&lt;p&gt;Latest action: LAAC: Amended to Draft 3 &amp;amp; postponed to 10/06/26 - 09/15/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136559&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill038-26/2026-09-16T16:15:20+00:00</id>
-    <title>BILL038(26) (Honolulu): CCL/PH → PUBLISH</title>
-    <updated>2026-09-16T16:15:20+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3740"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO TRANSIT-ORIENTED DEVELOPMENT SPECIAL DISTRICT.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Amends the LUO by expanding the TOO Special District boundaries to the East Kapolei Neighborhood TOD Plan area, adding primary design objectives and use regulations, and modifying the TOD Special District Project Classification table.&lt;/p&gt;
-&lt;p&gt;Status: CCL/PH → PUBLISH&lt;/p&gt;
-&lt;p&gt;Latest action: Second reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3740"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-186-2024-2026/2026-09-18T16:19:50+00:00</id>
+    <title>Bill 186 (2024-2026) (Hawaiʻi County): LAAC: Postponed to 10/06/26 - 09/15/26</title>
+    <updated>2026-09-18T16:19:50+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134266&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS THE STATE LAND USE DISTRICT BOUNDARIES MAP BY CHANGING THE DISTRICT CLASSIFICATION FROM AGRICULTURAL TO URBAN AT WAIKŌLOA, SOUTH KOHALA, HAWAI‘I, COVERED BY A PORTION OF TAX MAP KEY: 6-8-002:016 ; and&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: LAAC: Postponed to 10/06/26 - 09/15/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134266&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill043-26/2026-09-16T16:15:10+00:00</id>
-    <title>BILL043(26) (Honolulu): CCL/PH → PUBLISH</title>
-    <updated>2026-09-16T16:15:10+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3761"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO REZONE LAND SITUATED AT PAʻALAʻA KAI, WAIALUA, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Rezones land situated at 66-9A Waialua Beach Road, Waialua, identified as Tax Map Key 6-6-018:024 (portion) from the County District to the R-5 Residential District.&lt;/p&gt;
-&lt;p&gt;Status: CCL/PH → PUBLISH&lt;/p&gt;
-&lt;p&gt;Latest action: Second reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3761"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-185-2024-2026/2026-09-18T16:19:49+00:00</id>
+    <title>Bill 185 (2024-2026) (Hawaiʻi County): Council:  Bill 185 passes first reading; adopts LAAC-46 - 9/16/2026</title>
+    <updated>2026-09-18T16:19:49+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134142&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS SECTION 25-8-11 (LĀLĀMILO-PUʻUKAPU DISTRICT ZONE MAP), ARTICLE 8, CHAPTER 25 (ZONING CODE) OF THE HAWAI‘I COUNTY CODE (2016 EDITION, AS AMENDED), BY CHANGING THE DISTRICT CLASSIFICATION FROM AGRICULTURAL – 40 ACRES (A40-A) TO FAMILY AGRICULTURAL – 1 ACRE (FA-1A) AT PUʻUKAPU, WAIMEA, HAWAI‘I, COVERED BY TAX MAP KEY: 6-4-018:030 (Applicants&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Jacqueline Visser, Hanale Visser, and Gilbert Visser) (Area: 2.397 acres) The Leeward Planning Commission forwards its favorable recommendation for this requested change of zone, which would allow the applicant to create a two-lot subdivision of one-acre each. The property is located at 64-5091 White Road.&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Bill 185 passes first reading; adopts LAAC-46 - 9/16/2026&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134142&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill042-26/2026-09-16T16:15:10+00:00</id>
-    <title>BILL042(26) (Honolulu): CCL/PH → PUBLISH</title>
-    <updated>2026-09-16T16:15:10+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3760"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO AMEND A PORTION OF THE STATE LAND USE DISTRICT BOUNDARY MAP (KAHUKU QUADRANGLE) FROM THE AGRICULTURAL DISTRICT TO THE URBAN DISTRICT FOR CERTAIN LANDS SITUATED IN THE KOʻOLAU LOA DEVELOPMENT PLAN AREA, LĀ‘IE, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Reclassifies certain lands in Lāʻie, Oʻahu from the State Land Use Agricultural District to the State Land Use Urban District.&lt;/p&gt;
-&lt;p&gt;Status: CCL/PH → PUBLISH&lt;/p&gt;
-&lt;p&gt;Latest action: Second reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3760"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-150/2026-09-11T16:15:13+00:00</id>
-    <title>RES26-150 (Honolulu): ZON → CCL</title>
-    <updated>2026-09-11T16:15:13+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3769"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;PROPOSING AN AMENDMENT TO CHAPTER 21, REVISED ORDINANCES OF HONOLULU 2021 (THE LAND USE ORDINANCE), RELATING TO LARGE DETACHED DWELLINGS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: ZON → CCL&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3769"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-188/2026-09-11T16:15:12+00:00</id>
-    <title>RES26-188 (Honolulu): ZON → CCL</title>
-    <updated>2026-09-11T16:15:12+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3819"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;PROPOSING AN AMENDMENT TO ZONING MAP NO. 23 (KAILUA-LANIKAI-KEOLU), ORDINANCE 86-124, TO REZONE LAND SITUATED AT KAILUA, O’AHU, HAWAI’I.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: ZON → CCL&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report and Resolution were adopted.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3819"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill037-26/2026-09-11T16:15:09+00:00</id>
-    <title>BILL037(26) (Honolulu): ZON → CCL/PH</title>
-    <updated>2026-09-11T16:15:09+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3723"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO AMEND PORTIONS (APPROXIMATELY 14.837 ACRES) OF THE STATE LAND USE DISTRICT BOUNDARY MAPS (SCHOFIELD QUADRANGLE AND ‘EWA QUADRANGLE) FROM THE AGRICULTURAL DISTRICT TO THE URBAN DISTRICT FOR CERTAIN LANDS SITUATED AT KAPOLEI AND HONOULIULI IN ‘EWA, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: ZON → CCL/PH&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report adopted.  Bill passed second reading, public hearing closed and referred to committee.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3723"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill039-26/2026-09-11T16:15:09+00:00</id>
-    <title>BILL039(26) (Honolulu): ZON → CCL/PH</title>
-    <updated>2026-09-11T16:15:09+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3741"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE REZONING OF LAND SITUATED AT KAPOLEI AND HONOULIULI IN ʻEWA , OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Rezones certain land in the East Kapolei Neighborhood TOD Plan area and ʻEwa.&lt;/p&gt;
-&lt;p&gt;Status: ZON → CCL/PH&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report adopted.  Bill passed second reading as amended, public hearing closed and referred to committee.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3741"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill038-26/2026-09-11T16:15:09+00:00</id>
-    <title>BILL038(26) (Honolulu): ZON → CCL/PH</title>
-    <updated>2026-09-11T16:15:09+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3740"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO TRANSIT-ORIENTED DEVELOPMENT SPECIAL DISTRICT.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Amends the LUO by expanding the TOO Special District boundaries to the East Kapolei Neighborhood TOD Plan area, adding primary design objectives and use regulations, and modifying the TOD Special District Project Classification table.&lt;/p&gt;
-&lt;p&gt;Status: ZON → CCL/PH&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report adopted.  Bill passed second reading, public hearing closed and referred to committee.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3740"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill043-26/2026-09-11T16:15:09+00:00</id>
-    <title>BILL043(26) (Honolulu): ZON → CCL/PH</title>
-    <updated>2026-09-11T16:15:09+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3761"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO REZONE LAND SITUATED AT PAʻALAʻA KAI, WAIALUA, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Rezones land situated at 66-9A Waialua Beach Road, Waialua, identified as Tax Map Key 6-6-018:024 (portion) from the County District to the R-5 Residential District.&lt;/p&gt;
-&lt;p&gt;Status: ZON → CCL/PH&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report adopted.  Bill passed second reading as amended, public hearing closed and referred to committee.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3761"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill042-26/2026-09-11T16:15:09+00:00</id>
-    <title>BILL042(26) (Honolulu): ZON → CCL/PH</title>
-    <updated>2026-09-11T16:15:09+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3760"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO AMEND A PORTION OF THE STATE LAND USE DISTRICT BOUNDARY MAP (KAHUKU QUADRANGLE) FROM THE AGRICULTURAL DISTRICT TO THE URBAN DISTRICT FOR CERTAIN LANDS SITUATED IN THE KOʻOLAU LOA DEVELOPMENT PLAN AREA, LĀ‘IE, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Reclassifies certain lands in Lāʻie, Oʻahu from the State Land Use Agricultural District to the State Land Use Urban District.&lt;/p&gt;
-&lt;p&gt;Status: ZON → CCL/PH&lt;/p&gt;
-&lt;p&gt;Latest action: Committee report adopted.  Bill passed second reading as amended, public hearing closed and referred to committee.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3760"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill055-26/2026-09-11T16:15:08+00:00</id>
-    <title>BILL055(26) (Honolulu): INTRO → CCL</title>
-    <updated>2026-09-11T16:15:08+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3813"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO REZONE LAND SITUATED AT WAIKĪKĪ, HONOLULU, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: INTRO → CCL&lt;/p&gt;
-&lt;p&gt;Latest action: Passed first reading.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3813"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res25-228/2026-09-11T16:15:08+00:00</id>
-    <title>RES25-228 (Honolulu): ZON → FILE</title>
-    <updated>2026-09-11T16:15:08+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3447"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;PROPOSING AN AMENDMENT TO CHAPTER 21, REVISED ORDINANCES OF HONOLULU 2021 (THE LAND USE ORDINANCE), RELATING TO CONDITIONAL USE PERMITS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: ZON → FILE&lt;/p&gt;
-&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3447"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-150/2026-08-28T16:15:09+00:00</id>
-    <title>RES26-150 (Honolulu): CR-252(26)
-Reported out for adoption.</title>
-    <updated>2026-08-28T16:15:09+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3769"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;PROPOSING AN AMENDMENT TO CHAPTER 21, REVISED ORDINANCES OF HONOLULU 2021 (THE LAND USE ORDINANCE), RELATING TO LARGE DETACHED DWELLINGS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: CR-252(26)
-Reported out for adoption.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3769"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-188/2026-08-28T16:15:08+00:00</id>
-    <title>RES26-188 (Honolulu): INTRO → ZON</title>
-    <updated>2026-08-28T16:15:08+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3819"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;PROPOSING AN AMENDMENT TO ZONING MAP NO. 23 (KAILUA-LANIKAI-KEOLU), ORDINANCE 86-124, TO REZONE LAND SITUATED AT KAILUA, O’AHU, HAWAI’I.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: INTRO → ZON&lt;/p&gt;
-&lt;p&gt;Latest action: CR-255(26)
-Reported out for adoption.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3819"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill037-26/2026-08-28T16:15:07+00:00</id>
-    <title>BILL037(26) (Honolulu): PUBLISH → ZON</title>
-    <updated>2026-08-28T16:15:07+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3723"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO AMEND PORTIONS (APPROXIMATELY 14.837 ACRES) OF THE STATE LAND USE DISTRICT BOUNDARY MAPS (SCHOFIELD QUADRANGLE AND ‘EWA QUADRANGLE) FROM THE AGRICULTURAL DISTRICT TO THE URBAN DISTRICT FOR CERTAIN LANDS SITUATED AT KAPOLEI AND HONOULIULI IN ‘EWA, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: PUBLISH → ZON&lt;/p&gt;
-&lt;p&gt;Latest action: CR-247(26)
-Reported out for passage on second reading and scheduling of a public hearing.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3723"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill039-26/2026-08-28T16:15:07+00:00</id>
-    <title>BILL039(26) (Honolulu): PUBLISH → ZON</title>
-    <updated>2026-08-28T16:15:07+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3741"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE REZONING OF LAND SITUATED AT KAPOLEI AND HONOULIULI IN ʻEWA , OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Rezones certain land in the East Kapolei Neighborhood TOD Plan area and ʻEwa.&lt;/p&gt;
-&lt;p&gt;Status: PUBLISH → ZON&lt;/p&gt;
-&lt;p&gt;Latest action: CR-249(26)
-Reported out for passage on second reading and scheduling of a public hearing as amended in CD1 form.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3741"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill038-26/2026-08-28T16:15:07+00:00</id>
-    <title>BILL038(26) (Honolulu): PUBLISH → ZON</title>
-    <updated>2026-08-28T16:15:07+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3740"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO TRANSIT-ORIENTED DEVELOPMENT SPECIAL DISTRICT.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Amends the LUO by expanding the TOO Special District boundaries to the East Kapolei Neighborhood TOD Plan area, adding primary design objectives and use regulations, and modifying the TOD Special District Project Classification table.&lt;/p&gt;
-&lt;p&gt;Status: PUBLISH → ZON&lt;/p&gt;
-&lt;p&gt;Latest action: CR-248(26)
-Reported out for passage on second reading and scheduling of a public hearing.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3740"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill043-26/2026-08-28T16:15:06+00:00</id>
-    <title>BILL043(26) (Honolulu): PUBLISH → ZON</title>
-    <updated>2026-08-28T16:15:06+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3761"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO REZONE LAND SITUATED AT PAʻALAʻA KAI, WAIALUA, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Rezones land situated at 66-9A Waialua Beach Road, Waialua, identified as Tax Map Key 6-6-018:024 (portion) from the County District to the R-5 Residential District.&lt;/p&gt;
-&lt;p&gt;Status: PUBLISH → ZON&lt;/p&gt;
-&lt;p&gt;Latest action: CR-251(26)
-Reported out for passage on second reading and scheduling of a public hearing as amended in CD1 form.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3761"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill042-26/2026-08-28T16:15:06+00:00</id>
-    <title>BILL042(26) (Honolulu): PUBLISH → ZON</title>
-    <updated>2026-08-28T16:15:06+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3760"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO AMEND A PORTION OF THE STATE LAND USE DISTRICT BOUNDARY MAP (KAHUKU QUADRANGLE) FROM THE AGRICULTURAL DISTRICT TO THE URBAN DISTRICT FOR CERTAIN LANDS SITUATED IN THE KOʻOLAU LOA DEVELOPMENT PLAN AREA, LĀ‘IE, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Reclassifies certain lands in Lāʻie, Oʻahu from the State Land Use Agricultural District to the State Land Use Urban District.&lt;/p&gt;
-&lt;p&gt;Status: PUBLISH → ZON&lt;/p&gt;
-&lt;p&gt;Latest action: CR-250(26)
-Reported out for passage on second reading and scheduling of a public hearing as amended in CD1 form.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3760"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-hlu-25-bill-109-2026/2026-08-27T22:06:50+00:00</id>
-    <title>New: HLU-25 Bill 109 (2026) (Maui) — Agenda Ready</title>
-    <updated>2026-08-27T22:06:50+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16351"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 109 (2026) AND BILL 115 (2026), COMMUNITY PLAN AMENDMENT AND CHANGE IN ZONING FOR 19.933 ACRES IDENTIFIED AS TAX MAP KEYS (2) 2-5-005:023 AND (2) 2-5-005:054, PĀʻIA, HAWAIʻI (PĀʻIA SUGAR MILL REDEVELOPMENT PROJECT)  (HLU-25)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16351"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-188/2026-08-27T22:06:44+00:00</id>
-    <title>New: RES26-188 (Honolulu) — INTRO</title>
-    <updated>2026-08-27T22:06:44+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3819"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;PROPOSING AN AMENDMENT TO ZONING MAP NO. 23 (KAILUA-LANIKAI-KEOLU), ORDINANCE 86-124, TO REZONE LAND SITUATED AT KAILUA, O’AHU, HAWAI’I.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3819"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill018-26/2026-08-27T22:06:42+00:00</id>
-    <title>BILL018(26) (Honolulu): PUBLISH → HHP</title>
-    <updated>2026-08-27T22:06:42+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3626"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO AFFORDABLE HOUSING.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Amends various development standards, building construction standards, and other requirements and benefits for affordable rental housing projects developed under ROH Chapter 32.&lt;/p&gt;
-&lt;p&gt;Status: PUBLISH → HHP&lt;/p&gt;
-&lt;p&gt;Latest action: Postponed to a date and time to be determined by the Committee Chair.
-&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3626"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill037-26/2026-08-27T22:06:42+00:00</id>
-    <title>BILL037(26) (Honolulu): CCL → PUBLISH</title>
-    <updated>2026-08-27T22:06:42+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3723"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO AMEND PORTIONS (APPROXIMATELY 14.837 ACRES) OF THE STATE LAND USE DISTRICT BOUNDARY MAPS (SCHOFIELD QUADRANGLE AND ‘EWA QUADRANGLE) FROM THE AGRICULTURAL DISTRICT TO THE URBAN DISTRICT FOR CERTAIN LANDS SITUATED AT KAPOLEI AND HONOULIULI IN ‘EWA, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: CCL → PUBLISH&lt;/p&gt;
-&lt;p&gt;Latest action: Public hearing notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3723"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill039-26/2026-08-27T22:06:42+00:00</id>
-    <title>BILL039(26) (Honolulu): CCL → PUBLISH</title>
-    <updated>2026-08-27T22:06:42+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3741"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE REZONING OF LAND SITUATED AT KAPOLEI AND HONOULIULI IN ʻEWA , OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Rezones certain land in the East Kapolei Neighborhood TOD Plan area and ʻEwa.&lt;/p&gt;
-&lt;p&gt;Status: CCL → PUBLISH&lt;/p&gt;
-&lt;p&gt;Latest action: Public hearing notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3741"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill038-26/2026-08-27T22:06:42+00:00</id>
-    <title>BILL038(26) (Honolulu): CCL → PUBLISH</title>
-    <updated>2026-08-27T22:06:42+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3740"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO TRANSIT-ORIENTED DEVELOPMENT SPECIAL DISTRICT.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Amends the LUO by expanding the TOO Special District boundaries to the East Kapolei Neighborhood TOD Plan area, adding primary design objectives and use regulations, and modifying the TOD Special District Project Classification table.&lt;/p&gt;
-&lt;p&gt;Status: CCL → PUBLISH&lt;/p&gt;
-&lt;p&gt;Latest action: Public hearing notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3740"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill043-26/2026-08-27T22:06:41+00:00</id>
-    <title>BILL043(26) (Honolulu): ZON → PUBLISH</title>
-    <updated>2026-08-27T22:06:41+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3761"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO REZONE LAND SITUATED AT PAʻALAʻA KAI, WAIALUA, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Rezones land situated at 66-9A Waialua Beach Road, Waialua, identified as Tax Map Key 6-6-018:024 (portion) from the County District to the R-5 Residential District.&lt;/p&gt;
-&lt;p&gt;Status: ZON → PUBLISH&lt;/p&gt;
-&lt;p&gt;Latest action: Public hearing notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3761"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill042-26/2026-08-27T22:06:41+00:00</id>
-    <title>BILL042(26) (Honolulu): CCL → PUBLISH</title>
-    <updated>2026-08-27T22:06:41+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3760"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO AMEND A PORTION OF THE STATE LAND USE DISTRICT BOUNDARY MAP (KAHUKU QUADRANGLE) FROM THE AGRICULTURAL DISTRICT TO THE URBAN DISTRICT FOR CERTAIN LANDS SITUATED IN THE KOʻOLAU LOA DEVELOPMENT PLAN AREA, LĀ‘IE, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Reclassifies certain lands in Lāʻie, Oʻahu from the State Land Use Agricultural District to the State Land Use Urban District.&lt;/p&gt;
-&lt;p&gt;Status: CCL → PUBLISH&lt;/p&gt;
-&lt;p&gt;Latest action: Public hearing notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3760"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill055-26/2026-08-27T22:06:40+00:00</id>
-    <title>New: BILL055(26) (Honolulu) — INTRO</title>
-    <updated>2026-08-27T22:06:40+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3813"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO REZONE LAND SITUATED AT WAIKĪKĪ, HONOLULU, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3813"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-hlu-20-reso-26-129/2026-08-11T20:42:31+00:00</id>
-    <title>New: HLU-20 Reso 26-129 (Maui) — Agenda Ready</title>
-    <updated>2026-08-11T20:42:31+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16360"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION 26-129, REFERRING TO THE MAUI PLANNING COMMISSION PROPOSED BILLS TO AMEND THE KIHEI-MAKENA COMMUNITY PLAN AND WEST MAUI COMMUNITY PLAN, AND TO CHANGE THE ZONING FOR A-1 AND A-2 APARTMENT DISTRICT PROPERTIES IN THE SEA LEVEL RISE EXPOSURE AREA  (HLU-20)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16360"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-hlu-22-reso-26-130/2026-08-11T20:42:30+00:00</id>
-    <title>New: HLU-22 Reso 26-130 (Maui) — Agenda Ready</title>
-    <updated>2026-08-11T20:42:30+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16363"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION 26-130, REFERRING TO THE MAUI PLANNING COMMISSION PROPOSED BILLS TO AMEND THE KIHEI-MAKENA COMMUNITY PLAN AND WEST MAUI COMMUNITY PLAN, AND TO CHANGE THE ZONING FOR PROPERTIES IDENTIFIED AS TAX MAP KEY (2) 3-9-016:019, KĪHEI, HAWAI‘I, AND TAX MAP KEYS (2) 4-5-013:002 AND 026, LAHAINA, HAWAI‘I, IN THE A-2 APARTMENT DISTRICT  (HLU-22)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16363"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill020-25/2026-08-11T20:42:23+00:00</id>
-    <title>BILL020(25) (Honolulu): MAYOR → PUBLISH</title>
-    <updated>2026-08-11T20:42:23+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3245"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO FUNDS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Creates a new Down Payment Loan Assistance Revolving Fund to receive and expend moneys to assist prospective homebuyers who reside in the City, do not own real property, and have an annual household income at 120 percent or below of the AMI of the City, as determined by HUD. Effective on July 1, 2025.&lt;/p&gt;
-&lt;p&gt;Status: MAYOR → PUBLISH&lt;/p&gt;
-&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3245"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill049-24/2026-08-11T20:42:22+00:00</id>
-    <title>BILL049(24) (Honolulu): — → FILE</title>
-    <updated>2026-08-11T20:42:22+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3050"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Establishes a real property tax exemption for real property whose assessed valuations exceed an unspecified percentage of the previous tax year’s assessed value and for which a homeowner’s exemption has been claimed for an unspecified number of years. Allows the real property tax exemption to continue to apply if the real property is inherited in sole ownership by a single family member who is eligible for the home exemption with respect to that real property, and the real property continues to be held in sole ownership. Effective upon the enactment of certain State legislation.&lt;/p&gt;
-&lt;p&gt;Status: — → FILE&lt;/p&gt;
-&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3050"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill048-24/2026-08-11T20:42:21+00:00</id>
-    <title>BILL048(24) (Honolulu): — → FILE</title>
-    <updated>2026-08-11T20:42:21+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3049"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Authorizes an owner of real property classified as Residential A to dedicate their property for use as a long-term residential rental and have such property classified as Residential. Provides the BFS Director with rulemaking authority. Applies to the tax years beginning July 1, 2026 and thereafter.&lt;/p&gt;
-&lt;p&gt;Status: — → FILE&lt;/p&gt;
-&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3049"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill046-24/2026-08-11T20:42:20+00:00</id>
-    <title>BILL046(24) (Honolulu): — → FILE</title>
-    <updated>2026-08-11T20:42:20+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3047"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Establishes an empty homes tax as a supplemental real property tax on dwelling units that are vacant for a certain number of days each year and provides exemptions from the empty homes tax. Requires residential property owners to annually submit a property status declaration. Provides the Department of Budget and Fiscal Services with rulemaking authority. Establishes violations and penalties, including foreclosure of real properties having delinquent empty homes taxes and penalties for at least three consecutive years after notice.&lt;/p&gt;
-&lt;p&gt;Status: — → FILE&lt;/p&gt;
-&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3047"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-resolution-2024-04/2026-07-27T22:00:59+00:00</id>
-    <title>New: Resolution 2024-04 (Kauaʻi) — On agenda 2024-01-18</title>
-    <updated>2026-07-27T22:00:59+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2641"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;Urging The Hawai‘i State Legislature To Expressly Authorize Counties To Amortize Nonconforming Single-Family Transient Vacation Rentals (TVRs)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2024-01-18&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2641"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-resolution-2024-07/2026-07-27T22:00:59+00:00</id>
-    <title>New: Resolution 2024-07 (Kauaʻi) — On agenda 2024-01-31</title>
-    <updated>2026-07-27T22:00:59+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2647"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;Supporting The Approval Of The Ka Lei Momi Kapa‘a Affordable Housing Project Pursuant To The Third Proclamation Relating To Affordable Housing Issued By The Governor Of The State Of Hawai‘i&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2024-01-31&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2647"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-181-2024-2026/2026-09-18T16:19:46+00:00</id>
+    <title>Bill 181 (2024-2026) (Hawaiʻi County): Council:  Bill 181 passess first reading; adopts LAAC-45 - 9/16/2026</title>
+    <updated>2026-09-18T16:19:46+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134041&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS SECTION 25-8-33 (CITY OF HILO DISTRICT ZONE MAP), ARTICLE 8, CHAPTER 25 (ZONING CODE) OF THE HAWAI‘I COUNTY CODE (2016 EDITION, AS AMENDED), BY CHANGING THE DISTRICT CLASSIFICATION FROM SINGLE-FAMILY RESIDENTIAL – 15,000 SQUARE FEET (RS-15) TO SINGLE-FAMILY RESIDENTIAL – 10,000 SQUARE FEET (RS-10) AT WAIĀKEA, SOUTH HILO, HAWAI‘I, COVERED BY TAX MAP KEY: 2-4-014:016 (Applicant&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Zak Ai Ikawa Saito) (Area: 21,792 square feet) The Windward Planning Commission forwards its favorable recommendation for this requested change of zone, which would allow the applicant to subdivide the property into two lots. The property is located at 283 West Puainako Street.&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Bill 181 passess first reading; adopts LAAC-45 - 9/16/2026&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134041&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
