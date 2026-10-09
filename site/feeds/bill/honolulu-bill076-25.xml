@@ -2,17 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/honolulu-bill076-25.xml</id>
   <title>BILL076(25) — Honolulu</title>
-  <updated>2026-06-01T20:41:04+00:00</updated>
+  <updated>2026-10-09T16:15:08+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/honolulu-bill076-25.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
   <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill076-25/2026-06-01T20:41:04+00:00</id>
-    <title>New: BILL076(25) (Honolulu) — PUBLISH</title>
-    <updated>2026-06-01T20:41:04+00:00</updated>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill076-25/2026-10-09T16:15:08+00:00</id>
+    <title>BILL076(25) (Honolulu): PUBLISH → —</title>
+    <updated>2026-10-09T16:15:08+00:00</updated>
     <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3564"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO GOVERNMENT TRANSPARENCY.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Requires the BFS Director, no later than January 1, 2027, to develop, maintain, and make publicly available a searchable, online database of City revenues and expenditures that is free, open to the public, updated at least monthly, and accessible through an open checkbook-style, web-based system. Requires the database to include specified expenditure information and protect confidential information.&lt;/p&gt;
-&lt;p&gt;Latest action: Second reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;Status: PUBLISH → —&lt;/p&gt;
+&lt;p&gt;Latest action: Cancelled and not considered.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3564"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
