@@ -2,27 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-bill-192-2024-2026.xml</id>
   <title>Bill 192 (2024-2026) — Hawaiʻi County</title>
-  <updated>2026-09-23T16:20:02+00:00</updated>
+  <updated>2026-10-12T16:15:32+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-bill-192-2024-2026.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-192-2024-2026/2026-10-12T16:15:32+00:00</id>
+    <title>Bill 192 (2024-2026) (Hawaiʻi County): Council:  Bill 192, Draft 3 passes first reading &amp; adopts FC-186 - 10/7/2026</title>
+    <updated>2026-10-12T16:15:32+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1137395&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 19, ARTICLE 11, SECTION 19-90 OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO REAL PROPERTY TAX&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Extends the requirement to appropriate residential tier-two and tier-three property tax revenue to the housing and homelessness fund until 2029; requires that monies from the fund be used to award grants that address housing and homelessness.&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Bill 192, Draft 3 passes first reading &amp;amp; adopts FC-186 - 10/7/2026&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1137395&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-192-2024-2026/2026-09-23T16:20:02+00:00</id>
     <title>Bill 192 (2024-2026) (Hawaiʻi County): — → Passed First Reading</title>
     <updated>2026-09-23T16:20:02+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136378&amp;dbid=0"/>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1137395&amp;dbid=0"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 19, ARTICLE 11, SECTION 19-90 OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO REAL PROPERTY TAX&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Extends the requirement to appropriate residential tier-two and tier-three property tax revenue to the housing and homelessness fund until 2029; requires that monies from the fund be used to award grants that address housing and homelessness.&lt;/p&gt;
 &lt;p&gt;Status: — → Passed First Reading&lt;/p&gt;
 &lt;p&gt;Latest action: FC-186:  Recommended passage on first reading - 09/15/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136378&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1137395&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-192-2024-2026/2026-08-31T16:26:58+00:00</id>
     <title>New: Bill 192 (2024-2026) (Hawaiʻi County) — now tracked</title>
     <updated>2026-08-31T16:26:58+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136378&amp;dbid=0"/>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1137395&amp;dbid=0"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 19, ARTICLE 11, SECTION 19-90 OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO REAL PROPERTY TAX&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Extends the requirement to appropriate residential tier-two and tier-three property tax revenue to the housing and homelessness fund until 2029; requires that monies from the fund be used to award grants that address housing and homelessness.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136378&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1137395&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
