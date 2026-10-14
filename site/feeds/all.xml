@@ -2,9 +2,66 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/all.xml</id>
   <title>Hawaiʻi County Bill Tracker — all updates</title>
-  <updated>2026-10-12T16:15:52+00:00</updated>
+  <updated>2026-10-14T16:15:27+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/all.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-716-2024-2026/2026-10-14T16:15:27+00:00</id>
+    <title>New: Resolution 716 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-10-14T16:15:27+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1137442&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1137442&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-206-2024-2026/2026-10-14T16:15:26+00:00</id>
+    <title>New: Bill 206 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-10-14T16:15:26+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1137589&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1137589&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-205-2024-2026/2026-10-14T16:15:26+00:00</id>
+    <title>New: Bill 205 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-10-14T16:15:26+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1137584&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1137584&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-187-2024-2026/2026-10-14T16:15:25+00:00</id>
+    <title>Bill 187 (2024-2026) (Hawaiʻi County): LAAC-  : Forwarded to Council with a negative recommendation - 10/06/26</title>
+    <updated>2026-10-14T16:15:25+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1137309&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS SECTION 25-8-14 (WAIKŌLOA VILLAGE DISTRICT ZONE MAP), ARTICLE 8, CHAPTER 25 (ZONING CODE) OF THE HAWAI‘I COUNTY CODE (2016 EDITION, AS AMENDED), BY CHANGING THE DISTRICT CLASSIFICATION FROM RESIDENTIAL AND AGRICULTURAL – 1 ACRE (RA-1A) AND OPEN (O) TO MULTIPLE-FAMILY RESIDENTIAL – 1,500 SQUARE FEET (RM-1.5), FAMILY AGRICULTURAL – 1 ACRE (FA-1A), AGRICULTURAL – 10 ACRES (A-10A), AND OPEN (O)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Waikoloa Green LLC) (Area: 14.868 Acres) The Leeward Planning Commission forwards its favorable recommendation for this amendment to the State Land Use Boundaries Map for the requested change of zone, which would allow the applicant to develop a 400-unit multiple-family housing complex with a clubhouse and related improvements. The property is located at the southeast side of Pua Melia Street, ap&lt;/p&gt;
+&lt;p&gt;Latest action: LAAC-  : Forwarded to Council with a negative recommendation - 10/06/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1137309&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-186-2024-2026/2026-10-14T16:15:24+00:00</id>
+    <title>Bill 186 (2024-2026) (Hawaiʻi County): Postponed → —</title>
+    <updated>2026-10-14T16:15:24+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134266&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS THE STATE LAND USE DISTRICT BOUNDARIES MAP BY CHANGING THE DISTRICT CLASSIFICATION FROM AGRICULTURAL TO URBAN AT WAIKŌLOA, SOUTH KOHALA, HAWAI‘I, COVERED BY A PORTION OF TAX MAP KEY: 6-8-002:016 ; and&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: Postponed → —&lt;/p&gt;
+&lt;p&gt;Latest action: LAAC-  : Forwarded to Council with a negative recommendation - 10/06/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134266&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-wai-26-reso-26-137/2026-10-14T16:15:05+00:00</id>
+    <title>New: WAI-26 Reso 26-137 (Maui) — Agenda Ready</title>
+    <updated>2026-10-14T16:15:05+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16368"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION 26-137, REFERRING TO THE MAUI PLANNING COMMISSION A PROPOSED BILL TO CHANGE THE ZONING TO B-2 COMMUNITY BUSINESS DISTRICT FOR SIX PARCELS IN THE MĀ‘ALAEA TRIANGLE, MĀ‘ALAEA, HAWAI‘I (MAUI OCEAN CENTER)  (WAI-26)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16368"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-wai-31-bill-116-2026/2026-10-14T16:15:05+00:00</id>
+    <title>New: WAI-31 BILL 116 (2026) (Maui) — Agenda Ready</title>
+    <updated>2026-10-14T16:15:05+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16379"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 116 (2026), AUTHORIZING THE MAYOR TO ENTER INTO AN INTERGOVERNMENTAL AGREEMENT WITH THE HAWAIʻI SCHOOL FACILITIES AUTHORITY TO PROVIDE TEMPORARY WASTEWATER SERVICE FROM THE WAILUKU-KAHULUI WASTEWATER RECLAMATION FACILITY TO THE NEW CENTRAL MAUI SCHOOL  (WAI-31)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16379"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-704-2024-2026/2026-10-12T16:15:52+00:00</id>
     <title>Resolution 704 (2024-2026) (Hawaiʻi County): Council:  Adopts 704-26 - 10/7/2026</title>
@@ -481,69 +538,6 @@ ADMINISTRATOR AND LAW ENFORCEMENT OFFICIALS MEETING IN MONTEREY, CALIFORNIA, FRO
     <updated>2026-10-09T16:15:58+00:00</updated>
     <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1640"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION CONFIRMING MAYORAL REAPPOINTMENT TO THE FIRE COMMISSION (Lorilee Almarza)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-10-14&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1640"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-resolution-2026-38/2026-10-09T16:15:58+00:00</id>
-    <title>New: Resolution 2026-38 (Kauaʻi) — On agenda 2026-10-14</title>
-    <updated>2026-10-09T16:15:58+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1640"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION CONFIRMING MAYORAL REAPPOINTMENT TO THE FIRE COMMISSION (Jeffrey A. Murray)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-10-14&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1640"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-resolution-2026-37/2026-10-09T16:15:58+00:00</id>
-    <title>New: Resolution 2026-37 (Kauaʻi) — On agenda 2026-10-14</title>
-    <updated>2026-10-09T16:15:58+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1640"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION CONFIRMING MAYORAL REAPPOINTMENT TO THE COST CONTROL COMMISSION (Andre Lister)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-10-14&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1640"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-resolution-2026-36/2026-10-09T16:15:58+00:00</id>
-    <title>New: Resolution 2026-36 (Kauaʻi) — On agenda 2026-10-14</title>
-    <updated>2026-10-09T16:15:58+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1640"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION CONFIRMING MAYORAL REAPPOINTMENT TO THE COST CONTROL COMMISSION (Paul Pancho)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-10-14&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1640"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-resolution-2026-35/2026-10-09T16:15:58+00:00</id>
-    <title>New: Resolution 2026-35 (Kauaʻi) — On agenda 2026-10-14</title>
-    <updated>2026-10-09T16:15:58+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1640"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION CONFIRMING MAYORAL REAPPOINTMENT TO THE CIVIL SERVICE COMMISSION (Piikea Keyes-Saiki)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-10-14&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1640"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-resolution-2026-33/2026-10-09T16:15:58+00:00</id>
-    <title>New: Resolution 2026-33 (Kauaʻi) — On agenda 2026-10-14</title>
-    <updated>2026-10-09T16:15:58+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1640"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION CONFIRMING MAYORAL REAPPOINTMENT TO THE CHARTER REVIEW COMMISSION (Marissa Sandblom)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-10-14&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1640"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-resolution-2026-32/2026-10-09T16:15:58+00:00</id>
-    <title>New: Resolution 2026-32 (Kauaʻi) — On agenda 2026-10-14</title>
-    <updated>2026-10-09T16:15:58+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1640"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION CONFIRMING MAYORAL REAPPOINTMENT TO THE CHARTER REVIEW COMMISSION (Coty Trugillo)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-10-14&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1640"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-resolution-2026-31/2026-10-09T16:15:58+00:00</id>
-    <title>New: Resolution 2026-31 (Kauaʻi) — On agenda 2026-10-14</title>
-    <updated>2026-10-09T16:15:58+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1640"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION CONFIRMING MAYORAL REAPPOINTMENT TO THE BOARD OF REVIEW (Leah L. Ragsac)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2026-10-14&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1640"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
