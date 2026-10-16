@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/honolulu-res26-234.xml</id>
+  <title>RES26-234 — Honolulu</title>
+  <updated>2026-10-16T16:15:10+00:00</updated>
+  <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/honolulu-res26-234.xml"/>
+  <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-234/2026-10-16T16:15:10+00:00</id>
+    <title>New: RES26-234 (Honolulu) — INTRO</title>
+    <updated>2026-10-16T16:15:10+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3871"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE DEPARTMENT OF PARKS AND RECREATION TO RESEARCH AND ESTABLISH APPROPRIATE NONRESIDENT FEES FOR CITY PARKS AND RECREATIONAL FACILITIES.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3871"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+</feed>

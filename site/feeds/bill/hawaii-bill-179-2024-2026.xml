@@ -2,9 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-bill-179-2024-2026.xml</id>
   <title>Bill 179 (2024-2026) — Hawaiʻi County</title>
-  <updated>2026-09-23T16:19:54+00:00</updated>
+  <updated>2026-10-16T16:15:34+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-bill-179-2024-2026.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-179-2024-2026/2026-10-16T16:15:34+00:00</id>
+    <title>Bill 179 (2024-2026) (Hawaiʻi County): Passed Second Reading → Adopted</title>
+    <updated>2026-10-16T16:15:34+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136549&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 2, OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO THE DEPARTMENT OF RESEARCH AND DEVELOPMENT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Describes the responsibilities of the Department of Research and Development; establishes a grant program to support community-based economic development.&lt;/p&gt;
+&lt;p&gt;Status: Passed Second Reading → Adopted&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Passes Bill 179, Draft 2 on second &amp;amp; final reading - 9/16/2026&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136549&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-179-2024-2026/2026-09-23T16:19:54+00:00</id>
     <title>Bill 179 (2024-2026) (Hawaiʻi County): — → Passed Second Reading</title>
