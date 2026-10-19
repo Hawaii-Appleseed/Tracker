@@ -2,9 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/honolulu.xml</id>
   <title>Bill Tracker — Honolulu</title>
-  <updated>2026-10-16T16:15:10+00:00</updated>
+  <updated>2026-10-19T16:15:09+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/honolulu.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-238/2026-10-19T16:15:09+00:00</id>
+    <title>New: RES26-238 (Honolulu) — INTRO</title>
+    <updated>2026-10-19T16:15:09+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3875"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;CONFIRMING THE APPOINTMENT OF UALANI DAVIS TO SERVE ON THE COMMISSION ON CULTURE AND THE ARTS OF THE CITY AND COUNTY OF HONOLULU.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3875"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-237/2026-10-19T16:15:09+00:00</id>
+    <title>New: RES26-237 (Honolulu) — INTRO</title>
+    <updated>2026-10-19T16:15:09+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3874"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE MAYOR OR THE MAYOR'S DESIGNEE TO ENTER INTO A PRE-DEVELOPMENT AGREEMENT BETWEEN THE CITY AND COUNTY OF HONOLULU AND CENTRE URBAN REAL ESTATE HAWAIʻI, LLC AND ENTER INTO A GROUND LEASE BETWEEN THE CITY AND COUNTY OF HONOLULU AND CARDINAL ALA WAI LLC TO DEVELOP AN AFFORDABLE RENTAL HOUSING PROJECT AT 1615 ALA WAI BOULEVARD, HONOLULU, OʻAHU, HAWAIʻI 96815, AND IDENTIFIED AS TAX MAP KEYS (1) 2-6-011:033 AND 036 (por.).&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3874"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-234/2026-10-16T16:15:10+00:00</id>
     <title>New: RES26-234 (Honolulu) — INTRO</title>
@@ -494,23 +512,5 @@ Transmitted to Mayor for his approval or otherwise.&lt;/p&gt;
     <content type="html">&lt;p&gt;&lt;strong&gt;CONFIRMING THE APPOINTMENT OF RYAN M. TANAKA TO SERVE ON THE SALARY COMMISSION OF THE CITY AND COUNTY OF HONOLULU.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2442"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res23-021/2026-10-05T22:15:28+00:00</id>
-    <title>New: RES23-021 (Honolulu) — FILE</title>
-    <updated>2026-10-05T22:15:28+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2438"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;INITIATING AMENDMENTS TO THE REVISED CHARTER OF THE CITY AND COUNTY OF HONOLULU 1973, AS AMENDED, PURSUANT TO THE MAYOR’S EXECUTIVE REORGANIZATION AUTHORITY, RELATING TO THE DEPARTMENT OF BUDGET AND FISCAL SERVICES AND THE DEPARTMENT OF LAND MANAGEMENT.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2438"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res23-032/2026-10-05T22:15:27+00:00</id>
-    <title>New: RES23-032 (Honolulu) — FILE</title>
-    <updated>2026-10-05T22:15:27+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2454"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE CITY ADMINISTRATION TO ESTABLISH A WORKING GROUP TO DISCUSS THE FUTURE USE OF THE PARADISE PARK PROPERTY.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2454"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

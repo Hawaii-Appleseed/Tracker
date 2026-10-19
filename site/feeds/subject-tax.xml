@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/subject-tax.xml</id>
   <title>Bill Tracker — Tax bills</title>
-  <updated>2026-10-16T16:15:35+00:00</updated>
+  <updated>2026-10-19T16:15:09+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/subject-tax.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-237/2026-10-19T16:15:09+00:00</id>
+    <title>New: RES26-237 (Honolulu) — INTRO</title>
+    <updated>2026-10-19T16:15:09+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3874"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE MAYOR OR THE MAYOR'S DESIGNEE TO ENTER INTO A PRE-DEVELOPMENT AGREEMENT BETWEEN THE CITY AND COUNTY OF HONOLULU AND CENTRE URBAN REAL ESTATE HAWAIʻI, LLC AND ENTER INTO A GROUND LEASE BETWEEN THE CITY AND COUNTY OF HONOLULU AND CARDINAL ALA WAI LLC TO DEVELOP AN AFFORDABLE RENTAL HOUSING PROJECT AT 1615 ALA WAI BOULEVARD, HONOLULU, OʻAHU, HAWAIʻI 96815, AND IDENTIFIED AS TAX MAP KEYS (1) 2-6-011:033 AND 036 (por.).&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3874"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-186-2024-2026/2026-10-16T16:15:35+00:00</id>
     <title>Bill 186 (2024-2026) (Hawaiʻi County): LAAC-47:  Forwarded to Council with a negative recommendation - 10/06/26</title>
@@ -478,15 +487,5 @@ Transmitted to Mayor for his approval or otherwise.&lt;/p&gt;
     <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 5A, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO REAL PROPERTY TAX (RPT Reform Tax Year 2025)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2023-11-15&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2628"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill060-26/2026-10-02T16:15:08+00:00</id>
-    <title>New: BILL060(26) (Honolulu) — INTRO</title>
-    <updated>2026-10-02T16:15:08+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3857"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Requires the BFS Director to implement and maintain an automated eligibility screening system utilizing cross-checking procedures to verify eligibility for real property tax exemptions, credits, and dedications. Establishes a reporting requirement. Applies to tax years beginning July 1, 2028, and thereafter.&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3857"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
