@@ -2,9 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/honolulu.xml</id>
   <title>Bill Tracker — Honolulu</title>
-  <updated>2026-10-19T16:15:09+00:00</updated>
+  <updated>2026-10-21T16:15:11+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/honolulu.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-222/2026-10-21T16:15:11+00:00</id>
+    <title>RES26-222 (Honolulu): INTRO → BUD</title>
+    <updated>2026-10-21T16:15:11+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3860"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE DIRECTOR OF BUDGET AND FISCAL SERVICES TO ISSUE AND SELL NOT TO EXCEED $210,000,000 PRINCIPAL AMOUNT OF WASTEWATER SYSTEM REVENUE BONDS, JUNIOR SERIES 2026 AND RELATED MATTERS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: INTRO → BUD&lt;/p&gt;
+&lt;p&gt;Latest action: CR-282(26)
+Reported out for adoption.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3860"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-225/2026-10-21T16:15:10+00:00</id>
+    <title>RES26-225 (Honolulu): INTRO → BUD</title>
+    <updated>2026-10-21T16:15:10+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3859"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE DIRECTOR OF BUDGET AND FISCAL SERVICES TO ISSUE AND SELL NOT TO EXCEED $205,000,000 PRINCIPAL AMOUNT OF WASTEWATER SYSTEM REVENUE BONDS, SENIOR SERIES 2026 AND RELATED MATTERS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: INTRO → BUD&lt;/p&gt;
+&lt;p&gt;Latest action: CR-283(26)
+Reported out for adoption.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3859"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill040-26/2026-10-21T16:15:10+00:00</id>
+    <title>BILL040(26) (Honolulu): CR-281(26)
+Reported out for passage on third reading.</title>
+    <updated>2026-10-21T16:15:10+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3752"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Temporarily entitles the owner of certain owner-occupied condominium units to a real property tax home exemption. Applies retroactively to the tax year beginning July 1, 2025, and thereafter.&lt;/p&gt;
+&lt;p&gt;Latest action: CR-281(26)
+Reported out for passage on third reading.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3752"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-238/2026-10-19T16:15:09+00:00</id>
     <title>New: RES26-238 (Honolulu) — INTRO</title>
@@ -483,34 +517,5 @@ Transmitted to Mayor for his approval or otherwise.&lt;/p&gt;
 &lt;p&gt;Status: PUBLISH → —&lt;/p&gt;
 &lt;p&gt;Latest action: Cancelled and not considered.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3564"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill057-24/2026-10-07T16:15:08+00:00</id>
-    <title>BILL057(24) (Honolulu): — → FILE</title>
-    <updated>2026-10-07T16:15:08+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3105"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Allows an owners’ association to apply for the automatic sprinkler system tax credit on behalf of eligible owners within the existing high-rise residential building. Applies to the tax years beginning July 1, 2026 and thereafter.&lt;/p&gt;
-&lt;p&gt;Status: — → FILE&lt;/p&gt;
-&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3105"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res23-012/2026-10-05T22:15:30+00:00</id>
-    <title>New: RES23-012 (Honolulu) — FILE</title>
-    <updated>2026-10-05T22:15:30+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2426"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT OF SERVICES VALUED AT $22,500 TO THE CITY FROM TREES FOR HONOLULUʻS FUTURE FOR A KUPU MEMBER TO ASSIST THE DEPARTMENT OF PARKS AND RECREATIONʻS DIVISION OF URBAN FORESTRY.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2426"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res23-022/2026-10-05T22:15:28+00:00</id>
-    <title>New: RES23-022 (Honolulu) — FILE</title>
-    <updated>2026-10-05T22:15:28+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2442"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;CONFIRMING THE APPOINTMENT OF RYAN M. TANAKA TO SERVE ON THE SALARY COMMISSION OF THE CITY AND COUNTY OF HONOLULU.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2442"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
