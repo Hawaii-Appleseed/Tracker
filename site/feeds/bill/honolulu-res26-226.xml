@@ -2,9 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/honolulu-res26-226.xml</id>
   <title>RES26-226 — Honolulu</title>
-  <updated>2026-10-12T16:15:05+00:00</updated>
+  <updated>2026-10-23T16:15:13+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/honolulu-res26-226.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-226/2026-10-23T16:15:13+00:00</id>
+    <title>RES26-226 (Honolulu): INTRO → ITT</title>
+    <updated>2026-10-23T16:15:13+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3862"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;APPROVING THE GRANT OF NON-EXCLUSIVE SUBSURFACE EASEMENTS TO HUMUHUMU SERVICES, LLC WITHIN PORTIONS OF BARBERS POINT BEACH PARK, TAX MAP KEY NO. (1) 9-1-026:027; AND PORTIONS OF ŌLAʻI STREET, TAX MAP KEY (1) 9-1-026-ROAD &amp;amp; 031-ROAD; KALAELOA BOULEVARD, TAX MAP KEY (1) 9-1-031-ROAD; KAPOLEI PARKWAY, TAX MAP KEY (1) 9-1-016-ROAD; KAMOKILA BOULEVARD, TAX MAP KEY (1) 9-1-016-ROAD; AND FARRINGTON HIGHWAY, TAX MAP KEY (1) 9-1-016-ROAD &amp;amp; 017-ROAD, HONOULIULI, ‘EWA, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: INTRO → ITT&lt;/p&gt;
+&lt;p&gt;Latest action: CR-291(26)
+Reported out for adoption.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3862"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-226/2026-10-12T16:15:05+00:00</id>
     <title>New: RES26-226 (Honolulu) — INTRO</title>
