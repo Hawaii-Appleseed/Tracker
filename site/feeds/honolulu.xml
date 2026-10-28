@@ -2,9 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/honolulu.xml</id>
   <title>Bill Tracker — Honolulu</title>
-  <updated>2026-10-23T16:15:14+00:00</updated>
+  <updated>2026-10-28T16:15:09+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/honolulu.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-244/2026-10-28T16:15:09+00:00</id>
+    <title>New: RES26-244 (Honolulu) — INTRO</title>
+    <updated>2026-10-28T16:15:09+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3881"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE TRANSFER OF FUNDS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3881"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-247/2026-10-28T16:15:09+00:00</id>
+    <title>New: RES26-247 (Honolulu) — INTRO</title>
+    <updated>2026-10-28T16:15:09+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3884"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE OFFICERS OF THE COUNCIL OF THE CITY AND COUNTY OF HONOLULU.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3884"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-246/2026-10-28T16:15:09+00:00</id>
+    <title>New: RES26-246 (Honolulu) — INTRO</title>
+    <updated>2026-10-28T16:15:09+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3883"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;PROPOSING AN AMENDMENT TO CHAPTER 21, REVISED ORDINANCES OF HONOLULU 2021 (THE LAND USE ORDINANCE), RELATING TO LARGE DWELLING UNITS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3883"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-245/2026-10-28T16:15:09+00:00</id>
+    <title>New: RES26-245 (Honolulu) — INTRO</title>
+    <updated>2026-10-28T16:15:09+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3882"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE TRANSFER OF FUNDS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Request to transfer FY2027 funds to cover projected salary deficits due to the Cumulative result of several factors affecting personnel costs, including contractual salary obligations, overtime required to maintain minimum staffing levels during persistent vacancies, increased recruit hiring, and other personnel-related operational requirements and initiatives that are unbudgeted.&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3882"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill018-26/2026-10-28T16:15:08+00:00</id>
+    <title>BILL018(26) (Honolulu): Failed to be reported out for passage on third reading.</title>
+    <updated>2026-10-28T16:15:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3626"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO AFFORDABLE HOUSING.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Amends various development standards, building construction standards, and other requirements and benefits for affordable rental housing projects developed under ROH Chapter 32.&lt;/p&gt;
+&lt;p&gt;Latest action: Failed to be reported out for passage on third reading.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3626"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-200/2026-10-23T16:15:14+00:00</id>
     <title>RES26-200 (Honolulu): INTRO → ITT</title>
@@ -469,50 +516,5 @@ Reported out for passage on third reading.&lt;/p&gt;
     <content type="html">&lt;p&gt;&lt;strong&gt;GRANTING A SPECIAL MANAGEMENT AREA MAJOR PERMIT TO ALLOW FOR THE CONSTRUCTION OF A NEW SINGLE-UNIT DWELLING IN WAIʻANAE, OʻAHU.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Latest action: Introduced.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3867"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-230/2026-10-16T16:15:09+00:00</id>
-    <title>New: RES26-230 (Honolulu) — INTRO</title>
-    <updated>2026-10-16T16:15:09+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3866"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING EXEMPTIONS FROM CERTAIN REQUIREMENTS RELATING TO THE KAPOLEI PARKWAY LOTS 2-5 AFFORDABLE RENTAL HOUSING PROJECT IN KAPOLEI, OʻAHU.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3866"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-236/2026-10-16T16:15:09+00:00</id>
-    <title>New: RES26-236 (Honolulu) — now tracked</title>
-    <updated>2026-10-16T16:15:09+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3873"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE UNITED STATES OF AMERICA TO RETURN THE LANDS UTILIZED BY THE UNITED STATES AIR FORCE  STATION AT BELLOWS, WAIMĀNALO, HAWAIʻI, TO THE PEOPLE OF HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3873"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-235/2026-10-16T16:15:08+00:00</id>
-    <title>New: RES26-235 (Honolulu) — INTRO</title>
-    <updated>2026-10-16T16:15:08+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3872"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE APPOINTMENT OF ANTHONY J. BALDOMERO, JR., TO THE HONOLULU AUTHORITY FOR RAPID TRANSPORTATION BOARD OF DIRECTORS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3872"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-229/2026-10-12T16:15:05+00:00</id>
-    <title>New: RES26-229 (Honolulu) — INTRO</title>
-    <updated>2026-10-12T16:15:05+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3865"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT OF $3,141.82 TO THE CITY FROM MS. SANDRA E MORIBE, SUCCESSOR TRUSTEE OF THE DONALD KM AND AMY L CHONG CHARITABLE REMAINDER UNITRUST U/A DATED 11/8/1999, FOR THE HONOLULU POLICE DEPARTMENT’S SPECIALIZED SERVICES DIVISION, CANINE UNIT.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3865"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-228/2026-10-12T16:15:05+00:00</id>
-    <title>New: RES26-228 (Honolulu) — INTRO</title>
-    <updated>2026-10-12T16:15:05+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3864"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT OF AN AIDS MEMORIAL AND COMMUNITY MEMORY SITE, VALUED AT $97,081, TO THE CITY FROM LEI PUA ‘ALA FOUNDATION AT
-KAKAʻAKO WATERFRONT PARK.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3864"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
