@@ -2,9 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/subject-tax.xml</id>
   <title>Bill Tracker — Tax bills</title>
-  <updated>2026-10-28T16:16:14+00:00</updated>
+  <updated>2026-10-30T16:16:04+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/subject-tax.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-172-2024-2026/2026-10-30T16:16:04+00:00</id>
+    <title>Bill 172 (2024-2026) (Hawaiʻi County): Passed Second Reading → Adopted</title>
+    <updated>2026-10-30T16:16:04+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132536&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS ORDINANCE NO. 26-44, THE OPERATING BUDGET OF THE COUNTY OF HAWAIʻI FOR THE FISCAL YEAR ENDING JUNE 30, 2027&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Appropriates revenues in the revenues in the State Motor Vehicle Weight Tax account ($6,282.72) and appropriates the same to the Vehicle Registration Other Current Expenses account. Funds will be used for expenses associated with programming and updating the County’s motor vehicle registration system.&lt;/p&gt;
+&lt;p&gt;Status: Passed Second Reading → Adopted&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Bill 172 passes second &amp;amp; final reading - 09/02/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1132536&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill043-26/2026-10-30T16:15:09+00:00</id>
+    <title>BILL043(26) (Honolulu): MAYOR → PUBLISH</title>
+    <updated>2026-10-30T16:15:09+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3761"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TO REZONE LAND SITUATED AT PAʻALAʻA KAI, WAIALUA, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Rezones land situated at 66-9A Waialua Beach Road, Waialua, identified as Tax Map Key 6-6-018:024 (portion) from the County District to the R-5 Residential District.&lt;/p&gt;
+&lt;p&gt;Status: MAYOR → PUBLISH&lt;/p&gt;
+&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3761"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill061-26/2026-10-30T16:15:09+00:00</id>
+    <title>New: BILL061(26) (Honolulu) — INTRO</title>
+    <updated>2026-10-30T16:15:09+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3888"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Repeals the 15-year limitation on the availability of the RPT exemption for qualifying affordable rental dwelling units or housing units. Allows the RPT exemption to instead continue for as long as the affordable housing rental project is subject to an affordable housing agreement or a declaration of restrictive covenants. Makes conforming amendments.&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3888"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-185-2024-2026/2026-10-28T16:16:14+00:00</id>
     <title>Bill 185 (2024-2026) (Hawaiʻi County): Passed Second Reading → Adopted</title>
@@ -465,35 +497,5 @@ Transmitted to Mayor for his approval or otherwise.&lt;/p&gt;
 &lt;p&gt;Status: — → Second Reading&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2026-04-22&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3068"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2981/2026-10-04T19:17:03+00:00</id>
-    <title>Bill 2981 (Kauaʻi): — → Second Reading</title>
-    <updated>2026-10-04T19:17:03+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3044"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;For An Ordinance Amending Chapter 5A, Kaua‘i County Code 1987, As Amended, Relating To Real Property Tax, enabling the Director to inspect and examine any real property in the County to attain information needed for real property assessments and to expressly provide the Director with the authority to promulgate rules with retroactive effect&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: — → Second Reading&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-03-25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3044"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2960/2026-10-04T19:17:03+00:00</id>
-    <title>Bill 2960 (Kauaʻi): — → Second Reading</title>
-    <updated>2026-10-04T19:17:03+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2902"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;For An Ordinance Amending Section 25-11.2, Kaua‘i County Code 1987, As Amended, Relating To Sewers, to provide sewer connection fee exemptions for workforce housing projects&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: — → Second Reading&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2025-07-16&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2902"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-resolution-2025-21/2026-10-04T19:17:03+00:00</id>
-    <title>Resolution 2025-21 (Kauaʻi): — → In Committee</title>
-    <updated>2026-10-04T19:17:03+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=2863"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION ESTABLISHING THE REAL PROPERTY TAX RATES FOR THE FISCAL YEAR JULY 1, 2025 TO JUNE 30, 2026 FOR THE COUNTY OF KAUA‘I&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: — → In Committee&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2025-05-28&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=2863"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

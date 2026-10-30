@@ -2,9 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/bill/hawaii-resolution-722-2024-2026.xml</id>
   <title>Resolution 722 (2024-2026) — Hawaiʻi County</title>
-  <updated>2026-10-26T16:19:35+00:00</updated>
+  <updated>2026-10-30T16:18:09+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/bill/hawaii-resolution-722-2024-2026.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-722-2024-2026/2026-10-30T16:18:09+00:00</id>
+    <title>Resolution 722 (2024-2026) (Hawaiʻi County): 10/28/26 modified to revise 2nd whereas to read eleven flatbed trucks vs. three heavy-duty truck tractors per JP - sp</title>
+    <updated>2026-10-30T16:18:09+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1138199&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;Latest action: 10/28/26 modified to revise 2nd whereas to read eleven flatbed trucks vs. three heavy-duty truck tractors per JP - sp&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1138199&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-722-2024-2026/2026-10-26T16:19:35+00:00</id>
     <title>New: Resolution 722 (2024-2026) (Hawaiʻi County) — now tracked</title>
