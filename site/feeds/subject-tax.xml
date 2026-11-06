@@ -2,9 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/subject-tax.xml</id>
   <title>Bill Tracker — Tax bills</title>
-  <updated>2026-10-30T16:16:04+00:00</updated>
+  <updated>2026-11-06T16:15:07+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/subject-tax.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill063-26/2026-11-06T16:15:07+00:00</id>
+    <title>New: BILL063(26) (Honolulu) — INTRO</title>
+    <updated>2026-11-06T16:15:07+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3900"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Establishes an RPT exemption for certain residential real properties impacted by a landfill. Applies to tax years beginning July 1, 2028 and thereafter.&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3900"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-172-2024-2026/2026-10-30T16:16:04+00:00</id>
     <title>Bill 172 (2024-2026) (Hawaiʻi County): Passed Second Reading → Adopted</title>
@@ -487,15 +497,5 @@ Transmitted to Mayor for his approval or otherwise.&lt;/p&gt;
 &lt;p&gt;Status: — → In Committee&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2026-05-13&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3079"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-2987/2026-10-04T19:17:03+00:00</id>
-    <title>Bill 2987 (Kauaʻi): — → Second Reading</title>
-    <updated>2026-10-04T19:17:03+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;clip_id=3068"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 5A, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO REAL PROPERTY TAX (Agricultural Dedication)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: — → Second Reading&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-04-22&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;clip_id=3068"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
