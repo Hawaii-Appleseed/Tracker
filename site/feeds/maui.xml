@@ -2,9 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/maui.xml</id>
   <title>Bill Tracker — Maui</title>
-  <updated>2026-10-16T16:15:12+00:00</updated>
+  <updated>2026-11-09T16:15:16+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/maui.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-great-1-4-reso-26-180/2026-11-09T16:15:16+00:00</id>
+    <title>New: GREAT-1(4) Reso 26-180 (Maui) — Agenda Ready</title>
+    <updated>2026-11-09T16:15:16+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16400"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION 26-180, APPROVING THE APPOINTMENT OF ANDREW H. MARTIN AS THE PROSECUTING ATTORNEY  (GREAT-1(4))&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16400"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-great-1-3-reso-26-179/2026-11-09T16:15:16+00:00</id>
+    <title>New: GREAT-1(3) Reso 26-179 (Maui) — Agenda Ready</title>
+    <updated>2026-11-09T16:15:16+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16399"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION 26-179, APPROVING THE APPOINTMENT OF MIMI DESJARDINS AS THE CORPORATION COUNSEL  (GREAT-1(3))&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16399"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:maui-hlu-26-bill-141-2026/2026-10-16T16:15:12+00:00</id>
     <title>New: HLU-26 Bill 141 (2026) (Maui) — Agenda Ready</title>
@@ -180,14 +196,6 @@
     <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16363"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION 26-130, REFERRING TO THE MAUI PLANNING COMMISSION PROPOSED BILLS TO AMEND THE KIHEI-MAKENA COMMUNITY PLAN AND WEST MAUI COMMUNITY PLAN, AND TO CHANGE THE ZONING FOR PROPERTIES IDENTIFIED AS TAX MAP KEY (2) 3-9-016:019, KĪHEI, HAWAI‘I, AND TAX MAP KEYS (2) 4-5-013:002 AND 026, LAHAINA, HAWAI‘I, IN THE A-2 APARTMENT DISTRICT  (HLU-22)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16363"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-bill-87-cd1-2023/2026-07-27T19:06:23+00:00</id>
-    <title>New: Bill 87, CD1 (2023) (Maui) — Agenda Ready</title>
-    <updated>2026-07-27T19:06:23+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14196"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AMENDING TITLE 10, MAUI COUNTY CODE, RELATING TO THE ESTABLISHMENT OF PAID PARKING ZONES AND PERMIT PARKING ZONES IN WAILUKU, PROHIBITED ACTIVITIES FOR THE WAILUKU GARAGE FACILITY, AND PENALTIES FOR PARKING VIOLATIONS"&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14196"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:maui-bill-120-2023/2026-07-27T19:06:22+00:00</id>
@@ -408,15 +416,5 @@ The purpose of this bill is to require that private recipients allow the County 
 
 The purpose of this bill is to add Pākalā (including Kamehameha Iki Park) to the list of historic and cultural sites eligible for preservation and restoration under the Hawaiian Cultural Restoration Revolving Fund.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14253"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-bill-101-cd1-2023/2026-07-27T19:06:16+00:00</id>
-    <title>New: Bill 101, CD1 (2023) (Maui) — Agenda Ready</title>
-    <updated>2026-07-27T19:06:16+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14252"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AMENDING THE FISCAL YEAR 2024 BUDGET FOR THE COUNTY OF MAUI, REVENUES AND DEPARTMENT OF POLICE, TECHNICAL AND SUPPORT SERVICES PROGRAM"
-
-The purpose of this bill is to increase Carryover/Savings in the General Fund and Total Estimated Revenues by $1,300,000 and by increasing the Department of Police, Technical and Support Services Program, and Total Appropriations (Operating and Capital Improvement Projects) by $1,300,000.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14252"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
