@@ -2,9 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/maui.xml</id>
   <title>Bill Tracker — Maui</title>
-  <updated>2026-11-09T16:15:16+00:00</updated>
+  <updated>2026-11-11T16:15:14+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/maui.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-wai-32-bill-121-2026/2026-11-11T16:15:14+00:00</id>
+    <title>New: WAI-32 BILL 121 (2026) (Maui) — Agenda Ready</title>
+    <updated>2026-11-11T16:15:14+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16380"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 121 (2026), AMENDING THE ENERGY CODE AND THE COMPREHENSIVE ZONING ORDINANCE ON ELECTRIC-VEHICLE PARKING  (WAI-32)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16380"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-bfed-66-bill-140-2026/2026-11-11T16:15:14+00:00</id>
+    <title>New: BFED-66 Bill 140 (2026) (Maui) — Agenda Ready</title>
+    <updated>2026-11-11T16:15:14+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16396"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 140 (2026), AMENDING CHAPTER 2.48, MAUI COUNTY CODE, ON LEGISLATIVE-BRANCH TRAVEL EXPENSES (BFED-66)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16396"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-wai-33-reso-26-177/2026-11-11T16:15:13+00:00</id>
+    <title>New: WAI-33 Reso 26-177 (Maui) — Agenda Ready</title>
+    <updated>2026-11-11T16:15:13+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16398"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION 26-177, AUTHORIZING PROCEEDINGS IN CONDEMNATION BY EMINENT DOMAIN FOR THE ACQUISITION OF REAL PROPERTY INTERESTS REQUIRED FOR PHASE 1 OF THE LILOA DRIVE EXTENSION PROJECT  (WAI-33)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16398"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-great-17-bill-154-2026/2026-11-11T16:15:13+00:00</id>
+    <title>New: GREAT-17 Bill 154 (2026) (Maui) — Agenda Ready</title>
+    <updated>2026-11-11T16:15:13+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16408"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 154 (2026), ON FAIR TREATMENT  (GREAT-17)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16408"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:maui-great-1-4-reso-26-180/2026-11-09T16:15:16+00:00</id>
     <title>New: GREAT-1(4) Reso 26-180 (Maui) — Agenda Ready</title>
@@ -382,39 +414,5 @@ The purpose of this bill is to require that private recipients allow the County 
     <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14239"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;"AUTHORIZING THE EMPLOYMENT OF SPECIAL COUNSEL BARON &amp;amp; BUDD, P.C., IN LITIGATION MATTERS ARISING FROM THE AUGUST 2023 WILDFIRES ON THE ISLAND OF MAUI"&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14239"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-reso-23-223-cd1/2026-07-27T19:06:17+00:00</id>
-    <title>New: Reso 23-223, CD1 (Maui) — Agenda Ready</title>
-    <updated>2026-07-27T19:06:17+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14238"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;"AUTHORIZING THE EMPLOYMENT OF SPECIAL COUNSEL MEYERS NAVE, IN LITIGATION MATTERS ARISING FROM THE AUGUST 2023 WILDFIRES ON THE ISLAND OF MAUI"&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14238"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-reso-23-237/2026-07-27T19:06:16+00:00</id>
-    <title>New: Reso 23-237 (Maui) — Agenda Ready</title>
-    <updated>2026-07-27T19:06:16+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14256"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;"REFERRING TO THE LĀNAʻI, MAUI, AND MOLOKAI PLANNING COMMISSION A PROPOSED BILL ON THE USE OF SHIPPING CONTAINERS AS INCIDENTAL STORAGE"&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14256"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-bill-118-fd1-2023/2026-07-27T19:06:16+00:00</id>
-    <title>New: Bill 118, FD1 (2023) (Maui) — Agenda Ready</title>
-    <updated>2026-07-27T19:06:16+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14254"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AUTHORIZING THE MAYOR OF THE COUNTY OF MAUI TO ENTER INTO AN INTERGOVERNMENTAL AGREEMENT WITH THE UNITED STATES GOVERNMENT AND THE STATE OF HAWAII REGARDING THE AUTHORIZATION FOR MAUI WILDFIRE DEBRIS REMOVAL FOR COUNTY-OWNED PROPERTIES"&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14254"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-bill-115-fd1-2023/2026-07-27T19:06:16+00:00</id>
-    <title>New: Bill 115, FD1 (2023) (Maui) — Agenda Ready</title>
-    <updated>2026-07-27T19:06:16+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14253"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AMENDING SECTION 3.38.020, MAUI COUNTY CODE, RELATING TO HAWAIIAN CULTURAL RESTORATION REVOLVING FUND"
-
-The purpose of this bill is to add Pākalā (including Kamehameha Iki Park) to the list of historic and cultural sites eligible for preservation and restoration under the Hawaiian Cultural Restoration Revolving Fund.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14253"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

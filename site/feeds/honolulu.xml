@@ -2,9 +2,135 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/honolulu.xml</id>
   <title>Bill Tracker — Honolulu</title>
-  <updated>2026-11-09T16:15:14+00:00</updated>
+  <updated>2026-11-11T16:15:11+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/honolulu.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-238/2026-11-11T16:15:11+00:00</id>
+    <title>RES26-238 (Honolulu): PUBLISH → CCL/PH</title>
+    <updated>2026-11-11T16:15:11+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3875"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;CONFIRMING THE APPOINTMENT OF UALANI DAVIS TO SERVE ON THE COMMISSION ON CULTURE AND THE ARTS OF THE CITY AND COUNTY OF HONOLULU.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: PUBLISH → CCL/PH&lt;/p&gt;
+&lt;p&gt;Latest action: Public hearing closed and resolution adopted.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3875"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-268/2026-11-11T16:15:11+00:00</id>
+    <title>New: RES26-268 (Honolulu) — INTRO</title>
+    <updated>2026-11-11T16:15:11+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3909"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE 2027 HAWAIʻI STATE ASSOCIATION OF COUNTIES' LEGISLATIVE PACKAGE.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3909"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-266/2026-11-11T16:15:11+00:00</id>
+    <title>New: RES26-266 (Honolulu) — INTRO</title>
+    <updated>2026-11-11T16:15:11+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3908"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT OF THANKSGIVING DAY MEALS VALUED AT $21,000 TO THE CITY FROM THE HONOLULU FIREFIGHTERS FOUNDATION (HFF) FOR ON-DUTY HONOLULU FIRE DEPARTMENT (HFD) PERSONNEL.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3908"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-267/2026-11-11T16:15:11+00:00</id>
+    <title>New: RES26-267 (Honolulu) — INTRO</title>
+    <updated>2026-11-11T16:15:11+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3907"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT FROM THE HONOLULU ZOOLOGICAL SOCIETY TO THE CITY, VALUED AT $27,600, FOR MCCLURE INTERNATIONAL CONSULTING LLC TO PROVIDE PROFESSIONAL ANIMAL MANAGEMENT AND HUSBANDRY CONSULTING SERVICES TO THE HONOLULU ZOO, WITH SPECIALIZED EXPERTISE IN ELEPHANT CARE AND WELFARE.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3907"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-265/2026-11-11T16:15:10+00:00</id>
+    <title>New: RES26-265 (Honolulu) — INTRO</title>
+    <updated>2026-11-11T16:15:10+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3906"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE CITY ADMINISTRATION TO EXPEDITE THE COMPLETION OF THE KALAELOA INTERIM RACETRACK.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3906"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-264/2026-11-11T16:15:10+00:00</id>
+    <title>New: RES26-264 (Honolulu) — INTRO</title>
+    <updated>2026-11-11T16:15:10+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3905"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;ENCOURAGING THE UNIVERSITY OF HAWAIʻI, THE STATE OF HAWAIʻI, AND THE HAWAIʻI STATE LEGISLATURE TO RE-ENVISION AND REVITALIZE THE WAIKĪKĪ AQUARIUM.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3905"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-263/2026-11-11T16:15:10+00:00</id>
+    <title>New: RES26-263 (Honolulu) — INTRO</title>
+    <updated>2026-11-11T16:15:10+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3904"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE CITY ADMINISTRATION TO WORK WITH COMMUNITY ORGANIZATIONS AND THE STATE OF HAWAIʻI TO INITIATE A PILOT PROGRAM TO PROVIDE SAFE AND SECURE STORAGE FACILITIES FOR INDIVIDUALS EXPERIENCING HOMELESSNESS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3904"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-262/2026-11-11T16:15:10+00:00</id>
+    <title>New: RES26-262 (Honolulu) — INTRO</title>
+    <updated>2026-11-11T16:15:10+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3903"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;ENDORSING THE DESIGNATION OF WAIKĪKĪ AS A WORLD SURFING RESERVE.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3903"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-261/2026-11-11T16:15:10+00:00</id>
+    <title>New: RES26-261 (Honolulu) — INTRO</title>
+    <updated>2026-11-11T16:15:10+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3902"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE HAWAIIAN ELECTRIC COMPANY, INC., IN COORDINATION WITH THE HAWAIʻI PUBLIC UTILITIES COMMISSION AND THE DEPARTMENT OF EMERGENCY MANAGEMENT, TO DEVELOP A PROGRAM TO DISTRIBUTE
+PORTABLE GENERATORS AND PORTABLE BATTERY POWER STATIONS TO ELIGIBLE RESIDENTS BEFORE A STORM WHEN PROLONGED POWER OUTAGES ARE ANTICIPATED.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3902"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-269/2026-11-11T16:15:10+00:00</id>
+    <title>New: RES26-269 (Honolulu) — INTRO</title>
+    <updated>2026-11-11T16:15:10+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3910"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT OF ONE (1) COOK PINE TREE VALUED AT $3,000.00 FROM LAURETTE WILKIE FOR THE 2026 HONOLULU CITY LIGHTS EVENT AT HONOLULU HALE.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3910"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill011-26/2026-11-11T16:15:09+00:00</id>
+    <title>BILL011(26) (Honolulu): PUBLISH → MAYOR</title>
+    <updated>2026-11-11T16:15:09+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3603"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO AFFORDABLE HOUSING INCENTIVES.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Requires the HLM to submit semiannual reports detailing all types of incentives, along with the total amount and value of each incentive, received by every affordable housing project that has received one or more incentives from the City, State of Hawaii, and federal government, if applicable.&lt;/p&gt;
+&lt;p&gt;Status: PUBLISH → MAYOR&lt;/p&gt;
+&lt;p&gt;Latest action: Deadline for Mayor to return Bill is 11/24/26.
+Transmitted to Mayor for his approval or otherwise.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3603"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill040-26/2026-11-11T16:15:09+00:00</id>
+    <title>BILL040(26) (Honolulu): CCL → MAYOR</title>
+    <updated>2026-11-11T16:15:09+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3752"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Temporarily entitles the owner of certain owner-occupied condominium units to a real property tax home exemption. Applies retroactively to the tax year beginning July 1, 2025, and thereafter.&lt;/p&gt;
+&lt;p&gt;Status: CCL → MAYOR&lt;/p&gt;
+&lt;p&gt;Latest action: Deadline for Mayor to return Bill is 11/24/26.
+Transmitted to Mayor for his approval or otherwise.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3752"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res25-313/2026-11-11T16:15:08+00:00</id>
+    <title>RES25-313 (Honolulu): ILA → FILE</title>
+    <updated>2026-11-11T16:15:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3550"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;URGING OAHU TRANSIT SERVICES, INC. TO SETTLE NEGOTIATIONS WITH HAWAII TEAMSTERS AND ALLIED WORKERS LOCAL 996.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: ILA → FILE&lt;/p&gt;
+&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3550"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-200/2026-11-09T16:15:14+00:00</id>
     <title>RES26-200 (Honolulu): ITT → CCL</title>
@@ -378,130 +504,5 @@ Motion to amend to handcarried FD1 OCS2026-0685/11/4/2026 12:14 PM withdrawn.&lt
     <content type="html">&lt;p&gt;&lt;strong&gt;ADOPTING THE FIRST-EVER O'AHU FOOD SYSTEMS ACTION PLAN AS A GUIDING POLICY DOCUMENT FOR THE CITY AND COUNTY OF HONOLULU.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Latest action: Introduced.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3897"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-258/2026-11-06T16:15:07+00:00</id>
-    <title>New: RES26-258 (Honolulu) — INTRO</title>
-    <updated>2026-11-06T16:15:07+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3896"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT OF SWIMMING POOL LANE LINES, STORAGE REELS, AND A BRONZE PLAQUE, VALUED AT $27,278.20, TO THE CITY FROM MANOA AQUATICS FOR THE HARRY S. MAMIZUKA SWIMMING COMPLEX AT MĀNOA DISTRICT PARK.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3896"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill063-26/2026-11-06T16:15:07+00:00</id>
-    <title>New: BILL063(26) (Honolulu) — INTRO</title>
-    <updated>2026-11-06T16:15:07+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3900"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Establishes an RPT exemption for certain residential real properties impacted by a landfill. Applies to tax years beginning July 1, 2028 and thereafter.&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3900"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill062-26/2026-11-06T16:15:06+00:00</id>
-    <title>New: BILL062(26) (Honolulu) — INTRO</title>
-    <updated>2026-11-06T16:15:06+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3899"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO FUNDS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Creates a new Landfill Mitigation Fund to receive and expend moneys to mitigate negative impacts on a community in which a landfill is located. Takes effect on July 1, 2027.&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3899"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill059-24/2026-11-04T16:15:06+00:00</id>
-    <title>BILL059(24) (Honolulu): — → FILE</title>
-    <updated>2026-11-04T16:15:06+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3129"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO PLASTIC.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Phases in the prohibition of the sale, offering for sale, offer for use, and providing single use plastic bottles at any City facility, City-authorized concession, City-sponsored or City-permitted event, or City program.&lt;/p&gt;
-&lt;p&gt;Status: — → FILE&lt;/p&gt;
-&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3129"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-253/2026-11-02T16:15:08+00:00</id>
-    <title>New: RES26-253 (Honolulu) — INTRO</title>
-    <updated>2026-11-02T16:15:08+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3891"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT OF TRAVEL AND RELATED EXPENSES, VALUED AT $1,819.65, TO THE CITY FROM THE FEDERAL HIGHWAY ADMINISTRATION (FHWA) HAWAIʻI DIVISION FOR THE DIRECTOR FOR RAPID TRANSIT OF THE DEPARTMENT OF TRANSPORATION SERVICES TO ATTEND THE UNITED STATES DEPARTMENT OF TRANSPORTATION'S (USDOT) RURAL ROAD SAFETY PEER EXCHANGE IN KANSAS CITY, MISSOURI, FROM JULY 27-30, 2026.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3891"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res25-303/2026-11-02T16:15:07+00:00</id>
-    <title>RES25-303 (Honolulu): INTRO → FILE</title>
-    <updated>2026-11-02T16:15:07+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3535"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;EXPRESSING SUPPORT FOR THE PROTECTION OF THE CONSTITUTIONAL RIGHTS OF EVERY RESIDENT OF THE CITY AND COUNTY OF HONOLULU.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: INTRO → FILE&lt;/p&gt;
-&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.5 which sets a one-year filing period on pending resolutions.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3535"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-250/2026-10-30T16:15:10+00:00</id>
-    <title>New: RES26-250 (Honolulu) — INTRO</title>
-    <updated>2026-10-30T16:15:10+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3887"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT OF MIKIYA WAGYU SHABU HOUSE GIFT CARDS, VALUED AT $4,080, TO THE CITY FROM MIKIYA WAGYU SHABU HOUSE, KAREN CHANG BLANGIARDI, ELIZABETH GROSSMAN, AND JOAN BENNET FOR THE 2026 CITY EMPLOYEE AWARDS PROGRAM.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3887"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-249/2026-10-30T16:15:10+00:00</id>
-    <title>New: RES26-249 (Honolulu) — INTRO</title>
-    <updated>2026-10-30T16:15:10+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3886"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT FROM THE HONOLULU ZOOLOGICAL SOCIETY TO THE CITY, VALUED AT $195,845.66, FOR THE INSTALLATION OF A NEW WATER FILTRATION SYSTEM FOR THE ELEPHANT HABITAT POOLS, INCLUDING THE REMOVAL OF THE OLD SYSTEM.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3886"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-248/2026-10-30T16:15:10+00:00</id>
-    <title>New: RES26-248 (Honolulu) — INTRO</title>
-    <updated>2026-10-30T16:15:10+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3885"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT OF TRAVEL AND RELATED EXPENSES, VALUED AT $1,307.38, TO THE CITY FROM THE FEDERAL HIGHWAY ADMINISTRATION (FHWA) HAWAIʻI DIVISION FOR A REPRESENTATIVE OF THE DEPARTMENT OF TRANSPORATION SERVICES TO ATTEND THE FHWA EVERY DAY COUNTS ROUND 8 PEER EXCHANGE IN SALT LAKE CITY, UTAH, FROM OCTOBER 20-22, 2026.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3885"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-252/2026-10-30T16:15:10+00:00</id>
-    <title>New: RES26-252 (Honolulu) — INTRO</title>
-    <updated>2026-10-30T16:15:10+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3890"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;PROPOSING AN AMENDMENT TO CHAPTER 21, REVISED ORDINANCES OF HONOLULU 2021 (THE LAND USE ORDINANCE), RELATING TO DWELLING UNITS.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3890"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-251/2026-10-30T16:15:10+00:00</id>
-    <title>New: RES26-251 (Honolulu) — INTRO</title>
-    <updated>2026-10-30T16:15:10+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3889"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;DIRECTING THE CITY AUDITOR TO CONDUCT A PERFORMANCE AUDIT OF THE HOMELESS OUTREACH AND NAVIGATION FOR UNSHELTERED PERSONS PROGRAM.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3889"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill037-26/2026-10-30T16:15:09+00:00</id>
-    <title>BILL037(26) (Honolulu): MAYOR → PUBLISH</title>
-    <updated>2026-10-30T16:15:09+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3723"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO AMEND PORTIONS (APPROXIMATELY 14.837 ACRES) OF THE STATE LAND USE DISTRICT BOUNDARY MAPS (SCHOFIELD QUADRANGLE AND ‘EWA QUADRANGLE) FROM THE AGRICULTURAL DISTRICT TO THE URBAN DISTRICT FOR CERTAIN LANDS SITUATED AT KAPOLEI AND HONOULIULI IN ‘EWA, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: MAYOR → PUBLISH&lt;/p&gt;
-&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3723"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill039-26/2026-10-30T16:15:09+00:00</id>
-    <title>BILL039(26) (Honolulu): MAYOR → PUBLISH</title>
-    <updated>2026-10-30T16:15:09+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3741"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO THE REZONING OF LAND SITUATED AT KAPOLEI AND HONOULIULI IN ʻEWA , OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Rezones certain land in the East Kapolei Neighborhood TOD Plan area and ʻEwa.&lt;/p&gt;
-&lt;p&gt;Status: MAYOR → PUBLISH&lt;/p&gt;
-&lt;p&gt;Latest action: Final reading notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3741"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

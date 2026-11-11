@@ -2,9 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/subject-affordable_housing.xml</id>
   <title>Bill Tracker — Affordable Housing bills</title>
-  <updated>2026-11-09T16:18:41+00:00</updated>
+  <updated>2026-11-11T16:15:14+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/subject-affordable_housing.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-wai-32-bill-121-2026/2026-11-11T16:15:14+00:00</id>
+    <title>New: WAI-32 BILL 121 (2026) (Maui) — Agenda Ready</title>
+    <updated>2026-11-11T16:15:14+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16380"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 121 (2026), AMENDING THE ENERGY CODE AND THE COMPREHENSIVE ZONING ORDINANCE ON ELECTRIC-VEHICLE PARKING  (WAI-32)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16380"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-263/2026-11-11T16:15:10+00:00</id>
+    <title>New: RES26-263 (Honolulu) — INTRO</title>
+    <updated>2026-11-11T16:15:10+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3904"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE CITY ADMINISTRATION TO WORK WITH COMMUNITY ORGANIZATIONS AND THE STATE OF HAWAIʻI TO INITIATE A PILOT PROGRAM TO PROVIDE SAFE AND SECURE STORAGE FACILITIES FOR INDIVIDUALS EXPERIENCING HOMELESSNESS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3904"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill011-26/2026-11-11T16:15:09+00:00</id>
+    <title>BILL011(26) (Honolulu): PUBLISH → MAYOR</title>
+    <updated>2026-11-11T16:15:09+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3603"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO AFFORDABLE HOUSING INCENTIVES.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Requires the HLM to submit semiannual reports detailing all types of incentives, along with the total amount and value of each incentive, received by every affordable housing project that has received one or more incentives from the City, State of Hawaii, and federal government, if applicable.&lt;/p&gt;
+&lt;p&gt;Status: PUBLISH → MAYOR&lt;/p&gt;
+&lt;p&gt;Latest action: Deadline for Mayor to return Bill is 11/24/26.
+Transmitted to Mayor for his approval or otherwise.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3603"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill040-26/2026-11-11T16:15:09+00:00</id>
+    <title>BILL040(26) (Honolulu): CCL → MAYOR</title>
+    <updated>2026-11-11T16:15:09+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3752"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Temporarily entitles the owner of certain owner-occupied condominium units to a real property tax home exemption. Applies retroactively to the tax year beginning July 1, 2025, and thereafter.&lt;/p&gt;
+&lt;p&gt;Status: CCL → MAYOR&lt;/p&gt;
+&lt;p&gt;Latest action: Deadline for Mayor to return Bill is 11/24/26.
+Transmitted to Mayor for his approval or otherwise.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3752"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-3016/2026-11-09T16:18:41+00:00</id>
     <title>New: Bill 3016 (Kauaʻi) — First Reading</title>
@@ -471,45 +512,5 @@ Reported out for passage on third reading.&lt;/p&gt;
 &lt;p&gt;Waikoloa Green LLC) (Area: 14.868 Acres) The Leeward Planning Commission forwards its favorable recommendation for this amendment to the State Land Use Boundaries Map for the requested change of zone, which would allow the applicant to develop a 400-unit multiple-family housing complex with a clubhouse and related improvements. The property is located at the southeast side of Pua Melia Street, ap&lt;/p&gt;
 &lt;p&gt;Latest action: LAAC-48: Forwarded to Council with a negative recommendation - 10/06/26&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1137309&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-186-2024-2026/2026-10-16T16:15:35+00:00</id>
-    <title>Bill 186 (2024-2026) (Hawaiʻi County): LAAC-47:  Forwarded to Council with a negative recommendation - 10/06/26</title>
-    <updated>2026-10-16T16:15:35+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134266&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS THE STATE LAND USE DISTRICT BOUNDARIES MAP BY CHANGING THE DISTRICT CLASSIFICATION FROM AGRICULTURAL TO URBAN AT WAIKŌLOA, SOUTH KOHALA, HAWAI‘I, COVERED BY A PORTION OF TAX MAP KEY: 6-8-002:016 ; and&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: LAAC-47:  Forwarded to Council with a negative recommendation - 10/06/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134266&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-176-2024-2026/2026-10-16T16:15:33+00:00</id>
-    <title>Bill 176 (2024-2026) (Hawaiʻi County): Passed Second Reading → Adopted</title>
-    <updated>2026-10-16T16:15:33+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134158&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 16, ARTICLE 1, OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO THE GENERAL PLAN&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Establishes amendment procedures for the General Plan, including a comprehensive review every ten years and interim amendments; describes powers and duties of the planning director and planning commissions.&lt;/p&gt;
-&lt;p&gt;Status: Passed Second Reading → Adopted&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Bill 176, Draft 2 passes second &amp;amp; final reading - 9/16/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1134158&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-154-2024-2026/2026-10-16T16:15:31+00:00</id>
-    <title>Bill 154 (2024-2026) (Hawaiʻi County): PCPLUED-16:  Recommended passage on first reading - 10/06/26</title>
-    <updated>2026-10-16T16:15:31+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1137195&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 25, ARTICLES 1, 5, AND 7, OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO COMMERCIAL PARKING LOTS AND GARAGES&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Removes commercial parking lots and garages as a permitted use in the general, village commercial, industrial-commercial mixed, limited industrial, general industrial, and Downtown Hilo commercial zoning districts.&lt;/p&gt;
-&lt;p&gt;Latest action: PCPLUED-16:  Recommended passage on first reading - 10/06/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1137195&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-147-2024-2026/2026-10-16T16:15:31+00:00</id>
-    <title>Bill 147 (2024-2026) (Hawaiʻi County): PCPLUED-15:  Forwarded to Council with a negative recommendation - 10/06/26</title>
-    <updated>2026-10-16T16:15:31+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1138250&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 2 AND CHAPTER 25 OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO TRANSIENT ACCOMMODATIONS&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Establishes operational standards and use regulations for transient vacation rentals, which include hosted bed and breakfasts (B&amp;amp;Bs) and un-hosted short-term vacation rentals (STVRs); allows B&amp;amp;Bs as a permitted use in the single-family residential zoning district; allows B&amp;amp;Bs as a permitted use in areas within the residential agricultural, family agricultural, and agricultural zoning districts that are also classified as State land use urban or rural; allows STVRs as a permitted use in the entire multiple-family residential district and in certain coastal areas adjacent to General Plan-designa&lt;/p&gt;
-&lt;p&gt;Latest action: PCPLUED-15:  Forwarded to Council with a negative recommendation - 10/06/26&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1138250&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
