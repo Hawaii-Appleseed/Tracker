@@ -2,9 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/maui.xml</id>
   <title>Bill Tracker — Maui</title>
-  <updated>2026-11-13T16:15:11+00:00</updated>
+  <updated>2026-11-16T16:15:10+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/maui.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-hlu-28-bills-173-176-2026/2026-11-16T16:15:10+00:00</id>
+    <title>New: HLU-28 Bills 173-176 (2026) (Maui) — Agenda Ready</title>
+    <updated>2026-11-16T16:15:10+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16403"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 173 (2026), BILL 174 (2026), BILL 175 (2026), AND BILL 176 (2026), COMMUNITY PLAN AMENDMENTS AND CHANGES IN ZONING FROM THE A-1 AND A-2 APARTMENT DISTRICTS TO THE H-3 AND H-4 HOTEL DISTRICTS FOR CERTAIN SOUTH MAUI AND WEST MAUI PROPERTIES, INCLUDING PROPERTIES OPERATING LIKE HOTELS   (HLU-28)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16403"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-hlu-27-bills-169-172-2026/2026-11-16T16:15:10+00:00</id>
+    <title>New: HLU-27 Bills 169-172 (2026) (Maui) — Agenda Ready</title>
+    <updated>2026-11-16T16:15:10+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16402"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 169 (2026), BILL 170 (2026), BILL 171 (2026), AND BILL 172 (2026), COMMUNITY PLAN AMENDMENTS AND CHANGES IN ZONING FOR CERTAIN TIMESHARE, LEASEHOLD, AND OTHER PROPERTIES IN THE A-1 AND A-2 APARTMENT DISTRICT AND HANA KAI MAUI, AS RECOMMENDED BY THE MAUI PLANNING COMMISSION  (HLU-27)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16402"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:maui-hlu-14-bills-167-168-2026/2026-11-13T16:15:11+00:00</id>
     <title>New: HLU-14 Bills 167, 168 (2026) (Maui) — Agenda Ready</title>
@@ -394,25 +410,5 @@ The purpose of this bill is to add Pākalā (including Kamehameha Iki Park) to t
 
 The purpose of this bill is to increase Carryover/Savings in the General Fund and Total Estimated Revenues by $1,300,000 and by increasing the Department of Police, Technical and Support Services Program, and Total Appropriations (Operating and Capital Improvement Projects) by $1,300,000.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14252"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-bill-100-cd1-2023/2026-07-27T19:06:16+00:00</id>
-    <title>New: Bill 100, CD1 (2023) (Maui) — Agenda Ready</title>
-    <updated>2026-07-27T19:06:16+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14251"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AMENDING THE FISCAL YEAR 2024 BUDGET FOR THE COUNTY OF MAUI, APPENDIX A, PART I, DEPARTMENT OF MANAGEMENT"
-
-The purpose of this bill is to add a new grant under the Department of Management entitled "Office of Justice Programs Bureau of Justice Assistance - Byrne Discretionary Community Project Funding/Byrne Discretionary Grant Program" in the amount of $180,000.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14251"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-bill-97-cd1-2023/2026-07-27T19:06:16+00:00</id>
-    <title>New: Bill 97, CD1 (2023) (Maui) — Agenda Ready</title>
-    <updated>2026-07-27T19:06:16+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14250"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AMENDING THE FISCAL YEAR 2024 BUDGET FOR THE COUNTY OF MAUI, APPENDIX A, PART I, DEPARTMENT OF HOUSING AND HUMAN CONCERNS"
-
-The purpose of this bill is to add a new grant under the Department of Housing and Human Concerns entitled "American Rescue Plan Act of 2021 - Emergency Rental Assistance Program #2 (ERA #2)" in the amount of $322,248.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14250"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

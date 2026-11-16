@@ -2,9 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/subject-affordable_housing.xml</id>
   <title>Bill Tracker — Affordable Housing bills</title>
-  <updated>2026-11-13T16:20:40+00:00</updated>
+  <updated>2026-11-16T16:15:34+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/subject-affordable_housing.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-192-2024-2026/2026-11-16T16:15:34+00:00</id>
+    <title>Bill 192 (2024-2026) (Hawaiʻi County): Passed Second Reading → Adopted</title>
+    <updated>2026-11-16T16:15:34+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1137395&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 19, ARTICLE 11, SECTION 19-90 OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO REAL PROPERTY TAX&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Extends the requirement to appropriate residential tier-two and tier-three property tax revenue to the housing and homelessness fund until 2029; requires that monies from the fund be used to award grants that address housing and homelessness.&lt;/p&gt;
+&lt;p&gt;Status: Passed Second Reading → Adopted&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Bill 192, Draft 3 passes second &amp;amp; final reading - 10/21/2026&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1137395&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-hlu-28-bills-173-176-2026/2026-11-16T16:15:10+00:00</id>
+    <title>New: HLU-28 Bills 173-176 (2026) (Maui) — Agenda Ready</title>
+    <updated>2026-11-16T16:15:10+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16403"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 173 (2026), BILL 174 (2026), BILL 175 (2026), AND BILL 176 (2026), COMMUNITY PLAN AMENDMENTS AND CHANGES IN ZONING FROM THE A-1 AND A-2 APARTMENT DISTRICTS TO THE H-3 AND H-4 HOTEL DISTRICTS FOR CERTAIN SOUTH MAUI AND WEST MAUI PROPERTIES, INCLUDING PROPERTIES OPERATING LIKE HOTELS   (HLU-28)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16403"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-hlu-27-bills-169-172-2026/2026-11-16T16:15:10+00:00</id>
+    <title>New: HLU-27 Bills 169-172 (2026) (Maui) — Agenda Ready</title>
+    <updated>2026-11-16T16:15:10+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16402"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 169 (2026), BILL 170 (2026), BILL 171 (2026), AND BILL 172 (2026), COMMUNITY PLAN AMENDMENTS AND CHANGES IN ZONING FOR CERTAIN TIMESHARE, LEASEHOLD, AND OTHER PROPERTIES IN THE A-1 AND A-2 APARTMENT DISTRICT AND HANA KAI MAUI, AS RECOMMENDED BY THE MAUI PLANNING COMMISSION  (HLU-27)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16402"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-3004/2026-11-13T16:20:40+00:00</id>
     <title>Bill 3004 (Kauaʻi): First Reading → In Committee</title>
@@ -478,36 +505,5 @@ Reported out for adoption as amended in CD1 form.&lt;/p&gt;
 &lt;p&gt;Latest action: CR-298(26)
 Reported out for adoption as amended in CD1 form.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3866"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill011-26/2026-10-23T16:15:11+00:00</id>
-    <title>BILL011(26) (Honolulu): CR-284(26)
-Reported out for passage on third reading as amended in CD1 form.</title>
-    <updated>2026-10-23T16:15:11+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3603"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO AFFORDABLE HOUSING INCENTIVES.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Requires the HLM to submit semiannual reports detailing all types of incentives, along with the total amount and value of each incentive, received by every affordable housing project that has received one or more incentives from the City, State of Hawaii, and federal government, if applicable.&lt;/p&gt;
-&lt;p&gt;Latest action: CR-284(26)
-Reported out for passage on third reading as amended in CD1 form.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3603"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill018-26/2026-10-23T16:15:11+00:00</id>
-    <title>BILL018(26) (Honolulu): Bill not reported out; Pending in Committee.</title>
-    <updated>2026-10-23T16:15:11+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3626"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO AFFORDABLE HOUSING.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Amends various development standards, building construction standards, and other requirements and benefits for affordable rental housing projects developed under ROH Chapter 32.&lt;/p&gt;
-&lt;p&gt;Latest action: Bill not reported out; Pending in Committee.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3626"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill037-26/2026-10-23T16:15:11+00:00</id>
-    <title>BILL037(26) (Honolulu): Returned approved.</title>
-    <updated>2026-10-23T16:15:11+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3723"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;TO AMEND PORTIONS (APPROXIMATELY 14.837 ACRES) OF THE STATE LAND USE DISTRICT BOUNDARY MAPS (SCHOFIELD QUADRANGLE AND ‘EWA QUADRANGLE) FROM THE AGRICULTURAL DISTRICT TO THE URBAN DISTRICT FOR CERTAIN LANDS SITUATED AT KAPOLEI AND HONOULIULI IN ‘EWA, OʻAHU, HAWAIʻI.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Returned approved.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3723"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
