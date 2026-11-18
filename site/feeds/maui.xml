@@ -2,9 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/maui.xml</id>
   <title>Bill Tracker — Maui</title>
-  <updated>2026-11-16T16:15:10+00:00</updated>
+  <updated>2026-11-18T16:15:17+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/maui.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-wai-25-reso-26-123-and-26-181/2026-11-18T16:15:17+00:00</id>
+    <title>New: WAI-25 Reso 26-123 and 26-181 (Maui) — Agenda Ready</title>
+    <updated>2026-11-18T16:15:17+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16353"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION 26-123 AND RESOLUTION 26-181, RELATING TO AUTHORIZING A WAIVER UNDER SECTION 2.50.060, MAUI COUNTY CODE, FROM THE APPLICATION TO WAIVE THE PROHIBITED USE OF REQUIREMENTS OF CODE SECTION 2.50.040, TO ALLOW FOR THE USE OF CERTAIN TYPES OF HERBICIDES IN VARIOUS LOCATIONS ON COUNTY PROPERTY UNDER SECTION 2.50.060, MAUI COUNTY CODE  (WAI-25)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16353"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:maui-hlu-28-bills-173-176-2026/2026-11-16T16:15:10+00:00</id>
     <title>New: HLU-28 Bills 173-176 (2026) (Maui) — Agenda Ready</title>
@@ -254,64 +262,6 @@
 &lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16363"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-bill-126-2023/2026-07-27T19:06:19+00:00</id>
-    <title>New: Bill 126 (2023) (Maui) — Agenda Ready</title>
-    <updated>2026-07-27T19:06:19+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14233"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE REPEALING CHAPTER 19.62, MAUI COUNTY CODE, AND CREATING A NEW CHAPTER 16.29, MAUI COUNTY CODE, RELATING TO FLOOD HAZARD AREAS"&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14233"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-bill-104-fd1-2023/2026-07-27T19:06:19+00:00</id>
-    <title>New: Bill 104, FD1 (2023) (Maui) — Agenda Ready</title>
-    <updated>2026-07-27T19:06:19+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14232"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AMENDING SECTION 3.100.040, MAUI COUNTY CODE, ON USE OF THE GENERAL EXCISE TAX FUND"
-
-The purpose of this bill is to require that private recipients allow the County to audit their financial records.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14232"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-reso-23-235/2026-07-27T19:06:19+00:00</id>
-    <title>New: Reso 23-235 (Maui) — Agenda Ready</title>
-    <updated>2026-07-27T19:06:19+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14231"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;"AUTHORIZING THE EMPLOYMENT OF SPECIAL COUNSEL RONALD T. OGOMORI, ATTORNEY AT LAW, A LAW CORPORATION, TO REPRESENT HERMAN ANDAYA IN AMIR HOSSEIN SHEIKHAN, ETC., ET AL. V. HAWAIIAN ELECTRIC INDUSTRIES, ETC., ET AL., CIVIL NO. 2CCV-23-0000260"&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14231"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-reso-23-234/2026-07-27T19:06:18+00:00</id>
-    <title>New: Reso 23-234 (Maui) — Agenda Ready</title>
-    <updated>2026-07-27T19:06:18+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14230"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;"INDEMNIFYING HERMAN ANDAYA IN AMIR HOSSEIN SHEIKHAN, ETC., ET AL. V. HAWAIIAN ELECTRIC INDUSTRIES, ETC., ET AL., CIVIL NO. 2CCV-23-0000260"&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14230"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-reso-23-232/2026-07-27T19:06:18+00:00</id>
-    <title>New: Reso 23-232 (Maui) — Agenda Ready</title>
-    <updated>2026-07-27T19:06:18+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14229"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;"AUTHORIZING THE ACQUISITION OF APPROXIMATELY 658 SQUARE FEET IDENTIFIED AS TAX MAP KEY NO. (2) 4-3-006-036-0024 SITUATED AT LAHAINA, MAUI, HAWAII, FOR AN AMOUNT NOT TO EXCEED $490,000.00"&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14229"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-reso-23-233/2026-07-27T19:06:18+00:00</id>
-    <title>New: Reso 23-233 (Maui) — Agenda Ready</title>
-    <updated>2026-07-27T19:06:18+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14228"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;"AUTHORIZING THE ACQUISITION OF APPROXIMATELY 705 SQUARE FEET IDENTIFIED AS TAX MAP KEY NO. (2) 4-3-006-004-0030 SITUATED AT LAHAINA, MAUI, HAWAII, FOR AN AMOUNT NOT TO EXCEED $525,000.00"&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14228"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:maui-reso-23-231/2026-07-27T19:06:18+00:00</id>
-    <title>New: Reso 23-231 (Maui) — Agenda Ready</title>
-    <updated>2026-07-27T19:06:18+00:00</updated>
-    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14227"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;"APPROVING FOR INCLUSION IN THE 2024 MAUI COUNTY COUNCIL LEGISLATIVE PACKAGE A STATE BILL RELATING TO PROCUREMENT"&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14227"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <id>tag:hawaii-appleseed.github.io,2026:maui-great-11-35-reso-23-229/2026-07-27T19:06:18+00:00</id>
     <title>New: GREAT-11(35) Reso 23-229 (Maui) — Agenda Ready</title>
     <updated>2026-07-27T19:06:18+00:00</updated>
@@ -410,5 +360,59 @@ The purpose of this bill is to add Pākalā (including Kamehameha Iki Park) to t
 
 The purpose of this bill is to increase Carryover/Savings in the General Fund and Total Estimated Revenues by $1,300,000 and by increasing the Department of Police, Technical and Support Services Program, and Total Appropriations (Operating and Capital Improvement Projects) by $1,300,000.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14252"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-bill-100-cd1-2023/2026-07-27T19:06:16+00:00</id>
+    <title>New: Bill 100, CD1 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:16+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14251"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AMENDING THE FISCAL YEAR 2024 BUDGET FOR THE COUNTY OF MAUI, APPENDIX A, PART I, DEPARTMENT OF MANAGEMENT"
+
+The purpose of this bill is to add a new grant under the Department of Management entitled "Office of Justice Programs Bureau of Justice Assistance - Byrne Discretionary Community Project Funding/Byrne Discretionary Grant Program" in the amount of $180,000.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14251"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-bill-97-cd1-2023/2026-07-27T19:06:16+00:00</id>
+    <title>New: Bill 97, CD1 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:16+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14250"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AMENDING THE FISCAL YEAR 2024 BUDGET FOR THE COUNTY OF MAUI, APPENDIX A, PART I, DEPARTMENT OF HOUSING AND HUMAN CONCERNS"
+
+The purpose of this bill is to add a new grant under the Department of Housing and Human Concerns entitled "American Rescue Plan Act of 2021 - Emergency Rental Assistance Program #2 (ERA #2)" in the amount of $322,248.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14250"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-bill-96-cd1-2023/2026-07-27T19:06:15+00:00</id>
+    <title>New: Bill 96, CD1 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:15+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14249"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AMENDING THE FISCAL YEAR 2024 BUDGET FOR THE COUNTY OF MAUI, OFFICE OF THE MAYOR, ECONOMIC DEVELOPMENT PROGRAM, WAILUKU AND WEST MAUI ECONOMIC DEVELOPMENT, ENVIRONMENTAL, AND CULTURAL PROGRAMS"
+
+This bill proposes to amend the FY 2024 Budget to update the fiscal sponsor for Retree Hawaiʻi under both the Wailuku and West Maui Economic Development, Environmental, and Cultural Programs line items from "Lōkahi Pacific" to "Nā Koa Manu Conservation".&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14249"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-bill-70-cd1-2023/2026-07-27T19:06:15+00:00</id>
+    <title>New: Bill 70, CD1 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:15+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14248"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"A BILL FOR AN ORDINANCE AMENDING ORDINANCE 3545 TO TRANSFER A CONDITIONAL PERMIT TO JOSHUA RAMU TREMBLAY FOR THE OLD WAILUKU INN AT ULUPONO TRANSIENT VACATION RENTAL SITUATED AT 2199 KAHOʻOKELE STREET, WAILUKU, MAUI, HAWAII"&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14248"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-reso-23-236/2026-07-27T19:06:15+00:00</id>
+    <title>New: Reso 23-236 (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:15+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14247"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;"APPROVING A TIME EXTENSION FOR THE SOUTH MAUI COMMUNITY PLAN ADVISORY COMMITTEE TO FORWARD ITS RECOMMENDED REVISIONS ON THE DRAFT SOUTH MAUI COMMUNITY PLAN TO THE PLANNING DIRECTOR"&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14247"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-bfed-57-bill-117-2023/2026-07-27T19:06:15+00:00</id>
+    <title>New: BFED-57 Bill 117 (2023) (Maui) — Agenda Ready</title>
+    <updated>2026-07-27T19:06:15+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=14246"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 117 (2023), AMENDING FISCAL YEAR 2024 BUDGET:  APPENDIX A, PART I, DEPARTMENT OF THE PROSECUTING ATTORNEY (CAREER CRIMINAL PROGRAM AND VICTIM/WITNESS ASSISTANCE PROGRAM)  (BFED-57)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=14246"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>

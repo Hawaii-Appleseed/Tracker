@@ -2,9 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/hawaii.xml</id>
   <title>Bill Tracker — Hawaiʻi County</title>
-  <updated>2026-11-16T16:16:06+00:00</updated>
+  <updated>2026-11-18T16:18:45+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/hawaii.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-754-2024-2026/2026-11-18T16:18:45+00:00</id>
+    <title>Resolution 754 (2024-2026) (Hawaiʻi County): GOEAC-    :  Recommended adoption - 11/17/26</title>
+    <updated>2026-11-18T16:18:45+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1138825&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;Latest action: GOEAC-    :  Recommended adoption - 11/17/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1138825&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-742-2024-2026/2026-11-18T16:18:44+00:00</id>
+    <title>Resolution 742 (2024-2026) (Hawaiʻi County): FC-207:  Recommended adoption - 11/17/2026</title>
+    <updated>2026-11-18T16:18:44+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1138618&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;Latest action: FC-207:  Recommended adoption - 11/17/2026&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1138618&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-217-2024-2026/2026-11-18T16:16:49+00:00</id>
+    <title>Bill 217 (2024-2026) (Hawaiʻi County): — → Postponed</title>
+    <updated>2026-11-18T16:16:49+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1138929&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;Status: — → Postponed&lt;/p&gt;
+&lt;p&gt;Latest action: LAAC:  Postponed to January 5, 2027 - 11/17/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1138929&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-215-2024-2026/2026-11-18T16:16:49+00:00</id>
+    <title>Bill 215 (2024-2026) (Hawaiʻi County): — → Passed First Reading</title>
+    <updated>2026-11-18T16:16:49+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1138751&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;Status: — → Passed First Reading&lt;/p&gt;
+&lt;p&gt;Latest action: FC-210:  Recommended passage on first reading - 11/17/2026&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1138751&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-214-2024-2026/2026-11-18T16:16:48+00:00</id>
+    <title>Bill 214 (2024-2026) (Hawaiʻi County): — → Passed First Reading</title>
+    <updated>2026-11-18T16:16:48+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1138622&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;Status: — → Passed First Reading&lt;/p&gt;
+&lt;p&gt;Latest action: FC-209:  Recommended passage on first reading - 11/17/2026&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1138622&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-213-2024-2026/2026-11-18T16:16:48+00:00</id>
+    <title>Bill 213 (2024-2026) (Hawaiʻi County): — → Passed First Reading</title>
+    <updated>2026-11-18T16:16:48+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1138620&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;Status: — → Passed First Reading&lt;/p&gt;
+&lt;p&gt;Latest action: FC-208:  Recommended passage on first reading - 11/17/2026&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1138620&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-ordinance-2026-077/2026-11-16T16:16:06+00:00</id>
     <title>New: Ordinance 2026-077 (Hawaiʻi County) — Enacted</title>
@@ -372,58 +424,5 @@
     <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1137234&amp;dbid=0"/>
     <content type="html">&lt;p&gt;Latest action: Council:  Bill 203 passes first reading; adopts FC-197 - 11/6/2026&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1137234&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-202-2024-2026/2026-11-13T16:16:24+00:00</id>
-    <title>Bill 202 (2024-2026) (Hawaiʻi County): Council:  Bill 202 passes first reading; adopts FC-196 - 11/6/2026</title>
-    <updated>2026-11-13T16:16:24+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136849&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;Latest action: Council:  Bill 202 passes first reading; adopts FC-196 - 11/6/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136849&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-201-2024-2026/2026-11-13T16:16:24+00:00</id>
-    <title>Bill 201 (2024-2026) (Hawaiʻi County): Passed First Reading → Passed Second Reading</title>
-    <updated>2026-11-13T16:16:24+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136647&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;Status: Passed First Reading → Passed Second Reading&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Bill 201 passes second and final reading - 11/6/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136647&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-200-2024-2026/2026-11-13T16:16:23+00:00</id>
-    <title>Bill 200 (2024-2026) (Hawaiʻi County): Passed First Reading → Passed Second Reading</title>
-    <updated>2026-11-13T16:16:23+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136519&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;Status: Passed First Reading → Passed Second Reading&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Bill 200 passes second and final reading - 11/6/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136519&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-199-2024-2026/2026-11-13T16:16:23+00:00</id>
-    <title>Bill 199 (2024-2026) (Hawaiʻi County): Passed First Reading → —</title>
-    <updated>2026-11-13T16:16:23+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1138910&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;Status: Passed First Reading → —&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Heldover to November 18, 2026, pursuant to Council Rule 23(1)(d) - 11/6/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1138910&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-198-2024-2026/2026-11-13T16:16:22+00:00</id>
-    <title>Bill 198 (2024-2026) (Hawaiʻi County): Passed First Reading → Passed Second Reading</title>
-    <updated>2026-11-13T16:16:22+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136436&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;Status: Passed First Reading → Passed Second Reading&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Bill 198 passes second and final reading - 11/6/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1136436&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-197-2024-2026/2026-11-13T16:16:22+00:00</id>
-    <title>Bill 197 (2024-2026) (Hawaiʻi County): Passed First Reading → Passed Second Reading</title>
-    <updated>2026-11-13T16:16:22+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1138908&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;Status: Passed First Reading → Passed Second Reading&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Bill 197, Draft 2, passes second and final reading - 11/6/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1138908&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
