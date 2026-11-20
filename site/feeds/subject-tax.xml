@@ -2,9 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/subject-tax.xml</id>
   <title>Bill Tracker — Tax bills</title>
-  <updated>2026-11-18T16:15:09+00:00</updated>
+  <updated>2026-11-20T16:15:50+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/subject-tax.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-3006/2026-11-20T16:15:50+00:00</id>
+    <title>Bill 3006 (Kauaʻi): In Committee → Second Reading</title>
+    <updated>2026-11-20T16:15:50+00:00</updated>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1667"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. 1193, RELATING TO CHAPTER 5A, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO REAL PROPERTY TAX (Tax Credit, Additional Applications)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: In Committee → Second Reading&lt;/p&gt;
+&lt;p&gt;Latest action: On agenda 2026-11-25&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1667"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-237/2026-11-20T16:15:12+00:00</id>
+    <title>RES26-237 (Honolulu): INTRO → ZON</title>
+    <updated>2026-11-20T16:15:12+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3874"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AUTHORIZING THE MAYOR OR THE MAYOR'S DESIGNEE TO ENTER INTO A PRE-DEVELOPMENT AGREEMENT BETWEEN THE CITY AND COUNTY OF HONOLULU AND CENTRE URBAN REAL ESTATE HAWAIʻI, LLC AND ENTER INTO A GROUND LEASE BETWEEN THE CITY AND COUNTY OF HONOLULU AND CARDINAL ALA WAI LLC TO DEVELOP AN AFFORDABLE RENTAL HOUSING PROJECT AT 1615 ALA WAI BOULEVARD, HONOLULU, OʻAHU, HAWAIʻI 96815, AND IDENTIFIED AS TAX MAP KEYS (1) 2-6-011:033 AND 036 (por.).&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Status: INTRO → ZON&lt;/p&gt;
+&lt;p&gt;Latest action: CR-329(26)
+Reported out for adoption as amended in CD1 form.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3874"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill061-26/2026-11-20T16:15:08+00:00</id>
+    <title>BILL061(26) (Honolulu): BUD → PUBLISH</title>
+    <updated>2026-11-20T16:15:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3888"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Repeals the 15-year limitation on the availability of the RPT exemption for qualifying affordable rental dwelling units or housing units. Allows the RPT exemption to instead continue for as long as the affordable housing rental project is subject to an affordable housing agreement or a declaration of restrictive covenants. Makes conforming amendments.&lt;/p&gt;
+&lt;p&gt;Status: BUD → PUBLISH&lt;/p&gt;
+&lt;p&gt;Latest action: Public hearing notice published in the Honolulu Star-Advertiser.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3888"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill044-26/2026-11-18T16:15:09+00:00</id>
     <title>BILL044(26) (Honolulu): Postponed to a date and time to be determined by the Committee Chair.
@@ -44,11 +76,11 @@ Reported out for passage on second reading and scheduling of a public hearing as
     <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-3006/2026-11-13T16:20:40+00:00</id>
     <title>Bill 3006 (Kauaʻi): First Reading → In Committee</title>
     <updated>2026-11-13T16:20:40+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1659"/>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1667"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. 1193, RELATING TO CHAPTER 5A, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO REAL PROPERTY TAX (Tax Credit, Additional Applications)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Status: First Reading → In Committee&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2026-11-18&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1659"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1667"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-192-2024-2026/2026-11-13T16:16:20+00:00</id>
@@ -220,10 +252,10 @@ Transmitted to Mayor for his approval or otherwise.&lt;/p&gt;
     <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-3006/2026-10-23T16:18:53+00:00</id>
     <title>Bill 3006 (Kauaʻi): On agenda 2026-10-28</title>
     <updated>2026-10-23T16:18:53+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1659"/>
+    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1667"/>
     <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING ORDINANCE NO. 1193, RELATING TO CHAPTER 5A, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO REAL PROPERTY TAX (Tax Credit, Additional Applications)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Latest action: On agenda 2026-10-28&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1659"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1667"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-192-2024-2026/2026-10-23T16:16:14+00:00</id>
@@ -485,32 +517,5 @@ Transmitted to Mayor for his approval or otherwise.&lt;/p&gt;
     <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPRERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2485"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill026-23/2026-10-05T22:14:45+00:00</id>
-    <title>New: BILL026(23) (Honolulu) — FILE</title>
-    <updated>2026-10-05T22:14:45+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2484"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2484"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill025-23/2026-10-05T22:14:45+00:00</id>
-    <title>New: BILL025(23) (Honolulu) — FILE</title>
-    <updated>2026-10-05T22:14:45+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2483"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2483"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill029-23/2026-10-05T22:14:45+00:00</id>
-    <title>New: BILL029(23) (Honolulu) — FILE</title>
-    <updated>2026-10-05T22:14:45+00:00</updated>
-    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/2488"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: Filed pursuant to ROH SEC 1-2.4 which sets a two-year filing period on pending bills.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/2488"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
