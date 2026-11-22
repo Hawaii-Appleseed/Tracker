@@ -1,0 +1,13 @@
+# Paths whose ʻokina glyphs come from upstream and must not be "corrected".
+#
+# Council websites publish bill titles with whatever apostrophe they use.
+# Rewriting them here would make our copy disagree with the source, and the
+# parser tests assert on the original text.
+
+site/bills.json
+site/actions/*
+site/feeds/*
+data/*
+
+# Test files assert on scraped source text verbatim; the glyphs are the fixture.
+tests/*
