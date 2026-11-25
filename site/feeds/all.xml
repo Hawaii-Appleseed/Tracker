@@ -2,9 +2,124 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:hawaii-appleseed.github.io,2026:feeds/all.xml</id>
   <title>Hawaiʻi County Bill Tracker — all updates</title>
-  <updated>2026-11-23T16:19:46+00:00</updated>
+  <updated>2026-11-25T16:17:21+00:00</updated>
   <link rel="self" href="https://hawaii-appleseed.github.io/Tracker/feeds/all.xml"/>
   <link rel="alternate" href="https://hawaii-appleseed.github.io/Tracker/"/>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-771-2024-2026/2026-11-25T16:17:21+00:00</id>
+    <title>New: Resolution 771 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-11-25T16:17:21+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1139727&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1139727&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-770-2024-2026/2026-11-25T16:17:21+00:00</id>
+    <title>New: Resolution 770 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-11-25T16:17:21+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1139676&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1139676&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-769-2024-2026/2026-11-25T16:17:20+00:00</id>
+    <title>New: Resolution 769 (2024-2026) (Hawaiʻi County) — now tracked</title>
+    <updated>2026-11-25T16:17:20+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1139610&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1139610&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-207-2024-2026/2026-11-25T16:16:00+00:00</id>
+    <title>Bill 207 (2024-2026) (Hawaiʻi County): — → Passed First Reading</title>
+    <updated>2026-11-25T16:16:00+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1139703&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;Status: — → Passed First Reading&lt;/p&gt;
+&lt;p&gt;Latest action: Council:  Bill 207, Draft 2, passes first reading and approves PCPLUED-18 - 11/18/2026&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1139703&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-170-2024-2026/2026-11-25T16:15:57+00:00</id>
+    <title>Bill 170 (2024-2026) (Hawaiʻi County): — → Passed First Reading</title>
+    <updated>2026-11-25T16:15:57+00:00</updated>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1139576&amp;dbid=0"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 25, ARTICLE 1, OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO ZONING&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Distinguishes data centers from data processing facilities for zoning and land use purposes; defines “data center.”&lt;/p&gt;
+&lt;p&gt;Status: — → Passed First Reading&lt;/p&gt;
+&lt;p&gt;Latest action: PCPLUED-21:  Recommended passage on first reading - 11/17/26&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1139576&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-wassp-15-bill-181-2026/2026-11-25T16:15:10+00:00</id>
+    <title>New: WASSP-15 Bill 181 (2026) (Maui) — Agenda Ready</title>
+    <updated>2026-11-25T16:15:10+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16422"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 181 (2026), ON THE REMOVAL OF ABANDONED AND DERELICT VEHICLES  (WASSP-15)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16422"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:maui-wai-34-bill-182-and-183-2026/2026-11-25T16:15:10+00:00</id>
+    <title>New: WAI-34 Bill 182 and 183 (2026) (Maui) — Agenda Ready</title>
+    <updated>2026-11-25T16:15:10+00:00</updated>
+    <link rel="alternate" href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;ID=16421"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;BILL 182 (2026) AND BILL 183 (2026), AMENDING CHAPTER 20.35, MAUI COUNTY CODE, ON OUTDOOR LIGHTING  (WAI-34)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mauicounty.legistar.com/Gateway.aspx?M=L&amp;amp;ID=16421"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-279/2026-11-25T16:15:08+00:00</id>
+    <title>New: RES26-279 (Honolulu) — INTRO</title>
+    <updated>2026-11-25T16:15:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3921"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT VALUED AT $1,728.07 TO THE CITY FROM THE OKINAWA LIFESAVING ASSOCIATION FOR THE HONOLULU OCEAN SAFETY DEPARTMART CHIEF TO TRAVEL TO OKINAWA, JAPAN, TO PARTICIPATE IN OFFICIAL OCEAN SAFETY EXCHANGE AND PARTNERSHIP ACTIVITIES FROM OCTOBER 12-16, 2026.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3921"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-278/2026-11-25T16:15:08+00:00</id>
+    <title>New: RES26-278 (Honolulu) — INTRO</title>
+    <updated>2026-11-25T16:15:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3920"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;ACCEPTING A GIFT OF GIFT BAGS VALUED AT $2,500 TO THE CITY FROM HOPE WORLDWIDE AND O'AHU CHURCH OF CHRIST TO HONOR FIRST RESPONDERS AND REMEMBER THOSE WHO LOST THEIR LIVES ON SEPTEMBER 11, 2001.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3920"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-res26-277/2026-11-25T16:15:08+00:00</id>
+    <title>New: RES26-277 (Honolulu) — INTRO</title>
+    <updated>2026-11-25T16:15:08+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3919"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;URGING THE STATE OF HAWAIʻI DEPARTMENT OF HEALTH TO CONTINUE TO INVESTIGATE THE PUBLIC HEALTH AND ENVIRONMENTAL IMPACTS OF THE SEPTEMBER 2026 WAIAWA, PEARL CITY, JUNKYARD FIRE AND COORDINATE WITH THE STATE OF HAWAIʻI DEPARTMENT OF THE ATTORNEY GENERAL TO ENFORCE APPLICABLE LAWS.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3919"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill011-26/2026-11-25T16:15:07+00:00</id>
+    <title>BILL011(26) (Honolulu): Returned approved.</title>
+    <updated>2026-11-25T16:15:07+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3603"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO AFFORDABLE HOUSING INCENTIVES.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Requires the HLM to submit semiannual reports detailing all types of incentives, along with the total amount and value of each incentive, received by every affordable housing project that has received one or more incentives from the City, State of Hawaii, and federal government, if applicable.&lt;/p&gt;
+&lt;p&gt;Latest action: Returned approved.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3603"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill040-26/2026-11-25T16:15:07+00:00</id>
+    <title>BILL040(26) (Honolulu): Returned approved.</title>
+    <updated>2026-11-25T16:15:07+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3752"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Temporarily entitles the owner of certain owner-occupied condominium units to a real property tax home exemption. Applies retroactively to the tax year beginning July 1, 2025, and thereafter.&lt;/p&gt;
+&lt;p&gt;Latest action: Returned approved.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3752"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:hawaii-appleseed.github.io,2026:honolulu-bill065-26/2026-11-25T16:15:06+00:00</id>
+    <title>New: BILL065(26) (Honolulu) — INTRO</title>
+    <updated>2026-11-25T16:15:06+00:00</updated>
+    <link rel="alternate" href="https://hnldoc.ehawaii.gov/hnldoc/measure/3918"/>
+    <content type="html">&lt;p&gt;&lt;strong&gt;RELATING TO REAL PROPERTY TAXATION.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Amends the requirements for the historic residential real property dedicated for preservation exemption to provide that historic residential real property may not be used as a transient vacation unit. Applies to tax years beginning July 1, 2028; provided that historic residential real properties that have already been approved prior to the effective
+date of the ordinance will continue for the duration of the approved or renewed 10-year period, but may only be renewed if such properties comply with ROH Section 8-10.19 as it reads on the date of renewal.&lt;/p&gt;
+&lt;p&gt;Latest action: Introduced.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hnldoc.ehawaii.gov/hnldoc/measure/3918"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-resolution-768-2024-2026/2026-11-23T16:19:46+00:00</id>
     <title>New: Resolution 768 (2024-2026) (Hawaiʻi County) — now tracked</title>
@@ -300,10 +415,10 @@
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-207-2024-2026/2026-11-23T16:16:26+00:00</id>
     <title>Bill 207 (2024-2026) (Hawaiʻi County): Passed First Reading → —</title>
     <updated>2026-11-23T16:16:26+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1138123&amp;dbid=0"/>
+    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1139703&amp;dbid=0"/>
     <content type="html">&lt;p&gt;Status: Passed First Reading → —&lt;/p&gt;
 &lt;p&gt;Latest action: Council:  Amends Bill 207 to Draft 2 - 11/18/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1138123&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1139703&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
   <entry>
     <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-206-2024-2026/2026-11-23T16:16:25+00:00</id>
@@ -376,126 +491,5 @@
     <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 25, ARTICLE 1, OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO ZONING&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Distinguishes data centers from data processing facilities for zoning and land use purposes; defines “data center.”&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1139576&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:hawaii-bill-147-2024-2026/2026-11-23T16:16:18+00:00</id>
-    <title>Bill 147 (2024-2026) (Hawaiʻi County): — → Passed Second Reading</title>
-    <updated>2026-11-23T16:16:18+00:00</updated>
-    <link rel="alternate" href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1138906&amp;dbid=0"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;AMENDS CHAPTER 2 AND CHAPTER 25 OF THE HAWAIʻI COUNTY CODE 1983 (2016 EDITION, AS AMENDED), RELATING TO TRANSIENT ACCOMMODATIONS&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Establishes operational standards and use regulations for transient vacation rentals, which include hosted bed and breakfasts (B&amp;amp;Bs) and un-hosted short-term vacation rentals (STVRs); allows B&amp;amp;Bs as a permitted use in the single-family residential zoning district; allows B&amp;amp;Bs as a permitted use in areas within the residential agricultural, family agricultural, and agricultural zoning districts that are also classified as State land use urban or rural; allows STVRs as a permitted use in the entire multiple-family residential district and in certain coastal areas adjacent to General Plan-designa&lt;/p&gt;
-&lt;p&gt;Status: — → Passed Second Reading&lt;/p&gt;
-&lt;p&gt;Latest action: Council:  Bill 147, Draft 4, passes second and final reading - 11/18/2026&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://records.hawaiicounty.gov/WebLink/DocView.aspx?id=1138906&amp;amp;dbid=0"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-resolution-2026-51/2026-11-20T16:15:50+00:00</id>
-    <title>New: Resolution 2026-51 (Kauaʻi) — On agenda 2026-11-25</title>
-    <updated>2026-11-20T16:15:50+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1667"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION AUTHORIZING INSTALLATION OF SPEED TABLES AND ESTABLISHING A SHARED-USE PATH AND CROSSWALKS ON NOKEKULA STREET, AND RESTRICTING TRUCKS ON NOKEKULA STREET AND ‘APAPANE STREET, LIHU‘E DISTRICT, COUNTY OF KAUA‘I&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-11-25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1667"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-resolution-2026-50/2026-11-20T16:15:50+00:00</id>
-    <title>New: Resolution 2026-50 (Kauaʻi) — On agenda 2026-11-25</title>
-    <updated>2026-11-20T16:15:50+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1667"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION AUTHORIZING INSTALLATION OF SPEED TABLES ON PO‘IPU ROAD, KOLOA DISTRICT, COUNTY OF KAUA‘I&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-11-25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1667"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-resolution-2026-49/2026-11-20T16:15:50+00:00</id>
-    <title>New: Resolution 2026-49 (Kauaʻi) — On agenda 2026-11-25</title>
-    <updated>2026-11-20T16:15:50+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1667"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION AUTHORIZING PERMANENT INSTALLATION OF SPEED TABLES ON KOLO ROAD, HANALEI DISTRICT, COUNTY OF KAUA‘I&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-11-25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1667"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-resolution-2026-48/2026-11-20T16:15:50+00:00</id>
-    <title>New: Resolution 2026-48 (Kauaʻi) — On agenda 2026-11-25</title>
-    <updated>2026-11-20T16:15:50+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1667"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION ESTABLISHING A ROUNDABOUT, CROSSWALKS, BICYCLE LANES, LEFT TURN LANES, RIGHT TURN LANES, SPEED LIMITS, AND STOP SIGNS ON AND ALONG PIKAKE STREET AND NUHOU STREET, LIHU‘E DISTRICT, COUNTY OF KAUA‘I&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-11-25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1667"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-resolution-2026-47/2026-11-20T16:15:50+00:00</id>
-    <title>Resolution 2026-47 (Kauaʻi): On agenda 2026-11-25</title>
-    <updated>2026-11-20T16:15:50+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1667"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION ESTABLISHING NO-PARKING ZONES ALONG PO‘IPU ROAD AND REPEALING&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-11-25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1667"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-3014/2026-11-20T16:15:50+00:00</id>
-    <title>Bill 3014 (Kauaʻi): On agenda 2026-11-25</title>
-    <updated>2026-11-20T16:15:50+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1667"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE TO ESTABLISH A NEW ARTICLE 5, CHAPTER 4, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO THE COUNTY SEAL&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-11-25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1667"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-3013/2026-11-20T16:15:50+00:00</id>
-    <title>Bill 3013 (Kauaʻi): On agenda 2026-11-25</title>
-    <updated>2026-11-20T16:15:50+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1667"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;For An Ordinance Amending Ordinance No. B-2026-917, As Amended, Relating To The Operating Budget Of The County Of Kaua‘i, State Of Hawai‘i, For The Fiscal Year July 1, 2026 Through June 30, 2027, By Revising The Amounts Estimated In The General Fund, to establish and appropriate funds for three (3) new Helicopter Pilot positions to support the Kaua‘i Fire Department (KFD) public-safety aviation an&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-11-25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1667"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-3012/2026-11-20T16:15:50+00:00</id>
-    <title>Bill 3012 (Kauaʻi): In Committee → Second Reading</title>
-    <updated>2026-11-20T16:15:50+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1667"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 19, ARTICLE 4, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO FEES&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: In Committee → Second Reading&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-11-25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1667"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-3011/2026-11-20T16:15:50+00:00</id>
-    <title>Bill 3011 (Kauaʻi): In Committee → Second Reading</title>
-    <updated>2026-11-20T16:15:50+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1667"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 19, ARTICLE 2, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO CAMPING ON COUNTY PARKS AND PROPERTIES&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status: In Committee → Second Reading&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-11-25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1667"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-3010/2026-11-20T16:15:50+00:00</id>
-    <title>Bill 3010 (Kauaʻi): On agenda 2026-11-25</title>
-    <updated>2026-11-20T16:15:50+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1667"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 19, ARTICLE 1, KAUA‘I COUNTY CODE 1987, AS AMENDED, RELATING TO SCHEDULE OF FEES AND DEPOSITS&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-11-25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1667"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-resolution-2026-27/2026-11-20T16:15:50+00:00</id>
-    <title>Resolution 2026-27 (Kauaʻi): On agenda 2026-11-25</title>
-    <updated>2026-11-20T16:15:50+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1667"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;RESOLUTION AUTHORIZING THE ACQUISITION OF A ROADWAY LOT KNOWN AS KOLO ROAD REQUIRED FOR PUBLIC USE AND DETERMINING AND DECLARING THE NECESSITY OF THE ACQUISITION THEREOF BY EMINENT DOMAIN&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-11-25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1667"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>tag:hawaii-appleseed.github.io,2026:kauai-bill-3008/2026-11-20T16:15:50+00:00</id>
-    <title>Bill 3008 (Kauaʻi): On agenda 2026-11-25</title>
-    <updated>2026-11-20T16:15:50+00:00</updated>
-    <link rel="alternate" href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;event_id=1667"/>
-    <content type="html">&lt;p&gt;&lt;strong&gt;A BILL FOR AN ORDINANCE AMENDING CHAPTER 5A, ARTICLE 9, KAUA‘I COUNTY CODE 1987, A S AMENDED, RELATING TO REAL PROPERTY DEDICATED AS ‘AINA KUPUNA&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Latest action: On agenda 2026-11-25&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://kauai.granicus.com/AgendaViewer.php?view_id=2&amp;amp;event_id=1667"&gt;View on the council site&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
